@@ -7,7 +7,7 @@ const esc=v=>String(v==null?"":v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;"
 const euro=n=>new Intl.NumberFormat("es-ES",{style:"currency",currency:"EUR"}).format(Number(n)||0);
 const localGet=(key,fallback)=>{try{let s=localStorage.getItem(key);return s===null?fallback:JSON.parse(s);}catch{return fallback}};
 const localSet=(key,value)=>{try{localStorage.setItem(key,JSON.stringify(value))}catch{}};
-const mapSearch=p=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.address||p.name+", "+p.city);
+const mapSearch=p=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent((D&&D.stays.find(s=>s.id===p.id)?.address)||p.address||p.name+", "+p.city);
 const hotelMap=s=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(s.name+", "+s.address);
 const routeURL=(r)=>{const s=new URLSearchParams({api:"1",origin:r.from,destination:r.to,travelmode:r.type==="coche"?"driving":r.type==="pie"?"walking":"transit"});if(r.stops&&r.stops.length&&r.type!=="transporte")s.set("waypoints",r.stops.join("|"));return "https://www.google.com/maps/dir/?"+s.toString()};
 const tag=status=>'<span class="pill '+(status==="confirmado"?"confirmed":"proposal")+'">'+(status==="confirmado"?"✓ Confirmado":"◌ Propuesta")+"</span>";
