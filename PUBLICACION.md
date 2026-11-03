@@ -1,3 +1,7 @@
+## Retirada de recurso · 03/11/2026
+
+A petición del viajero se retira de la web el último folleto PDF completo de 12 páginas. Eliminado también el archivo de Drive. Se conservan los mapas personalizados con rutas. La referencia histórica en la memoria Disney queda pendiente de limpieza por indisponibilidad del entorno de edición.
+
 ## Actualización 2.1 · 03/11/2026
 
 Disney: ajuste de final de jornada con shows a las 21:00 como hipótesis explícita, consignas SNCF/Disney y PDF completo 2026. París–Torcy: ruta sin bus RER A–M8–M9, variante M9 y regreso orientativo, conservando alternativas. Tiempo trasladado a pestaña propia por destino y cargado solo al abrirla. Maestro y memorias relevantes contrastados. Sin documentos privados ni datos de entradas publicados.
