@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Francia y Bélgica",
-    "version": "2.0",
+    "version": "2.1",
     "updated": "2026-11-03",
     "start": "2026-11-08",
     "end": "2026-11-15",
@@ -231,8 +231,92 @@
           ]
         },
         {
+          "id": "paris-a-metro",
+          "label": "París A · metro",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Propuesta sin autobuses · metro 6 cerrado",
+              "text": "Domingo 8: toda la línea 6 está cerrada. Esta alternativa usa RER A, M8 y M9; visita aún pendiente de decidir según llegada y cansancio.",
+              "tone": "plain",
+              "url": "https://www.ratp.fr/decouvrir/coulisses/modernisation-du-reseau/metro-ligne-6-travaux"
+            },
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "1 · A pie",
+                  "title": "Apartamento → Gare de Torcy",
+                  "text": "Unos 5–7 min; salida de referencia Léon Blum.",
+                  "status": "propuesta",
+                  "route": "hotel_rer"
+                },
+                {
+                  "time": "2 · RER A",
+                  "title": "Torcy → Auber",
+                  "text": "Seguir por el interior los carteles Opéra / metro 8.",
+                  "status": "propuesta",
+                  "route": "a_no_bus_rer"
+                },
+                {
+                  "time": "3 · M8",
+                  "title": "Opéra → École Militaire",
+                  "text": "Dirección Balard.",
+                  "status": "propuesta",
+                  "route": "a_no_bus_m8"
+                },
+                {
+                  "time": "4 · Paseo",
+                  "title": "Champ de Mars → Eiffel → Trocadéro",
+                  "text": "15–20 min a la torre y otros 15–20 min al Trocadéro, más fotos.",
+                  "status": "propuesta",
+                  "route": "a_no_bus_walk"
+                },
+                {
+                  "time": "5 · M9",
+                  "title": "Trocadéro → Havre–Caumartin",
+                  "text": "Dirección Mairie de Montreuil; enlace interior a Auber.",
+                  "status": "propuesta",
+                  "route": "a_no_bus_m9"
+                },
+                {
+                  "time": "6 · RER A",
+                  "title": "Auber → Torcy",
+                  "text": "Comprobar Torcy en el panel de paradas; después paseo al hotel.",
+                  "status": "propuesta",
+                  "route": "a_no_bus_back"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Regreso previsto; último tren sin verificar",
+              "text": "Terminar visita 21:00–21:30; M9 y correspondencia 21:30–22:00; objetivo RER A 22:00–22:30 y apartamento antes de 23:30. Son estimaciones. Comprobar el tren elegido y otro posterior, además de las obras, antes de salir.",
+              "tone": "plain",
+              "url": "https://www.transilien.com/fr/les-fiches-horaires"
+            },
+            {
+              "type": "note",
+              "title": "Variante sencilla",
+              "text": "Ida y vuelta por Auber ↔ Havre–Caumartin ↔ M9 Trocadéro. A la ida, M9 dirección Pont de Sèvres. Pasear hasta Eiffel y volver a Trocadéro. Arco opcional por Kléber; si se añade, regreso desde Étoile.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "facts",
+              "title": "Billetes orientativos",
+              "items": [
+                {
+                  "label": "Grupo, ida y vuelta",
+                  "value": "15,30 € los tres, sin soportes. Transbordos RER/metro dentro de la red y del plazo tarifario."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "paris-a",
-          "label": "París A",
+          "label": "París A · bus",
           "blocks": [
             {
               "type": "note",
@@ -537,6 +621,11 @@
               "url": null
             }
           ]
+        },
+        {
+          "id": "tiempo",
+          "label": "Tiempo",
+          "blocks": []
         }
       ],
       "points": [
@@ -570,7 +659,7 @@
             {
               "type": "note",
               "title": "Horario de trabajo: 09:30–21:00",
-              "text": "Provisional para los días 9 y 10; falta confirmación en el calendario o la app oficial. Las horas del plan son orientativas. El espectáculo puede terminar después del cierre.",
+              "text": "Horario de trabajo según captura aportada: ambos parques 09:30–21:00; el recorte no muestra fecha. Sin Extra Magic Time con las reservas conocidas. Horas de funciones del 9–10 pendientes de app.",
               "tone": "pending",
               "url": "https://www.disneylandparis.com/es-es/calendarios/horarios-del-parque"
             },
@@ -618,12 +707,34 @@
                   "link": null
                 },
                 {
-                  "time": "Noche",
-                  "title": "BTM de noche + Disney Tales of Magic",
-                  "text": "Repetición si compensa, cena y ubicación 40–45 min antes del show. Hora del espectáculo pendiente.",
-                  "status": "propuesta",
-                  "route": null,
-                  "link": null
+                  "time": "Hasta 19:15",
+                  "title": "Atracciones y BTM nocturna",
+                  "text": "Repetir solo si deja margen para cenar y el espectáculo.",
+                  "status": "propuesta"
+                },
+                {
+                  "time": "19:15–19:50",
+                  "title": "Cena rápida",
+                  "text": "Después dirigirse hacia Central Plaza / Main Street.",
+                  "status": "propuesta"
+                },
+                {
+                  "time": "20:00–20:15",
+                  "title": "Buscar sitio",
+                  "text": "Objetivo: estar colocados 45–60 min antes de la hora real.",
+                  "status": "propuesta"
+                },
+                {
+                  "time": "21:00–21:22 · hipótesis",
+                  "title": "Disney Tales of Magic",
+                  "text": "Inicio NO confirmado para el 9. Duración aproximada 22 min. Desplazar los bloques si la app indica otra hora.",
+                  "status": "propuesta"
+                },
+                {
+                  "time": "21:25–21:50 · estimación",
+                  "title": "Salida y recogida",
+                  "text": "Afluencia y consigna pueden alterar el tiempo; no garantiza llegar antes del cierre.",
+                  "status": "propuesta"
                 }
               ]
             },
@@ -683,7 +794,7 @@
             {
               "type": "note",
               "title": "Horario de trabajo: 09:30–21:00",
-              "text": "Provisional para los días 9 y 10; falta confirmación en el calendario o la app oficial. Las horas del plan son orientativas. El espectáculo puede terminar después del cierre.",
+              "text": "Horario de trabajo según captura aportada: ambos parques 09:30–21:00; el recorte no muestra fecha. Sin Extra Magic Time con las reservas conocidas. Horas de funciones del 9–10 pendientes de app.",
               "tone": "pending",
               "url": "https://www.disneylandparis.com/es-es/calendarios/horarios-del-parque"
             },
@@ -738,12 +849,28 @@
                   "link": null
                 },
                 {
-                  "time": "18:30–noche",
-                  "title": "Cena y Disney Cascade of Lights",
-                  "text": "Volver a Adventure World a tiempo. Reservar ubicación 40–45 min antes. Si el show es anterior, adelantar cena y cancelar el cambio de parque.",
-                  "status": "propuesta",
-                  "route": null,
-                  "link": null
+                  "time": "18:30–19:20",
+                  "title": "Cena y Adventure Bay",
+                  "text": "Terminar antes cualquier cruce opcional de parque.",
+                  "status": "propuesta"
+                },
+                {
+                  "time": "20:00–20:15",
+                  "title": "Buscar sitio junto al lago",
+                  "text": "Objetivo 45–60 min antes del show real.",
+                  "status": "propuesta"
+                },
+                {
+                  "time": "21:00–21:16 · hipótesis",
+                  "title": "Disney Cascade of Lights",
+                  "text": "Inicio NO confirmado para el 10. Duración aproximada 16 min. Coincide con Tales of Magic; ver uno cada noche.",
+                  "status": "propuesta"
+                },
+                {
+                  "time": "21:20–21:55 · estimación",
+                  "title": "Salida y recogida",
+                  "text": "Si la consigna está en Disneyland hay desplazamiento adicional. Confirmar su cierre.",
+                  "status": "propuesta"
                 }
               ]
             },
@@ -873,8 +1000,73 @@
                   "text": "© Disney. Se mantienen las atribuciones de las imágenes guardadas."
                 }
               ]
+            },
+            {
+              "type": "links",
+              "title": "Planos completos sin rutas superpuestas",
+              "items": [
+                {
+                  "label": "Descargar folleto completo 2026 · 12 páginas",
+                  "url": "https://media.julieears.com/dl/8bfe6f34-656e-4a2b-aaee-523cf33bc18d",
+                  "text": "Mapas principales páginas 5 y 9; leyendas de atracciones, servicios, restaurantes y tiendas. Fuente actualizada 28/10/2026; incluye Adventure Bay y World of Frozen."
+                }
+              ]
             }
           ]
+        },
+        {
+          "id": "consignas",
+          "label": "Consignas",
+          "blocks": [
+            {
+              "type": "facts",
+              "title": "Casilleros SNCF · Marne-la-Vallée–Chessy",
+              "items": [
+                {
+                  "label": "Dónde",
+                  "value": "Nivel +1, galería oeste, antes de los controles Disney."
+                },
+                {
+                  "label": "Horario publicado",
+                  "value": "07:00–22:00; comprobar para 9 y 10."
+                },
+                {
+                  "label": "Precio / 24 h",
+                  "value": "Pequeño 5,50 €; mediano 7,50 €; grande 9,50 €. Por casillero, solo tarjeta."
+                },
+                {
+                  "label": "Medidas alto × ancho × fondo",
+                  "value": "43,3×34,7×82,4 cm; 59,1×34,7×82,4 cm; 90,8×51,9×82,4 cm."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Fuente SNCF",
+              "text": "Después de 24 h: 5 € por bulto y tramo adicional de 24 h.",
+              "tone": "plain",
+              "url": "https://www.garesetconnexions.sncf/fr/gares-services/marne-vallee-chessy/services-commerces/consignes"
+            },
+            {
+              "type": "note",
+              "title": "Consigna Disney atendida",
+              "text": "A la derecha de la entrada de Disneyland Park; no es un casillero interior automático. Tarifas orientativas independientes: accesorios 5 €, mochila/pequeño 11 €, grande 15 €, por artículo/día. Preguntar hora límite de recogida y condiciones de acceso a los objetos.",
+              "tone": "plain",
+              "url": "https://www.disneylandparis.com/en-int/guest-services/guest-storage"
+            },
+            {
+              "type": "note",
+              "title": "Recogida tras el espectáculo",
+              "text": "Objetivo estación 21:40–21:45, antes del cierre publicado de las 22:00. No está garantizado: depende del show real y de la salida. Las fuentes discrepan sobre el cierre Disney; confirmarlo al depositar.",
+              "tone": "plain",
+              "url": "https://julieears.com/en/planning/disneyland-paris-luggage-storage/"
+            }
+          ]
+        },
+        {
+          "id": "tiempo",
+          "label": "Tiempo",
+          "blocks": []
         }
       ],
       "points": [
@@ -1024,6 +1216,11 @@
               ]
             }
           ]
+        },
+        {
+          "id": "tiempo",
+          "label": "Tiempo",
+          "blocks": []
         }
       ],
       "points": [
@@ -1123,6 +1320,11 @@
               "type": "map"
             }
           ]
+        },
+        {
+          "id": "tiempo",
+          "label": "Tiempo",
+          "blocks": []
         }
       ],
       "points": [
@@ -1217,6 +1419,11 @@
               "type": "map"
             }
           ]
+        },
+        {
+          "id": "tiempo",
+          "label": "Tiempo",
+          "blocks": []
         }
       ],
       "points": [
@@ -1364,6 +1571,11 @@
               ]
             }
           ]
+        },
+        {
+          "id": "tiempo",
+          "label": "Tiempo",
+          "blocks": []
         }
       ],
       "points": [
@@ -1484,6 +1696,11 @@
               ]
             }
           ]
+        },
+        {
+          "id": "tiempo",
+          "label": "Tiempo",
+          "blocks": []
         }
       ],
       "points": [
@@ -1579,6 +1796,11 @@
               "type": "map"
             }
           ]
+        },
+        {
+          "id": "tiempo",
+          "label": "Tiempo",
+          "blocks": []
         }
       ],
       "points": [
@@ -1673,6 +1895,11 @@
               "type": "map"
             }
           ]
+        },
+        {
+          "id": "tiempo",
+          "label": "Tiempo",
+          "blocks": []
         }
       ],
       "points": [
@@ -1970,6 +2197,55 @@
       "mode": "walking",
       "stops": [],
       "note": "Paseo final al alojamiento; referencia salida 2, Léon Blum."
+    },
+    {
+      "id": "a_no_bus_rer",
+      "name": "Torcy → Auber",
+      "origin": "Gare de Torcy, France",
+      "destination": "Auber RER A, Paris",
+      "mode": "transit",
+      "stops": [],
+      "note": "Comprobar servicio y sentido el día de la visita."
+    },
+    {
+      "id": "a_no_bus_m8",
+      "name": "Opéra → École Militaire · M8",
+      "origin": "Métro Opéra, Paris",
+      "destination": "Métro École Militaire, Paris",
+      "mode": "transit",
+      "stops": [],
+      "note": "Enlace interior Auber → Opéra. Metro 8 dirección Balard."
+    },
+    {
+      "id": "a_no_bus_walk",
+      "name": "École Militaire → Eiffel → Trocadéro",
+      "origin": "Métro École Militaire, Paris",
+      "destination": "Métro Trocadéro, Paris",
+      "mode": "walking",
+      "stops": [
+        "Champ de Mars, Paris",
+        "Tour Eiffel, Paris",
+        "Pont d'Iéna, Paris"
+      ],
+      "note": "Comprobar servicio y sentido el día de la visita."
+    },
+    {
+      "id": "a_no_bus_m9",
+      "name": "Trocadéro → Havre–Caumartin · M9",
+      "origin": "Métro Trocadéro, Paris",
+      "destination": "Métro Havre-Caumartin, Paris",
+      "mode": "transit",
+      "stops": [],
+      "note": "Línea 9 dirección Mairie de Montreuil. Seguir después RER A / Auber por el enlace interior."
+    },
+    {
+      "id": "a_no_bus_back",
+      "name": "Auber → Torcy",
+      "origin": "Auber RER A, Paris",
+      "destination": "Gare de Torcy, France",
+      "mode": "transit",
+      "stops": [],
+      "note": "Tren hacia Torcy o Marne-la-Vallée–Chessy, comprobando que para en Torcy. No usar rama Boissy-Saint-Léger."
     }
   ],
   "places": [

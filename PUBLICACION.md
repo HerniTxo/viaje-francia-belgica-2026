@@ -1,3 +1,7 @@
+## Actualización 2.1 · 03/11/2026
+
+Disney: ajuste de final de jornada con shows a las 21:00 como hipótesis explícita, consignas SNCF/Disney y PDF completo 2026. París–Torcy: ruta sin bus RER A–M8–M9, variante M9 y regreso orientativo, conservando alternativas. Tiempo trasladado a pestaña propia por destino y cargado solo al abrirla. Maestro y memorias relevantes contrastados. Sin documentos privados ni datos de entradas publicados.
+
 # Web del viaje · protocolo de publicación
 
 ## Versión actual: 2.0 · 03/11/2026

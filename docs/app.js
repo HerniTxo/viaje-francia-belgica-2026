@@ -70,7 +70,7 @@
    currentPage=p; const selected=p.panes.find(t=>t.id===paneId)||p.panes[0];
    content.innerHTML=`<a class="page-back" href="#/inicio">← El viaje</a><header class="page-head"><span class="eyebrow">${escape(p.date)}</span><h1>${escape(p.title)}</h1><p class="intro">${escape(p.intro)}</p></header><nav class="panes" aria-label="Secciones de ${escape(p.title)}">${p.panes.map(t=>`<a class="pane-link" href="#/${escape(p.id)}/${escape(t.id)}"${t.id===selected.id?' aria-current="page"':''}>${escape(t.label)}</a>`).join('')}</nav><div class="panel">${selected.blocks.map(block).join('')}</div><footer class="page-end"><a href="#/inicio">← Ver el viaje</a>${p.next?anchor('#/'+p.next,'Siguiente: '+data.pages.find(q=>q.id===p.next).title):''}</footer>`;
    document.title=p.title+' · '+selected.label+' · Guía del viaje';
-   showWeather(p,mapEpoch);
+   if(selected.id==='tiempo')showWeather(p,mapEpoch);
    if(selected.blocks.some(b=>b.type==='map'))void drawMap(p,mapEpoch);
   }
   document.querySelectorAll('[data-page]').forEach(a=>a.removeAttribute('aria-current'));
@@ -100,7 +100,7 @@
  }
  async function showWeather(p,epoch,refresh=false){
   let el=$('#weather');
-  if(!el){el=document.createElement('section');el.id='weather';el.className='weather note';el.setAttribute('aria-live','polite');$('.panes').before(el);}
+  if(!el){el=document.createElement('section');el.id='weather';el.className='weather note';el.setAttribute('aria-live','polite');$('.panel').append(el);}
   el.innerHTML='<h2>Tiempo en las fechas de visita</h2><p>Consultando el pronóstico…</p>';
   const visits=weatherVisits[p.id]||[];
   const results=await Promise.allSettled(visits.map(v=>forecast(v,refresh)));
@@ -168,7 +168,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=2.0');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=2.1');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();
