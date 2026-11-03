@@ -1,3 +1,7 @@
+## Guía visual móvil y fichas de lugares · 03/11/2026
+
+Se elimina En marcha, valoración/calculadora de colas y checklist de la guía completa. Secuencias visuales por día, esquemas conservados. Fichas modales compartidas por toda la web para menciones de lugares registrados: nombres subrayados, descripción, mapa Google Static bajo demanda, enlace de ampliación y referencia al plano del parque para Disney. Catálogo común de atracciones, teatros, restaurantes, tiendas, consignas y lugares del resto del viaje. Navegación y contenidos anteriores conservados. Los marcadores sin coordenadas verificadas se resuelven por nombre mediante Maps Static, sin inventar coordenadas.
+
 ## Guía Disney complementaria · 03/11/2026
 
 Nueva página disney-guia-completa.html y pestaña Guía completa en Disney, conservando planes y mapas anteriores. Itinerarios adultos 9–10, alternativas por lluvia/colas, nueve fichas, valoración de espera, checklist local, esquemas de zonas y enlaces Google a pie por etapas. Fuentes oficiales para operaciones y fuentes secundarias identificadas para funciones e históricos. Tales 21:00 y Cascade 20:50 como referencias pendientes de app, sin elevarlas a confirmación. Pronóstico consultado por fecha. Sin reincorporar PDF retirado ni datos privados. Validación de estructura y privacidad y pruebas de decisión superadas.

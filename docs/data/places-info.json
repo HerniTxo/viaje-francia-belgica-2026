@@ -1,0 +1,854 @@
+[
+  {
+    "id": "alquiler",
+    "name": "Bilbao Intermodal / Termibus",
+    "aliases": [
+      "Bilbao Intermodal / Termibus",
+      "Bilbao Intermodal / Termibus"
+    ],
+    "description": "Recogida Avis el 7/11 a las 12:30 y devolución el 15/11 a las 20:00.",
+    "query": "Bilbao Intermodal / Termibus, Bilbao",
+    "lat": 43.261,
+    "lng": -2.9484
+  },
+  {
+    "id": "torcy",
+    "name": "Apparthotel Torcy",
+    "aliases": [
+      "Apparthotel Torcy",
+      "Apparthotel Torcy"
+    ],
+    "description": "Alojamiento reservado del 8 al 11. Parking gratuito.",
+    "query": "Apparthotel Torcy, Torcy",
+    "lat": 48.84105,
+    "lng": 2.65615
+  },
+  {
+    "id": "disney",
+    "name": "Disneyland Paris · accesos",
+    "aliases": [
+      "Disneyland Paris · accesos",
+      "Disneyland Paris"
+    ],
+    "description": "Entradas 9–10 noviembre para ambos parques. Orden de atracciones en estudio.",
+    "query": "Disneyland Paris · accesos, Disney",
+    "lat": 48.8674,
+    "lng": 2.783
+  },
+  {
+    "id": "eiffel",
+    "name": "Torre Eiffel",
+    "aliases": [
+      "Torre Eiffel",
+      "Torre Eiffel"
+    ],
+    "description": "Ruta nocturna A: torre primero, Trocadéro después. Propuesta opcional.",
+    "query": "Torre Eiffel, París",
+    "lat": 48.8584,
+    "lng": 2.2945
+  },
+  {
+    "id": "trocadero",
+    "name": "Trocadéro",
+    "aliases": [
+      "Trocadéro",
+      "Trocadéro"
+    ],
+    "description": "Mirador de la Torre Eiffel en la propuesta A.",
+    "query": "Trocadéro, París",
+    "lat": 48.8627,
+    "lng": 2.2885
+  },
+  {
+    "id": "notredame",
+    "name": "Notre-Dame de París",
+    "aliases": [
+      "Notre-Dame de París",
+      "Notre-Dame de París"
+    ],
+    "description": "Paseo por el centro histórico en la propuesta B.",
+    "query": "Notre-Dame de París, París",
+    "lat": 48.853,
+    "lng": 2.3499
+  },
+  {
+    "id": "louvre",
+    "name": "Museo del Louvre · exterior",
+    "aliases": [
+      "Museo del Louvre · exterior",
+      "Museo del Louvre"
+    ],
+    "description": "Final del paseo de la ruta B; visita exterior.",
+    "query": "Museo del Louvre · exterior, París",
+    "lat": 48.8606,
+    "lng": 2.3376
+  },
+  {
+    "id": "gante",
+    "name": "ibis budget Gent Centrum Dampoort",
+    "aliases": [
+      "ibis budget Gent Centrum Dampoort",
+      "ibis budget Gent Centrum Dampoort"
+    ],
+    "description": "Hotel reservado del 11 al 13. Parking 22 €/día no reservable.",
+    "query": "ibis budget Gent Centrum Dampoort, Gante",
+    "lat": 51.05967,
+    "lng": 3.73868
+  },
+  {
+    "id": "graslei",
+    "name": "Graslei y Korenlei",
+    "aliases": [
+      "Graslei y Korenlei",
+      "Graslei y Korenlei"
+    ],
+    "description": "Paseo por los muelles históricos y los canales.",
+    "query": "Graslei y Korenlei, Gante",
+    "lat": 51.0556,
+    "lng": 3.7201
+  },
+  {
+    "id": "gravensteen",
+    "name": "Castillo de los Condes · Gravensteen",
+    "aliases": [
+      "Castillo de los Condes · Gravensteen",
+      "Castillo de los Condes"
+    ],
+    "description": "Castillo medieval; interior pendiente de decidir.",
+    "query": "Castillo de los Condes · Gravensteen, Gante",
+    "lat": 51.0573,
+    "lng": 3.7207
+  },
+  {
+    "id": "bavo",
+    "name": "Catedral de San Bavón",
+    "aliases": [
+      "Catedral de San Bavón",
+      "Catedral de San Bavón"
+    ],
+    "description": "Catedral y entorno monumental.",
+    "query": "Catedral de San Bavón, Gante",
+    "lat": 51.0532,
+    "lng": 3.7276
+  },
+  {
+    "id": "nantes",
+    "name": "Aparthotel Adagio Nantes Centre",
+    "aliases": [
+      "Aparthotel Adagio Nantes Centre",
+      "Aparthotel Adagio Nantes Centre"
+    ],
+    "description": "Hotel reservado del 13 al 14. Parking 24 €/día con reserva previa.",
+    "query": "Aparthotel Adagio Nantes Centre, Nantes",
+    "lat": 47.21682,
+    "lng": -1.54625
+  },
+  {
+    "id": "machines",
+    "name": "Les Machines de l'Île",
+    "aliases": [
+      "Les Machines de l'Île",
+      "Les Machines de l'Île"
+    ],
+    "description": "Galería de las Máquinas propuesta para la mañana del sábado 14. Entradas no adquiridas.",
+    "query": "Les Machines de l'Île, Nantes",
+    "lat": 47.2079,
+    "lng": -1.5656
+  },
+  {
+    "id": "chateau_nantes",
+    "name": "Castillo de los Duques de Bretaña",
+    "aliases": [
+      "Castillo de los Duques de Bretaña",
+      "Castillo de los Duques de Bretaña"
+    ],
+    "description": "Propuesta de paseo el viernes al llegar.",
+    "query": "Castillo de los Duques de Bretaña, Nantes",
+    "lat": 47.2168,
+    "lng": -1.5496
+  },
+  {
+    "id": "pommeraye",
+    "name": "Passage Pommeraye",
+    "aliases": [
+      "Passage Pommeraye",
+      "Passage Pommeraye"
+    ],
+    "description": "Galería comercial histórica, en la propuesta de paseo.",
+    "query": "Passage Pommeraye, Nantes",
+    "lat": 47.2137,
+    "lng": -1.5614
+  },
+  {
+    "id": "burdeos",
+    "name": "MEININGER Bordeaux Gare Saint-Jean",
+    "aliases": [
+      "MEININGER Bordeaux Gare Saint-Jean",
+      "MEININGER Bordeaux Gare Saint-Jean"
+    ],
+    "description": "Hotel reservado del 14 al 15. No dispone de parking propio.",
+    "query": "MEININGER Bordeaux Gare Saint-Jean, Burdeos",
+    "lat": 44.82718,
+    "lng": -0.55193
+  },
+  {
+    "id": "place_bourse",
+    "name": "Place de la Bourse",
+    "aliases": [
+      "Place de la Bourse",
+      "Place de la Bourse"
+    ],
+    "description": "Plaza junto al Garona, ideal para paseo vespertino.",
+    "query": "Place de la Bourse, Burdeos",
+    "lat": 44.8415,
+    "lng": -0.5696
+  },
+  {
+    "id": "porte_cailhau",
+    "name": "Porte Cailhau",
+    "aliases": [
+      "Porte Cailhau",
+      "Porte Cailhau"
+    ],
+    "description": "Puerta histórica en el paseo propuesto por Burdeos.",
+    "query": "Porte Cailhau, Burdeos",
+    "lat": 44.8388,
+    "lng": -0.5681
+  },
+  {
+    "id": "saint_emilion",
+    "name": "Saint-Émilion",
+    "aliases": [
+      "Saint-Émilion",
+      "Saint-Émilion"
+    ],
+    "description": "Parada prevista para el domingo 15; visita y aparcamiento por concretar.",
+    "query": "Saint-Émilion, Saint-Émilion",
+    "lat": 44.8942,
+    "lng": -0.1556
+  },
+  {
+    "id": "etoile_bus",
+    "name": "Bus 30 · Étoile–Kléber",
+    "aliases": [
+      "Bus 30 · Étoile–Kléber",
+      "Bus 30"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Bus 30 · Étoile–Kléber, París",
+    "lat": 48.8726,
+    "lng": 2.2946
+  },
+  {
+    "id": "tour_bus",
+    "name": "Bus 30 · Tour Eiffel",
+    "aliases": [
+      "Bus 30 · Tour Eiffel",
+      "Bus 30"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Bus 30 · Tour Eiffel, París",
+    "lat": 48.8589,
+    "lng": 2.2939
+  },
+  {
+    "id": "trocadero_bus",
+    "name": "Bus 30 · Trocadéro",
+    "aliases": [
+      "Bus 30 · Trocadéro",
+      "Bus 30"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Bus 30 · Trocadéro, París",
+    "lat": 48.8636,
+    "lng": 2.2886
+  },
+  {
+    "id": "hotel_ville",
+    "name": "Hôtel de Ville",
+    "aliases": [
+      "Hôtel de Ville",
+      "Hôtel de Ville"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Hôtel de Ville, París",
+    "lat": 48.8566,
+    "lng": 2.3522
+  },
+  {
+    "id": "pont_neuf",
+    "name": "Pont Neuf",
+    "aliases": [
+      "Pont Neuf",
+      "Pont Neuf"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Pont Neuf, París",
+    "lat": 48.8575,
+    "lng": 2.3413
+  },
+  {
+    "id": "belfry",
+    "name": "Campanario de Gante",
+    "aliases": [
+      "Campanario de Gante",
+      "Campanario de Gante"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Campanario de Gante, Gante",
+    "lat": 51.0538,
+    "lng": 3.7258
+  },
+  {
+    "id": "dampoort",
+    "name": "Gent-Dampoort · estación",
+    "aliases": [
+      "Gent-Dampoort · estación",
+      "Gent-Dampoort"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Gent-Dampoort · estación, Gante",
+    "lat": 51.0561,
+    "lng": 3.7407
+  },
+  {
+    "id": "brugge",
+    "name": "Brugge · estación",
+    "aliases": [
+      "Brugge · estación",
+      "Brugge"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Brugge · estación, Brujas",
+    "lat": 51.1972,
+    "lng": 3.2173
+  },
+  {
+    "id": "bruxelles",
+    "name": "Bruxelles-Central · estación",
+    "aliases": [
+      "Bruxelles-Central · estación",
+      "Bruxelles-Central"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Bruxelles-Central · estación, Bruselas",
+    "lat": 50.8455,
+    "lng": 4.3571
+  },
+  {
+    "id": "grand_theatre",
+    "name": "Grand Théâtre",
+    "aliases": [
+      "Grand Théâtre",
+      "Grand Théâtre"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Grand Théâtre, Burdeos",
+    "lat": 44.8426,
+    "lng": -0.5743
+  },
+  {
+    "id": "torcy_rer",
+    "name": "Torcy · RER A",
+    "aliases": [
+      "Torcy · RER A",
+      "Torcy"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Torcy · RER A, Torcy",
+    "lat": 48.8392,
+    "lng": 2.6547
+  },
+  {
+    "id": "adventure",
+    "name": "Disney Adventure World",
+    "aliases": [
+      "Disney Adventure World",
+      "Disney Adventure World"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Disney Adventure World, Disney",
+    "lat": 48.8682,
+    "lng": 2.7794
+  },
+  {
+    "id": "chessy",
+    "name": "Marne-la-Vallée–Chessy · RER A",
+    "aliases": [
+      "Marne-la-Vallée–Chessy · RER A",
+      "Marne-la-Vallée–Chessy"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Marne-la-Vallée–Chessy · RER A, Disney",
+    "lat": 48.8705,
+    "lng": 2.7826
+  },
+  {
+    "id": "etoile",
+    "name": "Charles de Gaulle–Étoile · RER A",
+    "aliases": [
+      "Charles de Gaulle–Étoile · RER A",
+      "Charles de Gaulle–Étoile"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Charles de Gaulle–Étoile · RER A, París",
+    "lat": 48.8738,
+    "lng": 2.295
+  },
+  {
+    "id": "chatelet",
+    "name": "Châtelet–Les Halles · RER A",
+    "aliases": [
+      "Châtelet–Les Halles · RER A",
+      "Châtelet–Les Halles"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Châtelet–Les Halles · RER A, París",
+    "lat": 48.8618,
+    "lng": 2.347
+  },
+  {
+    "id": "palais_royal",
+    "name": "Palais Royal–Musée du Louvre · M1",
+    "aliases": [
+      "Palais Royal–Musée du Louvre · M1",
+      "Palais Royal–Musée du Louvre"
+    ],
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "query": "Palais Royal–Musée du Louvre · M1, París",
+    "lat": 48.8626,
+    "lng": 2.3366
+  },
+  {
+    "id": "poi-btm",
+    "name": "Big Thunder Mountain",
+    "aliases": [
+      "Big Thunder Mountain",
+      "BTM",
+      "Big Thunder"
+    ],
+    "description": "Montaña rusa minera al aire libre. Prioridad del lunes; puede parar con meteorología adversa.",
+    "query": "Big Thunder Mountain, Disneyland Paris, France",
+    "zone": "Frontierland",
+    "park": 1
+  },
+  {
+    "id": "poi-phantom",
+    "name": "Phantom Manor",
+    "aliases": [
+      "Phantom Manor"
+    ],
+    "description": "Recorrido interior por una mansión encantada. Alternativa cercana cuando BTM tiene cola o está parada.",
+    "query": "Phantom Manor, Disneyland Paris, France",
+    "zone": "Frontierland",
+    "park": 1
+  },
+  {
+    "id": "poi-indiana",
+    "name": "Indiana Jones and the Temple of Peril",
+    "aliases": [
+      "Indiana Jones and the Temple of Peril",
+      "Indiana Jones",
+      "Indiana"
+    ],
+    "description": "Montaña rusa exterior con inversión. Aprovechar una ventana seca; comprobar cola y apertura.",
+    "query": "Indiana Jones and the Temple of Peril, Disneyland Paris, France",
+    "zone": "Adventureland",
+    "park": 1
+  },
+  {
+    "id": "poi-pirates",
+    "name": "Pirates of the Caribbean",
+    "aliases": [
+      "Pirates of the Caribbean",
+      "Pirates"
+    ],
+    "description": "Aventura interior en barca con ambientación pirata y pequeñas bajadas. Los accesos no están totalmente cubiertos.",
+    "query": "Pirates of the Caribbean, Disneyland Paris, France",
+    "zone": "Adventureland",
+    "park": 1
+  },
+  {
+    "id": "poi-hyper",
+    "name": "Star Wars Hyperspace Mountain",
+    "aliases": [
+      "Star Wars Hyperspace Mountain",
+      "Hyperspace Mountain",
+      "Hyperspace"
+    ],
+    "description": "Montaña rusa lanzada con inversiones, mayormente interior. Comparar la cola normal y Single Rider.",
+    "query": "Star Wars Hyperspace Mountain, Disneyland Paris, France",
+    "zone": "Discoveryland",
+    "park": 1
+  },
+  {
+    "id": "poi-tours",
+    "name": "Star Tours: The Adventures Continue",
+    "aliases": [
+      "Star Tours: The Adventures Continue",
+      "Star Tours"
+    ],
+    "description": "Simulador de Star Wars interior; puede marear. Está cerca de Hyperspace.",
+    "query": "Star Tours: The Adventures Continue, Disneyland Paris, France",
+    "zone": "Discoveryland",
+    "park": 1
+  },
+  {
+    "id": "poi-tower",
+    "name": "The Twilight Zone Tower of Terror",
+    "aliases": [
+      "The Twilight Zone Tower of Terror",
+      "Tower of Terror",
+      "Tower"
+    ],
+    "description": "Atracción interior de caídas con ambientación de hotel encantado. Primera prioridad del martes.",
+    "query": "The Twilight Zone Tower of Terror, Disneyland Paris, France",
+    "zone": "World Premiere Plaza",
+    "park": 2
+  },
+  {
+    "id": "poi-flight",
+    "name": "Avengers Assemble: Flight Force",
+    "aliases": [
+      "Avengers Assemble: Flight Force",
+      "Avengers Assemble - Flight Force",
+      "Flight Force"
+    ],
+    "description": "Montaña rusa lanzada interior con inversiones. Single Rider sujeto a operación del día.",
+    "query": "Avengers Assemble: Flight Force, Disneyland Paris, France",
+    "zone": "Avengers Campus",
+    "park": 2
+  },
+  {
+    "id": "poi-rat",
+    "name": "Ratatouille: The Adventure",
+    "aliases": [
+      "Ratatouille: The Adventure",
+      "Ratatouille"
+    ],
+    "description": "Aventura inmersiva de Rémy en interior. Comparar normal y Single Rider; no es una montaña rusa.",
+    "query": "Ratatouille: The Adventure, Disneyland Paris, France",
+    "zone": "Worlds of Pixar",
+    "park": 2
+  },
+  {
+    "id": "poi-lion",
+    "name": "The Lion King: Rhythms of the Pride Lands",
+    "aliases": [
+      "The Lion King: Rhythms of the Pride Lands",
+      "The Lion King",
+      "Lion King"
+    ],
+    "description": "Espectáculo musical en Frontierland Theater. Consultar función; reservar margen para entrar.",
+    "query": "The Lion King: Rhythms of the Pride Lands, Disneyland Paris, France",
+    "zone": "Frontierland",
+    "park": 1
+  },
+  {
+    "id": "poi-mickey",
+    "name": "Mickey and the Magician",
+    "aliases": [
+      "Mickey and the Magician",
+      "Animagique Theater"
+    ],
+    "description": "Espectáculo de teatro musical e ilusiones en Animagique Theater. Sesión y acceso según app.",
+    "query": "Mickey and the Magician, Disneyland Paris, France",
+    "zone": "World Premiere Plaza",
+    "park": 2
+  },
+  {
+    "id": "poi-together",
+    "name": "TOGETHER: a Pixar Musical Adventure",
+    "aliases": [
+      "TOGETHER: a Pixar Musical Adventure",
+      "TOGETHER",
+      "Together"
+    ],
+    "description": "Producción musical interior de Pixar en Studio Theater. Buena pausa cubierta si encaja una sesión.",
+    "query": "TOGETHER: a Pixar Musical Adventure, Disneyland Paris, France",
+    "zone": "World Premiere Plaza",
+    "park": 2
+  },
+  {
+    "id": "poi-sing",
+    "name": "Let’s Sing Christmas!",
+    "aliases": [
+      "Let’s Sing Christmas!",
+      "Let’s Sing Christmas",
+      "Videopolis"
+    ],
+    "description": "Concierto navideño en Videopolis. Horarios y representación por confirmar en app.",
+    "query": "Let’s Sing Christmas!, Disneyland Paris, France",
+    "zone": "Discoveryland",
+    "park": 1
+  },
+  {
+    "id": "poi-tales",
+    "name": "Disney Tales of Magic",
+    "aliases": [
+      "Disney Tales of Magic",
+      "Tales of Magic",
+      "Tales"
+    ],
+    "description": "Espectáculo nocturno del castillo y Main Street. Horario de referencia 21:00; confirmar sesión y efectos en app.",
+    "query": "Sleeping Beauty Castle, Disneyland Paris, France",
+    "zone": "Main Street U.S.A.",
+    "park": 1
+  },
+  {
+    "id": "poi-cascade",
+    "name": "Disney Cascade of Lights",
+    "aliases": [
+      "Disney Cascade of Lights",
+      "Cascade of Lights",
+      "Cascade"
+    ],
+    "description": "Espectáculo nocturno de Adventure Bay. Referencia 20:50 pendiente de app. Meteorología puede modificar efectos o cancelar.",
+    "query": "Adventure Bay, Disney Adventure World, France",
+    "zone": "Adventure Bay",
+    "park": 2
+  },
+  {
+    "id": "poi-hyperion",
+    "name": "Café Hyperion",
+    "aliases": [
+      "Café Hyperion",
+      "Cafe Hyperion"
+    ],
+    "description": "Restaurante de servicio rápido en Videopolis. Consultar apertura, carta y disponibilidad de mesas en la app.",
+    "query": "Café Hyperion, Disneyland Paris, France",
+    "zone": "Discoveryland",
+    "park": 1
+  },
+  {
+    "id": "poi-stark",
+    "name": "Stark Factory",
+    "aliases": [
+      "Stark Factory"
+    ],
+    "description": "Restaurante de servicio rápido con pizza, pasta y ensaladas. Consultar carta y horario del día.",
+    "query": "Stark Factory, Disneyland Paris, France",
+    "zone": "Avengers Campus",
+    "park": 2
+  },
+  {
+    "id": "poi-jack",
+    "name": "Captain Jack’s",
+    "aliases": [
+      "Captain Jack’s",
+      "Captain Jack's"
+    ],
+    "description": "Restaurante de mesa junto a Pirates. No consta reserva; requiere más tiempo que una comida rápida.",
+    "query": "Captain Jack’s, Disneyland Paris, France",
+    "zone": "Adventureland",
+    "park": 1
+  },
+  {
+    "id": "poi-remy",
+    "name": "Bistrot Chez Rémy",
+    "aliases": [
+      "Bistrot Chez Rémy",
+      "Chez Rémy"
+    ],
+    "description": "Restaurante de mesa de ambientación Ratatouille. No consta reserva; comprobar disponibilidad.",
+    "query": "Bistrot Chez Rémy, Disneyland Paris, France",
+    "zone": "Worlds of Pixar",
+    "park": 2
+  },
+  {
+    "id": "poi-pym",
+    "name": "PYM Kitchen",
+    "aliases": [
+      "PYM Kitchen"
+    ],
+    "description": "Restaurante buffet de temática Marvel. No consta reserva; reservar mayor margen para comer.",
+    "query": "PYM Kitchen, Disneyland Paris, France",
+    "zone": "Avengers Campus",
+    "park": 2
+  },
+  {
+    "id": "poi-cowboy",
+    "name": "Cowboy Cookout Barbecue",
+    "aliases": [
+      "Cowboy Cookout Barbecue",
+      "Cowboy Cookout BBQ"
+    ],
+    "description": "Restaurante de servicio rápido en Frontierland. Carta y apertura a comprobar en app.",
+    "query": "Cowboy Cookout Barbecue, Disneyland Paris, France",
+    "zone": "Frontierland",
+    "park": 1
+  },
+  {
+    "id": "poi-hathi",
+    "name": "Colonel Hathi’s Outpost Restaurant",
+    "aliases": [
+      "Colonel Hathi’s Outpost Restaurant",
+      "Colonel Hathi's"
+    ],
+    "description": "Restaurante de Adventureland. Comprobar carta actual y apertura, sin dar por vigentes menús antiguos.",
+    "query": "Colonel Hathi’s Outpost Restaurant, Disneyland Paris, France",
+    "zone": "Adventureland",
+    "park": 1
+  },
+  {
+    "id": "poi-emporium",
+    "name": "Emporium",
+    "aliases": [
+      "Emporium"
+    ],
+    "description": "Tienda de recuerdos, ropa y accesorios en Main Street U.S.A. Evitar dedicar la última ventana de atracciones a compras si quedan prioridades.",
+    "query": "Emporium, Disneyland Paris, France",
+    "zone": "Main Street U.S.A.",
+    "park": 1
+  },
+  {
+    "id": "poi-worldshop",
+    "name": "World of Disney",
+    "aliases": [
+      "World of Disney"
+    ],
+    "description": "Gran tienda de Disney Village fuera de los parques. Consultar horario propio.",
+    "query": "World of Disney, Disneyland Paris, France",
+    "zone": "Disney Village",
+    "park": 0
+  },
+  {
+    "id": "poi-storage",
+    "name": "Guest Storage",
+    "aliases": [
+      "Guest Storage",
+      "Consigna Disney",
+      "consigna Disney",
+      "consigna atendida"
+    ],
+    "description": "Consigna atendida a la derecha de la entrada de Disneyland Park. Confirmar precio, cierre y condiciones de recogida al depositar.",
+    "query": "Guest Storage, Disneyland Paris, France",
+    "zone": "Entrada Disneyland Park",
+    "park": 1
+  },
+  {
+    "id": "poi-sncf",
+    "name": "Consigna SNCF",
+    "aliases": [
+      "Consigna SNCF",
+      "Casilleros SNCF",
+      "casilleros SNCF",
+      "consignas SNCF",
+      "Consignas SNCF"
+    ],
+    "description": "Casilleros en Marne-la-Vallée–Chessy, nivel +1, galería oeste. Publicado 07:00–22:00; solo tarjeta. 5,50 / 7,50 / 9,50 € por casillero y 24 h según tamaño.",
+    "query": "Marne-la-Vallée Chessy station, France",
+    "zone": "Estación Chessy",
+    "park": 0,
+    "lat": 48.8705,
+    "lng": 2.7826
+  },
+  {
+    "id": "poi-frozen",
+    "name": "Frozen Ever After",
+    "aliases": [
+      "Frozen Ever After"
+    ],
+    "description": "Atracción descartada por vuestras preferencias. No incluida en el recorrido.",
+    "query": "Frozen Ever After, Disneyland Paris, France",
+    "zone": "World of Frozen",
+    "park": 2
+  },
+  {
+    "id": "poi-web",
+    "name": "Spider-Man W.E.B. Adventure",
+    "aliases": [
+      "Spider-Man W.E.B. Adventure",
+      "W.E.B. Adventure",
+      "WEB Adventure"
+    ],
+    "description": "Atracción descartada por vuestras preferencias.",
+    "query": "Spider-Man W.E.B. Adventure, Disneyland Paris, France",
+    "zone": "Avengers Campus",
+    "park": 2
+  },
+  {
+    "id": "poi-rc",
+    "name": "RC Racer",
+    "aliases": [
+      "RC Racer"
+    ],
+    "description": "Atracción descartada por vuestras preferencias.",
+    "query": "RC Racer, Disneyland Paris, France",
+    "zone": "Worlds of Pixar",
+    "park": 2
+  },
+  {
+    "id": "poi-crush",
+    "name": "Crush’s Coaster",
+    "aliases": [
+      "Crush’s Coaster",
+      "Crush's Coaster",
+      "Crush"
+    ],
+    "description": "Cerrada por reforma desde septiembre 2026 hasta verano 2027. No se incluye en la visita.",
+    "query": "Crush’s Coaster, Disneyland Paris, France",
+    "zone": "Worlds of Pixar",
+    "park": 2
+  },
+  {
+    "id": "poi-bay",
+    "name": "Adventure Bay",
+    "aliases": [
+      "Adventure Bay"
+    ],
+    "description": "Lago y zona del espectáculo Cascade of Lights. Paseo exterior, expuesto a lluvia y viento.",
+    "query": "Adventure Bay, Disneyland Paris, France",
+    "zone": "Disney Adventure World",
+    "park": 2
+  },
+  {
+    "id": "poi-way",
+    "name": "Adventure Way",
+    "aliases": [
+      "Adventure Way"
+    ],
+    "description": "Paseo ajardinado hacia el lago. Recorrido exterior; reservar para una mejora del tiempo.",
+    "query": "Adventure Way, Disneyland Paris, France",
+    "zone": "Disney Adventure World",
+    "park": 2
+  },
+  {
+    "id": "poi-arendelle",
+    "name": "Arendelle",
+    "aliases": [
+      "Arendelle",
+      "World of Frozen"
+    ],
+    "description": "Zona de ambientación de Frozen. El plan permite pasear por sus decoraciones sin montar en Frozen Ever After.",
+    "query": "Arendelle, Disneyland Paris, France",
+    "zone": "Disney Adventure World",
+    "park": 2
+  },
+  {
+    "id": "poi-central",
+    "name": "Central Plaza",
+    "aliases": [
+      "Central Plaza",
+      "Main Street U.S.A.",
+      "Main Street"
+    ],
+    "description": "Plaza ante el castillo y avenida de entrada. Referencias para cabalgata y espectáculo nocturno.",
+    "query": "Central Plaza, Disneyland Paris, France",
+    "zone": "Disneyland Park",
+    "park": 1
+  },
+  {
+    "id": "poi-castle",
+    "name": "Castillo de la Bella Durmiente",
+    "aliases": [
+      "Castillo de la Bella Durmiente",
+      "castillo/dragón",
+      "castillo y dragón"
+    ],
+    "description": "Castillo central de Disneyland Park. La galería y el dragón son visitas a comprobar según acceso del día.",
+    "query": "Castillo de la Bella Durmiente, Disneyland Paris, France",
+    "zone": "Fantasyland",
+    "park": 1
+  }
+]
