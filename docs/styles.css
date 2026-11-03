@@ -207,3 +207,25 @@ select,.search,.field input{border:1px solid var(--border);background:var(--card
 .place-item span:nth-child(2){min-width:0}
 .place-item b,.place-item small{overflow-wrap:anywhere}
 @media(max-width:680px){#travel-map{height:min(55vh,440px);min-height:300px}.map-toolbar{gap:10px}.map-toolbar label{width:100%}.map-toolbar select{width:100%;min-height:44px}.places-list{height:auto;max-height:330px;display:block;padding:0 10px 14px}.place-row{align-items:stretch}.place-directions{max-width:105px;text-align:center;justify-content:center}.leaflet-popup-content{max-width:210px;min-width:145px}.leaflet-control-attribution{font-size:9px!important}.destination-actions{row-gap:14px}.destination-actions a,.destination-actions button{min-height:36px;display:inline-flex;align-items:center}}
+
+/* Google Maps 1.2 · controles de ciudad y jornada */
+.map-toolbar .map-day-label{margin-left:8px}
+.map-toolbar #map-day{min-width:185px}
+#travel-map{position:relative;min-height:350px}
+.map-fallback{min-height:360px;background:var(--soft);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:10px;padding:30px;color:var(--ink)}
+.map-fallback strong{font:600 20px var(--serif)}
+.map-fallback p{font-size:13px;color:var(--muted);max-width:380px;margin:0}
+.map-fallback a{font-weight:800;font-size:13px;color:var(--forest);text-decoration:underline}
+.gmap-popup{color:#17343b;font:13px/1.5 "DM Sans",Arial,sans-serif;max-width:235px}
+.gmap-popup b{font-size:15px}
+.gmap-popup p{margin:8px 0;color:#40565b}
+.gmap-popup-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.gmap-popup-links a{color:#0d6b80;font-weight:800;font-size:12px;text-decoration:underline}
+#travel-map .gm-style .gm-style-iw-c{border-radius:13px}
+@media(max-width:680px){
+.map-toolbar .map-day-label{margin-left:0}
+.map-toolbar #map-day{width:100%;min-width:0}
+#travel-map{height:min(67vh,520px);min-height:340px}
+.map-fallback{min-height:340px}
+.map-toolbar .chip{white-space:nowrap}
+}
