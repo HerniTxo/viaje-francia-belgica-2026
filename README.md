@@ -2,7 +2,7 @@
 
 **Web:** https://hernitxo.github.io/viaje-francia-belgica-2026/
 
-Sitio interactivo, adaptable al móvil, para el viaje del 8 al 15 de noviembre de 2026. Incluye agenda por días, mapa Leaflet/OpenStreetMap con ubicaciones, enlaces de rutas Google Maps, fichas de destinos, presupuesto y avisos prácticos.
+Sitio interactivo, adaptable al móvil, con Google Maps JavaScript API, para el viaje del 8 al 15 de noviembre de 2026. Incluye agenda por días, mapa Leaflet/OpenStreetMap con ubicaciones, enlaces de rutas Google Maps, fichas de destinos, presupuesto y avisos prácticos.
 
 ## Estructura
 
@@ -24,6 +24,6 @@ Los enlaces de Google Maps se recalculan según tráfico y transporte; las líne
 
 ## Estado
 
-- V1.0 creada el 3 de noviembre de 2026.
+- V1.2: integración Google Maps JavaScript, filtros de día y ciudad, ficha con navegación y vista móvil revisada.
 - Validación automatizada en GitHub Actions: correcta.
 - GitHub Pages: despliegue verificado como satisfactorio en su flujo de GitHub Actions.
