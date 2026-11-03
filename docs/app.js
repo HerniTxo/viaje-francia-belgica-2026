@@ -37,46 +37,117 @@ function selectDay(date,updateURL){
  const n=Number(d.date.slice(-2));
  let events=d.events.map(e=>{const p=D.places.find(x=>x.id===e.place);return '<article class="timeline-item"><div class="timeline-time">'+esc(e.time)+'</div><div class="timeline-node"></div><div class="timeline-info"><h4>'+esc(e.title)+'</h4><p>'+esc(e.description)+'</p><div class="timeline-actions">'+tag(e.type)+(p?external(mapSearch(p),"Ver lugar"):"")+'</div></div></article>'}).join("");
  $("#day-detail").innerHTML='<aside class="day-aside"><small>2026 · NOVIEMBRE</small><div class="day-number">'+n+'</div><h3>'+esc(d.headline)+'</h3><p>'+esc(d.summary)+'</p><div class="aside-bottom">'+tag(d.status)+'<button id="day-map">Abrir mapa ↗</button></div></aside><div class="timeline"><h3>'+esc(d.place)+'</h3>'+events+'</div>';
- $("#day-map").addEventListener("click",()=>{const first=d.events.find(e=>D.places.some(p=>p.id===e.place));if(first){const p=D.places.find(x=>x.id===first.place);selectedZone=p.city;$("#map-city").value=p.city;filterPlaces();}location.hash="mapa"});
+ $("#day-map").addEventListener("click",()=>{const first=d.events.find(e=>D.places.some(p=>p.id===e.place));if(first){const p=D.places.find(x=>x.id===first.place);selectedZone=p.city;$("#map-city").value=p.city;mapDay="todos";$("#map-day").value="todos";filterPlaces();fitMap();}location.hash="mapa"});
  if(updateURL){const url=new URL(location.href);url.searchParams.set("dia",d.date);history.replaceState(null,"",url.pathname+url.search+url.hash)}
 }
-function createMap(){
- if(typeof L==="undefined"){$("#travel-map").innerHTML='<div class="empty-message">No se ha podido cargar el mapa. Puedes acceder a todos los lugares desde la lista y los enlaces de Google Maps.</div>';return}
- map=L.map("travel-map",{scrollWheelZoom:false,zoomControl:true});
- if(window.ResizeObserver)new ResizeObserver(()=>map.invalidateSize({pan:false})).observe($("#travel-map"));
- window.addEventListener("orientationchange",()=>setTimeout(()=>{map.invalidateSize({pan:false});fitMap()},300));
- L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
- const pts=["bilbao","torcy","gante","nantes","burdeos","bilbao"].map(id=>{const p=D.places.find(x=>x.id===id);return [p.lat,p.lng]});
- overview=L.polyline(pts,{color:"#237868",weight:3,opacity:.65,dashArray:"6 10"}).addTo(map);
- for(const p of D.places){
-  const marker=L.marker([p.lat,p.lng],{icon:L.divIcon({className:"",html:'<div class="map-pin '+esc(p.category)+'">'+icon(p.category)+'</div>',iconSize:[35,35],iconAnchor:[17,17]})});
-  marker.bindPopup('<b>'+esc(p.name)+'</b><span>'+esc(p.description)+'</span><br>'+tag(p.status)+'<br>'+external(mapSearch(p),"Abrir Google Maps"));
-  markers[p.id]=marker;
- }
- fitMap();
- setTimeout(()=>map.invalidateSize(),280);
+
+/* Google Maps JavaScript API · solo navegador, sin backend.
+   La clave pública se debe proteger desde Cloud Console mediante referrers y restricciones de API. */
+const GOOGLE_MAPS_BROWSER_KEY="AIzaSyByWwbIlgi_zgJY0dx3aP8O7K6SE5UUNEw";
+let mapRequest=null,infoWindow=null,mapDay="todos",mapFailed=false;
+
+function loadGoogleMaps(){
+ if(window.google && window.google.maps && window.google.maps.Map)return Promise.resolve();
+ if(mapRequest)return mapRequest;
+ mapRequest=new Promise((resolve,reject)=>{
+   const script=document.createElement("script");
+   const timeout=setTimeout(()=>reject(new Error("Google Maps tarda demasiado en responder")),18000);
+   window.__tripGoogleReady=()=>{clearTimeout(timeout);resolve()};
+   window.gm_authFailure=()=>{clearTimeout(timeout);reject(new Error("No autorizado por Google Maps: revisar clave, facturación y dominio permitido"))};
+   script.async=true;
+   script.onerror=()=>{clearTimeout(timeout);reject(new Error("No se pudo descargar Google Maps"))};
+   const qs=new URLSearchParams({key:GOOGLE_MAPS_BROWSER_KEY,callback:"__tripGoogleReady",loading:"async",v:"weekly",language:"es",region:"ES"});
+   script.src="https://maps.googleapis.com/maps/api/js?"+qs.toString();
+   document.head.appendChild(script);
+ });
+ return mapRequest;
+}
+function mapBounds(points){
+ if(!map||!points.length)return;
+ if(points.length===1){map.setCenter({lat:points[0].lat,lng:points[0].lng});map.setZoom(14);return}
+ const bounds=new google.maps.LatLngBounds();
+ points.forEach(p=>bounds.extend({lat:p.lat,lng:p.lng}));
+ map.fitBounds(bounds,55);
+ google.maps.event.addListenerOnce(map,"idle",()=>{if(map.getZoom()>14)map.setZoom(14)});
+}
+function currentlyVisible(){
+ const dayIds=mapDay==="todos"?null:new Set((D.days.find(d=>d.date===mapDay)?.events||[]).map(e=>e.place));
+ return D.places.filter(p=>(selectedZone==="Todos"||p.city===selectedZone)&&(category==="todos"||p.category===category)&&(!dayIds||dayIds.has(p.id))&&(p.name+" "+p.description+" "+p.city).toLocaleLowerCase("es").includes(search.toLocaleLowerCase("es")));
 }
 function fitMap(){
  if(!map)return;
- map.invalidateSize({pan:false});
- if(selectedZone==="Todos"){map.fitBounds(overview.getBounds(),{padding:[28,28],maxZoom:7})}
- else{const pts=D.places.filter(p=>p.city===selectedZone);if(pts.length===1)map.setView([pts[0].lat,pts[0].lng],13);else if(pts.length>1)map.fitBounds(pts.map(p=>[p.lat,p.lng]),{padding:[36,36],maxZoom:13})}
+ const points=currentlyVisible();
+ if(points.length)mapBounds(points);
+ else mapBounds(D.places);
+}
+function fallbackMap(message){
+ mapFailed=true;
+ $("#travel-map").innerHTML='<div class="map-fallback"><strong>El mapa de Google no ha podido cargarse.</strong><p>'+esc(message)+'</p><p>Puedes seguir usando la lista de lugares y abrirlos en Google Maps.</p><a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Abrir Google Maps ↗</a></div>';
+}
+async function createMap(){
+ try{
+   await loadGoogleMaps();
+   if(mapFailed)return;
+   map=new google.maps.Map($("#travel-map"),{
+     center:{lat:48.5,lng:0.0},zoom:6,
+     clickableIcons:true,fullscreenControl:true,streetViewControl:true,mapTypeControl:false,
+     gestureHandling:"cooperative",
+     zoomControl:true,
+     styles:document.documentElement.dataset.theme==="dark"?[{elementType:"geometry",stylers:[{color:"#203a43"}]},{elementType:"labels.text.fill",stylers:[{color:"#b6cfd0"}]},{elementType:"labels.text.stroke",stylers:[{color:"#102c34"}]}]:[]
+   });
+   infoWindow=new google.maps.InfoWindow({maxWidth:280});
+   const icons={alojamiento:["#207a68","H"],atraccion:["#dc8154","★"],transporte:["#315e91","T"]};
+   for(const p of D.places){
+     const cfg=icons[p.category]||icons.atraccion;
+     const svg='<svg xmlns="http://www.w3.org/2000/svg" width="42" height="52" viewBox="0 0 42 52"><path d="M21 2C10 2 2 10 2 21c0 15 19 29 19 29s19-14 19-29C40 10 32 2 21 2z" fill="'+cfg[0]+'" stroke="white" stroke-width="2"/><circle cx="21" cy="20" r="12" fill="white" fill-opacity=".16"/><text x="21" y="25" fill="white" text-anchor="middle" font-size="15" font-family="Arial" font-weight="bold">'+cfg[1]+'</text></svg>';
+     const marker=new google.maps.Marker({
+       position:{lat:p.lat,lng:p.lng},map:null,title:p.name,
+       icon:{url:"data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg),scaledSize:new google.maps.Size(34,42),anchor:new google.maps.Point(17,40)}
+     });
+     marker.addListener("click",()=>showPlace(p.id));
+     markers[p.id]=marker;
+   }
+   filterPlaces();
+   fitMap();
+ }catch(error){
+   console.error("Google Maps:",error);
+   fallbackMap(error.message||"Revisar la configuración de la clave");
+ }
+}
+function showPlace(id){
+ const p=D.places.find(x=>x.id===id);
+ if(!p)return;
+ const directions="https://www.google.com/maps/dir/?"+new URLSearchParams({api:"1",destination:p.lat+","+p.lng,travelmode:"driving"});
+ const detail='<div class="gmap-popup"><b>'+esc(p.name)+'</b><p>'+esc(p.description)+'</p>'+tag(p.status)+'<div class="gmap-popup-links">'+external(mapSearch(p),"Ver ficha en Google Maps")+external(directions,"Cómo llegar")+(p.url?external(p.url,"Web oficial"):"")+'</div></div>';
+ if(!map||!markers[id]){window.open(mapSearch(p),"_blank","noopener,noreferrer");return}
+ infoWindow.setContent(detail);
+ infoWindow.open({map,anchor:markers[id],shouldFocus:false});
 }
 function filterPlaces(){
- let visible=D.places.filter(p=>(selectedZone==="Todos"||p.city===selectedZone)&&(category==="todos"||p.category===category)&&(p.name+" "+p.description+" "+p.city).toLocaleLowerCase("es").includes(search.toLocaleLowerCase("es")));
- if(map){Object.entries(markers).forEach(([id,marker])=>{const show=visible.some(p=>p.id===id);if(show&&!map.hasLayer(marker))marker.addTo(map);else if(!show&&map.hasLayer(marker))map.removeLayer(marker)});}
+ const visible=currentlyVisible();
+ if(map)Object.entries(markers).forEach(([id,marker])=>{const shown=visible.some(p=>p.id===id);marker.setMap(shown?map:null)});
  $("#places-count").textContent=visible.length+" lugares";
- $("#places-list").innerHTML=visible.length?visible.map(p=>'<div class="place-row"><button class="place-item" data-place="'+esc(p.id)+'"><span class="place-icon">'+icon(p.category)+'</span><span><b>'+esc(p.name)+'</b><small>'+esc(p.city)+' · '+(p.status==="confirmado"?"Confirmado":"Propuesta")+'</small></span></button><a class="place-directions" href="'+esc(mapSearch(p))+'" target="_blank" rel="noopener noreferrer">Cómo llegar ↗</a></div>').join(""):'<p class="empty-message">Sin resultados para este filtro.</p>';
+ $("#places-list").innerHTML=visible.length?visible.map(p=>'<div class="place-row"><button class="place-item" data-place="'+esc(p.id)+'"><span class="place-icon">'+icon(p.category)+'</span><span><b>'+esc(p.name)+'</b><small>'+esc(p.city)+' · '+(p.status==="confirmado"?"Confirmado":"Propuesta")+'</small></span></button><a class="place-directions" href="'+esc(mapSearch(p))+'" target="_blank" rel="noopener noreferrer">Abrir ↗</a></div>').join(""):'<p class="empty-message">No hay lugares para los filtros elegidos.</p>';
 }
-function focusPlace(id){const p=D.places.find(x=>x.id===id);if(!p)return;if(!map){window.open(mapSearch(p),"_blank","noopener,noreferrer");return}map.invalidateSize({pan:false});if(!map.hasLayer(markers[id]))markers[id].addTo(map);map.setView([p.lat,p.lng],Math.max(map.getZoom(),14),{animate:false});markers[id].openPopup();$("#travel-map").scrollIntoView({behavior:"smooth",block:"center"})}
+function focusPlace(id){
+ const p=D.places.find(x=>x.id===id);
+ if(!p)return;
+ if(!map){window.open(mapSearch(p),"_blank","noopener,noreferrer");return}
+ map.panTo({lat:p.lat,lng:p.lng});
+ map.setZoom(15);
+ if(infoWindow)showPlace(id);
+ $("#travel-map").scrollIntoView({behavior:"smooth",block:"center"});
+}
 function renderMap(){
- createMap();filterPlaces();
- if(window.matchMedia("(max-width: 680px)").matches){selectedZone="Torcy";$("#map-city").value=selectedZone;filterPlaces();fitMap();}
- document.querySelectorAll('a[href="#mapa"]').forEach(a=>a.addEventListener("click",()=>setTimeout(()=>{if(map){map.invalidateSize({pan:false});fitMap()}},180)));
- $("#map-city").addEventListener("change",e=>{selectedZone=e.target.value;filterPlaces();fitMap()});
+ const daySelect=$("#map-day");
+ daySelect.innerHTML='<option value="todos">Todos los días</option>'+D.days.map(d=>'<option value="'+esc(d.date)+'">'+esc(d.short+' · '+d.place)+'</option>').join("");
+ $("#map-city").addEventListener("change",e=>{selectedZone=e.target.value;mapDay="todos";daySelect.value="todos";filterPlaces();fitMap()});
+ daySelect.addEventListener("change",e=>{mapDay=e.target.value;selectedZone="Todos";$("#map-city").value="Todos";filterPlaces();fitMap()});
  $("#place-search").addEventListener("input",e=>{search=e.target.value.trim();filterPlaces()});
- $("#map-categories").addEventListener("click",e=>{const b=e.target.closest("[data-map-category]");if(!b)return;category=b.dataset.mapCategory;$$("#map-categories .chip").forEach(x=>x.classList.toggle("active",x===b));filterPlaces()});
+ $("#map-categories").addEventListener("click",e=>{const b=e.target.closest("[data-map-category]");if(!b)return;category=b.dataset.mapCategory;$$("#map-categories .chip").forEach(x=>x.classList.toggle("active",x===b));filterPlaces();fitMap()});
  $("#places-list").addEventListener("click",e=>{const b=e.target.closest("[data-place]");if(b)focusPlace(b.dataset.place)});
+ document.querySelectorAll('a[href="#mapa"]').forEach(a=>a.addEventListener("click",()=>setTimeout(fitMap,220)));
+ createMap();
 }
 function zoneLink(zone){return '<button type="button" data-go-zone="'+esc(zone)+'">Ver mapa ↗</button>'}
 function renderDestinations(){
@@ -89,7 +160,7 @@ function renderDestinations(){
  {name:"En carretera",zone:"Bilbao",flag:"🚗",icon:"🛣️",gradient:"linear-gradient(135deg,#5e8d94,#39566d)",dates:"7–15 nov.",description:"Bilbao–Torcy por la ruta A, etapas intermedias y regreso con Avis antes de las 20:00.",stay:null,extras:"Peajes · combustible · desplazamientos"}
  ];
  $("#destination-grid").innerHTML=cards.map(c=>'<article class="destination-card"><div class="destination-art" style="background:'+c.gradient+'"><span class="art-country">'+esc(c.flag+" · "+c.dates)+'</span><span class="art-emoji">'+c.icon+'</span></div><div class="destination-body"><h3>'+esc(c.name)+'</h3><p>'+esc(c.description)+'</p><div class="destination-meta"><span>'+esc(c.extras)+'</span>'+(c.stay?'<span>🛏️ Alojamiento confirmado</span>':'')+'</div><div class="destination-actions">'+zoneLink(c.zone)+(c.stay?'<a href="'+esc(hotelMap(c.stay))+'" target="_blank" rel="noopener noreferrer">Cómo llegar al hotel ↗</a>':'')+'<a href="#rutas">Ver rutas ↗</a></div></div></article>').join("");
- $("#destination-grid").addEventListener("click",e=>{const b=e.target.closest("[data-go-zone]");if(!b)return;selectedZone=b.dataset.goZone;$("#map-city").value=selectedZone;filterPlaces();fitMap();location.hash="mapa"});
+ $("#destination-grid").addEventListener("click",e=>{const b=e.target.closest("[data-go-zone]");if(!b)return;selectedZone=b.dataset.goZone;$("#map-city").value=selectedZone;mapDay="todos";$("#map-day").value="todos";filterPlaces();fitMap();location.hash="mapa"});
 }
 function renderRoutes(){
  const routes=D.routes.filter(r=>routeFilter==="todos"||r.type===routeFilter);
