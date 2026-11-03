@@ -1942,7 +1942,7 @@
       "id": "frances",
       "title": "Francés útil",
       "date": "Para todo el viaje",
-      "intro": "Frases para tres viajeros, con traducción y pronunciación aproximada. Toca Escuchar para oírlas en francés.",
+      "intro": "Palabras cortas, números y frases universales. En Hoteles y Estaciones tienes nombres, pronunciación y direcciones para mostrar al taxista.",
       "utility": true,
       "points": [],
       "panes": [
@@ -1994,106 +1994,329 @@
                   "es": "¿Puede repetir más despacio, por favor?",
                   "phonetic": "pu-vé vu ré-pé-té plü la(n)-te-ma(n), sil vu plé",
                   "audio": "assets/francais/abad9e262793aead.mp3"
+                },
+                {
+                  "fr": "Je ne sais pas.",
+                  "es": "No sé.",
+                  "phonetic": "zhe ne sé pa",
+                  "audio": "assets/francais/ba72fd68dcd988b0.mp3"
+                },
+                {
+                  "fr": "Je ne comprends pas.",
+                  "es": "No entiendo.",
+                  "phonetic": "zhe ne ko(n)-pra(n) pa",
+                  "audio": "assets/francais/41250c92268d79eb.mp3"
+                },
+                {
+                  "fr": "Combien ça coûte ?",
+                  "es": "¿Cuánto cuesta?",
+                  "phonetic": "ko(n)-bia(n) sa kut",
+                  "audio": "assets/francais/9ef19bc5ba2ec0f8.mp3"
+                },
+                {
+                  "fr": "D’accord.",
+                  "es": "De acuerdo.",
+                  "phonetic": "da-kór",
+                  "audio": "assets/francais/ead913151677cecd.mp3"
+                },
+                {
+                  "fr": "C’est où ?",
+                  "es": "¿Dónde está?",
+                  "phonetic": "se u",
+                  "audio": "assets/francais/4dae0ccb442d0adc.mp3"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "numeros",
+          "label": "0–10",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "zéro",
+                  "es": "0",
+                  "phonetic": "zé-ro",
+                  "audio": "assets/francais/a701a906308542ed.mp3"
+                },
+                {
+                  "fr": "un",
+                  "es": "1",
+                  "phonetic": "e(n)",
+                  "audio": "assets/francais/68bca10eea2ba33f.mp3"
+                },
+                {
+                  "fr": "deux",
+                  "es": "2",
+                  "phonetic": "de",
+                  "audio": "assets/francais/62007886b7f3c832.mp3"
+                },
+                {
+                  "fr": "trois",
+                  "es": "3",
+                  "phonetic": "truá",
+                  "audio": "assets/francais/a69cf3d89f86a833.mp3"
+                },
+                {
+                  "fr": "quatre",
+                  "es": "4",
+                  "phonetic": "katr",
+                  "audio": "assets/francais/a8dbf0437f641177.mp3"
+                },
+                {
+                  "fr": "cinq",
+                  "es": "5",
+                  "phonetic": "sa(n)k",
+                  "audio": "assets/francais/ab8bf5eb55640552.mp3"
+                },
+                {
+                  "fr": "six",
+                  "es": "6",
+                  "phonetic": "sis",
+                  "audio": "assets/francais/44778d82365e4af6.mp3"
+                },
+                {
+                  "fr": "sept",
+                  "es": "7",
+                  "phonetic": "set",
+                  "audio": "assets/francais/5ba6561e1125c27a.mp3"
+                },
+                {
+                  "fr": "huit",
+                  "es": "8",
+                  "phonetic": "üit",
+                  "audio": "assets/francais/42761d9a2ec4d85c.mp3"
+                },
+                {
+                  "fr": "neuf",
+                  "es": "9",
+                  "phonetic": "nef",
+                  "audio": "assets/francais/a0ad1f02374f9314.mp3"
+                },
+                {
+                  "fr": "dix",
+                  "es": "10",
+                  "phonetic": "dis",
+                  "audio": "assets/francais/1828cb7d38ef0139.mp3"
+                }
+              ],
+              "compact": true
+            }
+          ]
+        },
+        {
+          "id": "numeros-20",
+          "label": "11–20",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "onze",
+                  "es": "11",
+                  "phonetic": "onz",
+                  "audio": "assets/francais/4042e47beee1e16e.mp3"
+                },
+                {
+                  "fr": "douze",
+                  "es": "12",
+                  "phonetic": "duz",
+                  "audio": "assets/francais/4175ad0322256c95.mp3"
+                },
+                {
+                  "fr": "treize",
+                  "es": "13",
+                  "phonetic": "trez",
+                  "audio": "assets/francais/9553dc446f6338b7.mp3"
+                },
+                {
+                  "fr": "quatorze",
+                  "es": "14",
+                  "phonetic": "ka-torz",
+                  "audio": "assets/francais/cdd265288b2041d7.mp3"
+                },
+                {
+                  "fr": "quinze",
+                  "es": "15",
+                  "phonetic": "ka(n)z",
+                  "audio": "assets/francais/2ad2eebb37252dab.mp3"
+                },
+                {
+                  "fr": "seize",
+                  "es": "16",
+                  "phonetic": "sez",
+                  "audio": "assets/francais/313fac0832f7f979.mp3"
+                },
+                {
+                  "fr": "dix-sept",
+                  "es": "17",
+                  "phonetic": "di-set",
+                  "audio": "assets/francais/de0d6b76c1d2b23c.mp3"
+                },
+                {
+                  "fr": "dix-huit",
+                  "es": "18",
+                  "phonetic": "di-züit",
+                  "audio": "assets/francais/6ee16012ca5ae97f.mp3"
+                },
+                {
+                  "fr": "dix-neuf",
+                  "es": "19",
+                  "phonetic": "diz-nef",
+                  "audio": "assets/francais/d471e6959c91c257.mp3"
+                },
+                {
+                  "fr": "vingt",
+                  "es": "20",
+                  "phonetic": "va(n)",
+                  "audio": "assets/francais/d98bf86d96758db3.mp3"
+                }
+              ],
+              "compact": true
+            }
+          ]
+        },
+        {
+          "id": "decenas",
+          "label": "Más números",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "vingt et un",
+                  "es": "21",
+                  "phonetic": "va(n) té e(n)",
+                  "audio": "assets/francais/988aabef4b885275.mp3"
+                },
+                {
+                  "fr": "trente",
+                  "es": "30",
+                  "phonetic": "tra(n)t",
+                  "audio": "assets/francais/18d8c00eece4f59e.mp3"
+                },
+                {
+                  "fr": "quarante",
+                  "es": "40",
+                  "phonetic": "ka-ra(n)t",
+                  "audio": "assets/francais/a5990e1e0920ca0d.mp3"
+                },
+                {
+                  "fr": "cinquante",
+                  "es": "50",
+                  "phonetic": "sa(n)-ka(n)t",
+                  "audio": "assets/francais/b71229986c7d8a7b.mp3"
+                },
+                {
+                  "fr": "soixante",
+                  "es": "60",
+                  "phonetic": "sua-sa(n)t",
+                  "audio": "assets/francais/15bc210013d3661f.mp3"
+                },
+                {
+                  "fr": "soixante-dix",
+                  "es": "70",
+                  "phonetic": "sua-sa(n)t dis",
+                  "audio": "assets/francais/ed551a2bf5d673b6.mp3"
+                },
+                {
+                  "fr": "quatre-vingts",
+                  "es": "80",
+                  "phonetic": "katr va(n)",
+                  "audio": "assets/francais/0ffa02f827065dbe.mp3"
+                },
+                {
+                  "fr": "quatre-vingt-dix",
+                  "es": "90",
+                  "phonetic": "katr va(n) dis",
+                  "audio": "assets/francais/8c76f471e803a78b.mp3"
+                },
+                {
+                  "fr": "cent",
+                  "es": "100",
+                  "phonetic": "sa(n)",
+                  "audio": "assets/francais/c388fa9a52705a2c.mp3"
+                },
+                {
+                  "fr": "mille",
+                  "es": "1000",
+                  "phonetic": "mil",
+                  "audio": "assets/francais/021eed46f8dbaf5f.mp3"
+                }
+              ],
+              "compact": true
             }
           ]
         },
         {
           "id": "comer",
-          "label": "Comer",
+          "label": "Pedir y pagar",
           "blocks": [
             {
               "type": "phrases",
               "items": [
                 {
-                  "fr": "Une table pour trois, s’il vous plaît.",
-                  "es": "Una mesa para tres, por favor.",
-                  "phonetic": "ün tabl pur truá, sil vu plé",
-                  "audio": "assets/francais/5da7b2316c44f98f.mp3"
+                  "fr": "De l’eau.",
+                  "es": "Agua.",
+                  "phonetic": "de lo",
+                  "audio": "assets/francais/d34fcd7aacff3f06.mp3"
                 },
                 {
-                  "fr": "Est-ce que vous servez encore à manger ?",
-                  "es": "¿Todavía sirven comida?",
-                  "phonetic": "es ke vu ser-vé a(n)-kor a ma(n)-zhé",
-                  "audio": "assets/francais/eeed956039b04277.mp3"
+                  "fr": "Un café.",
+                  "es": "Un café.",
+                  "phonetic": "e(n) ka-fé",
+                  "audio": "assets/francais/2b9285b2c47895bf.mp3"
                 },
                 {
-                  "fr": "Une carafe d’eau et trois verres, s’il vous plaît.",
-                  "es": "Una jarra de agua y tres vasos, por favor.",
-                  "phonetic": "ün ka-raf do e truá ver, sil vu plé",
-                  "audio": "assets/francais/da37559e259971b6.mp3"
+                  "fr": "Un thé.",
+                  "es": "Un té.",
+                  "phonetic": "e(n) té",
+                  "audio": "assets/francais/c0ff2bf1e9ba29a7.mp3"
                 },
                 {
-                  "fr": "Je voudrais une galette et une crêpe, s’il vous plaît.",
-                  "es": "Querría una galette y una crêpe, por favor.",
-                  "phonetic": "zhe vu-dré ün ga-let e ün krep, sil vu plé",
-                  "audio": "assets/francais/433c989d893d6888.mp3"
+                  "fr": "Une bière.",
+                  "es": "Una cerveza.",
+                  "phonetic": "ün biér",
+                  "audio": "assets/francais/201d91b845ce59c7.mp3"
                 },
                 {
-                  "fr": "Sans viande, s’il vous plaît.",
-                  "es": "Sin carne, por favor.",
-                  "phonetic": "sa(n) via(n)d, sil vu plé",
-                  "audio": "assets/francais/390769a31d7a5463.mp3"
+                  "fr": "Du pain.",
+                  "es": "Pan.",
+                  "phonetic": "dü pa(n)",
+                  "audio": "assets/francais/dacd87d1eef64c95.mp3"
                 },
                 {
-                  "fr": "Est-ce que ce plat contient des fruits à coque ?",
-                  "es": "¿Este plato contiene frutos secos de cáscara?",
-                  "phonetic": "es ke se pla ko(n)-tia(n) de früi a kok",
-                  "audio": "assets/francais/846be0e2e27c9b15.mp3"
+                  "fr": "La carte, s’il vous plaît.",
+                  "es": "La carta, por favor.",
+                  "phonetic": "la kart sil vu plé",
+                  "audio": "assets/francais/540ccffcbb3409ed.mp3"
                 },
                 {
-                  "fr": "L’addition, s’il vous plaît. Peut-on payer par carte ?",
-                  "es": "La cuenta, por favor. ¿Se puede pagar con tarjeta?",
-                  "phonetic": "la-di-sio(n), sil vu plé. pe to(n) pé-yé par kart",
-                  "audio": "assets/francais/0b47962bd18d4123.mp3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "hotel",
-          "label": "Hotel",
-          "blocks": [
-            {
-              "type": "phrases",
-              "items": [
-                {
-                  "fr": "Bonjour, nous avons une réservation pour trois personnes.",
-                  "es": "Hola, tenemos una reserva para tres personas.",
-                  "phonetic": "bo(n)-zhúr, nu za-vo(n) ün ré-zer-va-sio(n) pur truá per-son",
-                  "audio": "assets/francais/5a2e78392025d88a.mp3"
+                  "fr": "L’addition, s’il vous plaît.",
+                  "es": "La cuenta, por favor.",
+                  "phonetic": "la-di-sio(n) sil vu plé",
+                  "audio": "assets/francais/ef1fd96cce13d531.mp3"
                 },
                 {
-                  "fr": "À quelle heure devons-nous libérer la chambre ?",
-                  "es": "¿A qué hora debemos dejar la habitación?",
-                  "phonetic": "a kel er de-vo(n) nu li-bé-ré la sha(n)br",
-                  "audio": "assets/francais/4c91e41abf7d4f26.mp3"
+                  "fr": "Par carte.",
+                  "es": "Con tarjeta.",
+                  "phonetic": "par kart",
+                  "audio": "assets/francais/f4aece0582512000.mp3"
                 },
                 {
-                  "fr": "Peut-on laisser nos bagages ici après le départ ?",
-                  "es": "¿Podemos dejar aquí el equipaje después de salir?",
-                  "phonetic": "pe to(n) lé-sé no ba-gazh i-sí a-pre le dé-par",
-                  "audio": "assets/francais/fad849c9a3e0ec53.mp3"
+                  "fr": "En espèces.",
+                  "es": "En efectivo.",
+                  "phonetic": "a(n) nes-pés",
+                  "audio": "assets/francais/20a33f296af81f10.mp3"
                 },
                 {
-                  "fr": "Le parking est-il disponible ? Faut-il le réserver ?",
-                  "es": "¿Está disponible el aparcamiento? ¿Hay que reservarlo?",
-                  "phonetic": "le par-king e til dis-po-nibl. fo til le ré-zer-vé",
-                  "audio": "assets/francais/d762d76dbe744272.mp3"
-                },
-                {
-                  "fr": "Nous arriverons vers dix-neuf heures.",
-                  "es": "Llegaremos hacia las siete de la tarde.",
-                  "phonetic": "nu za-ri-ve-ro(n) ver diz-nev er",
-                  "audio": "assets/francais/60501742f1aaea81.mp3"
-                },
-                {
-                  "fr": "Le chauffage ne fonctionne pas.",
-                  "es": "La calefacción no funciona.",
-                  "phonetic": "le sho-fazh ne fo(n)k-sion pa",
-                  "audio": "assets/francais/4c0f49d9bc97d03e.mp3"
+                  "fr": "C’est tout.",
+                  "es": "Eso es todo.",
+                  "phonetic": "se tu",
+                  "audio": "assets/francais/2749c5bd0d85dbc7.mp3"
                 }
               ]
             }
@@ -2101,58 +2324,76 @@
         },
         {
           "id": "transporte",
-          "label": "Tren y taxi",
+          "label": "Moverse",
           "blocks": [
             {
               "type": "phrases",
               "items": [
                 {
-                  "fr": "Où est la gare, s’il vous plaît ?",
-                  "es": "¿Dónde está la estación de tren, por favor?",
-                  "phonetic": "u e la gar, sil vu plé",
-                  "audio": "assets/francais/cb7a3ba7157c301b.mp3"
+                  "fr": "Un taxi, s’il vous plaît.",
+                  "es": "Un taxi, por favor.",
+                  "phonetic": "e(n) tak-sí sil vu plé",
+                  "audio": "assets/francais/839a1d0cfbe59b24.mp3"
                 },
                 {
-                  "fr": "Trois billets aller-retour pour Torcy, s’il vous plaît.",
-                  "es": "Tres billetes de ida y vuelta a Torcy, por favor.",
-                  "phonetic": "truá bi-yé a-lé re-tur pur tor-sí, sil vu plé",
-                  "audio": "assets/francais/e2472b9ea79db430.mp3"
+                  "fr": "À cette adresse, s’il vous plaît.",
+                  "es": "A esta dirección, por favor.",
+                  "phonetic": "a set a-dres sil vu plé",
+                  "audio": "assets/francais/a880cb1346977703.mp3"
                 },
                 {
-                  "fr": "Est-ce que ce train s’arrête à Torcy ?",
-                  "es": "¿Este tren para en Torcy?",
-                  "phonetic": "es ke se tra(n) sa-ret a tor-sí",
-                  "audio": "assets/francais/3a09880db49e3268.mp3"
+                  "fr": "Nous sommes trois.",
+                  "es": "Somos tres.",
+                  "phonetic": "nu som truá",
+                  "audio": "assets/francais/6cf3611525d23ec8.mp3"
                 },
                 {
-                  "fr": "Quel quai pour Marne-la-Vallée–Chessy ?",
-                  "es": "¿Qué andén es para Marne-la-Vallée–Chessy?",
-                  "phonetic": "kel ké pur marn la va-lé she-sí",
-                  "audio": "assets/francais/423c496d06737ae7.mp3"
+                  "fr": "À gauche.",
+                  "es": "A la izquierda.",
+                  "phonetic": "a gosh",
+                  "audio": "assets/francais/2fdd28bd0e0cb846.mp3"
                 },
                 {
-                  "fr": "À quelle heure est le dernier train ?",
-                  "es": "¿A qué hora sale el último tren?",
-                  "phonetic": "a kel er e le der-nié tra(n)",
-                  "audio": "assets/francais/a27a177c0ab6514b.mp3"
+                  "fr": "À droite.",
+                  "es": "A la derecha.",
+                  "phonetic": "a druat",
+                  "audio": "assets/francais/3d4f673fec3e664b.mp3"
                 },
                 {
-                  "fr": "Ce bus va-t-il à la tour Eiffel ?",
-                  "es": "¿Este autobús va a la Torre Eiffel?",
-                  "phonetic": "se büs va til a la tur e-fel",
-                  "audio": "assets/francais/2b86ec22938593c8.mp3"
+                  "fr": "Tout droit.",
+                  "es": "Todo recto.",
+                  "phonetic": "tu drua",
+                  "audio": "assets/francais/ec50f2b7a8d3d713.mp3"
                 },
                 {
-                  "fr": "Pouvez-vous appeler un taxi pour trois personnes ?",
-                  "es": "¿Puede pedir un taxi para tres personas?",
-                  "phonetic": "pu-vé vu a-pe-lé e(n) tak-sí pur truá per-son",
-                  "audio": "assets/francais/25a46abf44791d7f.mp3"
+                  "fr": "Ici, s’il vous plaît.",
+                  "es": "Aquí, por favor.",
+                  "phonetic": "i-sí sil vu plé",
+                  "audio": "assets/francais/2120266ef98a5cd2.mp3"
                 },
                 {
-                  "fr": "Pouvez-vous nous emmener à cette adresse ? Combien coûte le trajet ?",
-                  "es": "¿Puede llevarnos a esta dirección? ¿Cuánto cuesta el trayecto?",
-                  "phonetic": "pu-vé vu nu za-me-né a set a-dres. ko(n)-bia(n) kut le tra-zhé",
-                  "audio": "assets/francais/d459f2887ec58454.mp3"
+                  "fr": "La gare.",
+                  "es": "La estación.",
+                  "phonetic": "la gar",
+                  "audio": "assets/francais/b75a030aa08cdac0.mp3"
+                },
+                {
+                  "fr": "Le quai.",
+                  "es": "El andén.",
+                  "phonetic": "le ké",
+                  "audio": "assets/francais/06adc82c4cda6e29.mp3"
+                },
+                {
+                  "fr": "Aller-retour.",
+                  "es": "Ida y vuelta.",
+                  "phonetic": "a-lé re-tur",
+                  "audio": "assets/francais/b17efd40af096a67.mp3"
+                },
+                {
+                  "fr": "Un billet.",
+                  "es": "Un billete / una entrada.",
+                  "phonetic": "e(n) bi-yé",
+                  "audio": "assets/francais/d2a1ab6a46805ed1.mp3"
                 }
               ]
             }
@@ -2160,93 +2401,64 @@
         },
         {
           "id": "coche",
-          "label": "Coche",
+          "label": "Palabras",
           "blocks": [
             {
               "type": "phrases",
               "items": [
                 {
-                  "fr": "Où est la station-service la plus proche ?",
-                  "es": "¿Dónde está la gasolinera más cercana?",
-                  "phonetic": "u e la sta-sio(n) ser-vis la plü prosh",
-                  "audio": "assets/francais/754b13b82cbc9f51.mp3"
+                  "fr": "Entrée. Sortie.",
+                  "es": "Entrada. Salida.",
+                  "phonetic": "a(n)-tré. sor-tí",
+                  "audio": "assets/francais/63856b3a25d4486a.mp3"
                 },
                 {
-                  "fr": "Du gazole. De l’essence sans plomb.",
-                  "es": "Gasóleo. Gasolina sin plomo.",
-                  "phonetic": "dü ga-zol. de lé-sa(n)s sa(n) plo(n)",
-                  "audio": "assets/francais/f015304287929102.mp3"
+                  "fr": "Ouvert. Fermé.",
+                  "es": "Abierto. Cerrado.",
+                  "phonetic": "u-ver. fer-mé",
+                  "audio": "assets/francais/920a63aa68074307.mp3"
                 },
                 {
-                  "fr": "Quel carburant faut-il mettre dans cette voiture ?",
-                  "es": "¿Qué combustible hay que poner en este coche?",
-                  "phonetic": "kel kar-bü-ra(n) fo til metr da(n) set vua-tür",
-                  "audio": "assets/francais/bdf7c7fc743e7b65.mp3"
+                  "fr": "Aujourd’hui. Demain.",
+                  "es": "Hoy. Mañana.",
+                  "phonetic": "o-zhur-düi. de-ma(n)",
+                  "audio": "assets/francais/1b18368a93c14431.mp3"
                 },
                 {
-                  "fr": "Combien coûte le parking pour une nuit ?",
-                  "es": "¿Cuánto cuesta el aparcamiento por una noche?",
-                  "phonetic": "ko(n)-bia(n) kut le par-king pur ün nüi",
-                  "audio": "assets/francais/7b6c15d8245302bd.mp3"
+                  "fr": "Maintenant. Plus tard.",
+                  "es": "Ahora. Más tarde.",
+                  "phonetic": "ma(n)-te-na(n). plü tar",
+                  "audio": "assets/francais/95c0bc0c4dfa9477.mp3"
                 },
                 {
-                  "fr": "Peut-on entrer dans cette rue en voiture ?",
-                  "es": "¿Se puede entrar en esta calle en coche?",
-                  "phonetic": "pe to(n) a(n)-tré da(n) set rü a(n) vua-tür",
-                  "audio": "assets/francais/f137d407262de19f.mp3"
+                  "fr": "La chambre. La clé.",
+                  "es": "La habitación. La llave.",
+                  "phonetic": "la sha(n)br. la klé",
+                  "audio": "assets/francais/1a57f72b6137f7c1.mp3"
                 },
                 {
-                  "fr": "Notre voiture est en panne. Nous avons besoin d’assistance.",
-                  "es": "Nuestro coche está averiado. Necesitamos asistencia.",
-                  "phonetic": "notr vua-tür e ta(n) pan. nu za-vo(n) be-zua(n) da-sis-ta(n)s",
-                  "audio": "assets/francais/d23d5bfe42c257ec.mp3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "visitas",
-          "label": "Disney y visitas",
-          "blocks": [
-            {
-              "type": "phrases",
-              "items": [
-                {
-                  "fr": "Nous avons des billets pour aujourd’hui.",
-                  "es": "Tenemos entradas para hoy.",
-                  "phonetic": "nu za-vo(n) de bi-yé pur o-zhur-düi",
-                  "audio": "assets/francais/cd5af04b46f92aed.mp3"
+                  "fr": "Les bagages.",
+                  "es": "El equipaje.",
+                  "phonetic": "le ba-gazh",
+                  "audio": "assets/francais/0542d2dbf7b9c702.mp3"
                 },
                 {
-                  "fr": "Où est l’entrée de cette attraction ?",
-                  "es": "¿Dónde está la entrada de esta atracción?",
-                  "phonetic": "u e la(n)-tré de set a-trak-sio(n)",
-                  "audio": "assets/francais/6ea3b07e85a172c1.mp3"
+                  "fr": "Le parking.",
+                  "es": "El aparcamiento.",
+                  "phonetic": "le par-king",
+                  "audio": "assets/francais/d65602c52a2becc0.mp3"
                 },
                 {
-                  "fr": "Combien de temps dure l’attente ?",
-                  "es": "¿Cuánto dura la espera?",
-                  "phonetic": "ko(n)-bia(n) de ta(n) dür la-ta(n)t",
-                  "audio": "assets/francais/fa748dc26ad594a9.mp3"
+                  "fr": "La station-service.",
+                  "es": "La gasolinera.",
+                  "phonetic": "la sta-sio(n) ser-vis",
+                  "audio": "assets/francais/a08b2c10081caf05.mp3"
                 },
                 {
-                  "fr": "À quelle heure commence le spectacle ?",
-                  "es": "¿A qué hora empieza el espectáculo?",
-                  "phonetic": "a kel er ko-ma(n)s le spek-takl",
-                  "audio": "assets/francais/ebd2fb7a644510bc.mp3"
-                },
-                {
-                  "fr": "Trois billets pour la Galerie des Machines, s’il vous plaît.",
-                  "es": "Tres entradas para la Galería de las Máquinas, por favor.",
-                  "phonetic": "truá bi-yé pur la ga-le-rí de ma-shin, sil vu plé",
-                  "audio": "assets/francais/bd53ab133615ad51.mp3"
-                },
-                {
-                  "fr": "Faut-il réserver à l’avance ?",
-                  "es": "¿Hay que reservar con antelación?",
-                  "phonetic": "fo til ré-zer-vé a la-va(n)s",
-                  "audio": "assets/francais/facf2381a43e902f.mp3"
+                  "fr": "Gazole. Essence.",
+                  "es": "Gasóleo. Gasolina.",
+                  "phonetic": "ga-zol. e-sa(n)s",
+                  "audio": "assets/francais/4948fc068cd45303.mp3"
                 }
               ]
             }
@@ -2294,6 +2506,146 @@
                   "es": "He perdido mi teléfono.",
                   "phonetic": "zhé per-dü mo(n) té-lé-fon",
                   "audio": "assets/francais/42d803fbc551ee83.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hotel",
+          "label": "Hoteles",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "Apparthotel Torcy",
+                  "es": "Torcy",
+                  "phonetic": "a-part o-tel tor-sí",
+                  "address": "6 Rue Charlie Chaplin, 77200 Torcy, Francia",
+                  "mapQuery": "Apparthotel Torcy, 6 Rue Charlie Chaplin, 77200 Torcy, Francia",
+                  "audio": "assets/francais/3a158782a0cb14a2.mp3"
+                },
+                {
+                  "fr": "ibis budget Gent Centrum Dampoort",
+                  "es": "Gante",
+                  "phonetic": "i-bis büd-zhet guent sén-trum dam-port",
+                  "address": "Koopvaardijlaan 29, 9000 Gent, Bélgica",
+                  "mapQuery": "ibis budget Gent Centrum Dampoort, Koopvaardijlaan 29, 9000 Gent, Bélgica",
+                  "audio": "assets/francais/d4fb4b9887c6a6ef.mp3"
+                },
+                {
+                  "fr": "Aparthotel Adagio Nantes Centre",
+                  "es": "Nantes",
+                  "phonetic": "a-part o-tel a-da-zhio na(n)t sa(n)tr",
+                  "address": "19 Allée du Commandant Charcot, 44000 Nantes, Francia",
+                  "mapQuery": "Aparthotel Adagio Nantes Centre, 19 Allée du Commandant Charcot, 44000 Nantes, Francia",
+                  "audio": "assets/francais/0e7bba64b17b5060.mp3"
+                },
+                {
+                  "fr": "MEININGER Bordeaux Gare Saint-Jean",
+                  "es": "Burdeos",
+                  "phonetic": "maï-nin-guer bor-do gar sa(n) zha(n)",
+                  "address": "12 rue du Commerce, 33000 Bordeaux, Francia",
+                  "mapQuery": "MEININGER Bordeaux Gare Saint-Jean, 12 rue du Commerce, 33000 Bordeaux, Francia",
+                  "audio": "assets/francais/cc14817363dd30f9.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "estaciones",
+          "label": "Estaciones",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Para indicar el destino",
+              "text": "Muestra el nombre y la dirección al taxista. Los nombres flamencos tienen una pronunciación orientativa y audio con voz francesa. Las direcciones de estaciones indican un acceso de referencia; puede haber varias entradas."
+            },
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "Gare de Torcy",
+                  "es": "Torcy · RER A",
+                  "phonetic": "gar de tor-sí",
+                  "address": "Rue Léon Blum, 77200 Torcy, France · accès sortie 2",
+                  "mapQuery": "Gare de Torcy, Rue Léon Blum, 77200 Torcy, France",
+                  "source": "https://www.apparthotel-torcy.com/contact/",
+                  "audio": "assets/francais/f007a580fd3e463b.mp3"
+                },
+                {
+                  "fr": "Marne-la-Vallée–Chessy",
+                  "es": "Disney · RER A y TGV",
+                  "phonetic": "marn la va-lé she-sí",
+                  "address": "Place des Passagers du Vent, 77700 Chessy, France",
+                  "mapQuery": "Marne-la-Vallée–Chessy, Place des Passagers du Vent, 77700 Chessy, France",
+                  "source": "https://www.garesetconnexions.sncf/fr/gares-services/marne-vallee-chessy",
+                  "audio": "assets/francais/464780a55124affa.mp3"
+                },
+                {
+                  "fr": "Charles de Gaulle–Étoile",
+                  "es": "París · ruta Torre Eiffel",
+                  "phonetic": "sharl de gol e-tual",
+                  "address": "44 Avenue de Friedland, 75008 Paris, France · adresse RATP",
+                  "mapQuery": "Charles de Gaulle–Étoile, 44 Avenue de Friedland, 75008 Paris, France",
+                  "source": "https://www.ratp.fr/vos-lignes/vos-stations/charles-de-gaulle-etoile",
+                  "audio": "assets/francais/43f79db20c4548a0.mp3"
+                },
+                {
+                  "fr": "Châtelet–Les Halles",
+                  "es": "París · ruta histórica",
+                  "phonetic": "shat-lé le al",
+                  "address": "Place Marguerite de Navarre, 75001 Paris, France · accès RER",
+                  "mapQuery": "Châtelet–Les Halles, Place Marguerite de Navarre, 75001 Paris, France",
+                  "source": "https://www.bonjour-ratp.fr/gares/chatelet-les-halles/",
+                  "audio": "assets/francais/505d538641acbc18.mp3"
+                },
+                {
+                  "fr": "Palais Royal–Musée du Louvre",
+                  "es": "París · metro 1",
+                  "phonetic": "pa-lé rua-yal mü-zé dü luvr",
+                  "address": "Place du Palais Royal, 75001 Paris, France · accès métro",
+                  "mapQuery": "Palais Royal–Musée du Louvre, Place du Palais Royal, 75001 Paris, France",
+                  "source": "https://www.ratp.fr/vos-lignes/vos-stations/palais-royal-musee-du-louvre",
+                  "audio": "assets/francais/315a3ad9fac0f6e5.mp3"
+                },
+                {
+                  "fr": "Gent-Dampoort",
+                  "es": "Gante · junto al hotel",
+                  "phonetic": "guent dam-port",
+                  "address": "Oktrooiplein 10, 9000 Gent, België",
+                  "mapQuery": "Gent-Dampoort, Oktrooiplein 10, 9000 Gent, België",
+                  "source": "https://www.belgiantrain.be/en/station-information/oost-vlaanderen/gent-dampoort",
+                  "audio": "assets/francais/6348066d0aaf4f6c.mp3"
+                },
+                {
+                  "fr": "Gent-Sint-Pieters",
+                  "es": "Gante · alternativa según el tren",
+                  "phonetic": "guent sint pí-ters",
+                  "address": "Koningin Maria Hendrikaplein 1, 9000 Gent, België",
+                  "mapQuery": "Gent-Sint-Pieters, Koningin Maria Hendrikaplein 1, 9000 Gent, België",
+                  "source": "https://www.belgiantrain.be/en/station-information/oost-vlaanderen/gent-sint-pieters",
+                  "audio": "assets/francais/4ebb62f7d0b17e7e.mp3"
+                },
+                {
+                  "fr": "Brugge",
+                  "es": "Brujas · estación",
+                  "phonetic": "brü-je",
+                  "address": "Stationsplein 5, 8000 Brugge, België",
+                  "mapQuery": "Brugge, Stationsplein 5, 8000 Brugge, België",
+                  "source": "https://www.belgiantrain.be/en/station-information/west-vlaanderen/brugge",
+                  "audio": "assets/francais/1495fee502ad445f.mp3"
+                },
+                {
+                  "fr": "Bruxelles-Central",
+                  "es": "Bruselas · estación central",
+                  "phonetic": "brü-sel sa(n)-tral",
+                  "address": "Carrefour de l’Europe 2, 1000 Bruxelles, Belgique",
+                  "mapQuery": "Bruxelles-Central, Carrefour de l’Europe 2, 1000 Bruxelles, Belgique",
+                  "source": "https://www.belgiantrain.be/en/station-information/brussel-bruxelles/centraal-central",
+                  "audio": "assets/francais/43d620d24d599c7c.mp3"
                 }
               ]
             }

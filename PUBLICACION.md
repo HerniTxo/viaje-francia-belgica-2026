@@ -77,3 +77,7 @@ Validación local: sintaxis, referencias de páginas/pestañas, rutas, archivos,
 - **Pendientes de viaje:** parkings Nantes/Burdeos, visitas Gante, Máquinas de la Isla y Saint-Émilion (propuestas), horarios RER y Disney, peajes y combustible. Se mantienen los estados en las memorias originales, sin promover propuestas a confirmaciones.
 - **Operativa:** el itinerario maestro contiene lo esencial, la memoria global y las seis memorias locales conservan detalles; la web solo se actualizará por petición expresa («Actualiza la web»), sin subir entradas ni reservas privadas.
 - **Esta anotación solo registra el estado; no altera la web publicada.**
+
+## Francés sencillo y destinos · 03/11/2026
+
+Se sustituyen las frases específicas de comida y Disney por vocabulario y expresiones universales. Se conservan Básico y Ayuda, se añaden números 0–20 y decenas, cuatro hoteles con sus direcciones de reserva y nueve estaciones con direcciones de acceso y fuentes. Los nombres de estaciones flamencas se presentan como aproximación con voz francesa. Cada entrada conserva audio MP3 y pronunciación escrita. Son 92 entradas en diez pestañas. Recursos v=2.3. Se integraron previamente los cambios remotos hasta d389215.

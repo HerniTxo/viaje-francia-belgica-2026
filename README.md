@@ -8,7 +8,7 @@ Los planes conservan la diferencia entre confirmado, propuesta y pendiente. Los 
 
 ## Seguir el proyecto
 
-El menú incluye **Francés útil**, con 46 frases en siete categorías, traducción y pronunciación aproximada. El audio son 46 MP3 franceses incluidos en la web y cargados solo al tocar Escuchar; no requiere voces instaladas ni claves adicionales. Las frases están en bloques `phrases` de `docs/data/trip.json` (`fr`, `es`, `phonetic`, `audio`). Para cambiar una frase, regenerar su audio con `scripts/generate-french-audio.py` (dependencia de autoría opcional: edge-tts); el validador verifica que el nombre del MP3 coincide con el texto francés. La página lleva `utility: true` para aparecer bajo Práctico y no entre los destinos.
+El menú incluye **Francés útil**, con 92 palabras, números, frases breves y destinos en diez categorías, traducción y pronunciación aproximada. El audio son 46 MP3 franceses incluidos en la web y cargados solo al tocar Escuchar; no requiere voces instaladas ni claves adicionales. Las frases están en bloques `phrases` de `docs/data/trip.json` (`fr`, `es`, `phonetic`, `audio`). Para cambiar una frase, regenerar su audio con `scripts/generate-french-audio.py` (dependencia de autoría opcional: edge-tts); el validador verifica que el nombre del MP3 coincide con el texto francés. La página lleva `utility: true` para aparecer bajo Práctico y no entre los destinos.
 
 [CAMINO-A-SEGUIR.md](CAMINO-A-SEGUIR.md) recoge estructura, prioridades del viaje y mantenimiento. No hay sincronización automática con Drive.
 
