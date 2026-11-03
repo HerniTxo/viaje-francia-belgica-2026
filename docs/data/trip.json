@@ -685,13 +685,11 @@
       "from": "Bilbao, España",
       "to": "Apparthotel Torcy, 6 Rue Charlie Chaplin, 77200 Torcy, France",
       "stops": [
-        "Irun, España",
         "Bayonne, France",
         "Bordeaux, France",
-        "Poitiers, France",
         "Tours, France"
       ],
-      "note": "Por autopistas A63/A10 y conexión A4 según navegación. Paradas reales por ajustar."
+      "note": "Ruta elegida: Irún → Bayona → Burdeos → Poitiers → Tours → Torcy, por autopistas A63/A10 y enlaces a A4. Google Maps incluye tres puntos intermedios principales para mayor compatibilidad móvil; sigue los carteles y la navegación."
     },
     {
       "id": "road11",
@@ -812,6 +810,46 @@
         "Pyramide du Louvre, Paris, France"
       ],
       "note": "Regreso por M1 hasta Châtelet + RER A a Torcy, o a pie hasta Châtelet."
+    },
+    {
+      "id": "paris_a_bus_back",
+      "name": "París A · Trocadéro → Étoile (bus 30)",
+      "type": "transporte",
+      "status": "propuesta",
+      "from": "Trocadero Bus Stop, Paris, France",
+      "to": "Charles de Gaulle Etoile Kleber Bus Stop, Paris, France",
+      "stops": [],
+      "note": "Regreso corto en bus 30 sentido Pigalle. Confirmar dirección y parada con RATP."
+    },
+    {
+      "id": "paris_a_rer_back",
+      "name": "París A · Étoile → Torcy (RER A)",
+      "type": "transporte",
+      "status": "propuesta",
+      "from": "Charles de Gaulle-Etoile, Paris, France",
+      "to": "Gare de Torcy, Torcy, France",
+      "stops": [],
+      "note": "Comprobar que el tren para en Torcy. Se usa tras la vuelta en bus o el paseo opcional al Arco."
+    },
+    {
+      "id": "paris_b_m1_back",
+      "name": "París B · Palais Royal → Châtelet (M1)",
+      "type": "transporte",
+      "status": "propuesta",
+      "from": "Palais Royal Musee du Louvre Metro, Paris, France",
+      "to": "Chatelet Metro, Paris, France",
+      "stops": [],
+      "note": "Metro M1 hacia Château de Vincennes. Enlazar por pasillos señalizados con RER A en Châtelet–Les Halles. Alternativa: volver a pie desde Louvre."
+    },
+    {
+      "id": "paris_b_rer_back",
+      "name": "París B · Châtelet → Torcy (RER A)",
+      "type": "transporte",
+      "status": "propuesta",
+      "from": "Chatelet Les Halles, Paris, France",
+      "to": "Gare de Torcy, Torcy, France",
+      "stops": [],
+      "note": "Tramo final de regreso en tren. Confirmar destino y horarios del RER A."
     },
     {
       "id": "gent_walk",
