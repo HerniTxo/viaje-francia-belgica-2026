@@ -1,3 +1,7 @@
+## Guía Disney complementaria · 03/11/2026
+
+Nueva página disney-guia-completa.html y pestaña Guía completa en Disney, conservando planes y mapas anteriores. Itinerarios adultos 9–10, alternativas por lluvia/colas, nueve fichas, valoración de espera, checklist local, esquemas de zonas y enlaces Google a pie por etapas. Fuentes oficiales para operaciones y fuentes secundarias identificadas para funciones e históricos. Tales 21:00 y Cascade 20:50 como referencias pendientes de app, sin elevarlas a confirmación. Pronóstico consultado por fecha. Sin reincorporar PDF retirado ni datos privados. Validación de estructura y privacidad y pruebas de decisión superadas.
+
 ## Retirada de recurso · 03/11/2026
 
 A petición del viajero se retira de la web el último folleto PDF completo de 12 páginas. Eliminado también el archivo de Drive. Se conservan los mapas personalizados con rutas. La referencia histórica en la memoria Disney queda pendiente de limpieza por indisponibilidad del entorno de edición.

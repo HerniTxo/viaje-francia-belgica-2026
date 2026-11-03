@@ -653,6 +653,48 @@
       "intro": "Dos días, dos parques. Entradas confirmadas para 3 adultos; recorridos propuestos y flexibles.",
       "panes": [
         {
+          "id": "guia-completa",
+          "label": "Guía completa",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Nueva guía para aprovechar los dos días",
+              "text": "Plan complementario para 3 adultos: recorridos por zonas, alternativas por lluvia y colas, selección de espectáculos, fichas de atracciones y consulta rápida. Se conserva el plan anterior.",
+              "tone": "plain"
+            },
+            {
+              "type": "links",
+              "title": "Abrir la guía",
+              "items": [
+                {
+                  "label": "Guía completa · 9 y 10 noviembre",
+                  "url": "https://hernitxo.github.io/viaje-francia-belgica-2026/disney-guia-completa.html",
+                  "text": "Incluye esquemas, navegación Google por etapas y lista de prioridades hechas."
+                },
+                {
+                  "label": "Lunes · plan detallado",
+                  "url": "https://hernitxo.github.io/viaje-francia-belgica-2026/disney-guia-completa.html#lunes"
+                },
+                {
+                  "label": "Martes · plan detallado",
+                  "url": "https://hernitxo.github.io/viaje-francia-belgica-2026/disney-guia-completa.html#martes"
+                },
+                {
+                  "label": "Mapas y rutas",
+                  "url": "https://hernitxo.github.io/viaje-francia-belgica-2026/disney-guia-completa.html#mapas"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Funciones: nueva referencia encontrada",
+              "text": "La guía nueva usa referencia secundaria de Tales 21:00 y Cascade 20:50; confirmar sesiones del 9–10 en app. Las 21:00 del plan anterior eran hipótesis, no horarios oficiales.",
+              "tone": "pending",
+              "url": "https://pixiedustdlp.com/2026/10/05/disneyland-paris-entertainment-schedule/"
+            }
+          ]
+        },
+        {
           "id": "lunes",
           "label": "Lunes 9",
           "blocks": [
