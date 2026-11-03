@@ -1,0 +1,1026 @@
+{
+  "meta": {
+    "title": "Francia & Bélgica 2026",
+    "subtitle": "Ocho días para descubrir ciudades, parques y carreteras",
+    "start": "2026-11-08",
+    "end": "2026-11-15",
+    "party": 3,
+    "updated": "2026-11-03",
+    "version": "1.0",
+    "published": "2026-11-03",
+    "privacy": "Versión pública del itinerario. No contiene entradas, localizadores ni documentación privada."
+  },
+  "stays": [
+    {
+      "id": "torcy",
+      "name": "Apparthotel Torcy",
+      "city": "Torcy",
+      "checkin": "8 nov. · desde 15:00",
+      "checkout": "11 nov. · hasta 12:00",
+      "price": 344.07,
+      "address": "6 Rue Charlie Chaplin, 77200 Torcy, Francia",
+      "parking": "Aparcamiento público gratuito, según la reserva",
+      "lat": 48.84105,
+      "lng": 2.65615,
+      "website": "https://www.apparthotel-torcy.com/",
+      "status": "confirmado"
+    },
+    {
+      "id": "gante",
+      "name": "ibis budget Gent Centrum Dampoort",
+      "city": "Gante",
+      "checkin": "11 nov. · desde 15:00",
+      "checkout": "13 nov. · hasta 12:00",
+      "price": 200.8,
+      "address": "Koopvaardijlaan 29, 9000 Gent, Bélgica",
+      "parking": "Parking público 22 €/día, no reservable (según la reserva)",
+      "lat": 51.05967,
+      "lng": 3.73868,
+      "status": "confirmado",
+      "website": "https://all.accor.com/"
+    },
+    {
+      "id": "nantes",
+      "name": "Aparthotel Adagio Nantes Centre",
+      "city": "Nantes",
+      "checkin": "13 nov. · desde 15:00",
+      "checkout": "14 nov. · hasta 11:00",
+      "price": 100.1,
+      "address": "19 Allée du Commandant Charcot, 44000 Nantes, Francia",
+      "parking": "Parking del alojamiento 24 €/día; requiere reserva",
+      "lat": 47.21682,
+      "lng": -1.54625,
+      "website": "https://all.accor.com/",
+      "status": "confirmado"
+    },
+    {
+      "id": "burdeos",
+      "name": "MEININGER Bordeaux Gare Saint-Jean",
+      "city": "Burdeos",
+      "checkin": "14 nov. · desde 15:00",
+      "checkout": "15 nov. · hasta 11:00",
+      "price": 68.25,
+      "address": "12 rue du Commerce, 33000 Bordeaux, Francia",
+      "parking": "Sin parking propio. Buscar alternativa cercana.",
+      "lat": 44.82718,
+      "lng": -0.55193,
+      "website": "https://www.meininger-hotels.com/",
+      "status": "confirmado"
+    }
+  ],
+  "rental": {
+    "company": "Avis",
+    "pickup": "7 nov. · 12:30",
+    "return": "15 nov. · 20:00",
+    "location": "Bilbao Intermodal / Termibus (NO aeropuerto)",
+    "price": 835.66,
+    "features": [
+      "Dos conductores incluidos",
+      "Kilometraje ilimitado",
+      "Coberturas completas",
+      "Circulación España–Francia–Bélgica"
+    ],
+    "status": "confirmado"
+  },
+  "tickets": {
+    "name": "Disneyland Paris",
+    "dates": "9 y 10 noviembre",
+    "parkAccess": "Dos días, dos parques, tres adultos",
+    "total": 531,
+    "status": "confirmado"
+  },
+  "days": [
+    {
+      "id": "d7",
+      "date": "2026-11-07",
+      "short": "Sáb 7",
+      "place": "Bilbao",
+      "headline": "Recoger el coche",
+      "kind": "logistica",
+      "status": "confirmado",
+      "summary": "Preparar el vehículo para salir temprano al día siguiente.",
+      "events": [
+        {
+          "time": "12:30",
+          "title": "Recogida Avis · Bilbao Intermodal",
+          "type": "confirmado",
+          "description": "Dos conductores; comprobar vehículo y condiciones antes de salir.",
+          "place": "alquiler"
+        }
+      ]
+    },
+    {
+      "id": "d8",
+      "date": "2026-11-08",
+      "short": "Dom 8",
+      "place": "Bilbao → Torcy",
+      "headline": "Rumbo a París",
+      "kind": "carretera",
+      "status": "confirmado",
+      "summary": "Jornada larga por autopista. La escapada nocturna a París es opcional.",
+      "events": [
+        {
+          "time": "Mañana",
+          "title": "Salida de Bilbao hacia Torcy",
+          "type": "confirmado",
+          "description": "Ruta elegida A: Irún → Bayona → Burdeos → Poitiers → Tours → Torcy. A63 / A10 / accesos A4.",
+          "place": "torcy"
+        },
+        {
+          "time": "Desde 15:00",
+          "title": "Entrada en Apparthotel Torcy",
+          "type": "confirmado",
+          "description": "Llegada según tráfico y descansos; parking gratuito del alojamiento.",
+          "place": "torcy"
+        },
+        {
+          "time": "Si hay energía",
+          "title": "París iluminado (ruta A o B)",
+          "type": "propuesta",
+          "description": "Dos alternativas en transporte público, sin visita obligatoria. La línea 6 estará cerrada todo el domingo.",
+          "place": "eiffel"
+        }
+      ]
+    },
+    {
+      "id": "d9",
+      "date": "2026-11-09",
+      "short": "Lun 9",
+      "place": "Disneyland Paris",
+      "headline": "Magia y grandes clásicos",
+      "kind": "parque",
+      "status": "confirmado",
+      "summary": "Entrada confirmada para los dos parques. Orden de atracciones propuesto, flexible.",
+      "events": [
+        {
+          "time": "Antes de apertura",
+          "title": "Torcy → Marne-la-Vallée–Chessy (RER A)",
+          "type": "propuesta",
+          "description": "Desde Gare de Torcy, 3 paradas hasta Disney. Comprobar primeros trenes.",
+          "place": "disney"
+        },
+        {
+          "time": "09:30 aprox.",
+          "title": "Disneyland Park: Big Thunder Mountain",
+          "type": "propuesta",
+          "description": "Alternar con Phantom Manor si la cola es demasiado larga.",
+          "place": "disney"
+        },
+        {
+          "time": "Media mañana",
+          "title": "Indiana Jones · Pirates of the Caribbean",
+          "type": "propuesta",
+          "description": "Revisar tiempos de espera en la app oficial.",
+          "place": "disney"
+        },
+        {
+          "time": "Tarde",
+          "title": "Hyperspace Mountain · Star Tours",
+          "type": "propuesta",
+          "description": "Comida rápida y tiempo para decoración de Navidad.",
+          "place": "disney"
+        },
+        {
+          "time": "Noche",
+          "title": "Disney Tales of Magic",
+          "type": "propuesta",
+          "description": "Horario exacto por confirmar en la app oficial.",
+          "place": "disney"
+        }
+      ]
+    },
+    {
+      "id": "d10",
+      "date": "2026-11-10",
+      "short": "Mar 10",
+      "place": "Disney Adventure World",
+      "headline": "La otra cara de Disney",
+      "kind": "parque",
+      "status": "confirmado",
+      "summary": "Segundo día con entrada confirmada. Crush’s Coaster cerrado por reforma.",
+      "events": [
+        {
+          "time": "09:30 aprox.",
+          "title": "Tower of Terror",
+          "type": "propuesta",
+          "description": "Prioridad matinal según cola real.",
+          "place": "disney"
+        },
+        {
+          "time": "Media mañana",
+          "title": "Avengers Assemble: Flight Force · Ratatouille",
+          "type": "propuesta",
+          "description": "Valorar Single Rider si está activo.",
+          "place": "disney"
+        },
+        {
+          "time": "Tarde",
+          "title": "Mickey and the Magician · Adventure Way",
+          "type": "propuesta",
+          "description": "Paseo por Arendelle y espectáculos si coinciden horarios.",
+          "place": "disney"
+        },
+        {
+          "time": "Noche",
+          "title": "Disney Cascade of Lights",
+          "type": "propuesta",
+          "description": "La hora se consultará en la app oficial.",
+          "place": "disney"
+        }
+      ]
+    },
+    {
+      "id": "d11",
+      "date": "2026-11-11",
+      "short": "Mié 11",
+      "place": "Torcy → Gante",
+      "headline": "Cruzamos a Bélgica",
+      "kind": "carretera",
+      "status": "confirmado",
+      "summary": "Salida de Torcy y llegada al hotel en Gante. Paseo vespertino opcional.",
+      "events": [
+        {
+          "time": "Antes de 12:00",
+          "title": "Salida del Apparthotel Torcy",
+          "type": "confirmado",
+          "description": "Check-out.",
+          "place": "torcy"
+        },
+        {
+          "time": "Durante el día",
+          "title": "Carretera hasta Gante",
+          "type": "confirmado",
+          "description": "Comprobar restricciones LEZ y matrícula del coche de alquiler.",
+          "place": "gante"
+        },
+        {
+          "time": "Desde 15:00",
+          "title": "Entrada en ibis budget Gent Centrum Dampoort",
+          "type": "confirmado",
+          "description": "Parking público del hotel anunciado a 22 €/día.",
+          "place": "gante"
+        },
+        {
+          "time": "Si queda tiempo",
+          "title": "Graslei y Korenlei al atardecer",
+          "type": "propuesta",
+          "description": "Paseo por canales y fachadas históricas.",
+          "place": "graslei"
+        }
+      ]
+    },
+    {
+      "id": "d12",
+      "date": "2026-11-12",
+      "short": "Jue 12",
+      "place": "Gante",
+      "headline": "Una jornada medieval",
+      "kind": "ciudad",
+      "status": "propuesta",
+      "summary": "Día completo en la ciudad; recorrido a pie todavía por acordar.",
+      "events": [
+        {
+          "time": "Mañana",
+          "title": "Gravensteen · centro histórico",
+          "type": "propuesta",
+          "description": "Consultar si interesa visitar el interior del castillo.",
+          "place": "gravensteen"
+        },
+        {
+          "time": "Mediodía",
+          "title": "Graslei · Korenlei · Belfort",
+          "type": "propuesta",
+          "description": "Fotografía, paseo y almuerzo.",
+          "place": "graslei"
+        },
+        {
+          "time": "Tarde",
+          "title": "Catedral de San Bavón · Patershol",
+          "type": "propuesta",
+          "description": "Elegir visitas según horarios y energía.",
+          "place": "bavo"
+        }
+      ]
+    },
+    {
+      "id": "d13",
+      "date": "2026-11-13",
+      "short": "Vie 13",
+      "place": "Gante → Nantes",
+      "headline": "Gran jornada en carretera",
+      "kind": "carretera",
+      "status": "confirmado",
+      "summary": "Traslado largo. Las visitas de Nantes dependerán de la hora real de llegada.",
+      "events": [
+        {
+          "time": "Mañana",
+          "title": "Salir temprano de Gante",
+          "type": "propuesta",
+          "description": "Aunque el check-out es hasta las 12:00, conviene adelantar la salida por la distancia.",
+          "place": "gante"
+        },
+        {
+          "time": "Durante el día",
+          "title": "Traslado a Nantes",
+          "type": "confirmado",
+          "description": "Prever pausas, peajes y tráfico.",
+          "place": "nantes"
+        },
+        {
+          "time": "Desde 15:00",
+          "title": "Aparthotel Adagio Nantes Centre",
+          "type": "confirmado",
+          "description": "Alojamiento reservado. Parking de pago pendiente de decidir.",
+          "place": "nantes"
+        },
+        {
+          "time": "Tarde-noche",
+          "title": "Castillo de los Duques · Bouffay",
+          "type": "propuesta",
+          "description": "Paseo exterior si hay margen tras el viaje.",
+          "place": "chateau_nantes"
+        }
+      ]
+    },
+    {
+      "id": "d14",
+      "date": "2026-11-14",
+      "short": "Sáb 14",
+      "place": "Nantes → Burdeos",
+      "headline": "Máquinas y ciudad de piedra",
+      "kind": "carretera",
+      "status": "confirmado",
+      "summary": "Máquinas de la Isla por la mañana (propuesta) y Burdeos por la tarde.",
+      "events": [
+        {
+          "time": "Mañana",
+          "title": "Galería de las Máquinas de la Isla",
+          "type": "propuesta",
+          "description": "La visita requiere entrada; comprobar y reservar si se confirma.",
+          "place": "machines"
+        },
+        {
+          "time": "Antes de 11:00",
+          "title": "Check-out Adagio Nantes Centre",
+          "type": "confirmado",
+          "description": "Coordinar equipaje, vehículo y horarios de la galería.",
+          "place": "nantes"
+        },
+        {
+          "time": "Mediodía",
+          "title": "Salida hacia Burdeos",
+          "type": "propuesta",
+          "description": "Horario final por ajustar a las actividades.",
+          "place": "burdeos"
+        },
+        {
+          "time": "Desde 15:00",
+          "title": "MEININGER Bordeaux Gare Saint-Jean",
+          "type": "confirmado",
+          "description": "Hotel sin aparcamiento propio; alternativa pendiente.",
+          "place": "burdeos"
+        },
+        {
+          "time": "Atardecer",
+          "title": "Place de la Bourse · centro histórico",
+          "type": "propuesta",
+          "description": "Paseo por Saint-Pierre, Porte Cailhau y calles céntricas.",
+          "place": "place_bourse"
+        }
+      ]
+    },
+    {
+      "id": "d15",
+      "date": "2026-11-15",
+      "short": "Dom 15",
+      "place": "Burdeos → Bilbao",
+      "headline": "Regreso a casa",
+      "kind": "carretera",
+      "status": "confirmado",
+      "summary": "Saint-Émilion es una propuesta opcional. Devolución de Avis a las 20:00.",
+      "events": [
+        {
+          "time": "Mañana",
+          "title": "Saint-Émilion (opcional)",
+          "type": "propuesta",
+          "description": "Visita corta al pueblo si encaja con margen suficiente para volver.",
+          "place": "saint_emilion"
+        },
+        {
+          "time": "Antes de 11:00",
+          "title": "Salida del MEININGER",
+          "type": "confirmado",
+          "description": "Check-out del alojamiento.",
+          "place": "burdeos"
+        },
+        {
+          "time": "Durante el día",
+          "title": "Carretera a Bilbao",
+          "type": "confirmado",
+          "description": "Guardar margen para combustible, descansos y tráfico.",
+          "place": "bilbao"
+        },
+        {
+          "time": "20:00",
+          "title": "Devolución Avis · Bilbao Intermodal",
+          "type": "confirmado",
+          "description": "Hora de entrega confirmada.",
+          "place": "alquiler"
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "bilbao",
+      "name": "Bilbao · origen y regreso",
+      "city": "Bilbao",
+      "category": "transporte",
+      "lat": 43.263,
+      "lng": -2.935,
+      "description": "Punto de partida y regreso a Bilbao.",
+      "status": "confirmado",
+      "url": "https://www.bilbaoturismo.net/"
+    },
+    {
+      "id": "alquiler",
+      "name": "Bilbao Intermodal / Termibus",
+      "city": "Bilbao",
+      "category": "transporte",
+      "lat": 43.261,
+      "lng": -2.9484,
+      "description": "Recogida Avis el 7/11 a las 12:30 y devolución el 15/11 a las 20:00.",
+      "status": "confirmado"
+    },
+    {
+      "id": "torcy",
+      "name": "Apparthotel Torcy",
+      "city": "Torcy",
+      "category": "alojamiento",
+      "lat": 48.84105,
+      "lng": 2.65615,
+      "description": "Alojamiento reservado del 8 al 11. Parking gratuito.",
+      "status": "confirmado"
+    },
+    {
+      "id": "gare_torcy",
+      "name": "Gare de Torcy · RER A",
+      "city": "Torcy",
+      "category": "transporte",
+      "lat": 48.83947,
+      "lng": 2.65468,
+      "description": "Estación próxima al apartamento; tren hacia Disney y París.",
+      "status": "confirmado",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "disney",
+      "name": "Disneyland Paris · accesos",
+      "city": "Disney",
+      "category": "atraccion",
+      "lat": 48.8674,
+      "lng": 2.783,
+      "description": "Entradas 9–10 noviembre para ambos parques. Orden de atracciones en estudio.",
+      "status": "confirmado",
+      "url": "https://www.disneylandparis.com/es-es/calendarios/horarios-del-parque"
+    },
+    {
+      "id": "eiffel",
+      "name": "Torre Eiffel",
+      "city": "París",
+      "category": "atraccion",
+      "lat": 48.8584,
+      "lng": 2.2945,
+      "description": "Ruta nocturna A: torre primero, Trocadéro después. Propuesta opcional.",
+      "status": "propuesta",
+      "url": "https://www.toureiffel.paris/"
+    },
+    {
+      "id": "trocadero",
+      "name": "Trocadéro",
+      "city": "París",
+      "category": "atraccion",
+      "lat": 48.8627,
+      "lng": 2.2885,
+      "description": "Mirador de la Torre Eiffel en la propuesta A.",
+      "status": "propuesta"
+    },
+    {
+      "id": "arco",
+      "name": "Arco del Triunfo",
+      "city": "París",
+      "category": "atraccion",
+      "lat": 48.8738,
+      "lng": 2.295,
+      "description": "Final a pie opcional de la propuesta A.",
+      "status": "propuesta"
+    },
+    {
+      "id": "notredame",
+      "name": "Notre-Dame de París",
+      "city": "París",
+      "category": "atraccion",
+      "lat": 48.853,
+      "lng": 2.3499,
+      "description": "Paseo por el centro histórico en la propuesta B.",
+      "status": "propuesta",
+      "url": "https://www.notredamedeparis.fr/"
+    },
+    {
+      "id": "louvre",
+      "name": "Museo del Louvre · exterior",
+      "city": "París",
+      "category": "atraccion",
+      "lat": 48.8606,
+      "lng": 2.3376,
+      "description": "Final del paseo de la ruta B; visita exterior.",
+      "status": "propuesta",
+      "url": "https://www.louvre.fr/"
+    },
+    {
+      "id": "gante",
+      "name": "ibis budget Gent Centrum Dampoort",
+      "city": "Gante",
+      "category": "alojamiento",
+      "lat": 51.05967,
+      "lng": 3.73868,
+      "description": "Hotel reservado del 11 al 13. Parking 22 €/día no reservable.",
+      "status": "confirmado"
+    },
+    {
+      "id": "graslei",
+      "name": "Graslei y Korenlei",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0556,
+      "lng": 3.7201,
+      "description": "Paseo por los muelles históricos y los canales.",
+      "status": "propuesta",
+      "url": "https://visit.gent.be/"
+    },
+    {
+      "id": "gravensteen",
+      "name": "Castillo de los Condes · Gravensteen",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0573,
+      "lng": 3.7207,
+      "description": "Castillo medieval; interior pendiente de decidir.",
+      "status": "propuesta",
+      "url": "https://historischehuizen.stad.gent/en/castle-counts"
+    },
+    {
+      "id": "belfort",
+      "name": "Belfort de Gante",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0543,
+      "lng": 3.7255,
+      "description": "Campanario histórico del centro de Gante.",
+      "status": "propuesta",
+      "url": "https://visit.gent.be/"
+    },
+    {
+      "id": "bavo",
+      "name": "Catedral de San Bavón",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0532,
+      "lng": 3.7276,
+      "description": "Catedral y entorno monumental.",
+      "status": "propuesta",
+      "url": "https://www.sintbaafskathedraal.be/"
+    },
+    {
+      "id": "nantes",
+      "name": "Aparthotel Adagio Nantes Centre",
+      "city": "Nantes",
+      "category": "alojamiento",
+      "lat": 47.21682,
+      "lng": -1.54625,
+      "description": "Hotel reservado del 13 al 14. Parking 24 €/día con reserva previa.",
+      "status": "confirmado"
+    },
+    {
+      "id": "machines",
+      "name": "Les Machines de l'Île",
+      "city": "Nantes",
+      "category": "atraccion",
+      "lat": 47.2079,
+      "lng": -1.5656,
+      "description": "Galería de las Máquinas propuesta para la mañana del sábado 14. Entradas no adquiridas.",
+      "status": "propuesta",
+      "url": "https://www.lesmachines-nantes.fr/"
+    },
+    {
+      "id": "chateau_nantes",
+      "name": "Castillo de los Duques de Bretaña",
+      "city": "Nantes",
+      "category": "atraccion",
+      "lat": 47.2168,
+      "lng": -1.5496,
+      "description": "Propuesta de paseo el viernes al llegar.",
+      "status": "propuesta",
+      "url": "https://www.chateaunantes.fr/"
+    },
+    {
+      "id": "pommeraye",
+      "name": "Passage Pommeraye",
+      "city": "Nantes",
+      "category": "atraccion",
+      "lat": 47.2137,
+      "lng": -1.5614,
+      "description": "Galería comercial histórica, en la propuesta de paseo.",
+      "status": "propuesta"
+    },
+    {
+      "id": "burdeos",
+      "name": "MEININGER Bordeaux Gare Saint-Jean",
+      "city": "Burdeos",
+      "category": "alojamiento",
+      "lat": 44.82718,
+      "lng": -0.55193,
+      "description": "Hotel reservado del 14 al 15. No dispone de parking propio.",
+      "status": "confirmado"
+    },
+    {
+      "id": "place_bourse",
+      "name": "Place de la Bourse",
+      "city": "Burdeos",
+      "category": "atraccion",
+      "lat": 44.8415,
+      "lng": -0.5696,
+      "description": "Plaza junto al Garona, ideal para paseo vespertino.",
+      "status": "propuesta",
+      "url": "https://www.bordeaux-tourisme.com/"
+    },
+    {
+      "id": "porte_cailhau",
+      "name": "Porte Cailhau",
+      "city": "Burdeos",
+      "category": "atraccion",
+      "lat": 44.8388,
+      "lng": -0.5681,
+      "description": "Puerta histórica en el paseo propuesto por Burdeos.",
+      "status": "propuesta"
+    },
+    {
+      "id": "saint_emilion",
+      "name": "Saint-Émilion",
+      "city": "Saint-Émilion",
+      "category": "atraccion",
+      "lat": 44.8942,
+      "lng": -0.1556,
+      "description": "Pueblo medieval, excursión opcional domingo 15; no confirmada.",
+      "status": "propuesta",
+      "url": "https://www.saint-emilion-tourisme.com/"
+    }
+  ],
+  "routes": [
+    {
+      "id": "road8",
+      "name": "Bilbao → Torcy (ruta A elegida)",
+      "type": "coche",
+      "status": "confirmado",
+      "from": "Bilbao, España",
+      "to": "Apparthotel Torcy, 6 Rue Charlie Chaplin, 77200 Torcy, France",
+      "stops": [
+        "Irun, España",
+        "Bayonne, France",
+        "Bordeaux, France",
+        "Poitiers, France",
+        "Tours, France"
+      ],
+      "note": "Por autopistas A63/A10 y conexión A4 según navegación. Paradas reales por ajustar."
+    },
+    {
+      "id": "road11",
+      "name": "Torcy → Gante",
+      "type": "coche",
+      "status": "confirmado",
+      "from": "Apparthotel Torcy, 6 Rue Charlie Chaplin, Torcy, France",
+      "to": "Koopvaardijlaan 29, 9000 Gent, Belgium",
+      "stops": [],
+      "note": "Revisar LEZ de Gante antes de entrar con matrícula extranjera."
+    },
+    {
+      "id": "road13",
+      "name": "Gante → Nantes",
+      "type": "coche",
+      "status": "confirmado",
+      "from": "Koopvaardijlaan 29, Gent, Belgium",
+      "to": "19 Allée du Commandant Charcot, Nantes, France",
+      "stops": [],
+      "note": "Trayecto largo; planificar descansos y salida temprana."
+    },
+    {
+      "id": "road14",
+      "name": "Nantes → Burdeos",
+      "type": "coche",
+      "status": "confirmado",
+      "from": "19 Allée du Commandant Charcot, Nantes, France",
+      "to": "12 Rue du Commerce, Bordeaux, France",
+      "stops": [],
+      "note": "Los planes matutinos de Nantes siguen siendo propuestas."
+    },
+    {
+      "id": "road15",
+      "name": "Burdeos → Bilbao",
+      "type": "coche",
+      "status": "confirmado",
+      "from": "12 Rue du Commerce, Bordeaux, France",
+      "to": "Bilbao Intermodal, Bilbao, España",
+      "stops": [],
+      "note": "Llegar con margen para devolver Avis a las 20:00."
+    },
+    {
+      "id": "optional_saint",
+      "name": "Desvío opcional: Saint-Émilion",
+      "type": "coche",
+      "status": "propuesta",
+      "from": "12 Rue du Commerce, Bordeaux, France",
+      "to": "Bilbao Intermodal, Bilbao, España",
+      "stops": [
+        "Saint-Emilion, France"
+      ],
+      "note": "Solo si se confirma y deja margen suficiente."
+    },
+    {
+      "id": "rer_disney",
+      "name": "Torcy → Disneyland (RER A)",
+      "type": "transporte",
+      "status": "propuesta",
+      "from": "Gare de Torcy, Torcy, France",
+      "to": "Gare de Marne-la-Vallee Chessy, Chessy, France",
+      "stops": [],
+      "note": "Tres paradas sentido Marne-la-Vallée–Chessy. Recomendación logística, no elección definitiva."
+    },
+    {
+      "id": "paris_a_rail",
+      "name": "París A · Torcy → Étoile (RER A)",
+      "type": "transporte",
+      "status": "propuesta",
+      "from": "Gare de Torcy, Torcy, France",
+      "to": "Charles de Gaulle-Etoile, Paris, France",
+      "stops": [],
+      "note": "Después autobús 30 hacia Tour Eiffel. Metro 6 cerrada el domingo 8."
+    },
+    {
+      "id": "paris_a_bus",
+      "name": "París A · Étoile → Torre Eiffel (bus 30)",
+      "type": "transporte",
+      "status": "propuesta",
+      "from": "Charles de Gaulle Etoile Kleber Bus Stop, Paris, France",
+      "to": "Tour Eiffel Bus Stop, Paris, France",
+      "stops": [],
+      "note": "Comprobar línea y sentido del bus en el planificador; el enlace puede proponer otra combinación."
+    },
+    {
+      "id": "paris_a_walk",
+      "name": "París A · Torre Eiffel → Trocadéro → Arco",
+      "type": "pie",
+      "status": "propuesta",
+      "from": "Tour Eiffel, Paris, France",
+      "to": "Arc de Triomphe, Paris, France",
+      "stops": [
+        "Pont d'Iena, Paris, France",
+        "Place du Trocadero, Paris, France"
+      ],
+      "note": "El Arco es un extra opcional. Si falta energía, regresar antes en bus 30."
+    },
+    {
+      "id": "paris_b_rail",
+      "name": "París B · Torcy → Châtelet (RER A)",
+      "type": "transporte",
+      "status": "propuesta",
+      "from": "Gare de Torcy, Torcy, France",
+      "to": "Chatelet Les Halles, Paris, France",
+      "stops": [],
+      "note": "Después paseo histórico por el Sena."
+    },
+    {
+      "id": "paris_b_walk",
+      "name": "París B · recorrido histórico a pie",
+      "type": "pie",
+      "status": "propuesta",
+      "from": "Chatelet Les Halles, Paris, France",
+      "to": "Palais Royal Musee du Louvre, Paris, France",
+      "stops": [
+        "Hotel de Ville, Paris, France",
+        "Cathedrale Notre-Dame de Paris, France",
+        "Pont Neuf, Paris, France",
+        "Pyramide du Louvre, Paris, France"
+      ],
+      "note": "Regreso por M1 hasta Châtelet + RER A a Torcy, o a pie hasta Châtelet."
+    },
+    {
+      "id": "gent_walk",
+      "name": "Gante · paseo monumental",
+      "type": "pie",
+      "status": "propuesta",
+      "from": "Gravensteen, Ghent, Belgium",
+      "to": "Saint Bavo Cathedral, Ghent, Belgium",
+      "stops": [
+        "Graslei, Ghent, Belgium",
+        "Belfry of Ghent, Ghent, Belgium"
+      ],
+      "note": "No es un itinerario definitivo, solo una idea de jornada."
+    },
+    {
+      "id": "nantes_walk",
+      "name": "Nantes · paseo al llegar",
+      "type": "pie",
+      "status": "propuesta",
+      "from": "Chateau des ducs de Bretagne, Nantes, France",
+      "to": "Passage Pommeraye, Nantes, France",
+      "stops": [
+        "Place du Bouffay, Nantes, France"
+      ],
+      "note": "Solo si la llegada del viernes lo permite."
+    },
+    {
+      "id": "bordeaux_walk",
+      "name": "Burdeos · tarde-noche a pie",
+      "type": "pie",
+      "status": "propuesta",
+      "from": "Place de la Bourse, Bordeaux, France",
+      "to": "Grand Theatre, Bordeaux, France",
+      "stops": [
+        "Porte Cailhau, Bordeaux, France",
+        "Place Saint Pierre, Bordeaux, France"
+      ],
+      "note": "Recorrido opcional del sábado."
+    }
+  ],
+  "costs": {
+    "reserved": [
+      {
+        "name": "Torcy · alojamiento",
+        "cost": 344.07
+      },
+      {
+        "name": "Gante · alojamiento",
+        "cost": 200.8
+      },
+      {
+        "name": "Nantes · alojamiento",
+        "cost": 100.1
+      },
+      {
+        "name": "Burdeos · alojamiento",
+        "cost": 68.25
+      },
+      {
+        "name": "Disneyland Paris · entradas",
+        "cost": 531
+      },
+      {
+        "name": "Avis · alquiler",
+        "cost": 835.66
+      }
+    ],
+    "roadEstimate": {
+      "km": 2660,
+      "fuel": 284,
+      "tolls": 212,
+      "assumptions": "2.660 km de referencia, consumo supuesto 6,5 l/100 km y combustible a 1,65 €/l. Los peajes son una estimación sin cálculo oficial actualizado.",
+      "segments": [
+        {
+          "name": "Bilbao → Torcy",
+          "km": 915,
+          "fuel": 98,
+          "tolls": 80
+        },
+        {
+          "name": "Torcy ↔ Disney en coche (opcional)",
+          "km": 60,
+          "fuel": 6,
+          "tolls": 0
+        },
+        {
+          "name": "Torcy → Gante",
+          "km": 300,
+          "fuel": 32,
+          "tolls": 18
+        },
+        {
+          "name": "Gante → Nantes",
+          "km": 700,
+          "fuel": 75,
+          "tolls": 55
+        },
+        {
+          "name": "Nantes → Burdeos",
+          "km": 345,
+          "fuel": 37,
+          "tolls": 28
+        },
+        {
+          "name": "Burdeos → Bilbao",
+          "km": 340,
+          "fuel": 36,
+          "tolls": 31
+        }
+      ]
+    },
+    "rer": {
+      "ticket": 2.55,
+      "bus": 2.05,
+      "disneyTwoDaysGroup": 30.6,
+      "parisRoundGroup": 15.3
+    },
+    "notes": "Importes reservados no equivalen a pagos realizados. Estimaciones de carretera no incluyen recorridos extra ni desvíos."
+  },
+  "resources": [
+    {
+      "category": "Disney",
+      "name": "Horarios oficiales Disney",
+      "url": "https://www.disneylandparis.com/es-es/calendarios/horarios-del-parque"
+    },
+    {
+      "category": "Disney",
+      "name": "Atracciones y espectáculos",
+      "url": "https://www.disneylandparis.com/en-int/attractions"
+    },
+    {
+      "category": "Disney",
+      "name": "Navidad Disneyland Paris",
+      "url": "https://www.disneylandparis.com/es-es/las-temporadas/navidad-en-disneyland-paris"
+    },
+    {
+      "category": "París",
+      "name": "RATP · línea 6 (cierre del 8 nov.)",
+      "url": "https://www.ratp.fr/decouvrir/coulisses/modernisation-du-reseau/metro-ligne-6-travaux"
+    },
+    {
+      "category": "París",
+      "name": "Planificador RER A",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "category": "París",
+      "name": "Tarifa billete RER",
+      "url": "https://www.iledefrance-mobilites.fr/es/titres-et-tarifs/detail/ticket-metro-train-rer"
+    },
+    {
+      "category": "Gante",
+      "name": "Zona de bajas emisiones LEZ",
+      "url": "https://visit.gent.be/es/zona-de-baja-emision-gante"
+    },
+    {
+      "category": "Gante",
+      "name": "Turismo oficial de Gante",
+      "url": "https://visit.gent.be/es"
+    },
+    {
+      "category": "Nantes",
+      "name": "Les Machines de l'Île · entradas",
+      "url": "https://reservation.lesmachines-nantes.fr/"
+    },
+    {
+      "category": "Nantes",
+      "name": "Castillo de Nantes",
+      "url": "https://www.chateaunantes.fr/"
+    },
+    {
+      "category": "Burdeos",
+      "name": "Oficina de turismo de Burdeos",
+      "url": "https://www.bordeaux-tourisme.com/"
+    },
+    {
+      "category": "Saint-Émilion",
+      "name": "Información turística oficial",
+      "url": "https://www.saint-emilion-tourisme.com/"
+    }
+  ],
+  "alerts": [
+    {
+      "title": "Metro línea 6 cerrado el domingo 8",
+      "description": "RATP confirma cierre total el 8 de noviembre de 2026. Las rutas nocturnas propuestas evitan esa línea.",
+      "status": "verificado",
+      "url": "https://www.ratp.fr/decouvrir/coulisses/modernisation-du-reseau/metro-ligne-6-travaux"
+    },
+    {
+      "title": "Gante: revisar LEZ con matrícula extranjera",
+      "description": "La zona central restringe vehículos y puede exigir registro de matrículas extranjeras. Comprobar antes de circular.",
+      "status": "pendiente",
+      "url": "https://visit.gent.be/es/zona-de-baja-emision-gante"
+    },
+    {
+      "title": "Nantes y Burdeos: parking por resolver",
+      "description": "En Nantes el alojamiento ofrece parking de pago con reserva; en Burdeos no tiene parking propio.",
+      "status": "pendiente"
+    },
+    {
+      "title": "Crush's Coaster: cerrado en Disney",
+      "description": "Reforma oficial desde septiembre de 2026 hasta verano de 2027; no incluirlo en las rutas.",
+      "status": "verificado",
+      "url": "https://news.disneylandparis.com/en/crushs-coaster-refurbishment-beginning-in-september-2026/"
+    },
+    {
+      "title": "Horarios de espectáculos y visitas",
+      "description": "Las horas definitivas de Disney, transportes, Galería de las Máquinas y otras actividades deben confirmarse en las fuentes oficiales.",
+      "status": "pendiente"
+    }
+  ]
+}
