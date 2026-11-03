@@ -1,447 +1,1978 @@
 {
   "meta": {
-    "title": "Francia & Bélgica 2026",
-    "subtitle": "Ocho días para descubrir ciudades, parques y carreteras",
+    "title": "Francia y Bélgica",
+    "version": "2.0",
+    "updated": "2026-11-03",
     "start": "2026-11-08",
     "end": "2026-11-15",
-    "party": 3,
-    "updated": "2026-11-03",
-    "version": "1.2",
-    "published": "2026-11-03",
-    "privacy": "Versión pública del itinerario. No contiene entradas, localizadores ni documentación privada."
-  },
-  "stays": [
-    {
-      "id": "torcy",
-      "name": "Apparthotel Torcy",
-      "city": "Torcy",
-      "checkin": "8 nov. · desde 15:00",
-      "checkout": "11 nov. · hasta 12:00",
-      "price": 344.07,
-      "address": "6 Rue Charlie Chaplin, 77200 Torcy, Francia",
-      "parking": "Aparcamiento público gratuito, según la reserva",
-      "lat": 48.84105,
-      "lng": 2.65615,
-      "website": "https://www.apparthotel-torcy.com/",
-      "status": "confirmado"
-    },
-    {
-      "id": "gante",
-      "name": "ibis budget Gent Centrum Dampoort",
-      "city": "Gante",
-      "checkin": "11 nov. · desde 15:00",
-      "checkout": "13 nov. · hasta 12:00",
-      "price": 200.8,
-      "address": "Koopvaardijlaan 29, 9000 Gent, Bélgica",
-      "parking": "Parking público 22 €/día, no reservable (según la reserva)",
-      "lat": 51.05967,
-      "lng": 3.73868,
-      "status": "confirmado",
-      "website": "https://all.accor.com/"
-    },
-    {
-      "id": "nantes",
-      "name": "Aparthotel Adagio Nantes Centre",
-      "city": "Nantes",
-      "checkin": "13 nov. · desde 15:00",
-      "checkout": "14 nov. · hasta 11:00",
-      "price": 100.1,
-      "address": "19 Allée du Commandant Charcot, 44000 Nantes, Francia",
-      "parking": "Parking del alojamiento 24 €/día; requiere reserva",
-      "lat": 47.21682,
-      "lng": -1.54625,
-      "website": "https://all.accor.com/",
-      "status": "confirmado"
-    },
-    {
-      "id": "burdeos",
-      "name": "MEININGER Bordeaux Gare Saint-Jean",
-      "city": "Burdeos",
-      "checkin": "14 nov. · desde 15:00",
-      "checkout": "15 nov. · hasta 11:00",
-      "price": 68.25,
-      "address": "12 rue du Commerce, 33000 Bordeaux, Francia",
-      "parking": "Sin parking propio. Buscar alternativa cercana.",
-      "lat": 44.82718,
-      "lng": -0.55193,
-      "website": "https://www.meininger-hotels.com/",
-      "status": "confirmado"
-    }
-  ],
-  "rental": {
-    "company": "Avis",
-    "pickup": "7 nov. · 12:30",
-    "return": "15 nov. · 20:00",
-    "location": "Bilbao Intermodal / Termibus (NO aeropuerto)",
-    "price": 835.66,
-    "features": [
-      "Dos conductores incluidos",
-      "Kilometraje ilimitado",
-      "Coberturas completas",
-      "Circulación España–Francia–Bélgica"
-    ],
-    "status": "confirmado"
-  },
-  "tickets": {
-    "name": "Disneyland Paris",
-    "dates": "9 y 10 noviembre",
-    "parkAccess": "Dos días, dos parques, tres adultos",
-    "total": 531,
-    "status": "confirmado"
+    "party": 3
   },
   "days": [
     {
-      "id": "d7",
-      "date": "2026-11-07",
-      "short": "Sáb 7",
-      "place": "Bilbao",
-      "headline": "Recoger el coche",
-      "kind": "logistica",
-      "status": "confirmado",
-      "summary": "Preparar el vehículo para salir temprano al día siguiente.",
-      "events": [
-        {
-          "time": "12:30",
-          "title": "Recogida Avis · Bilbao Intermodal",
-          "type": "confirmado",
-          "description": "Dos conductores; comprobar vehículo y condiciones antes de salir.",
-          "place": "alquiler"
-        }
+      "day": 8,
+      "weekday": "DOM",
+      "title": "Viaje y llegada a Torcy",
+      "text": "Bilbao → Torcy. París nocturno, si encaja.",
+      "links": [
+        [
+          "Torcy–París",
+          "#/torcy-paris"
+        ]
       ]
     },
     {
-      "id": "d8",
-      "date": "2026-11-08",
-      "short": "Dom 8",
-      "place": "Bilbao → Torcy",
-      "headline": "Rumbo a París",
-      "kind": "carretera",
-      "status": "confirmado",
-      "summary": "Jornada larga por autopista. La escapada nocturna a París es opcional.",
-      "events": [
-        {
-          "time": "Mañana",
-          "title": "Salida de Bilbao hacia Torcy",
-          "type": "confirmado",
-          "description": "Ruta elegida A: Irún → Bayona → Burdeos → Poitiers → Tours → Torcy. A63 / A10 / accesos A4.",
-          "place": "torcy"
-        },
-        {
-          "time": "Desde 15:00",
-          "title": "Entrada en Apparthotel Torcy",
-          "type": "confirmado",
-          "description": "Llegada según tráfico y descansos; parking gratuito del alojamiento.",
-          "place": "torcy"
-        },
-        {
-          "time": "Si hay energía",
-          "title": "París iluminado (ruta A o B)",
-          "type": "propuesta",
-          "description": "Dos alternativas en transporte público, sin visita obligatoria. La línea 6 estará cerrada todo el domingo.",
-          "place": "eiffel"
-        }
+      "day": 9,
+      "weekday": "LUN",
+      "title": "Disney · Disneyland Park",
+      "text": "Primer parque y espectáculo nocturno.",
+      "links": [
+        [
+          "Plan del lunes",
+          "#/disney/lunes"
+        ]
       ]
     },
     {
-      "id": "d9",
-      "date": "2026-11-09",
-      "short": "Lun 9",
-      "place": "Disneyland Paris",
-      "headline": "Magia y grandes clásicos",
-      "kind": "parque",
-      "status": "confirmado",
-      "summary": "Entrada confirmada para los dos parques. Orden de atracciones propuesto, flexible.",
-      "events": [
-        {
-          "time": "Antes de apertura",
-          "title": "Torcy → Marne-la-Vallée–Chessy (RER A)",
-          "type": "propuesta",
-          "description": "Desde Gare de Torcy, 3 paradas hasta Disney. Comprobar primeros trenes.",
-          "place": "disney"
-        },
-        {
-          "time": "09:30 aprox.",
-          "title": "Disneyland Park: Big Thunder Mountain",
-          "type": "propuesta",
-          "description": "Alternar con Phantom Manor si la cola es demasiado larga.",
-          "place": "disney"
-        },
-        {
-          "time": "Media mañana",
-          "title": "Indiana Jones · Pirates of the Caribbean",
-          "type": "propuesta",
-          "description": "Revisar tiempos de espera en la app oficial.",
-          "place": "disney"
-        },
-        {
-          "time": "Tarde",
-          "title": "Hyperspace Mountain · Star Tours",
-          "type": "propuesta",
-          "description": "Comida rápida y tiempo para decoración de Navidad.",
-          "place": "disney"
-        },
-        {
-          "time": "Noche",
-          "title": "Disney Tales of Magic",
-          "type": "propuesta",
-          "description": "Horario exacto por confirmar en la app oficial.",
-          "place": "disney"
-        }
+      "day": 10,
+      "weekday": "MAR",
+      "title": "Disney · Adventure World",
+      "text": "Segundo parque y espectáculo nocturno.",
+      "links": [
+        [
+          "Plan del martes",
+          "#/disney/martes"
+        ]
       ]
     },
     {
-      "id": "d10",
-      "date": "2026-11-10",
-      "short": "Mar 10",
-      "place": "Disney Adventure World",
-      "headline": "La otra cara de Disney",
-      "kind": "parque",
-      "status": "confirmado",
-      "summary": "Segundo día con entrada confirmada. Crush’s Coaster cerrado por reforma.",
-      "events": [
-        {
-          "time": "09:30 aprox.",
-          "title": "Tower of Terror",
-          "type": "propuesta",
-          "description": "Prioridad matinal según cola real.",
-          "place": "disney"
-        },
-        {
-          "time": "Media mañana",
-          "title": "Avengers Assemble: Flight Force · Ratatouille",
-          "type": "propuesta",
-          "description": "Valorar Single Rider si está activo.",
-          "place": "disney"
-        },
-        {
-          "time": "Tarde",
-          "title": "Mickey and the Magician · Adventure Way",
-          "type": "propuesta",
-          "description": "Paseo por Arendelle y espectáculos si coinciden horarios.",
-          "place": "disney"
-        },
-        {
-          "time": "Noche",
-          "title": "Disney Cascade of Lights",
-          "type": "propuesta",
-          "description": "La hora se consultará en la app oficial.",
-          "place": "disney"
-        }
+      "day": 11,
+      "weekday": "MIÉ",
+      "title": "Torcy → Gante",
+      "text": "Viaje, alojamiento y primer paseo.",
+      "links": [
+        [
+          "Gante",
+          "#/gante"
+        ]
       ]
     },
     {
-      "id": "d11",
-      "date": "2026-11-11",
-      "short": "Mié 11",
-      "place": "Torcy → Gante",
-      "headline": "Cruzamos a Bélgica",
-      "kind": "carretera",
-      "status": "confirmado",
-      "summary": "Salida de Torcy y llegada al hotel en Gante. Paseo vespertino opcional.",
-      "events": [
-        {
-          "time": "Antes de 12:00",
-          "title": "Salida del Apparthotel Torcy",
-          "type": "confirmado",
-          "description": "Check-out.",
-          "place": "torcy"
-        },
-        {
-          "time": "Durante el día",
-          "title": "Carretera hasta Gante",
-          "type": "confirmado",
-          "description": "Comprobar restricciones LEZ y matrícula del coche de alquiler.",
-          "place": "gante"
-        },
-        {
-          "time": "Desde 15:00",
-          "title": "Entrada en ibis budget Gent Centrum Dampoort",
-          "type": "confirmado",
-          "description": "Parking público del hotel anunciado a 22 €/día.",
-          "place": "gante"
-        },
-        {
-          "time": "Si queda tiempo",
-          "title": "Graslei y Korenlei al atardecer",
-          "type": "propuesta",
-          "description": "Paseo por canales y fachadas históricas.",
-          "place": "graslei"
-        }
+      "day": 12,
+      "weekday": "JUE",
+      "title": "Gante y excursiones en tren",
+      "text": "Reparto de visitas y trenes por concretar.",
+      "links": [
+        [
+          "Gante",
+          "#/gante"
+        ],
+        [
+          "Brujas",
+          "#/brujas"
+        ],
+        [
+          "Bruselas",
+          "#/bruselas"
+        ]
       ]
     },
     {
-      "id": "d12",
-      "date": "2026-11-12",
-      "short": "Jue 12",
-      "place": "Gante",
-      "headline": "Una jornada medieval",
-      "kind": "ciudad",
-      "status": "propuesta",
-      "summary": "Día completo en la ciudad; recorrido a pie todavía por acordar.",
-      "events": [
-        {
-          "time": "Mañana",
-          "title": "Gravensteen · centro histórico",
-          "type": "propuesta",
-          "description": "Consultar si interesa visitar el interior del castillo.",
-          "place": "gravensteen"
-        },
-        {
-          "time": "Mediodía",
-          "title": "Graslei · Korenlei · Belfort",
-          "type": "propuesta",
-          "description": "Fotografía, paseo y almuerzo.",
-          "place": "graslei"
-        },
-        {
-          "time": "Tarde",
-          "title": "Catedral de San Bavón · Patershol",
-          "type": "propuesta",
-          "description": "Elegir visitas según horarios y energía.",
-          "place": "bavo"
-        }
+      "day": 13,
+      "weekday": "VIE",
+      "title": "Gante → Nantes",
+      "text": "Trayecto largo y paseo nocturno.",
+      "links": [
+        [
+          "Nantes",
+          "#/nantes"
+        ]
       ]
     },
     {
-      "id": "d13",
-      "date": "2026-11-13",
-      "short": "Vie 13",
-      "place": "Gante → Nantes",
-      "headline": "Gran jornada en carretera",
-      "kind": "carretera",
-      "status": "confirmado",
-      "summary": "Traslado largo. Las visitas de Nantes dependerán de la hora real de llegada.",
-      "events": [
-        {
-          "time": "Mañana",
-          "title": "Salir temprano de Gante",
-          "type": "propuesta",
-          "description": "Aunque el check-out es hasta las 12:00, conviene adelantar la salida por la distancia.",
-          "place": "gante"
-        },
-        {
-          "time": "Durante el día",
-          "title": "Traslado a Nantes",
-          "type": "confirmado",
-          "description": "Prever pausas, peajes y tráfico.",
-          "place": "nantes"
-        },
-        {
-          "time": "Desde 15:00",
-          "title": "Aparthotel Adagio Nantes Centre",
-          "type": "confirmado",
-          "description": "Alojamiento reservado. Parking de pago pendiente de decidir.",
-          "place": "nantes"
-        },
-        {
-          "time": "Tarde-noche",
-          "title": "Castillo de los Duques · Bouffay",
-          "type": "propuesta",
-          "description": "Paseo exterior si hay margen tras el viaje.",
-          "place": "chateau_nantes"
-        }
+      "day": 14,
+      "weekday": "SÁB",
+      "title": "Máquinas de la Isla → Burdeos",
+      "text": "Visita en Nantes, viaje y noche en Burdeos.",
+      "links": [
+        [
+          "Nantes",
+          "#/nantes"
+        ],
+        [
+          "Burdeos",
+          "#/burdeos"
+        ]
       ]
     },
     {
-      "id": "d14",
-      "date": "2026-11-14",
-      "short": "Sáb 14",
-      "place": "Nantes → Burdeos",
-      "headline": "Máquinas y ciudad de piedra",
-      "kind": "carretera",
-      "status": "confirmado",
-      "summary": "Máquinas de la Isla por la mañana (propuesta) y Burdeos por la tarde.",
-      "events": [
-        {
-          "time": "Mañana",
-          "title": "Galería de las Máquinas de la Isla",
-          "type": "propuesta",
-          "description": "La visita requiere entrada; comprobar y reservar si se confirma.",
-          "place": "machines"
-        },
-        {
-          "time": "Antes de 11:00",
-          "title": "Check-out Adagio Nantes Centre",
-          "type": "confirmado",
-          "description": "Coordinar equipaje, vehículo y horarios de la galería.",
-          "place": "nantes"
-        },
-        {
-          "time": "Mediodía",
-          "title": "Salida hacia Burdeos",
-          "type": "propuesta",
-          "description": "Horario final por ajustar a las actividades.",
-          "place": "burdeos"
-        },
-        {
-          "time": "Desde 15:00",
-          "title": "MEININGER Bordeaux Gare Saint-Jean",
-          "type": "confirmado",
-          "description": "Hotel sin aparcamiento propio; alternativa pendiente.",
-          "place": "burdeos"
-        },
-        {
-          "time": "Atardecer",
-          "title": "Place de la Bourse · centro histórico",
-          "type": "propuesta",
-          "description": "Paseo por Saint-Pierre, Porte Cailhau y calles céntricas.",
-          "place": "place_bourse"
-        }
-      ]
-    },
-    {
-      "id": "d15",
-      "date": "2026-11-15",
-      "short": "Dom 15",
-      "place": "Burdeos → Bilbao",
-      "headline": "Regreso a casa",
-      "kind": "carretera",
-      "status": "confirmado",
-      "summary": "Saint-Émilion es una propuesta opcional. Devolución de Avis a las 20:00.",
-      "events": [
-        {
-          "time": "Mañana",
-          "title": "Saint-Émilion (opcional)",
-          "type": "propuesta",
-          "description": "Visita corta al pueblo si encaja con margen suficiente para volver.",
-          "place": "saint_emilion"
-        },
-        {
-          "time": "Antes de 11:00",
-          "title": "Salida del MEININGER",
-          "type": "confirmado",
-          "description": "Check-out del alojamiento.",
-          "place": "burdeos"
-        },
-        {
-          "time": "Durante el día",
-          "title": "Carretera a Bilbao",
-          "type": "confirmado",
-          "description": "Guardar margen para combustible, descansos y tráfico.",
-          "place": "bilbao"
-        },
-        {
-          "time": "20:00",
-          "title": "Devolución Avis · Bilbao Intermodal",
-          "type": "confirmado",
-          "description": "Hora de entrega confirmada.",
-          "place": "alquiler"
-        }
+      "day": 15,
+      "weekday": "DOM",
+      "title": "Saint-Émilion → Bilbao",
+      "text": "Visita por la mañana. Avis en Bilbao a las 20:00.",
+      "links": [
+        [
+          "Saint-Émilion",
+          "#/saint-emilion"
+        ],
+        [
+          "Bilbao",
+          "#/bilbao"
+        ]
       ]
     }
   ],
-  "places": [
+  "pages": [
+    {
+      "id": "torcy-paris",
+      "title": "Torcy–París",
+      "date": "8–11 noviembre",
+      "intro": "Llegada el domingo 8. París por la noche, solo si el horario y el cansancio lo permiten.",
+      "panes": [
+        {
+          "id": "llegada",
+          "label": "Llegada",
+          "blocks": [
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "Dom. 8 · salida por concretar",
+                  "title": "Bilbao → Torcy",
+                  "text": "07:00 era la propuesta de salida. Ruta A elegida por AP-8, A63 y A10, con enlaces finales hacia A4. Unas 9 h de conducción como referencia previa, más descansos y tráfico.",
+                  "status": "confirmado",
+                  "route": "road8",
+                  "link": null
+                },
+                {
+                  "time": "Durante el viaje",
+                  "title": "Paradas de carretera",
+                  "text": "Océan Est: descanso y combustible si hace falta. Tours Val de Loire: propuesta para comida y repostaje. Horas y paradas sin cerrar.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "Desde 15:00",
+                  "title": "Entrada en Apparthotel Torcy",
+                  "text": "Llegada orientativa previa: 18:00–19:00, sin garantía. Aparcamiento gratuito según reserva.",
+                  "status": "confirmado",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "Por la noche",
+                  "title": "Valorar París",
+                  "text": "Elegir una sola ruta, A o B. Si llegamos tarde o cansados, cenar en Torcy y descansar.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Para seguir",
+              "items": [
+                {
+                  "label": "Ver alojamiento",
+                  "url": "#/torcy-paris/hotel",
+                  "text": ""
+                },
+                {
+                  "label": "Ruta A · Torre Eiffel",
+                  "url": "#/torcy-paris/paris-a",
+                  "text": ""
+                },
+                {
+                  "label": "Ruta B · Notre-Dame y Louvre",
+                  "url": "#/torcy-paris/paris-b",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "details",
+              "title": "Paradas alternativas y archivo para My Maps",
+              "blocks": [
+                {
+                  "type": "facts",
+                  "title": "Opciones guardadas",
+                  "items": [
+                    {
+                      "label": "Poitou-Charentes Nord",
+                      "value": "Descanso o repostaje intermedio si hace falta."
+                    },
+                    {
+                      "label": "Orléans–Saran",
+                      "value": "Respaldo antes del acceso a París."
+                    }
+                  ]
+                },
+                {
+                  "type": "note",
+                  "title": "Criterio del trayecto",
+                  "text": "Priorizar tiempo y no desviarnos de la autopista. Los precios de combustible anteriores no se usan como tarifas actuales.",
+                  "tone": "plain",
+                  "url": null
+                },
+                {
+                  "type": "links",
+                  "title": "Archivo",
+                  "items": [
+                    {
+                      "label": "Descargar gasolineras para My Maps",
+                      "url": "assets/gasolineras-bilbao-torcy.csv",
+                      "text": "CSV con origen, destino y cuatro áreas de servicio."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paris-a",
+          "label": "París A",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Domingo 8: metro 6 cerrado",
+              "text": "RATP confirma cierre de toda la línea durante el día. Esta propuesta usa RER A y bus 30.",
+              "tone": "pending",
+              "url": "https://www.ratp.fr/decouvrir/coulisses/modernisation-du-reseau/metro-ligne-6-travaux"
+            },
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "1 · A pie",
+                  "title": "Apartamento → Gare de Torcy",
+                  "text": "Unos 5–7 min. Referencia: Léon Blum, salida 2.",
+                  "status": "propuesta",
+                  "route": "hotel_rer",
+                  "link": null
+                },
+                {
+                  "time": "2 · RER A",
+                  "title": "Torcy → Charles de Gaulle–Étoile",
+                  "text": "Dirección París; bajar en Étoile. Tiempo anterior de referencia: 35–45 min, sin espera ni paseo.",
+                  "status": "propuesta",
+                  "route": "a_rer",
+                  "link": null
+                },
+                {
+                  "time": "3 · Bus 30",
+                  "title": "Étoile–Kléber → Tour Eiffel",
+                  "text": "Salir hacia Charles de Gaulle–Étoile–Kléber. Sentido Hôpital Européen Georges Pompidou. Pasar por Trocadéro y bajar en Tour Eiffel.",
+                  "status": "propuesta",
+                  "route": "a_bus",
+                  "link": null
+                },
+                {
+                  "time": "4 · Paseo",
+                  "title": "Torre Eiffel → Pont d’Iéna → Trocadéro",
+                  "text": "Comenzar junto a la torre y terminar en la explanada. El tramo largo por Kléber queda como opcional.",
+                  "status": "propuesta",
+                  "route": "a_walk",
+                  "link": null
+                }
+              ]
+            },
+            {
+              "type": "details",
+              "title": "Regreso a Torcy y Arco opcional",
+              "open": false,
+              "blocks": [
+                {
+                  "type": "routes",
+                  "ids": [
+                    "a_bus_back",
+                    "a_back",
+                    "hotel_back",
+                    "a_arc"
+                  ]
+                },
+                {
+                  "type": "note",
+                  "title": "Cómo volver",
+                  "text": "Desde Trocadéro: bus 30 hacia Pigalle hasta Étoile–Kléber y después RER A a Torcy. Si añadís el Arco caminando por Kléber, enlazad allí con el RER A. El último tramo estación–hotel es el paseo de ida en sentido inverso.",
+                  "tone": "plain",
+                  "url": null
+                }
+              ]
+            },
+            {
+              "type": "details",
+              "title": "Billetes y horarios",
+              "blocks": [
+                {
+                  "type": "facts",
+                  "title": "Billetes · 3 adultos",
+                  "items": [
+                    {
+                      "label": "RER ida y vuelta",
+                      "value": "15,30 € para el grupo."
+                    },
+                    {
+                      "label": "Bus 30 adicional",
+                      "value": "2,05 € por persona y trayecto; 12,30 € el grupo si se usa ida y vuelta."
+                    },
+                    {
+                      "label": "Total con dos buses",
+                      "value": "27,60 € para los tres, sin coste del soporte."
+                    }
+                  ]
+                },
+                {
+                  "type": "note",
+                  "title": "Antes de salir",
+                  "text": "Comprobar últimos trenes y paso del bus en la parada. La ficha del bus anuncia últimos inicios de servicio a las 22:30 desde cabeceras; esa hora no es el último paso en Trocadéro.",
+                  "tone": "plain",
+                  "url": "https://ilico.iledefrance-mobilites.fr/uploads/fiches/20261001T120308Z-5d5f0450-5065-4774-b5e1-99c2ebe85961.pdf"
+                },
+                {
+                  "type": "links",
+                  "title": "Tarifas oficiales",
+                  "items": [
+                    {
+                      "label": "Metro–Tren–RER",
+                      "url": "https://www.iledefrance-mobilites.fr/es/titres-et-tarifs/detail/ticket-metro-train-rer",
+                      "text": ""
+                    },
+                    {
+                      "label": "Bus–Tram",
+                      "url": "https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/ticket-bus-tram",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paris-b",
+          "label": "París B",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Notre-Dame, Sena y Louvre",
+              "text": "Paseo exterior propuesto. Los enlaces incluyen estaciones y regreso; el tramo a pie se divide para que todas las paradas quepan en Maps móvil.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "1 · A pie",
+                  "title": "Apartamento → Gare de Torcy",
+                  "text": "Acceso de referencia Léon Blum, salida 2.",
+                  "status": "propuesta",
+                  "route": "hotel_rer",
+                  "link": null
+                },
+                {
+                  "time": "2 · RER A",
+                  "title": "Torcy → Châtelet–Les Halles",
+                  "text": "Dirección París. Salir a superficie; referencia anterior: 30–40 min de tren, sin esperas.",
+                  "status": "propuesta",
+                  "route": "b_rer",
+                  "link": null
+                },
+                {
+                  "time": "3 · A pie",
+                  "title": "Châtelet → Hôtel de Ville → Notre-Dame",
+                  "text": "Primer tramo del paseo, con la estación de llegada incluida.",
+                  "status": "propuesta",
+                  "route": "b_walk1",
+                  "link": null
+                },
+                {
+                  "time": "4 · A pie",
+                  "title": "Notre-Dame → Pont Neuf → Louvre → Palais Royal",
+                  "text": "Ver exteriores y terminar en la estación de metro Palais Royal–Musée du Louvre.",
+                  "status": "propuesta",
+                  "route": "b_walk2",
+                  "link": null
+                }
+              ]
+            },
+            {
+              "type": "details",
+              "title": "Regreso a Torcy",
+              "open": false,
+              "blocks": [
+                {
+                  "type": "routes",
+                  "ids": [
+                    "b_metro",
+                    "b_back",
+                    "hotel_back"
+                  ]
+                },
+                {
+                  "type": "note",
+                  "title": "Enlace subterráneo",
+                  "text": "M1 dirección Château de Vincennes: Palais Royal → Louvre–Rivoli → Châtelet. Sin salir de la red, seguir RER A Châtelet–Les Halles; la conexión puede ser larga. En Torcy, caminar al hotel.",
+                  "tone": "plain",
+                  "url": null
+                },
+                {
+                  "type": "routes",
+                  "ids": [
+                    "b_walk_back"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "details",
+              "title": "Billetes y horarios",
+              "blocks": [
+                {
+                  "type": "facts",
+                  "title": "Billetes",
+                  "items": [
+                    {
+                      "label": "RER ida y vuelta",
+                      "value": "5,10 € por persona; 15,30 € los tres."
+                    },
+                    {
+                      "label": "M1 en el regreso",
+                      "value": "Incluida en la conexión Metro–Tren–RER dentro de 2 h sin salir de la red."
+                    }
+                  ]
+                },
+                {
+                  "type": "links",
+                  "title": "Servicio del día",
+                  "items": [
+                    {
+                      "label": "Horarios y obras RER A",
+                      "url": "https://www.ratp.fr/vos-lignes/rer/a",
+                      "text": ""
+                    },
+                    {
+                      "label": "Tarifa Metro–Tren–RER",
+                      "url": "https://www.iledefrance-mobilites.fr/es/titres-et-tarifs/detail/ticket-metro-train-rer",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hotel",
+          "label": "Hotel",
+          "blocks": [
+            {
+              "type": "hotel",
+              "id": "torcy"
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "hotel_rer"
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Continuar",
+              "items": [
+                {
+                  "label": "Disney · 9 y 10 noviembre",
+                  "url": "#/disney",
+                  "text": ""
+                },
+                {
+                  "label": "Gante · llegada del 11",
+                  "url": "#/gante/viaje",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mapas",
+          "label": "Mapas",
+          "blocks": [
+            {
+              "type": "map"
+            },
+            {
+              "type": "links",
+              "title": "Planos oficiales",
+              "items": [
+                {
+                  "label": "RER A · plano PDF",
+                  "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/rer_a.pdf",
+                  "text": ""
+                },
+                {
+                  "label": "Metro 1 · plano PDF",
+                  "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/m1.pdf",
+                  "text": ""
+                },
+                {
+                  "label": "Bus 30 · plano PDF",
+                  "url": "https://ilico.iledefrance-mobilites.fr/uploads/plans/20261001T120308Z-0f91820e-ffed-4ec1-9c9b-fe8ad687a464.pdf",
+                  "text": ""
+                },
+                {
+                  "label": "Bus 30 · horarios PDF",
+                  "url": "https://ilico.iledefrance-mobilites.fr/uploads/fiches/20261001T120308Z-5d5f0450-5065-4774-b5e1-99c2ebe85961.pdf",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Esquema anterior con metro 6",
+              "text": "El plano guardado antes de revisar las obras incluía la M6. Se sustituye aquí por los planos de RER A, M1 y bus 30; la M6 no sirve para el domingo 8.",
+              "tone": "plain",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "points": [
+        "torcy",
+        "torcy_rer",
+        "etoile",
+        "etoile_bus",
+        "tour_bus",
+        "eiffel",
+        "trocadero",
+        "trocadero_bus",
+        "chatelet",
+        "hotel_ville",
+        "notredame",
+        "pont_neuf",
+        "louvre",
+        "palais_royal"
+      ],
+      "next": "disney"
+    },
+    {
+      "id": "disney",
+      "title": "Disney",
+      "date": "9 y 10 noviembre",
+      "intro": "Dos días, dos parques. Entradas confirmadas para 3 adultos; recorridos propuestos y flexibles.",
+      "panes": [
+        {
+          "id": "lunes",
+          "label": "Lunes 9",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Horario de trabajo: 09:30–21:00",
+              "text": "Provisional para los días 9 y 10; falta confirmación en el calendario o la app oficial. Las horas del plan son orientativas. El espectáculo puede terminar después del cierre.",
+              "tone": "pending",
+              "url": "https://www.disneylandparis.com/es-es/calendarios/horarios-del-parque"
+            },
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "08:35–08:45",
+                  "title": "Seguridad y acceso general",
+                  "text": "Llegada sugerida; Torcy no da acceso a Extra Magic Time.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "09:30–10:20",
+                  "title": "Big Thunder Mountain / Phantom Manor",
+                  "text": "Intentar BTM primero. Si la cola supera 35–40 min, hacer Phantom Manor y reevaluar.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "10:20–11:40",
+                  "title": "Indiana Jones + Pirates of the Caribbean",
+                  "text": "Agrupar Adventureland; ajustar el orden según colas.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "11:40–14:00",
+                  "title": "Comida y Discoveryland",
+                  "text": "Comida rápida hasta 12:20 aprox.; después Hyperspace Mountain y Star Tours. Comparar Single Rider si está disponible.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "14:00–tarde",
+                  "title": "Pendientes, castillo y Navidad",
+                  "text": "Lion King si hay función y encaja. Cabalgata y encendido del árbol según la app; no tienen hora fijada.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "Noche",
+                  "title": "BTM de noche + Disney Tales of Magic",
+                  "text": "Repetición si compensa, cena y ubicación 40–45 min antes del show. Hora del espectáculo pendiente.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "A mano",
+              "items": [
+                {
+                  "label": "Abrir plano del lunes",
+                  "url": "#/disney/planos",
+                  "text": ""
+                },
+                {
+                  "label": "Cómo llegar y volver",
+                  "url": "#/disney/transporte",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "details",
+              "title": "Criterios de visita y entradas",
+              "blocks": [
+                {
+                  "type": "note",
+                  "title": "Sin Premier Access",
+                  "text": "Agrupar zonas, comer temprano y usar Single Rider si compensa y aceptamos montar separados. No cruzar el parque entero por ahorrar diez minutos de cola.",
+                  "tone": "plain",
+                  "url": null
+                },
+                {
+                  "type": "facts",
+                  "title": "Reserva",
+                  "items": [
+                    {
+                      "label": "Validez",
+                      "value": "9 y 10 de noviembre; ambos parques los dos días."
+                    },
+                    {
+                      "label": "Precio",
+                      "value": "531 € en total; 177 € por persona."
+                    },
+                    {
+                      "label": "Acceso",
+                      "value": "Entrada completa en móvil o papel y documento de identidad. Consultar el PDF privado en Drive."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "martes",
+          "label": "Martes 10",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Horario de trabajo: 09:30–21:00",
+              "text": "Provisional para los días 9 y 10; falta confirmación en el calendario o la app oficial. Las horas del plan son orientativas. El espectáculo puede terminar después del cierre.",
+              "tone": "pending",
+              "url": "https://www.disneylandparis.com/es-es/calendarios/horarios-del-parque"
+            },
+            {
+              "type": "note",
+              "title": "Crush’s Coaster cerrada",
+              "text": "Excluida por reforma. También se mantienen los descartes por preferencia: Frozen Ever After, Spider-Man W.E.B. Adventure y RC Racer.",
+              "tone": "pending",
+              "url": "https://news.disneylandparis.com/en/crushs-coaster-refurbishment-beginning-in-september-2026/"
+            },
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "08:35–08:45",
+                  "title": "Seguridad y acceso general",
+                  "text": "Llegada sugerida para Disney Adventure World.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "09:30–11:45",
+                  "title": "Tower → Flight Force → Ratatouille",
+                  "text": "Objetivos: Tower 09:30–10:20; Flight Force 10:20–11:00; Ratatouille 11:00–11:45. Orden flexible según apertura y colas.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "11:45–12:30",
+                  "title": "Comida rápida",
+                  "text": "PYM Kitchen o Chez Rémy requieren ampliar el bloque; no hay reserva de restaurante.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "12:30–15:30",
+                  "title": "Mickey and the Magician + paseo",
+                  "text": "Función si se representa; Adventure Way y Arendelle sin montar en Frozen. Orden según programa.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "15:30–18:30",
+                  "title": "Repetir o recuperar una prioridad",
+                  "text": "Tower / Flight Force. Cambiar al otro parque solo si quedó algo importante; prever 45–60 min de margen global.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "18:30–noche",
+                  "title": "Cena y Disney Cascade of Lights",
+                  "text": "Volver a Adventure World a tiempo. Reservar ubicación 40–45 min antes. Si el show es anterior, adelantar cena y cancelar el cambio de parque.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "A mano",
+              "items": [
+                {
+                  "label": "Abrir plano del martes",
+                  "url": "#/disney/planos",
+                  "text": ""
+                },
+                {
+                  "label": "Cómo regresar a Torcy",
+                  "url": "#/disney/transporte",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "transporte",
+          "label": "Transporte",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Propuesta: RER A desde Torcy",
+              "text": "Sin transporte reservado. Comprobar horarios de ida y regreso para cada fecha, especialmente al terminar los espectáculos.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "hotel_rer",
+                "disney_out",
+                "disney_back"
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Recorrido y coste",
+              "items": [
+                {
+                  "label": "Paradas",
+                  "value": "Torcy → Bussy-Saint-Georges → Val d’Europe → Marne-la-Vallée–Chessy."
+                },
+                {
+                  "label": "Duración orientativa",
+                  "value": "12–15 min de tren, más acceso, espera, controles y paseo."
+                },
+                {
+                  "label": "Precio",
+                  "value": "2,55 € por persona y trayecto. 15,30 € el grupo al día; 30,60 € los dos días."
+                },
+                {
+                  "label": "Soporte",
+                  "value": "Cada persona necesita su propio móvil compatible o Navigo Easy; la tarjeta cuesta 2 € adicionales."
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Consultar",
+              "items": [
+                {
+                  "label": "RER A · servicio y horarios",
+                  "url": "https://www.ratp.fr/vos-lignes/rer/a",
+                  "text": ""
+                },
+                {
+                  "label": "RER A · plano oficial PDF",
+                  "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/rer_a.pdf",
+                  "text": ""
+                },
+                {
+                  "label": "Alojamiento en Torcy",
+                  "url": "#/torcy-paris/hotel",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planos",
+          "label": "Planos",
+          "blocks": [
+            {
+              "type": "image",
+              "src": "assets/planos/disneyland-9.jpg",
+              "title": "Lunes 9 · Disneyland Park",
+              "text": "Ruta propuesta: Frontierland → Adventureland → Discoveryland → Main Street."
+            },
+            {
+              "type": "image",
+              "src": "assets/planos/adventure-10.jpg",
+              "title": "Martes 10 · Disney Adventure World",
+              "text": "Ruta propuesta: Tower → Avengers Campus → Ratatouille → Adventure Bay."
+            },
+            {
+              "type": "links",
+              "title": "Descargar",
+              "items": [
+                {
+                  "label": "PDF con ambos mapas",
+                  "url": "assets/planos/mapas-disney.pdf",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Cómo leer los planos",
+              "text": "Azul: mañana. Naranja: mediodía/tarde. Morado discontinuo: final del día. Numeración propia de visita. Líneas orientativas entre zonas; seguir señalización y app para accesos reales.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "links",
+              "title": "Referencia",
+              "items": [
+                {
+                  "label": "Plano base reproducido por JulieEars",
+                  "url": "https://julieears.com/en/guides/disneyland-paris-map/",
+                  "text": "© Disney. Se mantienen las atribuciones de las imágenes guardadas."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "points": [
+        "disney",
+        "adventure",
+        "chessy"
+      ],
+      "next": "gante"
+    },
+    {
+      "id": "gante",
+      "title": "Gante",
+      "date": "11–13 noviembre",
+      "intro": "Llegada el 11; el 12, Gante y posibles excursiones en tren. Salida hacia Nantes el 13.",
+      "panes": [
+        {
+          "id": "plan",
+          "label": "Plan",
+          "blocks": [
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "Mié. 11",
+                  "title": "Llegada desde Torcy",
+                  "text": "Hotel disponible desde las 15:00. Hora de salida y paradas por concretar.",
+                  "status": "confirmado",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "11 · tarde/noche",
+                  "title": "Primer paseo por Gante",
+                  "text": "Propuesta guardada: Gravensteen → Graslei → campanario → San Bavón. Visitas exteriores; ajustar al tiempo disponible.",
+                  "status": "propuesta",
+                  "route": "gent_walk",
+                  "link": null
+                },
+                {
+                  "time": "Jue. 12",
+                  "title": "Gante y excursión en tren",
+                  "text": "Brujas y Bruselas son opciones, todavía sin billetes ni horarios cerrados. Elegir cuánto tiempo queda para cada lugar.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Cada ciudad, en su página",
+              "items": [
+                {
+                  "label": "Brujas · excursión en tren",
+                  "url": "#/brujas",
+                  "text": ""
+                },
+                {
+                  "label": "Bruselas · excursión en tren",
+                  "url": "#/bruselas",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Por cerrar",
+              "text": "Distribución del día 12, visitas concretas y trenes. No se da por hecho que Gante, Brujas y Bruselas quepan con calma en la misma jornada.",
+              "tone": "pending",
+              "url": null
+            }
+          ]
+        },
+        {
+          "id": "viaje",
+          "label": "Llegada",
+          "blocks": [
+            {
+              "type": "routes",
+              "ids": [
+                "road11"
+              ]
+            },
+            {
+              "type": "note",
+              "title": "11 de noviembre",
+              "text": "Salir de Torcy antes de las 12:00; entrada en Gante desde las 15:00. La hora concreta de salida sigue pendiente.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "links",
+              "title": "Antes de entrar en coche",
+              "items": [
+                {
+                  "label": "Comprobar zona de bajas emisiones",
+                  "url": "https://visit.gent.be/es/zona-de-baja-emision-gante",
+                  "text": "Revisar las condiciones con la matrícula y el vehículo asignado."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hotel",
+          "label": "Hotel",
+          "blocks": [
+            {
+              "type": "hotel",
+              "id": "gante"
+            },
+            {
+              "type": "links",
+              "title": "Continuar",
+              "items": [
+                {
+                  "label": "Nantes · llegada del 13",
+                  "url": "#/nantes/viaje",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mapa",
+          "label": "Mapa",
+          "blocks": [
+            {
+              "type": "map"
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "gent_walk"
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Información local",
+              "items": [
+                {
+                  "label": "Turismo de Gante",
+                  "url": "https://visit.gent.be/es",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "points": [
+        "gante",
+        "gravensteen",
+        "graslei",
+        "bavo",
+        "belfry",
+        "dampoort"
+      ],
+      "next": "nantes"
+    },
+    {
+      "id": "brujas",
+      "title": "Brujas",
+      "date": "12 noviembre · posible excursión",
+      "intro": "Visita en tren desde la base de Gante. La excursión sigue pendiente de concretar.",
+      "panes": [
+        {
+          "id": "plan",
+          "label": "Plan",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Idea de visita, sin programa cerrado",
+              "text": "No hay recorrido local, visitas reservadas ni horario de salida decidido. Esta página reúne únicamente la información de Brujas.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "facts",
+              "title": "Por concretar",
+              "items": [
+                {
+                  "label": "Salida y regreso",
+                  "value": "Comprobar trenes del jueves 12 de noviembre."
+                },
+                {
+                  "label": "Visita",
+                  "value": "Elegir recorrido, tiempo disponible y lugares antes de añadirlos."
+                },
+                {
+                  "label": "Billetes",
+                  "value": "Tarifas y compra pendientes; no hay reserva."
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Plan del día",
+              "items": [
+                {
+                  "label": "Volver a Gante",
+                  "url": "#/gante",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tren",
+          "label": "Tren",
+          "blocks": [
+            {
+              "type": "routes",
+              "ids": [
+                "bruges_out",
+                "bruges_back"
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Estaciones",
+              "text": "El hotel está junto a Gent-Dampoort. Confirmar con SNCB si conviene usar esa estación o Gent-Sint-Pieters. Destino de consulta: Brugge. No se fijan trenes ni se promete conexión directa.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "links",
+              "title": "Horario oficial",
+              "items": [
+                {
+                  "label": "Planificador SNCB / NMBS",
+                  "url": "https://www.belgiantrain.be/en",
+                  "text": "Seleccionar el 12 de noviembre de 2026 y comprobar ida y vuelta."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mapa",
+          "label": "Mapa",
+          "blocks": [
+            {
+              "type": "map"
+            }
+          ]
+        }
+      ],
+      "points": [
+        "brugge"
+      ],
+      "next": null
+    },
+    {
+      "id": "bruselas",
+      "title": "Bruselas",
+      "date": "12 noviembre · posible excursión",
+      "intro": "Visita en tren desde la base de Gante. La excursión sigue pendiente de concretar.",
+      "panes": [
+        {
+          "id": "plan",
+          "label": "Plan",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Idea de visita, sin programa cerrado",
+              "text": "No hay recorrido local, visitas reservadas ni horario de salida decidido. Esta página reúne únicamente la información de Bruselas.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "facts",
+              "title": "Por concretar",
+              "items": [
+                {
+                  "label": "Salida y regreso",
+                  "value": "Comprobar trenes del jueves 12 de noviembre."
+                },
+                {
+                  "label": "Visita",
+                  "value": "Elegir recorrido, tiempo disponible y lugares antes de añadirlos."
+                },
+                {
+                  "label": "Billetes",
+                  "value": "Tarifas y compra pendientes; no hay reserva."
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Plan del día",
+              "items": [
+                {
+                  "label": "Volver a Gante",
+                  "url": "#/gante",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tren",
+          "label": "Tren",
+          "blocks": [
+            {
+              "type": "routes",
+              "ids": [
+                "brussels_out",
+                "brussels_back"
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Estaciones",
+              "text": "El hotel está junto a Gent-Dampoort. Confirmar con SNCB si conviene usar esa estación o Gent-Sint-Pieters. Destino de consulta: Bruxelles-Central. No se fijan trenes ni se promete conexión directa.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "links",
+              "title": "Horario oficial",
+              "items": [
+                {
+                  "label": "Planificador SNCB / NMBS",
+                  "url": "https://www.belgiantrain.be/en",
+                  "text": "Seleccionar el 12 de noviembre de 2026 y comprobar ida y vuelta."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mapa",
+          "label": "Mapa",
+          "blocks": [
+            {
+              "type": "map"
+            }
+          ]
+        }
+      ],
+      "points": [
+        "bruxelles"
+      ],
+      "next": null
+    },
+    {
+      "id": "nantes",
+      "title": "Nantes",
+      "date": "13–14 noviembre",
+      "intro": "Llegada el viernes, paseo nocturno y Máquinas de la Isla el sábado antes de salir hacia Burdeos.",
+      "panes": [
+        {
+          "id": "plan",
+          "label": "Plan",
+          "blocks": [
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "Vie. 13",
+                  "title": "Gante → Nantes",
+                  "text": "Segundo desplazamiento largo. Preparar descansos y no fijar una hora de paseo antes de conocer la llegada.",
+                  "status": "confirmado",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "Desde 15:00",
+                  "title": "Entrada en Adagio Nantes Centre",
+                  "text": "Alojamiento en zona peatonal; acceso y aparcamiento por resolver.",
+                  "status": "confirmado",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "13 · noche",
+                  "title": "Paseo por Nantes",
+                  "text": "Castillo de los Duques de Bretaña → Bouffay → Passage Pommeraye. Propuesta previa; comprobar si el pasaje sigue abierto.",
+                  "status": "propuesta",
+                  "route": "nantes_walk",
+                  "link": null
+                },
+                {
+                  "time": "Sáb. 14 · mañana",
+                  "title": "Les Machines de l’île",
+                  "text": "Visita prevista en el esquema del viaje. Horario exacto, actividad y entradas pendientes; no consta compra.",
+                  "status": "propuesta",
+                  "route": "machines",
+                  "link": null
+                },
+                {
+                  "time": "14 · después de la visita",
+                  "title": "Continuar hacia Burdeos",
+                  "text": "Salida de la habitación hasta las 11:00. Resolver equipaje y coche si la visita se prolonga.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": "#/burdeos/viaje"
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Máquinas de la Isla",
+              "items": [
+                {
+                  "label": "Horarios oficiales",
+                  "url": "https://www.lesmachines-nantes.fr/pratique/horaires/",
+                  "text": ""
+                },
+                {
+                  "label": "Actividades y billetes",
+                  "url": "https://reservation.lesmachines-nantes.fr/",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Falta cerrar",
+              "text": "Distinguir Galería, paseo en el Gran Elefante y Carrusel al elegir las entradas. No hay una actividad concreta reservada.",
+              "tone": "pending",
+              "url": null
+            }
+          ]
+        },
+        {
+          "id": "viaje",
+          "label": "Llegada",
+          "blocks": [
+            {
+              "type": "routes",
+              "ids": [
+                "road13"
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Antes de llegar al hotel",
+              "text": "Avisar de la llegada, confirmar acceso en coche a la zona peatonal y reservar parking si se elige el del hotel. No consta reserva de aparcamiento.",
+              "tone": "pending",
+              "url": null
+            }
+          ]
+        },
+        {
+          "id": "hotel",
+          "label": "Hotel",
+          "blocks": [
+            {
+              "type": "hotel",
+              "id": "nantes"
+            }
+          ]
+        },
+        {
+          "id": "mapa",
+          "label": "Mapa",
+          "blocks": [
+            {
+              "type": "map"
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "nantes_walk",
+                "machines"
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Información local",
+              "items": [
+                {
+                  "label": "Les Machines de l’île",
+                  "url": "https://www.lesmachines-nantes.fr/",
+                  "text": ""
+                },
+                {
+                  "label": "Castillo de Nantes",
+                  "url": "https://www.chateaunantes.fr/",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "points": [
+        "nantes",
+        "chateau_nantes",
+        "pommeraye",
+        "machines"
+      ],
+      "next": "burdeos"
+    },
+    {
+      "id": "burdeos",
+      "title": "Burdeos",
+      "date": "14–15 noviembre",
+      "intro": "Llegada desde Nantes y paseo nocturno. El domingo, salida hacia Saint-Émilion y Bilbao.",
+      "panes": [
+        {
+          "id": "plan",
+          "label": "Plan",
+          "blocks": [
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "Sáb. 14",
+                  "title": "Nantes → Burdeos",
+                  "text": "Después de las Máquinas de la Isla. Hora de salida según visita y tráfico.",
+                  "status": "confirmado",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "Desde 15:00",
+                  "title": "Entrada en MEININGER",
+                  "text": "Hotel reservado. No tiene aparcamiento propio; falta elegir parking cercano.",
+                  "status": "confirmado",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "14 · noche",
+                  "title": "Paseo por Burdeos",
+                  "text": "Place de la Bourse → Porte Cailhau → Saint-Pierre → Grand Théâtre. Propuesta guardada, pendiente de duración y conexión con el hotel.",
+                  "status": "propuesta",
+                  "route": "bordeaux_walk",
+                  "link": null
+                },
+                {
+                  "time": "Dom. 15 · mañana",
+                  "title": "Salir hacia Saint-Émilion",
+                  "text": "Habitación hasta las 11:00. La visita al pueblo tiene su propia página.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": "#/saint-emilion"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Aparcamiento pendiente",
+              "text": "Elegir un parking cercano y comprobar precio y acceso al coche para la salida del domingo.",
+              "tone": "pending",
+              "url": null
+            }
+          ]
+        },
+        {
+          "id": "viaje",
+          "label": "Llegada",
+          "blocks": [
+            {
+              "type": "routes",
+              "ids": [
+                "road14"
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Sábado 14",
+              "text": "No fijar la hora de salida hasta cerrar la visita en Nantes. El paseo en Burdeos se adapta a la llegada.",
+              "tone": "plain",
+              "url": null
+            }
+          ]
+        },
+        {
+          "id": "hotel",
+          "label": "Hotel",
+          "blocks": [
+            {
+              "type": "hotel",
+              "id": "burdeos"
+            }
+          ]
+        },
+        {
+          "id": "mapa",
+          "label": "Mapa",
+          "blocks": [
+            {
+              "type": "map"
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "bordeaux_walk"
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Información local",
+              "items": [
+                {
+                  "label": "Turismo de Burdeos",
+                  "url": "https://www.bordeaux-tourisme.com/",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "points": [
+        "burdeos",
+        "place_bourse",
+        "porte_cailhau",
+        "grand_theatre"
+      ],
+      "next": "saint-emilion"
+    },
+    {
+      "id": "saint-emilion",
+      "title": "Saint-Émilion",
+      "date": "15 noviembre · mañana",
+      "intro": "Parada del esquema de regreso. Recorrido de visita, aparcamiento y horario de salida por cerrar.",
+      "panes": [
+        {
+          "id": "plan",
+          "label": "Plan",
+          "blocks": [
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "Mañana",
+                  "title": "Burdeos → Saint-Émilion",
+                  "text": "Visita prevista para el domingo. No hay entradas ni actividades reservadas.",
+                  "status": "propuesta",
+                  "route": "road15a",
+                  "link": null
+                },
+                {
+                  "time": "Visita",
+                  "title": "Paseo por el pueblo",
+                  "text": "Falta elegir aparcamiento, puntos de interés y duración. No se añaden bodegas ni visitas guiadas sin decidirlas.",
+                  "status": "propuesta",
+                  "route": null,
+                  "link": null
+                },
+                {
+                  "time": "Después",
+                  "title": "Saint-Émilion → Bilbao",
+                  "text": "Calcular salida con descansos, tráfico y repostaje. Entrega del coche a las 20:00 en Bilbao Intermodal.",
+                  "status": "propuesta",
+                  "route": "road15b",
+                  "link": null
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Hora límite del día: 20:00",
+              "text": "La devolución en Bilbao está confirmada. Falta fijar la hora de salida de Saint-Émilion con margen suficiente.",
+              "tone": "pending",
+              "url": null
+            },
+            {
+              "type": "links",
+              "title": "Consultar",
+              "items": [
+                {
+                  "label": "Turismo oficial",
+                  "url": "https://www.saint-emilion-tourisme.com/",
+                  "text": ""
+                },
+                {
+                  "label": "Devolución del coche en Bilbao",
+                  "url": "#/bilbao",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rutas",
+          "label": "Rutas",
+          "blocks": [
+            {
+              "type": "routes",
+              "ids": [
+                "road15a",
+                "road15b"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mapa",
+          "label": "Mapa",
+          "blocks": [
+            {
+              "type": "map"
+            }
+          ]
+        }
+      ],
+      "points": [
+        "saint_emilion"
+      ],
+      "next": "bilbao"
+    },
     {
       "id": "bilbao",
-      "name": "Bilbao · origen y regreso",
-      "city": "Bilbao",
-      "category": "transporte",
-      "lat": 43.263,
-      "lng": -2.935,
-      "description": "Punto de partida y regreso a Bilbao.",
-      "status": "confirmado",
-      "url": "https://www.bilbaoturismo.net/"
+      "title": "Bilbao",
+      "date": "15 noviembre · regreso",
+      "intro": "Último destino del viaje. Devolución del coche en Bilbao Intermodal / Termibus.",
+      "panes": [
+        {
+          "id": "regreso",
+          "label": "Regreso",
+          "blocks": [
+            {
+              "type": "facts",
+              "title": "Devolución confirmada",
+              "items": [
+                {
+                  "label": "Cuándo",
+                  "value": "Domingo 15 de noviembre, a las 20:00."
+                },
+                {
+                  "label": "Dónde",
+                  "value": "Avis · Bilbao Intermodal / Termibus. No es el aeropuerto."
+                },
+                {
+                  "label": "Antes de entregar",
+                  "value": "Prever margen para repostaje y revisión del vehículo."
+                }
+              ]
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "road15b"
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Pendiente de concretar",
+              "text": "Hora de salida de Saint-Émilion, descansos y hora objetivo de llegada a Bilbao.",
+              "tone": "pending",
+              "url": null
+            }
+          ]
+        },
+        {
+          "id": "coche",
+          "label": "Coche",
+          "blocks": [
+            {
+              "type": "facts",
+              "title": "Alquiler confirmado",
+              "items": [
+                {
+                  "label": "Empresa",
+                  "value": "Avis."
+                },
+                {
+                  "label": "Recogida previa al viaje",
+                  "value": "Sábado 7 de noviembre, 12:30 · Bilbao Intermodal."
+                },
+                {
+                  "label": "Devolución",
+                  "value": "Domingo 15 de noviembre, 20:00 · misma oficina."
+                },
+                {
+                  "label": "Precio final anotado",
+                  "value": "835,66 €. No equivale a pago comprobado."
+                },
+                {
+                  "label": "Incluido",
+                  "value": "Dos conductores, kilometraje ilimitado, coberturas completas y circulación por España, Francia y Bélgica."
+                },
+                {
+                  "label": "Vehículo",
+                  "value": "Modelo y combustible por confirmar al recoger."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mapa",
+          "label": "Mapa",
+          "blocks": [
+            {
+              "type": "map"
+            }
+          ]
+        }
+      ],
+      "points": [
+        "alquiler"
+      ],
+      "next": null
+    }
+  ],
+  "routes": [
+    {
+      "id": "road8",
+      "name": "Bilbao → Torcy",
+      "origin": "Bilbao Intermodal, Bilbao, España",
+      "destination": "6 Rue Charlie Chaplin, 77200 Torcy, France",
+      "mode": "driving",
+      "stops": [
+        "A63 Aire de l’Océan Est, Lesperon, France",
+        "A10 Aire de Tours Val de Loire, Monnaie, France"
+      ],
+      "note": "Ruta A elegida: AP-8 → A63 → A10 → conexiones hacia A4. Paradas propuestas, según autonomía y descanso. Revisar el recorrido antes de iniciar la marcha."
     },
+    {
+      "id": "road11",
+      "name": "Torcy → Gante",
+      "origin": "6 Rue Charlie Chaplin, 77200 Torcy, France",
+      "destination": "Koopvaardijlaan 29, 9000 Gent, Belgium",
+      "mode": "driving",
+      "stops": [],
+      "note": "Trayecto previsto para el 11. Ruta exacta, salida y descansos por ajustar en navegación."
+    },
+    {
+      "id": "road13",
+      "name": "Gante → Nantes",
+      "origin": "Koopvaardijlaan 29, 9000 Gent, Belgium",
+      "destination": "19 Allée du Commandant Charcot, 44000 Nantes, France",
+      "mode": "driving",
+      "stops": [],
+      "note": "Trayecto largo el 13. Concretar salida, descansos y acceso al aparcamiento del hotel."
+    },
+    {
+      "id": "road14",
+      "name": "Nantes → Burdeos",
+      "origin": "19 Allée du Commandant Charcot, 44000 Nantes, France",
+      "destination": "12 Rue du Commerce, 33000 Bordeaux, France",
+      "mode": "driving",
+      "stops": [],
+      "note": "Después de la visita a las Máquinas el 14. Corredor previsto A83–A10; llegada según visita y tráfico."
+    },
+    {
+      "id": "road15a",
+      "name": "Burdeos → Saint-Émilion",
+      "origin": "12 Rue du Commerce, 33000 Bordeaux, France",
+      "destination": "Saint-Émilion, France",
+      "mode": "driving",
+      "stops": [],
+      "note": ""
+    },
+    {
+      "id": "road15b",
+      "name": "Saint-Émilion → Bilbao",
+      "origin": "Saint-Émilion, France",
+      "destination": "Bilbao Intermodal, Bilbao, España",
+      "mode": "driving",
+      "stops": [],
+      "note": "Devolución Avis a las 20:00. Fijar salida con margen para tráfico, descansos y repostaje."
+    },
+    {
+      "id": "hotel_rer",
+      "name": "Apartamento → estación de Torcy",
+      "origin": "6 Rue Charlie Chaplin, 77200 Torcy, France",
+      "destination": "Gare de Torcy, Torcy, France",
+      "mode": "walking",
+      "stops": [],
+      "note": "Aproximadamente 500 m / 5–7 min. Acceso de referencia: Léon Blum, salida 2."
+    },
+    {
+      "id": "disney_out",
+      "name": "Torcy → Marne-la-Vallée–Chessy",
+      "origin": "Gare de Torcy, Torcy, France",
+      "destination": "Marne-la-Vallée–Chessy, Chessy, France",
+      "mode": "transit",
+      "stops": [],
+      "note": "RER A, dirección Marne-la-Vallée–Chessy. Bussy-Saint-Georges → Val d’Europe → Chessy."
+    },
+    {
+      "id": "disney_back",
+      "name": "Disney → Torcy",
+      "origin": "Marne-la-Vallée–Chessy, Chessy, France",
+      "destination": "Gare de Torcy, Torcy, France",
+      "mode": "transit",
+      "stops": [],
+      "note": "RER A hacia París, comprobando parada en Torcy. Consultar servicio tras el espectáculo."
+    },
+    {
+      "id": "a_rer",
+      "name": "RER A · Torcy → Étoile",
+      "origin": "Gare de Torcy, Torcy, France",
+      "destination": "Charles de Gaulle–Étoile, Paris, France",
+      "mode": "transit",
+      "stops": [],
+      "note": "Dirección París. Verificar que el tren pare en Charles de Gaulle–Étoile."
+    },
+    {
+      "id": "a_bus",
+      "name": "Bus 30 · Étoile–Kléber → Tour Eiffel",
+      "origin": "Charles de Gaulle Étoile Kléber Bus Stop, Paris, France",
+      "destination": "Tour Eiffel Bus Stop, Paris, France",
+      "mode": "transit",
+      "stops": [],
+      "note": "Dirección Hôpital Européen Georges Pompidou. No bajar en Trocadéro a la ida. Maps puede sugerir otra línea: seleccionar el bus 30."
+    },
+    {
+      "id": "a_walk",
+      "name": "A pie · Tour Eiffel → Trocadéro",
+      "origin": "Tour Eiffel Bus Stop, Paris, France",
+      "destination": "Place du Trocadéro, Paris",
+      "mode": "walking",
+      "stops": [
+        "Tour Eiffel, Paris",
+        "Pont d’Iéna, Paris"
+      ],
+      "note": "Paseo corto principal. El Arco se deja como ampliación opcional al final."
+    },
+    {
+      "id": "a_arc",
+      "name": "Opcional · Trocadéro → Arco",
+      "origin": "Place du Trocadéro, Paris",
+      "destination": "Arc de Triomphe, Paris",
+      "mode": "walking",
+      "stops": [],
+      "note": "Por avenue Kléber; referencia de trabajo: unos 25 min. Termina junto al RER A."
+    },
+    {
+      "id": "a_bus_back",
+      "name": "Bus 30 · Trocadéro → Étoile–Kléber",
+      "origin": "Trocadéro Bus Stop, Paris, France",
+      "destination": "Charles de Gaulle Étoile Kléber Bus Stop, Paris, France",
+      "mode": "transit",
+      "stops": [],
+      "note": "Dirección Pigalle. Consultar la acera y el paso real del autobús."
+    },
+    {
+      "id": "a_back",
+      "name": "RER A · Étoile → Torcy",
+      "origin": "Charles de Gaulle–Étoile, Paris, France",
+      "destination": "Gare de Torcy, Torcy, France",
+      "mode": "transit",
+      "stops": [],
+      "note": "Subir a un tren de la rama Marne-la-Vallée–Chessy que pare en Torcy."
+    },
+    {
+      "id": "b_rer",
+      "name": "RER A · Torcy → Châtelet–Les Halles",
+      "origin": "Gare de Torcy, Torcy, France",
+      "destination": "Châtelet–Les Halles, Paris, France",
+      "mode": "transit",
+      "stops": [],
+      "note": "Dirección París. Salir a la calle para iniciar el paseo."
+    },
+    {
+      "id": "b_walk1",
+      "name": "A pie · Châtelet → Notre-Dame",
+      "origin": "Châtelet–Les Halles, Paris, France",
+      "destination": "Notre-Dame de Paris, Paris",
+      "mode": "walking",
+      "stops": [
+        "Hôtel de Ville, Paris"
+      ],
+      "note": "Primer tramo del paseo, con la estación de llegada incluida."
+    },
+    {
+      "id": "b_walk2",
+      "name": "A pie · Notre-Dame → Louvre → metro",
+      "origin": "Notre-Dame de Paris, Paris",
+      "destination": "Palais Royal Musée du Louvre Metro, Paris, France",
+      "mode": "walking",
+      "stops": [
+        "Pont Neuf, Paris",
+        "Pyramide du Louvre, Paris"
+      ],
+      "note": "Termina en la estación Palais Royal–Musée du Louvre. Visitas exteriores."
+    },
+    {
+      "id": "b_metro",
+      "name": "M1 · Palais Royal → Châtelet",
+      "origin": "Palais Royal Musée du Louvre Metro, Paris, France",
+      "destination": "Châtelet Metro, Paris",
+      "mode": "transit",
+      "stops": [],
+      "note": "Dirección Château de Vincennes. Parada intermedia Louvre–Rivoli. Seguir después los pasillos hacia RER A Châtelet–Les Halles."
+    },
+    {
+      "id": "b_back",
+      "name": "RER A · Châtelet–Les Halles → Torcy",
+      "origin": "Châtelet–Les Halles, Paris, France",
+      "destination": "Gare de Torcy, Torcy, France",
+      "mode": "transit",
+      "stops": [],
+      "note": "Comprobar parada en Torcy, rama Marne-la-Vallée–Chessy."
+    },
+    {
+      "id": "b_walk_back",
+      "name": "Alternativa a pie · Louvre → RER A",
+      "origin": "Pyramide du Louvre, Paris",
+      "destination": "Châtelet–Les Halles, Paris, France",
+      "mode": "walking",
+      "stops": [],
+      "note": "Evita el transbordo en M1 si preferís caminar hasta Châtelet–Les Halles."
+    },
+    {
+      "id": "gent_walk",
+      "name": "Paseo por Gante",
+      "origin": "Gravensteen, Gent, Belgium",
+      "destination": "Saint Bavo Cathedral, Gent, Belgium",
+      "mode": "walking",
+      "stops": [
+        "Graslei, Gent, Belgium",
+        "Belfry of Ghent, Gent, Belgium"
+      ],
+      "note": "Propuesta que ya figuraba en la web. Exteriores; entradas y horarios no fijados."
+    },
+    {
+      "id": "bruges_out",
+      "name": "Gante → Brujas en tren",
+      "origin": "Gent-Dampoort, Belgium",
+      "destination": "Brugge station, Belgium",
+      "mode": "transit",
+      "stops": [],
+      "note": "Origen de consulta próximo al hotel. SNCB debe confirmar si conviene salir de Gent-Dampoort o Gent-Sint-Pieters y los posibles cambios."
+    },
+    {
+      "id": "bruges_back",
+      "name": "Brujas → Gante en tren",
+      "origin": "Brugge station, Belgium",
+      "destination": "Gent-Dampoort, Belgium",
+      "mode": "transit",
+      "stops": [],
+      "note": "Consultar el regreso del 12 antes de iniciar la excursión."
+    },
+    {
+      "id": "brussels_out",
+      "name": "Gante → Bruselas en tren",
+      "origin": "Gent-Dampoort, Belgium",
+      "destination": "Bruxelles-Central, Belgium",
+      "mode": "transit",
+      "stops": [],
+      "note": "SNCB debe confirmar estación de salida, transbordos y horarios del 12. No se presupone un servicio directo."
+    },
+    {
+      "id": "brussels_back",
+      "name": "Bruselas → Gante en tren",
+      "origin": "Bruxelles-Central, Belgium",
+      "destination": "Gent-Dampoort, Belgium",
+      "mode": "transit",
+      "stops": [],
+      "note": "Consultar el regreso del 12 antes de salir."
+    },
+    {
+      "id": "nantes_walk",
+      "name": "Paseo nocturno por Nantes",
+      "origin": "Château des ducs de Bretagne, Nantes",
+      "destination": "Passage Pommeraye, Nantes",
+      "mode": "walking",
+      "stops": [
+        "Place du Bouffay, Nantes"
+      ],
+      "note": "Recorrido propuesto ya guardado. Exteriores; comprobar accesos de Passage Pommeraye por la noche."
+    },
+    {
+      "id": "machines",
+      "name": "Hotel → Les Machines de l’île",
+      "origin": "19 Allée du Commandant Charcot, 44000 Nantes, France",
+      "destination": "Les Machines de l’île, Nantes",
+      "mode": "walking",
+      "stops": [],
+      "note": "Ruta de acceso a consultar. La visita y sus entradas aún no están reservadas."
+    },
+    {
+      "id": "bordeaux_walk",
+      "name": "Paseo nocturno por Burdeos",
+      "origin": "Place de la Bourse, Bordeaux",
+      "destination": "Grand Théâtre, Bordeaux",
+      "mode": "walking",
+      "stops": [
+        "Porte Cailhau, Bordeaux",
+        "Place Saint-Pierre, Bordeaux"
+      ],
+      "note": "Propuesta que ya figuraba en la web. Falta concretar la conexión desde el hotel y la duración."
+    },
+    {
+      "id": "hotel_back",
+      "name": "Estación de Torcy → apartamento",
+      "origin": "Gare de Torcy, Torcy, France",
+      "destination": "6 Rue Charlie Chaplin, 77200 Torcy, France",
+      "mode": "walking",
+      "stops": [],
+      "note": "Paseo final al alojamiento; referencia salida 2, Léon Blum."
+    }
+  ],
+  "places": [
     {
       "id": "alquiler",
       "name": "Bilbao Intermodal / Termibus",
@@ -461,17 +1992,6 @@
       "lng": 2.65615,
       "description": "Alojamiento reservado del 8 al 11. Parking gratuito.",
       "status": "confirmado"
-    },
-    {
-      "id": "gare_torcy",
-      "name": "Gare de Torcy · RER A",
-      "city": "Torcy",
-      "category": "transporte",
-      "lat": 48.83947,
-      "lng": 2.65468,
-      "description": "Estación próxima al apartamento; tren hacia Disney y París.",
-      "status": "confirmado",
-      "url": "https://www.ratp.fr/vos-lignes/rer/a"
     },
     {
       "id": "disney",
@@ -503,16 +2023,6 @@
       "lat": 48.8627,
       "lng": 2.2885,
       "description": "Mirador de la Torre Eiffel en la propuesta A.",
-      "status": "propuesta"
-    },
-    {
-      "id": "arco",
-      "name": "Arco del Triunfo",
-      "city": "París",
-      "category": "atraccion",
-      "lat": 48.8738,
-      "lng": 2.295,
-      "description": "Final a pie opcional de la propuesta A.",
       "status": "propuesta"
     },
     {
@@ -568,17 +2078,6 @@
       "description": "Castillo medieval; interior pendiente de decidir.",
       "status": "propuesta",
       "url": "https://historischehuizen.stad.gent/en/castle-counts"
-    },
-    {
-      "id": "belfort",
-      "name": "Belfort de Gante",
-      "city": "Gante",
-      "category": "atraccion",
-      "lat": 51.0543,
-      "lng": 3.7255,
-      "description": "Campanario histórico del centro de Gante.",
-      "status": "propuesta",
-      "url": "https://visit.gent.be/"
     },
     {
       "id": "bavo",
@@ -671,394 +2170,235 @@
       "category": "atraccion",
       "lat": 44.8942,
       "lng": -0.1556,
-      "description": "Pueblo medieval, excursión opcional domingo 15; no confirmada.",
+      "description": "Parada prevista para el domingo 15; visita y aparcamiento por concretar.",
       "status": "propuesta",
       "url": "https://www.saint-emilion-tourisme.com/"
+    },
+    {
+      "id": "etoile_bus",
+      "name": "Bus 30 · Étoile–Kléber",
+      "city": "París",
+      "lat": 48.8726,
+      "lng": 2.2946,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "tour_bus",
+      "name": "Bus 30 · Tour Eiffel",
+      "city": "París",
+      "lat": 48.8589,
+      "lng": 2.2939,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "trocadero_bus",
+      "name": "Bus 30 · Trocadéro",
+      "city": "París",
+      "lat": 48.8636,
+      "lng": 2.2886,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "hotel_ville",
+      "name": "Hôtel de Ville",
+      "city": "París",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "category": "atraccion",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "pont_neuf",
+      "name": "Pont Neuf",
+      "city": "París",
+      "lat": 48.8575,
+      "lng": 2.3413,
+      "category": "atraccion",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "belfry",
+      "name": "Campanario de Gante",
+      "city": "Gante",
+      "lat": 51.0538,
+      "lng": 3.7258,
+      "category": "atraccion",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "dampoort",
+      "name": "Gent-Dampoort · estación",
+      "city": "Gante",
+      "lat": 51.0561,
+      "lng": 3.7407,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "brugge",
+      "name": "Brugge · estación",
+      "city": "Brujas",
+      "lat": 51.1972,
+      "lng": 3.2173,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "bruxelles",
+      "name": "Bruxelles-Central · estación",
+      "city": "Bruselas",
+      "lat": 50.8455,
+      "lng": 4.3571,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "grand_theatre",
+      "name": "Grand Théâtre",
+      "city": "Burdeos",
+      "lat": 44.8426,
+      "lng": -0.5743,
+      "category": "atraccion",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "torcy_rer",
+      "name": "Torcy · RER A",
+      "city": "Torcy",
+      "lat": 48.8392,
+      "lng": 2.6547,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "adventure",
+      "name": "Disney Adventure World",
+      "city": "Disney",
+      "lat": 48.8682,
+      "lng": 2.7794,
+      "category": "atraccion",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "chessy",
+      "name": "Marne-la-Vallée–Chessy · RER A",
+      "city": "Disney",
+      "lat": 48.8705,
+      "lng": 2.7826,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "etoile",
+      "name": "Charles de Gaulle–Étoile · RER A",
+      "city": "París",
+      "lat": 48.8738,
+      "lng": 2.295,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "chatelet",
+      "name": "Châtelet–Les Halles · RER A",
+      "city": "París",
+      "lat": 48.8618,
+      "lng": 2.347,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "palais_royal",
+      "name": "Palais Royal–Musée du Louvre · M1",
+      "city": "París",
+      "lat": 48.8626,
+      "lng": 2.3366,
+      "category": "transporte",
+      "status": "propuesta",
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
     }
   ],
-  "routes": [
+  "stays": [
     {
-      "id": "road8",
-      "name": "Bilbao → Torcy (ruta A elegida)",
-      "type": "coche",
+      "id": "torcy",
+      "name": "Apparthotel Torcy",
+      "city": "Torcy",
+      "checkin": "8 nov. · desde 15:00",
+      "checkout": "11 nov. · hasta 12:00",
+      "price": 344.07,
+      "address": "6 Rue Charlie Chaplin, 77200 Torcy, Francia",
+      "parking": "Aparcamiento público gratuito, según la reserva",
+      "lat": 48.84105,
+      "lng": 2.65615,
+      "website": "https://www.apparthotel-torcy.com/",
       "status": "confirmado",
-      "from": "Bilbao, España",
-      "to": "Apparthotel Torcy, 6 Rue Charlie Chaplin, 77200 Torcy, France",
-      "stops": [
-        "Bayonne, France",
-        "Bordeaux, France",
-        "Tours, France"
-      ],
-      "note": "Ruta elegida: Irún → Bayona → Burdeos → Poitiers → Tours → Torcy, por autopistas A63/A10 y enlaces a A4. Google Maps incluye tres puntos intermedios principales para mayor compatibilidad móvil; sigue los carteles y la navegación."
+      "conditions": "Estudio familiar con cocina; comidas no incluidas. Depósito reembolsable de 90 €. Identificación y tarjeta de crédito al llegar.",
+      "phone": "+33 1 64 02 51 50"
     },
     {
-      "id": "road11",
-      "name": "Torcy → Gante",
-      "type": "coche",
+      "id": "gante",
+      "name": "ibis budget Gent Centrum Dampoort",
+      "city": "Gante",
+      "checkin": "11 nov. · desde 15:00",
+      "checkout": "13 nov. · hasta 12:00",
+      "price": 200.8,
+      "address": "Koopvaardijlaan 29, 9000 Gent, Bélgica",
+      "parking": "Parking público 22 €/día, no reservable (según la reserva)",
+      "lat": 51.05967,
+      "lng": 3.73868,
       "status": "confirmado",
-      "from": "Apparthotel Torcy, 6 Rue Charlie Chaplin, Torcy, France",
-      "to": "Koopvaardijlaan 29, 9000 Gent, Belgium",
-      "stops": [],
-      "note": "Revisar LEZ de Gante antes de entrar con matrícula extranjera."
+      "website": "https://all.accor.com/",
+      "conditions": "Habitación con tres camas individuales; desayuno no incluido. Depósito reembolsable de 100 €. Reserva no reembolsable.",
+      "phone": "+32 9 395 20 10"
     },
     {
-      "id": "road13",
-      "name": "Gante → Nantes",
-      "type": "coche",
+      "id": "nantes",
+      "name": "Aparthotel Adagio Nantes Centre",
+      "city": "Nantes",
+      "checkin": "13 nov. · desde 15:00",
+      "checkout": "14 nov. · hasta 11:00",
+      "price": 100.1,
+      "address": "19 Allée du Commandant Charcot, 44000 Nantes, Francia",
+      "parking": "Parking del alojamiento 24 €/día; requiere reserva",
+      "lat": 47.21682,
+      "lng": -1.54625,
+      "website": "https://all.accor.com/",
       "status": "confirmado",
-      "from": "Koopvaardijlaan 29, Gent, Belgium",
-      "to": "19 Allée du Commandant Charcot, Nantes, France",
-      "stops": [],
-      "note": "Trayecto largo; planificar descansos y salida temprana."
+      "conditions": "Estudio familiar con cocina; desayuno no incluido. Avisar de hora de llegada. Zona peatonal: confirmar acceso al parking.",
+      "phone": "+33 2 51 86 52 00"
     },
     {
-      "id": "road14",
-      "name": "Nantes → Burdeos",
-      "type": "coche",
+      "id": "burdeos",
+      "name": "MEININGER Bordeaux Gare Saint-Jean",
+      "city": "Burdeos",
+      "checkin": "14 nov. · desde 15:00",
+      "checkout": "15 nov. · hasta 11:00",
+      "price": 68.25,
+      "address": "12 rue du Commerce, 33000 Bordeaux, Francia",
+      "parking": "Sin parking propio. Buscar alternativa cercana.",
+      "lat": 44.82718,
+      "lng": -0.55193,
+      "website": "https://www.meininger-hotels.com/",
       "status": "confirmado",
-      "from": "19 Allée du Commandant Charcot, Nantes, France",
-      "to": "12 Rue du Commerce, Bordeaux, France",
-      "stops": [],
-      "note": "Los planes matutinos de Nantes siguen siendo propuestas."
-    },
-    {
-      "id": "road15",
-      "name": "Burdeos → Bilbao",
-      "type": "coche",
-      "status": "confirmado",
-      "from": "12 Rue du Commerce, Bordeaux, France",
-      "to": "Bilbao Intermodal, Bilbao, España",
-      "stops": [],
-      "note": "Llegar con margen para devolver Avis a las 20:00."
-    },
-    {
-      "id": "optional_saint",
-      "name": "Desvío opcional: Saint-Émilion",
-      "type": "coche",
-      "status": "propuesta",
-      "from": "12 Rue du Commerce, Bordeaux, France",
-      "to": "Bilbao Intermodal, Bilbao, España",
-      "stops": [
-        "Saint-Emilion, France"
-      ],
-      "note": "Solo si se confirma y deja margen suficiente."
-    },
-    {
-      "id": "rer_disney",
-      "name": "Torcy → Disneyland (RER A)",
-      "type": "transporte",
-      "status": "propuesta",
-      "from": "Gare de Torcy, Torcy, France",
-      "to": "Gare de Marne-la-Vallee Chessy, Chessy, France",
-      "stops": [],
-      "note": "Tres paradas sentido Marne-la-Vallée–Chessy. Recomendación logística, no elección definitiva."
-    },
-    {
-      "id": "paris_a_rail",
-      "name": "París A · Torcy → Étoile (RER A)",
-      "type": "transporte",
-      "status": "propuesta",
-      "from": "Gare de Torcy, Torcy, France",
-      "to": "Charles de Gaulle-Etoile, Paris, France",
-      "stops": [],
-      "note": "Después autobús 30 hacia Tour Eiffel. Metro 6 cerrada el domingo 8."
-    },
-    {
-      "id": "paris_a_bus",
-      "name": "París A · Étoile → Torre Eiffel (bus 30)",
-      "type": "transporte",
-      "status": "propuesta",
-      "from": "Charles de Gaulle Etoile Kleber Bus Stop, Paris, France",
-      "to": "Tour Eiffel Bus Stop, Paris, France",
-      "stops": [],
-      "note": "Comprobar línea y sentido del bus en el planificador; el enlace puede proponer otra combinación."
-    },
-    {
-      "id": "paris_a_walk",
-      "name": "París A · Torre Eiffel → Trocadéro → Arco",
-      "type": "pie",
-      "status": "propuesta",
-      "from": "Tour Eiffel, Paris, France",
-      "to": "Arc de Triomphe, Paris, France",
-      "stops": [
-        "Pont d'Iena, Paris, France",
-        "Place du Trocadero, Paris, France"
-      ],
-      "note": "El Arco es un extra opcional. Si falta energía, regresar antes en bus 30."
-    },
-    {
-      "id": "paris_b_rail",
-      "name": "París B · Torcy → Châtelet (RER A)",
-      "type": "transporte",
-      "status": "propuesta",
-      "from": "Gare de Torcy, Torcy, France",
-      "to": "Chatelet Les Halles, Paris, France",
-      "stops": [],
-      "note": "Después paseo histórico por el Sena."
-    },
-    {
-      "id": "paris_b_walk",
-      "name": "París B · recorrido histórico a pie",
-      "type": "pie",
-      "status": "propuesta",
-      "from": "Chatelet Les Halles, Paris, France",
-      "to": "Palais Royal Musee du Louvre, Paris, France",
-      "stops": [
-        "Hotel de Ville, Paris, France",
-        "Cathedrale Notre-Dame de Paris, France",
-        "Pont Neuf, Paris, France",
-        "Pyramide du Louvre, Paris, France"
-      ],
-      "note": "Regreso por M1 hasta Châtelet + RER A a Torcy, o a pie hasta Châtelet."
-    },
-    {
-      "id": "paris_a_bus_back",
-      "name": "París A · Trocadéro → Étoile (bus 30)",
-      "type": "transporte",
-      "status": "propuesta",
-      "from": "Trocadero Bus Stop, Paris, France",
-      "to": "Charles de Gaulle Etoile Kleber Bus Stop, Paris, France",
-      "stops": [],
-      "note": "Regreso corto en bus 30 sentido Pigalle. Confirmar dirección y parada con RATP."
-    },
-    {
-      "id": "paris_a_rer_back",
-      "name": "París A · Étoile → Torcy (RER A)",
-      "type": "transporte",
-      "status": "propuesta",
-      "from": "Charles de Gaulle-Etoile, Paris, France",
-      "to": "Gare de Torcy, Torcy, France",
-      "stops": [],
-      "note": "Comprobar que el tren para en Torcy. Se usa tras la vuelta en bus o el paseo opcional al Arco."
-    },
-    {
-      "id": "paris_b_m1_back",
-      "name": "París B · Palais Royal → Châtelet (M1)",
-      "type": "transporte",
-      "status": "propuesta",
-      "from": "Palais Royal Musee du Louvre Metro, Paris, France",
-      "to": "Chatelet Metro, Paris, France",
-      "stops": [],
-      "note": "Metro M1 hacia Château de Vincennes. Enlazar por pasillos señalizados con RER A en Châtelet–Les Halles. Alternativa: volver a pie desde Louvre."
-    },
-    {
-      "id": "paris_b_rer_back",
-      "name": "París B · Châtelet → Torcy (RER A)",
-      "type": "transporte",
-      "status": "propuesta",
-      "from": "Chatelet Les Halles, Paris, France",
-      "to": "Gare de Torcy, Torcy, France",
-      "stops": [],
-      "note": "Tramo final de regreso en tren. Confirmar destino y horarios del RER A."
-    },
-    {
-      "id": "gent_walk",
-      "name": "Gante · paseo monumental",
-      "type": "pie",
-      "status": "propuesta",
-      "from": "Gravensteen, Ghent, Belgium",
-      "to": "Saint Bavo Cathedral, Ghent, Belgium",
-      "stops": [
-        "Graslei, Ghent, Belgium",
-        "Belfry of Ghent, Ghent, Belgium"
-      ],
-      "note": "No es un itinerario definitivo, solo una idea de jornada."
-    },
-    {
-      "id": "nantes_walk",
-      "name": "Nantes · paseo al llegar",
-      "type": "pie",
-      "status": "propuesta",
-      "from": "Chateau des ducs de Bretagne, Nantes, France",
-      "to": "Passage Pommeraye, Nantes, France",
-      "stops": [
-        "Place du Bouffay, Nantes, France"
-      ],
-      "note": "Solo si la llegada del viernes lo permite."
-    },
-    {
-      "id": "bordeaux_walk",
-      "name": "Burdeos · tarde-noche a pie",
-      "type": "pie",
-      "status": "propuesta",
-      "from": "Place de la Bourse, Bordeaux, France",
-      "to": "Grand Theatre, Bordeaux, France",
-      "stops": [
-        "Porte Cailhau, Bordeaux, France",
-        "Place Saint Pierre, Bordeaux, France"
-      ],
-      "note": "Recorrido opcional del sábado."
-    }
-  ],
-  "costs": {
-    "reserved": [
-      {
-        "name": "Torcy · alojamiento",
-        "cost": 344.07
-      },
-      {
-        "name": "Gante · alojamiento",
-        "cost": 200.8
-      },
-      {
-        "name": "Nantes · alojamiento",
-        "cost": 100.1
-      },
-      {
-        "name": "Burdeos · alojamiento",
-        "cost": 68.25
-      },
-      {
-        "name": "Disneyland Paris · entradas",
-        "cost": 531
-      },
-      {
-        "name": "Avis · alquiler",
-        "cost": 835.66
-      }
-    ],
-    "roadEstimate": {
-      "km": 2660,
-      "fuel": 284,
-      "tolls": 212,
-      "assumptions": "2.660 km de referencia, consumo supuesto 6,5 l/100 km y combustible a 1,65 €/l. Los peajes son una estimación sin cálculo oficial actualizado.",
-      "segments": [
-        {
-          "name": "Bilbao → Torcy",
-          "km": 915,
-          "fuel": 98,
-          "tolls": 80
-        },
-        {
-          "name": "Torcy ↔ Disney en coche (opcional)",
-          "km": 60,
-          "fuel": 6,
-          "tolls": 0
-        },
-        {
-          "name": "Torcy → Gante",
-          "km": 300,
-          "fuel": 32,
-          "tolls": 18
-        },
-        {
-          "name": "Gante → Nantes",
-          "km": 700,
-          "fuel": 75,
-          "tolls": 55
-        },
-        {
-          "name": "Nantes → Burdeos",
-          "km": 345,
-          "fuel": 37,
-          "tolls": 28
-        },
-        {
-          "name": "Burdeos → Bilbao",
-          "km": 340,
-          "fuel": 36,
-          "tolls": 31
-        }
-      ]
-    },
-    "rer": {
-      "ticket": 2.55,
-      "bus": 2.05,
-      "disneyTwoDaysGroup": 30.6,
-      "parisRoundGroup": 15.3
-    },
-    "notes": "Importes reservados no equivalen a pagos realizados. Estimaciones de carretera no incluyen recorridos extra ni desvíos."
-  },
-  "resources": [
-    {
-      "category": "Disney",
-      "name": "Horarios oficiales Disney",
-      "url": "https://www.disneylandparis.com/es-es/calendarios/horarios-del-parque"
-    },
-    {
-      "category": "Disney",
-      "name": "Atracciones y espectáculos",
-      "url": "https://www.disneylandparis.com/en-int/attractions"
-    },
-    {
-      "category": "Disney",
-      "name": "Navidad Disneyland Paris",
-      "url": "https://www.disneylandparis.com/es-es/las-temporadas/navidad-en-disneyland-paris"
-    },
-    {
-      "category": "París",
-      "name": "RATP · línea 6 (cierre del 8 nov.)",
-      "url": "https://www.ratp.fr/decouvrir/coulisses/modernisation-du-reseau/metro-ligne-6-travaux"
-    },
-    {
-      "category": "París",
-      "name": "Planificador RER A",
-      "url": "https://www.ratp.fr/vos-lignes/rer/a"
-    },
-    {
-      "category": "París",
-      "name": "Tarifa billete RER",
-      "url": "https://www.iledefrance-mobilites.fr/es/titres-et-tarifs/detail/ticket-metro-train-rer"
-    },
-    {
-      "category": "Gante",
-      "name": "Zona de bajas emisiones LEZ",
-      "url": "https://visit.gent.be/es/zona-de-baja-emision-gante"
-    },
-    {
-      "category": "Gante",
-      "name": "Turismo oficial de Gante",
-      "url": "https://visit.gent.be/es"
-    },
-    {
-      "category": "Nantes",
-      "name": "Les Machines de l'Île · entradas",
-      "url": "https://reservation.lesmachines-nantes.fr/"
-    },
-    {
-      "category": "Nantes",
-      "name": "Castillo de Nantes",
-      "url": "https://www.chateaunantes.fr/"
-    },
-    {
-      "category": "Burdeos",
-      "name": "Oficina de turismo de Burdeos",
-      "url": "https://www.bordeaux-tourisme.com/"
-    },
-    {
-      "category": "Saint-Émilion",
-      "name": "Información turística oficial",
-      "url": "https://www.saint-emilion-tourisme.com/"
-    }
-  ],
-  "alerts": [
-    {
-      "title": "Metro línea 6 cerrado el domingo 8",
-      "description": "RATP confirma cierre total el 8 de noviembre de 2026. Las rutas nocturnas propuestas evitan esa línea.",
-      "status": "verificado",
-      "url": "https://www.ratp.fr/decouvrir/coulisses/modernisation-du-reseau/metro-ligne-6-travaux"
-    },
-    {
-      "title": "Gante: revisar LEZ con matrícula extranjera",
-      "description": "La zona central restringe vehículos y puede exigir registro de matrículas extranjeras. Comprobar antes de circular.",
-      "status": "pendiente",
-      "url": "https://visit.gent.be/es/zona-de-baja-emision-gante"
-    },
-    {
-      "title": "Nantes y Burdeos: parking por resolver",
-      "description": "En Nantes el alojamiento ofrece parking de pago con reserva; en Burdeos no tiene parking propio.",
-      "status": "pendiente"
-    },
-    {
-      "title": "Crush's Coaster: cerrado en Disney",
-      "description": "Reforma oficial desde septiembre de 2026 hasta verano de 2027; no incluirlo en las rutas.",
-      "status": "verificado",
-      "url": "https://news.disneylandparis.com/en/crushs-coaster-refurbishment-beginning-in-september-2026/"
-    },
-    {
-      "title": "Horarios de espectáculos y visitas",
-      "description": "Las horas definitivas de Disney, transportes, Galería de las Máquinas y otras actividades deben confirmarse en las fuentes oficiales.",
-      "status": "pendiente"
+      "conditions": "Habitación triple con baño privado; comidas no incluidas. Reserva no reembolsable.",
+      "phone": "+33 5 33 52 26 02"
     }
   ]
 }

@@ -1,0 +1,7 @@
+Nombre,Direccion,Orden,Tipo,Comentario
+Salida Bilbao,"Bilbao Intermodal, Bilbao, España",0,Origen,"Salir con depósito lleno"
+Aire de l'Océan Est,"A63 Aire de l'Océan Est, 40260 Lesperon, France",1,Parada propuesta,"A63 norte; descansar y repostar si hace falta"
+Aire de Poitou-Charentes Nord,"A10 Aire de Poitou-Charentes Nord, 79230 Vouillé, France",2,Alternativa,"Parada opcional de descanso/repostaje; precio alto en consulta 31-10-2026"
+Aire de Tours Val de Loire,"A10 Aire de Tours Val de Loire, 37380 Monnaie, France",3,Parada propuesta,"Repostaje recomendado si autonomía lo permite; comprobar precios"
+Aire d'Orléans-Saran,"A10 Aire d'Orléans-Saran, 45520 Gidy, France",4,Alternativa,"Parada de respaldo antes de París"
+Apparthotel Torcy,"6 Rue Charlie Chaplin, 77200 Torcy, France",5,Destino,"Alojamiento reservado; entrada a partir de las 15:00"

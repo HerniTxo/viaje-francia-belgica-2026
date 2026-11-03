@@ -2,9 +2,7 @@ name: Verificar web del viaje
 on:
   push:
     branches: [main]
-    paths:
-      - 'docs/**'
-      - '.github/workflows/validar-web.yml'
+    paths: ['docs/**', 'scripts/**', '.github/workflows/validar-web.yml']
   pull_request:
     branches: [main]
 jobs:
@@ -14,38 +12,9 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - name: Comprobar sintaxis JavaScript
-        run: node --check docs/app.js
-      - name: Comprobar datos, referencias y privacidad
+      - name: Comprobar JavaScript
         run: |
-          node <<'NODE'
-          const fs=require('fs');
-          const assert=require('assert/strict');
-          const data=JSON.parse(fs.readFileSync('docs/data/trip.json','utf8'));
-          const html=fs.readFileSync('docs/index.html','utf8');
-          const js=fs.readFileSync('docs/app.js','utf8');
-          const ids=new Set(data.places.map(p=>p.id));
-          assert.equal(data.meta.party,3);
-          assert.equal(data.days.length,9);
-          for(const d of data.days){
-            assert.match(d.date,/^2026-11-\d{2}$/);
-            for(const e of d.events)assert(ids.has(e.place),'Punto no encontrado '+e.place);
-          }
-          for(const p of data.places){
-            assert(p.lat>=-90 && p.lat<=90 && p.lng>=-180 && p.lng<=180);
-            assert(['confirmado','propuesta'].includes(p.status));
-          }
-          for(const r of data.routes)assert(['coche','transporte','pie'].includes(r.type));
-          const n=data.costs.reserved.reduce((sum,x)=>sum+x.cost,0);
-          assert(Math.abs(n-2079.88)<0.01,'Subtotal reservas no cuadra');
-          const road=data.costs.roadEstimate.segments.reduce((x,s)=>({km:x.km+s.km,fuel:x.fuel+s.fuel,tolls:x.tolls+s.tolls}),{km:0,fuel:0,tolls:0});
-          assert.equal(road.km,data.costs.roadEstimate.km);
-          assert.equal(road.fuel,data.costs.roadEstimate.fuel);
-          assert.equal(road.tolls,data.costs.roadEstimate.tolls);
-          const publicFiles=html+js+JSON.stringify(data);
-          for(const phrase of ['drive.google.com/file/d','35785105','Janire','Igor Martinez','Hernández Perrino']){
-            assert(!publicFiles.includes(phrase),'Posible dato privado: '+phrase);
-          }
-          for(const asset of ['docs/index.html','docs/styles.css','docs/app.js','docs/assets/favicon.svg'])assert(fs.existsSync(asset));
-          console.log('Correcto:',data.days.length,'días,',data.places.length,'lugares,',data.routes.length,'rutas.');
-          NODE
+          node --check docs/app.js
+          node --check docs/maps-config.js
+      - name: Comprobar datos, enlaces internos, mapas y privacidad
+        run: node scripts/validate.mjs

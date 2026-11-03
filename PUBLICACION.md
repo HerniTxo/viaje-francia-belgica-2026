@@ -1,5 +1,17 @@
 # Web del viaje · protocolo de publicación
 
+## Versión actual: 2.0 · 03/11/2026
+
+Rediseño solicitado por el viajero: móvil, menú lateral y páginas por lugar. Torcy–París se mantiene unida; Disney tiene una única página con planes del lunes 9 y martes 10. El itinerario comienza el día 8. Brujas y Bruselas tienen páginas propias, sin inventar recorridos o trenes aún no decididos.
+
+Se conservan alojamiento, trayectos, rutas nocturnas de París con sus regresos, planes Disney y paseos que ya existían. Se incorporan los mapas de Disney recuperados de Drive (JPG optimizados y PDF con atribuciones), planos oficiales enlazados de RER A / M1 / bus 30 y CSV de gasolineras. Se retiran portada decorativa, simulador de presupuesto y lista personal de preparación. Google Maps se conserva y se carga solo en la pestaña de mapa de cada destino.
+
+Se han revisado maestro y memorias de Drive y el material de sus carpetas. El esquema más reciente del usuario incorpora Saint-Émilion el 15 y excursiones desde Gante como opciones; no implica compra de actividades ni billetes. La fecha exacta de Disney sigue sin horario oficial recuperable: la franja de trabajo permanece provisional. RATP confirma cierre total de M6 el 8, por encima del antiguo esquema con M6. El paseo B se divide en tramos para preservar las paradas en Maps móvil.
+
+La guía ya no tiene presupuesto global ni nueve entradas de agenda: son ocho días (8–15), nueve páginas y treinta rutas. Las instrucciones de estructura y próximos pasos están en `CAMINO-A-SEGUIR.md`. Los detalles de versiones anteriores, debajo, son históricos y no describen esta interfaz.
+
+Validación local: sintaxis, referencias de páginas/pestañas, rutas, archivos, fechas y privacidad. Pruebas visuales en navegador con ancho de móvil, menú lateral, navegación y planos. Validación y publicación remotas: comprobar en las ejecuciones de GitHub Actions del commit enviado.
+
 ## Estado y enlaces
 - Repositorio: https://github.com/HerniTxo/viaje-francia-belgica-2026
 - Sitio público: https://hernitxo.github.io/viaje-francia-belgica-2026/

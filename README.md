@@ -1,29 +1,37 @@
-# Francia & Bélgica 2026 — Guía pública del viaje
+# Francia y Bélgica · guía del viaje
 
 **Web:** https://hernitxo.github.io/viaje-francia-belgica-2026/
 
-Sitio interactivo, adaptable al móvil, con Google Maps JavaScript API, para el viaje del 8 al 15 de noviembre de 2026. Incluye agenda por días, mapa Leaflet/OpenStreetMap con ubicaciones, enlaces de rutas Google Maps, fichas de destinos, presupuesto y avisos prácticos.
+Guía sencilla para consultar desde el móvil, del **8 al 15 de noviembre de 2026**. Menú lateral y páginas por lugar: **Torcy–París, Disney, Gante, Brujas, Bruselas, Nantes, Burdeos, Saint-Émilion y Bilbao**. Cada página muestra una sección cada vez mediante pestañas.
 
-## Estructura
+Los planes conservan la diferencia entre confirmado, propuesta y pendiente. Los mapas de Disney recuperados de Drive están disponibles en imagen ampliable y PDF. Los transportes de París se enlazan por tramos, con estaciones y regreso. Google Maps se carga únicamente al abrir la pestaña del mapa del lugar.
 
-- `docs/index.html`: página pública.
-- `docs/styles.css`: estilos responsivos y tema claro/oscuro.
-- `docs/app.js`: interacciones sin backend.
-- `docs/data/trip.json`: **datos públicos editables** (9 días contando la recogida del coche, 23 lugares y 19 rutas).
-- `docs/assets/`: recursos propios de la interfaz.
-- `PUBLICACION.md`: criterios, fuentes y registro de publicaciones.
-- `.github/workflows/validar-web.yml`: pruebas automáticas de sintaxis, datos y privacidad.
+## Seguir el proyecto
 
-## Publicación y privacidad
+[CAMINO-A-SEGUIR.md](CAMINO-A-SEGUIR.md) recoge estructura, prioridades del viaje y mantenimiento. No hay sincronización automática con Drive.
 
-GitHub Pages sirve la rama `main`, carpeta `/docs`. La publicación **solo se solicita expresamente desde ChatGPT**; las decisiones confirmadas proceden del documento maestro en Google Drive y las propuestas permanecen etiquetadas.
+- `docs/data/trip.json`: contenido público editable por página y pestaña, rutas y lugares.
+- `docs/index.html`, `docs/styles.css`, `docs/app.js`: interfaz estática, sin instalación ni compilación.
+- `docs/maps-config.js`: configuración pública del mapa, con la clave de navegador ya existente. Mantener sus restricciones en Google Cloud.
+- `docs/assets/planos/`: mapas de Disney con las atribuciones originales, optimizados para consultar en móvil; PDF completo para descarga.
+- `scripts/validate.mjs`: comprueba días, enlaces internos, rutas, archivos, coordenadas y datos privados.
+- `.github/workflows/validar-web.yml`: ejecuta la validación con cada cambio de la web.
 
-**No subir a este repositorio:** entradas, códigos QR, localizadores, reservas originales, archivos privados, teléfonos o datos personales de los viajeros.
+## Ver y comprobar
 
-Los enlaces de Google Maps se recalculan según tráfico y transporte; las líneas sobre el mapa de ciudades son esquemáticas, no itinerarios de conducción.
+Desde la carpeta del repositorio:
 
-## Estado
+```text
+python -m http.server 4173 --bind 127.0.0.1 --directory docs
+node --check docs/app.js
+node --check docs/maps-config.js
+node scripts/validate.mjs
+```
 
-- V1.2: integración Google Maps JavaScript, filtros de día y ciudad, ficha con navegación y vista móvil revisada.
-- Validación automatizada en GitHub Actions: correcta.
-- GitHub Pages: despliegue verificado como satisfactorio en su flujo de GitHub Actions.
+Abrir `http://127.0.0.1:4173`. El mapa integrado puede no mostrarse en localhost si la clave solo admite el dominio publicado; los enlaces de navegación siguen disponibles.
+
+## Publicación
+
+GitHub Pages sirve **`main`, carpeta `/docs`**, con la URL existente. Publicar cuando se solicite y comprobar las ejecuciones de validación y Pages del commit enviado. Las rutas `#/lugar/pestaña` se pueden compartir; los enlaces antiguos con `?dia=2026-11-DD` llevan al lugar de ese día.
+
+El repositorio es público: no incluir entradas originales, QR, localizadores, reservas, datos personales ni enlaces a archivos privados de Drive. Las direcciones y teléfonos de hoteles son datos comerciales. Los importes de reservas no implican pago comprobado.
