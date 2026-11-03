@@ -11,10 +11,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzxGmEQY3bWPB0w8xqFjXyM0=" crossorigin="">
-<link rel="stylesheet" href="styles.css?v=1.1">
-<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script defer src="app.js?v=1.1"></script>
+
+<link rel="stylesheet" href="styles.css?v=1.2">
+
+<script defer src="app.js?v=1.2"></script>
 </head>
 <body>
 <a class="skip" href="#inicio">Saltar al contenido</a>
@@ -43,9 +43,9 @@
 
 <section class="section section-tinted" id="mapa"><div class="container">
  <div class="section-head"><div><span class="eyebrow">02 — EXPLORA</span><h2>El viaje, <em>en el mapa.</em></h2><p>Hoteles, puntos turísticos y estaciones. Selecciona una zona o toca una chincheta.</p></div><a href="#rutas" class="text-link">Ir a las rutas ↗</a></div>
- <div class="map-shell"><div class="map-toolbar"><label for="map-city">Zona</label><select id="map-city"><option>Todos</option><option>Bilbao</option><option>Torcy</option><option>París</option><option>Disney</option><option>Gante</option><option>Nantes</option><option>Burdeos</option><option>Saint-Émilion</option></select>
+ <div class="map-shell"><div class="map-toolbar"><label for="map-city">Zona</label><select id="map-city"><option>Todos</option><option>Bilbao</option><option>Torcy</option><option>París</option><option>Disney</option><option>Gante</option><option>Nantes</option><option>Burdeos</option><option>Saint-Émilion</option></select><label for="map-day" class="map-day-label">Día</label><select id="map-day" aria-label="Mostrar lugares de un día"><option value="todos">Todos los días</option></select>
  <div class="chip-group" id="map-categories"><button class="chip active" data-map-category="todos">Todos</button><button class="chip" data-map-category="alojamiento">Alojamientos</button><button class="chip" data-map-category="atraccion">Visitas</button><button class="chip" data-map-category="transporte">Transporte</button></div></div>
- <div class="map-grid"><div class="map-main"><div id="travel-map"><span class="loading">Cargando mapa…</span></div><div class="map-warning">ℹ️ Las líneas entre ciudades son <b>orientativas</b>, no rutas por carretera. Para conducir, abre Google Maps desde la sección «Rutas».</div></div><aside class="map-side"><div class="map-side-heading"><strong>Lugares del viaje</strong><span id="places-count"></span></div><input class="search" id="place-search" type="search" placeholder="Buscar un lugar…" aria-label="Buscar lugares"><div id="places-list" class="places-list"></div></aside></div></div>
+ <div class="map-grid"><div class="map-main"><div id="travel-map"><span class="loading">Cargando mapa…</span></div><div class="map-warning">🗺️ Google Maps: selecciona una ciudad o un día, toca un lugar y pulsa <b>Cómo llegar</b>. Las rutas reales se abren en Google Maps; el mapa no dibuja líneas rectas entre ciudades.</div></div><aside class="map-side"><div class="map-side-heading"><strong>Lugares del viaje</strong><span id="places-count"></span></div><input class="search" id="place-search" type="search" placeholder="Buscar un lugar…" aria-label="Buscar lugares"><div id="places-list" class="places-list"></div></aside></div></div>
 </div></section>
 
 <section class="section" id="destinos"><div class="container"><div class="section-head"><div><span class="eyebrow">03 — POR DESTINOS</span><h2>Paradas con <em>personalidad.</em></h2><p>Una tarjeta para cada lugar, con su alojamiento, ideas de visita y acceso al mapa.</p></div></div><div class="destination-grid" id="destination-grid"></div></div></section>
@@ -65,5 +65,5 @@
 <div class="resource-panel"><h3>Enlaces y fuentes oficiales</h3><p>Los documentos privados, entradas, códigos QR y localizadores no se publican aquí.</p><div id="resource-list" class="resource-list"></div></div>
 </div></section>
 </main>
-<footer class="site-footer"><div class="container footer-grid"><div><span class="footer-brand">✦ Rumbo al norte</span><p>Francia & Bélgica · Noviembre 2026<br>Una guía viva del viaje.</p></div><div><strong>La próxima parada empieza aquí.</strong><p>Actualizado: <span id="last-update">—</span> · Versión <span id="site-version">—</span></p><a href="#inicio">Volver arriba ↑</a></div></div><div class="container footer-bottom"><span>Información pública del viaje, sin documentos personales.</span><span>Mapa © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> · <a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a></span></div></footer><div id="toast" class="toast" role="status" aria-live="polite"></div>
+<footer class="site-footer"><div class="container footer-grid"><div><span class="footer-brand">✦ Rumbo al norte</span><p>Francia & Bélgica · Noviembre 2026<br>Una guía viva del viaje.</p></div><div><strong>La próxima parada empieza aquí.</strong><p>Actualizado: <span id="last-update">—</span> · Versión <span id="site-version">—</span></p><a href="#inicio">Volver arriba ↑</a></div></div><div class="container footer-bottom"><span>Información pública del viaje, sin documentos personales.</span><span>Mapas © Google · <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Google Maps</a></span></div></footer><div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body></html>
