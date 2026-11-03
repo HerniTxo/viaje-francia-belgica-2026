@@ -1,51 +1,69 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#123d54">
-  <meta name="description" content="Página de prueba del viaje a Francia y Bélgica, del 8 al 15 de noviembre de 2026.">
-  <title>Viaje Francia–Bélgica 2026 · Prueba</title>
-  <style>
-    :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-    *{box-sizing:border-box}
-    body{margin:0;background:#f3f7f8;color:#183343;line-height:1.55}
-    header{background:linear-gradient(130deg,#123d54,#268d8c);color:#fff;text-align:center;padding:4.5rem 1rem 4rem}
-    header p{margin:.5rem 0 0;opacity:.92}
-    h1{font-size:clamp(2rem,6vw,3.6rem);line-height:1.13;margin:0}
-    main{max-width:800px;margin:-1.7rem auto 3rem;padding:0 1rem}
-    .panel{background:white;border-radius:20px;padding:clamp(1.25rem,4vw,2rem);box-shadow:0 10px 35px #17394a15}
-    .status{display:inline-flex;align-items:center;gap:.5rem;background:#e3f6ee;color:#176347;font-weight:700;border-radius:999px;padding:.4rem .8rem;font-size:.85rem}
-    .status:before{content:"";height:.55rem;width:.55rem;background:#1aa572;border-radius:50%}
-    h2{margin:1.4rem 0 .6rem;font-size:1.35rem}
-    ol{list-style:none;margin:1rem 0;padding:0;display:grid;gap:.7rem}
-    li{display:flex;gap:1rem;align-items:baseline;border:1px solid #dde8ea;border-radius:12px;padding:.8rem 1rem}
-    time{font-weight:750;min-width:5.3rem;color:#146c72}
-    .note{color:#49606c;font-size:.92rem}
-    footer{text-align:center;color:#62747d;font-size:.85rem;margin:2rem auto}
-    @media(max-width:430px){li{display:block}time{display:block;margin-bottom:.15rem}}
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#102c35">
+<meta name="description" content="Guía interactiva del viaje por Francia y Bélgica: itinerario, mapa, rutas, visitas y presupuesto. 8–15 noviembre 2026.">
+<meta property="og:title" content="Francia & Bélgica 2026 · Diario de ruta">
+<meta property="og:description" content="8 días, destinos inolvidables y todos los planes en un mismo lugar.">
+<title>Francia & Bélgica 2026 · Diario de ruta</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzxGmEQY3bWPB0w8xqFjXyM0=" crossorigin="">
+<link rel="stylesheet" href="styles.css?v=1.0">
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script defer src="app.js?v=1.0"></script>
 </head>
 <body>
-  <header>
-    <h1>Francia &amp; Bélgica<br>2026</h1>
-    <p>Del 8 al 15 de noviembre · 3 viajeros · Ruta en coche</p>
-  </header>
-  <main>
-    <div class="panel">
-      <span class="status">Página de prueba</span>
-      <h2>🗺️ Nuestro recorrido</h2>
-      <ol>
-        <li><time datetime="2026-11-08">8 nov.</time><span>Bilbao → Torcy (París)</span></li>
-        <li><time datetime="2026-11-09">9–10 nov.</time><span>Disneyland Paris</span></li>
-        <li><time datetime="2026-11-11">11–12 nov.</time><span>Gante (Bélgica)</span></li>
-        <li><time datetime="2026-11-13">13 nov.</time><span>Nantes</span></li>
-        <li><time datetime="2026-11-14">14 nov.</time><span>Burdeos</span></li>
-        <li><time datetime="2026-11-15">15 nov.</time><span>Regreso a Bilbao</span></li>
-      </ol>
-      <p class="note">Esta es una primera versión para comprobar el acceso público. Más adelante incorporaremos el itinerario detallado, mapas, visitas, gastos y enlaces útiles. No contiene documentos ni datos privados.</p>
-    </div>
-    <footer>Viaje Francia–Bélgica 2026 · Versión de prueba 0.1</footer>
-  </main>
-</body>
-</html>
+<a class="skip" href="#inicio">Saltar al contenido</a>
+<header class="site-header"><div class="container nav">
+  <a class="brand" href="#inicio"><span class="brand-star">✦</span><span>Rumbo <b>al norte</b><small>FRANCIA · BÉLGICA 2026</small></span></a>
+  <nav id="main-nav" aria-label="Navegación"><a href="#itinerario">Itinerario</a><a href="#mapa">Mapa</a><a href="#destinos">Destinos</a><a href="#rutas">Rutas</a><a href="#presupuesto">Gastos</a><a href="#util">Guía práctica</a></nav>
+  <div class="nav-btns"><button id="theme-button" class="icon-btn" title="Cambiar tema" aria-label="Cambiar tema">◐</button><button id="menu-button" class="icon-btn menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button></div>
+</div></header>
+<main>
+<section id="inicio" class="hero"><div class="container hero-inner">
+  <div class="hero-copy"><span class="eyebrow pale">DIARIO DE VIAJE · 8–15 NOVIEMBRE 2026</span><h1>Un viaje.<br><em>Cinco destinos.</em><br>Mil historias.</h1>
+    <p>De Bilbao a París, dos días de Disney, la magia de Gante y el regreso entre Nantes y Burdeos. Todo el plan, en un mismo lugar.</p>
+    <div class="hero-actions"><a class="btn btn-primary" href="#itinerario">Explorar itinerario <span>↗</span></a><a class="btn btn-outline" href="#mapa">Ver mapa</a></div>
+    <div class="hero-facts"><span>🗓️ <b>8 días</b></span><span>🌙 <b>7 noches</b></span><span>🚙 <b>3 viajeros</b></span></div>
+  </div>
+  <div class="hero-art" aria-hidden="true"><span class="hero-art-overline">ON THE ROAD · 2026</span><span class="art-sun"></span><span class="art-title">Sur la route</span><svg viewBox="0 0 340 345" fill="none"><path d="M65 303 C315 260, 9 201, 235 158 S95 75, 281 31" stroke="#fff9ec" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 11"/><g fill="#fff9ec"><circle cx="65" cy="303" r="7"/><circle cx="235" cy="158" r="7"/><circle cx="281" cy="31" r="7"/></g></svg><span class="art-pin bottom">Bilbao</span><span class="art-pin middle">Nantes · Burdeos</span><span class="art-pin top">Gante · París</span><span class="art-footer">ESPAÑA → FRANCIA → BÉLGICA</span></div>
+</div></section>
+<div class="journey-strip"><div class="container strip-inner"><span>NUESTRA RUTA</span><div>Bilbao <b>→</b> Torcy <b>→</b> Disney <b>→</b> Gante <b>→</b> Nantes <b>→</b> Burdeos <b>→</b> Bilbao</div></div></div>
+
+<section class="section" id="itinerario"><div class="container">
+  <div class="section-head"><div><span class="eyebrow">01 — TU GUÍA DIARIA</span><h2>Cada día, <em>a tu ritmo.</em></h2><p>Lo que está reservado y lo que todavía estamos valorando, claramente diferenciado.</p></div><div class="head-actions"><button class="btn btn-subtle" id="today-button">◎ Ir a mi día</button><button class="btn btn-subtle" id="share-day-button">⇧ Compartir</button></div></div>
+  <div class="tab-scroll"><div id="day-tabs" class="day-tabs" role="tablist" aria-label="Seleccionar día"></div></div>
+  <div class="day-detail" id="day-detail"><div class="loading">Cargando itinerario…</div></div>
+  <p class="legend"><span class="pill confirmed">✓ Confirmado</span><span class="pill proposal">◌ Propuesta</span> Las actividades propuestas pueden cambiar; consulta los horarios oficiales.</p>
+</div></section>
+
+<section class="section section-tinted" id="mapa"><div class="container">
+ <div class="section-head"><div><span class="eyebrow">02 — EXPLORA</span><h2>El viaje, <em>en el mapa.</em></h2><p>Hoteles, puntos turísticos y estaciones. Selecciona una zona o toca una chincheta.</p></div><a href="#rutas" class="text-link">Ir a las rutas ↗</a></div>
+ <div class="map-shell"><div class="map-toolbar"><label for="map-city">Zona</label><select id="map-city"><option>Todos</option><option>Bilbao</option><option>Torcy</option><option>París</option><option>Disney</option><option>Gante</option><option>Nantes</option><option>Burdeos</option><option>Saint-Émilion</option></select>
+ <div class="chip-group" id="map-categories"><button class="chip active" data-map-category="todos">Todos</button><button class="chip" data-map-category="alojamiento">Alojamientos</button><button class="chip" data-map-category="atraccion">Visitas</button><button class="chip" data-map-category="transporte">Transporte</button></div></div>
+ <div class="map-grid"><div class="map-main"><div id="travel-map"><span class="loading">Cargando mapa…</span></div><div class="map-warning">ℹ️ Las líneas entre ciudades son <b>orientativas</b>, no rutas por carretera. Para conducir, abre Google Maps desde la sección «Rutas».</div></div><aside class="map-side"><div class="map-side-heading"><strong>Lugares del viaje</strong><span id="places-count"></span></div><input class="search" id="place-search" type="search" placeholder="Buscar un lugar…" aria-label="Buscar lugares"><div id="places-list" class="places-list"></div></aside></div></div>
+</div></section>
+
+<section class="section" id="destinos"><div class="container"><div class="section-head"><div><span class="eyebrow">03 — POR DESTINOS</span><h2>Paradas con <em>personalidad.</em></h2><p>Una tarjeta para cada lugar, con su alojamiento, ideas de visita y acceso al mapa.</p></div></div><div class="destination-grid" id="destination-grid"></div></div></section>
+
+<section class="section section-tinted" id="rutas"><div class="container"><div class="section-head"><div><span class="eyebrow">04 — EN MARCHA</span><h2>Rutas para <em>seguir de verdad.</em></h2><p>Trayectos por carretera y rutas en transporte público y a pie, cada uno en su modo.</p></div></div>
+<div class="chip-group route-filters" id="route-filters"><button class="chip active" data-route-filter="todos">Todas</button><button class="chip" data-route-filter="coche">🚗 Carretera</button><button class="chip" data-route-filter="transporte">🚆 RER y bus</button><button class="chip" data-route-filter="pie">🚶 A pie</button></div><div id="route-list" class="route-list"></div><div class="notice"><b>París, domingo 8:</b> el metro de la línea 6 estará cerrado todo el día. Las propuestas evitan esa línea y separan RER, autobús y paseo por etapas.</div>
+</div></section>
+
+<section class="section" id="presupuesto"><div class="container"><div class="section-head"><div><span class="eyebrow">05 — CUENTAS CLARAS</span><h2>Presupuesto <em>sin sorpresas.</em></h2><p>Reservas y gastos estimados, por separado. Las reservas no equivalen necesariamente a importes ya pagados.</p></div></div>
+<div class="budget-grid"><div class="budget-panel"><div class="budget-top"><div><span class="mini-label">TOTAL DE RESERVAS</span><strong id="budget-reserved" class="giant-number">—</strong></div><div id="budget-donut" class="donut"></div></div><div id="reserved-items" class="budget-items"></div></div>
+<div class="budget-panel calculator"><span class="mini-label">SIMULADOR · 3 PERSONAS</span><h3>¿Cuánto nos puede costar?</h3><label class="field">Transporte Torcy–Disney<select id="travel-mode"><option value="coche">Coche · escenario carretera</option><option value="rer">RER A · alternativa estimada</option></select></label><label class="field">Comidas y bebidas (grupo)<div class="money-input"><input type="number" id="extra-food" min="0" max="10000" step="10" value="0"><span>€</span></div></label><label class="field">Parkings (grupo)<div class="money-input"><input type="number" id="extra-parking" min="0" max="10000" step="5" value="0"><span>€</span></div></label><label class="field">Otras visitas y extras<div class="money-input"><input type="number" id="extra-other" min="0" max="10000" step="10" value="0"><span>€</span></div></label><div class="result-panel"><div><span>Desplazamientos estimados</span><strong id="estimate-road">—</strong></div><div><span>Total del escenario</span><strong class="result-big" id="estimate-total">—</strong></div><div><span>Por persona</span><strong id="estimate-person">—</strong></div></div><button class="small-action" id="reset-budget">↺ Reiniciar simulación</button><p class="muted small">Estimaciones orientativas; los extras que escribas solo se guardan en este navegador.</p></div></div>
+<details class="cost-details"><summary>Ver el desglose de kilómetros, gasolina y peajes estimados</summary><div id="road-costs"></div></details>
+</div></section>
+
+<section class="section section-tinted" id="util"><div class="container"><div class="section-head"><div><span class="eyebrow">06 — ANTES DE SALIR</span><h2>Todo lo <em>importante.</em></h2><p>Avisos prácticos, enlaces oficiales y tu propia lista de preparación.</p></div></div>
+<div class="useful-grid"><div class="info-card"><h3>⚠️ Avisos importantes</h3><div id="alerts-list"></div></div><div class="info-card"><h3>☑️ Lista de viaje</h3><p class="muted">Se guarda solo en este dispositivo, no se comparte con tus compañeros.</p><div id="checklist"></div><button class="small-action" id="clear-checklist">Vaciar mi lista</button></div></div>
+<div class="resource-panel"><h3>Enlaces y fuentes oficiales</h3><p>Los documentos privados, entradas, códigos QR y localizadores no se publican aquí.</p><div id="resource-list" class="resource-list"></div></div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container footer-grid"><div><span class="footer-brand">✦ Rumbo al norte</span><p>Francia & Bélgica · Noviembre 2026<br>Una guía viva del viaje.</p></div><div><strong>La próxima parada empieza aquí.</strong><p>Actualizado: <span id="last-update">—</span> · Versión <span id="site-version">—</span></p><a href="#inicio">Volver arriba ↑</a></div></div><div class="container footer-bottom"><span>Información pública del viaje, sin documentos personales.</span><span>Mapa © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> · <a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a></span></div></footer><div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>
