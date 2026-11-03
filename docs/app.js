@@ -7,7 +7,8 @@ const esc=v=>String(v==null?"":v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;"
 const euro=n=>new Intl.NumberFormat("es-ES",{style:"currency",currency:"EUR"}).format(Number(n)||0);
 const localGet=(key,fallback)=>{try{let s=localStorage.getItem(key);return s===null?fallback:JSON.parse(s);}catch{return fallback}};
 const localSet=(key,value)=>{try{localStorage.setItem(key,JSON.stringify(value))}catch{}};
-const mapSearch=(p)=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.lat+","+p.lng);
+const mapSearch=p=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.address||p.name+", "+p.city);
+const hotelMap=s=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(s.name+", "+s.address);
 const routeURL=(r)=>{const s=new URLSearchParams({api:"1",origin:r.from,destination:r.to,travelmode:r.type==="coche"?"driving":r.type==="pie"?"walking":"transit"});if(r.stops&&r.stops.length&&r.type!=="transporte")s.set("waypoints",r.stops.join("|"));return "https://www.google.com/maps/dir/?"+s.toString()};
 const tag=status=>'<span class="pill '+(status==="confirmado"?"confirmed":"proposal")+'">'+(status==="confirmado"?"✓ Confirmado":"◌ Propuesta")+"</span>";
 const icon=category=>({alojamiento:"🛏️",atraccion:"✦",transporte:"🚉"})[category]||"📍";
@@ -42,6 +43,8 @@ function selectDay(date,updateURL){
 function createMap(){
  if(typeof L==="undefined"){$("#travel-map").innerHTML='<div class="empty-message">No se ha podido cargar el mapa. Puedes acceder a todos los lugares desde la lista y los enlaces de Google Maps.</div>';return}
  map=L.map("travel-map",{scrollWheelZoom:false,zoomControl:true});
+ if(window.ResizeObserver)new ResizeObserver(()=>map.invalidateSize({pan:false})).observe($("#travel-map"));
+ window.addEventListener("orientationchange",()=>setTimeout(()=>{map.invalidateSize({pan:false});fitMap()},300));
  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
  const pts=["bilbao","torcy","gante","nantes","burdeos","bilbao"].map(id=>{const p=D.places.find(x=>x.id===id);return [p.lat,p.lng]});
  overview=L.polyline(pts,{color:"#237868",weight:3,opacity:.65,dashArray:"6 10"}).addTo(map);
@@ -55,18 +58,21 @@ function createMap(){
 }
 function fitMap(){
  if(!map)return;
- if(selectedZone==="Todos"){map.fitBounds(overview.getBounds(),{padding:[33,33],maxZoom:7})}
+ map.invalidateSize({pan:false});
+ if(selectedZone==="Todos"){map.fitBounds(overview.getBounds(),{padding:[28,28],maxZoom:7})}
  else{const pts=D.places.filter(p=>p.city===selectedZone);if(pts.length===1)map.setView([pts[0].lat,pts[0].lng],13);else if(pts.length>1)map.fitBounds(pts.map(p=>[p.lat,p.lng]),{padding:[36,36],maxZoom:13})}
 }
 function filterPlaces(){
  let visible=D.places.filter(p=>(selectedZone==="Todos"||p.city===selectedZone)&&(category==="todos"||p.category===category)&&(p.name+" "+p.description+" "+p.city).toLocaleLowerCase("es").includes(search.toLocaleLowerCase("es")));
  if(map){Object.entries(markers).forEach(([id,marker])=>{const show=visible.some(p=>p.id===id);if(show&&!map.hasLayer(marker))marker.addTo(map);else if(!show&&map.hasLayer(marker))map.removeLayer(marker)});}
  $("#places-count").textContent=visible.length+" lugares";
- $("#places-list").innerHTML=visible.length?visible.map(p=>'<button class="place-item" data-place="'+esc(p.id)+'"><span class="place-icon">'+icon(p.category)+'</span><span><b>'+esc(p.name)+'</b><small>'+esc(p.city)+' · '+(p.status==="confirmado"?"Confirmado":"Propuesta")+'</small></span></button>').join(""):'<p class="empty-message">Sin resultados para este filtro.</p>';
+ $("#places-list").innerHTML=visible.length?visible.map(p=>'<div class="place-row"><button class="place-item" data-place="'+esc(p.id)+'"><span class="place-icon">'+icon(p.category)+'</span><span><b>'+esc(p.name)+'</b><small>'+esc(p.city)+' · '+(p.status==="confirmado"?"Confirmado":"Propuesta")+'</small></span></button><a class="place-directions" href="'+esc(mapSearch(p))+'" target="_blank" rel="noopener noreferrer">Cómo llegar ↗</a></div>').join(""):'<p class="empty-message">Sin resultados para este filtro.</p>';
 }
-function focusPlace(id){const p=D.places.find(x=>x.id===id);if(!p)return;if(!map){window.open(mapSearch(p),"_blank","noopener,noreferrer");return}map.setView([p.lat,p.lng],Math.max(map.getZoom(),13),{animate:true});markers[id].openPopup();const mapEl=$("#travel-map");mapEl.scrollIntoView({behavior:"smooth",block:"center"})}
+function focusPlace(id){const p=D.places.find(x=>x.id===id);if(!p)return;if(!map){window.open(mapSearch(p),"_blank","noopener,noreferrer");return}map.invalidateSize({pan:false});if(!map.hasLayer(markers[id]))markers[id].addTo(map);map.setView([p.lat,p.lng],Math.max(map.getZoom(),14),{animate:false});markers[id].openPopup();$("#travel-map").scrollIntoView({behavior:"smooth",block:"center"})}
 function renderMap(){
  createMap();filterPlaces();
+ if(window.matchMedia("(max-width: 680px)").matches){selectedZone="Torcy";$("#map-city").value=selectedZone;filterPlaces();fitMap();}
+ document.querySelectorAll('a[href="#mapa"]').forEach(a=>a.addEventListener("click",()=>setTimeout(()=>{if(map){map.invalidateSize({pan:false});fitMap()}},180)));
  $("#map-city").addEventListener("change",e=>{selectedZone=e.target.value;filterPlaces();fitMap()});
  $("#place-search").addEventListener("input",e=>{search=e.target.value.trim();filterPlaces()});
  $("#map-categories").addEventListener("click",e=>{const b=e.target.closest("[data-map-category]");if(!b)return;category=b.dataset.mapCategory;$$("#map-categories .chip").forEach(x=>x.classList.toggle("active",x===b));filterPlaces()});
@@ -82,7 +88,7 @@ function renderDestinations(){
  {name:"Burdeos",zone:"Burdeos",flag:"🇫🇷",icon:"🏛️",gradient:"linear-gradient(135deg,#bc806e,#946b94)",dates:"14–15 nov.",description:"Arquitectura, barrios históricos y un posible paseo vespertino por el centro.",stay:D.stays[3],extras:"Place de la Bourse · Porte Cailhau"},
  {name:"En carretera",zone:"Bilbao",flag:"🚗",icon:"🛣️",gradient:"linear-gradient(135deg,#5e8d94,#39566d)",dates:"7–15 nov.",description:"Bilbao–Torcy por la ruta A, etapas intermedias y regreso con Avis antes de las 20:00.",stay:null,extras:"Peajes · combustible · desplazamientos"}
  ];
- $("#destination-grid").innerHTML=cards.map(c=>'<article class="destination-card"><div class="destination-art" style="background:'+c.gradient+'"><span class="art-country">'+esc(c.flag+" · "+c.dates)+'</span><span class="art-emoji">'+c.icon+'</span></div><div class="destination-body"><h3>'+esc(c.name)+'</h3><p>'+esc(c.description)+'</p><div class="destination-meta"><span>'+esc(c.extras)+'</span>'+(c.stay?'<span>🛏️ Alojamiento confirmado</span>':'')+'</div><div class="destination-actions">'+zoneLink(c.zone)+'<a href="#rutas">Ver rutas ↗</a></div></div></article>').join("");
+ $("#destination-grid").innerHTML=cards.map(c=>'<article class="destination-card"><div class="destination-art" style="background:'+c.gradient+'"><span class="art-country">'+esc(c.flag+" · "+c.dates)+'</span><span class="art-emoji">'+c.icon+'</span></div><div class="destination-body"><h3>'+esc(c.name)+'</h3><p>'+esc(c.description)+'</p><div class="destination-meta"><span>'+esc(c.extras)+'</span>'+(c.stay?'<span>🛏️ Alojamiento confirmado</span>':'')+'</div><div class="destination-actions">'+zoneLink(c.zone)+(c.stay?'<a href="'+esc(hotelMap(c.stay))+'" target="_blank" rel="noopener noreferrer">Cómo llegar al hotel ↗</a>':'')+'<a href="#rutas">Ver rutas ↗</a></div></div></article>').join("");
  $("#destination-grid").addEventListener("click",e=>{const b=e.target.closest("[data-go-zone]");if(!b)return;selectedZone=b.dataset.goZone;$("#map-city").value=selectedZone;filterPlaces();fitMap();location.hash="mapa"});
 }
 function renderRoutes(){
@@ -129,7 +135,7 @@ function renderUseful(){
 }
 async function start(){
  initNav();
- try{const response=await fetch("data/trip.json?v=1.0",{cache:"no-store"});if(!response.ok)throw Error("HTTP "+response.status);D=await response.json();renderDayTabs();renderMap();renderDestinations();initRoutes();renderBudget();renderUseful()}
+ try{const response=await fetch("data/trip.json?v=1.1",{cache:"no-store"});if(!response.ok)throw Error("HTTP "+response.status);D=await response.json();renderDayTabs();renderMap();renderDestinations();initRoutes();renderBudget();renderUseful()}
  catch(err){console.error("No se han podido cargar los datos del viaje:",err);$("#day-detail").innerHTML='<div class="empty-message">No se ha podido cargar la agenda. Recarga la página para volver a intentarlo.</div>';$("#travel-map").innerHTML='<div class="empty-message">El mapa está temporalmente no disponible. Prueba de nuevo más tarde.</div>';toast("No se pudieron cargar los datos del viaje")}
 }
 start();
