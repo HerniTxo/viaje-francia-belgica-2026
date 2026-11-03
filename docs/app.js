@@ -70,11 +70,54 @@
    currentPage=p; const selected=p.panes.find(t=>t.id===paneId)||p.panes[0];
    content.innerHTML=`<a class="page-back" href="#/inicio">← El viaje</a><header class="page-head"><span class="eyebrow">${escape(p.date)}</span><h1>${escape(p.title)}</h1><p class="intro">${escape(p.intro)}</p></header><nav class="panes" aria-label="Secciones de ${escape(p.title)}">${p.panes.map(t=>`<a class="pane-link" href="#/${escape(p.id)}/${escape(t.id)}"${t.id===selected.id?' aria-current="page"':''}>${escape(t.label)}</a>`).join('')}</nav><div class="panel">${selected.blocks.map(block).join('')}</div><footer class="page-end"><a href="#/inicio">← Ver el viaje</a>${p.next?anchor('#/'+p.next,'Siguiente: '+data.pages.find(q=>q.id===p.next).title):''}</footer>`;
    document.title=p.title+' · '+selected.label+' · Guía del viaje';
+   showWeather(p,mapEpoch);
    if(selected.blocks.some(b=>b.type==='map'))void drawMap(p,mapEpoch);
   }
   document.querySelectorAll('[data-page]').forEach(a=>a.removeAttribute('aria-current'));
   const active=$(`[data-page="${p?p.id:'inicio'}"]`);if(active)active.setAttribute('aria-current','page');
   content.setAttribute('aria-busy','false');toggleMenu(false,false);window.scrollTo({top:0,behavior:'instant'});
+ }
+ const weatherVisits={
+  'torcy-paris':[{name:'Torcy',lat:48.841,lng:2.656,days:[8,9,10,11]},{name:'París · noche',lat:48.857,lng:2.34,days:[8],night:true}],
+  disney:[{name:'Disney',lat:48.87,lng:2.78,days:[9,10]}],gante:[{name:'Gante',lat:51.054,lng:3.726,days:[11,12,13]}],
+  brujas:[{name:'Brujas',lat:51.209,lng:3.224,days:[12]}],bruselas:[{name:'Bruselas',lat:50.847,lng:4.352,days:[12]}],
+  nantes:[{name:'Nantes',lat:47.216,lng:-1.55,days:[13,14]}],burdeos:[{name:'Burdeos',lat:44.838,lng:-.579,days:[14,15]}],
+  'saint-emilion':[{name:'Saint-Émilion',lat:44.894,lng:-.156,days:[15]}],bilbao:[{name:'Bilbao',lat:43.263,lng:-2.935,days:[15]}]
+ };
+ const weatherCache=new Map();
+ async function forecast(v,refresh=false){
+  const key=v.lat+','+v.lng,cached=weatherCache.get(key);
+  if(!refresh&&cached&&Date.now()-cached.time<900000)return cached;
+  const q=new URLSearchParams({key:window.TRIP_MAPS_KEY,'location.latitude':v.lat,'location.longitude':v.lng,days:'10',pageSize:'10',unitsSystem:'METRIC',languageCode:'es'});
+  let rows=[],token;
+  do{
+   if(token)q.set('pageToken',token);
+   const response=await fetch('https://weather.googleapis.com/v1/forecast/days:lookup?'+q,{signal:AbortSignal.timeout(15000)});
+   if(!response.ok)throw new Error('Weather no disponible');
+   const body=await response.json();rows.push(...(body.forecastDays||[]));token=body.nextPageToken;
+  }while(token&&rows.length<10);
+  const result={rows,time:Date.now()};weatherCache.set(key,result);return result;
+ }
+ async function showWeather(p,epoch,refresh=false){
+  let el=$('#weather');
+  if(!el){el=document.createElement('section');el.id='weather';el.className='weather note';el.setAttribute('aria-live','polite');$('.panes').before(el);}
+  el.innerHTML='<h2>Tiempo en las fechas de visita</h2><p>Consultando el pronóstico…</p>';
+  const visits=weatherVisits[p.id]||[];
+  const results=await Promise.allSettled(visits.map(v=>forecast(v,refresh)));
+  if(epoch!==mapEpoch)return;
+  const temperature=t=>Number.isFinite(t?.degrees)?Math.round(t.degrees)+' °C':'—';
+  const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+  el.innerHTML='<h2>Tiempo en las fechas de visita</h2>'+visits.map((v,i)=>{
+   const result=results[i];
+   return '<div class="weather-place"><strong>'+escape(v.name)+'</strong>'+v.days.map(day=>{
+    const date='2026-11-'+String(day).padStart(2,'0');
+    const d=result.status==='fulfilled'?result.value.rows.find(x=>x.displayDate?.year===2026&&x.displayDate?.month===11&&x.displayDate?.day===day):null;
+    if(!d)return '<p>'+day+' nov. · '+(date<today?'Fecha pasada; sin pronóstico.':result.status==='rejected'?'No se ha podido consultar el tiempo.':'Todavía fuera del alcance del pronóstico.')+'</p>';
+    const f=v.night?d.nighttimeForecast:d.daytimeForecast,prob=f?.precipitation?.probability?.percent;
+    return '<p><b>'+day+' nov.</b> · '+escape(f?.weatherCondition?.description?.text||'Sin descripción')+' · '+temperature(d.minTemperature)+' / '+temperature(d.maxTemperature)+(Number.isFinite(prob)?' · Precipitación '+prob+' %':'')+'</p>';
+   }).join('')+'</div>';
+  }).join('')+'<div class="weather-footer"><small>Google Weather · Consulta '+new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date())+' · mín./máx. diaria</small><button type="button" class="weather-refresh">Actualizar</button></div>';
+  el.querySelector('button').addEventListener('click',()=>void showWeather(p,epoch,true));
  }
  function loadMaps(){
   if(window.google?.maps?.Map)return Promise.resolve();
