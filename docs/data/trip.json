@@ -1937,6 +1937,369 @@
         "alquiler"
       ],
       "next": null
+    },
+    {
+      "id": "frances",
+      "title": "Francés útil",
+      "date": "Para todo el viaje",
+      "intro": "Frases para tres viajeros, con traducción y pronunciación aproximada. Toca Escuchar para oírlas en francés.",
+      "utility": true,
+      "points": [],
+      "panes": [
+        {
+          "id": "basico",
+          "label": "Básico",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "Bonjour.",
+                  "es": "Hola / buenos días.",
+                  "phonetic": "bo(n)-zhúr",
+                  "audio": "assets/francais/441278a3222df472.mp3"
+                },
+                {
+                  "fr": "Bonsoir.",
+                  "es": "Buenas tardes / buenas noches, al saludar.",
+                  "phonetic": "bon-suár",
+                  "audio": "assets/francais/4f39654dfe0e1eae.mp3"
+                },
+                {
+                  "fr": "Au revoir.",
+                  "es": "Adiós.",
+                  "phonetic": "o re-vuár",
+                  "audio": "assets/francais/dcaa4a1fd60f5965.mp3"
+                },
+                {
+                  "fr": "S’il vous plaît. Merci beaucoup.",
+                  "es": "Por favor. Muchas gracias.",
+                  "phonetic": "sil vu plé. mer-sí bo-kú",
+                  "audio": "assets/francais/1a94b9a793b92c7c.mp3"
+                },
+                {
+                  "fr": "Oui. Non. Excusez-moi.",
+                  "es": "Sí. No. Disculpe.",
+                  "phonetic": "uí. no(n). eks-kü-zé muá",
+                  "audio": "assets/francais/a5d1e12c13e37ba9.mp3"
+                },
+                {
+                  "fr": "Je ne parle pas bien français. Parlez-vous espagnol ?",
+                  "es": "No hablo bien francés. ¿Habla español?",
+                  "phonetic": "zhe ne parl pa bia(n) fra(n)-sé. par-lé vu es-pa-ñól",
+                  "audio": "assets/francais/4139b1019339340f.mp3"
+                },
+                {
+                  "fr": "Pouvez-vous répéter plus lentement, s’il vous plaît ?",
+                  "es": "¿Puede repetir más despacio, por favor?",
+                  "phonetic": "pu-vé vu ré-pé-té plü la(n)-te-ma(n), sil vu plé",
+                  "audio": "assets/francais/abad9e262793aead.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "comer",
+          "label": "Comer",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "Une table pour trois, s’il vous plaît.",
+                  "es": "Una mesa para tres, por favor.",
+                  "phonetic": "ün tabl pur truá, sil vu plé",
+                  "audio": "assets/francais/5da7b2316c44f98f.mp3"
+                },
+                {
+                  "fr": "Est-ce que vous servez encore à manger ?",
+                  "es": "¿Todavía sirven comida?",
+                  "phonetic": "es ke vu ser-vé a(n)-kor a ma(n)-zhé",
+                  "audio": "assets/francais/eeed956039b04277.mp3"
+                },
+                {
+                  "fr": "Une carafe d’eau et trois verres, s’il vous plaît.",
+                  "es": "Una jarra de agua y tres vasos, por favor.",
+                  "phonetic": "ün ka-raf do e truá ver, sil vu plé",
+                  "audio": "assets/francais/da37559e259971b6.mp3"
+                },
+                {
+                  "fr": "Je voudrais une galette et une crêpe, s’il vous plaît.",
+                  "es": "Querría una galette y una crêpe, por favor.",
+                  "phonetic": "zhe vu-dré ün ga-let e ün krep, sil vu plé",
+                  "audio": "assets/francais/433c989d893d6888.mp3"
+                },
+                {
+                  "fr": "Sans viande, s’il vous plaît.",
+                  "es": "Sin carne, por favor.",
+                  "phonetic": "sa(n) via(n)d, sil vu plé",
+                  "audio": "assets/francais/390769a31d7a5463.mp3"
+                },
+                {
+                  "fr": "Est-ce que ce plat contient des fruits à coque ?",
+                  "es": "¿Este plato contiene frutos secos de cáscara?",
+                  "phonetic": "es ke se pla ko(n)-tia(n) de früi a kok",
+                  "audio": "assets/francais/846be0e2e27c9b15.mp3"
+                },
+                {
+                  "fr": "L’addition, s’il vous plaît. Peut-on payer par carte ?",
+                  "es": "La cuenta, por favor. ¿Se puede pagar con tarjeta?",
+                  "phonetic": "la-di-sio(n), sil vu plé. pe to(n) pé-yé par kart",
+                  "audio": "assets/francais/0b47962bd18d4123.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hotel",
+          "label": "Hotel",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "Bonjour, nous avons une réservation pour trois personnes.",
+                  "es": "Hola, tenemos una reserva para tres personas.",
+                  "phonetic": "bo(n)-zhúr, nu za-vo(n) ün ré-zer-va-sio(n) pur truá per-son",
+                  "audio": "assets/francais/5a2e78392025d88a.mp3"
+                },
+                {
+                  "fr": "À quelle heure devons-nous libérer la chambre ?",
+                  "es": "¿A qué hora debemos dejar la habitación?",
+                  "phonetic": "a kel er de-vo(n) nu li-bé-ré la sha(n)br",
+                  "audio": "assets/francais/4c91e41abf7d4f26.mp3"
+                },
+                {
+                  "fr": "Peut-on laisser nos bagages ici après le départ ?",
+                  "es": "¿Podemos dejar aquí el equipaje después de salir?",
+                  "phonetic": "pe to(n) lé-sé no ba-gazh i-sí a-pre le dé-par",
+                  "audio": "assets/francais/fad849c9a3e0ec53.mp3"
+                },
+                {
+                  "fr": "Le parking est-il disponible ? Faut-il le réserver ?",
+                  "es": "¿Está disponible el aparcamiento? ¿Hay que reservarlo?",
+                  "phonetic": "le par-king e til dis-po-nibl. fo til le ré-zer-vé",
+                  "audio": "assets/francais/d762d76dbe744272.mp3"
+                },
+                {
+                  "fr": "Nous arriverons vers dix-neuf heures.",
+                  "es": "Llegaremos hacia las siete de la tarde.",
+                  "phonetic": "nu za-ri-ve-ro(n) ver diz-nev er",
+                  "audio": "assets/francais/60501742f1aaea81.mp3"
+                },
+                {
+                  "fr": "Le chauffage ne fonctionne pas.",
+                  "es": "La calefacción no funciona.",
+                  "phonetic": "le sho-fazh ne fo(n)k-sion pa",
+                  "audio": "assets/francais/4c0f49d9bc97d03e.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "transporte",
+          "label": "Tren y taxi",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "Où est la gare, s’il vous plaît ?",
+                  "es": "¿Dónde está la estación de tren, por favor?",
+                  "phonetic": "u e la gar, sil vu plé",
+                  "audio": "assets/francais/cb7a3ba7157c301b.mp3"
+                },
+                {
+                  "fr": "Trois billets aller-retour pour Torcy, s’il vous plaît.",
+                  "es": "Tres billetes de ida y vuelta a Torcy, por favor.",
+                  "phonetic": "truá bi-yé a-lé re-tur pur tor-sí, sil vu plé",
+                  "audio": "assets/francais/e2472b9ea79db430.mp3"
+                },
+                {
+                  "fr": "Est-ce que ce train s’arrête à Torcy ?",
+                  "es": "¿Este tren para en Torcy?",
+                  "phonetic": "es ke se tra(n) sa-ret a tor-sí",
+                  "audio": "assets/francais/3a09880db49e3268.mp3"
+                },
+                {
+                  "fr": "Quel quai pour Marne-la-Vallée–Chessy ?",
+                  "es": "¿Qué andén es para Marne-la-Vallée–Chessy?",
+                  "phonetic": "kel ké pur marn la va-lé she-sí",
+                  "audio": "assets/francais/423c496d06737ae7.mp3"
+                },
+                {
+                  "fr": "À quelle heure est le dernier train ?",
+                  "es": "¿A qué hora sale el último tren?",
+                  "phonetic": "a kel er e le der-nié tra(n)",
+                  "audio": "assets/francais/a27a177c0ab6514b.mp3"
+                },
+                {
+                  "fr": "Ce bus va-t-il à la tour Eiffel ?",
+                  "es": "¿Este autobús va a la Torre Eiffel?",
+                  "phonetic": "se büs va til a la tur e-fel",
+                  "audio": "assets/francais/2b86ec22938593c8.mp3"
+                },
+                {
+                  "fr": "Pouvez-vous appeler un taxi pour trois personnes ?",
+                  "es": "¿Puede pedir un taxi para tres personas?",
+                  "phonetic": "pu-vé vu a-pe-lé e(n) tak-sí pur truá per-son",
+                  "audio": "assets/francais/25a46abf44791d7f.mp3"
+                },
+                {
+                  "fr": "Pouvez-vous nous emmener à cette adresse ? Combien coûte le trajet ?",
+                  "es": "¿Puede llevarnos a esta dirección? ¿Cuánto cuesta el trayecto?",
+                  "phonetic": "pu-vé vu nu za-me-né a set a-dres. ko(n)-bia(n) kut le tra-zhé",
+                  "audio": "assets/francais/d459f2887ec58454.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coche",
+          "label": "Coche",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "Où est la station-service la plus proche ?",
+                  "es": "¿Dónde está la gasolinera más cercana?",
+                  "phonetic": "u e la sta-sio(n) ser-vis la plü prosh",
+                  "audio": "assets/francais/754b13b82cbc9f51.mp3"
+                },
+                {
+                  "fr": "Du gazole. De l’essence sans plomb.",
+                  "es": "Gasóleo. Gasolina sin plomo.",
+                  "phonetic": "dü ga-zol. de lé-sa(n)s sa(n) plo(n)",
+                  "audio": "assets/francais/f015304287929102.mp3"
+                },
+                {
+                  "fr": "Quel carburant faut-il mettre dans cette voiture ?",
+                  "es": "¿Qué combustible hay que poner en este coche?",
+                  "phonetic": "kel kar-bü-ra(n) fo til metr da(n) set vua-tür",
+                  "audio": "assets/francais/bdf7c7fc743e7b65.mp3"
+                },
+                {
+                  "fr": "Combien coûte le parking pour une nuit ?",
+                  "es": "¿Cuánto cuesta el aparcamiento por una noche?",
+                  "phonetic": "ko(n)-bia(n) kut le par-king pur ün nüi",
+                  "audio": "assets/francais/7b6c15d8245302bd.mp3"
+                },
+                {
+                  "fr": "Peut-on entrer dans cette rue en voiture ?",
+                  "es": "¿Se puede entrar en esta calle en coche?",
+                  "phonetic": "pe to(n) a(n)-tré da(n) set rü a(n) vua-tür",
+                  "audio": "assets/francais/f137d407262de19f.mp3"
+                },
+                {
+                  "fr": "Notre voiture est en panne. Nous avons besoin d’assistance.",
+                  "es": "Nuestro coche está averiado. Necesitamos asistencia.",
+                  "phonetic": "notr vua-tür e ta(n) pan. nu za-vo(n) be-zua(n) da-sis-ta(n)s",
+                  "audio": "assets/francais/d23d5bfe42c257ec.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "visitas",
+          "label": "Disney y visitas",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "Nous avons des billets pour aujourd’hui.",
+                  "es": "Tenemos entradas para hoy.",
+                  "phonetic": "nu za-vo(n) de bi-yé pur o-zhur-düi",
+                  "audio": "assets/francais/cd5af04b46f92aed.mp3"
+                },
+                {
+                  "fr": "Où est l’entrée de cette attraction ?",
+                  "es": "¿Dónde está la entrada de esta atracción?",
+                  "phonetic": "u e la(n)-tré de set a-trak-sio(n)",
+                  "audio": "assets/francais/6ea3b07e85a172c1.mp3"
+                },
+                {
+                  "fr": "Combien de temps dure l’attente ?",
+                  "es": "¿Cuánto dura la espera?",
+                  "phonetic": "ko(n)-bia(n) de ta(n) dür la-ta(n)t",
+                  "audio": "assets/francais/fa748dc26ad594a9.mp3"
+                },
+                {
+                  "fr": "À quelle heure commence le spectacle ?",
+                  "es": "¿A qué hora empieza el espectáculo?",
+                  "phonetic": "a kel er ko-ma(n)s le spek-takl",
+                  "audio": "assets/francais/ebd2fb7a644510bc.mp3"
+                },
+                {
+                  "fr": "Trois billets pour la Galerie des Machines, s’il vous plaît.",
+                  "es": "Tres entradas para la Galería de las Máquinas, por favor.",
+                  "phonetic": "truá bi-yé pur la ga-le-rí de ma-shin, sil vu plé",
+                  "audio": "assets/francais/bd53ab133615ad51.mp3"
+                },
+                {
+                  "fr": "Faut-il réserver à l’avance ?",
+                  "es": "¿Hay que reservar con antelación?",
+                  "phonetic": "fo til ré-zer-vé a la-va(n)s",
+                  "audio": "assets/francais/facf2381a43e902f.mp3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ayuda",
+          "label": "Ayuda",
+          "blocks": [
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "Où sont les toilettes, s’il vous plaît ?",
+                  "es": "¿Dónde están los aseos, por favor?",
+                  "phonetic": "u so(n) le tua-let, sil vu plé",
+                  "audio": "assets/francais/c2b9c4fa56599f79.mp3"
+                },
+                {
+                  "fr": "Pouvez-vous m’aider, s’il vous plaît ?",
+                  "es": "¿Puede ayudarme, por favor?",
+                  "phonetic": "pu-vé vu mé-dé, sil vu plé",
+                  "audio": "assets/francais/cbfff820585a9a4f.mp3"
+                },
+                {
+                  "fr": "Je cherche une pharmacie.",
+                  "es": "Busco una farmacia.",
+                  "phonetic": "zhe shersh ün far-ma-sí",
+                  "audio": "assets/francais/266d5bb3d96a85bd.mp3"
+                },
+                {
+                  "fr": "J’ai besoin d’un médecin.",
+                  "es": "Necesito un médico.",
+                  "phonetic": "zhé be-zua(n) de(n) méd-sa(n)",
+                  "audio": "assets/francais/e8cc60869acb8e90.mp3"
+                },
+                {
+                  "fr": "Appelez une ambulance, s’il vous plaît.",
+                  "es": "Llame a una ambulancia, por favor.",
+                  "phonetic": "a-pe-lé ün a(n)-bü-la(n)s, sil vu plé",
+                  "audio": "assets/francais/79a5f8a368c3188e.mp3"
+                },
+                {
+                  "fr": "J’ai perdu mon téléphone.",
+                  "es": "He perdido mi teléfono.",
+                  "phonetic": "zhé per-dü mo(n) té-lé-fon",
+                  "audio": "assets/francais/42d803fbc551ee83.mp3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "routes": [

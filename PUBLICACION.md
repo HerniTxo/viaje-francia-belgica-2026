@@ -12,6 +12,14 @@ Disney: ajuste de final de jornada con shows a las 21:00 como hipótesis explíc
 
 # Web del viaje · protocolo de publicación
 
+## Francés útil · 03/11/2026
+
+Nueva página `#/frances`, bajo Práctico en el menú. Contiene 46 frases en siete pestañas: Básico, Comer, Hotel, Tren y taxi, Coche, Disney y visitas, Ayuda. Cada frase incluye francés, traducción, pronunciación aproximada para hispanohablantes y Escuchar/Parar.
+
+El audio son archivos MP3 franceses incluidos en `docs/assets/francais/`, voz `fr-FR-DeniseNeural`, generados a ritmo algo más lento para aprender. Solo se descarga el audio seleccionado; al cambiar de frase o página se detiene el anterior. No necesita voces francesas instaladas en el móvil ni nueva clave de API. Los originales de texto y el audio se relacionan mediante el hash del francés; el validador detecta audios desfasados cuando se edita el texto. El script opcional `scripts/generate-french-audio.py` permite regenerarlos.
+
+Se incorporaron antes los cambios remotos de Disney y del tiempo hasta `2ed8667`; esta actualización conserva esas modificaciones. Recursos y datos usan `v=2.2`. El itinerario sigue siendo de ocho días; hay nueve páginas de destino y una página práctica. No se consulta el tiempo en la página de francés.
+
 ## Versión actual: 2.0 · 03/11/2026
 
 Rediseño solicitado por el viajero: móvil, menú lateral y páginas por lugar. Torcy–París se mantiene unida; Disney tiene una única página con planes del lunes 9 y martes 10. El itinerario comienza el día 8. Brujas y Bruselas tienen páginas propias, sin inventar recorridos o trenes aún no decididos.

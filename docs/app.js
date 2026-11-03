@@ -39,6 +39,7 @@
    case 'routes':return `<section class="route-stack" aria-label="Rutas">${b.ids.map(routeCard).join('')}</section>`;
    case 'details':return `<details${b.open?' open':''}><summary>${escape(b.title)}</summary><div class="details-content">${b.blocks.map(block).join('')}</div></details>`;
    case 'hotel':return hotel(b.id);
+   case 'phrases':return `<section class="phrase-list" aria-label="Frases en francés">${b.items.map(i=>`<article class="phrase-card"><h2>${escape(i.es)}</h2><p class="phrase-french" lang="fr">${escape(i.fr)}</p><p class="phrase-phonetic"><span>Suena:</span> ${escape(i.phonetic)}</p><button type="button" class="phrase-play" data-say="${escape(i.fr)}" data-audio="${escape(i.audio)}" data-spanish="${escape(i.es)}" aria-label="Escuchar en francés: ${escape(i.es)}" aria-pressed="false">▶ Escuchar</button></article>`).join('')}</section>`;
    case 'image':return `<section class="image-card"><h2>${escape(b.title)}</h2><p>${escape(b.text)}</p><a href="${escape(b.src)}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar ${escape(b.title)}"><img src="${escape(b.src)}" alt="${escape(b.title)}: atracciones numeradas y recorrido propuesto por zonas" loading="lazy" width="2024" height="1432"></a>${anchor(b.src,'Ampliar plano','inline-action')}</section>`;
    case 'map':return `<section aria-label="Mapa de ${escape(currentPage.title)}"><div class="map-box" id="place-map"><p>Cargando mapa…</p></div><p class="map-caption">Ubicaciones de referencia. Toca un punto o abre el lugar en Maps. Las rutas se consultan por tramos, en su modo de transporte.</p><details><summary>Ver lugares y estaciones en Maps</summary><div class="places-list details-content">${currentPage.points.map(id=>data.places.find(p=>p.id===id)).filter(Boolean).map(p=>anchor(search(p),p.name,'link-row')).join('')}</div></details></section>`;
    default:return '';
@@ -53,7 +54,7 @@
  }
  function nav(){
   const dates={'torcy-paris':'8','disney':'9–10','gante':'11–12','brujas':'12','bruselas':'12','nantes':'13–14','burdeos':'14','saint-emilion':'15','bilbao':'15'};
-  $('#navigation').innerHTML=`<a class="nav-link" href="#/inicio" data-page="inicio">El viaje<span aria-hidden="true">↗</span></a><div class="nav-caption">Lugares</div>`+data.pages.map(p=>`<a class="nav-link ${['brujas','bruselas'].includes(p.id)?'nav-sub':''}" href="#/${escape(p.id)}" data-page="${escape(p.id)}"><span>${escape(p.title)}</span><small>${escape(dates[p.id])} nov.</small></a>`).join('');
+  $('#navigation').innerHTML=`<a class="nav-link" href="#/inicio" data-page="inicio">El viaje<span aria-hidden="true">↗</span></a><div class="nav-caption">Lugares</div>`+data.pages.filter(p=>!p.utility).map(p=>`<a class="nav-link ${['brujas','bruselas'].includes(p.id)?'nav-sub':''}" href="#/${escape(p.id)}" data-page="${escape(p.id)}"><span>${escape(p.title)}</span><small>${escape(dates[p.id])} nov.</small></a>`).join('')+'<div class="nav-caption">Práctico</div>'+data.pages.filter(p=>p.utility).map(p=>`<a class="nav-link" href="#/${escape(p.id)}" data-page="${escape(p.id)}">${escape(p.title)}</a>`).join('');
  }
  function home(){
   currentPage=null;
@@ -62,6 +63,7 @@
  }
  function render(){
   if(!data)return;
+  stopPhraseAudio();
   mapEpoch++;
   const [id='inicio',paneId]=location.hash.replace(/^#\/?/,'').split('/');
   const p=data.pages.find(p=>p.id===id);
@@ -70,6 +72,9 @@
    currentPage=p; const selected=p.panes.find(t=>t.id===paneId)||p.panes[0];
    content.innerHTML=`<a class="page-back" href="#/inicio">← El viaje</a><header class="page-head"><span class="eyebrow">${escape(p.date)}</span><h1>${escape(p.title)}</h1><p class="intro">${escape(p.intro)}</p></header><nav class="panes" aria-label="Secciones de ${escape(p.title)}">${p.panes.map(t=>`<a class="pane-link" href="#/${escape(p.id)}/${escape(t.id)}"${t.id===selected.id?' aria-current="page"':''}>${escape(t.label)}</a>`).join('')}</nav><div class="panel">${selected.blocks.map(block).join('')}</div><footer class="page-end"><a href="#/inicio">← Ver el viaje</a>${p.next?anchor('#/'+p.next,'Siguiente: '+data.pages.find(q=>q.id===p.next).title):''}</footer>`;
    document.title=p.title+' · '+selected.label+' · Guía del viaje';
+   if(p.id==='frances'){
+    $('.panes').insertAdjacentHTML('beforebegin','<details class="pronunciation-help"><summary>Cómo leer la pronunciación</summary><p>Es una aproximación para hispanohablantes, no una transcripción exacta. «zh»: como una sh con voz; «ü»: labios de u al decir i; «(n)»: vocal nasal, sin marcar la n. La r francesa se hace en la garganta. Para aprender el sonido, escucha la frase.</p><p>El audio es una grabación en francés. Necesitas conexión para cargar cada frase. En Gante y Brujas el idioma local es el neerlandés; estas frases están pensadas principalmente para las etapas de Francia.</p></details><p id="speech-status" class="speech-status" role="status" aria-live="polite"></p>');
+   }
    if(selected.id==='tiempo')showWeather(p,mapEpoch);
    if(selected.blocks.some(b=>b.type==='map'))void drawMap(p,mapEpoch);
   }
@@ -77,6 +82,24 @@
   const active=$(`[data-page="${p?p.id:'inicio'}"]`);if(active)active.setAttribute('aria-current','page');
   content.setAttribute('aria-busy','false');toggleMenu(false,false);window.scrollTo({top:0,behavior:'instant'});
  }
+ let audioButton=null, activeAudio=null;
+ function stopPhraseAudio(){
+  if(activeAudio){activeAudio.pause();activeAudio.remove();activeAudio=null;}
+  if(audioButton){audioButton.textContent='▶ Escuchar';audioButton.setAttribute('aria-pressed','false');audioButton.setAttribute('aria-label','Escuchar en francés: '+audioButton.dataset.spanish);audioButton=null;}
+ }
+ content.addEventListener('click',e=>{
+  const button=e.target.closest('[data-audio]');if(!button)return;
+  const same=audioButton===button;stopPhraseAudio();if(same)return;
+  const message=$('#speech-status');if(message)message.textContent='';
+  const audio=document.createElement('audio');audio.id='phrase-player';audio.preload='none';audio.src=button.dataset.audio;
+  content.append(audio);activeAudio=audio;audioButton=button;
+  button.textContent='■ Parar';button.setAttribute('aria-pressed','true');button.setAttribute('aria-label','Parar audio');
+  audio.onended=()=>{if(activeAudio===audio)stopPhraseAudio();};
+  const failed=()=>{if(activeAudio!==audio)return;stopPhraseAudio();if(message)message.textContent='No se ha podido cargar el audio. Comprueba la conexión y vuelve a tocar Escuchar.';};
+  audio.onerror=failed;
+  try{const result=audio.play();if(result)result.catch(failed);}catch{failed();}
+ });
+ window.addEventListener('pagehide',stopPhraseAudio);
  const weatherVisits={
   'torcy-paris':[{name:'Torcy',lat:48.841,lng:2.656,days:[8,9,10,11]},{name:'París · noche',lat:48.857,lng:2.34,days:[8],night:true}],
   disney:[{name:'Disney',lat:48.87,lng:2.78,days:[9,10]}],gante:[{name:'Gante',lat:51.054,lng:3.726,days:[11,12,13]}],
@@ -168,7 +191,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=2.1');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=2.2');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();

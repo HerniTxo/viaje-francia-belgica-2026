@@ -1,11 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 
 const data=JSON.parse(fs.readFileSync('docs/data/trip.json','utf8'));
 assert.deepEqual(data.days.map(d=>d.day),[8,9,10,11,12,13,14,15]);
 assert.equal(data.meta.party,3);
-assert.deepEqual(data.pages.map(p=>p.id),['torcy-paris','disney','gante','brujas','bruselas','nantes','burdeos','saint-emilion','bilbao']);
+assert.deepEqual(data.pages.map(p=>p.id),['torcy-paris','disney','gante','brujas','bruselas','nantes','burdeos','saint-emilion','bilbao','frances']);
 const pages=new Map(data.pages.map(p=>[p.id,p]));
 const routes=new Map(data.routes.map(r=>[r.id,r]));
 const places=new Map(data.places.map(p=>[p.id,p]));
@@ -22,7 +23,14 @@ function checkURL(url){
  else assert.equal(new URL(url).protocol,'https:','Enlace externo inseguro: '+url);
 }
 function checkBlock(b){
- assert(['timeline','note','links','facts','routes','details','hotel','image','map'].includes(b.type));
+ assert(['timeline','note','links','facts','routes','details','hotel','image','map','phrases'].includes(b.type));
+ if(b.type==='phrases')for(const i of b.items){
+  assert(i.fr?.trim()&&i.es?.trim()&&i.phonetic?.trim(),'Frase incompleta');
+  const digest=createHash('sha256').update(i.fr).digest('hex').slice(0,16);
+  assert.equal(i.audio,'assets/francais/'+digest+'.mp3','Regenerar audio tras cambiar el francés');
+  checkURL(i.audio);
+  assert(fs.statSync(path.join('docs',i.audio)).size>1000,'Audio vacío');
+ }
  if(b.type==='timeline')for(const i of b.items){if(i.route)assert(routes.has(i.route),'Tramo inexistente: '+i.route);if(i.link)checkURL(i.link);assert(['confirmado','propuesta'].includes(i.status));}
  if(b.type==='routes')for(const id of b.ids)assert(routes.has(id),'Ruta inexistente: '+id);
  if(b.type==='links')for(const l of b.items)checkURL(l.url);
