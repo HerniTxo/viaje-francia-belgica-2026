@@ -1529,43 +1529,112 @@
           "blocks": [
             {
               "type": "facts",
-              "title": "Lugar propuesto",
+              "title": "Dos lugares juntos",
               "items": [
                 {
-                  "label": "Wintercircus",
-                  "value": "Lugar cultural; evento del 12 pendiente de verificar.",
+                  "label": "Wintercircus · antiguo circo rehabilitado",
+                  "value": "Arena cubierta de acceso público, arte, bares y sala de conciertos. Entrada principal: Lammerstraat 13.",
+                  "placeId": "wintercircus"
+                },
+                {
+                  "label": "De Krook · biblioteca junto al río",
+                  "value": "Parada opcional junto al Wintercircus: arquitectura contemporánea, vistas y cafetería.",
+                  "placeId": "krook"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Instalación audiovisual gratuita · 11 y 12 de noviembre",
+              "text": "Ksawery Komputery transforma la arena con luz, sonido y movimiento. El festival anuncia la instalación del 10 al 15 de noviembre y entrada gratuita durante el día. Confirmar el horario exacto y el acceso el miércoles festivo o en caso de montaje de eventos.",
+              "tone": "plain",
+              "url": "https://www.ftifestival.be/programma/gent/ksawery-komputery"
+            },
+            {
+              "type": "note",
+              "title": "Jueves 12 · Stavroz y Ksawery Komputery",
+              "text": "Concierto de música electrónica ambiental y visuales en la arena. Puertas 20:00; biøs 20:30; Stavroz 21:30, con actuación de aproximadamente una hora. Entrada desde 25 €; disponibilidad por comprobar. Es una propuesta, sin entradas compradas: comprobar el regreso desde Brujas o Bruselas.",
+              "tone": "plain",
+              "url": "https://www.ftifestival.be/programma/gent/stavroz-ambient-soundtrack-met-ksawery-komputery"
+            },
+            {
+              "type": "facts",
+              "title": "Qué hacer en Wintercircus",
+              "items": [
+                {
+                  "label": "La arena",
+                  "value": "Visitar el antiguo circo cubierto, abierto al público. Horario general lunes a jueves 9:00–20:00, sujeto a eventos y festivos; comprobar el 11 y 12.",
+                  "placeId": "wintercircus"
+                },
+                {
+                  "label": "Bar Bougie",
+                  "value": "Café en el antiguo taller de automóviles; bebidas y aperitivos. Horarios específicos por confirmar.",
+                  "placeId": "wintercircus"
+                },
+                {
+                  "label": "Bar Bassie",
+                  "value": "Bar en la azotea con vistas de Gante. Horario habitual lunes a jueves 16:00–00:00; confirmar festivo y acceso.",
+                  "placeId": "wintercircus"
+                },
+                {
+                  "label": "Comer o desayunar",
+                  "value": "Bakker Klaas ofrece desayuno y almuerzo; Studio Mario, pizza por la tarde. También hay restaurante japonés y Tribune. Consultar horarios, precios y disponibilidad.",
                   "placeId": "wintercircus"
                 }
               ]
             },
             {
               "type": "note",
-              "title": "Miércoles 11 · Día del Armisticio",
-              "text": "Festivo nacional belga. Las ceremonias oficiales suelen celebrarse por la mañana; no se incluye ningún acto en el plan de tarde. Comprobar cambios de horario en monumentos y bares.",
-              "tone": "pending",
-              "url": null
+              "title": "De Krook · visita opcional",
+              "text": "Biblioteca y centro cultural moderno junto al agua, con vistas desde las plantas superiores y cafetería. La guía municipal indica cierre el 11 de noviembre; confirmar horarios actuales. El jueves la cafetería anuncia habitualmente 10:00–21:00, sujeto a cambios. En De Krook hay una charla sobre posmodernismo el 12 de 14:00 a 16:30, 6 €, inscripción previa; comprobar idioma y disponibilidad.",
+              "tone": "plain",
+              "url": "https://visit.gent.be/en/see-do/de-krook"
             },
             {
               "type": "note",
-              "title": "Jueves 12 · Wintercircus",
-              "text": "Se ha propuesto comprobar un posible evento tecnológico o audiovisual nocturno en el Wintercircus. No consta confirmación contrastada del espectáculo concreto, su horario ni entradas para el día 12; no planificar el regreso alrededor de él.",
+              "title": "Antes de ir",
+              "text": "El miércoles 11 es festivo en Bélgica. El horario de la instalación, los bares y el acceso a la arena pueden variar por celebraciones o eventos. Comprobar las agendas oficiales. No confundir la fiesta Spreey del 10 al 11 (termina a las 03:00 del miércoles) con un evento la noche de llegada.",
               "tone": "pending",
-              "url": null
+              "url": "https://www.wintercircus.be/en/practical/visit-us"
             },
             {
               "type": "links",
-              "title": "Consultar agenda antes de ir",
+              "title": "Programación y fuentes oficiales",
               "items": [
                 {
-                  "label": "Agenda turística de Gante",
-                  "url": "https://visit.gent.be/es",
-                  "text": ""
+                  "label": "Instalación audiovisual · fechas y acceso",
+                  "url": "https://www.ftifestival.be/programma/gent/ksawery-komputery",
+                  "text": "Gratis durante el día, del 10 al 15 de noviembre."
                 },
                 {
-                  "label": "Wintercircus",
-                  "url": "https://www.wintercircus.be/",
-                  "text": "Lugar cultural; evento del 12 pendiente de verificar.",
-                  "placeId": "wintercircus"
+                  "label": "Stavroz · programa y entradas",
+                  "url": "https://www.ftifestival.be/programma/gent/stavroz-ambient-soundtrack-met-ksawery-komputery",
+                  "text": "Jueves 12, desde 25 €."
+                },
+                {
+                  "label": "Agenda Wintercircus",
+                  "url": "https://www.wintercircus.be/en/agenda",
+                  "text": "Programación y cambios."
+                },
+                {
+                  "label": "Comida y bebida en Wintercircus",
+                  "url": "https://www.wintercircus.be/en/food-and-drinks",
+                  "text": "Bares, restaurantes y horarios."
+                },
+                {
+                  "label": "Biblioteca De Krook",
+                  "url": "https://visit.gent.be/en/see-do/de-krook",
+                  "text": "Arquitectura, servicios y ubicación."
+                },
+                {
+                  "label": "Krookcafé",
+                  "url": "https://dekrook.be/en/krookcafe",
+                  "text": "Carta y horario habitual."
+                },
+                {
+                  "label": "Charla sobre posmodernismo · 12/11",
+                  "url": "https://avansa-regiogent.be/activiteiten/pluslezing-postmodernisme",
+                  "text": "14:00–16:30; inscripción previa."
                 }
               ]
             },
@@ -1573,7 +1642,8 @@
               "type": "map",
               "title": "Todos los lugares · Eventos",
               "ids": [
-                "wintercircus"
+                "wintercircus",
+                "krook"
               ]
             }
           ]
@@ -4041,9 +4111,9 @@
       "name": "Biblioteca De Krook",
       "city": "Gante",
       "category": "atraccion",
-      "lat": 51.0495,
-      "lng": 3.7279,
-      "description": "Arquitectura contemporánea.",
+      "lat": 51.04905,
+      "lng": 3.72879,
+      "description": "Biblioteca y centro cultural junto al río, al lado de Wintercircus.",
       "status": "propuesta",
       "url": "https://dekrook.be/"
     },
@@ -4052,9 +4122,9 @@
       "name": "Wintercircus",
       "city": "Gante",
       "category": "atraccion",
-      "lat": 51.0481,
-      "lng": 3.7315,
-      "description": "Lugar cultural; evento del 12 pendiente de verificar.",
+      "lat": 51.048422,
+      "lng": 3.727861,
+      "description": "Antiguo circo rehabilitado con arena pública, instalación audiovisual, bares y eventos.",
       "status": "propuesta",
       "url": "https://www.wintercircus.be/"
     },
