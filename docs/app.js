@@ -32,6 +32,7 @@
  }
  function block(b) {
   switch(b.type){
+   case 'park-guide':return '<div class="park-guide" id="park-guide"></div>';
    case 'timeline': return `<ol class="timeline">${b.items.map(i=>`<li><span class="time">${escape(i.time)}</span><h2>${escape(i.title)}</h2>${status(i.status)}${i.text?`<p>${escape(i.text)}</p>`:''}${i.route?routeButton(i.route):''}${i.link?anchor(i.link,'Ver esta etapa','inline-action'):''}</li>`).join('')}</ol>`;
    case 'note':return `<section class="note ${escape(b.tone||'')}"><h2>${escape(b.title)}</h2><p>${escape(b.text)}</p>${b.url?anchor(b.url,'Consultar fuente','inline-action'):''}</section>`;
    case 'links':return `<section class="links"><h2>${escape(b.title)}</h2>${b.items.map(i=>anchor(i.url,i.label,'link-row',i.text)).join('')}</section>`;
@@ -76,6 +77,7 @@
     $('.panes').insertAdjacentHTML('beforebegin','<details class="pronunciation-help"><summary>Cómo leer la pronunciación</summary><p>Es una aproximación para hispanohablantes, no una transcripción exacta. «zh»: como una sh con voz; «ü»: labios de u al decir i; «(n)»: vocal nasal, sin marcar la n. La r francesa se hace en la garganta. Para aprender el sonido, escucha la frase.</p><p>El audio es una grabación en francés. Necesitas conexión para cargar cada frase. En Gante y Brujas el idioma local es el neerlandés; estas frases están pensadas principalmente para las etapas de Francia.</p></details><p id="speech-status" class="speech-status" role="status" aria-live="polite"></p>');
    }
    if(selected.id==='tiempo')showWeather(p,mapEpoch);
+   if(selected.blocks.some(b=>b.type==='park-guide'))void window.TripParkGuide.mount($('#park-guide'));
    if(selected.blocks.some(b=>b.type==='map'))void drawMap(p,mapEpoch);
   }
   document.querySelectorAll('[data-page]').forEach(a=>a.removeAttribute('aria-current'));
@@ -143,6 +145,7 @@
   el.querySelector('button').addEventListener('click',()=>void showWeather(p,epoch,true));
  }
  function loadMaps(){
+  if(window.TripInteractiveMaps)return window.TripInteractiveMaps.load();
   if(window.google?.maps?.Map)return Promise.resolve();
   if(mapsPromise)return mapsPromise;
   mapsPromise=new Promise((resolve,reject)=>{
@@ -191,7 +194,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=2.3');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=2.4');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();
@@ -201,3 +204,4 @@
  }
  void init();
 })();
+

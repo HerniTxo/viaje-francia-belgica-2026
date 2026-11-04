@@ -23,7 +23,7 @@ function checkURL(url){
  else assert.equal(new URL(url).protocol,'https:','Enlace externo inseguro: '+url);
 }
 function checkBlock(b){
- assert(['timeline','note','links','facts','routes','details','hotel','image','map','phrases'].includes(b.type));
+ assert(['timeline','note','links','facts','routes','details','hotel','image','map','phrases','park-guide'].includes(b.type));
  if(b.type==='phrases')for(const i of b.items){
   assert(i.fr?.trim()&&i.es?.trim()&&i.phonetic?.trim(),'Frase incompleta');
   const digest=createHash('sha256').update(i.fr).digest('hex').slice(0,16);
@@ -61,3 +61,4 @@ for(const phrase of ['drive.google.com/file/d','35785105','Janire','Igor Martine
 assert(!publicFiles.includes('presupuesto'),'No añadir el simulador retirado');
 for(const file of ['docs/index.html','docs/app.js','docs/maps-config.js','docs/styles.css','docs/assets/favicon.svg'])assert(fs.existsSync(file));
 console.log(`Correcto: 8 días, ${data.pages.length} páginas, ${data.routes.length} rutas; referencias, archivos, fechas y privacidad verificados.`);
+

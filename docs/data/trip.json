@@ -695,6 +695,15 @@
           ]
         },
         {
+          "id": "guia-parque",
+          "label": "Guía del parque",
+          "blocks": [
+            {
+              "type": "park-guide"
+            }
+          ]
+        },
+        {
           "id": "lunes",
           "label": "Lunes 9",
           "blocks": [

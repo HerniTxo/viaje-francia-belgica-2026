@@ -1,0 +1,1286 @@
+{
+  "updated": "2026-11-04",
+  "visit": "9 y 10 de noviembre de 2026",
+  "items": [
+    {
+      "id": "g-btm",
+      "name": "Big Thunder Mountain",
+      "park": 1,
+      "zone": "Frontierland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/big-thunder-mountain",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n017798_2050jan01_big-thunder-mountain_16-9_tcm752-159546.jpg?w=640&f=webp",
+      "imageAlt": "Big Thunder Mountain · imagen oficial Disney",
+      "description": "Tren minero que recorre túneles, curvas y descensos en la isla de Thunder Mesa. Una de las prioridades del grupo, especialmente vistosa después de anochecer.",
+      "tags": [
+        "Montaña rusa",
+        "Exterior",
+        "Mín. 1,02 m"
+      ],
+      "tip": "Intentar al abrir; si la cola es excesiva, hacer Phantom Manor y volver a consultar. Aprovechar una ventana sin lluvia.",
+      "schedule": "",
+      "availability": "",
+      "query": "Big Thunder Mountain, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Big Thunder Mountain"
+      ]
+    },
+    {
+      "id": "g-hyperspace",
+      "name": "Star Wars Hyperspace Mountain",
+      "park": 1,
+      "zone": "Discoveryland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/hyper-space-mountain",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/hd13578_2022jun29_world_star-wars-hyperspace-mountain_16-9_tcm752-162410.jpg?w=640&f=webp",
+      "imageAlt": "Star Wars Hyperspace Mountain · imagen oficial Disney",
+      "description": "Montaña rusa cubierta con lanzamiento, oscuridad e inversiones, ambientada en una batalla espacial de Star Wars. Es de las experiencias más intensas del parque.",
+      "tags": [
+        "Montaña rusa",
+        "Interior",
+        "Mín. 1,20 m",
+        "Single Rider"
+      ],
+      "tip": "Comparar Single Rider con la fila normal si aceptáis montar separados. Buena prioridad cuando llueva.",
+      "schedule": "",
+      "availability": "",
+      "query": "Star Wars Hyperspace Mountain, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Star Wars Hyperspace Mountain"
+      ]
+    },
+    {
+      "id": "g-indiana",
+      "name": "Indiana Jones and the Temple of Peril",
+      "park": 1,
+      "zone": "Adventureland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/indiana-jones-and-the-temple-of-peril",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n017906_2050jan01_world_indiana-jones-et-le-temple-du-peril_16-9_tcm752-159553.jpg?w=640&f=webp",
+      "imageAlt": "Indiana Jones and the Temple of Peril · imagen oficial Disney",
+      "description": "Vagoneta de montaña rusa al aire libre entre ruinas, curvas e inversión. Recorrido breve e intenso; se aprovecha mejor sin desviaros de Adventureland.",
+      "tags": [
+        "Montaña rusa",
+        "Exterior",
+        "Mín. 1,40 m",
+        "Single Rider"
+      ],
+      "tip": "Hacer junto a Pirates; con lluvia fuerte, comprobar apertura y dejarla para una mejor ventana.",
+      "schedule": "",
+      "availability": "",
+      "query": "Indiana Jones and the Temple of Peril, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Indiana Jones and the Temple of Peril"
+      ]
+    },
+    {
+      "id": "g-pirates",
+      "name": "Pirates of the Caribbean",
+      "park": 1,
+      "zone": "Adventureland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/pirates-of-the-caribbean",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n014915_2027jul10_world_panoramique-pirates-of-the-caribbean_16-9_tcm752-162428.jpg?w=640&f=webp",
+      "imageAlt": "Pirates of the Caribbean · imagen oficial Disney",
+      "description": "Paseo en barca por fortalezas, batallas y escenas piratas con figuras animadas. Combina ambientación, humor y pequeños descensos; puede salpicar.",
+      "tags": [
+        "Barca escénica",
+        "Principalmente interior",
+        "Sin talla mínima"
+      ],
+      "tip": "Buena alternativa a una cola larga en Indiana. Reservar tiempo para mirar los detalles y no solo para montar.",
+      "schedule": "",
+      "availability": "",
+      "query": "Pirates of the Caribbean, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Pirates of the Caribbean"
+      ]
+    },
+    {
+      "id": "g-phantom",
+      "name": "Phantom Manor",
+      "park": 1,
+      "zone": "Frontierland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/phantom-manor",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n014938_2027jul10_world_phantom-manor_16-9_tcm752-157081.jpg?w=640&f=webp",
+      "imageAlt": "Phantom Manor · imagen oficial Disney",
+      "description": "Mansión encantada con una historia ligada al pueblo de Thunder Mesa. El recorrido en vehículos atraviesa salones, fantasmas y escenas oscuras; destaca por su atmósfera.",
+      "tags": [
+        "Recorrido escénico",
+        "Interior",
+        "Sin talla mínima"
+      ],
+      "tip": "Muy cerca de Big Thunder Mountain. Alternativa cubierta si BTM tiene una espera alta.",
+      "schedule": "",
+      "availability": "",
+      "query": "Phantom Manor, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Phantom Manor"
+      ]
+    },
+    {
+      "id": "g-startours",
+      "name": "Star Tours: The Adventures Continue",
+      "park": 1,
+      "zone": "Discoveryland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/star-tours-the-aventures-continue",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/11_17_WDI_9004_usa-visual_world_star-tours-the-adventures-continue-crait_16-9_tcm752-202368.jpg?w=640&f=webp",
+      "imageAlt": "Star Tours: The Adventures Continue · imagen oficial Disney",
+      "description": "Simulador de vuelo en 3D por el universo Star Wars con combinaciones de escenas. El movimiento puede marear aunque no sea una montaña rusa.",
+      "tags": [
+        "Simulador 3D",
+        "Interior",
+        "Mín. 1,02 m"
+      ],
+      "tip": "Agrupar con Hyperspace y Nautilus; sirve para cubrir un rato de lluvia.",
+      "schedule": "",
+      "availability": "",
+      "query": "Star Tours: The Adventures Continue, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Star Tours: The Adventures Continue"
+      ]
+    },
+    {
+      "id": "g-buzz",
+      "name": "Buzz Lightyear Laser Blast",
+      "park": 1,
+      "zone": "Discoveryland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/buzz-lightyear-laser-blast",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n035463_2050dec31_world_buzz-lightyear-laser-blast-attraction-front-blue-version_16-9_tcm752-157036.jpg?w=640&f=webp",
+      "imageAlt": "Buzz Lightyear Laser Blast · imagen oficial Disney",
+      "description": "Recorrido interactivo en vehículos con pistolas láser: competir por puntos contra Zurg. Su interés para adultos es el juego y la competición, aunque la temática sea familiar.",
+      "tags": [
+        "Juego interactivo",
+        "Interior",
+        "Sin talla mínima"
+      ],
+      "tip": "Extra si pasáis cerca y la espera acompaña; no desplazar una prioridad del itinerario.",
+      "schedule": "",
+      "availability": "",
+      "query": "Buzz Lightyear Laser Blast, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Buzz Lightyear Laser Blast"
+      ]
+    },
+    {
+      "id": "g-nautilus",
+      "name": "Les Mystères du Nautilus",
+      "park": 1,
+      "zone": "Discoveryland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/les-mysteres-du-nautilus",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n014369_2027mar15_world_attraction-nautilus_16-9_tcm752-157489.jpg?w=640&f=webp",
+      "imageAlt": "Les Mystères du Nautilus · imagen oficial Disney",
+      "description": "Paseo a pie por los decorados del submarino del capitán Nemo. Una visita corta para explorar instrumentos, salas y el ambiente de aventura de Julio Verne.",
+      "tags": [
+        "Paseo a pie",
+        "Interior",
+        "Sin talla mínima"
+      ],
+      "tip": "Encaja entre dos atracciones de Discoveryland; buen refugio breve cuando llueva.",
+      "schedule": "",
+      "availability": "",
+      "query": "Les Mystères du Nautilus, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Les Mystères du Nautilus"
+      ]
+    },
+    {
+      "id": "g-isle",
+      "name": "Adventure Isle",
+      "park": 1,
+      "zone": "Adventureland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/adventure-isle",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n014921_2020jun11_adventure-isle_16-9_tcm752-157140.jpg?w=640&f=webp",
+      "imageAlt": "Adventure Isle · imagen oficial Disney",
+      "description": "Senderos, cuevas, puentes y pasos entre rocas en una isla de aventura. Tiene interés como exploración y ambientación sin necesidad de hacer cola para una atracción.",
+      "tags": [
+        "Paseo a pie",
+        "Exterior",
+        "Sin talla mínima"
+      ],
+      "tip": "Explorar al pasar por Adventureland si el suelo y la meteorología lo permiten.",
+      "schedule": "",
+      "availability": "",
+      "query": "Adventure Isle, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Adventure Isle"
+      ]
+    },
+    {
+      "id": "g-robinson",
+      "name": "La Cabane des Robinson",
+      "park": 1,
+      "zone": "Adventureland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/la-cabane-des-robinson",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/N014909_2027june10_world_cabane-des-robinsons_16-9_tcm752-157345.JPG?w=640&f=webp",
+      "imageAlt": "La Cabane des Robinson · imagen oficial Disney",
+      "description": "Casa en un gran árbol con habitaciones y detalles de los Robinson. Se visita subiendo escaleras, con vistas sobre Adventureland.",
+      "tags": [
+        "Paseo a pie",
+        "Exterior",
+        "Escaleras"
+      ],
+      "tip": "Opcional con tiempo seco. Si llueve o vais cansados, conservar energía para las prioridades.",
+      "schedule": "",
+      "availability": "",
+      "query": "La Cabane des Robinson, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "La Cabane des Robinson"
+      ]
+    },
+    {
+      "id": "g-castle",
+      "name": "Sleeping Beauty Castle",
+      "park": 1,
+      "zone": "Fantasyland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/sleeping-beauty-castle",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n024756_2030jul07_world_serie-panoramique-disneyland-paris-dnx-castle_16-9_tcm752-161957.jpg?w=640&f=webp",
+      "imageAlt": "Sleeping Beauty Castle · imagen oficial Disney",
+      "description": "El castillo central del parque: arquitectura, jardines y punto de referencia para orientarse. La galería superior y la cueva del dragón se describen en fichas propias.",
+      "tags": [
+        "Arquitectura",
+        "Exterior e interior",
+        "Sin talla mínima"
+      ],
+      "tip": "Verlo de día y de noche. Para el show, escoger una posición con vista del conjunto en lugar de pegarse a la fachada.",
+      "schedule": "",
+      "availability": "",
+      "query": "Sleeping Beauty Castle, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Sleeping Beauty Castle"
+      ]
+    },
+    {
+      "id": "g-gallery",
+      "name": "La Galerie de la Belle au Bois Dormant",
+      "park": 1,
+      "zone": "Fantasyland · castillo",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/la-galerie-de-la-belle-au-bois-dormant",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n024757_2023oct25_la-galerie-de-la-belle-au-bois-dormant_16-9_tcm752-161731.jpg?w=640&f=webp",
+      "imageAlt": "La Galerie de la Belle au Bois Dormant · imagen oficial Disney",
+      "description": "Galería dentro del castillo con vidrieras, tapices y escenas del cuento de La Bella Durmiente. Es una visita de ambientación a pie.",
+      "tags": [
+        "Paseo a pie",
+        "Interior"
+      ],
+      "tip": "Combinar con el castillo y el dragón sin dedicar una cola larga de atracciones familiares.",
+      "schedule": "",
+      "availability": "",
+      "query": "La Galerie de la Belle au Bois Dormant, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "La Galerie de la Belle au Bois Dormant"
+      ]
+    },
+    {
+      "id": "g-dragon",
+      "name": "La Tanière du Dragon",
+      "park": 1,
+      "zone": "Fantasyland · bajo el castillo",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/la-taniere-du-dragon",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n012062_2028sep16_la-taniere-du-dragon_16-9_tcm752-157414.jpg?w=640&f=webp",
+      "imageAlt": "La Tanière du Dragon · imagen oficial Disney",
+      "description": "Cueva bajo el castillo donde descansa un gran dragón animatrónico. Visita breve, oscura y atmosférica, interesante por el decorado y los movimientos de la criatura.",
+      "tags": [
+        "Paseo a pie",
+        "Interior"
+      ],
+      "tip": "Extra fácil al cruzar el castillo; puede encajar durante un chaparrón.",
+      "schedule": "",
+      "availability": "",
+      "query": "La Tanière du Dragon, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "La Tanière du Dragon"
+      ]
+    },
+    {
+      "id": "g-aladdin",
+      "name": "Le Passage Enchanté d'Aladdin",
+      "park": 1,
+      "zone": "Adventureland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/le-passage-enchante-daladdin",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n014339_2027jan30_le-passage-enchante-d-aladdin_16-9_zoom_tcm752-225549.jpg?w=640&f=webp",
+      "imageAlt": "Le Passage Enchanté d'Aladdin · imagen oficial Disney",
+      "description": "Galería de pequeñas escenas de Aladdín. Un desvío corto para mirar maquetas y decorados, con interés como paseo sin grandes esperas.",
+      "tags": [
+        "Paseo a pie",
+        "Interior"
+      ],
+      "tip": "Usarlo como visita breve al entrar o salir de Adventureland, no como prioridad del día.",
+      "schedule": "",
+      "availability": "",
+      "query": "Le Passage Enchanté d'Aladdin, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Le Passage Enchanté d'Aladdin"
+      ]
+    },
+    {
+      "id": "g-alice",
+      "name": "Alice's Curious Labyrinth",
+      "park": 1,
+      "zone": "Fantasyland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/alices-curious-labyrinth",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n024748_2023oct25_le-labyrinthe-dalice_16-9_tcm752-157216.jpg?w=640&f=webp",
+      "imageAlt": "Alice's Curious Labyrinth · imagen oficial Disney",
+      "description": "Laberinto de setos y escenas de Alicia que culmina en el castillo de la Reina de Corazones. Se conserva por el paseo y las vistas, aunque tenga temática familiar.",
+      "tags": [
+        "Paseo a pie",
+        "Exterior"
+      ],
+      "tip": "Opcional si queda tiempo seco. No sustituye a las atracciones prioritarias.",
+      "schedule": "",
+      "availability": "",
+      "query": "Alice's Curious Labyrinth, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Alice's Curious Labyrinth"
+      ]
+    },
+    {
+      "id": "g-liberty",
+      "name": "Liberty Arcade",
+      "park": 1,
+      "zone": "Main Street, U.S.A.",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/liberty-arcade",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n017917_2050jan01_libety-arcade_16-9_tcm752-159573.jpg?w=640&f=webp",
+      "imageAlt": "Liberty Arcade · imagen oficial Disney",
+      "description": "Galería cubierta dedicada a la Estatua de la Libertad y la relación entre Francia y Estados Unidos. Permite recorrer un lateral de Main Street con refugio de la lluvia.",
+      "tags": [
+        "Paseo a pie",
+        "Cubierto"
+      ],
+      "tip": "Útil para avanzar por Main Street con mal tiempo; respeta accesos y cortes durante los desfiles.",
+      "schedule": "",
+      "availability": "",
+      "query": "Liberty Arcade, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Liberty Arcade"
+      ]
+    },
+    {
+      "id": "g-discovery",
+      "name": "Discovery Arcade",
+      "park": 1,
+      "zone": "Main Street, U.S.A.",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/discovery-arcade",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n017851_2050jan01_discovey-arcade_16-9_tcm752-159485.jpg?w=640&f=webp",
+      "imageAlt": "Discovery Arcade · imagen oficial Disney",
+      "description": "Galería cubierta con inventos y visiones del futuro de otra época. Alternativa agradable para pasear por Main Street mirando vitrinas.",
+      "tags": [
+        "Paseo a pie",
+        "Cubierto"
+      ],
+      "tip": "Aprovecharla durante un chaparrón o al entrar y salir del parque.",
+      "schedule": "",
+      "availability": "",
+      "query": "Discovery Arcade, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Discovery Arcade"
+      ]
+    },
+    {
+      "id": "g-riverboat",
+      "name": "Thunder Mesa Riverboat Landing",
+      "park": 1,
+      "zone": "Frontierland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/thunder-mesa-riverboat-landing",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n012748_2019may15_thunder-mesa-riverboat-landing_16-9_tcm752-157092.jpg?w=640&f=webp",
+      "imageAlt": "Thunder Mesa Riverboat Landing · imagen oficial Disney",
+      "description": "Paseo en barco de ruedas alrededor de la isla de Big Thunder Mountain, con vistas a Frontierland. Una pausa escénica, con embarque y horario propios.",
+      "tags": [
+        "Barco panorámico",
+        "Exterior"
+      ],
+      "tip": "Confirmar última salida antes de acercarse; no asumir servicio hasta el cierre general.",
+      "schedule": "",
+      "availability": "",
+      "query": "Thunder Mesa Riverboat Landing, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Thunder Mesa Riverboat Landing"
+      ]
+    },
+    {
+      "id": "g-railroad",
+      "name": "Disneyland Railroad",
+      "park": 1,
+      "zone": "Main Street Station",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/disneyland-railroad-main-street-station",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n017678_2050jan01-disneyland-railroad-main-street-station_16-9_tcm752-159598.jpg?w=640&f=webp",
+      "imageAlt": "Disneyland Railroad · imagen oficial Disney",
+      "description": "Tren panorámico que recorre el perímetro del parque. Se conserva por su interés como paseo y perspectiva del decorado; no debe darse por hecho que todas las estaciones funcionen.",
+      "tags": [
+        "Tren panorámico",
+        "Exterior"
+      ],
+      "tip": "Comprobar funcionamiento en la app antes de ir a la estación.",
+      "schedule": "",
+      "availability": "La estación Main Street figura cerrada en el catálogo consultado el 4/11. Comprobar la situación del 9–10; no incorporada como prioridad.",
+      "query": "Disneyland Railroad, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Disneyland Railroad"
+      ]
+    },
+    {
+      "id": "g-horse",
+      "name": "Horse-Drawn Streetcars",
+      "park": 1,
+      "zone": "Main Street, U.S.A.",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/horse-drawn-streetcars",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n021113_2022jun01_horse-drawn-street-car_16-9_tcm752-161434.jpg?w=640&f=webp",
+      "imageAlt": "Horse-Drawn Streetcars · imagen oficial Disney",
+      "description": "Tranvía de época tirado por caballos por Main Street. Paseo nostálgico que se disfruta por la ambientación urbana, con operación limitada.",
+      "tags": [
+        "Transporte de época",
+        "Exterior"
+      ],
+      "tip": "Tomarlo solo si coincide operativo y no os retrasa al inicio del día.",
+      "schedule": "",
+      "availability": "",
+      "query": "Horse-Drawn Streetcars, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Horse-Drawn Streetcars"
+      ]
+    },
+    {
+      "id": "g-vehicles",
+      "name": "Main Street Vehicles",
+      "park": 1,
+      "zone": "Main Street, U.S.A.",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/main-street-vehicles",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n018654_2021oct09_mais-street-vehicles_16-9_tcm752-156927.jpg?w=640&f=webp",
+      "imageAlt": "Main Street Vehicles · imagen oficial Disney",
+      "description": "Vehículos antiguos para recorrer Main Street con otro punto de vista. Experiencia tranquila de ambientación; disponibilidad y vehículos pueden variar.",
+      "tags": [
+        "Transporte de época",
+        "Exterior"
+      ],
+      "tip": "Consultar operación al pasar; no reservar una franja fija para ello.",
+      "schedule": "",
+      "availability": "",
+      "query": "Main Street Vehicles, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Main Street Vehicles"
+      ]
+    },
+    {
+      "id": "g-shooting",
+      "name": "Rustler Roundup Shootin' Gallery",
+      "park": 1,
+      "zone": "Frontierland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/rustler-roundup-shootin-gallery",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n014946_2027jul10_rustler-roundup-shooting-gallery_16-9_tcm752-156965.jpg?w=640&f=webp",
+      "imageAlt": "Rustler Roundup Shootin' Gallery · imagen oficial Disney",
+      "description": "Galería de tiro ambientada en el Oeste donde apuntar a blancos que activan efectos. Extra de competición rápida, distinto de una atracción de recorrido.",
+      "tags": [
+        "Juego de puntería",
+        "Coste adicional"
+      ],
+      "tip": "Comprobar tarifa en el local. No está entre las prioridades de la visita.",
+      "schedule": "",
+      "availability": "",
+      "query": "Rustler Roundup Shootin' Gallery, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Rustler Roundup Shootin' Gallery"
+      ]
+    },
+    {
+      "id": "g-galleon",
+      "name": "Pirate Galleon",
+      "park": 1,
+      "zone": "Adventureland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/pirate-galleon",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n025820_2024may09_world_the-pirates-galion-boat-adventureland_16-9_tcm752-207158.jpg?w=640&f=webp",
+      "imageAlt": "Pirate Galleon · imagen oficial Disney",
+      "description": "Galeón pirata como decorado y paseo de Adventureland. Su interés es la ambientación y las fotografías; el acceso al barco depende de su apertura.",
+      "tags": [
+        "Paseo a pie",
+        "Exterior"
+      ],
+      "tip": "Se puede contemplar desde la zona aunque el acceso esté cerrado.",
+      "schedule": "",
+      "availability": "Figura cerrado en el catálogo consultado el 4/11; revisar antes de la visita.",
+      "query": "Pirate Galleon, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Pirate Galleon"
+      ]
+    },
+    {
+      "id": "g-tower",
+      "name": "The Twilight Zone Tower of Terror",
+      "park": 2,
+      "zone": "World Premiere Plaza",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/twilight-zone-tower-of-terror",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n031223_2016mar26_world_tower-of-terror-inside-view-family-and-cast_16-9_tcm752-195204.jpg?w=640&f=webp",
+      "imageAlt": "The Twilight Zone Tower of Terror · imagen oficial Disney",
+      "description": "Hotel abandonado que conduce a una secuencia de ascensos y caídas en un ascensor. Combina decorados inquietantes y sensaciones fuertes; es una prioridad del martes.",
+      "tags": [
+        "Caídas",
+        "Interior",
+        "Mín. 1,02 m"
+      ],
+      "tip": "Intentar al abrir; si hay incidencia, avanzar hacia Flight Force y volver a comprobar.",
+      "schedule": "",
+      "availability": "",
+      "query": "The Twilight Zone Tower of Terror, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "The Twilight Zone Tower of Terror"
+      ]
+    },
+    {
+      "id": "g-flight",
+      "name": "Avengers Assemble: Flight Force",
+      "park": 2,
+      "zone": "Avengers Campus",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/flight-force",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n038457_2027jul05_world_marvel-avengers-campus-avengers-assemble-flight-force-attraction_16-9_tcm752-252791.jpg?w=640&f=webp",
+      "imageAlt": "Avengers Assemble: Flight Force · imagen oficial Disney",
+      "description": "Montaña rusa cubierta con lanzamiento e inversiones junto a Iron Man y Captain Marvel. Recorrido rápido e intenso en la oscuridad.",
+      "tags": [
+        "Montaña rusa",
+        "Interior",
+        "Mín. 1,20 m",
+        "Single Rider"
+      ],
+      "tip": "Comparar esperas de Single Rider y fila normal. Agrupar con el resto de Avengers Campus.",
+      "schedule": "",
+      "availability": "",
+      "query": "Avengers Assemble: Flight Force, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Avengers Assemble: Flight Force"
+      ]
+    },
+    {
+      "id": "g-remy",
+      "name": "Ratatouille: The Adventure",
+      "park": 2,
+      "zone": "Worlds of Pixar · Place de Rémy",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/ratatouille-the-adventure",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/203227958-resource-cafe_2050dec31_world_wdw-epcot-ratatouille-adventure-attraction-guets_16-9_tcm752-296574.jpg?w=640&f=webp",
+      "imageAlt": "Ratatouille: The Adventure · imagen oficial Disney",
+      "description": "Aventura inmersiva a escala de rata entre enormes escenarios de cocina. Se conserva por vuestro interés previo; efectos visuales y movimiento pueden marear a algunas personas.",
+      "tags": [
+        "Recorrido inmersivo",
+        "Interior",
+        "Sin talla mínima",
+        "Single Rider"
+      ],
+      "tip": "No asumir una modalidad 3D concreta: seguir las instrucciones actuales del acceso. Comparar ambas filas.",
+      "schedule": "",
+      "availability": "",
+      "query": "Ratatouille: The Adventure, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Ratatouille: The Adventure"
+      ]
+    },
+    {
+      "id": "g-crush",
+      "name": "Crush's Coaster",
+      "park": 2,
+      "zone": "Worlds of Pixar",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/crushs-coaster",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n018313_2050jan01_crushs-coaster_16-9_tcm752-159058.jpg?w=640&f=webp",
+      "imageAlt": "Crush's Coaster · imagen oficial Disney",
+      "description": "Montaña rusa con vehículos que giran sobre sí mismos, inspirada en la corriente oceánica de Buscando a Nemo. Se documenta para que sepáis qué es, sin planificar una visita.",
+      "tags": [
+        "Montaña rusa",
+        "Principalmente interior",
+        "Mín. 1,07 m"
+      ],
+      "tip": "No dedicarle tiempo del itinerario.",
+      "schedule": "",
+      "availability": "Cerrada para vuestra visita: reforma oficial desde el 7/09/2026 hasta verano de 2027.",
+      "query": "Crush's Coaster, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Crush's Coaster"
+      ],
+      "extraSource": "https://news.disneylandparis.com/en/crushs-coaster-refurbishment-beginning-in-september-2026/"
+    },
+    {
+      "id": "g-rc",
+      "name": "RC Racer",
+      "park": 2,
+      "zone": "Worlds of Pixar · Toy Story Playland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/rc-racer",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n015438_2020aug20_rc-racer_16-9_tcm752-157167.jpg?w=640&f=webp",
+      "imageAlt": "RC Racer · imagen oficial Disney",
+      "description": "Vehículo que sube y baja por una gran pista en forma de U, con sensaciones de velocidad y altura. La temática Toy Story no la convierte en una atracción para niños pequeños.",
+      "tags": [
+        "Sensaciones fuertes",
+        "Exterior",
+        "Mín. 1,20 m",
+        "Single Rider"
+      ],
+      "tip": "Se incluye en el catálogo para consultar, sin añadirla a la ruta.",
+      "schedule": "",
+      "availability": "Descartada del plan por vuestra preferencia anterior; no es un cierre.",
+      "query": "RC Racer, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "RC Racer"
+      ]
+    },
+    {
+      "id": "g-frozen",
+      "name": "Frozen Ever After",
+      "park": 2,
+      "zone": "World of Frozen",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/frozen-ever-after-ref",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n043144_2029mar09_world_frozen-ever-after_16-9_tcm752-294815.jpg?w=640&f=webp",
+      "imageAlt": "Frozen Ever After · imagen oficial Disney",
+      "description": "Recorrido musical en barca por Arendelle y el palacio de hielo con Anna, Elsa y sus amigos. Incluye escenas animadas y algunos movimientos y descensos familiares.",
+      "tags": [
+        "Barca escénica",
+        "Interior",
+        "Sin talla mínima",
+        "Puede salpicar"
+      ],
+      "tip": "Pasear por Arendelle y ver sus eventos no requiere hacer esta atracción.",
+      "schedule": "",
+      "availability": "Descartada del plan por vuestra preferencia anterior; no es un cierre.",
+      "query": "Frozen Ever After, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Frozen Ever After"
+      ]
+    },
+    {
+      "id": "g-web",
+      "name": "Spider-Man W.E.B. Adventure",
+      "park": 2,
+      "zone": "Avengers Campus",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/spiderman-web-adventure",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n038492_2027jul10_world_marvel-avengers-campus-spiderman-web-attraction_16-9_tcm752-246108.jpg?w=640&f=webp",
+      "imageAlt": "Spider-Man W.E.B. Adventure · imagen oficial Disney",
+      "description": "Experiencia interactiva en la que los gestos de los brazos lanzan telarañas para capturar robots. Su atractivo para adultos es competir por puntuación.",
+      "tags": [
+        "Juego interactivo",
+        "Interior",
+        "Sin talla mínima",
+        "Single Rider"
+      ],
+      "tip": "Se mantiene fuera de la ruta actual aunque pueda guardarse como favorito.",
+      "schedule": "",
+      "availability": "Descartada del plan por vuestra preferencia anterior; no es un cierre.",
+      "query": "Spider-Man W.E.B. Adventure, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Spider-Man W.E.B. Adventure"
+      ]
+    },
+    {
+      "id": "g-cars",
+      "name": "Cars ROAD TRIP",
+      "park": 2,
+      "zone": "Worlds of Pixar",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/cars-road-trip",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n035065_2028may16_world_cars-road-trip-attraction_16-9_tcm752-221737.jpg?w=640&f=webp",
+      "imageAlt": "Cars ROAD TRIP · imagen oficial Disney",
+      "description": "Recorrido en tranvía con decorados de carretera y una escena de grandes efectos de agua y acción. Más panorámico y tranquilo que las prioridades de sensaciones fuertes.",
+      "tags": [
+        "Tranvía escénico",
+        "Exterior",
+        "Sin talla mínima",
+        "Puede salpicar"
+      ],
+      "tip": "Extra si os interesa la escena de efectos y pasáis cerca; no cruzar el parque solo para rellenar tiempo.",
+      "schedule": "",
+      "availability": "",
+      "query": "Cars ROAD TRIP, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Cars ROAD TRIP"
+      ]
+    },
+    {
+      "id": "g-soldiers",
+      "name": "Toy Soldiers Parachute Drop",
+      "park": 2,
+      "zone": "Worlds of Pixar · Toy Story Playland",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/toy-soldiers-parachute-drop",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n015458_2020aug20_parachute-drop_16-9_tcm752-157083.jpg?w=640&f=webp",
+      "imageAlt": "Toy Soldiers Parachute Drop · imagen oficial Disney",
+      "description": "Subidas y bajadas en asientos suspendidos como paracaídas del ejército de Toy Story. Sensación de altura moderada con las piernas al aire.",
+      "tags": [
+        "Caídas familiares",
+        "Exterior",
+        "Mín. 81 cm",
+        "Single Rider"
+      ],
+      "tip": "Opcional si la espera es corta. No tiene la intensidad de Tower of Terror.",
+      "schedule": "",
+      "availability": "",
+      "query": "Toy Soldiers Parachute Drop, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Toy Soldiers Parachute Drop"
+      ]
+    },
+    {
+      "id": "g-premiere",
+      "name": "World Premiere",
+      "park": 2,
+      "zone": "World Premiere Plaza",
+      "kind": "Atracciones",
+      "official": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/world-premiere",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/N041946_2032jun03_world_world-premiere_16-9_tcm752-288261.jpg?w=640&f=webp",
+      "imageAlt": "World Premiere · imagen oficial Disney",
+      "description": "Gran acceso cubierto ambientado como una noche de estreno en Hollywood. Reúne decorados, restauración y tiendas y sirve de transición hacia el parque.",
+      "tags": [
+        "Paseo de ambientación",
+        "Cubierto"
+      ],
+      "tip": "Se recorre al entrar o salir; útil para un tramo a cubierto.",
+      "schedule": "",
+      "availability": "",
+      "query": "World Premiere, Disneyland Paris, Chessy, France",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "World Premiere"
+      ]
+    },
+    {
+      "id": "g-tales",
+      "name": "Disney Tales of Magic",
+      "park": 1,
+      "zone": "Central Plaza · Main Street, U.S.A.",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/nighttime-spectacular",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/N041521_5_2032jan14_world_disney-tales-of-magic-without-drones_16-9_tcm752-292800.jpg?w=640&f=webp",
+      "imageAlt": "Disney Tales of Magic · imagen oficial Disney",
+      "description": "Espectáculo nocturno con proyecciones en el castillo y Main Street, música y fuegos artificiales. Se propone para terminar la primera noche.",
+      "tags": [
+        "Nocturno",
+        "Exterior",
+        "Un show por noche"
+      ],
+      "tip": "Cenar antes y buscar sitio 45–60 min antes. Entrar al parque antes de su cierre.",
+      "schedule": "Referencia secundaria PixieDust (publicada 5/10), pendiente de confirmar en la app oficial para el 9 y el 10/11: 21:00. Disney remite a la app para el horario real; no deducirlo de la hora de cierre.",
+      "availability": "",
+      "query": "Central Plaza Disneyland Paris",
+      "mapNote": "El marcador indica una zona de visión orientativa, no un asiento ni acceso reservado.",
+      "guide": true,
+      "aliases": [
+        "Disney Tales of Magic"
+      ],
+      "scheduleSource": "https://pixiedustdlp.com/2026/10/05/disneyland-paris-entertainment-schedule/"
+    },
+    {
+      "id": "g-cascade",
+      "name": "Disney Cascade of Lights",
+      "park": 2,
+      "zone": "Adventure Way · Adventure Bay",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/disney-cascade-of-lights",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/hd19798_2032sep01_world_cascade-of-lights-key-visual-v2_16-9_tcm752-291885.jpg?w=640&f=webp",
+      "imageAlt": "Disney Cascade of Lights · imagen oficial Disney",
+      "description": "Show nocturno sobre el lago con pantallas de agua, proyecciones, fuegos y drones sujetos al tiempo. Duración oficial aproximada de 16 minutos.",
+      "tags": [
+        "Nocturno",
+        "Exterior",
+        "16 min aprox."
+      ],
+      "tip": "Verlo la segunda noche. Disney indica coincidencia con Tales of Magic: no intentar ambos en una noche.",
+      "schedule": "Referencia secundaria PixieDust (publicada 5/10), pendiente de confirmar en la app oficial para el 9 y el 10/11: 20:50 desde el 2/11. Hora exacta del 10/11 pendiente de app; adelantar cena y posición si se confirma.",
+      "availability": "",
+      "query": "Adventure Bay Disney Adventure World Disneyland Paris",
+      "mapNote": "El punto de referencia es el lago. Seguir señalización para los espacios de público, fuera de zonas de pago.",
+      "guide": true,
+      "aliases": [
+        "Disney Cascade of Lights"
+      ],
+      "scheduleSource": "https://pixiedustdlp.com/2026/10/05/disneyland-paris-entertainment-schedule/"
+    },
+    {
+      "id": "g-lion",
+      "name": "The Lion King: Rhythms of the Pride Lands",
+      "park": 1,
+      "zone": "Frontierland Theater",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disneyland-park/lion-king-show",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n031664_2026jun28_world_lion-king-rythm-pride-land-show-can-you-feel-the-love-tonight_16-9_tcm752-260965.jpg?w=640&f=webp",
+      "imageAlt": "The Lion King: Rhythms of the Pride Lands · imagen oficial Disney",
+      "description": "Espectáculo de canciones, percusión, acrobacias y baile inspirado en El Rey León. Una buena pausa musical a cubierto para adultos.",
+      "tags": [
+        "Teatro",
+        "Interior",
+        "30 min aprox."
+      ],
+      "tip": "Llegar 25–35 min antes como margen orientativo; el acceso incluido está sujeto a aforo.",
+      "schedule": "Referencia secundaria PixieDust (publicada 5/10), pendiente de confirmar en la app oficial para el 9 y el 10/11: 12:10, 13:10, 15:45 y 16:45. Comprobar sesiones en la app.",
+      "availability": "",
+      "query": "Frontierland Theater Disneyland Paris",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "The Lion King: Rhythms of the Pride Lands"
+      ],
+      "scheduleSource": "https://pixiedustdlp.com/2026/10/05/disneyland-paris-entertainment-schedule/"
+    },
+    {
+      "id": "g-magic",
+      "name": "Mickey and the Magician",
+      "park": 2,
+      "zone": "Animagique Theater",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/mickey-and-the-magician-show",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n024285_2030jun29_world_mickey-and-magician-show_16-9_tcm752-263214.jpg?w=640&f=webp",
+      "imageAlt": "Mickey and the Magician · imagen oficial Disney",
+      "description": "Musical de ilusiones en el que Mickey aprende de personajes como Genio, Lumière y Rafiki. Teatro con canciones, cambios de escena y efectos de magia.",
+      "tags": [
+        "Teatro",
+        "Interior",
+        "30 min aprox."
+      ],
+      "tip": "Llegar 25–35 min antes. Disney cierra puertas 5 min antes; no garantiza asiento sin aforo disponible.",
+      "schedule": "Referencia secundaria PixieDust (publicada 5/10), pendiente de confirmar en la app oficial para el 9 y el 10/11: 13:00, 14:05, 15:10, 17:25 y 18:30. Funciones del martes por confirmar en la app.",
+      "availability": "La pausa oficial empieza el 11/01/2027, después de vuestro viaje.",
+      "query": "Animagique Theater Disneyland Paris",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Mickey and the Magician"
+      ],
+      "scheduleSource": "https://pixiedustdlp.com/2026/10/05/disneyland-paris-entertainment-schedule/"
+    },
+    {
+      "id": "g-together",
+      "name": "TOGETHER: a Pixar Musical Adventure",
+      "park": 2,
+      "zone": "Studio Theater · World Premiere Plaza",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/pixar-show",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/hd17805_2050dec31_world_show-together-a-pixar-musical-adventure-key-visual-logo-UK_16-9_without_New-Show_tcm752-276825.jpg?w=640&f=webp",
+      "imageAlt": "TOGETHER: a Pixar Musical Adventure · imagen oficial Disney",
+      "description": "Musical con músicos en directo, proyecciones y mundos de Pixar. Su puesta en escena y la música lo convierten en una alternativa de teatro especialmente interesante.",
+      "tags": [
+        "Teatro",
+        "Interior",
+        "30 min aprox."
+      ],
+      "tip": "Elegir una función que encaje con Mickey; no intentar encadenarlas sin margen de cola.",
+      "schedule": "Referencia secundaria PixieDust (publicada 5/10), pendiente de confirmar en la app oficial para el 9 y el 10/11: 11:15, 12:25, 13:35, 15:40 y 16:50. Confirmar en la app.",
+      "availability": "",
+      "query": "Studio Theater Disney Adventure World Disneyland Paris",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "TOGETHER: a Pixar Musical Adventure"
+      ],
+      "scheduleSource": "https://pixiedustdlp.com/2026/10/05/disneyland-paris-entertainment-schedule/"
+    },
+    {
+      "id": "g-princess",
+      "name": "Disney Princess Cavalcade",
+      "park": 2,
+      "zone": "Adventure Way · alrededor del lago",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/disney-princess-cavalcade",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n043698_2033jul22_world_disney-princess-cavalcade_16-9_tcm752-296306.jpg?w=640&f=webp",
+      "imageAlt": "Disney Princess Cavalcade · imagen oficial Disney",
+      "description": "Pequeña cabalgata diurna con Vaiana, Tiana, Rapunzel y Raya, carrozas y bailarines. Se incluye como espectáculo de paso, sin convertirlo en una prioridad del grupo.",
+      "tags": [
+        "Cabalgata",
+        "Exterior"
+      ],
+      "tip": "Verla si coincide durante el paseo por Adventure Way; la lluvia puede modificarla.",
+      "schedule": "Referencia secundaria PixieDust (publicada 5/10), pendiente de confirmar en la app oficial para el 9 y el 10/11: 10:00, 11:25, 13:50 y 15:10. Confirmar sesiones y recorrido.",
+      "availability": "",
+      "query": "Adventure Way Disneyland Paris",
+      "mapNote": "Ubicación de referencia del recorrido; no representa el trayecto completo de la cabalgata.",
+      "guide": true,
+      "aliases": [
+        "Disney Princess Cavalcade"
+      ],
+      "scheduleSource": "https://pixiedustdlp.com/2026/10/05/disneyland-paris-entertainment-schedule/"
+    },
+    {
+      "id": "g-strange",
+      "name": "Doctor Strange: Mystery of the Mystics!",
+      "park": 2,
+      "zone": "Avengers Campus",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/doctor-strange-mystery-of-the-mystics",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/hd18938_2050dec31_world_doctor-strange-mystery-of-the-mystics-nighttime-show-concept-art_16-9_tcm752-278612.jpg?w=640&f=webp",
+      "imageAlt": "Doctor Strange: Mystery of the Mystics! · imagen oficial Disney",
+      "description": "Encuentro de acción y efectos con Doctor Strange en Avengers Campus. Se disfruta mejor con poca luz, cuando los efectos destacan en el entorno.",
+      "tags": [
+        "Acción",
+        "Exterior"
+      ],
+      "tip": "Mirar la programación al pasar por Campus; no sacrificar la ubicación para el cierre.",
+      "schedule": "Sesiones del 9–10 no verificadas públicamente. Consultar app y paneles del Campus.",
+      "availability": "",
+      "query": "Avengers Campus Disneyland Paris",
+      "mapNote": "La imagen oficial es arte conceptual. El mapa indica Campus; confirmar el espacio de público con el personal.",
+      "guide": true,
+      "aliases": [
+        "Doctor Strange: Mystery of the Mystics!"
+      ]
+    },
+    {
+      "id": "g-heroic",
+      "name": "Heroic Welcome",
+      "park": 2,
+      "zone": "Avengers Campus · Quinjet",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/heroic-welcome",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/N039299_2029jul09_monde_avengers_campus_quinjet_antman_wasp_ironman_blackwidow_nuit-16-9_tcm752-256604.jpg?w=640&f=webp",
+      "imageAlt": "Heroic Welcome · imagen oficial Disney",
+      "description": "Aparición de los héroes de Avengers Campus en torno al Quinjet. Un momento breve de ambientación y personajes que encaja durante el recorrido por la zona.",
+      "tags": [
+        "Acción",
+        "Exterior"
+      ],
+      "tip": "Pararse si coincide con vuestro paso; las apariciones pueden cambiar.",
+      "schedule": "Sin sesiones del 9–10 verificadas. Consultar app y señalización.",
+      "availability": "",
+      "query": "Quinjet Avengers Campus Disneyland Paris",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Heroic Welcome"
+      ]
+    },
+    {
+      "id": "g-xmasparade",
+      "name": "Mickey's Dazzling Christmas Parade",
+      "park": 1,
+      "zone": "Fantasyland · Central Plaza · Main Street",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/seasons/christmas-at-disneyland-paris",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n036795_2029jan17_world_mickey-dazzling-christmas-parade-minnie-delight-float_16-9_tcm752-243057.jpg?w=640&f=webp",
+      "imageAlt": "Mickey's Dazzling Christmas Parade · imagen oficial Disney",
+      "description": "Cabalgata de Navidad con carrozas iluminadas, personajes y música festiva. Es uno de los eventos de temporada que mejor encaja en vuestra primera tarde.",
+      "tags": [
+        "Navidad",
+        "Cabalgata",
+        "Exterior"
+      ],
+      "tip": "Preferir una sesión al anochecer. Buscar posición 20–30 min antes como orientación.",
+      "schedule": "Referencia secundaria PixieDust (publicada 5/10), pendiente de confirmar en la app oficial para el 9 y el 10/11: 15:55 y 17:45 para el tramo 7–16/11. Confirmar el 9/11 en la app.",
+      "availability": "",
+      "query": "Main Street USA Disneyland Paris",
+      "mapNote": "El mapa marca un tramo de visión; la cabalgata atraviesa varias zonas.",
+      "guide": true,
+      "aliases": [
+        "Mickey's Dazzling Christmas Parade"
+      ],
+      "scheduleSource": "https://pixiedustdlp.com/2026/10/05/disneyland-paris-entertainment-schedule/"
+    },
+    {
+      "id": "g-sing",
+      "name": "Let's Sing Christmas!",
+      "park": 1,
+      "zone": "Discoveryland · Videopolis",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/seasons/christmas-at-disneyland-paris",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n037366_2030may15_world_christmas-season-beauty-shot-lets-sing-christmas_frame_16-9_tcm752-288026.png?w=640&f=webp",
+      "imageAlt": "Let's Sing Christmas! · imagen oficial Disney",
+      "description": "Concierto navideño con Mickey, Minnie y sus amigos en Videopolis, centrado en canciones de Navidad. Alternativa musical de temporada y pausa a cubierto.",
+      "tags": [
+        "Navidad",
+        "Musical",
+        "Interior"
+      ],
+      "tip": "Agrupar con Discoveryland. Si el teatro está lleno, continuar con las atracciones cercanas.",
+      "schedule": "Referencia secundaria PixieDust (publicada 5/10), pendiente de confirmar en la app oficial para el 9 y el 10/11: 14:35, 15:35 y 18:10 para 9–10/11. Confirmar sesiones y aforo.",
+      "availability": "",
+      "query": "Videopolis Disneyland Paris",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Let's Sing Christmas!"
+      ],
+      "scheduleSource": "https://pixiedustdlp.com/2026/10/05/disneyland-paris-entertainment-schedule/"
+    },
+    {
+      "id": "g-tree",
+      "name": "Magical Christmas Tree Lighting",
+      "park": 1,
+      "zone": "Town Square · Main Street",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/seasons/christmas-at-disneyland-paris",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n015878_2027nov07_world_les_voeux_magiques_de_noel_christmas-2025_16-9_tcm752-277244.png?w=640&f=webp",
+      "imageAlt": "Encendido del árbol de Navidad · imagen oficial Disney",
+      "description": "El gran árbol de Town Square se ilumina varias veces durante el día y la tarde. Un momento breve para disfrutar de Main Street con el decorado navideño.",
+      "tags": [
+        "Navidad",
+        "Exterior"
+      ],
+      "tip": "Verlo si encaja al pasar por Main Street, sin añadir otro cruce del parque.",
+      "schedule": "Disney anuncia varios encendidos durante el día y la tarde. Horas concretas del 9–10 pendientes de app.",
+      "availability": "",
+      "query": "Town Square Disneyland Paris",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Encendido del árbol de Navidad"
+      ]
+    },
+    {
+      "id": "g-carolers",
+      "name": "The Arendelle carolers",
+      "park": 2,
+      "zone": "World of Frozen · pueblo de Arendelle",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/seasons/christmas-at-disneyland-paris",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/000000_000000_visual-warm-hugs-chorale_16-9_tcm752-296473.jpg?w=640&f=webp",
+      "imageAlt": "Ilustración oficial de The Arendelle carolers · Navidad en Arendelle",
+      "description": "Interludio navideño con coro, Olaf y la llegada de Anna y Elsa. La novedad musical permite disfrutar de Arendelle sin montar en Frozen Ever After.",
+      "tags": [
+        "Navidad",
+        "Exterior",
+        "15 min aprox."
+      ],
+      "tip": "Encajarlo en el paseo por Arendelle cuando la lluvia dé tregua.",
+      "schedule": "Disney anuncia varias funciones al día durante Navidad 7/11–6/1; horas del 10/11 sin verificar.",
+      "availability": "",
+      "query": "World of Frozen Disneyland Paris",
+      "mapNote": "Zona general del pueblo: el punto de actuación y los accesos de público se confirman en la app.",
+      "guide": true,
+      "aliases": [
+        "The Arendelle carolers"
+      ]
+    },
+    {
+      "id": "g-ring",
+      "name": "Ring in the season with Anna and Elsa",
+      "park": 2,
+      "zone": "World of Frozen · Arendelle Bay",
+      "kind": "Espectáculos",
+      "official": "https://news.disneylandparis.com/en/for-the-first-time-the-magic-of-christmas-will-extend-to-world-of-frozen-adding-a-whole-new-dimension-to-disney-enchanted-christmas-celebrated-across-both-disneyland-paris-parks/",
+      "image": "https://news.disneylandparis.com/app/uploads/2026/09/Disneyland-Paris_Disneyland-Park_Ring-in-the-season-with-Anna-Elsa.jpg",
+      "imageAlt": "Ilustración oficial de Ring in the season with Anna and Elsa · Navidad en Arendelle",
+      "description": "Breve celebración navideña de Anna y Elsa en la bahía de Arendelle. Es un evento distinto del show habitual A Celebration in Arendelle.",
+      "tags": [
+        "Navidad",
+        "Exterior",
+        "7 min aprox."
+      ],
+      "tip": "Verlo si coincide; no requiere cambiar la preferencia de evitar Frozen Ever After.",
+      "schedule": "Disney anuncia varias sesiones, incluida la última parte de la tarde. Horas concretas del 10/11 pendientes.",
+      "availability": "",
+      "query": "Arendelle Bay Disneyland Paris",
+      "mapNote": "Referencia de la bahía, no punto exacto de embarque ni asiento.",
+      "guide": true,
+      "aliases": [
+        "Ring in the season with Anna and Elsa"
+      ]
+    },
+    {
+      "id": "g-arendelle",
+      "name": "A Celebration in Arendelle",
+      "park": 2,
+      "zone": "World of Frozen · Arendelle Bay",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/a-celebration-in-arendelle",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n043243_2033mar13_world_daw-a-celebration-in-arendelle-show-finale_16-9_tcm752-294256.jpg?w=640&f=webp",
+      "imageAlt": "A Celebration in Arendelle · imagen oficial Disney",
+      "description": "Celebración habitual en la bahía con Anna, Elsa, Olaf y Kristoff. Se documenta para distinguirla de las dos novedades navideñas de esta temporada.",
+      "tags": [
+        "Espectáculo",
+        "Exterior",
+        "20 min aprox."
+      ],
+      "tip": "No reservar tiempo para este show en vuestro itinerario.",
+      "schedule": "No hay funciones durante la pausa oficial.",
+      "availability": "Pausa oficial del 7/11/2026 al 2/04/2027: no disponible el 9–10/11.",
+      "query": "Arendelle Bay Disneyland Paris",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "A Celebration in Arendelle"
+      ],
+      "extraSource": "https://www.disneylandparis.com/nl-nl/entertainment/disney-adventure-world/a-celebration-in-arendelle"
+    },
+    {
+      "id": "g-philhar",
+      "name": "Mickey's PhilharMagic",
+      "park": 1,
+      "zone": "Discoveryland Theatre",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disneyland-park/discoveryland-theatre",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/65056-resource-cafe_530166151_090303_1000_2050dec31_mickey-philarmagic-aladdin-jasmine-donald-duck_16-9_tcm752-287004.jpg?w=640&f=webp",
+      "imageAlt": "Mickey's PhilharMagic · imagen oficial Disney",
+      "description": "Película musical en 4D con personajes y canciones Disney. Se mantiene como extra audiovisual cubierto de interés para aficionados a la animación.",
+      "tags": [
+        "Cine 4D",
+        "Interior"
+      ],
+      "tip": "Solo si os apetece y estáis cerca de Star Tours; no es una prioridad del plan.",
+      "schedule": "Consultar horario de funcionamiento en la app; no se ha verificado el intervalo de sesiones de estas fechas.",
+      "availability": "",
+      "query": "Discoveryland Theatre Disneyland Paris",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Mickey's PhilharMagic"
+      ]
+    },
+    {
+      "id": "g-animation",
+      "name": "Animation Academy",
+      "park": 2,
+      "zone": "Animation Celebration · World Premiere Plaza",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/animation-academy",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n036114_2050dec31_world_animation-celebration-academy-children-drawings-audiovisuel-castmember_16-9_tcm752-227264.jpg?w=640&f=webp",
+      "imageAlt": "Animation Academy · imagen oficial Disney",
+      "description": "Taller guiado para dibujar un personaje Disney paso a paso. Actividad tranquila para adultos interesados en animación, sin necesidad de saber dibujar.",
+      "tags": [
+        "Taller",
+        "Interior",
+        "Aforo limitado"
+      ],
+      "tip": "Buena alternativa si llueve y apetece descansar de atracciones.",
+      "schedule": "Sesiones sujetas a disponibilidad; consultar horarios de la jornada en la entrada o app.",
+      "availability": "",
+      "query": "Animation Celebration Disneyland Paris",
+      "mapNote": "",
+      "guide": true,
+      "aliases": [
+        "Animation Academy"
+      ]
+    },
+    {
+      "id": "g-performing",
+      "name": "Disney Performing Arts Programme",
+      "park": 1,
+      "zone": "Escenario según programación",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disneyland-park/disney-performing-arts-programme",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n031237_2024jul16_world_disney-performing-art-orchestra_16-9_tcm752-257064.jpg?w=640&f=webp",
+      "imageAlt": "Disney Performing Arts Programme · imagen oficial Disney",
+      "description": "Actuaciones de grupos invitados, como coros y conjuntos musicales. Es programación variable y no un espectáculo que pueda darse por garantizado durante vuestra visita.",
+      "tags": [
+        "Música en directo",
+        "Programa variable"
+      ],
+      "tip": "Ver únicamente si la app anuncia una actuación que os interese.",
+      "schedule": "No se ha confirmado ninguna actuación para el 9–10/11. El escenario también debe comprobarse.",
+      "availability": "",
+      "query": "Disneyland Park Disneyland Paris",
+      "mapNote": "No hay escenario confirmado para el 9–10: se sitúa el parque, no un escenario supuesto.",
+      "guide": true,
+      "aliases": [
+        "Disney Performing Arts Programme"
+      ]
+    },
+    {
+      "id": "g-stars",
+      "name": "Disney Stars on Parade",
+      "park": 1,
+      "zone": "Fantasyland · Central Plaza · Main Street",
+      "kind": "Espectáculos",
+      "official": "https://www.disneylandparis.com/en-gb/entertainment/disney-stars-on-parade",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n027581_2050dec31_world_disney-stars-on-parade-supporting-visual_5-1_tcm752-229656.jpg?w=640&f=webp",
+      "imageAlt": "Disney Stars on Parade · imagen promocional Disney",
+      "description": "Cabalgata habitual de grandes carrozas, personajes y música Disney. Se diferencia de la cabalgata navideña y su operación durante la temporada debe consultarse para el día concreto.",
+      "tags": [
+        "Cabalgata",
+        "Exterior"
+      ],
+      "tip": "No planificar dos desfiles sin comprobar el programa real de Navidad.",
+      "schedule": "No se ha confirmado función para el 9–10/11. Consultar la app; la ficha general no garantiza que se represente en estas fechas.",
+      "availability": "",
+      "query": "Main Street USA Disneyland Paris",
+      "mapNote": "Punto de referencia en un recorrido itinerante.",
+      "guide": true,
+      "aliases": [
+        "Disney Stars on Parade"
+      ]
+    }
+  ],
+  "excluded": [
+    "Dumbo, carrusel, tazas, Orbitron, Casey Jr., barcas de cuentos y zonas de juegos",
+    "Autopia y recorridos de cuentos de Blancanieves, Pinocho, Peter Pan y small world",
+    "Slinky Dog, Cars Quatre Roues Rallye, Flying Carpets y Raiponce Tangled Spin",
+    "Minnie’s Dream Factory y encuentros rutinarios con personajes"
+  ]
+}

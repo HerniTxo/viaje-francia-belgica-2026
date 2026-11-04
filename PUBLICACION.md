@@ -1,3 +1,11 @@
+## Guía del parque y favoritos · 04/11/2026
+
+Nueva pestaña Disney → Guía del parque: 51 fichas de atracciones, paseos y espectáculos, separadas por parque, con imagen oficial, descripción, ubicación, información práctica y enlace a Disney. Se excluyen actividades claramente infantiles y se conservan como descartadas las tres preferencias anteriores. Crush y la pausa de A Celebration in Arendelle se señalan explícitamente.
+
+Favoritos locales por navegador, lista editable y mapa interactivo conjunto de ambos parques. Búsqueda y filtros de espectáculos, atracciones, Navidad e interiores. Horarios secundarios identificados como orientativos y enlazados; se remite a la app para confirmar las funciones del 9–10/11.
+
+Las fichas compartidas de toda la web pasan de imágenes Maps Static a mapas interactivos normales. Se conserva la planificación y los planos con rutas anteriores. Validación: sintaxis JS, 8 días, 10 páginas, 35 rutas, fuentes e imágenes oficiales de las 51 fichas, referencias de recursos cotejadas con el árbol remoto, privacidad, búsqueda, favoritos y persistencia en navegador, ficha móvil sin desbordamiento horizontal. Los mapas se comprueban en el dominio público autorizado.
+
 ## Guía visual móvil y fichas de lugares · 03/11/2026
 
 Se elimina En marcha, valoración/calculadora de colas y checklist de la guía completa. Secuencias visuales por día, esquemas conservados. Fichas modales compartidas por toda la web para menciones de lugares registrados: nombres subrayados, descripción, mapa Google Static bajo demanda, enlace de ampliación y referencia al plano del parque para Disney. Catálogo común de atracciones, teatros, restaurantes, tiendas, consignas y lugares del resto del viaje. Navegación y contenidos anteriores conservados. Los marcadores sin coordenadas verificadas se resuelven por nombre mediante Maps Static, sin inventar coordenadas.
@@ -81,3 +89,4 @@ Validación local: sintaxis, referencias de páginas/pestañas, rutas, archivos,
 ## Francés sencillo y destinos · 03/11/2026
 
 Se sustituyen las frases específicas de comida y Disney por vocabulario y expresiones universales. Se conservan Básico y Ayuda, se añaden números 0–20 y decenas, cuatro hoteles con sus direcciones de reserva y nueve estaciones con direcciones de acceso y fuentes. Los nombres de estaciones flamencas se presentan como aproximación con voz francesa. Cada entrada conserva audio MP3 y pronunciación escrita. Son 92 entradas en diez pestañas. Recursos v=2.3. Se integraron previamente los cambios remotos hasta d389215.
+
