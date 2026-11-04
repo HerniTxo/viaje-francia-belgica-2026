@@ -1329,8 +1329,8 @@
     "id": "bxl_casacomic",
     "name": "La Casa del Cómic",
     "zone": "Bruselas · propuesta",
-    "description": "Cómics, figuras y libros en varias lenguas, incluidos títulos en español, cerca de la estación Central.",
-    "query": "Comic Strip House Boulevard de l'Impératrice 1 Bruxelles",
+    "description": "Cómics y figuras cerca de la estación Central, con títulos en varios idiomas. Confirmar horario del jueves.",
+    "query": "Boulevard de l’Impératrice 1, 1000 Bruxelles",
     "aliases": [
       "La Casa del Cómic"
     ],
@@ -1340,23 +1340,23 @@
     "id": "bxl_brusel",
     "name": "Brüsel",
     "zone": "Bruselas · propuesta",
-    "description": "Librería especializada en cómic y cultura gráfica junto a la Bolsa; confirmar horarios.",
-    "query": "Brüsel Boulevard Anspach Bruxelles",
+    "description": "Librería especializada en cómic, manga y cultura gráfica junto a la Bolsa; jueves 10:30–18:30.",
+    "query": "Boulevard Anspach 100, 1000 Bruxelles",
     "aliases": [
       "Brüsel"
     ],
-    "official": "https://www.visit.brussels/en/visitors/what-to-do/comic-strip-bookstores-and-pop-culture-shops-in-brussels"
+    "official": "https://www.brusel.com/librairie-galerie-brusel/"
   },
   {
     "id": "bxl_pelemek",
     "name": "Pêle-Mêle",
     "zone": "Bruselas · propuesta",
-    "description": "Tiendas de segunda mano con libros, cómics, música, videojuegos y juegos; comprobar sucursal y horario antes de ir.",
-    "query": "Pêle-Mêle Bruxelles",
+    "description": "Libros, cómics, música y juegos de segunda mano. Jueves 10:00–18:30; cerrado el miércoles 11 festivo.",
+    "query": "Boulevard Maurice Lemonnier 59, 1000 Bruxelles",
     "aliases": [
       "Pêle-Mêle"
     ],
-    "official": "https://comicstrip.be/en/bookstore/pele-mele/"
+    "official": "https://pele-mele.be/bruxelles/"
   },
   {
     "id": "bxl_comicmuseum",

@@ -2219,17 +2219,17 @@
                 },
                 {
                   "label": "La Casa del Cómic",
-                  "value": "Cómics, figuras y libros en varias lenguas, incluidos títulos en español, cerca de la estación Central.",
+                  "value": "Cómics y figuras cerca de la estación Central, con títulos en varios idiomas. Confirmar horario del jueves.",
                   "placeId": "bxl_casacomic"
                 },
                 {
                   "label": "Brüsel",
-                  "value": "Librería especializada en cómic y cultura gráfica junto a la Bolsa; confirmar horarios.",
+                  "value": "Librería especializada en cómic, manga y cultura gráfica junto a la Bolsa; jueves 10:30–18:30.",
                   "placeId": "bxl_brusel"
                 },
                 {
                   "label": "Pêle-Mêle",
-                  "value": "Tiendas de segunda mano con libros, cómics, música, videojuegos y juegos; comprobar sucursal y horario antes de ir.",
+                  "value": "Libros, cómics, música y juegos de segunda mano. Jueves 10:00–18:30; cerrado el miércoles 11 festivo.",
                   "placeId": "bxl_pelemek"
                 },
                 {
@@ -4710,30 +4710,36 @@
       "name": "La Casa del Cómic",
       "city": "Bruselas",
       "category": "atraccion",
-      "description": "Cómics, figuras y libros en varias lenguas, incluidos títulos en español, cerca de la estación Central.",
+      "description": "Cómics y figuras cerca de la estación Central, con títulos en varios idiomas. Confirmar horario del jueves.",
       "status": "propuesta",
-      "address": "Comic Strip House Boulevard de l'Impératrice 1 Bruxelles",
-      "url": "https://www.visit.brussels/en/visitors/venue-details.Comic-Strip-House.265283"
+      "address": "Boulevard de l’Impératrice 1, 1000 Bruxelles",
+      "url": "https://www.visit.brussels/en/visitors/venue-details.Comic-Strip-House.265283",
+      "lat": 50.844986,
+      "lng": 4.356646
     },
     {
       "id": "bxl_brusel",
       "name": "Brüsel",
       "city": "Bruselas",
       "category": "atraccion",
-      "description": "Librería especializada en cómic y cultura gráfica junto a la Bolsa; confirmar horarios.",
+      "description": "Librería especializada en cómic, manga y cultura gráfica junto a la Bolsa; jueves 10:30–18:30.",
       "status": "propuesta",
-      "address": "Brüsel Boulevard Anspach Bruxelles",
-      "url": "https://www.visit.brussels/en/visitors/what-to-do/comic-strip-bookstores-and-pop-culture-shops-in-brussels"
+      "address": "Boulevard Anspach 100, 1000 Bruxelles",
+      "url": "https://www.brusel.com/librairie-galerie-brusel/",
+      "lat": 50.847679,
+      "lng": 4.349242
     },
     {
       "id": "bxl_pelemek",
       "name": "Pêle-Mêle",
       "city": "Bruselas",
       "category": "atraccion",
-      "description": "Tiendas de segunda mano con libros, cómics, música, videojuegos y juegos; comprobar sucursal y horario antes de ir.",
+      "description": "Libros, cómics, música y juegos de segunda mano. Jueves 10:00–18:30; cerrado el miércoles 11 festivo.",
       "status": "propuesta",
-      "address": "Pêle-Mêle Bruxelles",
-      "url": "https://comicstrip.be/en/bookstore/pele-mele/"
+      "address": "Boulevard Maurice Lemonnier 59, 1000 Bruxelles",
+      "url": "https://pele-mele.be/bruxelles/",
+      "lat": 50.8442037,
+      "lng": 4.3450118
     },
     {
       "id": "bxl_comicmuseum",

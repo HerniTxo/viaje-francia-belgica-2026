@@ -1,3 +1,7 @@
+## Ubicaciones de tres librerías · 04/11/2026
+
+Añadidas coordenadas y direcciones verificadas de Brüsel, Pêle-Mêle Bruselas y Casa del Cómic; actualizados horarios disponibles y fichas.
+
 ## Bruselas · 04/11/2026
 
 Guía de visitas, barrios, miradores, cervecerías, juegos y tiendas con fichas y mapas. Ruta del cómic separada con enlace al mapa oficial desde inicio y mapa de Bruselas. Lugares como propuestas; horarios pendientes de confirmación. Maestro y memoria de Gante consultados.
