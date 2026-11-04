@@ -1368,5 +1368,369 @@
       "Museo del Cómic"
     ],
     "official": "https://www.comicscenter.net/en/practical-information/opening-hours-and-admission-fees"
+  },
+  {
+    "id": "bru_markt",
+    "name": "Markt",
+    "zone": "Brujas · propuesta",
+    "description": "La gran plaza de casas gremiales y fachadas escalonadas. Buen punto para orientarse y volver a verla iluminada.",
+    "query": "Markt, 8000 Brugge",
+    "aliases": [
+      "Markt"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sights",
+    "tip": "Exterior gratuito. Prever 15–25 min como estimación de paseo.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_belfort",
+    "name": "Belfort de Brujas",
+    "zone": "Brujas · propuesta",
+    "description": "Mirador de 83 m: 366 escalones, sin ascensor. Durante la subida se ven el reloj, el gran tambor musical y el carillón. Adulto entre semana en invierno: 15 €; fines de semana y festivos: 16 €.",
+    "query": "Markt 7, 8000 Brugge",
+    "aliases": [
+      "Belfort de Brujas"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage/belfort-belfry",
+    "tip": "Opcional de pago por las vistas y la mecánica. Reservar franja en Musea Brugge y consultar horario del día; no hay entrada comprada. Estimar 45–60 min.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_burg",
+    "name": "Plaza Burg",
+    "zone": "Brujas · propuesta",
+    "description": "Conjunto monumental del Ayuntamiento y la basílica de la Santa Sangre; interesante incluso limitándose a fachadas y plaza.",
+    "query": "Burg, 8000 Brugge",
+    "aliases": [
+      "Plaza Burg"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sights",
+    "tip": "Paseo exterior gratuito. Los interiores tienen condiciones y horarios propios.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_blinde",
+    "name": "Blinde-Ezelstraat",
+    "zone": "Brujas · propuesta",
+    "description": "Pasaje bajo el arco que une Burg con el mercado del pescado: un tramo corto y muy fotogénico.",
+    "query": "Blinde-Ezelstraat, 8000 Brugge",
+    "aliases": [
+      "Blinde-Ezelstraat"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sights",
+    "tip": "Continuar hacia Vismarkt y los canales. Exterior, sin entrada.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_vismarkt",
+    "name": "Vismarkt y Huidenvettersplein",
+    "zone": "Brujas · propuesta",
+    "description": "Dos plazas pequeñas junto a los canales para enlazar Burg con las vistas del muelle del Rosario.",
+    "query": "Vismarkt, 8000 Brugge",
+    "aliases": [
+      "Vismarkt y Huidenvettersplein"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sights",
+    "tip": "El paseo no depende de que haya mercado. Parada de 10–15 min orientativos.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_rozen",
+    "name": "Rozenhoedkaai",
+    "zone": "Brujas · propuesta",
+    "description": "El muelle del Rosario, una de las panorámicas clásicas de la ciudad: canales, tejados y la torre al fondo.",
+    "query": "Rozenhoedkaai, 8000 Brugge",
+    "aliases": [
+      "Rozenhoedkaai"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sights",
+    "tip": "Gratis. Merece una segunda mirada al caer la tarde.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_dijver",
+    "name": "Dijver",
+    "zone": "Brujas · propuesta",
+    "description": "Paseo junto al canal entre puentes y fachadas; conecta el centro con el entorno de Gruuthuse.",
+    "query": "Dijver, 8000 Brugge",
+    "aliases": [
+      "Dijver"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sights",
+    "tip": "Pasear por fuera de los edificios: no hace falta entrar en museos.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_bonifacio",
+    "name": "Puente de San Bonifacio",
+    "zone": "Brujas · propuesta",
+    "description": "Pequeño puente junto a la iglesia de Nuestra Señora, entre jardines y fachadas de ladrillo. Parece medieval, aunque es bastante más reciente.",
+    "query": "Bonifaciusbrug, 8000 Brugge",
+    "aliases": [
+      "Puente de San Bonifacio"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage/bonifaciusbrug-boniface-bridge",
+    "tip": "Parada exterior gratuita; puede concentrar gente. Combinar con Dijver.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_beguinaje",
+    "name": "Beguinaje de Brujas",
+    "zone": "Brujas · propuesta",
+    "description": "Patio de casas blancas y árboles junto al agua. Interesa como rincón tranquilo del recorrido, sin necesidad de visitar una exposición.",
+    "query": "Begijnhof, 8000 Brugge",
+    "aliases": [
+      "Beguinaje de Brujas"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sights",
+    "tip": "Respetar el silencio y los accesos privados. Recinto sujeto a apertura; no prometer acceso nocturno.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_minnewater",
+    "name": "Minnewater",
+    "zone": "Brujas · propuesta",
+    "description": "Lago y parque al sur del centro: buen comienzo o final de la visita si se llega en tren.",
+    "query": "Minnewater, 8000 Brugge",
+    "aliases": [
+      "Minnewater"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sights",
+    "tip": "Paseo exterior gratuito. Encaja con Beguinaje y Olleke.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_jan",
+    "name": "Jan van Eyckplein",
+    "zone": "Brujas · propuesta",
+    "description": "Plaza junto al antiguo puerto, con canales y edificios de comerciantes. Buen cambio de ambiente después del centro monumental.",
+    "query": "Jan van Eyckplein, 8000 Brugge",
+    "aliases": [
+      "Jan van Eyckplein"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sights",
+    "tip": "Punto de enlace para caminar hacia Sint-Anna o regresar a Markt.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_sintanna",
+    "name": "Barrio de Sint-Anna",
+    "zone": "Brujas · propuesta",
+    "description": "Calles residenciales y canales para callejear con más calma; combina bien con Café Vlissinghe y el paseo de los molinos.",
+    "query": "Sint-Annaplein, 8000 Brugge",
+    "aliases": [
+      "Barrio de Sint-Anna"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sights",
+    "tip": "Es un barrio, el marcador indica un punto de referencia en la plaza.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_molinos",
+    "name": "Molinos de Kruisvest",
+    "zone": "Brujas · propuesta",
+    "description": "Paseo verde por las antiguas murallas y los molinos del este. Una extensión al aire libre para salir del centro más concurrido.",
+    "query": "Sint-Janshuismolen, Kruisvest, 8000 Brugge",
+    "aliases": [
+      "Molinos de Kruisvest"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage",
+    "tip": "Se propone el exterior gratuito; no se garantiza acceso al interior ni molinos funcionando en noviembre. Estimar 45–60 min para el tramo.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_langestraat",
+    "name": "Langestraat y Hoogstraat",
+    "zone": "Brujas · propuesta",
+    "description": "Eje de tiendas alternativas, vinilos, segunda mano y locales originales; aquí están Den Elder y el café de juegos.",
+    "query": "Langestraat 84, 8000 Brugge",
+    "aliases": [
+      "Langestraat y Hoogstraat"
+    ],
+    "official": "https://press.visitbruges.be/en/experiencing-bruges/storylines/unusual-neighbourhoods/langestraat-and-hoogstraat",
+    "tip": "El mapa señala un punto del eje, no un establecimiento único. Elegir tiendas según su horario.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_ezelstraat",
+    "name": "Ezelstraat y Sint-Jakobsstraat",
+    "zone": "Brujas · propuesta",
+    "description": "Calles comerciales con negocios independientes para curiosear fuera del recorrido monumental.",
+    "query": "Ezelstraat, 8000 Brugge",
+    "aliases": [
+      "Ezelstraat y Sint-Jakobsstraat"
+    ],
+    "official": "https://press.visitbruges.be/en/experiencing-bruges/storylines/unusual-neighbourhoods/ezelstraat-and-sint-jakobsstraat",
+    "tip": "Desvío opcional; no es necesario recorrer todas las zonas en un día.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_olleke",
+    "name": "Olleke",
+    "zone": "Brujas · propuesta",
+    "description": "Tienda de ambientación mágica con fantasía, Harry Potter, réplicas y coleccionismo. El catálogo incluye otras sagas y juegos de cartas. Horario habitual publicado: todos los días 11:00–17:00.",
+    "query": "Wijngaardstraat 12, 8000 Brugge",
+    "aliases": [
+      "Olleke"
+    ],
+    "official": "https://desprookjeswinkel.be/pages/olleke-brugge",
+    "tip": "Prioridad friki. Visitar antes de las 17:00; comprobar excepciones. Está cerca del Beguinaje.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_elder",
+    "name": "Den Elder",
+    "zone": "Brujas · propuesta",
+    "description": "Segunda mano: cómics, libros, discos, CD y DVD. Lunes, jueves, viernes y sábado 10:30–18:00; martes, miércoles y domingo cerrado. Anuncia cierre definitivo después del 30/11/2026.",
+    "query": "Langestraat 84, 8000 Brugge",
+    "aliases": [
+      "Den Elder"
+    ],
+    "official": "https://denelder.be/contact/",
+    "tip": "El jueves 12 encaja con su horario habitual. No dejarla para una visita futura: el cierre está anunciado por la propia tienda.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_juegos",
+    "name": "’tspelopdewagen",
+    "zone": "Brujas · propuesta",
+    "description": "Café y tienda de juegos de mesa: se puede jugar y comprar. El jueves abre habitualmente 19:00–23:00; miércoles 14:00–17:00; viernes y sábado 14:00–17:00 y 19:00–23:00.",
+    "query": "Langestraat 108, 8000 Brugge",
+    "aliases": [
+      "’tspelopdewagen"
+    ],
+    "official": "https://tspelopdewagen.be/",
+    "tip": "El jueves NO sirve como refugio de lluvia a mediodía: abre por la noche. Consultar calendario y condiciones de juego; no hay sesión reservada.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_chocolate",
+    "name": "The Chocolate Line",
+    "zone": "Brujas · propuesta",
+    "description": "Tienda de chocolate creativo de la familia Persoone, con combinaciones de sabores poco habituales. Horario publicado del jueves: 09:30–18:30.",
+    "query": "Simon Stevinplein 19, 8000 Brugge",
+    "aliases": [
+      "The Chocolate Line"
+    ],
+    "official": "https://www.thechocolateline.be/en/",
+    "tip": "Parada breve para curiosear y comprar; no es un museo ni una degustación gratuita garantizada.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_groot",
+    "name": "Groot Vlaenderen",
+    "zone": "Brujas · propuesta",
+    "description": "Coctelería elegante con preparación a la vista. Horario habitual publicado: martes–jueves 17:00–01:00, viernes–sábado hasta 02:00 y domingo hasta 00:00; lunes cerrado.",
+    "query": "Vlamingstraat 94, 8000 Brugge",
+    "aliases": [
+      "Groot Vlaenderen"
+    ],
+    "official": "https://grootvlaenderen.com/",
+    "tip": "Primera opción para una copa tranquila. Carta y precios a consultar; reservar margen para el tren de vuelta.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_ran",
+    "name": "Bar Ran",
+    "zone": "Brujas · propuesta",
+    "description": "Coctelería creativa en una antigua freiduría, con infusiones y siropes propios. Abre desde las 17:00 de miércoles a sábado; lunes, martes y domingo cerrado.",
+    "query": "Kuipersstraat 4, 8000 Brugge",
+    "aliases": [
+      "Bar Ran"
+    ],
+    "official": "https://barranbrugge.com/contact-2",
+    "tip": "La web indica que no admite reservas. Para cambios de última hora remite a Instagram. No se fija una hora de cierre no publicada por el local.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_jimmy",
+    "name": "Bie Jimmy",
+    "zone": "Brujas · propuesta",
+    "description": "Bar de aperitivos con aire parisino, cerca del mercado del pescado y el parque Astrid. Alternativa para tomar un cóctel en el centro.",
+    "query": "Jozef Suvéestraat 29, 8000 Brugge",
+    "aliases": [
+      "Bie Jimmy"
+    ],
+    "official": "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/bie-jimmy",
+    "tip": "Horario y carta pendientes de confirmación: no organizar una visita exclusiva sin comprobar apertura.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_vlissinghe",
+    "name": "Café Vlissinghe",
+    "zone": "Brujas · propuesta",
+    "description": "Taberna con origen en 1515, considerada el café más antiguo de Brujas. Interior con carácter y jardín; interesa por el ambiente del lugar.",
+    "query": "Blekersstraat 2, 8000 Brugge",
+    "aliases": [
+      "Café Vlissinghe"
+    ],
+    "official": "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/cafe-vlissinghe",
+    "tip": "Combinar con Sint-Anna. Confirmar apertura y cocina; el jardín depende del tiempo.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_garre",
+    "name": "De Garre",
+    "zone": "Brujas · propuesta",
+    "description": "Pequeño pub escondido en uno de los callejones más estrechos de Brujas, muy cerca de Markt. La gracia es encontrar el acceso y el local acogedor.",
+    "query": "De Garre 1, 8000 Brugge",
+    "aliases": [
+      "De Garre"
+    ],
+    "official": "https://www.visitbruges.be/en/eat-and-sleep/beer/beer-cafes",
+    "tip": "Se incluye por el callejón y el ambiente; no como ruta cervecera. Horario pendiente de confirmar.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_trappiste",
+    "name": "Le Trappiste",
+    "zone": "Brujas · propuesta",
+    "description": "Pub en una bodega abovedada del siglo XIII. Se propone por la arquitectura del local, aunque su especialidad sea la cerveza.",
+    "query": "Kuipersstraat 33, 8000 Brugge",
+    "aliases": [
+      "Le Trappiste"
+    ],
+    "official": "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/le-trappiste",
+    "tip": "Consultar apertura actual en la web del local. No se añaden catas ni actividades cerveceras.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+  },
+  {
+    "id": "bru_barco",
+    "name": "Paseo en barco por los canales",
+    "zone": "Brujas · propuesta",
+    "description": "Recorrido de unos 30 min, 15 € por adulto hasta el 31/12/2026. Los cinco operadores hacen la misma ruta. Billetes individuales en el embarcadero, sin reserva anticipada.",
+    "query": "Huidenvettersplein 13, 8000 Brugge",
+    "aliases": [
+      "Paseo en barco por los canales"
+    ],
+    "official": "https://www.visitbruges.be/en/things-to-do/sightseeing/bruges-boat",
+    "tip": "En noviembre hay un embarcadero de turno diario; el marcador es una referencia, no asegura que ese muelle opere el día 12. Confirmar muelle y horario con Turismo; no trasladar el horario de verano.",
+    "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
+    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
   }
 ]

@@ -110,3 +110,7 @@ Guías unificadas con nombre pulsable y descripción, sin tarjetas duplicadas. S
 ## Mapas por apartado de Gante · 04/11/2026
 
 Cada pestaña de Gante incluye un mapa interactivo con los lugares de ese apartado y acceso desde cada marcador a la ficha individual. Plan, Mapa y Tiempo reúnen la selección completa de la ciudad. Los parkings usan referencias del hotel y de la estación, no entradas exactas verificadas. Publicación autorizada expresamente por el usuario.
+
+
+## 04/11/2026 · Brujas
+Guía ampliada con 26 fichas: monumentos exteriores, canales, barrios, paseos, fantasía/juegos y pubs/coctelerías. Mapas por apartado y mapa general, fichas individuales y rutas a pie por tramos. Fuentes y horarios habituales documentados. Sin museos de arte ni ruta cervecera. Mantiene trenes y reservas. Den Elder cierra después del 30/11; café de juegos jueves desde 19:00; barco con muelle de turno en noviembre. Publicación solicitada por David; comprobar despliegue del commit.
