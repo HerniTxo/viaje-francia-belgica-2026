@@ -1,6 +1,6 @@
 ## Wintercircus y De Krook · 04/11/2026
 
-Gante → Eventos: instalación audiovisual gratuita del 10 al 15 de noviembre, programa de Stavroz del 12, visita al Wintercircus y referencia opcional a De Krook; horarios especiales y disponibilidad por confirmar. Fuentes oficiales enlazadas y mapa conjunto con ubicaciones corregidas. Información contrastada con itinerario maestro y memoria de Gante; actividades propuestas, sin entradas reservadas.
+Gante → Eventos: instalación audiovisual gratuita del 10 al 15 de noviembre, visita gratuita a la arena y al Wintercircus y referencia opcional a De Krook; horarios especiales y disponibilidad por confirmar. Fuentes oficiales enlazadas y mapa conjunto con ubicaciones corregidas. Información contrastada con itinerario maestro y memoria de Gante; actividades propuestas, sin entradas reservadas.
 
 ## Guía del parque y favoritos · 04/11/2026
 
