@@ -4521,7 +4521,9 @@
       "description": "Edificio monumental rehabilitado que alberga Belgian Beer World y una terraza.",
       "status": "propuesta",
       "address": "Bourse Bruxelles",
-      "url": "https://www.boursebeurs.be/en"
+      "url": "https://www.boursebeurs.be/en",
+      "lat": 50.84795,
+      "lng": 4.35043
     },
     {
       "id": "bxl_brucity",
@@ -4543,7 +4545,9 @@
       "description": "Terraza sobre la Bolsa, vistas y cervezas belgas. Abre habitualmente desde las 16:00; la entrada sin visita se anuncia desde las 16:30. Confirmar condiciones.",
       "status": "propuesta",
       "address": "The BeerLab Rooftop Boulevard Anspach 80 Bruxelles",
-      "url": "https://thebeerlabrooftop.be/en/contact"
+      "url": "https://thebeerlabrooftop.be/en/contact",
+      "lat": 50.84795,
+      "lng": 4.35043
     },
     {
       "id": "bxl_atomium",
@@ -4565,7 +4569,9 @@
       "description": "Calles, tiendas vintage y mercadillo de Jeu de Balle, habitualmente hasta las 14:00 entre semana.",
       "status": "propuesta",
       "address": "Place du Jeu de Balle Bruxelles",
-      "url": "https://www.visit.brussels/en/visitors/plan-your-trip/the-marolles-brussels-authentic-and-popular-neighbourhood"
+      "url": "https://www.visit.brussels/en/visitors/plan-your-trip/the-marolles-brussels-authentic-and-popular-neighbourhood",
+      "lat": 50.83702,
+      "lng": 4.34579
     },
     {
       "id": "bxl_saintecatherine",
@@ -4587,7 +4593,9 @@
       "description": "Fachada barroca escondida tras un pasaje cubierto de Rue de Flandre; acceso al patio sujeto a apertura.",
       "status": "propuesta",
       "address": "La Bellone Rue de Flandre Bruxelles",
-      "url": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels"
+      "url": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels",
+      "lat": 50.85126,
+      "lng": 4.34612
     },
     {
       "id": "bxl_cigogne",
@@ -4597,7 +4605,9 @@
       "description": "Pequeña calle tranquila a la que se accede bajo un arco; parada breve junto a Sainte-Catherine.",
       "status": "propuesta",
       "address": "Rue de la Cigogne Bruxelles",
-      "url": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels"
+      "url": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels",
+      "lat": 50.8525584,
+      "lng": 4.3447495
     },
     {
       "id": "bxl_toone",
@@ -4667,7 +4677,9 @@
       "description": "Tienda y espacio de juegos de cartas y ordenadores con bar de cervezas.",
       "status": "propuesta",
       "address": "Outpost Brussels Rue de la Tribune 8 Bruxelles",
-      "url": "https://outpostbrussels.be/en/pages/qui-sommes-nous"
+      "url": "https://outpostbrussels.be/en/pages/qui-sommes-nous",
+      "lat": 50.84867,
+      "lng": 4.36525
     },
     {
       "id": "bxl_pinball",
@@ -4731,7 +4743,9 @@
       "description": "Museo en edificio Art Nouveau, con manga y cómic; jueves 10:00–18:00, última entrada 17:00, adulto 14 €. Textos en francés, neerlandés e inglés.",
       "status": "propuesta",
       "address": "Comic Art Museum Rue des Sables 20 Bruxelles",
-      "url": "https://www.comicscenter.net/en/practical-information/opening-hours-and-admission-fees"
+      "url": "https://www.comicscenter.net/en/practical-information/opening-hours-and-admission-fees",
+      "lat": 50.851252,
+      "lng": 4.360134
     }
   ],
   "stays": [
