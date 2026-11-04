@@ -1177,6 +1177,13 @@
               "text": "Distribución del día 12, visitas concretas y trenes. No se da por hecho que Gante, Brujas y Bruselas quepan con calma en la misma jornada.",
               "tone": "pending",
               "url": null
+            },
+            {
+              "type": "note",
+              "title": "Trenes desde Gent-Dampoort · jueves 12",
+              "text": "Brujas (Brugge): calcular aproximadamente 35–50 min por trayecto. Bruselas (Bruxelles-Central / Brussel-Centraal): aproximadamente 50–70 min por trayecto. Los servicios pasan habitualmente por Gent-Sint-Pieters, a veces sin cambiar de tren y otras con transbordo. Son márgenes orientativos, no horarios verificados del día 12. Billetes y horas de salida/regreso pendientes de decidir.",
+              "tone": "pending",
+              "url": null
             }
           ]
         },
