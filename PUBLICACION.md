@@ -114,3 +114,5 @@ Cada pestaña de Gante incluye un mapa interactivo con los lugares de ese aparta
 
 ## 04/11/2026 · Brujas
 Guía ampliada con 26 fichas: monumentos exteriores, canales, barrios, paseos, fantasía/juegos y pubs/coctelerías. Mapas por apartado y mapa general, fichas individuales y rutas a pie por tramos. Fuentes y horarios habituales documentados. Sin museos de arte ni ruta cervecera. Mantiene trenes y reservas. Den Elder cierra después del 30/11; café de juegos jueves desde 19:00; barco con muelle de turno en noviembre. Publicación solicitada por David; comprobar despliegue del commit.
+
+Ubicaciones: 24 contrastadas con fichas Google Maps; Le Trappiste con la ubicación publicada en Untappd (51.2109, 3.22276), barco como referencia del entorno de Huidenvettersplein según Wikimedia (51.207750, 3.227519). Se incluyen coordenadas en los dos catálogos para evitar depender de Geocoding API. Caché renovada.

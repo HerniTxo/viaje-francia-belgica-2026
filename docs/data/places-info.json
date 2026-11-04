@@ -1381,7 +1381,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sights",
     "tip": "Exterior gratuito. Prever 15–25 min como estimación de paseo.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.208619,
+    "lng": 3.223992
   },
   {
     "id": "bru_belfort",
@@ -1395,7 +1397,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage/belfort-belfry",
     "tip": "Opcional de pago por las vistas y la mecánica. Reservar franja en Musea Brugge y consultar horario del día; no hay entrada comprada. Estimar 45–60 min.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2081466,
+    "lng": 3.2248011
   },
   {
     "id": "bru_burg",
@@ -1409,7 +1413,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sights",
     "tip": "Paseo exterior gratuito. Los interiores tienen condiciones y horarios propios.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2085062,
+    "lng": 3.2268383
   },
   {
     "id": "bru_blinde",
@@ -1423,7 +1429,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sights",
     "tip": "Continuar hacia Vismarkt y los canales. Exterior, sin entrada.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2082718,
+    "lng": 3.2274043
   },
   {
     "id": "bru_vismarkt",
@@ -1437,7 +1445,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sights",
     "tip": "El paseo no depende de que haya mercado. Parada de 10–15 min orientativos.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2079121,
+    "lng": 3.2286268
   },
   {
     "id": "bru_rozen",
@@ -1451,7 +1461,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sights",
     "tip": "Gratis. Merece una segunda mirada al caer la tarde.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.207137,
+    "lng": 3.2275063
   },
   {
     "id": "bru_dijver",
@@ -1465,7 +1477,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sights",
     "tip": "Pasear por fuera de los edificios: no hace falta entrar en museos.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.20617,
+    "lng": 3.22605
   },
   {
     "id": "bru_bonifacio",
@@ -1479,7 +1493,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage/bonifaciusbrug-boniface-bridge",
     "tip": "Parada exterior gratuita; puede concentrar gente. Combinar con Dijver.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2049116,
+    "lng": 3.2253486
   },
   {
     "id": "bru_beguinaje",
@@ -1493,7 +1509,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sights",
     "tip": "Respetar el silencio y los accesos privados. Recinto sujeto a apertura; no prometer acceso nocturno.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2012811,
+    "lng": 3.2230458
   },
   {
     "id": "bru_minnewater",
@@ -1507,7 +1525,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sights",
     "tip": "Paseo exterior gratuito. Encaja con Beguinaje y Olleke.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2000104,
+    "lng": 3.2247317
   },
   {
     "id": "bru_jan",
@@ -1521,7 +1541,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sights",
     "tip": "Punto de enlace para caminar hacia Sint-Anna o regresar a Markt.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2115666,
+    "lng": 3.2255688
   },
   {
     "id": "bru_sintanna",
@@ -1535,7 +1557,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sights",
     "tip": "Es un barrio, el marcador indica un punto de referencia en la plaza.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2121134,
+    "lng": 3.2319245
   },
   {
     "id": "bru_molinos",
@@ -1549,7 +1573,9 @@
     "official": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage",
     "tip": "Se propone el exterior gratuito; no se garantiza acceso al interior ni molinos funcionando en noviembre. Estimar 45–60 min para el tramo.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2154587,
+    "lng": 3.2381475
   },
   {
     "id": "bru_langestraat",
@@ -1563,7 +1589,9 @@
     "official": "https://press.visitbruges.be/en/experiencing-bruges/storylines/unusual-neighbourhoods/langestraat-and-hoogstraat",
     "tip": "El mapa señala un punto del eje, no un establecimiento único. Elegir tiendas según su horario.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2105514,
+    "lng": 3.2358105
   },
   {
     "id": "bru_ezelstraat",
@@ -1577,7 +1605,9 @@
     "official": "https://press.visitbruges.be/en/experiencing-bruges/storylines/unusual-neighbourhoods/ezelstraat-and-sint-jakobsstraat",
     "tip": "Desvío opcional; no es necesario recorrer todas las zonas en un día.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2133501,
+    "lng": 3.2181898
   },
   {
     "id": "bru_olleke",
@@ -1591,7 +1621,9 @@
     "official": "https://desprookjeswinkel.be/pages/olleke-brugge",
     "tip": "Prioridad friki. Visitar antes de las 17:00; comprobar excepciones. Está cerca del Beguinaje.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2021259,
+    "lng": 3.2251872
   },
   {
     "id": "bru_elder",
@@ -1605,7 +1637,9 @@
     "official": "https://denelder.be/contact/",
     "tip": "El jueves 12 encaja con su horario habitual. No dejarla para una visita futura: el cierre está anunciado por la propia tienda.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2105739,
+    "lng": 3.2357855
   },
   {
     "id": "bru_juegos",
@@ -1619,7 +1653,9 @@
     "official": "https://tspelopdewagen.be/",
     "tip": "El jueves NO sirve como refugio de lluvia a mediodía: abre por la noche. Consultar calendario y condiciones de juego; no hay sesión reservada.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2111644,
+    "lng": 3.2366201
   },
   {
     "id": "bru_chocolate",
@@ -1633,7 +1669,9 @@
     "official": "https://www.thechocolateline.be/en/",
     "tip": "Parada breve para curiosear y comprar; no es un museo ni una degustación gratuita garantizada.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2065926,
+    "lng": 3.2224214
   },
   {
     "id": "bru_groot",
@@ -1647,7 +1685,9 @@
     "official": "https://grootvlaenderen.com/",
     "tip": "Primera opción para una copa tranquila. Carta y precios a consultar; reservar margen para el tren de vuelta.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2122728,
+    "lng": 3.223111
   },
   {
     "id": "bru_ran",
@@ -1661,7 +1701,9 @@
     "official": "https://barranbrugge.com/contact-2",
     "tip": "La web indica que no admite reservas. Para cambios de última hora remite a Instagram. No se fija una hora de cierre no publicada por el local.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2098688,
+    "lng": 3.2233218
   },
   {
     "id": "bru_jimmy",
@@ -1675,7 +1717,9 @@
     "official": "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/bie-jimmy",
     "tip": "Horario y carta pendientes de confirmación: no organizar una visita exclusiva sin comprobar apertura.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2069128,
+    "lng": 3.2296158
   },
   {
     "id": "bru_vlissinghe",
@@ -1689,7 +1733,9 @@
     "official": "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/cafe-vlissinghe",
     "tip": "Combinar con Sint-Anna. Confirmar apertura y cocina; el jardín depende del tiempo.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.212993,
+    "lng": 3.2301487
   },
   {
     "id": "bru_garre",
@@ -1703,7 +1749,9 @@
     "official": "https://www.visitbruges.be/en/eat-and-sleep/beer/beer-cafes",
     "tip": "Se incluye por el callejón y el ambiente; no como ruta cervecera. Horario pendiente de confirmar.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2084081,
+    "lng": 3.2259745
   },
   {
     "id": "bru_trappiste",
@@ -1717,7 +1765,9 @@
     "official": "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/le-trappiste",
     "tip": "Consultar apertura actual en la web del local. No se añaden catas ni actividades cerveceras.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.2109,
+    "lng": 3.22276
   },
   {
     "id": "bru_barco",
@@ -1731,6 +1781,8 @@
     "official": "https://www.visitbruges.be/en/things-to-do/sightseeing/bruges-boat",
     "tip": "En noviembre hay un embarcadero de turno diario; el marcador es una referencia, no asegura que ese muelle opere el día 12. Confirmar muelle y horario con Turismo; no trasladar el horario de verano.",
     "availability": "Datos consultados el 4/11/2026. Horarios habituales sujetos a cambios.",
-    "mapNote": "Ubicación por nombre y dirección. En barrios y paseos se muestra un punto de referencia, no el recorrido completo."
+    "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
+    "lat": 51.20775,
+    "lng": 3.227519
   }
 ]

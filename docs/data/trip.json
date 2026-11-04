@@ -5166,7 +5166,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sights",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.208619,
+      "lng": 3.223992
     },
     {
       "id": "bru_belfort",
@@ -5176,7 +5178,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage/belfort-belfry",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2081466,
+      "lng": 3.2248011
     },
     {
       "id": "bru_burg",
@@ -5186,7 +5190,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sights",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2085062,
+      "lng": 3.2268383
     },
     {
       "id": "bru_blinde",
@@ -5196,7 +5202,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sights",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2082718,
+      "lng": 3.2274043
     },
     {
       "id": "bru_vismarkt",
@@ -5206,7 +5214,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sights",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2079121,
+      "lng": 3.2286268
     },
     {
       "id": "bru_rozen",
@@ -5216,7 +5226,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sights",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.207137,
+      "lng": 3.2275063
     },
     {
       "id": "bru_dijver",
@@ -5226,7 +5238,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sights",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.20617,
+      "lng": 3.22605
     },
     {
       "id": "bru_bonifacio",
@@ -5236,7 +5250,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage/bonifaciusbrug-boniface-bridge",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2049116,
+      "lng": 3.2253486
     },
     {
       "id": "bru_beguinaje",
@@ -5246,7 +5262,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sights",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2012811,
+      "lng": 3.2230458
     },
     {
       "id": "bru_minnewater",
@@ -5256,7 +5274,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sights",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2000104,
+      "lng": 3.2247317
     },
     {
       "id": "bru_jan",
@@ -5266,7 +5286,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sights",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2115666,
+      "lng": 3.2255688
     },
     {
       "id": "bru_sintanna",
@@ -5276,7 +5298,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sights",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2121134,
+      "lng": 3.2319245
     },
     {
       "id": "bru_molinos",
@@ -5286,7 +5310,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/culture-and-heritage",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2154587,
+      "lng": 3.2381475
     },
     {
       "id": "bru_langestraat",
@@ -5296,7 +5322,9 @@
       "url": "https://press.visitbruges.be/en/experiencing-bruges/storylines/unusual-neighbourhoods/langestraat-and-hoogstraat",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2105514,
+      "lng": 3.2358105
     },
     {
       "id": "bru_ezelstraat",
@@ -5306,7 +5334,9 @@
       "url": "https://press.visitbruges.be/en/experiencing-bruges/storylines/unusual-neighbourhoods/ezelstraat-and-sint-jakobsstraat",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2133501,
+      "lng": 3.2181898
     },
     {
       "id": "bru_olleke",
@@ -5316,7 +5346,9 @@
       "url": "https://desprookjeswinkel.be/pages/olleke-brugge",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2021259,
+      "lng": 3.2251872
     },
     {
       "id": "bru_elder",
@@ -5326,7 +5358,9 @@
       "url": "https://denelder.be/contact/",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2105739,
+      "lng": 3.2357855
     },
     {
       "id": "bru_juegos",
@@ -5336,7 +5370,9 @@
       "url": "https://tspelopdewagen.be/",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2111644,
+      "lng": 3.2366201
     },
     {
       "id": "bru_chocolate",
@@ -5346,7 +5382,9 @@
       "url": "https://www.thechocolateline.be/en/",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2065926,
+      "lng": 3.2224214
     },
     {
       "id": "bru_groot",
@@ -5356,7 +5394,9 @@
       "url": "https://grootvlaenderen.com/",
       "city": "Brujas",
       "category": "bar",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2122728,
+      "lng": 3.223111
     },
     {
       "id": "bru_ran",
@@ -5366,7 +5406,9 @@
       "url": "https://barranbrugge.com/contact-2",
       "city": "Brujas",
       "category": "bar",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2098688,
+      "lng": 3.2233218
     },
     {
       "id": "bru_jimmy",
@@ -5376,7 +5418,9 @@
       "url": "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/bie-jimmy",
       "city": "Brujas",
       "category": "bar",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2069128,
+      "lng": 3.2296158
     },
     {
       "id": "bru_vlissinghe",
@@ -5386,7 +5430,9 @@
       "url": "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/cafe-vlissinghe",
       "city": "Brujas",
       "category": "bar",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.212993,
+      "lng": 3.2301487
     },
     {
       "id": "bru_garre",
@@ -5396,7 +5442,9 @@
       "url": "https://www.visitbruges.be/en/eat-and-sleep/beer/beer-cafes",
       "city": "Brujas",
       "category": "bar",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2084081,
+      "lng": 3.2259745
     },
     {
       "id": "bru_trappiste",
@@ -5406,7 +5454,9 @@
       "url": "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/le-trappiste",
       "city": "Brujas",
       "category": "bar",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.2109,
+      "lng": 3.22276
     },
     {
       "id": "bru_barco",
@@ -5416,7 +5466,9 @@
       "url": "https://www.visitbruges.be/en/things-to-do/sightseeing/bruges-boat",
       "city": "Brujas",
       "category": "atraccion",
-      "status": "propuesta"
+      "status": "propuesta",
+      "lat": 51.20775,
+      "lng": 3.227519
     }
   ],
   "stays": [
