@@ -90,3 +90,11 @@ Validación local: sintaxis, referencias de páginas/pestañas, rutas, archivos,
 
 Se sustituyen las frases específicas de comida y Disney por vocabulario y expresiones universales. Se conservan Básico y Ayuda, se añaden números 0–20 y decenas, cuatro hoteles con sus direcciones de reserva y nueve estaciones con direcciones de acceso y fuentes. Los nombres de estaciones flamencas se presentan como aproximación con voz francesa. Cada entrada conserva audio MP3 y pronunciación escrita. Son 92 entradas en diez pestañas. Recursos v=2.3. Se integraron previamente los cambios remotos hasta d389215.
 
+
+## Gante · 04/11/2026
+
+Guías unificadas con nombre pulsable y descripción, sin tarjetas duplicadas. Se enlazan monumentos, bares, estaciones, hotel y parkings a sus fichas con mapa interactivo. Se completan los alias de las menciones del texto y se corrige el rótulo de la fuente oficial de los lugares ajenos a Disney. Se conservan las propuestas y reservas existentes. Validación estructural y sintaxis JavaScript correctas; comprobar despliegue Pages al publicar.
+
+## Mapas por apartado de Gante · 04/11/2026
+
+Cada pestaña de Gante incluye un mapa interactivo con los lugares de ese apartado y acceso desde cada marcador a la ficha individual. Plan, Mapa y Tiempo reúnen la selección completa de la ciudad. Los parkings usan referencias del hotel y de la estación, no entradas exactas verificadas. Publicación autorizada expresamente por el usuario.

@@ -44,14 +44,14 @@
    case 'park-guide':return '<div class="park-guide" id="park-guide"></div>';
    case 'timeline': return `<ol class="timeline">${b.items.map(i=>`<li><span class="time">${escape(i.time)}</span><h2>${escape(i.title)}</h2>${status(i.status)}${i.text?`<p>${escape(i.text)}</p>`:''}${i.route?routeButton(i.route):''}${i.link?anchor(i.link,'Ver esta etapa','inline-action'):''}</li>`).join('')}</ol>`;
    case 'note':return `<section class="note ${escape(b.tone||'')}"><h2>${escape(b.title)}</h2><p>${escape(b.text)}</p>${b.url?anchor(b.url,'Consultar fuente','inline-action'):''}</section>`;
-   case 'links':return `<section class="links"><h2>${escape(b.title)}</h2>${b.items.map(i=>anchor(i.url,i.label,'link-row',i.text)).join('')}</section>`;
+   case 'links':if(b.items.some(i=>i.placeId))return block({type:'facts',title:b.title,items:b.items.map(i=>({label:i.label,value:i.text,placeId:i.placeId,url:i.url}))});return `<section class="links"><h2>${escape(b.title)}</h2>${b.items.map(i=>anchor(i.url,i.label,'link-row',i.text)).join('')}</section>`;
    case 'facts':return `<section class="facts"><h2>${escape(b.title)}</h2><dl>${b.items.map(i=>`<div><dt>${i.placeId?`<button type="button" class="place-term" data-poi="${escape(i.placeId)}" aria-haspopup="dialog" aria-label="Ver ficha y mapa de ${escape(i.label)}">${escape(i.label)}</button>`:i.url?anchor(i.url,i.label):escape(i.label)}</dt><dd>${escape(i.value)}</dd></div>`).join('')}</dl></section>`;
    case 'routes':return `<section class="route-stack" aria-label="Rutas">${b.ids.map(routeCard).join('')}</section>`;
    case 'details':return `<details${b.open?' open':''}><summary>${escape(b.title)}</summary><div class="details-content">${b.blocks.map(block).join('')}</div></details>`;
    case 'hotel':return hotel(b.id);
    case 'phrases':return `<section class="phrase-list ${b.compact?'phrase-compact':''}" aria-label="Frases en francés">${b.items.map(i=>`<article class="phrase-card"><h2>${escape(i.es)}</h2><p class="phrase-french" lang="fr">${escape(i.fr)}</p>${i.address?`<p class="phrase-address">${escape(i.address)}</p>`:''}<p class="phrase-phonetic"><span>Suena:</span> ${escape(i.phonetic)}</p><button type="button" class="phrase-play" data-say="${escape(i.fr)}" data-audio="${escape(i.audio)}" data-spanish="${escape(i.es)}" aria-label="Escuchar en francés: ${escape(i.es)}" aria-pressed="false">▶ Escuchar</button>${i.mapQuery?anchor('https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(i.mapQuery),'Ver destino en Maps','inline-action'):''}${i.source?anchor(i.source,'Fuente de la dirección','phrase-source'):''}</article>`).join('')}</section>`;
    case 'image':return `<section class="image-card"><h2>${escape(b.title)}</h2><p>${escape(b.text)}</p><a href="${escape(b.src)}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar ${escape(b.title)}"><img src="${escape(b.src)}" alt="${escape(b.title)}: atracciones numeradas y recorrido propuesto por zonas" loading="lazy" width="2024" height="1432"></a>${anchor(b.src,'Ampliar plano','inline-action')}</section>`;
-   case 'map':return `<section aria-label="Mapa de ${escape(currentPage.title)}"><div class="map-box" id="place-map"><p>Cargando mapa…</p></div><p class="map-caption">Ubicaciones de referencia. Toca un punto o abre el lugar en Maps. Las rutas se consultan por tramos, en su modo de transporte.</p><details><summary>Ver lugares y estaciones en Maps</summary><div class="places-list details-content">${currentPage.points.map(id=>data.places.find(p=>p.id===id)).filter(Boolean).map(p=>anchor(search(p),p.name,'link-row')).join('')}</div></details></section>`;
+   case 'map':return `<section aria-label="Mapa de ${escape(currentPage.title)}">${b.title?`<h2>${escape(b.title)}</h2>`:''}<div class="map-box" id="place-map"><p>Cargando mapa…</p></div><p class="map-caption">Ubicaciones de referencia. Toca un punto o abre el lugar en Maps. Las rutas se consultan por tramos, en su modo de transporte.</p><details><summary>Ver lugares y estaciones en Maps</summary><div class="places-list details-content">${(b.ids||currentPage.points).map(id=>data.places.find(p=>p.id===id)).filter(Boolean).map(p=>currentPage.id==='gante'?`<div class="link-row"><span><button type="button" class="place-term" data-poi="${escape(p.id)}" aria-haspopup="dialog">${escape(p.name)}</button><small>${escape(p.description)}</small></span></div>`:anchor(search(p),p.name,'link-row')).join('')}</div></details></section>`;
    default:return '';
   }
  }
@@ -87,7 +87,7 @@
    }
    if(selected.id==='tiempo')showWeather(p,mapEpoch);
    if(selected.blocks.some(b=>b.type==='park-guide'))void window.TripParkGuide.mount($('#park-guide'));
-   if(selected.blocks.some(b=>b.type==='map'))void drawMap(p,mapEpoch);
+   const mapBlock=selected.blocks.find(b=>b.type==='map');if(mapBlock)void drawMap({...p,points:mapBlock.ids||p.points},mapEpoch);
   }
   document.querySelectorAll('[data-page]').forEach(a=>a.removeAttribute('aria-current'));
   const active=$(`[data-page="${p?p.id:'inicio'}"]`);if(active)active.setAttribute('aria-current','page');
@@ -177,7 +177,7 @@
    points.forEach(pt=>{
     const pos={lat:pt.lat,lng:pt.lng};bounds.extend(pos);
     const marker=new google.maps.Marker({position:pos,map,title:pt.name});
-    marker.addListener('click',()=>{info.setContent(`<div class="map-popup"><strong>${escape(pt.name)}</strong>${anchor(search(pt),'Abrir en Google Maps')}</div>`);info.open({anchor:marker,map});});
+    marker.addListener('click',()=>{info.setContent(`<div class="map-popup"><strong>${escape(pt.name)}</strong><p>${escape(pt.description||'')}</p>${p.id==='gante'?`<button type="button" class="place-term" data-poi="${escape(pt.id)}" aria-haspopup="dialog">Ver ficha y mapa</button>`:''}${anchor(search(pt),'Abrir en Google Maps')}</div>`);info.open({anchor:marker,map});});
    });
    if(points.length>1){map.fitBounds(bounds,30);google.maps.event.addListenerOnce(map,'idle',()=>{if(map.getZoom()>16)map.setZoom(16);});}
   }catch{
@@ -203,7 +203,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=2.6');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=2.8');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();

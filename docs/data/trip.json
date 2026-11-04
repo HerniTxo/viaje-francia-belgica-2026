@@ -1156,6 +1156,22 @@
               ]
             },
             {
+              "type": "facts",
+              "title": "Puntos de partida en Gante",
+              "items": [
+                {
+                  "label": "ibis budget Gent Centrum Dampoort",
+                  "value": "Hotel reservado del 11 al 13. Parking 22 €/día no reservable.",
+                  "placeId": "gante"
+                },
+                {
+                  "label": "Gent-Dampoort · estación",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "dampoort"
+                }
+              ]
+            },
+            {
               "type": "links",
               "title": "Cada ciudad, en su página",
               "items": [
@@ -1191,6 +1207,34 @@
               "text": "No hay un reparto obligatorio por días ni visitas interiores reservadas. Priorizar exteriores iluminados cuando anochezca; si llueve y hay horario, entrar en castillo, catedral o iglesia. El miércoles 11 es festivo nacional (Armisticio): comprobar horarios especiales de visitas y locales.",
               "tone": "plain",
               "url": null
+            },
+            {
+              "type": "map",
+              "title": "Todos los lugares · Plan",
+              "ids": [
+                "gante",
+                "gravensteen",
+                "graslei",
+                "bavo",
+                "belfry",
+                "dampoort",
+                "patershol",
+                "korenlei",
+                "michael_bridge",
+                "niklaas",
+                "graffiti",
+                "vrijdagmarkt",
+                "dulle_griet",
+                "trollekelder",
+                "waterhuis",
+                "pieters",
+                "abbey_pieters",
+                "vooruit",
+                "krook",
+                "wintercircus",
+                "gante_parking",
+                "dampoort_parking"
+              ]
             }
           ]
         },
@@ -1198,21 +1242,6 @@
           "id": "visitas",
           "label": "Qué ver",
           "blocks": [
-            {
-              "type": "place-cards",
-              "ids": [
-                "gravensteen",
-                "patershol",
-                "graslei",
-                "korenlei",
-                "michael_bridge",
-                "niklaas",
-                "belfry",
-                "bavo",
-                "graffiti",
-                "vrijdagmarkt"
-              ]
-            },
             {
               "type": "note",
               "title": "Centro histórico y rincones curiosos",
@@ -1241,9 +1270,14 @@
                   "placeId": "patershol"
                 },
                 {
-                  "label": "Graslei y Korenlei",
+                  "label": "Graslei",
                   "value": "Muelles históricos frente a frente, reflejos en el agua y fachadas gremiales.",
                   "placeId": "graslei"
+                },
+                {
+                  "label": "Korenlei",
+                  "value": "Muelle histórico frente a Graslei; otra perspectiva de las fachadas y los canales.",
+                  "placeId": "korenlei"
                 },
                 {
                   "label": "Sint-Michielsbrug · puente de San Miguel",
@@ -1320,13 +1354,34 @@
                 {
                   "label": "Castillo Gravensteen",
                   "url": "https://historischehuizen.stad.gent/en/castle-counts",
-                  "text": ""
+                  "text": "Recorrido por las salas de la fortaleza, con entrada de pago.",
+                  "placeId": "gravensteen"
                 },
                 {
                   "label": "Catedral de San Bavón",
                   "url": "https://www.sintbaafskathedraal.be/",
-                  "text": ""
+                  "text": "Continuar hacia la catedral y la zona de las tres torres; desde allí es posible volver al hotel.",
+                  "placeId": "bavo"
                 }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Todos los lugares · Qué ver",
+              "ids": [
+                "gravensteen",
+                "patershol",
+                "graslei",
+                "korenlei",
+                "michael_bridge",
+                "niklaas",
+                "belfry",
+                "bavo",
+                "graffiti",
+                "vrijdagmarkt",
+                "dulle_griet",
+                "trollekelder",
+                "waterhuis"
               ]
             }
           ]
@@ -1335,14 +1390,6 @@
           "id": "cervezas",
           "label": "Cervezas",
           "blocks": [
-            {
-              "type": "place-cards",
-              "ids": [
-                "dulle_griet",
-                "trollekelder",
-                "waterhuis"
-              ]
-            },
             {
               "type": "note",
               "title": "Bares especiales, no visitas a fábricas",
@@ -1377,6 +1424,15 @@
               "text": "El miércoles 11 es festivo. Comprobar la apertura de cada bar antes de ir y no dar por hecho horarios normales.",
               "tone": "plain",
               "url": null
+            },
+            {
+              "type": "map",
+              "title": "Todos los lugares · Cervezas",
+              "ids": [
+                "dulle_griet",
+                "trollekelder",
+                "waterhuis"
+              ]
             }
           ]
         },
@@ -1384,15 +1440,6 @@
           "id": "sint-pieters",
           "label": "Desde la estación",
           "blocks": [
-            {
-              "type": "place-cards",
-              "ids": [
-                "pieters",
-                "abbey_pieters",
-                "vooruit",
-                "krook"
-              ]
-            },
             {
               "type": "note",
               "title": "Regreso alternativo del jueves 12",
@@ -1456,8 +1503,22 @@
                 {
                   "label": "Estación Gent-Sint-Pieters",
                   "url": "https://www.belgiantrain.be/en/station-information/oost-vlaanderen/gent-sint-pieters",
-                  "text": ""
+                  "text": "Estación ferroviaria monumental, punto de partida.",
+                  "placeId": "pieters"
                 }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Todos los lugares · Desde la estación",
+              "ids": [
+                "pieters",
+                "abbey_pieters",
+                "vooruit",
+                "krook",
+                "bavo",
+                "gante",
+                "dampoort"
               ]
             }
           ]
@@ -1467,9 +1528,14 @@
           "label": "Eventos",
           "blocks": [
             {
-              "type": "place-cards",
-              "ids": [
-                "wintercircus"
+              "type": "facts",
+              "title": "Lugar propuesto",
+              "items": [
+                {
+                  "label": "Wintercircus",
+                  "value": "Lugar cultural; evento del 12 pendiente de verificar.",
+                  "placeId": "wintercircus"
+                }
               ]
             },
             {
@@ -1498,8 +1564,16 @@
                 {
                   "label": "Wintercircus",
                   "url": "https://www.wintercircus.be/",
-                  "text": ""
+                  "text": "Lugar cultural; evento del 12 pendiente de verificar.",
+                  "placeId": "wintercircus"
                 }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Todos los lugares · Eventos",
+              "ids": [
+                "wintercircus"
               ]
             }
           ]
@@ -1531,6 +1605,14 @@
                   "text": "Revisar las condiciones con la matrícula y el vehículo asignado."
                 }
               ]
+            },
+            {
+              "type": "map",
+              "title": "Todos los lugares · Llegada",
+              "ids": [
+                "gante",
+                "dampoort"
+              ]
             }
           ]
         },
@@ -1552,6 +1634,13 @@
                   "text": ""
                 }
               ]
+            },
+            {
+              "type": "map",
+              "title": "Todos los lugares · Hotel",
+              "ids": [
+                "gante"
+              ]
             }
           ]
         },
@@ -1567,34 +1656,24 @@
               "url": null
             },
             {
-              "type": "links",
+              "type": "facts",
               "title": "Parking del hotel · cubierto",
               "items": [
                 {
-                  "label": "Tarifa y características oficiales · Accor",
-                  "url": "https://all.accor.com/hotel/A243/index.es.shtml",
-                  "text": "22 €/noche; 98 plazas; abierto 24 horas; altura máxima 2,10 m; aparcamiento cubierto en Koopvaardijlaan 29. No se puede reservar según la confirmación."
-                },
-                {
-                  "label": "Cómo llegar al hotel",
-                  "url": "https://www.google.com/maps/search/?api=1&query=ibis+budget+Gent+Centrum+Dampoort",
-                  "text": "Parking en el mismo edificio."
+                  "label": "Parking del ibis budget Gent Centrum Dampoort",
+                  "value": "22 €/noche; 98 plazas; abierto 24 horas; altura máxima 2,10 m; aparcamiento cubierto en Koopvaardijlaan 29. No se puede reservar según la confirmación. Parking en el mismo edificio.",
+                  "placeId": "gante_parking"
                 }
               ]
             },
             {
-              "type": "links",
+              "type": "facts",
               "title": "Parking de la estación · Gent-Dampoort P1",
               "items": [
                 {
-                  "label": "Tarifas oficiales · SNCB/NMBS",
-                  "url": "https://www.belgiantrain.be/en/station-information/car-or-bike-at-station/b-parking/my-b-parking/gent-dampoort",
-                  "text": "Koopvaardijlaan. Abierto 24/7; exterior; 302 plazas; altura máxima 2,40 m. No viajeros de tren: 2,19 €/h, máximo 21,90 €/24 h."
-                },
-                {
-                  "label": "Ubicación en Google Maps",
-                  "url": "https://www.google.com/maps/search/?api=1&query=Parking+Gent+Dampoort+P1",
-                  "text": "Junto a la estación y a pocos minutos andando del hotel."
+                  "label": "Parking Gent-Dampoort P1",
+                  "value": "Koopvaardijlaan. Abierto 24/7; exterior; 302 plazas; altura máxima 2,40 m. No viajeros de tren: 2,19 €/h, máximo 21,90 €/24 h. Junto a la estación y a pocos minutos andando del hotel.",
+                  "placeId": "dampoort_parking"
                 }
               ]
             },
@@ -1604,6 +1683,14 @@
               "text": "Para dos noches, el precio es prácticamente idéntico. El hotel ofrece parking cubierto y acceso directo al alojamiento; la estación tiene más plazas pero es exterior. Estimación para 48 horas exactas; el importe final depende de la hora de entrada y salida. Ninguno está reservado.",
               "tone": "pending",
               "url": null
+            },
+            {
+              "type": "map",
+              "title": "Todos los lugares · Aparcamiento",
+              "ids": [
+                "gante_parking",
+                "dampoort_parking"
+              ]
             }
           ]
         },
@@ -1611,9 +1698,6 @@
           "id": "mapa",
           "label": "Mapa",
           "blocks": [
-            {
-              "type": "map"
-            },
             {
               "type": "routes",
               "ids": [
@@ -1631,13 +1715,70 @@
                   "text": ""
                 }
               ]
+            },
+            {
+              "type": "map",
+              "title": "Todos los lugares · Mapa",
+              "ids": [
+                "gante",
+                "gravensteen",
+                "graslei",
+                "bavo",
+                "belfry",
+                "dampoort",
+                "patershol",
+                "korenlei",
+                "michael_bridge",
+                "niklaas",
+                "graffiti",
+                "vrijdagmarkt",
+                "dulle_griet",
+                "trollekelder",
+                "waterhuis",
+                "pieters",
+                "abbey_pieters",
+                "vooruit",
+                "krook",
+                "wintercircus",
+                "gante_parking",
+                "dampoort_parking"
+              ]
             }
           ]
         },
         {
           "id": "tiempo",
           "label": "Tiempo",
-          "blocks": []
+          "blocks": [
+            {
+              "type": "map",
+              "title": "Todos los lugares · Tiempo",
+              "ids": [
+                "gante",
+                "gravensteen",
+                "graslei",
+                "bavo",
+                "belfry",
+                "dampoort",
+                "patershol",
+                "korenlei",
+                "michael_bridge",
+                "niklaas",
+                "graffiti",
+                "vrijdagmarkt",
+                "dulle_griet",
+                "trollekelder",
+                "waterhuis",
+                "pieters",
+                "abbey_pieters",
+                "vooruit",
+                "krook",
+                "wintercircus",
+                "gante_parking",
+                "dampoort_parking"
+              ]
+            }
+          ]
         }
       ],
       "points": [
@@ -1660,7 +1801,9 @@
         "abbey_pieters",
         "vooruit",
         "krook",
-        "wintercircus"
+        "wintercircus",
+        "gante_parking",
+        "dampoort_parking"
       ],
       "next": "nantes"
     },
@@ -3914,6 +4057,26 @@
       "description": "Lugar cultural; evento del 12 pendiente de verificar.",
       "status": "propuesta",
       "url": "https://www.wintercircus.be/"
+    },
+    {
+      "id": "gante_parking",
+      "name": "Parking del ibis budget Gent Centrum Dampoort",
+      "city": "Gante",
+      "category": "transporte",
+      "lat": 51.05967,
+      "lng": 3.73868,
+      "description": "Aparcamiento cubierto en el mismo edificio del hotel, Koopvaardijlaan 29. No reservable según el justificante. Consultar tarifa y disponibilidad con el hotel. Punto de referencia del edificio o estación; comprobar el acceso al parking.",
+      "status": "propuesta"
+    },
+    {
+      "id": "dampoort_parking",
+      "name": "Parking Gent-Dampoort P1",
+      "city": "Gante",
+      "category": "transporte",
+      "lat": 51.0561,
+      "lng": 3.7407,
+      "description": "Aparcamiento exterior junto a la estación, en Koopvaardijlaan. Alternativa al parking del hotel; no está reservado. Consultar las tarifas y condiciones actuales en SNCB. Punto de referencia del edificio o estación; comprobar el acceso al parking.",
+      "status": "propuesta"
     }
   ],
   "stays": [
