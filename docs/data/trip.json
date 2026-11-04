@@ -73,6 +73,10 @@
         [
           "Bruselas",
           "#/bruselas"
+        ],
+        [
+          "Murales de Bruselas",
+          "#/bruselas/murales"
         ]
       ]
     },
@@ -1962,8 +1966,8 @@
     {
       "id": "bruselas",
       "title": "Bruselas",
-      "date": "12 noviembre · posible excursión",
-      "intro": "Visita en tren desde la base de Gante. La excursión sigue pendiente de concretar.",
+      "date": "12 noviembre · excursión",
+      "intro": "Excursión del jueves 12 desde Gante: ideas flexibles para descubrir el centro, lugares curiosos y cervezas. Sin itinerario ni entradas reservadas.",
       "panes": [
         {
           "id": "plan",
@@ -1971,37 +1975,320 @@
           "blocks": [
             {
               "type": "note",
-              "title": "Idea de visita, sin programa cerrado",
-              "text": "No hay recorrido local, visitas reservadas ni horario de salida decidido. Esta página reúne únicamente la información de Bruselas.",
-              "tone": "plain",
-              "url": null
+              "title": "Un día flexible",
+              "text": "El grupo se divide para las excursiones del jueves: una persona visita Bruselas y dos Brujas. Elegir visitas según el tren de vuelta y el tiempo disponible; no hay horario ni entradas reservadas.",
+              "tone": "plain"
             },
             {
               "type": "facts",
-              "title": "Por concretar",
+              "title": "Imprescindibles y miradores",
               "items": [
                 {
-                  "label": "Salida y regreso",
-                  "value": "Comprobar trenes del jueves 12 de noviembre."
+                  "label": "Grand Place",
+                  "value": "Plaza monumental y corazón del casco histórico.",
+                  "placeId": "bxl_grandplace"
                 },
                 {
-                  "label": "Visita",
-                  "value": "Elegir recorrido, tiempo disponible y lugares antes de añadirlos."
+                  "label": "Galerías Saint-Hubert",
+                  "value": "Galerías cubiertas de arquitectura elegante, escaparates y chocolaterías.",
+                  "placeId": "bxl_galerias"
                 },
                 {
-                  "label": "Billetes",
-                  "value": "Tarifas y compra pendientes; no hay reserva."
+                  "label": "Manneken Pis",
+                  "value": "La famosa y pequeña estatua en el centro histórico.",
+                  "placeId": "bxl_manneken"
+                },
+                {
+                  "label": "Bolsa de Bruselas",
+                  "value": "Edificio monumental rehabilitado que alberga Belgian Beer World y una terraza.",
+                  "placeId": "bxl_bolsa"
+                },
+                {
+                  "label": "Brucity Rooftop",
+                  "value": "Terraza panorámica gratuita sin obligación de consumir: zona pública los jueves 9:00–17:00; entrada Rue des Halles 4. Comprobar condiciones.",
+                  "placeId": "bxl_brucity"
+                },
+                {
+                  "label": "Atomium",
+                  "value": "Edificio emblemático de la Expo 58; exterior gratis, interior con entrada. Lejos del centro: consultar metro 6 hacia Heysel y reservar tiempo de ida y vuelta.",
+                  "placeId": "bxl_atomium"
                 }
               ]
             },
             {
               "type": "links",
-              "title": "Plan del día",
+              "title": "Explorar",
               "items": [
                 {
-                  "label": "Volver a Gante",
-                  "url": "#/gante",
-                  "text": ""
+                  "label": "Mapa de la ruta del cómic",
+                  "url": "#/bruselas/murales",
+                  "text": "Mapa independiente de los murales."
+                },
+                {
+                  "label": "Todos los lugares",
+                  "url": "#/bruselas/mapa",
+                  "text": "Mapa conjunto de Bruselas."
+                }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Mapa · selección principal",
+              "ids": [
+                "bxl_grandplace",
+                "bxl_galerias",
+                "bxl_manneken",
+                "bxl_bolsa",
+                "bxl_brucity",
+                "bxl_atomium"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "visitas",
+          "label": "Qué ver",
+          "blocks": [
+            {
+              "type": "facts",
+              "title": "Centro, barrios y rincones",
+              "items": [
+                {
+                  "label": "Grand Place",
+                  "value": "Plaza monumental y corazón del casco histórico.",
+                  "placeId": "bxl_grandplace"
+                },
+                {
+                  "label": "Galerías Saint-Hubert",
+                  "value": "Galerías cubiertas de arquitectura elegante, escaparates y chocolaterías.",
+                  "placeId": "bxl_galerias"
+                },
+                {
+                  "label": "Manneken Pis",
+                  "value": "La famosa y pequeña estatua en el centro histórico.",
+                  "placeId": "bxl_manneken"
+                },
+                {
+                  "label": "Bolsa de Bruselas",
+                  "value": "Edificio monumental rehabilitado que alberga Belgian Beer World y una terraza.",
+                  "placeId": "bxl_bolsa"
+                },
+                {
+                  "label": "Brucity Rooftop",
+                  "value": "Terraza panorámica gratuita sin obligación de consumir: zona pública los jueves 9:00–17:00; entrada Rue des Halles 4. Comprobar condiciones.",
+                  "placeId": "bxl_brucity"
+                },
+                {
+                  "label": "The BeerLab Rooftop",
+                  "value": "Terraza sobre la Bolsa, vistas y cervezas belgas. Abre habitualmente desde las 16:00; la entrada sin visita se anuncia desde las 16:30. Confirmar condiciones.",
+                  "placeId": "bxl_beerlab"
+                },
+                {
+                  "label": "Barrio de Marolles",
+                  "value": "Calles, tiendas vintage y mercadillo de Jeu de Balle, habitualmente hasta las 14:00 entre semana.",
+                  "placeId": "bxl_marolles"
+                },
+                {
+                  "label": "Sainte-Catherine",
+                  "value": "Barrio animado con calles, locales y tiendas cerca del centro.",
+                  "placeId": "bxl_saintecatherine"
+                },
+                {
+                  "label": "La Bellone",
+                  "value": "Fachada barroca escondida tras un pasaje cubierto de Rue de Flandre; acceso al patio sujeto a apertura.",
+                  "placeId": "bxl_bellone"
+                },
+                {
+                  "label": "Rue de la Cigogne",
+                  "value": "Pequeña calle tranquila a la que se accede bajo un arco; parada breve junto a Sainte-Catherine.",
+                  "placeId": "bxl_cigogne"
+                },
+                {
+                  "label": "Teatro y taberna Toone",
+                  "value": "Marionetas, decoración curiosa y cerveza en un callejón cerca de Grand Place; bar habitualmente miércoles a domingo 12:00–00:00.",
+                  "placeId": "bxl_toone"
+                },
+                {
+                  "label": "Atomium",
+                  "value": "Edificio emblemático de la Expo 58; exterior gratis, interior con entrada. Lejos del centro: consultar metro 6 hacia Heysel y reservar tiempo de ida y vuelta.",
+                  "placeId": "bxl_atomium"
+                }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Lugares para visitar",
+              "ids": [
+                "bxl_grandplace",
+                "bxl_galerias",
+                "bxl_manneken",
+                "bxl_bolsa",
+                "bxl_brucity",
+                "bxl_beerlab",
+                "bxl_marolles",
+                "bxl_saintecatherine",
+                "bxl_bellone",
+                "bxl_cigogne",
+                "bxl_toone",
+                "bxl_atomium"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cervezas",
+          "label": "Cervezas",
+          "blocks": [
+            {
+              "type": "facts",
+              "title": "Bares y vistas",
+              "items": [
+                {
+                  "label": "Moeder Lambic Fontainas",
+                  "value": "Bar céntrico especializado en cervezas artesanas y pequeños productores.",
+                  "placeId": "bxl_moeder"
+                },
+                {
+                  "label": "Poechenellekelder",
+                  "value": "Taberna con marionetas y cervezas frente al Manneken Pis; jueves habitualmente 11:00–01:00.",
+                  "placeId": "bxl_poechenelle"
+                },
+                {
+                  "label": "Delirium Café",
+                  "value": "Bar de gran variedad cervecera en un callejón céntrico; jueves habitualmente 11:00–03:00.",
+                  "placeId": "bxl_delirium"
+                },
+                {
+                  "label": "Teatro y taberna Toone",
+                  "value": "Marionetas, decoración curiosa y cerveza en un callejón cerca de Grand Place; bar habitualmente miércoles a domingo 12:00–00:00.",
+                  "placeId": "bxl_toone"
+                },
+                {
+                  "label": "The BeerLab Rooftop",
+                  "value": "Terraza sobre la Bolsa, vistas y cervezas belgas. Abre habitualmente desde las 16:00; la entrada sin visita se anuncia desde las 16:30. Confirmar condiciones.",
+                  "placeId": "bxl_beerlab"
+                },
+                {
+                  "label": "Comic Sans Brussels",
+                  "value": "Bar de cultura friki, cerveza artesana, pinball y juegos; jueves habitualmente desde las 17:00.",
+                  "placeId": "bxl_comicsans"
+                }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Bares de Bruselas",
+              "ids": [
+                "bxl_moeder",
+                "bxl_poechenelle",
+                "bxl_delirium",
+                "bxl_toone",
+                "bxl_beerlab",
+                "bxl_comicsans"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "friki",
+          "label": "Friki y tiendas",
+          "blocks": [
+            {
+              "type": "facts",
+              "title": "Juegos, cómic y tiendas",
+              "items": [
+                {
+                  "label": "Comic Sans Brussels",
+                  "value": "Bar de cultura friki, cerveza artesana, pinball y juegos; jueves habitualmente desde las 17:00.",
+                  "placeId": "bxl_comicsans"
+                },
+                {
+                  "label": "Outpost Brussels",
+                  "value": "Tienda y espacio de juegos de cartas y ordenadores con bar de cervezas.",
+                  "placeId": "bxl_outpost"
+                },
+                {
+                  "label": "Brussels Pinball Museum",
+                  "value": "Recreativas y pinball para jugar en Auderghem; bar de acceso libre, máquinas de monedas y sala de pago. Jueves habitualmente 11:30–23:00.",
+                  "placeId": "bxl_pinball"
+                },
+                {
+                  "label": "Librería Tropismes",
+                  "value": "Librería en las galerías Saint-Hubert, con espejos y entreplanta; libros principalmente en francés. Jueves 10:00–18:30.",
+                  "placeId": "bxl_tropismes"
+                },
+                {
+                  "label": "La Casa del Cómic",
+                  "value": "Cómics, figuras y libros en varias lenguas, incluidos títulos en español, cerca de la estación Central.",
+                  "placeId": "bxl_casacomic"
+                },
+                {
+                  "label": "Brüsel",
+                  "value": "Librería especializada en cómic y cultura gráfica junto a la Bolsa; confirmar horarios.",
+                  "placeId": "bxl_brusel"
+                },
+                {
+                  "label": "Pêle-Mêle",
+                  "value": "Tiendas de segunda mano con libros, cómics, música, videojuegos y juegos; comprobar sucursal y horario antes de ir.",
+                  "placeId": "bxl_pelemek"
+                },
+                {
+                  "label": "Museo del Cómic",
+                  "value": "Museo en edificio Art Nouveau, con manga y cómic; jueves 10:00–18:00, última entrada 17:00, adulto 14 €. Textos en francés, neerlandés e inglés.",
+                  "placeId": "bxl_comicmuseum"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Antes de ir",
+              "text": "Pêle-Mêle tiene varias sucursales: confirmar la más conveniente. El antiguo MOOF normalmente cierra los jueves salvo vacaciones; no se propone como visita asegurada.",
+              "tone": "pending"
+            },
+            {
+              "type": "map",
+              "title": "Juegos y tiendas",
+              "ids": [
+                "bxl_comicsans",
+                "bxl_outpost",
+                "bxl_pinball",
+                "bxl_tropismes",
+                "bxl_casacomic",
+                "bxl_brusel",
+                "bxl_pelemek",
+                "bxl_comicmuseum"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "murales",
+          "label": "Murales",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Ruta del cómic · mapa independiente",
+              "text": "Consulta el mapa oficial interactivo del Ayuntamiento: cada punto muestra la obra y más información. Elige solo los murales que te apetezcan; hay rutas por centro y Marolles. No forman parte del mapa general.",
+              "tone": "plain"
+            },
+            {
+              "type": "links",
+              "title": "Mapas y rutas oficiales",
+              "items": [
+                {
+                  "label": "Mapa oficial de murales · Parcours BD",
+                  "url": "https://www.parcoursbd.brussels/en/",
+                  "text": "Mapa interactivo con fichas y recorridos."
+                },
+                {
+                  "label": "Murales de Marolles",
+                  "url": "https://www.visit.brussels/en/visitors/plan-your-trip/comic-strip-trail/Comic-strip-trail-the-marolles",
+                  "text": "Selección por barrio."
+                },
+                {
+                  "label": "Volver al mapa general",
+                  "url": "#/bruselas/mapa",
+                  "text": "Lugares y bares de Bruselas."
                 }
               ]
             }
@@ -2043,7 +2330,44 @@
           "label": "Mapa",
           "blocks": [
             {
-              "type": "map"
+              "type": "links",
+              "title": "Ruta del cómic",
+              "items": [
+                {
+                  "label": "Abrir mapa independiente de murales",
+                  "url": "#/bruselas/murales",
+                  "text": "Mapa oficial, separado de los demás lugares."
+                }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Todos los lugares de Bruselas",
+              "ids": [
+                "bxl_grandplace",
+                "bxl_galerias",
+                "bxl_manneken",
+                "bxl_bolsa",
+                "bxl_brucity",
+                "bxl_beerlab",
+                "bxl_marolles",
+                "bxl_saintecatherine",
+                "bxl_bellone",
+                "bxl_cigogne",
+                "bxl_toone",
+                "bxl_atomium",
+                "bxl_moeder",
+                "bxl_poechenelle",
+                "bxl_delirium",
+                "bxl_comicsans",
+                "bxl_outpost",
+                "bxl_pinball",
+                "bxl_tropismes",
+                "bxl_casacomic",
+                "bxl_brusel",
+                "bxl_pelemek",
+                "bxl_comicmuseum"
+              ]
             }
           ]
         },
@@ -2054,7 +2378,29 @@
         }
       ],
       "points": [
-        "bruxelles"
+        "bxl_grandplace",
+        "bxl_galerias",
+        "bxl_manneken",
+        "bxl_bolsa",
+        "bxl_brucity",
+        "bxl_beerlab",
+        "bxl_marolles",
+        "bxl_saintecatherine",
+        "bxl_bellone",
+        "bxl_cigogne",
+        "bxl_toone",
+        "bxl_atomium",
+        "bxl_moeder",
+        "bxl_poechenelle",
+        "bxl_delirium",
+        "bxl_comicsans",
+        "bxl_outpost",
+        "bxl_pinball",
+        "bxl_tropismes",
+        "bxl_casacomic",
+        "bxl_brusel",
+        "bxl_pelemek",
+        "bxl_comicmuseum"
       ],
       "next": null
     },
@@ -4130,6 +4476,236 @@
       "lng": 3.7407,
       "description": "Aparcamiento exterior junto a la estación, en Koopvaardijlaan. Alternativa al parking del hotel; no está reservado. Consultar las tarifas y condiciones actuales en SNCB. Punto de referencia del edificio o estación; comprobar el acceso al parking.",
       "status": "propuesta"
+    },
+    {
+      "id": "bxl_grandplace",
+      "name": "Grand Place",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Plaza monumental y corazón del casco histórico.",
+      "status": "propuesta",
+      "address": "Grand Place, Bruxelles",
+      "url": "https://www.visit.brussels/es/visitantes/venue-details.Grand-Place.220445"
+    },
+    {
+      "id": "bxl_galerias",
+      "name": "Galerías Saint-Hubert",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Galerías cubiertas de arquitectura elegante, escaparates y chocolaterías.",
+      "status": "propuesta",
+      "address": "Galeries Royales Saint-Hubert Bruxelles",
+      "url": "https://www.grsh.be/"
+    },
+    {
+      "id": "bxl_manneken",
+      "name": "Manneken Pis",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "La famosa y pequeña estatua en el centro histórico.",
+      "status": "propuesta",
+      "address": "Manneken Pis Bruxelles",
+      "url": "https://www.visit.brussels/"
+    },
+    {
+      "id": "bxl_bolsa",
+      "name": "Bolsa de Bruselas",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Edificio monumental rehabilitado que alberga Belgian Beer World y una terraza.",
+      "status": "propuesta",
+      "address": "Bourse Bruxelles",
+      "url": "https://www.boursebeurs.be/en"
+    },
+    {
+      "id": "bxl_brucity",
+      "name": "Brucity Rooftop",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Terraza panorámica gratuita sin obligación de consumir: zona pública los jueves 9:00–17:00; entrada Rue des Halles 4. Comprobar condiciones.",
+      "status": "propuesta",
+      "address": "Brucity Rue des Halles 4 Bruxelles",
+      "url": "https://www.brussels.be/rooftop"
+    },
+    {
+      "id": "bxl_beerlab",
+      "name": "The BeerLab Rooftop",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Terraza sobre la Bolsa, vistas y cervezas belgas. Abre habitualmente desde las 16:00; la entrada sin visita se anuncia desde las 16:30. Confirmar condiciones.",
+      "status": "propuesta",
+      "address": "The BeerLab Rooftop Boulevard Anspach 80 Bruxelles",
+      "url": "https://thebeerlabrooftop.be/en/contact"
+    },
+    {
+      "id": "bxl_atomium",
+      "name": "Atomium",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Edificio emblemático de la Expo 58; exterior gratis, interior con entrada. Lejos del centro: consultar metro 6 hacia Heysel y reservar tiempo de ida y vuelta.",
+      "status": "propuesta",
+      "address": "Atomium Bruxelles",
+      "url": "https://atomium.be/"
+    },
+    {
+      "id": "bxl_marolles",
+      "name": "Barrio de Marolles",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Calles, tiendas vintage y mercadillo de Jeu de Balle, habitualmente hasta las 14:00 entre semana.",
+      "status": "propuesta",
+      "address": "Place du Jeu de Balle Bruxelles",
+      "url": "https://www.visit.brussels/en/visitors/plan-your-trip/the-marolles-brussels-authentic-and-popular-neighbourhood"
+    },
+    {
+      "id": "bxl_saintecatherine",
+      "name": "Sainte-Catherine",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Barrio animado con calles, locales y tiendas cerca del centro.",
+      "status": "propuesta",
+      "address": "Place Sainte-Catherine Bruxelles",
+      "url": "https://www.visit.brussels/"
+    },
+    {
+      "id": "bxl_bellone",
+      "name": "La Bellone",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Fachada barroca escondida tras un pasaje cubierto de Rue de Flandre; acceso al patio sujeto a apertura.",
+      "status": "propuesta",
+      "address": "La Bellone Rue de Flandre Bruxelles",
+      "url": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels"
+    },
+    {
+      "id": "bxl_cigogne",
+      "name": "Rue de la Cigogne",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Pequeña calle tranquila a la que se accede bajo un arco; parada breve junto a Sainte-Catherine.",
+      "status": "propuesta",
+      "address": "Rue de la Cigogne Bruxelles",
+      "url": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels"
+    },
+    {
+      "id": "bxl_toone",
+      "name": "Teatro y taberna Toone",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Marionetas, decoración curiosa y cerveza en un callejón cerca de Grand Place; bar habitualmente miércoles a domingo 12:00–00:00.",
+      "status": "propuesta",
+      "address": "Théâtre Royal de Toone Rue du Marché aux Herbes 66 Bruxelles",
+      "url": "https://www.toone.be/en/infos.php"
+    },
+    {
+      "id": "bxl_moeder",
+      "name": "Moeder Lambic Fontainas",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Bar céntrico especializado en cervezas artesanas y pequeños productores.",
+      "status": "propuesta",
+      "address": "Moeder Lambic Fontainas Place Fontainas 8 Bruxelles",
+      "url": "https://moederlambic.com/"
+    },
+    {
+      "id": "bxl_poechenelle",
+      "name": "Poechenellekelder",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Taberna con marionetas y cervezas frente al Manneken Pis; jueves habitualmente 11:00–01:00.",
+      "status": "propuesta",
+      "address": "Poechenellekelder Rue du Chêne 5 Bruxelles",
+      "url": "https://poechenellekelder.be/en"
+    },
+    {
+      "id": "bxl_delirium",
+      "name": "Delirium Café",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Bar de gran variedad cervecera en un callejón céntrico; jueves habitualmente 11:00–03:00.",
+      "status": "propuesta",
+      "address": "Delirium Café Impasse de la Fidélité Bruxelles",
+      "url": "https://www.deliriumvillage.com/contact/"
+    },
+    {
+      "id": "bxl_comicsans",
+      "name": "Comic Sans Brussels",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Bar de cultura friki, cerveza artesana, pinball y juegos; jueves habitualmente desde las 17:00.",
+      "status": "propuesta",
+      "address": "Comic Sans Brussels Rue du Fossé aux Loups 27 Bruxelles",
+      "url": "https://www.comicsansbrussels.be/"
+    },
+    {
+      "id": "bxl_outpost",
+      "name": "Outpost Brussels",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Tienda y espacio de juegos de cartas y ordenadores con bar de cervezas.",
+      "status": "propuesta",
+      "address": "Outpost Brussels Rue de la Tribune 8 Bruxelles",
+      "url": "https://outpostbrussels.be/en/pages/qui-sommes-nous"
+    },
+    {
+      "id": "bxl_pinball",
+      "name": "Brussels Pinball Museum",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Recreativas y pinball para jugar en Auderghem; bar de acceso libre, máquinas de monedas y sala de pago. Jueves habitualmente 11:30–23:00.",
+      "status": "propuesta",
+      "address": "Brussels Pinball Museum Chaussée de Wavre 1501 Auderghem",
+      "url": "https://www.brusselspinballmuseum.com/"
+    },
+    {
+      "id": "bxl_tropismes",
+      "name": "Librería Tropismes",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Librería en las galerías Saint-Hubert, con espejos y entreplanta; libros principalmente en francés. Jueves 10:00–18:30.",
+      "status": "propuesta",
+      "address": "Tropismes Galerie des Princes 11 Bruxelles",
+      "url": "https://www.grsh.be/en/store/tropismes/"
+    },
+    {
+      "id": "bxl_casacomic",
+      "name": "La Casa del Cómic",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Cómics, figuras y libros en varias lenguas, incluidos títulos en español, cerca de la estación Central.",
+      "status": "propuesta",
+      "address": "Comic Strip House Boulevard de l'Impératrice 1 Bruxelles",
+      "url": "https://www.visit.brussels/en/visitors/venue-details.Comic-Strip-House.265283"
+    },
+    {
+      "id": "bxl_brusel",
+      "name": "Brüsel",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Librería especializada en cómic y cultura gráfica junto a la Bolsa; confirmar horarios.",
+      "status": "propuesta",
+      "address": "Brüsel Boulevard Anspach Bruxelles",
+      "url": "https://www.visit.brussels/en/visitors/what-to-do/comic-strip-bookstores-and-pop-culture-shops-in-brussels"
+    },
+    {
+      "id": "bxl_pelemek",
+      "name": "Pêle-Mêle",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Tiendas de segunda mano con libros, cómics, música, videojuegos y juegos; comprobar sucursal y horario antes de ir.",
+      "status": "propuesta",
+      "address": "Pêle-Mêle Bruxelles",
+      "url": "https://comicstrip.be/en/bookstore/pele-mele/"
+    },
+    {
+      "id": "bxl_comicmuseum",
+      "name": "Museo del Cómic",
+      "city": "Bruselas",
+      "category": "atraccion",
+      "description": "Museo en edificio Art Nouveau, con manga y cómic; jueves 10:00–18:00, última entrada 17:00, adulto 14 €. Textos en francés, neerlandés e inglés.",
+      "status": "propuesta",
+      "address": "Comic Art Museum Rue des Sables 20 Bruxelles",
+      "url": "https://www.comicscenter.net/en/practical-information/opening-hours-and-admission-fees"
     }
   ],
   "stays": [

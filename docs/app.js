@@ -51,7 +51,7 @@
    case 'hotel':return hotel(b.id);
    case 'phrases':return `<section class="phrase-list ${b.compact?'phrase-compact':''}" aria-label="Frases en francés">${b.items.map(i=>`<article class="phrase-card"><h2>${escape(i.es)}</h2><p class="phrase-french" lang="fr">${escape(i.fr)}</p>${i.address?`<p class="phrase-address">${escape(i.address)}</p>`:''}<p class="phrase-phonetic"><span>Suena:</span> ${escape(i.phonetic)}</p><button type="button" class="phrase-play" data-say="${escape(i.fr)}" data-audio="${escape(i.audio)}" data-spanish="${escape(i.es)}" aria-label="Escuchar en francés: ${escape(i.es)}" aria-pressed="false">▶ Escuchar</button>${i.mapQuery?anchor('https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(i.mapQuery),'Ver destino en Maps','inline-action'):''}${i.source?anchor(i.source,'Fuente de la dirección','phrase-source'):''}</article>`).join('')}</section>`;
    case 'image':return `<section class="image-card"><h2>${escape(b.title)}</h2><p>${escape(b.text)}</p><a href="${escape(b.src)}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar ${escape(b.title)}"><img src="${escape(b.src)}" alt="${escape(b.title)}: atracciones numeradas y recorrido propuesto por zonas" loading="lazy" width="2024" height="1432"></a>${anchor(b.src,'Ampliar plano','inline-action')}</section>`;
-   case 'map':return `<section aria-label="Mapa de ${escape(currentPage.title)}">${b.title?`<h2>${escape(b.title)}</h2>`:''}<div class="map-box" id="place-map"><p>Cargando mapa…</p></div><p class="map-caption">Ubicaciones de referencia. Toca un punto o abre el lugar en Maps. Las rutas se consultan por tramos, en su modo de transporte.</p><details><summary>Ver lugares y estaciones en Maps</summary><div class="places-list details-content">${(b.ids||currentPage.points).map(id=>data.places.find(p=>p.id===id)).filter(Boolean).map(p=>currentPage.id==='gante'?`<div class="link-row"><span><button type="button" class="place-term" data-poi="${escape(p.id)}" aria-haspopup="dialog">${escape(p.name)}</button><small>${escape(p.description)}</small></span></div>`:anchor(search(p),p.name,'link-row')).join('')}</div></details></section>`;
+   case 'map':return `<section aria-label="Mapa de ${escape(currentPage.title)}">${b.title?`<h2>${escape(b.title)}</h2>`:''}<div class="map-box" id="place-map"><p>Cargando mapa…</p></div><p class="map-caption">Ubicaciones de referencia. Toca un punto o abre el lugar en Maps. Las rutas se consultan por tramos, en su modo de transporte.</p><details><summary>Ver lugares y estaciones en Maps</summary><div class="places-list details-content">${(b.ids||currentPage.points).map(id=>data.places.find(p=>p.id===id)).filter(Boolean).map(p=>['gante','bruselas'].includes(currentPage.id)?`<div class="link-row"><span><button type="button" class="place-term" data-poi="${escape(p.id)}" aria-haspopup="dialog">${escape(p.name)}</button><small>${escape(p.description)}</small></span></div>`:anchor(search(p),p.name,'link-row')).join('')}</div></details></section>`;
    default:return '';
   }
  }
@@ -172,14 +172,11 @@
    await loadMaps();if(epoch!==mapEpoch)return;
    const el=$('#place-map');if(!el)return;
    const points=p.points.map(id=>data.places.find(x=>x.id===id)).filter(Boolean);
-   const map=new google.maps.Map(el,{center:{lat:points[0].lat,lng:points[0].lng},zoom:14,mapTypeControl:false,streetViewControl:false,fullscreenControl:true,gestureHandling:'cooperative'});
-   const bounds=new google.maps.LatLngBounds(),info=new google.maps.InfoWindow();
-   points.forEach(pt=>{
-    const pos={lat:pt.lat,lng:pt.lng};bounds.extend(pos);
-    const marker=new google.maps.Marker({position:pos,map,title:pt.name});
-    marker.addListener('click',()=>{info.setContent(`<div class="map-popup"><strong>${escape(pt.name)}</strong><p>${escape(pt.description||'')}</p>${p.id==='gante'?`<button type="button" class="place-term" data-poi="${escape(pt.id)}" aria-haspopup="dialog">Ver ficha y mapa</button>`:''}${anchor(search(pt),'Abrir en Google Maps')}</div>`);info.open({anchor:marker,map});});
-   });
-   if(points.length>1){map.fitBounds(bounds,30);google.maps.event.addListenerOnce(map,'idle',()=>{if(map.getZoom()>16)map.setZoom(16);});}
+   const map=new google.maps.Map(el,{center:{lat:50.8467,lng:4.3525},zoom:13,mapTypeControl:false,streetViewControl:false,fullscreenControl:true,gestureHandling:'cooperative'});
+   const bounds=new google.maps.LatLngBounds(), info=new google.maps.InfoWindow(), geocoder=new google.maps.Geocoder(); let count=0;
+   const add=(pt,pos)=>{if(epoch!==mapEpoch)return;bounds.extend(pos);const marker=new google.maps.Marker({position:pos,map,title:pt.name});marker.addListener('click',()=>{info.setContent(`<div class="map-popup"><strong>${escape(pt.name)}</strong><p>${escape(pt.description||'')}</p><button type="button" class="place-term" data-poi="${escape(pt.id)}" aria-haspopup="dialog">Ver ficha y mapa</button>${anchor(search(pt),'Abrir en Google Maps')}</div>`);info.open({anchor:marker,map});});count++;map.fitBounds(bounds,30);};
+   for(const pt of points){if(epoch!==mapEpoch)return;if(Number.isFinite(pt.lat)&&Number.isFinite(pt.lng)){add(pt,{lat:pt.lat,lng:pt.lng});continue;}try{const response=await geocoder.geocode({address:pt.address||pt.name+', '+pt.city});if(response.results[0])add(pt,response.results[0].geometry.location);}catch{}}
+   if(!count)el.innerHTML='<div class="map-fail">No se han podido ubicar los lugares. Abre cada lugar con los enlaces de debajo.</div>';
   }catch{
    if(epoch!==mapEpoch)return;
    const el=$('#place-map');if(el)el.innerHTML='<div class="map-fail">No se ha podido cargar el mapa integrado. Abre los lugares en Google Maps con los enlaces de debajo.</div>';
@@ -203,7 +200,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=2.8');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=3.0');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();
