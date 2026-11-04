@@ -52,7 +52,7 @@ for(const route of data.routes){
  assert(route.origin&&route.destination);
  assert(route.stops.length<=3,'Exceso de paradas para Maps móvil: '+route.id);
 }
-for(const p of data.places){assert(p.lat>=-90&&p.lat<=90);assert(p.lng>=-180&&p.lng<=180);}
+for(const p of data.places){if(p.lat==null&&p.lng==null){assert(p.address?.trim(),'Falta dirección para ubicar '+p.id);}else{assert(Number.isFinite(p.lat)&&p.lat>=-90&&p.lat<=90);assert(Number.isFinite(p.lng)&&p.lng>=-180&&p.lng<=180);}}
 assert.equal(Math.round(data.stays.reduce((a,s)=>a+s.price,0)*100),71322);
 assert(data.routes.some(r=>r.id==='road15a'&&r.destination.includes('Saint')));
 assert(data.routes.some(r=>r.id==='road15b'&&r.destination.includes('Bilbao')));
