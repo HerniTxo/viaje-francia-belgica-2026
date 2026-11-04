@@ -2,7 +2,7 @@
   "meta": {
     "title": "Francia y Bélgica",
     "version": "2.1",
-    "updated": "2026-11-03",
+    "updated": "2026-11-04",
     "start": "2026-11-08",
     "end": "2026-11-15",
     "party": 3
@@ -1228,6 +1228,58 @@
                   "text": ""
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "parking",
+          "label": "Aparcamiento",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Comparativa para el 11–13 de noviembre",
+              "text": "Hotel: 22 €/noche, unos 44 € por dos noches. Estación Gent-Dampoort P1: 21,90 €/24 h para quienes NO viajan en tren, unos 43,80 € por 48 h. Diferencia estimada: 0,20 €. Los descuentos para viajeros de tren no se aplican automáticamente. Comprobar condiciones y tarifa vigente en la entrada.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "links",
+              "title": "Parking del hotel · cubierto",
+              "items": [
+                {
+                  "label": "Tarifa y características oficiales · Accor",
+                  "url": "https://all.accor.com/hotel/A243/index.es.shtml",
+                  "text": "22 €/noche; 98 plazas; abierto 24 horas; altura máxima 2,10 m; aparcamiento cubierto en Koopvaardijlaan 29. No se puede reservar según la confirmación."
+                },
+                {
+                  "label": "Cómo llegar al hotel",
+                  "url": "https://www.google.com/maps/search/?api=1&query=ibis+budget+Gent+Centrum+Dampoort",
+                  "text": "Parking en el mismo edificio."
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Parking de la estación · Gent-Dampoort P1",
+              "items": [
+                {
+                  "label": "Tarifas oficiales · SNCB/NMBS",
+                  "url": "https://www.belgiantrain.be/en/station-information/car-or-bike-at-station/b-parking/my-b-parking/gent-dampoort",
+                  "text": "Koopvaardijlaan. Abierto 24/7; exterior; 302 plazas; altura máxima 2,40 m. No viajeros de tren: 2,19 €/h, máximo 21,90 €/24 h."
+                },
+                {
+                  "label": "Ubicación en Google Maps",
+                  "url": "https://www.google.com/maps/search/?api=1&query=Parking+Gent+Dampoort+P1",
+                  "text": "Junto a la estación y a pocos minutos andando del hotel."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "¿Cuál conviene?",
+              "text": "Para dos noches, el precio es prácticamente idéntico. El hotel ofrece parking cubierto y acceso directo al alojamiento; la estación tiene más plazas pero es exterior. Estimación para 48 horas exactas; el importe final depende de la hora de entrada y salida. Ninguno está reservado.",
+              "tone": "pending",
+              "url": null
             }
           ]
         },
