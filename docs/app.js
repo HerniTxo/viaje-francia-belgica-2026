@@ -45,7 +45,7 @@
    case 'timeline': return `<ol class="timeline">${b.items.map(i=>`<li><span class="time">${escape(i.time)}</span><h2>${escape(i.title)}</h2>${status(i.status)}${i.text?`<p>${escape(i.text)}</p>`:''}${i.route?routeButton(i.route):''}${i.link?anchor(i.link,'Ver esta etapa','inline-action'):''}</li>`).join('')}</ol>`;
    case 'note':return `<section class="note ${escape(b.tone||'')}"><h2>${escape(b.title)}</h2><p>${escape(b.text)}</p>${b.url?anchor(b.url,'Consultar fuente','inline-action'):''}</section>`;
    case 'links':return `<section class="links"><h2>${escape(b.title)}</h2>${b.items.map(i=>anchor(i.url,i.label,'link-row',i.text)).join('')}</section>`;
-   case 'facts':return `<section class="facts"><h2>${escape(b.title)}</h2><dl>${b.items.map(i=>`<div><dt>${escape(i.label)}</dt><dd>${escape(i.value)}</dd></div>`).join('')}</dl></section>`;
+   case 'facts':return `<section class="facts"><h2>${escape(b.title)}</h2><dl>${b.items.map(i=>`<div><dt>${i.placeId?`<button type="button" class="place-term" data-poi="${escape(i.placeId)}" aria-haspopup="dialog" aria-label="Ver ficha y mapa de ${escape(i.label)}">${escape(i.label)}</button>`:i.url?anchor(i.url,i.label):escape(i.label)}</dt><dd>${escape(i.value)}</dd></div>`).join('')}</dl></section>`;
    case 'routes':return `<section class="route-stack" aria-label="Rutas">${b.ids.map(routeCard).join('')}</section>`;
    case 'details':return `<details${b.open?' open':''}><summary>${escape(b.title)}</summary><div class="details-content">${b.blocks.map(block).join('')}</div></details>`;
    case 'hotel':return hotel(b.id);
@@ -203,7 +203,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=2.5');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=2.6');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();
