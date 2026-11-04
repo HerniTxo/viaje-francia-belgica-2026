@@ -88,48 +88,64 @@
     "name": "ibis budget Gent Centrum Dampoort",
     "aliases": [
       "ibis budget Gent Centrum Dampoort",
-      "ibis budget Gent Centrum Dampoort"
+      "Hotel ibis budget Gent Centrum Dampoort"
     ],
     "description": "Hotel reservado del 11 al 13. Parking 22 €/día no reservable.",
-    "query": "ibis budget Gent Centrum Dampoort, Gante",
+    "query": "ibis budget Gent Centrum Dampoort, Gent, Bélgica",
     "lat": 51.05967,
-    "lng": 3.73868
+    "lng": 3.73868,
+    "zone": "Gante · lugares de interés",
+    "tip": "Localización en Google Maps para decidir la visita sobre la marcha."
   },
   {
     "id": "graslei",
     "name": "Graslei y Korenlei",
     "aliases": [
       "Graslei y Korenlei",
-      "Graslei y Korenlei"
+      "Graslei",
+      "Muelles Graslei y Korenlei"
     ],
     "description": "Paseo por los muelles históricos y los canales.",
-    "query": "Graslei y Korenlei, Gante",
+    "query": "Graslei y Korenlei, Gent, Bélgica",
     "lat": 51.0556,
-    "lng": 3.7201
+    "lng": 3.7201,
+    "zone": "Gante · lugares de interés",
+    "tip": "Ideal al atardecer o iluminado por la noche.",
+    "official": "https://visit.gent.be/"
   },
   {
     "id": "gravensteen",
     "name": "Castillo de los Condes · Gravensteen",
     "aliases": [
       "Castillo de los Condes · Gravensteen",
-      "Castillo de los Condes"
+      "Gravensteen · castillo de los Condes",
+      "Castillo de Gravensteen",
+      "Castillo de los Condes",
+      "Gravensteen"
     ],
     "description": "Castillo medieval; interior pendiente de decidir.",
-    "query": "Castillo de los Condes · Gravensteen, Gante",
+    "query": "Castillo de los Condes · Gravensteen, Gent, Bélgica",
     "lat": 51.0573,
-    "lng": 3.7207
+    "lng": 3.7207,
+    "zone": "Gante · lugares de interés",
+    "tip": "Exterior recomendado al anochecer; para entrar, consultar horario y entrada, especialmente el 11 de noviembre.",
+    "official": "https://historischehuizen.stad.gent/en/castle-counts"
   },
   {
     "id": "bavo",
     "name": "Catedral de San Bavón",
     "aliases": [
       "Catedral de San Bavón",
-      "Catedral de San Bavón"
+      "Sint-Baafskathedraal · San Bavón",
+      "Sint-Baafskathedraal"
     ],
     "description": "Catedral y entorno monumental.",
-    "query": "Catedral de San Bavón, Gante",
+    "query": "Catedral de San Bavón, Gent, Bélgica",
     "lat": 51.0532,
-    "lng": 3.7276
+    "lng": 3.7276,
+    "zone": "Gante · lugares de interés",
+    "tip": "El Cordero Místico es una visita independiente de la entrada básica a la catedral.",
+    "official": "https://www.sintbaafskathedraal.be/"
   },
   {
     "id": "nantes",
@@ -292,12 +308,16 @@
     "name": "Campanario de Gante",
     "aliases": [
       "Campanario de Gante",
-      "Campanario de Gante"
+      "Belfort · campanario",
+      "Belfort"
     ],
     "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-    "query": "Campanario de Gante, Gante",
+    "query": "Campanario de Gante, Gent, Bélgica",
     "lat": 51.0538,
-    "lng": 3.7258
+    "lng": 3.7258,
+    "zone": "Gante · lugares de interés",
+    "tip": "Subida al mirador solo si está abierto y el tiempo acompaña.",
+    "official": "https://historischehuizen.stad.gent/en/belfry"
   },
   {
     "id": "dampoort",
@@ -307,9 +327,11 @@
       "Gent-Dampoort"
     ],
     "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-    "query": "Gent-Dampoort · estación, Gante",
+    "query": "Gent-Dampoort · estación, Gent, Bélgica",
     "lat": 51.0561,
-    "lng": 3.7407
+    "lng": 3.7407,
+    "zone": "Gante · estaciones",
+    "tip": "Localización en Google Maps para decidir la visita sobre la marcha."
   },
   {
     "id": "brugge",
@@ -850,5 +872,180 @@
     "query": "Castillo de la Bella Durmiente, Disneyland Paris, France",
     "zone": "Fantasyland",
     "park": 1
+  },
+  {
+    "id": "patershol",
+    "name": "Patershol",
+    "zone": "Gante · lugares de interés",
+    "description": "Barrio medieval, paseo exterior.",
+    "query": "Patershol, Gent, Bélgica",
+    "aliases": [
+      "Patershol"
+    ],
+    "tip": "Paseo libre por calles estrechas. Buena zona para recorrer después de ver el castillo."
+  },
+  {
+    "id": "korenlei",
+    "name": "Korenlei",
+    "zone": "Gante · lugares de interés",
+    "description": "Muelle histórico enfrente de Graslei.",
+    "query": "Korenlei, Gent, Bélgica",
+    "aliases": [
+      "Korenlei"
+    ],
+    "tip": "La otra orilla del canal; buenas fotos de Graslei."
+  },
+  {
+    "id": "michael_bridge",
+    "name": "Puente de San Miguel",
+    "zone": "Gante · lugares de interés",
+    "description": "Mirador del casco histórico.",
+    "query": "Puente de San Miguel, Gent, Bélgica",
+    "aliases": [
+      "Puente de San Miguel",
+      "Sint-Michielsbrug · puente de San Miguel",
+      "Sint-Michielsbrug"
+    ],
+    "tip": "Mirador del centro medieval y las tres torres."
+  },
+  {
+    "id": "niklaas",
+    "name": "Iglesia de San Nicolás",
+    "zone": "Gante · lugares de interés",
+    "description": "Iglesia gótica; interior opcional.",
+    "query": "Iglesia de San Nicolás, Gent, Bélgica",
+    "aliases": [
+      "Iglesia de San Nicolás",
+      "Sint-Niklaaskerk · iglesia de San Nicolás",
+      "Sint-Niklaaskerk"
+    ],
+    "tip": "Se puede admirar desde fuera; la visita interior depende de apertura.",
+    "official": "https://visit.gent.be/en/see-do/st-nicholas-church"
+  },
+  {
+    "id": "graffiti",
+    "name": "Calle de los grafitis · Werregarenstraat",
+    "zone": "Gante · lugares de interés",
+    "description": "Arte urbano cambiante.",
+    "query": "Calle de los grafitis · Werregarenstraat, Gent, Bélgica",
+    "aliases": [
+      "Calle de los grafitis · Werregarenstraat",
+      "Werregarenstraat · calle de los grafitis",
+      "Calle de los grafitis",
+      "Werregarenstraat"
+    ],
+    "tip": "Arte urbano cambiante; paseo corto y al aire libre."
+  },
+  {
+    "id": "vrijdagmarkt",
+    "name": "Vrijdagmarkt",
+    "zone": "Gante · lugares de interés",
+    "description": "Plaza histórica, con bares.",
+    "query": "Vrijdagmarkt, Gent, Bélgica",
+    "aliases": [
+      "Vrijdagmarkt"
+    ],
+    "tip": "Plaza histórica, punto de referencia para el bar Dulle Griet."
+  },
+  {
+    "id": "dulle_griet",
+    "name": "Dulle Griet",
+    "zone": "Gante · cervezas",
+    "description": "Bar de cerveza belga y tradición del zapato.",
+    "query": "Dulle Griet, Gent, Bélgica",
+    "aliases": [
+      "Dulle Griet",
+      "Dulle Griet · Vrijdagmarkt 50"
+    ],
+    "tip": "Interesante por ambiente tradicional y gran selección de cervezas belgas.",
+    "official": "https://www.dullegriet.be/"
+  },
+  {
+    "id": "trollekelder",
+    "name": "Trollekelder",
+    "zone": "Gante · cervezas",
+    "description": "Bar temático y cervezas belgas.",
+    "query": "Trollekelder, Gent, Bélgica",
+    "aliases": [
+      "Trollekelder",
+      "Trollekelder · Walter De Buckplein 4"
+    ],
+    "tip": "Local especialmente curioso por su decoración fantástica."
+  },
+  {
+    "id": "waterhuis",
+    "name": "Waterhuis aan de Bierkant",
+    "zone": "Gante · cervezas",
+    "description": "Bar de cerveza junto al agua.",
+    "query": "Waterhuis aan de Bierkant, Gent, Bélgica",
+    "aliases": [
+      "Waterhuis aan de Bierkant",
+      "Waterhuis aan de Bierkant · Groentenmarkt 9"
+    ],
+    "tip": "Muy buena opción para tomar algo junto al canal."
+  },
+  {
+    "id": "pieters",
+    "name": "Gent-Sint-Pieters",
+    "zone": "Gante · estaciones",
+    "description": "Estación alternativa para volver andando al centro.",
+    "query": "Gent-Sint-Pieters, Gent, Bélgica",
+    "aliases": [
+      "Gent-Sint-Pieters"
+    ],
+    "tip": "Alternativa para bajar del tren y caminar por el barrio universitario."
+  },
+  {
+    "id": "abbey_pieters",
+    "name": "Abadía de San Pedro",
+    "zone": "Gante · lugares de interés",
+    "description": "Conjunto histórico, exterior.",
+    "query": "Abadía de San Pedro, Gent, Bélgica",
+    "aliases": [
+      "Abadía de San Pedro",
+      "Sint-Pietersplein y abadía de San Pedro",
+      "Sint-Pietersplein"
+    ],
+    "tip": "Conjunto histórico visible desde el exterior; no hace falta visitar museos."
+  },
+  {
+    "id": "vooruit",
+    "name": "Vooruit · VIERNULVIER",
+    "zone": "Gante · lugares de interés",
+    "description": "Edificio cultural singular.",
+    "query": "Vooruit · VIERNULVIER, Gent, Bélgica",
+    "aliases": [
+      "Vooruit · VIERNULVIER",
+      "Vooruit (VIERNULVIER)",
+      "Vooruit",
+      "VIERNULVIER"
+    ],
+    "tip": "Edificio cultural singular que merece verse desde fuera.",
+    "official": "https://www.viernulvier.gent/"
+  },
+  {
+    "id": "krook",
+    "name": "Biblioteca De Krook",
+    "zone": "Gante · lugares de interés",
+    "description": "Arquitectura contemporánea.",
+    "query": "Biblioteca De Krook, Gent, Bélgica",
+    "aliases": [
+      "Biblioteca De Krook",
+      "De Krook"
+    ],
+    "tip": "Arquitectura contemporánea junto al agua; sin necesidad de visitar museos.",
+    "official": "https://dekrook.be/"
+  },
+  {
+    "id": "wintercircus",
+    "name": "Wintercircus",
+    "zone": "Gante · lugares de interés",
+    "description": "Lugar cultural; evento del 12 pendiente de verificar.",
+    "query": "Wintercircus, Gent, Bélgica",
+    "aliases": [
+      "Wintercircus"
+    ],
+    "tip": "El posible espectáculo del día 12 sigue sin confirmar; consultar la agenda oficial.",
+    "official": "https://www.wintercircus.be/"
   }
 ]
