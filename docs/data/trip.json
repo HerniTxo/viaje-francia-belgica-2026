@@ -1551,13 +1551,6 @@
               "url": "https://www.ftifestival.be/programma/gent/ksawery-komputery"
             },
             {
-              "type": "note",
-              "title": "Jueves 12 · Stavroz y Ksawery Komputery",
-              "text": "Concierto de música electrónica ambiental y visuales en la arena. Puertas 20:00; biøs 20:30; Stavroz 21:30, con actuación de aproximadamente una hora. Entrada desde 25 €; disponibilidad por comprobar. Es una propuesta, sin entradas compradas: comprobar el regreso desde Brujas o Bruselas.",
-              "tone": "plain",
-              "url": "https://www.ftifestival.be/programma/gent/stavroz-ambient-soundtrack-met-ksawery-komputery"
-            },
-            {
               "type": "facts",
               "title": "Qué hacer en Wintercircus",
               "items": [
@@ -1586,7 +1579,7 @@
             {
               "type": "note",
               "title": "De Krook · visita opcional",
-              "text": "Biblioteca y centro cultural moderno junto al agua, con vistas desde las plantas superiores y cafetería. La guía municipal indica cierre el 11 de noviembre; confirmar horarios actuales. El jueves la cafetería anuncia habitualmente 10:00–21:00, sujeto a cambios. En De Krook hay una charla sobre posmodernismo el 12 de 14:00 a 16:30, 6 €, inscripción previa; comprobar idioma y disponibilidad.",
+              "text": "Biblioteca y centro cultural moderno junto al agua, con vistas desde las plantas superiores y cafetería. La guía municipal indica cierre el 11 de noviembre; confirmar horarios actuales. El jueves la cafetería anuncia habitualmente 10:00–21:00, sujeto a cambios; las consumiciones son de pago.",
               "tone": "plain",
               "url": "https://visit.gent.be/en/see-do/de-krook"
             },
@@ -1607,11 +1600,6 @@
                   "text": "Gratis durante el día, del 10 al 15 de noviembre."
                 },
                 {
-                  "label": "Stavroz · programa y entradas",
-                  "url": "https://www.ftifestival.be/programma/gent/stavroz-ambient-soundtrack-met-ksawery-komputery",
-                  "text": "Jueves 12, desde 25 €."
-                },
-                {
                   "label": "Agenda Wintercircus",
                   "url": "https://www.wintercircus.be/en/agenda",
                   "text": "Programación y cambios."
@@ -1630,11 +1618,6 @@
                   "label": "Krookcafé",
                   "url": "https://dekrook.be/en/krookcafe",
                   "text": "Carta y horario habitual."
-                },
-                {
-                  "label": "Charla sobre posmodernismo · 12/11",
-                  "url": "https://avansa-regiogent.be/activiteiten/pluslezing-postmodernisme",
-                  "text": "14:00–16:30; inscripción previa."
                 }
               ]
             },
