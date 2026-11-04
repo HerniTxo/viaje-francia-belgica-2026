@@ -176,7 +176,7 @@
    const bounds=new google.maps.LatLngBounds(), info=new google.maps.InfoWindow(), geocoder=new google.maps.Geocoder(); let count=0;
    const add=(pt,pos)=>{if(epoch!==mapEpoch)return;bounds.extend(pos);const marker=new google.maps.Marker({position:pos,map,title:pt.name});marker.addListener('click',()=>{info.setContent(`<div class="map-popup"><strong>${escape(pt.name)}</strong><p>${escape(pt.description||'')}</p><button type="button" class="place-term" data-poi="${escape(pt.id)}" aria-haspopup="dialog">Ver ficha y mapa</button>${anchor(search(pt),'Abrir en Google Maps')}</div>`);info.open({anchor:marker,map});});count++;map.fitBounds(bounds,30);};
    for(const pt of points){if(epoch!==mapEpoch)return;if(Number.isFinite(pt.lat)&&Number.isFinite(pt.lng)){add(pt,{lat:pt.lat,lng:pt.lng});continue;}try{const response=await geocoder.geocode({address:pt.address||pt.name+', '+pt.city});if(response.results[0])add(pt,response.results[0].geometry.location);}catch{}}
-   if(!count)el.innerHTML='<div class="map-fail">No se han podido ubicar los lugares. Abre cada lugar con los enlaces de debajo.</div>';
+   if(count<points.length&&count){el.insertAdjacentHTML('afterend','<p>Algunos lugares no se han podido situar en el mapa; abre sus fichas en la lista inferior.</p>');} if(!count)el.innerHTML='<div class="map-fail">No se han podido ubicar los lugares. Abre cada lugar con los enlaces de debajo.</div>';
   }catch{
    if(epoch!==mapEpoch)return;
    const el=$('#place-map');if(el)el.innerHTML='<div class="map-fail">No se ha podido cargar el mapa integrado. Abre los lugares en Google Maps con los enlaces de debajo.</div>';
@@ -200,7 +200,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=3.0');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=3.1');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();

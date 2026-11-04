@@ -4485,7 +4485,9 @@
       "description": "Plaza monumental y corazón del casco histórico.",
       "status": "propuesta",
       "address": "Grand Place, Bruxelles",
-      "url": "https://www.visit.brussels/es/visitantes/venue-details.Grand-Place.220445"
+      "url": "https://www.visit.brussels/es/visitantes/venue-details.Grand-Place.220445",
+      "lat": 50.84673,
+      "lng": 4.35255
     },
     {
       "id": "bxl_galerias",
@@ -4495,7 +4497,9 @@
       "description": "Galerías cubiertas de arquitectura elegante, escaparates y chocolaterías.",
       "status": "propuesta",
       "address": "Galeries Royales Saint-Hubert Bruxelles",
-      "url": "https://www.grsh.be/"
+      "url": "https://www.grsh.be/",
+      "lat": 50.8471,
+      "lng": 4.35322
     },
     {
       "id": "bxl_manneken",
@@ -4505,7 +4509,9 @@
       "description": "La famosa y pequeña estatua en el centro histórico.",
       "status": "propuesta",
       "address": "Manneken Pis Bruxelles",
-      "url": "https://www.visit.brussels/"
+      "url": "https://www.visit.brussels/",
+      "lat": 50.84499,
+      "lng": 4.34999
     },
     {
       "id": "bxl_bolsa",
@@ -4525,7 +4531,9 @@
       "description": "Terraza panorámica gratuita sin obligación de consumir: zona pública los jueves 9:00–17:00; entrada Rue des Halles 4. Comprobar condiciones.",
       "status": "propuesta",
       "address": "Brucity Rue des Halles 4 Bruxelles",
-      "url": "https://www.brussels.be/rooftop"
+      "url": "https://www.brussels.be/rooftop",
+      "lat": 50.8501,
+      "lng": 4.34998
     },
     {
       "id": "bxl_beerlab",
@@ -4545,7 +4553,9 @@
       "description": "Edificio emblemático de la Expo 58; exterior gratis, interior con entrada. Lejos del centro: consultar metro 6 hacia Heysel y reservar tiempo de ida y vuelta.",
       "status": "propuesta",
       "address": "Atomium Bruxelles",
-      "url": "https://atomium.be/"
+      "url": "https://atomium.be/",
+      "lat": 50.89517,
+      "lng": 4.34165
     },
     {
       "id": "bxl_marolles",
@@ -4565,7 +4575,9 @@
       "description": "Barrio animado con calles, locales y tiendas cerca del centro.",
       "status": "propuesta",
       "address": "Place Sainte-Catherine Bruxelles",
-      "url": "https://www.visit.brussels/"
+      "url": "https://www.visit.brussels/",
+      "lat": 50.85081,
+      "lng": 4.34861
     },
     {
       "id": "bxl_bellone",
@@ -4595,7 +4607,9 @@
       "description": "Marionetas, decoración curiosa y cerveza en un callejón cerca de Grand Place; bar habitualmente miércoles a domingo 12:00–00:00.",
       "status": "propuesta",
       "address": "Théâtre Royal de Toone Rue du Marché aux Herbes 66 Bruxelles",
-      "url": "https://www.toone.be/en/infos.php"
+      "url": "https://www.toone.be/en/infos.php",
+      "lat": 50.84772,
+      "lng": 4.35372
     },
     {
       "id": "bxl_moeder",
@@ -4605,7 +4619,9 @@
       "description": "Bar céntrico especializado en cervezas artesanas y pequeños productores.",
       "status": "propuesta",
       "address": "Moeder Lambic Fontainas Place Fontainas 8 Bruxelles",
-      "url": "https://moederlambic.com/"
+      "url": "https://moederlambic.com/",
+      "lat": 50.84512,
+      "lng": 4.34692
     },
     {
       "id": "bxl_poechenelle",
@@ -4615,7 +4631,9 @@
       "description": "Taberna con marionetas y cervezas frente al Manneken Pis; jueves habitualmente 11:00–01:00.",
       "status": "propuesta",
       "address": "Poechenellekelder Rue du Chêne 5 Bruxelles",
-      "url": "https://poechenellekelder.be/en"
+      "url": "https://poechenellekelder.be/en",
+      "lat": 50.84478,
+      "lng": 4.35002
     },
     {
       "id": "bxl_delirium",
@@ -4625,7 +4643,9 @@
       "description": "Bar de gran variedad cervecera en un callejón céntrico; jueves habitualmente 11:00–03:00.",
       "status": "propuesta",
       "address": "Delirium Café Impasse de la Fidélité Bruxelles",
-      "url": "https://www.deliriumvillage.com/contact/"
+      "url": "https://www.deliriumvillage.com/contact/",
+      "lat": 50.84845,
+      "lng": 4.35383
     },
     {
       "id": "bxl_comicsans",
@@ -4635,7 +4655,9 @@
       "description": "Bar de cultura friki, cerveza artesana, pinball y juegos; jueves habitualmente desde las 17:00.",
       "status": "propuesta",
       "address": "Comic Sans Brussels Rue du Fossé aux Loups 27 Bruxelles",
-      "url": "https://www.comicsansbrussels.be/"
+      "url": "https://www.comicsansbrussels.be/",
+      "lat": 50.85006,
+      "lng": 4.35496
     },
     {
       "id": "bxl_outpost",
@@ -4655,7 +4677,9 @@
       "description": "Recreativas y pinball para jugar en Auderghem; bar de acceso libre, máquinas de monedas y sala de pago. Jueves habitualmente 11:30–23:00.",
       "status": "propuesta",
       "address": "Brussels Pinball Museum Chaussée de Wavre 1501 Auderghem",
-      "url": "https://www.brusselspinballmuseum.com/"
+      "url": "https://www.brusselspinballmuseum.com/",
+      "lat": 50.81842,
+      "lng": 4.4168
     },
     {
       "id": "bxl_tropismes",
@@ -4665,7 +4689,9 @@
       "description": "Librería en las galerías Saint-Hubert, con espejos y entreplanta; libros principalmente en francés. Jueves 10:00–18:30.",
       "status": "propuesta",
       "address": "Tropismes Galerie des Princes 11 Bruxelles",
-      "url": "https://www.grsh.be/en/store/tropismes/"
+      "url": "https://www.grsh.be/en/store/tropismes/",
+      "lat": 50.84817,
+      "lng": 4.35484
     },
     {
       "id": "bxl_casacomic",
