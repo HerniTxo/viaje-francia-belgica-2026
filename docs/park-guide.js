@@ -3,7 +3,7 @@
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 try{const saved=JSON.parse(localStorage.getItem(key)||'[]');if(Array.isArray(saved))favoriteIds=saved.filter(x=>typeof x==='string');}catch{storageOK=false;}
-function load(){return promise||=(fetch('data/disney-guide.json?v=1').then(r=>{if(!r.ok)throw Error();return r.json();}).then(d=>data=d));}
+function load(){return promise||=(fetch('data/disney-guide.json?v=2').then(r=>{if(!r.ok)throw Error();return r.json();}).then(d=>data=d));}
 function canonical(id){return data?.items.find(p=>p.id===id||p.guideId===id)?.id||id;}
 function isFavorite(id){return favoriteIds.includes(canonical(id));}
 function syncFavorites(){document.querySelectorAll('[data-favorite]').forEach(b=>{const p=data?.items.find(x=>x.id===b.dataset.favorite);const saved=isFavorite(b.dataset.favorite);b.textContent=saved?'♥ En favoritos':'♡ Favorito';b.setAttribute('aria-pressed',String(saved));b.setAttribute('aria-label',(saved?'Quitar de favoritos: ':'Añadir a favoritos: ')+(p?.name||''));});const total=document.querySelector('[data-favorite-count]');if(total)total.textContent=String(favorites().length);}

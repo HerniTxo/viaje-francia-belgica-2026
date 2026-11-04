@@ -4,7 +4,7 @@ Nueva pestaña Disney → Guía del parque: 51 fichas de atracciones, paseos y e
 
 Favoritos locales por navegador, lista editable y mapa interactivo conjunto de ambos parques. Búsqueda y filtros de espectáculos, atracciones, Navidad e interiores. Horarios secundarios identificados como orientativos y enlazados; se remite a la app para confirmar las funciones del 9–10/11.
 
-Las fichas compartidas de toda la web pasan de imágenes Maps Static a mapas interactivos normales. Se conserva la planificación y los planos con rutas anteriores. Validación: sintaxis JS, 8 días, 10 páginas, 35 rutas, fuentes e imágenes oficiales de las 51 fichas, referencias de recursos cotejadas con el árbol remoto, privacidad, búsqueda, favoritos y persistencia en navegador, ficha móvil sin desbordamiento horizontal. Los mapas se comprueban en el dominio público autorizado.
+Las fichas compartidas de toda la web pasan de imágenes Maps Static a mapas interactivos normales. Se conserva la planificación y los planos con rutas anteriores. Validación: sintaxis JS, 8 días, 10 páginas, 35 rutas, fuentes e imágenes oficiales de las 51 fichas, referencias de recursos cotejadas con el árbol remoto, privacidad, búsqueda, favoritos y persistencia en navegador, ficha móvil sin desbordamiento horizontal. Las ubicaciones se contrastan en mapas interactivos; los eventos itinerantes usan referencias de sector identificadas. El mapa conjunto utiliza coordenadas revisadas, sin depender de Geocoding ni Places, y agrupa las fichas que comparten punto.
 
 ## Guía visual móvil y fichas de lugares · 03/11/2026
 
