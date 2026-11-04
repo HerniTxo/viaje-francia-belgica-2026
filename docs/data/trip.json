@@ -1184,6 +1184,13 @@
               "text": "Brujas (Brugge): calcular aproximadamente 35–50 min por trayecto. Bruselas (Bruxelles-Central / Brussel-Centraal): aproximadamente 50–70 min por trayecto. Los servicios pasan habitualmente por Gent-Sint-Pieters, a veces sin cambiar de tren y otras con transbordo. Son márgenes orientativos, no horarios verificados del día 12. Billetes y horas de salida/regreso pendientes de decidir.",
               "tone": "pending",
               "url": null
+            },
+            {
+              "type": "note",
+              "title": "Excursiones del jueves 12 · reparto confirmado",
+              "text": "El grupo se divide: 2 personas visitarán Brujas (estación Brugge) y 1 persona visitará Bruselas (estación Bruxelles-Central). Salida de referencia: Gent-Dampoort, con paso por Gent-Sint-Pieters, directo o con transbordo según el servicio. Precio orientativo indicado por el grupo: unos 8 € por billete de ida tanto a Brujas como a Bruselas; tarifa no verificada, puede variar. Estimación de ida: 3 billetes × 8 € = 24 €; ida y vuelta: 48 € si cada trayecto cuesta lo mismo. No hay billetes comprados ni horarios fijados.",
+              "tone": "plain",
+              "url": null
             }
           ]
         },
