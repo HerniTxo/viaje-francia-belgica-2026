@@ -1120,7 +1120,7 @@
       "id": "gante",
       "title": "Gante",
       "date": "11–13 noviembre",
-      "intro": "Llegada el 11; el 12, Gante y posibles excursiones en tren. Salida hacia Nantes el 13.",
+      "intro": "Dos tardes flexibles, 11 y 12 de noviembre: casco medieval, canales, lugares singulares y bares de cerveza. El jueves, excursiones separadas a Brujas y Bruselas; regreso a Gante.",
       "panes": [
         {
           "id": "plan",
@@ -1140,7 +1140,7 @@
                 {
                   "time": "11 · tarde/noche",
                   "title": "Primer paseo por Gante",
-                  "text": "Propuesta guardada: Gravensteen → Graslei → campanario → San Bavón. Visitas exteriores; ajustar al tiempo disponible.",
+                  "text": "Paseo flexible por el casco histórico: castillo, Patershol, canales, puente de San Miguel y tres torres. Elegir según hora de llegada, lluvia y luz.",
                   "status": "propuesta",
                   "route": "gent_walk",
                   "link": null
@@ -1148,7 +1148,7 @@
                 {
                   "time": "Jue. 12",
                   "title": "Gante y excursión en tren",
-                  "text": "Brujas y Bruselas son opciones, todavía sin billetes ni horarios cerrados. Elegir cuánto tiempo queda para cada lugar.",
+                  "text": "Excursiones confirmadas: 2 personas a Brujas y 1 a Bruselas. Al regresar, reunión en Gante; opcional bajar en Gent-Sint-Pieters y recorrer a pie la zona universitaria hasta el centro.",
                   "status": "propuesta",
                   "route": null,
                   "link": null
@@ -1173,13 +1173,6 @@
             },
             {
               "type": "note",
-              "title": "Por cerrar",
-              "text": "Distribución del día 12, visitas concretas y trenes. No se da por hecho que Gante, Brujas y Bruselas quepan con calma en la misma jornada.",
-              "tone": "pending",
-              "url": null
-            },
-            {
-              "type": "note",
               "title": "Trenes desde Gent-Dampoort · jueves 12",
               "text": "Brujas (Brugge): calcular aproximadamente 35–50 min por trayecto. Bruselas (Bruxelles-Central / Brussel-Centraal): aproximadamente 50–70 min por trayecto. Los servicios pasan habitualmente por Gent-Sint-Pieters, a veces sin cambiar de tren y otras con transbordo. Son márgenes orientativos, no horarios verificados del día 12. Billetes y horas de salida/regreso pendientes de decidir.",
               "tone": "pending",
@@ -1191,6 +1184,263 @@
               "text": "El grupo se divide: 2 personas visitarán Brujas (estación Brugge) y 1 persona visitará Bruselas (estación Bruxelles-Central). Salida de referencia: Gent-Dampoort, con paso por Gent-Sint-Pieters, directo o con transbordo según el servicio. Precio orientativo indicado por el grupo: unos 8 € por billete de ida tanto a Brujas como a Bruselas; tarifa no verificada, puede variar. Estimación de ida: 3 billetes × 8 € = 24 €; ida y vuelta: 48 € si cada trayecto cuesta lo mismo. No hay billetes comprados ni horarios fijados.",
               "tone": "plain",
               "url": null
+            },
+            {
+              "type": "note",
+              "title": "Dos tardes, una sola selección flexible",
+              "text": "No hay un reparto obligatorio por días ni visitas interiores reservadas. Priorizar exteriores iluminados cuando anochezca; si llueve y hay horario, entrar en castillo, catedral o iglesia. El miércoles 11 es festivo nacional (Armisticio): comprobar horarios especiales de visitas y locales.",
+              "tone": "plain",
+              "url": null
+            }
+          ]
+        },
+        {
+          "id": "visitas",
+          "label": "Qué ver",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Centro histórico y rincones curiosos",
+              "text": "Todos estos puntos son sugerencias para elegir sobre la marcha. La ruta a pie enlaza la mayor parte del centro; no presupone entradas ni horarios concretos.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "gent_walk"
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Paseos y exteriores prioritarios",
+              "items": [
+                {
+                  "label": "Gravensteen · castillo de los Condes",
+                  "value": "Fortaleza medieval, foso y silueta muy fotogénica; interior opcional si está abierto."
+                },
+                {
+                  "label": "Patershol",
+                  "value": "Barrio de callejuelas medievales, casas antiguas y rincones con encanto."
+                },
+                {
+                  "label": "Graslei y Korenlei",
+                  "value": "Muelles históricos frente a frente, reflejos en el agua y fachadas gremiales."
+                },
+                {
+                  "label": "Sint-Michielsbrug · puente de San Miguel",
+                  "value": "Mirador clásico de los canales y las tres torres; muy bonito iluminado."
+                },
+                {
+                  "label": "Sint-Niklaaskerk · iglesia de San Nicolás",
+                  "value": "Edificio gótico junto a Korenmarkt; exterior e interior si está abierto."
+                },
+                {
+                  "label": "Belfort · campanario",
+                  "value": "Torre del centro histórico, exterior y posible subida al mirador dentro de horario."
+                },
+                {
+                  "label": "Sint-Baafskathedraal · San Bavón",
+                  "value": "Catedral monumental; interior gratuito básico habitualmente, retablo con entrada específica."
+                },
+                {
+                  "label": "Werregarenstraat · calle de los grafitis",
+                  "value": "Callejón de arte urbano cambiante, parada breve y distinta a los monumentos."
+                },
+                {
+                  "label": "Vrijdagmarkt",
+                  "value": "Gran plaza histórica, buena para pasear y combinar con Dulle Griet."
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Bajo techo si llueve y está abierto",
+              "items": [
+                {
+                  "label": "Castillo de Gravensteen",
+                  "value": "Recorrido por las salas de la fortaleza, con entrada de pago."
+                },
+                {
+                  "label": "Catedral de San Bavón",
+                  "value": "Interior gótico y, si interesa, el Cordero Místico en visita específica."
+                },
+                {
+                  "label": "Iglesia de San Nicolás",
+                  "value": "Entrada interior opcional y breve; confirmar apertura."
+                },
+                {
+                  "label": "Campanario de Gante",
+                  "value": "Interior y mirador sujeto a horarios, acceso y tiempo meteorológico."
+                },
+                {
+                  "label": "Bares cerveceros",
+                  "value": "Dulle Griet, Trollekelder y Waterhuis sirven también como refugio agradable en caso de lluvia."
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Fuentes oficiales",
+              "items": [
+                {
+                  "label": "Turismo de Gante",
+                  "url": "https://visit.gent.be/es",
+                  "text": ""
+                },
+                {
+                  "label": "Castillo Gravensteen",
+                  "url": "https://historischehuizen.stad.gent/en/castle-counts",
+                  "text": ""
+                },
+                {
+                  "label": "Catedral de San Bavón",
+                  "url": "https://www.sintbaafskathedraal.be/",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cervezas",
+          "label": "Cervezas",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Bares especiales, no visitas a fábricas",
+              "text": "Preferencia del grupo: locales históricos y curiosos con amplia selección de cerveza belga. No se fijan consumiciones ni reservas.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "facts",
+              "title": "Tres recomendaciones",
+              "items": [
+                {
+                  "label": "Dulle Griet · Vrijdagmarkt 50",
+                  "value": "Bar emblemático de gran variedad de cervezas; conocido por servir determinadas cervezas en vasos grandes con la divertida tradición del zapato como depósito."
+                },
+                {
+                  "label": "Trollekelder · Walter De Buckplein 4",
+                  "value": "Bar de decoración fantástica con troles y una amplísima selección de cervezas belgas; especialmente singular."
+                },
+                {
+                  "label": "Waterhuis aan de Bierkant · Groentenmarkt 9",
+                  "value": "Bar histórico junto al canal, idóneo para parar a tomar cerveza con vistas al agua."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Horarios por confirmar",
+              "text": "El miércoles 11 es festivo. Comprobar la apertura de cada bar antes de ir y no dar por hecho horarios normales.",
+              "tone": "plain",
+              "url": null
+            }
+          ]
+        },
+        {
+          "id": "sint-pieters",
+          "label": "Desde la estación",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Regreso alternativo del jueves 12",
+              "text": "Si el tren desde Brujas o Bruselas pasa por Gent-Sint-Pieters, podéis bajar allí y pasear hacia el centro, en vez de continuar a Gent-Dampoort. Es una opción, no una obligación. Consultar si el servicio elegido permite esta parada y organizar el punto de encuentro del grupo.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "gent_pieters_walk"
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Qué ver en ese paseo",
+              "items": [
+                {
+                  "label": "Gent-Sint-Pieters",
+                  "value": "Estación ferroviaria monumental, punto de partida."
+                },
+                {
+                  "label": "Sint-Pietersplein y abadía de San Pedro",
+                  "value": "Plaza amplia y conjunto histórico interesante desde el exterior."
+                },
+                {
+                  "label": "Vooruit (VIERNULVIER)",
+                  "value": "Edificio cultural modernista muy singular en el barrio universitario."
+                },
+                {
+                  "label": "De Krook",
+                  "value": "Biblioteca de arquitectura contemporánea junto al agua; interés por el edificio, sin visita a museo."
+                },
+                {
+                  "label": "Centro histórico",
+                  "value": "Continuar hacia la catedral y la zona de las tres torres; desde allí es posible volver al hotel."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Si es de noche o llueve",
+              "text": "Priorizar calles urbanas iluminadas y el centro. No hace falta atravesar Citadelpark ni entrar en museos.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "links",
+              "title": "Estaciones y transportes",
+              "items": [
+                {
+                  "label": "Horarios SNCB",
+                  "url": "https://www.belgiantrain.be/en",
+                  "text": ""
+                },
+                {
+                  "label": "Estación Gent-Sint-Pieters",
+                  "url": "https://www.belgiantrain.be/en/station-information/oost-vlaanderen/gent-sint-pieters",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eventos",
+          "label": "Eventos",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Miércoles 11 · Día del Armisticio",
+              "text": "Festivo nacional belga. Las ceremonias oficiales suelen celebrarse por la mañana; no se incluye ningún acto en el plan de tarde. Comprobar cambios de horario en monumentos y bares.",
+              "tone": "pending",
+              "url": null
+            },
+            {
+              "type": "note",
+              "title": "Jueves 12 · Wintercircus",
+              "text": "Se ha propuesto comprobar un posible evento tecnológico o audiovisual nocturno en el Wintercircus. No consta confirmación contrastada del espectáculo concreto, su horario ni entradas para el día 12; no planificar el regreso alrededor de él.",
+              "tone": "pending",
+              "url": null
+            },
+            {
+              "type": "links",
+              "title": "Consultar agenda antes de ir",
+              "items": [
+                {
+                  "label": "Agenda turística de Gante",
+                  "url": "https://visit.gent.be/es",
+                  "text": ""
+                },
+                {
+                  "label": "Wintercircus",
+                  "url": "https://www.wintercircus.be/",
+                  "text": ""
+                }
+              ]
             }
           ]
         },
@@ -1307,7 +1557,8 @@
             {
               "type": "routes",
               "ids": [
-                "gent_walk"
+                "gent_walk",
+                "gent_pieters_walk"
               ]
             },
             {
@@ -1335,7 +1586,21 @@
         "graslei",
         "bavo",
         "belfry",
-        "dampoort"
+        "dampoort",
+        "patershol",
+        "korenlei",
+        "michael_bridge",
+        "niklaas",
+        "graffiti",
+        "vrijdagmarkt",
+        "dulle_griet",
+        "trollekelder",
+        "waterhuis",
+        "pieters",
+        "abbey_pieters",
+        "vooruit",
+        "krook",
+        "wintercircus"
       ],
       "next": "nantes"
     },
@@ -3067,6 +3332,19 @@
       "mode": "transit",
       "stops": [],
       "note": "Tren hacia Torcy o Marne-la-Vallée–Chessy, comprobando que para en Torcy. No usar rama Boissy-Saint-Léger."
+    },
+    {
+      "id": "gent_pieters_walk",
+      "name": "Gent-Sint-Pieters → casco histórico",
+      "origin": "Gent-Sint-Pieters station, Gent, Belgium",
+      "destination": "Sint-Baafskathedraal, Gent, Belgium",
+      "mode": "walking",
+      "stops": [
+        "Sint-Pietersplein, Gent, Belgium",
+        "VIERNULVIER, Sint-Pietersnieuwstraat 23, Gent, Belgium",
+        "De Krook, Gent, Belgium"
+      ],
+      "note": "Alternativa de regreso del jueves, por zona universitaria y edificios singulares; paseos y horarios flexibles."
     }
   ],
   "places": [
@@ -3430,6 +3708,146 @@
       "category": "transporte",
       "status": "propuesta",
       "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+    },
+    {
+      "id": "patershol",
+      "name": "Patershol",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0584,
+      "lng": 3.7225,
+      "description": "Barrio medieval, paseo exterior.",
+      "status": "propuesta"
+    },
+    {
+      "id": "korenlei",
+      "name": "Korenlei",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0552,
+      "lng": 3.7195,
+      "description": "Muelle histórico enfrente de Graslei.",
+      "status": "propuesta"
+    },
+    {
+      "id": "michael_bridge",
+      "name": "Puente de San Miguel",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0548,
+      "lng": 3.7205,
+      "description": "Mirador del casco histórico.",
+      "status": "propuesta"
+    },
+    {
+      "id": "niklaas",
+      "name": "Iglesia de San Nicolás",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0541,
+      "lng": 3.7221,
+      "description": "Iglesia gótica; interior opcional.",
+      "status": "propuesta"
+    },
+    {
+      "id": "graffiti",
+      "name": "Calle de los grafitis · Werregarenstraat",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.055,
+      "lng": 3.7255,
+      "description": "Arte urbano cambiante.",
+      "status": "propuesta"
+    },
+    {
+      "id": "vrijdagmarkt",
+      "name": "Vrijdagmarkt",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0584,
+      "lng": 3.7263,
+      "description": "Plaza histórica, con bares.",
+      "status": "propuesta"
+    },
+    {
+      "id": "dulle_griet",
+      "name": "Dulle Griet",
+      "city": "Gante",
+      "category": "cerveza",
+      "lat": 51.0584,
+      "lng": 3.726,
+      "description": "Bar de cerveza belga y tradición del zapato.",
+      "status": "propuesta"
+    },
+    {
+      "id": "trollekelder",
+      "name": "Trollekelder",
+      "city": "Gante",
+      "category": "cerveza",
+      "lat": 51.0562,
+      "lng": 3.7295,
+      "description": "Bar temático y cervezas belgas.",
+      "status": "propuesta"
+    },
+    {
+      "id": "waterhuis",
+      "name": "Waterhuis aan de Bierkant",
+      "city": "Gante",
+      "category": "cerveza",
+      "lat": 51.0568,
+      "lng": 3.7217,
+      "description": "Bar de cerveza junto al agua.",
+      "status": "propuesta"
+    },
+    {
+      "id": "pieters",
+      "name": "Gent-Sint-Pieters",
+      "city": "Gante",
+      "category": "transporte",
+      "lat": 51.0354,
+      "lng": 3.7107,
+      "description": "Estación alternativa para volver andando al centro.",
+      "status": "propuesta"
+    },
+    {
+      "id": "abbey_pieters",
+      "name": "Abadía de San Pedro",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0419,
+      "lng": 3.7266,
+      "description": "Conjunto histórico, exterior.",
+      "status": "propuesta"
+    },
+    {
+      "id": "vooruit",
+      "name": "Vooruit · VIERNULVIER",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0478,
+      "lng": 3.7272,
+      "description": "Edificio cultural singular.",
+      "status": "propuesta"
+    },
+    {
+      "id": "krook",
+      "name": "Biblioteca De Krook",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0495,
+      "lng": 3.7279,
+      "description": "Arquitectura contemporánea.",
+      "status": "propuesta"
+    },
+    {
+      "id": "wintercircus",
+      "name": "Wintercircus",
+      "city": "Gante",
+      "category": "atraccion",
+      "lat": 51.0481,
+      "lng": 3.7315,
+      "description": "Lugar cultural; evento del 12 pendiente de verificar.",
+      "status": "propuesta"
     }
   ],
   "stays": [
