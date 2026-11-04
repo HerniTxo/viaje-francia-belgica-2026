@@ -1199,6 +1199,21 @@
           "label": "Qué ver",
           "blocks": [
             {
+              "type": "place-cards",
+              "ids": [
+                "gravensteen",
+                "patershol",
+                "graslei",
+                "korenlei",
+                "michael_bridge",
+                "niklaas",
+                "belfry",
+                "bavo",
+                "graffiti",
+                "vrijdagmarkt"
+              ]
+            },
+            {
               "type": "note",
               "title": "Centro histórico y rincones curiosos",
               "text": "Todos estos puntos son sugerencias para elegir sobre la marcha. La ruta a pie enlaza la mayor parte del centro; no presupone entradas ni horarios concretos.",
@@ -1307,6 +1322,14 @@
           "label": "Cervezas",
           "blocks": [
             {
+              "type": "place-cards",
+              "ids": [
+                "dulle_griet",
+                "trollekelder",
+                "waterhuis"
+              ]
+            },
+            {
               "type": "note",
               "title": "Bares especiales, no visitas a fábricas",
               "text": "Preferencia del grupo: locales históricos y curiosos con amplia selección de cerveza belga. No se fijan consumiciones ni reservas.",
@@ -1344,6 +1367,15 @@
           "id": "sint-pieters",
           "label": "Desde la estación",
           "blocks": [
+            {
+              "type": "place-cards",
+              "ids": [
+                "pieters",
+                "abbey_pieters",
+                "vooruit",
+                "krook"
+              ]
+            },
             {
               "type": "note",
               "title": "Regreso alternativo del jueves 12",
@@ -1412,6 +1444,12 @@
           "id": "eventos",
           "label": "Eventos",
           "blocks": [
+            {
+              "type": "place-cards",
+              "ids": [
+                "wintercircus"
+              ]
+            },
             {
               "type": "note",
               "title": "Miércoles 11 · Día del Armisticio",
@@ -3607,7 +3645,8 @@
       "lng": 3.7258,
       "category": "atraccion",
       "status": "propuesta",
-      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+      "url": "https://historischehuizen.stad.gent/en/belfry"
     },
     {
       "id": "dampoort",
@@ -3747,7 +3786,8 @@
       "lat": 51.0541,
       "lng": 3.7221,
       "description": "Iglesia gótica; interior opcional.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "url": "https://visit.gent.be/en/see-do/st-nicholas-church"
     },
     {
       "id": "graffiti",
@@ -3777,7 +3817,8 @@
       "lat": 51.0584,
       "lng": 3.726,
       "description": "Bar de cerveza belga y tradición del zapato.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "url": "https://www.dullegriet.be/"
     },
     {
       "id": "trollekelder",
@@ -3827,7 +3868,8 @@
       "lat": 51.0478,
       "lng": 3.7272,
       "description": "Edificio cultural singular.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "url": "https://www.viernulvier.gent/"
     },
     {
       "id": "krook",
@@ -3837,7 +3879,8 @@
       "lat": 51.0495,
       "lng": 3.7279,
       "description": "Arquitectura contemporánea.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "url": "https://dekrook.be/"
     },
     {
       "id": "wintercircus",
@@ -3847,7 +3890,8 @@
       "lat": 51.0481,
       "lng": 3.7315,
       "description": "Lugar cultural; evento del 12 pendiente de verificar.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "url": "https://www.wintercircus.be/"
     }
   ],
   "stays": [
