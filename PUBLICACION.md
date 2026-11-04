@@ -1,3 +1,7 @@
+## Wintercircus y De Krook · 04/11/2026
+
+Gante → Eventos: instalación audiovisual gratuita del 10 al 15 de noviembre, programa de Stavroz del 12, visita al Wintercircus y referencia opcional a De Krook; horarios especiales y disponibilidad por confirmar. Fuentes oficiales enlazadas y mapa conjunto con ubicaciones corregidas. Información contrastada con itinerario maestro y memoria de Gante; actividades propuestas, sin entradas reservadas.
+
 ## Guía del parque y favoritos · 04/11/2026
 
 Nueva pestaña Disney → Guía del parque: 51 fichas de atracciones, paseos y espectáculos, separadas por parque, con imagen oficial, descripción, ubicación, información práctica y enlace a Disney. Se excluyen actividades claramente infantiles y se conservan como descartadas las tres preferencias anteriores. Crush y la pausa de A Celebration in Arendelle se señalan explícitamente.
