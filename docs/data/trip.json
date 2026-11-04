@@ -1232,39 +1232,48 @@
               "items": [
                 {
                   "label": "Gravensteen · castillo de los Condes",
-                  "value": "Fortaleza medieval, foso y silueta muy fotogénica; interior opcional si está abierto."
+                  "value": "Fortaleza medieval, foso y silueta muy fotogénica; interior opcional si está abierto.",
+                  "placeId": "gravensteen"
                 },
                 {
                   "label": "Patershol",
-                  "value": "Barrio de callejuelas medievales, casas antiguas y rincones con encanto."
+                  "value": "Barrio de callejuelas medievales, casas antiguas y rincones con encanto.",
+                  "placeId": "patershol"
                 },
                 {
                   "label": "Graslei y Korenlei",
-                  "value": "Muelles históricos frente a frente, reflejos en el agua y fachadas gremiales."
+                  "value": "Muelles históricos frente a frente, reflejos en el agua y fachadas gremiales.",
+                  "placeId": "graslei"
                 },
                 {
                   "label": "Sint-Michielsbrug · puente de San Miguel",
-                  "value": "Mirador clásico de los canales y las tres torres; muy bonito iluminado."
+                  "value": "Mirador clásico de los canales y las tres torres; muy bonito iluminado.",
+                  "placeId": "michael_bridge"
                 },
                 {
                   "label": "Sint-Niklaaskerk · iglesia de San Nicolás",
-                  "value": "Edificio gótico junto a Korenmarkt; exterior e interior si está abierto."
+                  "value": "Edificio gótico junto a Korenmarkt; exterior e interior si está abierto.",
+                  "placeId": "niklaas"
                 },
                 {
                   "label": "Belfort · campanario",
-                  "value": "Torre del centro histórico, exterior y posible subida al mirador dentro de horario."
+                  "value": "Torre del centro histórico, exterior y posible subida al mirador dentro de horario.",
+                  "placeId": "belfry"
                 },
                 {
                   "label": "Sint-Baafskathedraal · San Bavón",
-                  "value": "Catedral monumental; interior gratuito básico habitualmente, retablo con entrada específica."
+                  "value": "Catedral monumental; interior gratuito básico habitualmente, retablo con entrada específica.",
+                  "placeId": "bavo"
                 },
                 {
                   "label": "Werregarenstraat · calle de los grafitis",
-                  "value": "Callejón de arte urbano cambiante, parada breve y distinta a los monumentos."
+                  "value": "Callejón de arte urbano cambiante, parada breve y distinta a los monumentos.",
+                  "placeId": "graffiti"
                 },
                 {
                   "label": "Vrijdagmarkt",
-                  "value": "Gran plaza histórica, buena para pasear y combinar con Dulle Griet."
+                  "value": "Gran plaza histórica, buena para pasear y combinar con Dulle Griet.",
+                  "placeId": "vrijdagmarkt"
                 }
               ]
             },
@@ -1274,23 +1283,28 @@
               "items": [
                 {
                   "label": "Castillo de Gravensteen",
-                  "value": "Recorrido por las salas de la fortaleza, con entrada de pago."
+                  "value": "Recorrido por las salas de la fortaleza, con entrada de pago.",
+                  "placeId": "gravensteen"
                 },
                 {
                   "label": "Catedral de San Bavón",
-                  "value": "Interior gótico y, si interesa, el Cordero Místico en visita específica."
+                  "value": "Interior gótico y, si interesa, el Cordero Místico en visita específica.",
+                  "placeId": "bavo"
                 },
                 {
                   "label": "Iglesia de San Nicolás",
-                  "value": "Entrada interior opcional y breve; confirmar apertura."
+                  "value": "Entrada interior opcional y breve; confirmar apertura.",
+                  "placeId": "niklaas"
                 },
                 {
                   "label": "Campanario de Gante",
-                  "value": "Interior y mirador sujeto a horarios, acceso y tiempo meteorológico."
+                  "value": "Interior y mirador sujeto a horarios, acceso y tiempo meteorológico.",
+                  "placeId": "belfry"
                 },
                 {
                   "label": "Bares cerveceros",
-                  "value": "Dulle Griet, Trollekelder y Waterhuis sirven también como refugio agradable en caso de lluvia."
+                  "value": "Dulle Griet, Trollekelder y Waterhuis sirven también como refugio agradable en caso de lluvia.",
+                  "url": "#/gante/cervezas"
                 }
               ]
             },
@@ -1342,15 +1356,18 @@
               "items": [
                 {
                   "label": "Dulle Griet · Vrijdagmarkt 50",
-                  "value": "Bar emblemático de gran variedad de cervezas; conocido por servir determinadas cervezas en vasos grandes con la divertida tradición del zapato como depósito."
+                  "value": "Bar emblemático de gran variedad de cervezas; conocido por servir determinadas cervezas en vasos grandes con la divertida tradición del zapato como depósito.",
+                  "placeId": "dulle_griet"
                 },
                 {
                   "label": "Trollekelder · Walter De Buckplein 4",
-                  "value": "Bar de decoración fantástica con troles y una amplísima selección de cervezas belgas; especialmente singular."
+                  "value": "Bar de decoración fantástica con troles y una amplísima selección de cervezas belgas; especialmente singular.",
+                  "placeId": "trollekelder"
                 },
                 {
                   "label": "Waterhuis aan de Bierkant · Groentenmarkt 9",
-                  "value": "Bar histórico junto al canal, idóneo para parar a tomar cerveza con vistas al agua."
+                  "value": "Bar histórico junto al canal, idóneo para parar a tomar cerveza con vistas al agua.",
+                  "placeId": "waterhuis"
                 }
               ]
             },
@@ -1395,23 +1412,28 @@
               "items": [
                 {
                   "label": "Gent-Sint-Pieters",
-                  "value": "Estación ferroviaria monumental, punto de partida."
+                  "value": "Estación ferroviaria monumental, punto de partida.",
+                  "placeId": "pieters"
                 },
                 {
                   "label": "Sint-Pietersplein y abadía de San Pedro",
-                  "value": "Plaza amplia y conjunto histórico interesante desde el exterior."
+                  "value": "Plaza amplia y conjunto histórico interesante desde el exterior.",
+                  "placeId": "abbey_pieters"
                 },
                 {
                   "label": "Vooruit (VIERNULVIER)",
-                  "value": "Edificio cultural modernista muy singular en el barrio universitario."
+                  "value": "Edificio cultural modernista muy singular en el barrio universitario.",
+                  "placeId": "vooruit"
                 },
                 {
                   "label": "De Krook",
-                  "value": "Biblioteca de arquitectura contemporánea junto al agua; interés por el edificio, sin visita a museo."
+                  "value": "Biblioteca de arquitectura contemporánea junto al agua; interés por el edificio, sin visita a museo.",
+                  "placeId": "krook"
                 },
                 {
                   "label": "Centro histórico",
-                  "value": "Continuar hacia la catedral y la zona de las tres torres; desde allí es posible volver al hotel."
+                  "value": "Continuar hacia la catedral y la zona de las tres torres; desde allí es posible volver al hotel.",
+                  "placeId": "bavo"
                 }
               ]
             },
