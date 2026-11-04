@@ -30,8 +30,17 @@
     block({type:'facts',title:'Estancia',items:[{label:'Entrada',value:h.checkin},{label:'Salida',value:h.checkout},{label:'Total reserva',value:currency(h.price)+' · impuestos incluidos; pago no comprobado.'},{label:'Aparcamiento',value:h.parking}]})+
     block({type:'note',title:'Datos de la reserva',text:h.conditions});
  }
+ function placeCards(ids) {
+  return '<section class="place-cards" aria-label="Fichas de lugares">'+ids.map(id=>{
+   const p=data.places.find(x=>x.id===id);if(!p)return '';
+   const maps=search(p);
+   const info=p.url?anchor(p.url,'Ficha oficial','inline-action'):'';
+   return '<article class="place-card" id="lugar-'+escape(p.id)+'"><div class="place-card-head"><h2>'+escape(p.name)+'</h2>'+status(p.status)+'</div><p>'+escape(p.description||'Lugar de interés para visitar durante el viaje.')+'</p><div class="actions">'+anchor(maps,'Ver en Google Maps','button secondary')+info+'</div></article>';
+  }).join('')+'</section>';
+ }
  function block(b) {
   switch(b.type){
+   case 'place-cards':return placeCards(b.ids);
    case 'park-guide':return '<div class="park-guide" id="park-guide"></div>';
    case 'timeline': return `<ol class="timeline">${b.items.map(i=>`<li><span class="time">${escape(i.time)}</span><h2>${escape(i.title)}</h2>${status(i.status)}${i.text?`<p>${escape(i.text)}</p>`:''}${i.route?routeButton(i.route):''}${i.link?anchor(i.link,'Ver esta etapa','inline-action'):''}</li>`).join('')}</ol>`;
    case 'note':return `<section class="note ${escape(b.tone||'')}"><h2>${escape(b.title)}</h2><p>${escape(b.text)}</p>${b.url?anchor(b.url,'Consultar fuente','inline-action'):''}</section>`;
@@ -194,7 +203,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=2.4');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=2.5');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();
