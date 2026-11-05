@@ -10,6 +10,8 @@ Burdeos: paseo nocturno, CIVB, Julo, Max Bordeaux solo si se llega temprano, Che
 
 Saint-Émilion: paseo corto 09:30–12:00/12:30 entre miradores, monolítica exterior, Tour du Roy, Maison du Vin desde 10:00, Cordeliers desde 10:30 y macarons. Clos des Menuts opcional: productor y denominación discrepan sobre apertura dominical de noviembre, se indica confirmar por teléfono. L’Envers du Décor solo como almuerzo alternativo si se alarga la visita. Parking público gratuito según turismo junto a gendarmería; punto de mapa identificado como referencia, no como entrada al parking. Regreso con margen para entrega del coche a las 20:00.
 
+Revisión de 33 enlaces oficiales: sustituido el folleto antiguo de Saint-Émilion que devolvía 404 por la edición oficial 2026, comprobada accesible. Tres fuentes presentan respuesta temporal o límite de red; se conservan sus enlaces originales.
+
 Consultados itinerario maestro y memorias Nantes/Burdeos; propuestas recientes prevalecen sobre el esquema antiguo de Galería por la mañana. Sin publicación de documentos privados, entradas o identificadores. Fuentes originales en fichas; no se modifica el maestro sin solicitud específica.
 
 ## Revisión general · 05/11/2026
