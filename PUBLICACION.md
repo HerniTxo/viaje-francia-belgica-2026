@@ -1,3 +1,7 @@
+## París · paseos dibujados en mapas · 05/11/2026
+
+París A metro: École Militaire, Champ de Mars, Eiffel, Pont d’Iéna y Trocadéro; enlace exterior a M9 y Arco por Kléber como ampliación opcional. París A bus: parada Tour Eiffel, torre, puente y Trocadéro, con ampliación opcional al Arco. París B: Châtelet–Hôtel de Ville–Notre-Dame y Notre-Dame–Pont Neuf–Louvre–Palais Royal, más regreso a pie al RER como alternativa. Siete trazados sobre OpenStreetMap/FOSSGIS integrados en los tres mapas propios y el mapa general. No se añaden estaciones de paso ni se dibujan correspondencias interiores como rutas exteriores. Los tres mapas de ruta permiten encuadrar el paseo de París o todos sus puntos, incluido Torcy. Sin cambios de horarios, decisiones ni reservas.
+
 ## Nantes, Burdeos y Saint-Émilion · 05/11/2026
 
 Nantes y Burdeos: Hotel primero con aparcamientos, Qué ver, Comer y beber, Mapa general y Tiempo. Saint-Émilion: Qué ver con aparcamiento al principio, Comer y beber, Mapa general y Tiempo. Se conservan las URL antiguas mediante alias y los trayectos en coche. 39 puntos en estas páginas con ficha, fuente y mapa; 12 paseos trazados sobre calles (incluidos tres recorridos anteriores revisados), mapas temáticos y generales.
