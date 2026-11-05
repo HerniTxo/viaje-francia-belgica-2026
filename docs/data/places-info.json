@@ -893,7 +893,9 @@
     "aliases": [
       "Patershol"
     ],
-    "tip": "Paseo libre por calles estrechas. Buena zona para recorrer después de ver el castillo."
+    "tip": "Paseo libre por calles estrechas. Buena zona para recorrer después de ver el castillo.",
+    "lat": 51.0584,
+    "lng": 3.7225
   },
   {
     "id": "korenlei",
@@ -904,7 +906,9 @@
     "aliases": [
       "Korenlei"
     ],
-    "tip": "La otra orilla del canal; buenas fotos de Graslei."
+    "tip": "La otra orilla del canal; buenas fotos de Graslei.",
+    "lat": 51.0552,
+    "lng": 3.7195
   },
   {
     "id": "michael_bridge",
@@ -920,7 +924,9 @@
     "tip": "Mirador del centro medieval y las tres torres.",
     "ganteAliases": [
       "puente de San Miguel"
-    ]
+    ],
+    "lat": 51.0548,
+    "lng": 3.7205
   },
   {
     "id": "niklaas",
@@ -937,7 +943,9 @@
     "official": "https://visit.gent.be/en/see-do/st-nicholas-church",
     "ganteAliases": [
       "iglesia de San Nicolás"
-    ]
+    ],
+    "lat": 51.0541,
+    "lng": 3.7221
   },
   {
     "id": "graffiti",
@@ -951,7 +959,9 @@
       "Calle de los grafitis",
       "Werregarenstraat"
     ],
-    "tip": "Arte urbano cambiante; paseo corto y al aire libre."
+    "tip": "Arte urbano cambiante; paseo corto y al aire libre.",
+    "lat": 51.055,
+    "lng": 3.7255
   },
   {
     "id": "vrijdagmarkt",
@@ -963,7 +973,9 @@
       "Vrijdagmarkt"
     ],
     "tip": "Plaza histórica, punto de referencia para el bar Dulle Griet.",
-    "ganteAliases": []
+    "ganteAliases": [],
+    "lat": 51.0584,
+    "lng": 3.7263
   },
   {
     "id": "dulle_griet",
@@ -976,7 +988,9 @@
       "Dulle Griet · Vrijdagmarkt 50"
     ],
     "tip": "Interesante por ambiente tradicional y gran selección de cervezas belgas.",
-    "official": "https://www.dullegriet.be/"
+    "official": "https://www.dullegriet.be/",
+    "lat": 51.0584,
+    "lng": 3.726
   },
   {
     "id": "trollekelder",
@@ -988,7 +1002,9 @@
       "Trollekelder",
       "Trollekelder · Walter De Buckplein 4"
     ],
-    "tip": "Local especialmente curioso por su decoración fantástica."
+    "tip": "Local especialmente curioso por su decoración fantástica.",
+    "lat": 51.0562,
+    "lng": 3.7295
   },
   {
     "id": "waterhuis",
@@ -1003,7 +1019,9 @@
     "tip": "Muy buena opción para tomar algo junto al canal.",
     "ganteAliases": [
       "Waterhuis"
-    ]
+    ],
+    "lat": 51.0568,
+    "lng": 3.7217
   },
   {
     "id": "pieters",
@@ -1014,7 +1032,9 @@
     "aliases": [
       "Gent-Sint-Pieters"
     ],
-    "tip": "Alternativa para bajar del tren y caminar por el barrio universitario."
+    "tip": "Alternativa para bajar del tren y caminar por el barrio universitario.",
+    "lat": 51.0354,
+    "lng": 3.7107
   },
   {
     "id": "abbey_pieters",
@@ -1027,7 +1047,9 @@
       "Sint-Pietersplein y abadía de San Pedro",
       "Sint-Pietersplein"
     ],
-    "tip": "Conjunto histórico visible desde el exterior; no hace falta visitar museos."
+    "tip": "Conjunto histórico visible desde el exterior; no hace falta visitar museos.",
+    "lat": 51.0419,
+    "lng": 3.7266
   },
   {
     "id": "vooruit",
@@ -1042,7 +1064,9 @@
       "VIERNULVIER"
     ],
     "tip": "Edificio cultural singular que merece verse desde fuera.",
-    "official": "https://www.viernulvier.gent/"
+    "official": "https://www.viernulvier.gent/",
+    "lat": 51.0478,
+    "lng": 3.7272
   },
   {
     "id": "krook",
@@ -1055,19 +1079,24 @@
       "De Krook"
     ],
     "tip": "Arquitectura contemporánea junto al agua; sin necesidad de visitar museos.",
-    "official": "https://dekrook.be/"
+    "official": "https://dekrook.be/",
+    "lat": 51.04905,
+    "lng": 3.72879
   },
   {
     "id": "wintercircus",
     "name": "Wintercircus",
     "zone": "Gante · lugares de interés",
-    "description": "Lugar cultural; evento del 12 pendiente de verificar.",
+    "description": "Antiguo circo rehabilitado con arena pública y espacios gastronómicos. La instalación audiovisual de Ksawery Komputery se anuncia del 10 al 15 de noviembre, gratuita durante el día; confirmar la hora y el acceso del 11 festivo o tras el regreso del 12.",
     "query": "Wintercircus, Gent, Bélgica",
     "aliases": [
       "Wintercircus"
     ],
-    "tip": "El posible espectáculo del día 12 sigue sin confirmar; consultar la agenda oficial.",
-    "official": "https://www.wintercircus.be/"
+    "tip": "El horario exacto de la instalación puede no encajar con una visita nocturna. Consultar la agenda; los bares tienen sus propios horarios.",
+    "official": "https://www.wintercircus.be/",
+    "lat": 51.048422,
+    "lng": 3.727861,
+    "extraSource": "https://www.ftifestival.be/programma/gent/ksawery-komputery"
   },
   {
     "id": "dampoort_parking",
@@ -1080,7 +1109,9 @@
     ],
     "description": "Aparcamiento exterior junto a la estación, en Koopvaardijlaan. Alternativa al parking del hotel; no está reservado. Consultar las tarifas y condiciones actuales en SNCB.",
     "query": "Parking Gent Dampoort P1, Koopvaardijlaan, Gent, Bélgica",
-    "official": "https://www.belgiantrain.be/en/station-information/car-or-bike-at-station/b-parking/my-b-parking/gent-dampoort"
+    "official": "https://www.belgiantrain.be/en/station-information/car-or-bike-at-station/b-parking/my-b-parking/gent-dampoort",
+    "lat": 51.0561,
+    "lng": 3.7407
   },
   {
     "id": "gante_parking",
@@ -1125,7 +1156,9 @@
     "aliases": [
       "Grand Place"
     ],
-    "official": "https://www.visit.brussels/es/visitantes/venue-details.Grand-Place.220445"
+    "official": "https://www.visit.brussels/es/visitantes/venue-details.Grand-Place.220445",
+    "lat": 50.84673,
+    "lng": 4.35255
   },
   {
     "id": "bxl_galerias",
@@ -1136,7 +1169,9 @@
     "aliases": [
       "Galerías Saint-Hubert"
     ],
-    "official": "https://www.grsh.be/"
+    "official": "https://www.grsh.be/",
+    "lat": 50.8471,
+    "lng": 4.35322
   },
   {
     "id": "bxl_manneken",
@@ -1147,7 +1182,9 @@
     "aliases": [
       "Manneken Pis"
     ],
-    "official": "https://www.visit.brussels/"
+    "official": "https://www.visit.brussels/",
+    "lat": 50.84499,
+    "lng": 4.34999
   },
   {
     "id": "bxl_bolsa",
@@ -1158,7 +1195,9 @@
     "aliases": [
       "Bolsa de Bruselas"
     ],
-    "official": "https://www.boursebeurs.be/en"
+    "official": "https://www.boursebeurs.be/en",
+    "lat": 50.84795,
+    "lng": 4.35043
   },
   {
     "id": "bxl_brucity",
@@ -1169,7 +1208,9 @@
     "aliases": [
       "Brucity Rooftop"
     ],
-    "official": "https://www.brussels.be/rooftop"
+    "official": "https://www.brussels.be/rooftop",
+    "lat": 50.8501,
+    "lng": 4.34998
   },
   {
     "id": "bxl_beerlab",
@@ -1180,7 +1221,9 @@
     "aliases": [
       "The BeerLab Rooftop"
     ],
-    "official": "https://thebeerlabrooftop.be/en/contact"
+    "official": "https://thebeerlabrooftop.be/en/contact",
+    "lat": 50.84795,
+    "lng": 4.35043
   },
   {
     "id": "bxl_atomium",
@@ -1191,7 +1234,9 @@
     "aliases": [
       "Atomium"
     ],
-    "official": "https://atomium.be/"
+    "official": "https://atomium.be/",
+    "lat": 50.89517,
+    "lng": 4.34165
   },
   {
     "id": "bxl_marolles",
@@ -1202,7 +1247,9 @@
     "aliases": [
       "Barrio de Marolles"
     ],
-    "official": "https://www.visit.brussels/en/visitors/plan-your-trip/the-marolles-brussels-authentic-and-popular-neighbourhood"
+    "official": "https://www.visit.brussels/en/visitors/plan-your-trip/the-marolles-brussels-authentic-and-popular-neighbourhood",
+    "lat": 50.83702,
+    "lng": 4.34579
   },
   {
     "id": "bxl_saintecatherine",
@@ -1213,7 +1260,9 @@
     "aliases": [
       "Sainte-Catherine"
     ],
-    "official": "https://www.visit.brussels/"
+    "official": "https://www.visit.brussels/",
+    "lat": 50.85081,
+    "lng": 4.34861
   },
   {
     "id": "bxl_bellone",
@@ -1224,7 +1273,9 @@
     "aliases": [
       "La Bellone"
     ],
-    "official": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels"
+    "official": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels",
+    "lat": 50.85126,
+    "lng": 4.34612
   },
   {
     "id": "bxl_cigogne",
@@ -1235,7 +1286,9 @@
     "aliases": [
       "Rue de la Cigogne"
     ],
-    "official": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels"
+    "official": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels",
+    "lat": 50.8525584,
+    "lng": 4.3447495
   },
   {
     "id": "bxl_toone",
@@ -1246,7 +1299,9 @@
     "aliases": [
       "Teatro y taberna Toone"
     ],
-    "official": "https://www.toone.be/en/infos.php"
+    "official": "https://www.toone.be/en/infos.php",
+    "lat": 50.84772,
+    "lng": 4.35372
   },
   {
     "id": "bxl_moeder",
@@ -1257,7 +1312,9 @@
     "aliases": [
       "Moeder Lambic Fontainas"
     ],
-    "official": "https://moederlambic.com/"
+    "official": "https://moederlambic.com/",
+    "lat": 50.84512,
+    "lng": 4.34692
   },
   {
     "id": "bxl_poechenelle",
@@ -1268,7 +1325,9 @@
     "aliases": [
       "Poechenellekelder"
     ],
-    "official": "https://poechenellekelder.be/en"
+    "official": "https://poechenellekelder.be/en",
+    "lat": 50.84478,
+    "lng": 4.35002
   },
   {
     "id": "bxl_delirium",
@@ -1279,7 +1338,9 @@
     "aliases": [
       "Delirium Café"
     ],
-    "official": "https://www.deliriumvillage.com/contact/"
+    "official": "https://www.deliriumvillage.com/contact/",
+    "lat": 50.84845,
+    "lng": 4.35383
   },
   {
     "id": "bxl_comicsans",
@@ -1290,7 +1351,9 @@
     "aliases": [
       "Comic Sans Brussels"
     ],
-    "official": "https://www.comicsansbrussels.be/"
+    "official": "https://www.comicsansbrussels.be/",
+    "lat": 50.85006,
+    "lng": 4.35496
   },
   {
     "id": "bxl_outpost",
@@ -1301,7 +1364,9 @@
     "aliases": [
       "Outpost Brussels"
     ],
-    "official": "https://outpostbrussels.be/en/pages/qui-sommes-nous"
+    "official": "https://outpostbrussels.be/en/pages/qui-sommes-nous",
+    "lat": 50.84867,
+    "lng": 4.36525
   },
   {
     "id": "bxl_pinball",
@@ -1312,7 +1377,9 @@
     "aliases": [
       "Brussels Pinball Museum"
     ],
-    "official": "https://www.brusselspinballmuseum.com/"
+    "official": "https://www.brusselspinballmuseum.com/",
+    "lat": 50.81842,
+    "lng": 4.4168
   },
   {
     "id": "bxl_tropismes",
@@ -1323,7 +1390,9 @@
     "aliases": [
       "Librería Tropismes"
     ],
-    "official": "https://www.grsh.be/en/store/tropismes/"
+    "official": "https://www.grsh.be/en/store/tropismes/",
+    "lat": 50.84817,
+    "lng": 4.35484
   },
   {
     "id": "bxl_casacomic",
@@ -1334,7 +1403,9 @@
     "aliases": [
       "La Casa del Cómic"
     ],
-    "official": "https://www.visit.brussels/en/visitors/venue-details.Comic-Strip-House.265283"
+    "official": "https://www.visit.brussels/en/visitors/venue-details.Comic-Strip-House.265283",
+    "lat": 50.844986,
+    "lng": 4.356646
   },
   {
     "id": "bxl_brusel",
@@ -1345,7 +1416,9 @@
     "aliases": [
       "Brüsel"
     ],
-    "official": "https://www.brusel.com/librairie-galerie-brusel/"
+    "official": "https://www.brusel.com/librairie-galerie-brusel/",
+    "lat": 50.847679,
+    "lng": 4.349242
   },
   {
     "id": "bxl_pelemek",
@@ -1356,7 +1429,9 @@
     "aliases": [
       "Pêle-Mêle"
     ],
-    "official": "https://pele-mele.be/bruxelles/"
+    "official": "https://pele-mele.be/bruxelles/",
+    "lat": 50.8442037,
+    "lng": 4.3450118
   },
   {
     "id": "bxl_comicmuseum",
@@ -1367,7 +1442,9 @@
     "aliases": [
       "Museo del Cómic"
     ],
-    "official": "https://www.comicscenter.net/en/practical-information/opening-hours-and-admission-fees"
+    "official": "https://www.comicscenter.net/en/practical-information/opening-hours-and-admission-fees",
+    "lat": 50.851252,
+    "lng": 4.360134
   },
   {
     "id": "bru_markt",

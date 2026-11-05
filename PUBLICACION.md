@@ -1,3 +1,9 @@
+## Revisión general · 05/11/2026
+
+Comprobadas estructura, navegación y referencias de las diez páginas, fichas, 19 mapas y 14 trazados peatonales. Pruebas de navegación pública en París, Disney, Gante, Brujas, Bruselas y restantes destinos; previsión de Gante disponible. Sin referencias internas rotas ni fichas ausentes. Sincronizadas 38 fichas antiguas con las coordenadas de su mapa general y actualizada la descripción anterior de Wintercircus.
+
+Revisión de 80 enlaces oficiales de las páginas actualizadas: 61 accesibles directamente; otros 19 con restricciones HTTP, redirección, respuesta temporal o timeout. No se detectaron respuestas 404; estas restricciones no certifican que todos los enlaces externos funcionen en cualquier navegador. Se mantienen las fuentes originales. Horarios señalados como pendientes, especialmente último RER a Torcy, sin elevarlos a confirmados.
+
 ## Bélgica · navegación y comidas · 05/11/2026
 
 Gante: Hotel primero (parking y dos gasolineras Gabriëls próximas), Qué ver, Comer y beber, Mapa general y Tiempo. Brujas/Bruselas: Qué ver, Comer y beber, Mapa general y Tiempo. Se integran trenes, paseos, tiendas y eventos en apartados internos; se conservan enlaces antiguos mediante alias y el mapa oficial independiente de murales de Bruselas.
