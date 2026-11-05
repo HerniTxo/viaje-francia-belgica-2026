@@ -1,3 +1,7 @@
+## París · solo paradas útiles · 05/11/2026
+
+A petición del viajero, las rutas muestran únicamente estaciones donde se sube, baja o hace transbordo, y paradas de bus de inicio y final. Retiradas las estaciones de paso de fichas, mapas propios y mapa general, conservando visitas y alternativas opcionales. A metro no incluye Châtelet y A bus no incluye Auber, al ser estaciones de paso. Los planos oficiales completos se conservan.
+
 ## París–Torcy · 05/11/2026
 
 Hotel como primera pestaña; retirada Llegada. Tres rutas de París con mapas propios y catálogo común completo: estaciones de acceso y correspondencia, paradas intermedias, visitas, puente y ampliación opcional al Arco. A metro incorpora Auber, Opéra, École Militaire, Havre–Caumartin, M9 Trocadéro y correspondencias interiores. Los marcadores de transporte representan el entorno de estación o parada, no bocas o aceras exactas.
