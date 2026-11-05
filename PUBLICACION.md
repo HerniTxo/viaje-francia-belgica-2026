@@ -1,3 +1,7 @@
+## Disney · Guía llegada · 05/11/2026
+
+Primera pestaña Guía llegada en sustitución de Guía completa: RER A directo Torcy–Marne-la-Vallée–Chessy, sentido, duración orientativa, precio por persona y grupo, soporte y regreso. Sin trayecto hotel–estación ni catálogo de estaciones de paso. Transporte se integra aquí y los enlaces internos se actualizan; se conserva el identificador de la primera pestaña para mantener sus enlaces. Tarifa 2,55 € contrastada con IDFM/RATP y acceso ferroviario con Disney. Planes de parques, favoritos, planos y consignas conservados.
+
 ## París · solo paradas útiles · 05/11/2026
 
 A petición del viajero, las rutas muestran únicamente estaciones donde se sube, baja o hace transbordo, y paradas de bus de inicio y final. Retiradas las estaciones de paso de fichas, mapas propios y mapa general, conservando visitas y alternativas opcionales. A metro no incluye Châtelet y A bus no incluye Auber, al ser estaciones de paso. Los planos oficiales completos se conservan.

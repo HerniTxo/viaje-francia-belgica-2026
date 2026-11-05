@@ -948,43 +948,82 @@
       "panes": [
         {
           "id": "guia-completa",
-          "label": "Guía completa",
+          "label": "Guía llegada",
           "blocks": [
             {
-              "type": "note",
-              "title": "Nueva guía para aprovechar los dos días",
-              "text": "Guía visual para 3 adultos: recorridos por zonas, alternativas por lluvia y colas, espectáculos y fichas de lugares con mapas. Toca los nombres subrayados para ver descripción y ubicación.",
-              "tone": "plain"
-            },
-            {
-              "type": "links",
-              "title": "Abrir la guía",
+              "type": "facts",
+              "title": "Torcy → Disneyland Paris · RER A",
               "items": [
                 {
-                  "label": "Guía completa · 9 y 10 noviembre",
-                  "url": "https://hernitxo.github.io/viaje-francia-belgica-2026/disney-guia-completa.html",
-                  "text": "Recorridos visuales, planos y fichas de lugares con mapa."
+                  "label": "Ida directa",
+                  "value": "Subir en Torcy al RER A dirección Marne-la-Vallée–Chessy y bajar en la estación final Marne-la-Vallée–Chessy (Parcs Disneyland). Sin transbordos."
                 },
                 {
-                  "label": "Lunes · plan detallado",
-                  "url": "https://hernitxo.github.io/viaje-francia-belgica-2026/disney-guia-completa.html#lunes"
+                  "label": "Duración orientativa",
+                  "value": "Unos 12–15 minutos de tren, sin contar la espera ni los controles de entrada."
                 },
                 {
-                  "label": "Martes · plan detallado",
-                  "url": "https://hernitxo.github.io/viaje-francia-belgica-2026/disney-guia-completa.html#martes"
+                  "label": "Billete por persona",
+                  "value": "Ticket Metro–Tren–RER: 2,55 € por trayecto; ida y vuelta 5,10 €."
                 },
                 {
-                  "label": "Mapas y rutas",
-                  "url": "https://hernitxo.github.io/viaje-francia-belgica-2026/disney-guia-completa.html#mapas"
+                  "label": "Los 3 viajeros",
+                  "value": "15,30 € ida y vuelta por día; 30,60 € para los dos días, 9 y 10 de noviembre. Soporte no incluido."
+                },
+                {
+                  "label": "Soporte del billete",
+                  "value": "Cada viajero necesita su propio móvil compatible o Navigo Easy. Si compráis la tarjeta, cuesta 2 € adicionales por persona."
                 }
               ]
             },
             {
+              "type": "routes",
+              "ids": [
+                "disney_out"
+              ]
+            },
+            {
               "type": "note",
-              "title": "Funciones: nueva referencia encontrada",
-              "text": "La guía nueva usa referencia secundaria de Tales 21:00 y Cascade 20:50; confirmar sesiones del 9–10 en app. Las 21:00 del plan anterior eran hipótesis, no horarios oficiales.",
-              "tone": "pending",
-              "url": "https://pixiedustdlp.com/2026/10/05/disneyland-paris-entertainment-schedule/"
+              "title": "Al bajar en Chessy",
+              "text": "La estación está junto a Disney Village y los accesos a los dos parques. Seguir las indicaciones Parcs Disneyland y pasar los controles de seguridad.",
+              "tone": "plain",
+              "url": "https://www.disneylandparis.com/en-int/guest-services/getting-to-disneyland-paris-from-paris"
+            },
+            {
+              "type": "facts",
+              "title": "Regreso a Torcy",
+              "items": [
+                {
+                  "label": "RER A hacia París",
+                  "value": "Subir en Marne-la-Vallée–Chessy y bajar en Torcy, sin transbordos. Comprobar Torcy entre las paradas del tren."
+                }
+              ]
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "disney_back"
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Tarifa y horarios oficiales",
+              "items": [
+                {
+                  "label": "Precio del Ticket Metro–Tren–RER",
+                  "url": "https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/ticket-metro-train-rer",
+                  "text": "Tarifa ordinaria 2026."
+                },
+                {
+                  "label": "RER A · servicio y horarios",
+                  "url": "https://www.ratp.fr/vos-lignes/rer/a",
+                  "text": "Consultar las salidas del 9 y 10 de noviembre y el regreso tras los espectáculos."
+                },
+                {
+                  "label": "RER A · plano oficial PDF",
+                  "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/rer_a.pdf"
+                }
+              ]
             }
           ]
         },
@@ -1094,7 +1133,7 @@
                 },
                 {
                   "label": "Cómo llegar y volver",
-                  "url": "#/disney/transporte",
+                  "url": "#/disney/guia-completa",
                   "text": ""
                 }
               ]
@@ -1230,71 +1269,7 @@
                 },
                 {
                   "label": "Cómo regresar a Torcy",
-                  "url": "#/disney/transporte",
-                  "text": ""
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "transporte",
-          "label": "Transporte",
-          "blocks": [
-            {
-              "type": "note",
-              "title": "Propuesta: RER A desde Torcy",
-              "text": "Sin transporte reservado. Comprobar horarios de ida y regreso para cada fecha, especialmente al terminar los espectáculos.",
-              "tone": "plain",
-              "url": null
-            },
-            {
-              "type": "routes",
-              "ids": [
-                "hotel_rer",
-                "disney_out",
-                "disney_back"
-              ]
-            },
-            {
-              "type": "facts",
-              "title": "Recorrido y coste",
-              "items": [
-                {
-                  "label": "Paradas",
-                  "value": "Torcy → Bussy-Saint-Georges → Val d’Europe → Marne-la-Vallée–Chessy."
-                },
-                {
-                  "label": "Duración orientativa",
-                  "value": "12–15 min de tren, más acceso, espera, controles y paseo."
-                },
-                {
-                  "label": "Precio",
-                  "value": "2,55 € por persona y trayecto. 15,30 € el grupo al día; 30,60 € los dos días."
-                },
-                {
-                  "label": "Soporte",
-                  "value": "Cada persona necesita su propio móvil compatible o Navigo Easy; la tarjeta cuesta 2 € adicionales."
-                }
-              ]
-            },
-            {
-              "type": "links",
-              "title": "Consultar",
-              "items": [
-                {
-                  "label": "RER A · servicio y horarios",
-                  "url": "https://www.ratp.fr/vos-lignes/rer/a",
-                  "text": ""
-                },
-                {
-                  "label": "RER A · plano oficial PDF",
-                  "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/rer_a.pdf",
-                  "text": ""
-                },
-                {
-                  "label": "Alojamiento en Torcy",
-                  "url": "#/torcy-paris/hotel",
+                  "url": "#/disney/guia-completa",
                   "text": ""
                 }
               ]
