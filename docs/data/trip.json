@@ -1024,6 +1024,49 @@
                   "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/rer_a.pdf"
                 }
               ]
+            },
+            {
+              "type": "facts",
+              "title": "Casilleros SNCF · Marne-la-Vallée–Chessy",
+              "items": [
+                {
+                  "label": "Dónde",
+                  "value": "Nivel +1, galería oeste, antes de los controles Disney."
+                },
+                {
+                  "label": "Horario publicado",
+                  "value": "07:00–22:00; comprobar para 9 y 10."
+                },
+                {
+                  "label": "Precio / 24 h",
+                  "value": "Pequeño 5,50 €; mediano 7,50 €; grande 9,50 €. Por casillero, solo tarjeta."
+                },
+                {
+                  "label": "Medidas alto × ancho × fondo",
+                  "value": "43,3×34,7×82,4 cm; 59,1×34,7×82,4 cm; 90,8×51,9×82,4 cm."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Fuente SNCF",
+              "text": "Después de 24 h: 5 € por bulto y tramo adicional de 24 h.",
+              "tone": "plain",
+              "url": "https://www.garesetconnexions.sncf/fr/gares-services/marne-vallee-chessy/services-commerces/consignes"
+            },
+            {
+              "type": "note",
+              "title": "Consigna Disney atendida",
+              "text": "A la derecha de la entrada de Disneyland Park; no es un casillero interior automático. Tarifas orientativas independientes: accesorios 5 €, mochila/pequeño 11 €, grande 15 €, por artículo/día. Preguntar hora límite de recogida y condiciones de acceso a los objetos.",
+              "tone": "plain",
+              "url": "https://www.disneylandparis.com/en-int/guest-services/guest-storage"
+            },
+            {
+              "type": "note",
+              "title": "Recogida tras el espectáculo",
+              "text": "Objetivo estación 21:40–21:45, antes del cierre publicado de las 22:00. No está garantizado: depende del show real y de la salida. Las fuentes discrepan sobre el cierre Disney; confirmarlo al depositar.",
+              "tone": "plain",
+              "url": "https://julieears.com/en/planning/disneyland-paris-luggage-storage/"
             }
           ]
         },
@@ -1040,6 +1083,12 @@
           "id": "lunes",
           "label": "Lunes 9",
           "blocks": [
+            {
+              "type": "image",
+              "src": "assets/planos/disneyland-9.jpg",
+              "title": "Lunes 9 · Disneyland Park",
+              "text": "Ruta propuesta: Frontierland → Adventureland → Discoveryland → Main Street."
+            },
             {
               "type": "note",
               "title": "Horario de trabajo: 09:30–21:00",
@@ -1127,11 +1176,6 @@
               "title": "A mano",
               "items": [
                 {
-                  "label": "Abrir plano del lunes",
-                  "url": "#/disney/planos",
-                  "text": ""
-                },
-                {
                   "label": "Cómo llegar y volver",
                   "url": "#/disney/guia-completa",
                   "text": ""
@@ -1168,6 +1212,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "links",
+              "title": "Descargar",
+              "items": [
+                {
+                  "label": "PDF con ambos mapas",
+                  "url": "assets/planos/mapas-disney.pdf",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Cómo leer los planos",
+              "text": "Azul: mañana. Naranja: mediodía/tarde. Morado discontinuo: final del día. Numeración propia de visita. Líneas orientativas entre zonas; seguir señalización y app para accesos reales.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "links",
+              "title": "Referencia",
+              "items": [
+                {
+                  "label": "Plano base reproducido por JulieEars",
+                  "url": "https://julieears.com/en/guides/disneyland-paris-map/",
+                  "text": "© Disney. Se mantienen las atribuciones de las imágenes guardadas."
+                }
+              ]
             }
           ]
         },
@@ -1175,6 +1248,12 @@
           "id": "martes",
           "label": "Martes 10",
           "blocks": [
+            {
+              "type": "image",
+              "src": "assets/planos/adventure-10.jpg",
+              "title": "Martes 10 · Disney Adventure World",
+              "text": "Ruta propuesta: Tower → Avengers Campus → Ratatouille → Adventure Bay."
+            },
             {
               "type": "note",
               "title": "Horario de trabajo: 09:30–21:00",
@@ -1263,112 +1342,11 @@
               "title": "A mano",
               "items": [
                 {
-                  "label": "Abrir plano del martes",
-                  "url": "#/disney/planos",
-                  "text": ""
-                },
-                {
                   "label": "Cómo regresar a Torcy",
                   "url": "#/disney/guia-completa",
                   "text": ""
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "planos",
-          "label": "Planos",
-          "blocks": [
-            {
-              "type": "image",
-              "src": "assets/planos/disneyland-9.jpg",
-              "title": "Lunes 9 · Disneyland Park",
-              "text": "Ruta propuesta: Frontierland → Adventureland → Discoveryland → Main Street."
-            },
-            {
-              "type": "image",
-              "src": "assets/planos/adventure-10.jpg",
-              "title": "Martes 10 · Disney Adventure World",
-              "text": "Ruta propuesta: Tower → Avengers Campus → Ratatouille → Adventure Bay."
-            },
-            {
-              "type": "links",
-              "title": "Descargar",
-              "items": [
-                {
-                  "label": "PDF con ambos mapas",
-                  "url": "assets/planos/mapas-disney.pdf",
-                  "text": ""
-                }
-              ]
-            },
-            {
-              "type": "note",
-              "title": "Cómo leer los planos",
-              "text": "Azul: mañana. Naranja: mediodía/tarde. Morado discontinuo: final del día. Numeración propia de visita. Líneas orientativas entre zonas; seguir señalización y app para accesos reales.",
-              "tone": "plain",
-              "url": null
-            },
-            {
-              "type": "links",
-              "title": "Referencia",
-              "items": [
-                {
-                  "label": "Plano base reproducido por JulieEars",
-                  "url": "https://julieears.com/en/guides/disneyland-paris-map/",
-                  "text": "© Disney. Se mantienen las atribuciones de las imágenes guardadas."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "consignas",
-          "label": "Consignas",
-          "blocks": [
-            {
-              "type": "facts",
-              "title": "Casilleros SNCF · Marne-la-Vallée–Chessy",
-              "items": [
-                {
-                  "label": "Dónde",
-                  "value": "Nivel +1, galería oeste, antes de los controles Disney."
-                },
-                {
-                  "label": "Horario publicado",
-                  "value": "07:00–22:00; comprobar para 9 y 10."
-                },
-                {
-                  "label": "Precio / 24 h",
-                  "value": "Pequeño 5,50 €; mediano 7,50 €; grande 9,50 €. Por casillero, solo tarjeta."
-                },
-                {
-                  "label": "Medidas alto × ancho × fondo",
-                  "value": "43,3×34,7×82,4 cm; 59,1×34,7×82,4 cm; 90,8×51,9×82,4 cm."
-                }
-              ]
-            },
-            {
-              "type": "note",
-              "title": "Fuente SNCF",
-              "text": "Después de 24 h: 5 € por bulto y tramo adicional de 24 h.",
-              "tone": "plain",
-              "url": "https://www.garesetconnexions.sncf/fr/gares-services/marne-vallee-chessy/services-commerces/consignes"
-            },
-            {
-              "type": "note",
-              "title": "Consigna Disney atendida",
-              "text": "A la derecha de la entrada de Disneyland Park; no es un casillero interior automático. Tarifas orientativas independientes: accesorios 5 €, mochila/pequeño 11 €, grande 15 €, por artículo/día. Preguntar hora límite de recogida y condiciones de acceso a los objetos.",
-              "tone": "plain",
-              "url": "https://www.disneylandparis.com/en-int/guest-services/guest-storage"
-            },
-            {
-              "type": "note",
-              "title": "Recogida tras el espectáculo",
-              "text": "Objetivo estación 21:40–21:45, antes del cierre publicado de las 22:00. No está garantizado: depende del show real y de la salida. Las fuentes discrepan sobre el cierre Disney; confirmarlo al depositar.",
-              "tone": "plain",
-              "url": "https://julieears.com/en/planning/disneyland-paris-luggage-storage/"
             }
           ]
         },

@@ -1,3 +1,7 @@
+## Disney · pestañas simplificadas · 05/11/2026
+
+Consignas integradas en Guía llegada junto al RER A. Plano de Disneyland Park al principio del lunes y plano de Disney Adventure World al principio del martes. Retiradas pestañas Planos y Consignas; conservados descarga PDF, indicaciones y atribución de planos en el lunes. Enlaces internos actualizados y comprobados; Guía del parque y Tiempo conservadas.
+
 ## Disney · Guía llegada · 05/11/2026
 
 Primera pestaña Guía llegada en sustitución de Guía completa: RER A directo Torcy–Marne-la-Vallée–Chessy, sentido, duración orientativa, precio por persona y grupo, soporte y regreso. Sin trayecto hotel–estación ni catálogo de estaciones de paso. Transporte se integra aquí y los enlaces internos se actualizan; se conserva el identificador de la primera pestaña para mantener sus enlaces. Tarifa 2,55 € contrastada con IDFM/RATP y acceso ferroviario con Disney. Planes de parques, favoritos, planos y consignas conservados.
