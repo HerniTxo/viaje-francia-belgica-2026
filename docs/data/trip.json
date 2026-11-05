@@ -2939,101 +2939,8 @@
       "id": "nantes",
       "title": "Nantes",
       "date": "13–14 noviembre",
-      "intro": "Llegada el viernes, paseo nocturno y Máquinas de la Isla el sábado antes de salir hacia Burdeos.",
+      "intro": "Viernes 13: llegada y paseo nocturno. Sábado 14: centro por la mañana; Galería de las Máquinas desde las 14:00 como propuesta, y después coche a Burdeos.",
       "panes": [
-        {
-          "id": "plan",
-          "label": "Plan",
-          "blocks": [
-            {
-              "type": "timeline",
-              "items": [
-                {
-                  "time": "Vie. 13",
-                  "title": "Gante → Nantes",
-                  "text": "Segundo desplazamiento largo. Preparar descansos y no fijar una hora de paseo antes de conocer la llegada.",
-                  "status": "confirmado",
-                  "route": null,
-                  "link": null
-                },
-                {
-                  "time": "Desde 15:00",
-                  "title": "Entrada en Adagio Nantes Centre",
-                  "text": "Alojamiento en zona peatonal; acceso y aparcamiento por resolver.",
-                  "status": "confirmado",
-                  "route": null,
-                  "link": null
-                },
-                {
-                  "time": "13 · noche",
-                  "title": "Paseo por Nantes",
-                  "text": "Castillo de los Duques de Bretaña → Bouffay → Passage Pommeraye. Propuesta previa; comprobar si el pasaje sigue abierto.",
-                  "status": "propuesta",
-                  "route": "nantes_walk",
-                  "link": null
-                },
-                {
-                  "time": "Sáb. 14 · mañana",
-                  "title": "Les Machines de l’île",
-                  "text": "Visita prevista en el esquema del viaje. Horario exacto, actividad y entradas pendientes; no consta compra.",
-                  "status": "propuesta",
-                  "route": "machines",
-                  "link": null
-                },
-                {
-                  "time": "14 · después de la visita",
-                  "title": "Continuar hacia Burdeos",
-                  "text": "Salida de la habitación hasta las 11:00. Resolver equipaje y coche si la visita se prolonga.",
-                  "status": "propuesta",
-                  "route": null,
-                  "link": "#/burdeos/viaje"
-                }
-              ]
-            },
-            {
-              "type": "links",
-              "title": "Máquinas de la Isla",
-              "items": [
-                {
-                  "label": "Horarios oficiales",
-                  "url": "https://www.lesmachines-nantes.fr/pratique/horaires/",
-                  "text": ""
-                },
-                {
-                  "label": "Actividades y billetes",
-                  "url": "https://reservation.lesmachines-nantes.fr/",
-                  "text": ""
-                }
-              ]
-            },
-            {
-              "type": "note",
-              "title": "Falta cerrar",
-              "text": "Distinguir Galería, paseo en el Gran Elefante y Carrusel al elegir las entradas. No hay una actividad concreta reservada.",
-              "tone": "pending",
-              "url": null
-            }
-          ]
-        },
-        {
-          "id": "viaje",
-          "label": "Llegada",
-          "blocks": [
-            {
-              "type": "routes",
-              "ids": [
-                "road13"
-              ]
-            },
-            {
-              "type": "note",
-              "title": "Antes de llegar al hotel",
-              "text": "Avisar de la llegada, confirmar acceso en coche a la zona peatonal y reservar parking si se elige el del hotel. No consta reserva de aparcamiento.",
-              "tone": "pending",
-              "url": null
-            }
-          ]
-        },
         {
           "id": "hotel",
           "label": "Hotel",
@@ -3041,37 +2948,282 @@
             {
               "type": "hotel",
               "id": "nantes"
+            },
+            {
+              "type": "facts",
+              "title": "Aparcamiento · alternativas",
+              "items": [
+                {
+                  "label": "EFFIA Gare Nantes Nord",
+                  "value": "Alternativa al garaje del Adagio, junto a la estación y a pocos minutos del hotel. Consultar presupuesto con las horas reales y reservar con EFFIA; no hay plaza reservada.",
+                  "placeId": "nan_parking_gare"
+                },
+                {
+                  "label": "Parking Les Machines",
+                  "value": "Parking cubierto junto a las Máquinas. Altura máxima 2,10 m. Sábado 8:30–21:30; tarifa según duración en Naolib. Acceder siguiendo el navegador y la señalización de obras, sin dar por hecho que el puente Anne-de-Bretagne admite coches.",
+                  "placeId": "nan_parking_machines"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Acceso y equipaje del sábado",
+              "text": "El hotel está en una zona con acceso regulado: confirmar con recepción la entrada al garaje y reservarlo si se elige. Para salir de la habitación a las 11:00 y visitar la Galería a las 14:00, confirmar custodia de equipaje y si el coche puede seguir aparcado; alternativa: llevarlo al parking Les Machines. Ninguna plaza está reservada.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "road13"
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Hotel y aparcamientos",
+              "ids": [
+                "nantes",
+                "nan_parking_gare",
+                "nan_parking_machines"
+              ],
+              "walkRoutes": []
             }
           ]
         },
         {
-          "id": "mapa",
-          "label": "Mapa",
+          "id": "visitas",
+          "label": "Qué ver",
           "blocks": [
             {
-              "type": "map"
+              "type": "note",
+              "title": "Cómo encaja la Galería",
+              "text": "Calendario oficial del 13 y 14/11/2026: 14:00–18:00 ambos días; no abre por la mañana. Propuesta pendiente: sábado, primer turno disponible sobre las 14:00. Galería ≈1 h, 12 €/adulto, 36 € para tres. El viernes solo sirve de alternativa si llegáis con margen antes del cierre.",
+              "tone": "pending",
+              "url": "https://www.lesmachines-nantes.fr/pratique/horaires/"
+            },
+            {
+              "type": "note",
+              "title": "Gran Elefante sin paseos",
+              "text": "Mantenimiento oficial del 2/11/2026 al 28/02/2027. La visita propuesta es la Galería; el Carrusel tiene billete independiente. No hay entradas compradas.",
+              "tone": "plain",
+              "url": "https://www.lesmachines-nantes.fr/pratique/horaires/"
             },
             {
               "type": "routes",
               "ids": [
                 "nantes_walk",
+                "nan_morning",
                 "machines"
               ]
             },
             {
-              "type": "links",
-              "title": "Información local",
+              "type": "facts",
+              "title": "Centro · noche y mañana",
               "items": [
                 {
-                  "label": "Les Machines de l’île",
-                  "url": "https://www.lesmachines-nantes.fr/",
+                  "label": "Castillo de los Duques de Bretaña",
+                  "value": "Castillo de los duques de Bretaña. Patio y murallas gratuitos, 8:30–19:00; último acceso 18:45. Viernes después de las 19:00: únicamente vista desde la calle. Sábado por la mañana sí encaja entrar al patio y pasear por las murallas, sin visitar el museo.",
+                  "placeId": "chateau_nantes"
+                },
+                {
+                  "label": "Bouffay · plaza y callejuelas",
+                  "value": "Barrio medieval para pasear de noche: calles pequeñas, bares y la escultura Éloge du pas de côté en la plaza. Paseo exterior gratuito.",
+                  "placeId": "nan_bouffay"
+                },
+                {
+                  "label": "Place Royale",
+                  "value": "Plaza peatonal con fuente monumental, buena unión entre Bouffay y el Passage Pommeraye. Exterior gratuito para el paseo nocturno.",
+                  "placeId": "nan_royale"
+                },
+                {
+                  "label": "Passage Pommeraye",
+                  "value": "Galería comercial del siglo XIX con gran escalera y tres niveles. Priorizar el sábado por la mañana; en el paseo nocturno puede estar cerrada. Conservar la alternativa por calles exteriores. Tiendas con horarios propios.",
+                  "placeId": "pommeraye"
+                },
+                {
+                  "label": "Place Graslin",
+                  "value": "Plaza del teatro y de la brasserie La Cigale. Final cómodo del paseo central o comienzo del desayuno del sábado. Exterior gratuito.",
+                  "placeId": "nan_graslin"
+                },
+                {
+                  "label": "La Mystérieuse Librairie Nantaise",
+                  "value": "Librería especializada en cómic, manga y cultura gráfica. Parada friki para el sábado, si está abierta al pasar; no se cuenta con ella para el paseo nocturno. Confirmar horario en la tienda.",
+                  "placeId": "nan_librairie"
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Máquinas y paseo opcional por la isla",
+              "items": [
+                {
+                  "label": "Les Machines de l'Île",
+                  "value": "Galería de las Máquinas: bestiario mecánico, demostraciones y universo inspirado en Jules Verne y Leonardo. Calendario oficial: viernes 13 y sábado 14 de noviembre de 2026, 14:00–18:00; última entrada 45 min antes del cierre. Adulto 12 € (36 € para tres); visita aproximada de una hora. El Gran Elefante está en mantenimiento del 2/11/2026 al 28/02/2027. Billete del Carrusel aparte. Sin entradas reservadas.",
+                  "placeId": "machines"
+                },
+                {
+                  "label": "Les Anneaux · Quai des Antilles",
+                  "value": "18 anillos de Daniel Buren y Patrick Bouchain que se iluminan de colores al anochecer. Paseo exterior gratuito junto al antiguo Hangar à bananes. Extensión opcional: queda lejos del bucle del centro, así que elegidla solo si sobra energía.",
+                  "placeId": "nan_anneaux"
+                }
+              ]
+            },
+            {
+              "type": "details",
+              "title": "Extensión de los anillos · solo si sobra tiempo",
+              "blocks": [
+                {
+                  "type": "routes",
+                  "ids": [
+                    "nan_rings"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Salida a Burdeos · estimación",
+              "text": "Tras la Galería y recogida del coche, salida orientativa 15:30–16:00; calcular unas 4–4,5 h con margen de descanso y tráfico, y llegada hacia 19:30–20:30. Son estimaciones, no una reserva ni un cambio cerrado del horario. El sábado por la mañana queda para Nantes.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "links",
+              "title": "Entradas y fuentes originales",
+              "items": [
+                {
+                  "label": "Reservar Galería · elegir 14/11/2026",
+                  "url": "https://reservation.lesmachines-nantes.fr/",
                   "text": ""
                 },
                 {
-                  "label": "Castillo de Nantes",
-                  "url": "https://www.chateaunantes.fr/",
+                  "label": "Tarifas de cada actividad",
+                  "url": "https://www.lesmachines-nantes.fr/pratique/tarifs-billetteries/",
+                  "text": ""
+                },
+                {
+                  "label": "Siguiente etapa · Burdeos",
+                  "url": "#/burdeos/hotel",
                   "text": ""
                 }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Qué ver · paseos a pie",
+              "ids": [
+                "chateau_nantes",
+                "nan_bouffay",
+                "nan_royale",
+                "pommeraye",
+                "nan_graslin",
+                "nan_librairie",
+                "machines",
+                "nan_anneaux",
+                "nantes",
+                "nan_parking_machines"
+              ],
+              "walkRoutes": [
+                "nantes_walk",
+                "nan_morning",
+                "machines",
+                "nan_rings"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "comida",
+          "label": "Comer y beber",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Elegir según la llegada",
+              "text": "Viernes: galette en Heb Ken o cena próxima en Le Lieu Unique; Game Over si apetece un bar distinto. Sábado: desayuno en La Cigale o por libre y comida temprana antes de la Galería. Las galettes de Heb Ken empiezan a las 11:45, no son un desayuno temprano.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "facts",
+              "title": "Cena, desayuno y un bar diferente",
+              "items": [
+                {
+                  "label": "Crêperie Heb Ken",
+                  "value": "Galettes de trigo sarraceno y crêpes: opción sencilla para cenar el viernes o comer antes de la Galería el sábado. Publica servicio de lunes a sábado desde 11:45 hasta al menos 22:45. No sirve para desayunar temprano.",
+                  "placeId": "nan_hebken"
+                },
+                {
+                  "label": "Le Lieu Unique · antigua fábrica LU",
+                  "value": "Antigua fábrica de las galletas LU convertida en espacio cultural con bar y restaurante, junto al hotel. Viernes: bar 11:00–02:00 y cena 19:00–22:00. Interesa por el edificio y el ambiente; el bar no es una visita a la torre. Carta y programación en sus webs.",
+                  "placeId": "nan_lieu_unique"
+                },
+                {
+                  "label": "La Cigale · desayuno art nouveau",
+                  "value": "Brasserie de 1895 con mosaicos y decoración art nouveau. Interesa especialmente para desayunar y ver el interior. Carta de septiembre de 2026: desayuno dulce 20 € o salado 25 €, de 07:45 a 11:00. A la carta se puede pedir menos; no es la opción más barata.",
+                  "placeId": "nan_cigale"
+                },
+                {
+                  "label": "Game Over · bar de videojuegos",
+                  "value": "Bar de videojuegos, consolas y juegos de mesa. Acceso a las consolas con consumición; puede pedirse un documento como depósito. Opción distinta para la noche del viernes. Confirmar apertura y precios antes de ir; no confundir con el escape room del mismo nombre en Saint-Herblain.",
+                  "placeId": "nan_gameover"
+                }
+              ]
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "nan_food_centre",
+                "nan_food_lu"
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Comer y beber · rutas entre alternativas",
+              "ids": [
+                "nan_hebken",
+                "nan_lieu_unique",
+                "nan_cigale",
+                "nan_gameover",
+                "nantes"
+              ],
+              "walkRoutes": [
+                "nan_food_centre",
+                "nan_food_lu"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mapa",
+          "label": "Mapa general",
+          "blocks": [
+            {
+              "type": "map",
+              "title": "Todos los lugares de Nantes",
+              "ids": [
+                "nantes",
+                "nan_parking_gare",
+                "nan_parking_machines",
+                "chateau_nantes",
+                "nan_bouffay",
+                "nan_royale",
+                "pommeraye",
+                "nan_graslin",
+                "nan_librairie",
+                "machines",
+                "nan_anneaux",
+                "nan_hebken",
+                "nan_lieu_unique",
+                "nan_cigale",
+                "nan_gameover"
+              ],
+              "walkRoutes": [
+                "nantes_walk",
+                "nan_morning",
+                "machines",
+                "nan_food_centre",
+                "nan_food_lu",
+                "nan_rings"
               ]
             }
           ]
@@ -3084,87 +3236,33 @@
       ],
       "points": [
         "nantes",
+        "nan_parking_gare",
+        "nan_parking_machines",
         "chateau_nantes",
+        "nan_bouffay",
+        "nan_royale",
         "pommeraye",
-        "machines"
+        "nan_graslin",
+        "nan_librairie",
+        "machines",
+        "nan_anneaux",
+        "nan_hebken",
+        "nan_lieu_unique",
+        "nan_cigale",
+        "nan_gameover"
       ],
-      "next": "burdeos"
+      "next": "burdeos",
+      "paneAliases": {
+        "plan": "visitas",
+        "viaje": "hotel"
+      }
     },
     {
       "id": "burdeos",
       "title": "Burdeos",
       "date": "14–15 noviembre",
-      "intro": "Llegada desde Nantes y paseo nocturno. El domingo, salida hacia Saint-Émilion y Bilbao.",
+      "intro": "Sábado 14: llegada para la tarde-noche, paseo y vino por copas. Domingo 15: desayuno temprano, checkout y mañana en Saint-Émilion antes de regresar a Bilbao.",
       "panes": [
-        {
-          "id": "plan",
-          "label": "Plan",
-          "blocks": [
-            {
-              "type": "timeline",
-              "items": [
-                {
-                  "time": "Sáb. 14",
-                  "title": "Nantes → Burdeos",
-                  "text": "Después de las Máquinas de la Isla. Hora de salida según visita y tráfico.",
-                  "status": "confirmado",
-                  "route": null,
-                  "link": null
-                },
-                {
-                  "time": "Desde 15:00",
-                  "title": "Entrada en MEININGER",
-                  "text": "Hotel reservado. No tiene aparcamiento propio; falta elegir parking cercano.",
-                  "status": "confirmado",
-                  "route": null,
-                  "link": null
-                },
-                {
-                  "time": "14 · noche",
-                  "title": "Paseo por Burdeos",
-                  "text": "Place de la Bourse → Porte Cailhau → Saint-Pierre → Grand Théâtre. Propuesta guardada, pendiente de duración y conexión con el hotel.",
-                  "status": "propuesta",
-                  "route": "bordeaux_walk",
-                  "link": null
-                },
-                {
-                  "time": "Dom. 15 · mañana",
-                  "title": "Salir hacia Saint-Émilion",
-                  "text": "Habitación hasta las 11:00. La visita al pueblo tiene su propia página.",
-                  "status": "propuesta",
-                  "route": null,
-                  "link": "#/saint-emilion"
-                }
-              ]
-            },
-            {
-              "type": "note",
-              "title": "Aparcamiento pendiente",
-              "text": "Elegir un parking cercano y comprobar precio y acceso al coche para la salida del domingo.",
-              "tone": "pending",
-              "url": null
-            }
-          ]
-        },
-        {
-          "id": "viaje",
-          "label": "Llegada",
-          "blocks": [
-            {
-              "type": "routes",
-              "ids": [
-                "road14"
-              ]
-            },
-            {
-              "type": "note",
-              "title": "Sábado 14",
-              "text": "No fijar la hora de salida hasta cerrar la visita en Nantes. El paseo en Burdeos se adapta a la llegada.",
-              "tone": "plain",
-              "url": null
-            }
-          ]
-        },
         {
           "id": "hotel",
           "label": "Hotel",
@@ -3172,15 +3270,66 @@
             {
               "type": "hotel",
               "id": "burdeos"
+            },
+            {
+              "type": "facts",
+              "title": "Aparcar junto al hotel o en el centro",
+              "items": [
+                {
+                  "label": "METPARK Paludate",
+                  "value": "Aparcamiento recomendado por MEININGER, aproximadamente a 300 m. Abierto 24/7; altura máxima 2,40 m. Tarifa publicada: 22 €/24 h; noche 7 € solo en el tramo 20:00–07:00 y bajo sus condiciones. Las horas fuera de ese tramo se cobran; simular la estancia completa.",
+                  "placeId": "bdx_parking_paludate"
+                },
+                {
+                  "label": "Parking Bourse–Jean Jaurès",
+                  "value": "Alternativa para ir en coche desde el hotel al paseo del centro. Parking cubierto junto a la Bourse, con gálibo máximo 2 m. Comprobar tarifa por unas horas en el operador: este coste se suma al aparcamiento del hotel.",
+                  "placeId": "bdx_parking_bourse"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Paludate · obras durante vuestra estancia",
+              "text": "Del 26 de octubre al 28 de noviembre de 2026 está cerrado el nivel 2 por pintura; los demás niveles siguen abiertos. Prever menos plazas y seguir la señalización de acceso.",
+              "url": "https://www.mtpk.fr/travaux-de-renovation-du-parking-paludate-un-chantier-de-peinture-programme-pour-daout-a-novembre/",
+              "tone": "plain"
+            },
+            {
+              "type": "note",
+              "title": "Moverse andando o en coche",
+              "text": "El hotel está en la zona de Saint-Jean, apartado del paseo de la Bourse: calcular aproximadamente 35–45 min a pie por sentido. Si llegáis cansados, coche a Bourse–Jean Jaurès para el bucle corto y regreso al hotel. El domingo, checkout antes de salir al pueblo; no dejarlo para volver desde Saint-Émilion.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "road14",
+                "bdx_hotel_centre"
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Hotel y aparcamientos",
+              "ids": [
+                "burdeos",
+                "bdx_parking_paludate",
+                "bdx_parking_bourse"
+              ],
+              "walkRoutes": []
             }
           ]
         },
         {
-          "id": "mapa",
-          "label": "Mapa",
+          "id": "visitas",
+          "label": "Qué ver",
           "blocks": [
             {
-              "type": "map"
+              "type": "note",
+              "title": "Una noche, recorrido corto",
+              "text": "La propuesta principal es el casco antiguo iluminado, sin entradas a monumentos. Si se mantiene la Galería de Nantes a las 14:00, calcular llegada al hotel hacia 19:30–20:30 según tráfico y descansos. Adaptad paseo y cena a la hora real.",
+              "tone": "plain",
+              "url": null
             },
             {
               "type": "routes",
@@ -3189,12 +3338,196 @@
               ]
             },
             {
-              "type": "links",
-              "title": "Información local",
+              "type": "facts",
+              "title": "Paseo prioritario · fachadas y plazas",
               "items": [
                 {
-                  "label": "Turismo de Burdeos",
-                  "url": "https://www.bordeaux-tourisme.com/",
+                  "label": "Place de la Bourse",
+                  "value": "Place de la Bourse: fachadas monumentales del puerto comercial histórico, buena parada nocturna gratuita. El Miroir d’eau permanece fuera de servicio de noviembre a abril: no esperar chorros ni reflejos de una lámina de agua.",
+                  "placeId": "place_bourse"
+                },
+                {
+                  "label": "Porte Cailhau",
+                  "value": "Puerta medieval frente al río y a la Place du Palais. Se visita por fuera durante el paseo nocturno; no se incluye entrada al interior.",
+                  "placeId": "porte_cailhau"
+                },
+                {
+                  "label": "Saint-Pierre · casco antiguo",
+                  "value": "Calles antiguas, plazas pequeñas y restaurantes entre Porte Cailhau y la Bourse. Buen tramo nocturno a pie para completar las fachadas del antiguo puerto comercial. Exterior gratuito.",
+                  "placeId": "bdx_stpierre"
+                },
+                {
+                  "label": "Grand Théâtre",
+                  "value": "Grand Théâtre y Place de la Comédie, para contemplar la fachada de noche. Junto al edificio triangular del CIVB, buen final del paseo para tomar una copa.",
+                  "placeId": "grand_theatre"
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Alternativas para otro ritmo",
+              "items": [
+                {
+                  "label": "Grosse Cloche · exterior",
+                  "value": "Campanario medieval sobre una antigua puerta de la ciudad. Se propone el exterior nocturno, sin depender de visitas interiores. Extensión opcional al sur del recorrido central.",
+                  "placeId": "bdx_grosse_cloche"
+                },
+                {
+                  "label": "La Cité du Vin · alternativa de día",
+                  "value": "Edificio contemporáneo y centro de cultura del vino, al norte del centro. La exposición requiere tiempo y visita diurna; no se incluye en el plan de llegada nocturna. Solo alternativa si cambiáis el horario del viaje: comprobar apertura y entradas en su web.",
+                  "placeId": "bdx_cite_vin"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Puerto y vino",
+              "text": "Las fachadas de la Bourse recuerdan el puerto comercial; el edificio triangular del CIVB concentra una selección de vinos regionales por copa. Para esta noche, el propio bar es una visita más viable que entrar a la Cité du Vin.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "map",
+              "title": "Qué ver · paseo nocturno",
+              "ids": [
+                "place_bourse",
+                "porte_cailhau",
+                "bdx_stpierre",
+                "grand_theatre",
+                "bdx_grosse_cloche",
+                "bdx_cite_vin",
+                "bdx_parking_bourse"
+              ],
+              "walkRoutes": [
+                "bordeaux_walk"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "comida",
+          "label": "Comer y beber",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Vino sin comprar una botella",
+              "text": "Primera opción: CIVB si llegáis antes de las 22:00. Para cenar de verdad, Chez les Ploucs tiene menú desde 19,80 € sin bebida; Julo es alternativa para una copa más tarde. Max Bordeaux cierra a las 19:30: solo para llegada temprana. El mercado es para el domingo, no para cenar el sábado.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "facts",
+              "title": "Bares de vino, cena y desayuno",
+              "items": [
+                {
+                  "label": "Le Bar à Vin du CIVB",
+                  "value": "Bar del Consejo de Vinos de Burdeos en el edificio triangular del Hôtel Gobineau. Lunes–sábado 11:30–22:00, domingo cerrado. Selección regional por copas; carta consultada con opciones desde 2,50–3 €. Tablas de queso o embutido 13–15 €: acompañamiento para compartir, no un menú completo.",
+                  "placeId": "bdx_civb"
+                },
+                {
+                  "label": "Chez Julo · caviste y bar de vinos",
+                  "value": "Pequeño caviste y bar en Saint-Michel, con vinos y tablas para acompañar. Sábado 10:00–14:00 y 16:00–00:00 según su web. Opción para una copa si CIVB ya está cerrado; precios y servicio de comida a consultar. Queda al sur del paseo de la Bourse.",
+                  "placeId": "bdx_julo"
+                },
+                {
+                  "label": "Chez les Ploucs",
+                  "value": "Restaurante de decoración rural y cocina del suroeste en Saint-Pierre. Sábado 18:30–23:00. Carta propia consultada: menú Le Ploucos 19,80 € sin bebida, suplemento en algunos platos; cassoulet a la carta 16,80 €. Alternativa de cena completa tras el vino. Conviene reservar mesa, sin reserva hecha.",
+                  "placeId": "bdx_ploucs"
+                },
+                {
+                  "label": "Marché des Capucins",
+                  "value": "Mercado cubierto para café, panadería y productos locales. El domingo abre por la mañana; la web del mercado indica 06:00–13:00, con horarios propios de cada puesto. Propuesta: desayuno breve sobre 07:30–08:00 antes de salir a Saint-Émilion. Cerrado para vuestra cena del sábado.",
+                  "placeId": "bdx_capucins"
+                },
+                {
+                  "label": "Max Bordeaux · grandes vinos por copa",
+                  "value": "Curiosidad vinícola: probar pequeñas cantidades de grandes vinos sin comprar la botella completa. Martes–sábado 11:00–19:30. Solo encaja con una llegada temprana; el precio depende mucho del vino y del volumen, no se presenta como barato.",
+                  "placeId": "bdx_max"
+                }
+              ]
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "bdx_wine_walk",
+                "bdx_breakfast"
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Cartas originales",
+              "items": [
+                {
+                  "label": "CIVB · vinos por copas",
+                  "url": "https://www.bordeaux.com/app/uploads/2026/03/carte-des-vins.pdf",
+                  "text": ""
+                },
+                {
+                  "label": "CIVB · tablas y acompañamientos",
+                  "url": "https://www.bordeaux.com/app/uploads/2025/12/carte-des-gourmandises.pdf",
+                  "text": ""
+                },
+                {
+                  "label": "Chez les Ploucs · carta y menús",
+                  "url": "https://chezlesploucs.fr/chez-les-ploucs-la-carte-les-menu/",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Comer y beber · alternativas con sus paseos",
+              "ids": [
+                "bdx_civb",
+                "bdx_julo",
+                "bdx_ploucs",
+                "bdx_capucins",
+                "bdx_max",
+                "burdeos"
+              ],
+              "walkRoutes": [
+                "bdx_wine_walk",
+                "bdx_breakfast"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mapa",
+          "label": "Mapa general",
+          "blocks": [
+            {
+              "type": "map",
+              "title": "Todos los lugares de Burdeos",
+              "ids": [
+                "burdeos",
+                "bdx_parking_paludate",
+                "bdx_parking_bourse",
+                "place_bourse",
+                "porte_cailhau",
+                "bdx_stpierre",
+                "grand_theatre",
+                "bdx_grosse_cloche",
+                "bdx_cite_vin",
+                "bdx_civb",
+                "bdx_julo",
+                "bdx_ploucs",
+                "bdx_capucins",
+                "bdx_max"
+              ],
+              "walkRoutes": [
+                "bordeaux_walk",
+                "bdx_wine_walk",
+                "bdx_breakfast"
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Domingo por la mañana",
+              "items": [
+                {
+                  "label": "Saint-Émilion · paseo, vino y aparcamiento",
+                  "url": "#/saint-emilion/visitas",
                   "text": ""
                 }
               ]
@@ -3209,95 +3542,237 @@
       ],
       "points": [
         "burdeos",
+        "bdx_parking_paludate",
+        "bdx_parking_bourse",
         "place_bourse",
         "porte_cailhau",
-        "grand_theatre"
+        "bdx_stpierre",
+        "grand_theatre",
+        "bdx_grosse_cloche",
+        "bdx_cite_vin",
+        "bdx_civb",
+        "bdx_julo",
+        "bdx_ploucs",
+        "bdx_capucins",
+        "bdx_max"
       ],
-      "next": "saint-emilion"
+      "next": "saint-emilion",
+      "paneAliases": {
+        "plan": "visitas",
+        "viaje": "hotel"
+      }
     },
     {
       "id": "saint-emilion",
       "title": "Saint-Émilion",
       "date": "15 noviembre · mañana",
-      "intro": "Parada del esquema de regreso. Recorrido de visita, aparcamiento y horario de salida por cerrar.",
+      "intro": "Domingo 15 por la mañana. Coche desde Burdeos y paseo entre viñas, piedra y tiendas de vino; regreso a Bilbao después. Visitas y consumiciones propuestas, sin reservas.",
       "panes": [
         {
-          "id": "plan",
-          "label": "Plan",
+          "id": "visitas",
+          "label": "Qué ver",
           "blocks": [
             {
-              "type": "timeline",
+              "type": "note",
+              "title": "Propuesta de mañana · 09:30–12:00/12:30",
+              "text": "Burdeos → Saint-Émilion: calcular 45–60 min según tráfico. Primero aparcar, Grandes Murailles y miradores; desde las 10:00 Maison du Vin y desde las 10:30 Cordeliers. Elegid paradas cortas: una visita guiada larga sustituiría parte del paseo, no se añade encima.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "facts",
+              "title": "Aparcamiento antes de entrar al casco",
               "items": [
                 {
-                  "time": "Mañana",
-                  "title": "Burdeos → Saint-Émilion",
-                  "text": "Visita prevista para el domingo. No hay entradas ni actividades reservadas.",
-                  "status": "propuesta",
-                  "route": "road15a",
-                  "link": null
+                  "label": "Parking de la Gendarmerie · zona Guadet",
+                  "value": "Primera opción para dejar el coche fuera del casco: el folleto oficial de turismo identifica el parking de la Gendarmerie como gratuito. Seguir señales y comprobar condiciones en la entrada. Alternativa: plazas municipales de pago, 2 €/h, máximo 5 horas; no asumir gratuidad por ser domingo.",
+                  "placeId": "ste_parking_guadet"
+                }
+              ]
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "ste_upper",
+                "ste_lower"
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Piedra, viñedos y curiosidades",
+              "items": [
+                {
+                  "label": "Les Grandes Murailles",
+                  "value": "Ruina de un convento medieval entre viñas, junto a la entrada norte del pueblo. Parada exterior gratuita para ver el contraste entre piedra y paisaje vinícola, especialmente útil antes de que abran las tiendas.",
+                  "placeId": "ste_grandes_murailles"
                 },
                 {
-                  "time": "Visita",
-                  "title": "Paseo por el pueblo",
-                  "text": "Falta elegir aparcamiento, puntos de interés y duración. No se añaden bodegas ni visitas guiadas sin decidirlas.",
-                  "status": "propuesta",
-                  "route": null,
-                  "link": null
+                  "label": "Place du Clocher · mirador",
+                  "value": "Mirador gratuito sobre los tejados, el campanario y los viñedos. Buen comienzo del paseo de mañana. El acceso a la plaza no implica entrada al campanario ni a la iglesia subterránea.",
+                  "placeId": "ste_clocher"
                 },
                 {
-                  "time": "Después",
-                  "title": "Saint-Émilion → Bilbao",
-                  "text": "Calcular salida con descansos, tráfico y repostaje. Entrega del coche a las 20:00 en Bilbao Intermodal.",
-                  "status": "propuesta",
-                  "route": "road15b",
-                  "link": null
+                  "label": "Église monolithe · plaza y exterior",
+                  "value": "Iglesia excavada en la roca caliza bajo el pueblo. Plaza y exterior libres; los espacios subterráneos requieren visita guiada y entrada. No se incluye un horario interior no verificado para el domingo 15. Elegir una sola actividad guiada si se reserva, manteniendo la salida hacia Bilbao.",
+                  "placeId": "ste_monolithe"
+                },
+                {
+                  "label": "Tour du Roy · exterior y Jurade",
+                  "value": "Torre medieval ligada a las celebraciones de la Jurade, la histórica institución del vino de Saint-Émilion. Exterior y vistas desde su entorno; subida opcional solo si está abierta. No hay un acto de vendimia previsto para vuestro domingo.",
+                  "placeId": "ste_tour_roy"
+                },
+                {
+                  "label": "Clos des Menuts · bodegas monolíticas",
+                  "value": "Bodegas excavadas en caliza. Apertura del domingo 15 POR CONFIRMAR: el productor anuncia 10:00–17:00 en invierno y cierre dominical solo enero–marzo; la ficha de la denominación amplía el cierre a noviembre–marzo. Mantener como opción, no como visita garantizada. El productor anuncia acceso libre a las cavas; catas y compras se consultan aparte.",
+                  "placeId": "ste_menuts"
                 }
               ]
             },
             {
               "type": "note",
-              "title": "Hora límite del día: 20:00",
-              "text": "La devolución en Bilbao está confirmada. Falta fijar la hora de salida de Saint-Émilion con margen suficiente.",
+              "title": "Clos des Menuts · apertura contradictoria",
+              "text": "Las dos fuentes oficiales discrepan sobre los domingos de noviembre: llamar antes de contar con su interior. Maison du Vin y Cordeliers permiten mantener el paseo de vino aunque esta bodega esté cerrada.",
               "tone": "pending",
               "url": null
             },
             {
-              "type": "links",
-              "title": "Consultar",
-              "items": [
+              "type": "note",
+              "title": "Salida y devolución del coche",
+              "text": "Objetivo propuesto: salir entre 12:00 y 12:30; calcular unas 5–6 horas incluyendo descansos y repostaje, ajustar con navegación real y conservar margen para entregar el coche a las 20:00 en Bilbao. El almuerzo largo en Saint-Émilion queda como alternativa, no dentro del plan base.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "details",
+              "title": "Coche · llegada y regreso",
+              "blocks": [
                 {
-                  "label": "Turismo oficial",
-                  "url": "https://www.saint-emilion-tourisme.com/",
-                  "text": ""
-                },
-                {
-                  "label": "Devolución del coche en Bilbao",
-                  "url": "#/bilbao",
-                  "text": ""
+                  "type": "routes",
+                  "ids": [
+                    "road15a",
+                    "road15b"
+                  ]
                 }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Qué ver · dos tramos del paseo",
+              "ids": [
+                "ste_parking_guadet",
+                "ste_grandes_murailles",
+                "ste_clocher",
+                "ste_monolithe",
+                "ste_tour_roy",
+                "ste_menuts",
+                "ste_maison_vin",
+                "ste_cordeliers"
+              ],
+              "walkRoutes": [
+                "ste_upper",
+                "ste_lower"
               ]
             }
           ]
         },
         {
-          "id": "rutas",
-          "label": "Rutas",
+          "id": "comida",
+          "label": "Comer y beber",
           "blocks": [
+            {
+              "type": "note",
+              "title": "Vino por la mañana, sin alargar el regreso",
+              "text": "Desayuno preferentemente en Burdeos antes de salir. Aquí, macarons para llevar, comparación de vinos en Maison du Vin y crémant en Cordeliers. Las catas tienen condiciones propias; consultar precio y disponibilidad. L’Envers du Décor queda para un almuerzo opcional si decidís cambiar la hora de salida.",
+              "tone": "plain",
+              "url": null
+            },
+            {
+              "type": "facts",
+              "title": "Vino, crémant y dulce local",
+              "items": [
+                {
+                  "label": "Maison du Vin de Saint-Émilion",
+                  "value": "Tienda de la denominación para comparar bodegas, añadas y precios en un mismo lugar. Su web publica noviembre: 10:00–12:30 y 14:00–18:00, siete días a la semana. Encaja sobre las 10:00 del domingo; cursos o catas especiales se consultan aparte, sin dar por hecha una degustación gratuita.",
+                  "placeId": "ste_maison_vin"
+                },
+                {
+                  "label": "Les Cordeliers · claustro y crémant",
+                  "value": "Claustro medieval y productor de crémant: una vertiente distinta del vino local, con elaboración de espumoso en galerías subterráneas. Horario de invierno publicado por turismo: 10:30–18:00. Tienda y bar para una parada corta; visita de bodegas y degustaciones con condiciones y precio propios. No contar con restaurante o picnic de temporada como comida asegurada en noviembre.",
+                  "placeId": "ste_cordeliers"
+                },
+                {
+                  "label": "Macarons de Saint-Émilion · Nadia Fermigier",
+                  "value": "Macarons de almendra según la tradición de las Ursulinas de 1620: diferentes del macaron parisino de colores. La tienda publica domingo 09:00–19:00. Compra corta para llevar durante el paseo; no es un desayuno completo ni un restaurante. Precios en tienda.",
+                  "placeId": "ste_macarons"
+                },
+                {
+                  "label": "L’Envers du Décor · bar de vinos",
+                  "value": "Histórico bar de vinos abierto desde 1987, con restaurante y cocina regional. Abre los siete días para comer y cenar; consultar carta y reserva. Solo alternativa si decidís alargar la visita hasta el almuerzo: no encaja con salir del pueblo a las 12:00. No se presenta como opción barata.",
+                  "placeId": "ste_decor"
+                }
+              ]
+            },
             {
               "type": "routes",
               "ids": [
-                "road15a",
-                "road15b"
+                "ste_wine_walk"
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Vinos y dulce · paseo corto",
+              "ids": [
+                "ste_maison_vin",
+                "ste_cordeliers",
+                "ste_macarons",
+                "ste_decor"
+              ],
+              "walkRoutes": [
+                "ste_wine_walk"
               ]
             }
           ]
         },
         {
           "id": "mapa",
-          "label": "Mapa",
+          "label": "Mapa general",
           "blocks": [
             {
-              "type": "map"
+              "type": "map",
+              "title": "Todos los lugares de Saint-Émilion",
+              "ids": [
+                "ste_parking_guadet",
+                "ste_grandes_murailles",
+                "ste_clocher",
+                "ste_monolithe",
+                "ste_tour_roy",
+                "ste_menuts",
+                "ste_maison_vin",
+                "ste_cordeliers",
+                "ste_macarons",
+                "ste_decor"
+              ],
+              "walkRoutes": [
+                "ste_upper",
+                "ste_lower",
+                "ste_wine_walk"
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Fuentes y regreso",
+              "items": [
+                {
+                  "label": "Turismo oficial · visitas y entradas",
+                  "url": "https://www.saint-emilion-tourisme.com/",
+                  "text": ""
+                },
+                {
+                  "label": "Devolución en Bilbao",
+                  "url": "#/bilbao",
+                  "text": ""
+                }
+              ]
             }
           ]
         },
@@ -3308,9 +3783,22 @@
         }
       ],
       "points": [
-        "saint_emilion"
+        "ste_parking_guadet",
+        "ste_grandes_murailles",
+        "ste_clocher",
+        "ste_monolithe",
+        "ste_tour_roy",
+        "ste_menuts",
+        "ste_maison_vin",
+        "ste_cordeliers",
+        "ste_macarons",
+        "ste_decor"
       ],
-      "next": "bilbao"
+      "next": "bilbao",
+      "paneAliases": {
+        "plan": "visitas",
+        "rutas": "visitas"
+      }
     },
     {
       "id": "bilbao",
@@ -4378,35 +4866,1382 @@
     },
     {
       "id": "nantes_walk",
-      "name": "Paseo nocturno por Nantes",
-      "origin": "Château des ducs de Bretagne, Nantes",
-      "destination": "Passage Pommeraye, Nantes",
+      "name": "Viernes · hotel, castillo, Bouffay y plazas",
+      "origin": "Aparthotel Adagio Nantes Centre, Nantes",
+      "destination": "Place Graslin, Nantes",
       "mode": "walking",
       "stops": [
-        "Place du Bouffay, Nantes"
+        "Castillo de los Duques de Bretaña, Nantes",
+        "Place du Bouffay, Nantes",
+        "Place Royale, Nantes"
       ],
-      "note": "Recorrido propuesto ya guardado. Exteriores; comprobar accesos de Passage Pommeraye por la noche."
+      "note": "Propuesta nocturna, 60–90 min con paradas. Castillo desde la calle si ya son las 19:00. El recorrido exterior sigue siendo útil aunque las tiendas y el Passage estén cerrados.",
+      "pointIds": [
+        "nantes",
+        "chateau_nantes",
+        "nan_bouffay",
+        "nan_royale",
+        "nan_graslin"
+      ],
+      "walkPath": [
+        [
+          47.216805,
+          -1.546237
+        ],
+        [
+          47.216723,
+          -1.546432
+        ],
+        [
+          47.216579,
+          -1.546779
+        ],
+        [
+          47.216542,
+          -1.546746
+        ],
+        [
+          47.216505,
+          -1.54684
+        ],
+        [
+          47.216471,
+          -1.546939
+        ],
+        [
+          47.216475,
+          -1.547024
+        ],
+        [
+          47.216381,
+          -1.547257
+        ],
+        [
+          47.216499,
+          -1.547361
+        ],
+        [
+          47.216463,
+          -1.547458
+        ],
+        [
+          47.216472,
+          -1.547717
+        ],
+        [
+          47.216344,
+          -1.547768
+        ],
+        [
+          47.21635,
+          -1.547803
+        ],
+        [
+          47.216355,
+          -1.54783
+        ],
+        [
+          47.216358,
+          -1.54785
+        ],
+        [
+          47.216392,
+          -1.54783
+        ],
+        [
+          47.216447,
+          -1.54781
+        ],
+        [
+          47.216471,
+          -1.547808
+        ],
+        [
+          47.216496,
+          -1.547817
+        ],
+        [
+          47.21652,
+          -1.547826
+        ],
+        [
+          47.216646,
+          -1.547931
+        ],
+        [
+          47.216677,
+          -1.547956
+        ],
+        [
+          47.216693,
+          -1.547977
+        ],
+        [
+          47.216704,
+          -1.548004
+        ],
+        [
+          47.216719,
+          -1.548047
+        ],
+        [
+          47.216729,
+          -1.548087
+        ],
+        [
+          47.216736,
+          -1.548122
+        ],
+        [
+          47.216738,
+          -1.548142
+        ],
+        [
+          47.216739,
+          -1.548162
+        ],
+        [
+          47.216739,
+          -1.548201
+        ],
+        [
+          47.216739,
+          -1.548271
+        ],
+        [
+          47.216741,
+          -1.548319
+        ],
+        [
+          47.216746,
+          -1.548383
+        ],
+        [
+          47.216794,
+          -1.548826
+        ],
+        [
+          47.2168,
+          -1.548853
+        ],
+        [
+          47.216812,
+          -1.548874
+        ],
+        [
+          47.216818,
+          -1.548881
+        ],
+        [
+          47.216827,
+          -1.548885
+        ],
+        [
+          47.216841,
+          -1.548885
+        ],
+        [
+          47.216884,
+          -1.548885
+        ],
+        [
+          47.216924,
+          -1.548881
+        ],
+        [
+          47.216942,
+          -1.548879
+        ],
+        [
+          47.216957,
+          -1.548883
+        ],
+        [
+          47.21697,
+          -1.54889
+        ],
+        [
+          47.216983,
+          -1.5489
+        ],
+        [
+          47.216994,
+          -1.548911
+        ],
+        [
+          47.217003,
+          -1.54892
+        ],
+        [
+          47.217011,
+          -1.548929
+        ],
+        [
+          47.217019,
+          -1.548938
+        ],
+        [
+          47.217025,
+          -1.548948
+        ],
+        [
+          47.21703,
+          -1.548958
+        ],
+        [
+          47.217034,
+          -1.548973
+        ],
+        [
+          47.217034,
+          -1.548998
+        ],
+        [
+          47.217032,
+          -1.549029
+        ],
+        [
+          47.217027,
+          -1.549073
+        ],
+        [
+          47.217017,
+          -1.549121
+        ],
+        [
+          47.217,
+          -1.549186
+        ],
+        [
+          47.216982,
+          -1.549236
+        ],
+        [
+          47.216971,
+          -1.549291
+        ],
+        [
+          47.216957,
+          -1.549388
+        ],
+        [
+          47.216939,
+          -1.549573
+        ],
+        [
+          47.216933,
+          -1.549632
+        ],
+        [
+          47.216926,
+          -1.549691
+        ],
+        [
+          47.216911,
+          -1.549802
+        ],
+        [
+          47.216897,
+          -1.549869
+        ],
+        [
+          47.216881,
+          -1.549923
+        ],
+        [
+          47.216857,
+          -1.549983
+        ],
+        [
+          47.21683,
+          -1.55004
+        ],
+        [
+          47.216807,
+          -1.550074
+        ],
+        [
+          47.216783,
+          -1.550098
+        ],
+        [
+          47.216754,
+          -1.55012
+        ],
+        [
+          47.216716,
+          -1.550146
+        ],
+        [
+          47.216628,
+          -1.550202
+        ],
+        [
+          47.216514,
+          -1.550281
+        ],
+        [
+          47.216414,
+          -1.550359
+        ],
+        [
+          47.216318,
+          -1.550426
+        ],
+        [
+          47.216212,
+          -1.550483
+        ],
+        [
+          47.216143,
+          -1.550513
+        ],
+        [
+          47.216072,
+          -1.550531
+        ],
+        [
+          47.21604,
+          -1.550537
+        ],
+        [
+          47.215998,
+          -1.550536
+        ],
+        [
+          47.215945,
+          -1.550528
+        ],
+        [
+          47.215888,
+          -1.550507
+        ],
+        [
+          47.215833,
+          -1.550482
+        ],
+        [
+          47.215773,
+          -1.550444
+        ],
+        [
+          47.215717,
+          -1.550391
+        ],
+        [
+          47.215462,
+          -1.550151
+        ],
+        [
+          47.21541,
+          -1.55014
+        ],
+        [
+          47.215403,
+          -1.550155
+        ],
+        [
+          47.215373,
+          -1.550127
+        ],
+        [
+          47.215363,
+          -1.550147
+        ],
+        [
+          47.215358,
+          -1.550157
+        ],
+        [
+          47.215356,
+          -1.550167
+        ],
+        [
+          47.215353,
+          -1.550175
+        ],
+        [
+          47.215348,
+          -1.550181
+        ],
+        [
+          47.215264,
+          -1.550278
+        ],
+        [
+          47.215254,
+          -1.550291
+        ],
+        [
+          47.215246,
+          -1.550302
+        ],
+        [
+          47.215231,
+          -1.550326
+        ],
+        [
+          47.215218,
+          -1.55035
+        ],
+        [
+          47.215199,
+          -1.550404
+        ],
+        [
+          47.215166,
+          -1.550528
+        ],
+        [
+          47.215148,
+          -1.550599
+        ],
+        [
+          47.215135,
+          -1.550647
+        ],
+        [
+          47.215111,
+          -1.550738
+        ],
+        [
+          47.215038,
+          -1.551047
+        ],
+        [
+          47.214982,
+          -1.551283
+        ],
+        [
+          47.214797,
+          -1.552138
+        ],
+        [
+          47.214655,
+          -1.552815
+        ],
+        [
+          47.214641,
+          -1.552883
+        ],
+        [
+          47.214612,
+          -1.553007
+        ],
+        [
+          47.214579,
+          -1.553158
+        ],
+        [
+          47.214611,
+          -1.553159
+        ],
+        [
+          47.214647,
+          -1.553159
+        ],
+        [
+          47.214685,
+          -1.553158
+        ],
+        [
+          47.214705,
+          -1.553155
+        ],
+        [
+          47.214687,
+          -1.553242
+        ],
+        [
+          47.214686,
+          -1.553247
+        ],
+        [
+          47.214686,
+          -1.553252
+        ],
+        [
+          47.214686,
+          -1.553261
+        ],
+        [
+          47.214686,
+          -1.553265
+        ],
+        [
+          47.214687,
+          -1.553269
+        ],
+        [
+          47.214688,
+          -1.553273
+        ],
+        [
+          47.214689,
+          -1.553276
+        ],
+        [
+          47.214691,
+          -1.55328
+        ],
+        [
+          47.214693,
+          -1.553283
+        ],
+        [
+          47.214694,
+          -1.553284
+        ],
+        [
+          47.214711,
+          -1.553303
+        ],
+        [
+          47.214734,
+          -1.553328
+        ],
+        [
+          47.214771,
+          -1.553374
+        ],
+        [
+          47.214785,
+          -1.553394
+        ],
+        [
+          47.214799,
+          -1.553413
+        ],
+        [
+          47.214822,
+          -1.553458
+        ],
+        [
+          47.214849,
+          -1.553525
+        ],
+        [
+          47.214865,
+          -1.553577
+        ],
+        [
+          47.214873,
+          -1.553614
+        ],
+        [
+          47.214918,
+          -1.554099
+        ],
+        [
+          47.214915,
+          -1.554135
+        ],
+        [
+          47.214902,
+          -1.554182
+        ],
+        [
+          47.214881,
+          -1.55423
+        ],
+        [
+          47.2148,
+          -1.554378
+        ],
+        [
+          47.214774,
+          -1.554448
+        ],
+        [
+          47.214752,
+          -1.554506
+        ],
+        [
+          47.214699,
+          -1.554758
+        ],
+        [
+          47.214676,
+          -1.554875
+        ],
+        [
+          47.214655,
+          -1.55509
+        ],
+        [
+          47.214627,
+          -1.555138
+        ],
+        [
+          47.214561,
+          -1.555235
+        ],
+        [
+          47.214478,
+          -1.555367
+        ],
+        [
+          47.214458,
+          -1.5554
+        ],
+        [
+          47.21477,
+          -1.555687
+        ],
+        [
+          47.214825,
+          -1.555754
+        ],
+        [
+          47.215015,
+          -1.555905
+        ],
+        [
+          47.215083,
+          -1.555927
+        ],
+        [
+          47.215039,
+          -1.556049
+        ],
+        [
+          47.215022,
+          -1.556095
+        ],
+        [
+          47.215011,
+          -1.556133
+        ],
+        [
+          47.214975,
+          -1.556227
+        ],
+        [
+          47.214961,
+          -1.556266
+        ],
+        [
+          47.214929,
+          -1.556356
+        ],
+        [
+          47.214903,
+          -1.556423
+        ],
+        [
+          47.214867,
+          -1.556523
+        ],
+        [
+          47.214906,
+          -1.556553
+        ],
+        [
+          47.215085,
+          -1.556699
+        ],
+        [
+          47.215078,
+          -1.556727
+        ],
+        [
+          47.215066,
+          -1.556835
+        ],
+        [
+          47.215065,
+          -1.55685
+        ],
+        [
+          47.215043,
+          -1.556895
+        ],
+        [
+          47.21502,
+          -1.556937
+        ],
+        [
+          47.215039,
+          -1.556992
+        ],
+        [
+          47.215003,
+          -1.557046
+        ],
+        [
+          47.214973,
+          -1.557099
+        ],
+        [
+          47.214965,
+          -1.557116
+        ],
+        [
+          47.214907,
+          -1.557242
+        ],
+        [
+          47.214895,
+          -1.557271
+        ],
+        [
+          47.214894,
+          -1.557276
+        ],
+        [
+          47.214893,
+          -1.55728
+        ],
+        [
+          47.214893,
+          -1.557287
+        ],
+        [
+          47.214893,
+          -1.557348
+        ],
+        [
+          47.214894,
+          -1.557458
+        ],
+        [
+          47.214894,
+          -1.557582
+        ],
+        [
+          47.214895,
+          -1.557704
+        ],
+        [
+          47.214896,
+          -1.557814
+        ],
+        [
+          47.214893,
+          -1.557923
+        ],
+        [
+          47.214892,
+          -1.557948
+        ],
+        [
+          47.214887,
+          -1.557973
+        ],
+        [
+          47.214871,
+          -1.55803
+        ],
+        [
+          47.214824,
+          -1.558164
+        ],
+        [
+          47.214805,
+          -1.558229
+        ],
+        [
+          47.214612,
+          -1.558758
+        ],
+        [
+          47.214565,
+          -1.558817
+        ],
+        [
+          47.214541,
+          -1.558837
+        ],
+        [
+          47.214493,
+          -1.558877
+        ],
+        [
+          47.214449,
+          -1.558899
+        ],
+        [
+          47.214399,
+          -1.558903
+        ],
+        [
+          47.214355,
+          -1.55889
+        ],
+        [
+          47.214315,
+          -1.55887
+        ],
+        [
+          47.214291,
+          -1.558935
+        ],
+        [
+          47.214226,
+          -1.559122
+        ],
+        [
+          47.214181,
+          -1.559253
+        ],
+        [
+          47.21416,
+          -1.559312
+        ],
+        [
+          47.214053,
+          -1.559627
+        ],
+        [
+          47.213824,
+          -1.560299
+        ],
+        [
+          47.213804,
+          -1.560357
+        ],
+        [
+          47.21378,
+          -1.560425
+        ],
+        [
+          47.213578,
+          -1.561019
+        ],
+        [
+          47.213562,
+          -1.561067
+        ],
+        [
+          47.213536,
+          -1.56114
+        ],
+        [
+          47.213518,
+          -1.561194
+        ],
+        [
+          47.21342,
+          -1.561482
+        ],
+        [
+          47.213319,
+          -1.561778
+        ],
+        [
+          47.213312,
+          -1.561798
+        ],
+        [
+          47.213272,
+          -1.56196
+        ],
+        [
+          47.213273,
+          -1.56244
+        ],
+        [
+          47.213275,
+          -1.562494
+        ],
+        [
+          47.213104,
+          -1.5625
+        ],
+        [
+          47.213061,
+          -1.562499
+        ]
+      ],
+      "walkDistanceKm": 1.7,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
     },
     {
       "id": "machines",
-      "name": "Hotel → Les Machines de l’île",
-      "origin": "19 Allée du Commandant Charcot, 44000 Nantes, France",
-      "destination": "Les Machines de l’île, Nantes",
+      "name": "Galería · parking y entrada",
+      "origin": "10 rue Arthur III, Nantes",
+      "destination": "Les Machines de l'Île, Nantes",
       "mode": "walking",
       "stops": [],
-      "note": "Ruta de acceso a consultar. La visita y sus entradas aún no están reservadas."
+      "note": "Sábado: llegar con margen para el primer turno disponible sobre las 14:00. Visita aproximada de 1 h; luego recoger el coche y continuar hacia Burdeos. Reservar fecha/hora; no hay entradas compradas.",
+      "pointIds": [
+        "nan_parking_machines",
+        "machines"
+      ],
+      "walkPath": [
+        [
+          47.205715,
+          -1.562724
+        ],
+        [
+          47.205711,
+          -1.562765
+        ],
+        [
+          47.20566,
+          -1.563274
+        ],
+        [
+          47.205683,
+          -1.563291
+        ],
+        [
+          47.205687,
+          -1.563344
+        ],
+        [
+          47.205971,
+          -1.563596
+        ],
+        [
+          47.206106,
+          -1.563634
+        ],
+        [
+          47.206437,
+          -1.563729
+        ],
+        [
+          47.206418,
+          -1.563947
+        ],
+        [
+          47.206396,
+          -1.56406
+        ],
+        [
+          47.206388,
+          -1.564082
+        ],
+        [
+          47.206363,
+          -1.564152
+        ],
+        [
+          47.206358,
+          -1.564303
+        ],
+        [
+          47.206481,
+          -1.564407
+        ],
+        [
+          47.206585,
+          -1.564516
+        ],
+        [
+          47.206652,
+          -1.564586
+        ],
+        [
+          47.206747,
+          -1.56471
+        ],
+        [
+          47.206804,
+          -1.564865
+        ],
+        [
+          47.206857,
+          -1.564965
+        ],
+        [
+          47.206971,
+          -1.565081
+        ],
+        [
+          47.207249,
+          -1.565325
+        ],
+        [
+          47.207327,
+          -1.56517
+        ],
+        [
+          47.207388,
+          -1.565028
+        ],
+        [
+          47.2074,
+          -1.565001
+        ],
+        [
+          47.207833,
+          -1.565384
+        ],
+        [
+          47.207829,
+          -1.565422
+        ],
+        [
+          47.207811,
+          -1.565573
+        ],
+        [
+          47.207883,
+          -1.56564
+        ]
+      ],
+      "walkDistanceKm": 0.4,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
     },
     {
       "id": "bordeaux_walk",
-      "name": "Paseo nocturno por Burdeos",
-      "origin": "Place de la Bourse, Bordeaux",
-      "destination": "Grand Théâtre, Bordeaux",
+      "name": "Sábado · Bourse, Cailhau, Saint-Pierre y teatro",
+      "origin": "Place de la Bourse, Burdeos",
+      "destination": "Grand Théâtre, Burdeos",
       "mode": "walking",
       "stops": [
-        "Porte Cailhau, Bordeaux",
+        "Porte Cailhau, Burdeos",
         "Place Saint-Pierre, Bordeaux"
       ],
-      "note": "Propuesta que ya figuraba en la web. Falta concretar la conexión desde el hotel y la duración."
+      "note": "Paseo exterior nocturno, 45–75 min con fotos. El Miroir d’eau no funciona en noviembre. Desde el hotel: coche al parking Bourse–Jean Jaurès o paseo largo, a elegir según cansancio.",
+      "pointIds": [
+        "place_bourse",
+        "porte_cailhau",
+        "bdx_stpierre",
+        "grand_theatre"
+      ],
+      "walkPath": [
+        [
+          44.841501,
+          -0.569597
+        ],
+        [
+          44.841425,
+          -0.569564
+        ],
+        [
+          44.841422,
+          -0.569581
+        ],
+        [
+          44.841413,
+          -0.569621
+        ],
+        [
+          44.841408,
+          -0.569642
+        ],
+        [
+          44.841402,
+          -0.569669
+        ],
+        [
+          44.841376,
+          -0.569781
+        ],
+        [
+          44.841104,
+          -0.569664
+        ],
+        [
+          44.84102,
+          -0.56963
+        ],
+        [
+          44.84097,
+          -0.569604
+        ],
+        [
+          44.840696,
+          -0.569466
+        ],
+        [
+          44.840457,
+          -0.569333
+        ],
+        [
+          44.840425,
+          -0.569315
+        ],
+        [
+          44.840159,
+          -0.569139
+        ],
+        [
+          44.840029,
+          -0.569045
+        ],
+        [
+          44.8399,
+          -0.568952
+        ],
+        [
+          44.839747,
+          -0.568831
+        ],
+        [
+          44.839302,
+          -0.568479
+        ],
+        [
+          44.838999,
+          -0.568239
+        ],
+        [
+          44.838878,
+          -0.568146
+        ],
+        [
+          44.838805,
+          -0.568087
+        ],
+        [
+          44.838878,
+          -0.568146
+        ],
+        [
+          44.838786,
+          -0.568402
+        ],
+        [
+          44.83878,
+          -0.568423
+        ],
+        [
+          44.838769,
+          -0.56846
+        ],
+        [
+          44.838747,
+          -0.568527
+        ],
+        [
+          44.838689,
+          -0.568727
+        ],
+        [
+          44.838681,
+          -0.568752
+        ],
+        [
+          44.838669,
+          -0.56879
+        ],
+        [
+          44.838727,
+          -0.56883
+        ],
+        [
+          44.838725,
+          -0.568844
+        ],
+        [
+          44.838712,
+          -0.56891
+        ],
+        [
+          44.838683,
+          -0.569057
+        ],
+        [
+          44.83867,
+          -0.569125
+        ],
+        [
+          44.838658,
+          -0.569187
+        ],
+        [
+          44.838646,
+          -0.569248
+        ],
+        [
+          44.838638,
+          -0.56929
+        ],
+        [
+          44.838629,
+          -0.569332
+        ],
+        [
+          44.838621,
+          -0.569376
+        ],
+        [
+          44.838612,
+          -0.56942
+        ],
+        [
+          44.838602,
+          -0.569471
+        ],
+        [
+          44.838592,
+          -0.569523
+        ],
+        [
+          44.838582,
+          -0.569571
+        ],
+        [
+          44.83877,
+          -0.569647
+        ],
+        [
+          44.838801,
+          -0.56966
+        ],
+        [
+          44.838981,
+          -0.569791
+        ],
+        [
+          44.839006,
+          -0.5698
+        ],
+        [
+          44.839026,
+          -0.569808
+        ],
+        [
+          44.839319,
+          -0.570038
+        ],
+        [
+          44.839513,
+          -0.570193
+        ],
+        [
+          44.839562,
+          -0.57019
+        ],
+        [
+          44.839587,
+          -0.570316
+        ],
+        [
+          44.839598,
+          -0.57037
+        ],
+        [
+          44.839605,
+          -0.570443
+        ],
+        [
+          44.839596,
+          -0.570489
+        ],
+        [
+          44.839643,
+          -0.570518
+        ],
+        [
+          44.839649,
+          -0.570522
+        ],
+        [
+          44.839746,
+          -0.570598
+        ],
+        [
+          44.839765,
+          -0.570638
+        ],
+        [
+          44.839799,
+          -0.570807
+        ],
+        [
+          44.839857,
+          -0.570783
+        ],
+        [
+          44.839957,
+          -0.570744
+        ],
+        [
+          44.840116,
+          -0.570681
+        ],
+        [
+          44.840124,
+          -0.570711
+        ],
+        [
+          44.840247,
+          -0.571172
+        ],
+        [
+          44.840347,
+          -0.571481
+        ],
+        [
+          44.840445,
+          -0.571808
+        ],
+        [
+          44.84047,
+          -0.571856
+        ],
+        [
+          44.840497,
+          -0.571909
+        ],
+        [
+          44.840607,
+          -0.572139
+        ],
+        [
+          44.840601,
+          -0.572321
+        ],
+        [
+          44.840571,
+          -0.573114
+        ],
+        [
+          44.840561,
+          -0.573371
+        ],
+        [
+          44.840557,
+          -0.57347
+        ],
+        [
+          44.841193,
+          -0.573597
+        ],
+        [
+          44.841856,
+          -0.573726
+        ],
+        [
+          44.842097,
+          -0.573773
+        ],
+        [
+          44.842139,
+          -0.573781
+        ],
+        [
+          44.842144,
+          -0.573715
+        ],
+        [
+          44.84217,
+          -0.57372
+        ],
+        [
+          44.842233,
+          -0.573733
+        ],
+        [
+          44.842189,
+          -0.574206
+        ],
+        [
+          44.842288,
+          -0.574225
+        ],
+        [
+          44.842602,
+          -0.574284
+        ]
+      ],
+      "walkDistanceKm": 1.2,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
     },
     {
       "id": "hotel_back",
@@ -13353,6 +15188,3034 @@
       ],
       "walkDistanceKm": 1.2,
       "pathSource": "https://routing.openstreetmap.de/"
+    },
+    {
+      "id": "nan_morning",
+      "name": "Sábado · castillo, librería y Passage Pommeraye",
+      "origin": "Castillo de los Duques de Bretaña, Nantes",
+      "destination": "Place Graslin, Nantes",
+      "mode": "walking",
+      "stops": [
+        "2 rue de la Paix, Nantes",
+        "Passage Pommeraye, Nantes"
+      ],
+      "note": "Propuesta de mañana, 60–90 min más desayuno. Patio del castillo desde 8:30; librería y pasaje según apertura. Galería de las Máquinas solo por la tarde.",
+      "pointIds": [
+        "chateau_nantes",
+        "nan_librairie",
+        "pommeraye",
+        "nan_graslin"
+      ],
+      "walkPath": [
+        [
+          47.216933,
+          -1.549632
+        ],
+        [
+          47.216926,
+          -1.549691
+        ],
+        [
+          47.216911,
+          -1.549802
+        ],
+        [
+          47.216897,
+          -1.549869
+        ],
+        [
+          47.216881,
+          -1.549923
+        ],
+        [
+          47.216857,
+          -1.549983
+        ],
+        [
+          47.21683,
+          -1.55004
+        ],
+        [
+          47.216807,
+          -1.550074
+        ],
+        [
+          47.216783,
+          -1.550098
+        ],
+        [
+          47.216754,
+          -1.55012
+        ],
+        [
+          47.216716,
+          -1.550146
+        ],
+        [
+          47.216628,
+          -1.550202
+        ],
+        [
+          47.216514,
+          -1.550281
+        ],
+        [
+          47.216414,
+          -1.550359
+        ],
+        [
+          47.216318,
+          -1.550426
+        ],
+        [
+          47.216212,
+          -1.550483
+        ],
+        [
+          47.216143,
+          -1.550513
+        ],
+        [
+          47.216072,
+          -1.550531
+        ],
+        [
+          47.21604,
+          -1.550537
+        ],
+        [
+          47.215998,
+          -1.550536
+        ],
+        [
+          47.215945,
+          -1.550528
+        ],
+        [
+          47.215888,
+          -1.550507
+        ],
+        [
+          47.215833,
+          -1.550482
+        ],
+        [
+          47.215773,
+          -1.550444
+        ],
+        [
+          47.215717,
+          -1.550391
+        ],
+        [
+          47.215462,
+          -1.550151
+        ],
+        [
+          47.21541,
+          -1.55014
+        ],
+        [
+          47.215403,
+          -1.550155
+        ],
+        [
+          47.215373,
+          -1.550127
+        ],
+        [
+          47.215363,
+          -1.550147
+        ],
+        [
+          47.215358,
+          -1.550157
+        ],
+        [
+          47.215356,
+          -1.550167
+        ],
+        [
+          47.215353,
+          -1.550175
+        ],
+        [
+          47.215348,
+          -1.550181
+        ],
+        [
+          47.215264,
+          -1.550278
+        ],
+        [
+          47.215254,
+          -1.550291
+        ],
+        [
+          47.215246,
+          -1.550302
+        ],
+        [
+          47.215231,
+          -1.550326
+        ],
+        [
+          47.215218,
+          -1.55035
+        ],
+        [
+          47.215199,
+          -1.550404
+        ],
+        [
+          47.215166,
+          -1.550528
+        ],
+        [
+          47.215148,
+          -1.550599
+        ],
+        [
+          47.215135,
+          -1.550647
+        ],
+        [
+          47.215111,
+          -1.550738
+        ],
+        [
+          47.215038,
+          -1.551047
+        ],
+        [
+          47.214982,
+          -1.551283
+        ],
+        [
+          47.214797,
+          -1.552138
+        ],
+        [
+          47.214655,
+          -1.552815
+        ],
+        [
+          47.214641,
+          -1.552883
+        ],
+        [
+          47.214612,
+          -1.553007
+        ],
+        [
+          47.214579,
+          -1.553158
+        ],
+        [
+          47.214524,
+          -1.553409
+        ],
+        [
+          47.214519,
+          -1.553431
+        ],
+        [
+          47.214517,
+          -1.55344
+        ],
+        [
+          47.214515,
+          -1.553449
+        ],
+        [
+          47.214503,
+          -1.553501
+        ],
+        [
+          47.21449,
+          -1.553564
+        ],
+        [
+          47.214357,
+          -1.55417
+        ],
+        [
+          47.214416,
+          -1.554215
+        ],
+        [
+          47.214515,
+          -1.55428
+        ],
+        [
+          47.214416,
+          -1.554215
+        ],
+        [
+          47.214357,
+          -1.55417
+        ],
+        [
+          47.214274,
+          -1.554579
+        ],
+        [
+          47.214168,
+          -1.555073
+        ],
+        [
+          47.214152,
+          -1.555142
+        ],
+        [
+          47.214124,
+          -1.555246
+        ],
+        [
+          47.214109,
+          -1.555282
+        ],
+        [
+          47.214096,
+          -1.555319
+        ],
+        [
+          47.214072,
+          -1.555445
+        ],
+        [
+          47.214056,
+          -1.555494
+        ],
+        [
+          47.214034,
+          -1.555582
+        ],
+        [
+          47.213968,
+          -1.555834
+        ],
+        [
+          47.213847,
+          -1.556196
+        ],
+        [
+          47.213656,
+          -1.556773
+        ],
+        [
+          47.213594,
+          -1.556932
+        ],
+        [
+          47.213556,
+          -1.557029
+        ],
+        [
+          47.213424,
+          -1.557321
+        ],
+        [
+          47.213393,
+          -1.557369
+        ],
+        [
+          47.2133,
+          -1.55746
+        ],
+        [
+          47.213234,
+          -1.557564
+        ],
+        [
+          47.213069,
+          -1.557923
+        ],
+        [
+          47.213279,
+          -1.558283
+        ],
+        [
+          47.21313,
+          -1.558486
+        ],
+        [
+          47.213118,
+          -1.558504
+        ],
+        [
+          47.213302,
+          -1.558967
+        ],
+        [
+          47.213271,
+          -1.558978
+        ],
+        [
+          47.213284,
+          -1.559021
+        ],
+        [
+          47.21346,
+          -1.559571
+        ],
+        [
+          47.213462,
+          -1.559578
+        ],
+        [
+          47.213475,
+          -1.559619
+        ],
+        [
+          47.213481,
+          -1.559637
+        ],
+        [
+          47.213494,
+          -1.559677
+        ],
+        [
+          47.213501,
+          -1.559699
+        ],
+        [
+          47.213505,
+          -1.559713
+        ],
+        [
+          47.213518,
+          -1.559753
+        ],
+        [
+          47.213524,
+          -1.559771
+        ],
+        [
+          47.213537,
+          -1.559812
+        ],
+        [
+          47.213541,
+          -1.559825
+        ],
+        [
+          47.213545,
+          -1.559839
+        ],
+        [
+          47.213683,
+          -1.560271
+        ],
+        [
+          47.213726,
+          -1.560341
+        ],
+        [
+          47.213804,
+          -1.560357
+        ],
+        [
+          47.21378,
+          -1.560425
+        ],
+        [
+          47.213578,
+          -1.561019
+        ],
+        [
+          47.213618,
+          -1.561043
+        ],
+        [
+          47.213741,
+          -1.561126
+        ],
+        [
+          47.213853,
+          -1.561334
+        ],
+        [
+          47.213858,
+          -1.561344
+        ],
+        [
+          47.213863,
+          -1.561354
+        ],
+        [
+          47.213869,
+          -1.561346
+        ],
+        [
+          47.213861,
+          -1.561365
+        ],
+        [
+          47.213851,
+          -1.561361
+        ],
+        [
+          47.213837,
+          -1.561352
+        ],
+        [
+          47.213816,
+          -1.561331
+        ],
+        [
+          47.21379,
+          -1.561294
+        ],
+        [
+          47.213785,
+          -1.561286
+        ],
+        [
+          47.21379,
+          -1.561294
+        ],
+        [
+          47.213816,
+          -1.561331
+        ],
+        [
+          47.213837,
+          -1.561352
+        ],
+        [
+          47.213851,
+          -1.561361
+        ],
+        [
+          47.213861,
+          -1.561365
+        ],
+        [
+          47.213869,
+          -1.561346
+        ],
+        [
+          47.213863,
+          -1.561354
+        ],
+        [
+          47.213858,
+          -1.561344
+        ],
+        [
+          47.213853,
+          -1.561334
+        ],
+        [
+          47.213741,
+          -1.561126
+        ],
+        [
+          47.213618,
+          -1.561043
+        ],
+        [
+          47.213578,
+          -1.561019
+        ],
+        [
+          47.213562,
+          -1.561067
+        ],
+        [
+          47.213536,
+          -1.56114
+        ],
+        [
+          47.213518,
+          -1.561194
+        ],
+        [
+          47.21342,
+          -1.561482
+        ],
+        [
+          47.213319,
+          -1.561778
+        ],
+        [
+          47.213312,
+          -1.561798
+        ],
+        [
+          47.213272,
+          -1.56196
+        ],
+        [
+          47.213273,
+          -1.56244
+        ],
+        [
+          47.213275,
+          -1.562494
+        ],
+        [
+          47.213104,
+          -1.5625
+        ],
+        [
+          47.213061,
+          -1.562499
+        ]
+      ],
+      "walkDistanceKm": 1.4,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+    },
+    {
+      "id": "nan_rings",
+      "name": "Extensión opcional · Máquinas y anillos del muelle",
+      "origin": "Les Machines de l'Île, Nantes",
+      "destination": "Quai des Antilles, Nantes",
+      "mode": "walking",
+      "stops": [],
+      "note": "Paseo exterior opcional. Los anillos interesan al anochecer del viernes; no alargar aquí el sábado si se quiere llegar a Burdeos para cenar. Ida únicamente, prever regreso al coche.",
+      "pointIds": [
+        "machines",
+        "nan_anneaux"
+      ],
+      "walkPath": [
+        [
+          47.207883,
+          -1.56564
+        ],
+        [
+          47.207811,
+          -1.565573
+        ],
+        [
+          47.207829,
+          -1.565422
+        ],
+        [
+          47.207833,
+          -1.565384
+        ],
+        [
+          47.2074,
+          -1.565001
+        ],
+        [
+          47.207388,
+          -1.565028
+        ],
+        [
+          47.207327,
+          -1.56517
+        ],
+        [
+          47.207249,
+          -1.565325
+        ],
+        [
+          47.207235,
+          -1.565353
+        ],
+        [
+          47.207161,
+          -1.565499
+        ],
+        [
+          47.20712,
+          -1.565535
+        ],
+        [
+          47.207065,
+          -1.565591
+        ],
+        [
+          47.2069,
+          -1.56576
+        ],
+        [
+          47.206877,
+          -1.565783
+        ],
+        [
+          47.206798,
+          -1.565862
+        ],
+        [
+          47.20676,
+          -1.565909
+        ],
+        [
+          47.206726,
+          -1.565938
+        ],
+        [
+          47.20669,
+          -1.565952
+        ],
+        [
+          47.206551,
+          -1.566052
+        ],
+        [
+          47.206354,
+          -1.566124
+        ],
+        [
+          47.206056,
+          -1.566152
+        ],
+        [
+          47.205936,
+          -1.566163
+        ],
+        [
+          47.205787,
+          -1.566419
+        ],
+        [
+          47.205704,
+          -1.566603
+        ],
+        [
+          47.20557,
+          -1.566853
+        ],
+        [
+          47.2054,
+          -1.567085
+        ],
+        [
+          47.205222,
+          -1.567188
+        ],
+        [
+          47.205082,
+          -1.567137
+        ],
+        [
+          47.205043,
+          -1.567123
+        ],
+        [
+          47.204781,
+          -1.568458
+        ],
+        [
+          47.204773,
+          -1.568493
+        ],
+        [
+          47.204614,
+          -1.569309
+        ],
+        [
+          47.204606,
+          -1.569344
+        ],
+        [
+          47.204532,
+          -1.569727
+        ],
+        [
+          47.204452,
+          -1.570142
+        ],
+        [
+          47.204418,
+          -1.570312
+        ],
+        [
+          47.204292,
+          -1.570954
+        ],
+        [
+          47.204245,
+          -1.571396
+        ],
+        [
+          47.202814,
+          -1.572388
+        ],
+        [
+          47.20277,
+          -1.572418
+        ]
+      ],
+      "walkDistanceKm": 0.9,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+    },
+    {
+      "id": "nan_food_centre",
+      "name": "Centro · desayuno, galettes y bar de juegos",
+      "origin": "4 place Graslin, Nantes",
+      "destination": "1 rue Lebrun, Nantes",
+      "mode": "walking",
+      "stops": [
+        "5 rue de Guérande, Nantes"
+      ],
+      "note": "Selección de alternativas próximas, no tres consumiciones obligatorias: La Cigale el sábado temprano, Heb Ken para comer/cenar y Game Over el viernes por la noche. Comprobar apertura de cada local.",
+      "pointIds": [
+        "nan_cigale",
+        "nan_hebken",
+        "nan_gameover"
+      ],
+      "walkPath": [
+        [
+          47.212763,
+          -1.562251
+        ],
+        [
+          47.212777,
+          -1.562251
+        ],
+        [
+          47.212856,
+          -1.562248
+        ],
+        [
+          47.212861,
+          -1.562186
+        ],
+        [
+          47.212876,
+          -1.562132
+        ],
+        [
+          47.212895,
+          -1.562087
+        ],
+        [
+          47.212925,
+          -1.562038
+        ],
+        [
+          47.212971,
+          -1.561998
+        ],
+        [
+          47.213045,
+          -1.561972
+        ],
+        [
+          47.213272,
+          -1.56196
+        ],
+        [
+          47.213312,
+          -1.561798
+        ],
+        [
+          47.213319,
+          -1.561778
+        ],
+        [
+          47.21342,
+          -1.561482
+        ],
+        [
+          47.213518,
+          -1.561194
+        ],
+        [
+          47.213536,
+          -1.56114
+        ],
+        [
+          47.213562,
+          -1.561067
+        ],
+        [
+          47.213578,
+          -1.561019
+        ],
+        [
+          47.21378,
+          -1.560425
+        ],
+        [
+          47.213804,
+          -1.560357
+        ],
+        [
+          47.213824,
+          -1.560299
+        ],
+        [
+          47.214053,
+          -1.559627
+        ],
+        [
+          47.21416,
+          -1.559312
+        ],
+        [
+          47.214181,
+          -1.559253
+        ],
+        [
+          47.214122,
+          -1.55924
+        ],
+        [
+          47.214092,
+          -1.559129
+        ],
+        [
+          47.213982,
+          -1.558719
+        ],
+        [
+          47.214147,
+          -1.558651
+        ],
+        [
+          47.214186,
+          -1.558634
+        ],
+        [
+          47.214176,
+          -1.558532
+        ],
+        [
+          47.214181,
+          -1.558437
+        ],
+        [
+          47.214202,
+          -1.558347
+        ],
+        [
+          47.214367,
+          -1.557906
+        ],
+        [
+          47.214393,
+          -1.557841
+        ],
+        [
+          47.214455,
+          -1.557667
+        ],
+        [
+          47.214476,
+          -1.557609
+        ],
+        [
+          47.214496,
+          -1.557552
+        ],
+        [
+          47.214614,
+          -1.557227
+        ],
+        [
+          47.214867,
+          -1.556523
+        ],
+        [
+          47.214903,
+          -1.556423
+        ],
+        [
+          47.214929,
+          -1.556356
+        ],
+        [
+          47.214961,
+          -1.556266
+        ],
+        [
+          47.214975,
+          -1.556227
+        ],
+        [
+          47.215011,
+          -1.556133
+        ],
+        [
+          47.215022,
+          -1.556095
+        ],
+        [
+          47.215039,
+          -1.556049
+        ],
+        [
+          47.215083,
+          -1.555927
+        ],
+        [
+          47.215102,
+          -1.555874
+        ],
+        [
+          47.215304,
+          -1.555331
+        ],
+        [
+          47.215415,
+          -1.555034
+        ],
+        [
+          47.215434,
+          -1.554983
+        ],
+        [
+          47.215473,
+          -1.554888
+        ],
+        [
+          47.215536,
+          -1.554724
+        ],
+        [
+          47.215667,
+          -1.554369
+        ],
+        [
+          47.215883,
+          -1.55379
+        ],
+        [
+          47.216017,
+          -1.55343
+        ],
+        [
+          47.216083,
+          -1.553256
+        ],
+        [
+          47.2162,
+          -1.553019
+        ],
+        [
+          47.216327,
+          -1.552867
+        ],
+        [
+          47.217069,
+          -1.552348
+        ],
+        [
+          47.217101,
+          -1.552325
+        ],
+        [
+          47.217134,
+          -1.552295
+        ],
+        [
+          47.217183,
+          -1.55225
+        ],
+        [
+          47.217248,
+          -1.552193
+        ],
+        [
+          47.217457,
+          -1.552011
+        ],
+        [
+          47.217625,
+          -1.551863
+        ],
+        [
+          47.2177,
+          -1.551797
+        ],
+        [
+          47.217875,
+          -1.551607
+        ],
+        [
+          47.21789,
+          -1.551588
+        ],
+        [
+          47.218042,
+          -1.551403
+        ],
+        [
+          47.218082,
+          -1.55136
+        ],
+        [
+          47.218102,
+          -1.551338
+        ],
+        [
+          47.218118,
+          -1.551366
+        ],
+        [
+          47.218137,
+          -1.551384
+        ],
+        [
+          47.218165,
+          -1.551398
+        ],
+        [
+          47.218196,
+          -1.551401
+        ],
+        [
+          47.218227,
+          -1.551394
+        ],
+        [
+          47.218249,
+          -1.551377
+        ],
+        [
+          47.218269,
+          -1.551353
+        ],
+        [
+          47.218279,
+          -1.551329
+        ],
+        [
+          47.218293,
+          -1.551265
+        ],
+        [
+          47.218326,
+          -1.551065
+        ],
+        [
+          47.218331,
+          -1.551032
+        ],
+        [
+          47.218397,
+          -1.550982
+        ],
+        [
+          47.218433,
+          -1.550972
+        ],
+        [
+          47.218464,
+          -1.550908
+        ],
+        [
+          47.21852,
+          -1.550778
+        ],
+        [
+          47.218562,
+          -1.550692
+        ],
+        [
+          47.218785,
+          -1.550424
+        ],
+        [
+          47.218846,
+          -1.55035
+        ],
+        [
+          47.218855,
+          -1.55034
+        ],
+        [
+          47.218909,
+          -1.550264
+        ],
+        [
+          47.21903,
+          -1.550127
+        ],
+        [
+          47.219095,
+          -1.549965
+        ],
+        [
+          47.219152,
+          -1.549879
+        ],
+        [
+          47.219247,
+          -1.549635
+        ],
+        [
+          47.219318,
+          -1.549419
+        ],
+        [
+          47.219315,
+          -1.549349
+        ],
+        [
+          47.219328,
+          -1.549346
+        ],
+        [
+          47.219352,
+          -1.549332
+        ],
+        [
+          47.219381,
+          -1.549322
+        ],
+        [
+          47.219407,
+          -1.549271
+        ],
+        [
+          47.219426,
+          -1.549221
+        ],
+        [
+          47.219466,
+          -1.549253
+        ],
+        [
+          47.219476,
+          -1.54925
+        ],
+        [
+          47.219522,
+          -1.549287
+        ],
+        [
+          47.219551,
+          -1.549311
+        ],
+        [
+          47.219558,
+          -1.549312
+        ],
+        [
+          47.219565,
+          -1.549348
+        ],
+        [
+          47.219744,
+          -1.549498
+        ],
+        [
+          47.21976,
+          -1.549498
+        ],
+        [
+          47.219793,
+          -1.549474
+        ],
+        [
+          47.219828,
+          -1.5495
+        ],
+        [
+          47.219862,
+          -1.549519
+        ],
+        [
+          47.219862,
+          -1.549565
+        ],
+        [
+          47.219869,
+          -1.54958
+        ],
+        [
+          47.219957,
+          -1.549653
+        ],
+        [
+          47.220063,
+          -1.549741
+        ],
+        [
+          47.220132,
+          -1.549568
+        ]
+      ],
+      "walkDistanceKm": 1.4,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+    },
+    {
+      "id": "nan_food_lu",
+      "name": "Hotel → cena en la antigua fábrica LU",
+      "origin": "Aparthotel Adagio Nantes Centre, Nantes",
+      "destination": "Quai Ferdinand Favre, Nantes",
+      "mode": "walking",
+      "stops": [],
+      "note": "Alternativa breve al paseo central si llegáis cansados. Restaurante del viernes 19:00–22:00; bar hasta 02:00.",
+      "pointIds": [
+        "nantes",
+        "nan_lieu_unique"
+      ],
+      "walkPath": [
+        [
+          47.216805,
+          -1.546237
+        ],
+        [
+          47.216723,
+          -1.546432
+        ],
+        [
+          47.216579,
+          -1.546779
+        ],
+        [
+          47.216542,
+          -1.546746
+        ],
+        [
+          47.216512,
+          -1.546719
+        ],
+        [
+          47.216488,
+          -1.546697
+        ],
+        [
+          47.216451,
+          -1.54666
+        ],
+        [
+          47.21642,
+          -1.546716
+        ],
+        [
+          47.216386,
+          -1.546794
+        ],
+        [
+          47.216358,
+          -1.546873
+        ],
+        [
+          47.216331,
+          -1.546937
+        ],
+        [
+          47.216191,
+          -1.547276
+        ],
+        [
+          47.216057,
+          -1.547158
+        ],
+        [
+          47.215852,
+          -1.546979
+        ],
+        [
+          47.215842,
+          -1.546963
+        ],
+        [
+          47.215828,
+          -1.546917
+        ],
+        [
+          47.215754,
+          -1.546859
+        ],
+        [
+          47.215601,
+          -1.546724
+        ],
+        [
+          47.214939,
+          -1.546182
+        ],
+        [
+          47.214913,
+          -1.546162
+        ],
+        [
+          47.214933,
+          -1.546111
+        ],
+        [
+          47.214946,
+          -1.546077
+        ],
+        [
+          47.214959,
+          -1.546043
+        ],
+        [
+          47.214966,
+          -1.546027
+        ],
+        [
+          47.214973,
+          -1.546011
+        ],
+        [
+          47.214985,
+          -1.545984
+        ],
+        [
+          47.214992,
+          -1.545962
+        ],
+        [
+          47.215001,
+          -1.54594
+        ],
+        [
+          47.214951,
+          -1.545899
+        ],
+        [
+          47.214965,
+          -1.54586
+        ],
+        [
+          47.215004,
+          -1.545756
+        ],
+        [
+          47.215024,
+          -1.545731
+        ],
+        [
+          47.215124,
+          -1.545468
+        ]
+      ],
+      "walkDistanceKm": 0.3,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+    },
+    {
+      "id": "bdx_wine_walk",
+      "name": "Vino y cena · CIVB → Chez les Ploucs → Julo",
+      "origin": "3 cours du XXX Juillet, Bordeaux",
+      "destination": "11 rue des Faures, Bordeaux",
+      "mode": "walking",
+      "stops": [
+        "10 rue des Faussets, Bordeaux"
+      ],
+      "note": "Alternativas para elegir: CIVB antes de las 22:00, cena de menú en Saint-Pierre y Julo si se quiere una copa más tarde. No hace falta ir a todos; Julo queda algo más al sur. Si después conducís, elegir quién vuelve al volante.",
+      "pointIds": [
+        "bdx_civb",
+        "bdx_ploucs",
+        "bdx_julo"
+      ],
+      "walkPath": [
+        [
+          44.843706,
+          -0.574683
+        ],
+        [
+          44.843692,
+          -0.574681
+        ],
+        [
+          44.843415,
+          -0.574633
+        ],
+        [
+          44.843363,
+          -0.574614
+        ],
+        [
+          44.843311,
+          -0.574594
+        ],
+        [
+          44.843268,
+          -0.574588
+        ],
+        [
+          44.84288,
+          -0.57452
+        ],
+        [
+          44.842853,
+          -0.574515
+        ],
+        [
+          44.842784,
+          -0.574503
+        ],
+        [
+          44.842789,
+          -0.574456
+        ],
+        [
+          44.842793,
+          -0.574416
+        ],
+        [
+          44.842802,
+          -0.574321
+        ],
+        [
+          44.842288,
+          -0.574225
+        ],
+        [
+          44.842189,
+          -0.574206
+        ],
+        [
+          44.842233,
+          -0.573733
+        ],
+        [
+          44.84217,
+          -0.57372
+        ],
+        [
+          44.842144,
+          -0.573715
+        ],
+        [
+          44.842139,
+          -0.573781
+        ],
+        [
+          44.842097,
+          -0.573773
+        ],
+        [
+          44.841856,
+          -0.573726
+        ],
+        [
+          44.841193,
+          -0.573597
+        ],
+        [
+          44.840557,
+          -0.57347
+        ],
+        [
+          44.840561,
+          -0.573371
+        ],
+        [
+          44.840571,
+          -0.573114
+        ],
+        [
+          44.840601,
+          -0.572321
+        ],
+        [
+          44.840607,
+          -0.572139
+        ],
+        [
+          44.840497,
+          -0.571909
+        ],
+        [
+          44.84047,
+          -0.571856
+        ],
+        [
+          44.840445,
+          -0.571808
+        ],
+        [
+          44.840347,
+          -0.571481
+        ],
+        [
+          44.840247,
+          -0.571172
+        ],
+        [
+          44.840124,
+          -0.570711
+        ],
+        [
+          44.840116,
+          -0.570681
+        ],
+        [
+          44.840142,
+          -0.570669
+        ],
+        [
+          44.840488,
+          -0.570517
+        ],
+        [
+          44.840688,
+          -0.570429
+        ],
+        [
+          44.840771,
+          -0.570408
+        ],
+        [
+          44.840809,
+          -0.570397
+        ],
+        [
+          44.840633,
+          -0.570093
+        ],
+        [
+          44.840345,
+          -0.57002
+        ],
+        [
+          44.840216,
+          -0.569993
+        ],
+        [
+          44.839954,
+          -0.569828
+        ],
+        [
+          44.839811,
+          -0.569786
+        ],
+        [
+          44.839763,
+          -0.56974
+        ],
+        [
+          44.839852,
+          -0.569553
+        ],
+        [
+          44.839872,
+          -0.569506
+        ],
+        [
+          44.839893,
+          -0.569458
+        ],
+        [
+          44.839937,
+          -0.569319
+        ],
+        [
+          44.839965,
+          -0.569231
+        ],
+        [
+          44.839986,
+          -0.569168
+        ],
+        [
+          44.840029,
+          -0.569045
+        ],
+        [
+          44.8399,
+          -0.568952
+        ],
+        [
+          44.839747,
+          -0.568831
+        ],
+        [
+          44.839302,
+          -0.568479
+        ],
+        [
+          44.838999,
+          -0.568239
+        ],
+        [
+          44.838878,
+          -0.568146
+        ],
+        [
+          44.838772,
+          -0.568061
+        ],
+        [
+          44.838363,
+          -0.567738
+        ],
+        [
+          44.838167,
+          -0.567583
+        ],
+        [
+          44.838063,
+          -0.567557
+        ],
+        [
+          44.838029,
+          -0.567553
+        ],
+        [
+          44.838,
+          -0.56755
+        ],
+        [
+          44.838003,
+          -0.567519
+        ],
+        [
+          44.837994,
+          -0.567425
+        ],
+        [
+          44.83798,
+          -0.567367
+        ],
+        [
+          44.837951,
+          -0.567327
+        ],
+        [
+          44.837626,
+          -0.566992
+        ],
+        [
+          44.837571,
+          -0.566934
+        ],
+        [
+          44.837284,
+          -0.566642
+        ],
+        [
+          44.837114,
+          -0.566466
+        ],
+        [
+          44.836859,
+          -0.566202
+        ],
+        [
+          44.836827,
+          -0.566173
+        ],
+        [
+          44.836743,
+          -0.566077
+        ],
+        [
+          44.836739,
+          -0.566019
+        ],
+        [
+          44.836727,
+          -0.566007
+        ],
+        [
+          44.83668,
+          -0.565957
+        ],
+        [
+          44.836647,
+          -0.565921
+        ],
+        [
+          44.836511,
+          -0.565775
+        ],
+        [
+          44.836494,
+          -0.565757
+        ],
+        [
+          44.836459,
+          -0.565719
+        ],
+        [
+          44.836428,
+          -0.565686
+        ],
+        [
+          44.836419,
+          -0.565662
+        ],
+        [
+          44.836371,
+          -0.565666
+        ],
+        [
+          44.836213,
+          -0.565564
+        ],
+        [
+          44.836181,
+          -0.565554
+        ],
+        [
+          44.836164,
+          -0.56552
+        ],
+        [
+          44.835847,
+          -0.565175
+        ],
+        [
+          44.835617,
+          -0.564913
+        ],
+        [
+          44.835545,
+          -0.56483
+        ],
+        [
+          44.8355,
+          -0.56478
+        ],
+        [
+          44.83546,
+          -0.564735
+        ],
+        [
+          44.83509,
+          -0.564319
+        ],
+        [
+          44.835069,
+          -0.564356
+        ],
+        [
+          44.835045,
+          -0.5644
+        ],
+        [
+          44.834918,
+          -0.564626
+        ],
+        [
+          44.834856,
+          -0.564734
+        ],
+        [
+          44.834773,
+          -0.564883
+        ]
+      ],
+      "walkDistanceKm": 1.7,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+    },
+    {
+      "id": "bdx_breakfast",
+      "name": "Domingo · hotel → mercado de Capucins",
+      "origin": "MEININGER Bordeaux Gare Saint-Jean, Burdeos",
+      "destination": "Place des Capucins, Bordeaux",
+      "mode": "walking",
+      "stops": [],
+      "note": "Desayuno opcional a primera hora. A pie supone ida y vuelta antes de recoger el coche; también podéis ir en coche y aparcar según señalización. No retrasar la salida a Saint-Émilion.",
+      "pointIds": [
+        "burdeos",
+        "bdx_capucins"
+      ],
+      "walkPath": [
+        [
+          44.827269,
+          -0.552152
+        ],
+        [
+          44.827138,
+          -0.552256
+        ],
+        [
+          44.826971,
+          -0.552401
+        ],
+        [
+          44.82692,
+          -0.552477
+        ],
+        [
+          44.826824,
+          -0.552557
+        ],
+        [
+          44.826612,
+          -0.552732
+        ],
+        [
+          44.826573,
+          -0.552777
+        ],
+        [
+          44.826534,
+          -0.552829
+        ],
+        [
+          44.826526,
+          -0.552813
+        ],
+        [
+          44.826504,
+          -0.552835
+        ],
+        [
+          44.826533,
+          -0.552885
+        ],
+        [
+          44.826517,
+          -0.552904
+        ],
+        [
+          44.826559,
+          -0.552979
+        ],
+        [
+          44.826624,
+          -0.553107
+        ],
+        [
+          44.826698,
+          -0.553276
+        ],
+        [
+          44.826768,
+          -0.553474
+        ],
+        [
+          44.827012,
+          -0.554247
+        ],
+        [
+          44.827061,
+          -0.554403
+        ],
+        [
+          44.827063,
+          -0.554429
+        ],
+        [
+          44.827223,
+          -0.554945
+        ],
+        [
+          44.827237,
+          -0.555006
+        ],
+        [
+          44.82733,
+          -0.555518
+        ],
+        [
+          44.827338,
+          -0.555542
+        ],
+        [
+          44.827355,
+          -0.555569
+        ],
+        [
+          44.827377,
+          -0.555581
+        ],
+        [
+          44.827399,
+          -0.555583
+        ],
+        [
+          44.82742,
+          -0.555578
+        ],
+        [
+          44.827433,
+          -0.555638
+        ],
+        [
+          44.82745,
+          -0.555718
+        ],
+        [
+          44.827432,
+          -0.555727
+        ],
+        [
+          44.827434,
+          -0.555737
+        ],
+        [
+          44.827444,
+          -0.555791
+        ],
+        [
+          44.827495,
+          -0.556074
+        ],
+        [
+          44.827505,
+          -0.556091
+        ],
+        [
+          44.827476,
+          -0.55614
+        ],
+        [
+          44.827433,
+          -0.556168
+        ],
+        [
+          44.827464,
+          -0.556248
+        ],
+        [
+          44.827434,
+          -0.556272
+        ],
+        [
+          44.827376,
+          -0.556338
+        ],
+        [
+          44.827361,
+          -0.556384
+        ],
+        [
+          44.827352,
+          -0.556424
+        ],
+        [
+          44.827349,
+          -0.556452
+        ],
+        [
+          44.827353,
+          -0.556502
+        ],
+        [
+          44.82737,
+          -0.556539
+        ],
+        [
+          44.827418,
+          -0.556586
+        ],
+        [
+          44.827459,
+          -0.556602
+        ],
+        [
+          44.827431,
+          -0.556627
+        ],
+        [
+          44.827413,
+          -0.556639
+        ],
+        [
+          44.827422,
+          -0.556656
+        ],
+        [
+          44.827451,
+          -0.556671
+        ],
+        [
+          44.827716,
+          -0.556746
+        ],
+        [
+          44.82779,
+          -0.556774
+        ],
+        [
+          44.827845,
+          -0.556821
+        ],
+        [
+          44.827897,
+          -0.556881
+        ],
+        [
+          44.827976,
+          -0.556978
+        ],
+        [
+          44.828123,
+          -0.557165
+        ],
+        [
+          44.828199,
+          -0.557278
+        ],
+        [
+          44.828267,
+          -0.557374
+        ],
+        [
+          44.828496,
+          -0.55775
+        ],
+        [
+          44.828749,
+          -0.558154
+        ],
+        [
+          44.828851,
+          -0.558328
+        ],
+        [
+          44.829164,
+          -0.558829
+        ],
+        [
+          44.829209,
+          -0.558902
+        ],
+        [
+          44.829308,
+          -0.559062
+        ],
+        [
+          44.829667,
+          -0.559636
+        ],
+        [
+          44.829749,
+          -0.559756
+        ],
+        [
+          44.829777,
+          -0.559799
+        ],
+        [
+          44.829753,
+          -0.559827
+        ],
+        [
+          44.829636,
+          -0.559902
+        ],
+        [
+          44.829661,
+          -0.560013
+        ],
+        [
+          44.82983,
+          -0.560763
+        ],
+        [
+          44.829899,
+          -0.561066
+        ],
+        [
+          44.829918,
+          -0.561151
+        ],
+        [
+          44.829571,
+          -0.561304
+        ],
+        [
+          44.829584,
+          -0.561361
+        ],
+        [
+          44.829539,
+          -0.561382
+        ],
+        [
+          44.829494,
+          -0.561426
+        ],
+        [
+          44.829657,
+          -0.562188
+        ],
+        [
+          44.829831,
+          -0.562947
+        ],
+        [
+          44.82977,
+          -0.562973
+        ],
+        [
+          44.829792,
+          -0.56307
+        ],
+        [
+          44.8298,
+          -0.563106
+        ],
+        [
+          44.829814,
+          -0.563164
+        ],
+        [
+          44.82986,
+          -0.563144
+        ],
+        [
+          44.830095,
+          -0.564213
+        ],
+        [
+          44.830127,
+          -0.56435
+        ],
+        [
+          44.830339,
+          -0.565307
+        ],
+        [
+          44.830618,
+          -0.566552
+        ],
+        [
+          44.83063,
+          -0.566605
+        ],
+        [
+          44.830667,
+          -0.566759
+        ],
+        [
+          44.830672,
+          -0.56684
+        ],
+        [
+          44.830661,
+          -0.566911
+        ],
+        [
+          44.830655,
+          -0.56696
+        ],
+        [
+          44.830645,
+          -0.56695
+        ],
+        [
+          44.830619,
+          -0.566939
+        ],
+        [
+          44.830605,
+          -0.566937
+        ],
+        [
+          44.830581,
+          -0.566938
+        ],
+        [
+          44.830558,
+          -0.566948
+        ],
+        [
+          44.830185,
+          -0.567106
+        ],
+        [
+          44.830207,
+          -0.567207
+        ],
+        [
+          44.830224,
+          -0.567287
+        ],
+        [
+          44.830277,
+          -0.567265
+        ],
+        [
+          44.830302,
+          -0.567383
+        ],
+        [
+          44.830327,
+          -0.567504
+        ],
+        [
+          44.830352,
+          -0.567624
+        ],
+        [
+          44.83039,
+          -0.567809
+        ]
+      ],
+      "walkDistanceKm": 1.6,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+    },
+    {
+      "id": "ste_upper",
+      "name": "Domingo · parking, viñas y mirador",
+      "origin": "Parking de la Gendarmerie, Saint-Émilion",
+      "destination": "Place du Clocher, Saint-Émilion",
+      "mode": "walking",
+      "stops": [
+        "Rue des Grandes Murailles, Saint-Émilion",
+        "Place Pierre Meyrat, Saint-Émilion"
+      ],
+      "note": "Propuesta: llegar sobre 09:30 y pasear antes de la apertura de Maison du Vin a las 10:00. Hay cuestas y adoquines; tiempo de paseo sin contar compras.",
+      "pointIds": [
+        "ste_parking_guadet",
+        "ste_grandes_murailles",
+        "ste_maison_vin",
+        "ste_clocher"
+      ],
+      "walkPath": [
+        [
+          44.896911,
+          -0.15554
+        ],
+        [
+          44.896903,
+          -0.155347
+        ],
+        [
+          44.896575,
+          -0.155368
+        ],
+        [
+          44.896347,
+          -0.155382
+        ],
+        [
+          44.896146,
+          -0.155394
+        ],
+        [
+          44.896069,
+          -0.155433
+        ],
+        [
+          44.896029,
+          -0.155466
+        ],
+        [
+          44.896036,
+          -0.155503
+        ],
+        [
+          44.896034,
+          -0.155541
+        ],
+        [
+          44.896025,
+          -0.155577
+        ],
+        [
+          44.896009,
+          -0.155608
+        ],
+        [
+          44.895986,
+          -0.15563
+        ],
+        [
+          44.896012,
+          -0.155762
+        ],
+        [
+          44.896071,
+          -0.156163
+        ],
+        [
+          44.896012,
+          -0.155762
+        ],
+        [
+          44.895986,
+          -0.15563
+        ],
+        [
+          44.895961,
+          -0.155641
+        ],
+        [
+          44.895935,
+          -0.155642
+        ],
+        [
+          44.895909,
+          -0.155632
+        ],
+        [
+          44.895887,
+          -0.155612
+        ],
+        [
+          44.895851,
+          -0.155675
+        ],
+        [
+          44.895828,
+          -0.155735
+        ],
+        [
+          44.895774,
+          -0.155802
+        ],
+        [
+          44.895687,
+          -0.155898
+        ],
+        [
+          44.895402,
+          -0.15621
+        ],
+        [
+          44.894886,
+          -0.156695
+        ],
+        [
+          44.894789,
+          -0.156776
+        ],
+        [
+          44.894506,
+          -0.156996
+        ],
+        [
+          44.894271,
+          -0.157191
+        ],
+        [
+          44.894198,
+          -0.157255
+        ],
+        [
+          44.894029,
+          -0.157375
+        ],
+        [
+          44.893974,
+          -0.157224
+        ],
+        [
+          44.893926,
+          -0.157151
+        ],
+        [
+          44.893746,
+          -0.156994
+        ],
+        [
+          44.893602,
+          -0.156868
+        ],
+        [
+          44.89356,
+          -0.156859
+        ],
+        [
+          44.893578,
+          -0.156775
+        ],
+        [
+          44.893673,
+          -0.156463
+        ],
+        [
+          44.893673,
+          -0.156462
+        ]
+      ],
+      "walkDistanceKm": 0.6,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+    },
+    {
+      "id": "ste_lower",
+      "name": "Domingo · claustro, monolítica y Tour du Roy",
+      "origin": "Place du Clocher, Saint-Émilion",
+      "destination": "Parking de la Gendarmerie, Saint-Émilion",
+      "mode": "walking",
+      "stops": [
+        "2 bis rue de la Porte Brunet, Saint-Émilion",
+        "Place de l’Église Monolithe, Saint-Émilion",
+        "Tour du Roy, Saint-Émilion"
+      ],
+      "note": "Cordeliers desde 10:30 en invierno. Visita exterior al resto y regreso al coche: objetivo de salida del pueblo 12:00–12:30 para Bilbao. Visitas subterráneas solo si se reserva un turno compatible.",
+      "pointIds": [
+        "ste_clocher",
+        "ste_cordeliers",
+        "ste_monolithe",
+        "ste_tour_roy",
+        "ste_parking_guadet"
+      ],
+      "walkPath": [
+        [
+          44.893673,
+          -0.156462
+        ],
+        [
+          44.893719,
+          -0.156313
+        ],
+        [
+          44.893802,
+          -0.156001
+        ],
+        [
+          44.893835,
+          -0.155886
+        ],
+        [
+          44.893865,
+          -0.155836
+        ],
+        [
+          44.893876,
+          -0.155773
+        ],
+        [
+          44.893876,
+          -0.155684
+        ],
+        [
+          44.893855,
+          -0.155405
+        ],
+        [
+          44.893842,
+          -0.155176
+        ],
+        [
+          44.893838,
+          -0.15511
+        ],
+        [
+          44.893771,
+          -0.155046
+        ],
+        [
+          44.893648,
+          -0.155053
+        ],
+        [
+          44.893364,
+          -0.155068
+        ],
+        [
+          44.893064,
+          -0.15497
+        ],
+        [
+          44.893012,
+          -0.154948
+        ],
+        [
+          44.893058,
+          -0.154756
+        ],
+        [
+          44.893012,
+          -0.154948
+        ],
+        [
+          44.893064,
+          -0.15497
+        ],
+        [
+          44.893364,
+          -0.155068
+        ],
+        [
+          44.89333,
+          -0.15531
+        ],
+        [
+          44.893669,
+          -0.155161
+        ],
+        [
+          44.893617,
+          -0.155326
+        ],
+        [
+          44.893587,
+          -0.155418
+        ],
+        [
+          44.893562,
+          -0.155458
+        ],
+        [
+          44.893517,
+          -0.155527
+        ],
+        [
+          44.893404,
+          -0.155657
+        ],
+        [
+          44.893208,
+          -0.155815
+        ],
+        [
+          44.893348,
+          -0.156146
+        ],
+        [
+          44.893208,
+          -0.155815
+        ],
+        [
+          44.89311,
+          -0.15594
+        ],
+        [
+          44.893083,
+          -0.156036
+        ],
+        [
+          44.893042,
+          -0.156162
+        ],
+        [
+          44.89301,
+          -0.156217
+        ],
+        [
+          44.892974,
+          -0.15623
+        ],
+        [
+          44.892937,
+          -0.156223
+        ],
+        [
+          44.892906,
+          -0.156219
+        ],
+        [
+          44.892769,
+          -0.156717
+        ],
+        [
+          44.892618,
+          -0.156645
+        ],
+        [
+          44.892488,
+          -0.156589
+        ],
+        [
+          44.892427,
+          -0.156664
+        ],
+        [
+          44.892355,
+          -0.156727
+        ],
+        [
+          44.892311,
+          -0.156744
+        ],
+        [
+          44.892297,
+          -0.156731
+        ],
+        [
+          44.892286,
+          -0.156758
+        ],
+        [
+          44.892215,
+          -0.156693
+        ],
+        [
+          44.89216,
+          -0.156746
+        ],
+        [
+          44.892149,
+          -0.15672
+        ],
+        [
+          44.892078,
+          -0.156807
+        ],
+        [
+          44.892032,
+          -0.156705
+        ],
+        [
+          44.891981,
+          -0.156752
+        ],
+        [
+          44.892034,
+          -0.156853
+        ],
+        [
+          44.891981,
+          -0.156752
+        ],
+        [
+          44.892032,
+          -0.156705
+        ],
+        [
+          44.892078,
+          -0.156807
+        ],
+        [
+          44.892149,
+          -0.15672
+        ],
+        [
+          44.89216,
+          -0.156746
+        ],
+        [
+          44.892215,
+          -0.156693
+        ],
+        [
+          44.892286,
+          -0.156758
+        ],
+        [
+          44.892297,
+          -0.156731
+        ],
+        [
+          44.892311,
+          -0.156744
+        ],
+        [
+          44.892355,
+          -0.156727
+        ],
+        [
+          44.892427,
+          -0.156664
+        ],
+        [
+          44.892488,
+          -0.156589
+        ],
+        [
+          44.892618,
+          -0.156645
+        ],
+        [
+          44.892769,
+          -0.156717
+        ],
+        [
+          44.892782,
+          -0.156753
+        ],
+        [
+          44.892919,
+          -0.156823
+        ],
+        [
+          44.893015,
+          -0.156834
+        ],
+        [
+          44.89326,
+          -0.156827
+        ],
+        [
+          44.893293,
+          -0.156858
+        ],
+        [
+          44.893482,
+          -0.156948
+        ],
+        [
+          44.89356,
+          -0.156859
+        ],
+        [
+          44.893578,
+          -0.156775
+        ],
+        [
+          44.893673,
+          -0.156463
+        ],
+        [
+          44.893719,
+          -0.156313
+        ],
+        [
+          44.893802,
+          -0.156001
+        ],
+        [
+          44.893835,
+          -0.155886
+        ],
+        [
+          44.893865,
+          -0.155836
+        ],
+        [
+          44.893939,
+          -0.15586
+        ],
+        [
+          44.894139,
+          -0.155847
+        ],
+        [
+          44.894254,
+          -0.155852
+        ],
+        [
+          44.894306,
+          -0.155854
+        ],
+        [
+          44.894389,
+          -0.155852
+        ],
+        [
+          44.894624,
+          -0.155847
+        ],
+        [
+          44.89496,
+          -0.155803
+        ],
+        [
+          44.895136,
+          -0.155731
+        ],
+        [
+          44.895181,
+          -0.155723
+        ],
+        [
+          44.895202,
+          -0.155692
+        ],
+        [
+          44.895229,
+          -0.155505
+        ],
+        [
+          44.895256,
+          -0.155314
+        ],
+        [
+          44.895313,
+          -0.155326
+        ],
+        [
+          44.895573,
+          -0.15539
+        ],
+        [
+          44.895791,
+          -0.155448
+        ],
+        [
+          44.895859,
+          -0.155481
+        ],
+        [
+          44.895867,
+          -0.155452
+        ],
+        [
+          44.89588,
+          -0.155428
+        ],
+        [
+          44.895897,
+          -0.155408
+        ],
+        [
+          44.895924,
+          -0.155392
+        ],
+        [
+          44.895953,
+          -0.155388
+        ],
+        [
+          44.895981,
+          -0.155398
+        ],
+        [
+          44.896001,
+          -0.155415
+        ],
+        [
+          44.896018,
+          -0.155438
+        ],
+        [
+          44.896029,
+          -0.155466
+        ],
+        [
+          44.896069,
+          -0.155433
+        ],
+        [
+          44.896146,
+          -0.155394
+        ],
+        [
+          44.896347,
+          -0.155382
+        ],
+        [
+          44.896575,
+          -0.155368
+        ],
+        [
+          44.896903,
+          -0.155347
+        ],
+        [
+          44.896911,
+          -0.15554
+        ]
+      ],
+      "walkDistanceKm": 1.4,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+    },
+    {
+      "id": "ste_wine_walk",
+      "name": "Vinos y dulce · Maison du Vin → Cordeliers → macarons",
+      "origin": "Place Pierre Meyrat, Saint-Émilion",
+      "destination": "9 rue Guadet, Saint-Émilion",
+      "mode": "walking",
+      "stops": [
+        "2 bis rue de la Porte Brunet, Saint-Émilion"
+      ],
+      "note": "Pequeño paseo entre alternativas: Maison du Vin desde 10:00, Cordeliers desde 10:30 y macarons para llevar. Priorizar tiendas y paseo; catas opcionales. No añade un almuerzo tardío al regreso.",
+      "pointIds": [
+        "ste_maison_vin",
+        "ste_cordeliers",
+        "ste_macarons"
+      ],
+      "walkPath": [
+        [
+          44.893746,
+          -0.156994
+        ],
+        [
+          44.893602,
+          -0.156868
+        ],
+        [
+          44.89356,
+          -0.156859
+        ],
+        [
+          44.893578,
+          -0.156775
+        ],
+        [
+          44.893673,
+          -0.156463
+        ],
+        [
+          44.893719,
+          -0.156313
+        ],
+        [
+          44.893802,
+          -0.156001
+        ],
+        [
+          44.893835,
+          -0.155886
+        ],
+        [
+          44.893865,
+          -0.155836
+        ],
+        [
+          44.893876,
+          -0.155773
+        ],
+        [
+          44.893876,
+          -0.155684
+        ],
+        [
+          44.893855,
+          -0.155405
+        ],
+        [
+          44.893842,
+          -0.155176
+        ],
+        [
+          44.893838,
+          -0.15511
+        ],
+        [
+          44.893771,
+          -0.155046
+        ],
+        [
+          44.893648,
+          -0.155053
+        ],
+        [
+          44.893364,
+          -0.155068
+        ],
+        [
+          44.893064,
+          -0.15497
+        ],
+        [
+          44.893012,
+          -0.154948
+        ],
+        [
+          44.893058,
+          -0.154756
+        ],
+        [
+          44.893012,
+          -0.154948
+        ],
+        [
+          44.893064,
+          -0.15497
+        ],
+        [
+          44.893364,
+          -0.155068
+        ],
+        [
+          44.893648,
+          -0.155053
+        ],
+        [
+          44.893771,
+          -0.155046
+        ],
+        [
+          44.893838,
+          -0.15511
+        ],
+        [
+          44.893924,
+          -0.155119
+        ],
+        [
+          44.894674,
+          -0.155217
+        ],
+        [
+          44.894865,
+          -0.155237
+        ]
+      ],
+      "walkDistanceKm": 0.5,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+    },
+    {
+      "id": "bdx_hotel_centre",
+      "name": "Hotel → parking Bourse–Jean Jaurès",
+      "origin": "12 rue du Commerce, Bordeaux",
+      "destination": "Parking Bourse Jean Jaurès, Bordeaux",
+      "mode": "driving",
+      "stops": [],
+      "note": "Alternativa al paseo largo desde Saint-Jean. Aparcamiento del centro de pago; elegir conductor antes de las consumiciones."
     }
   ],
   "places": [
@@ -13480,8 +18343,9 @@
       "category": "alojamiento",
       "lat": 47.21682,
       "lng": -1.54625,
-      "description": "Hotel reservado del 13 al 14. Parking 24 €/día con reserva previa.",
-      "status": "confirmado"
+      "description": "Aparthotel Adagio Nantes Centre: estancia confirmada 13–14 noviembre, entrada desde las 15:00 y salida hasta las 11:00. Garaje 24 €/día con reserva y altura máxima 1,80 m. Desayuno no incluido; confirmar acceso y equipaje tras el checkout.",
+      "status": "confirmado",
+      "url": "https://all.accor.com/hotel/6448/index.fr.shtml"
     },
     {
       "id": "machines",
@@ -13490,9 +18354,9 @@
       "category": "atraccion",
       "lat": 47.2079,
       "lng": -1.5656,
-      "description": "Galería de las Máquinas propuesta para la mañana del sábado 14. Entradas no adquiridas.",
+      "description": "Galería de las Máquinas: bestiario mecánico, demostraciones y universo inspirado en Jules Verne y Leonardo. Calendario oficial: viernes 13 y sábado 14 de noviembre de 2026, 14:00–18:00; última entrada 45 min antes del cierre. Adulto 12 € (36 € para tres); visita aproximada de una hora. El Gran Elefante está en mantenimiento del 2/11/2026 al 28/02/2027. Billete del Carrusel aparte. Sin entradas reservadas.",
       "status": "propuesta",
-      "url": "https://www.lesmachines-nantes.fr/"
+      "url": "https://www.lesmachines-nantes.fr/decouvrir/la-galerie-des-machines/"
     },
     {
       "id": "chateau_nantes",
@@ -13501,9 +18365,9 @@
       "category": "atraccion",
       "lat": 47.2168,
       "lng": -1.5496,
-      "description": "Propuesta de paseo el viernes al llegar.",
+      "description": "Castillo de los duques de Bretaña. Patio y murallas gratuitos, 8:30–19:00; último acceso 18:45. Viernes después de las 19:00: únicamente vista desde la calle. Sábado por la mañana sí encaja entrar al patio y pasear por las murallas, sin visitar el museo.",
       "status": "propuesta",
-      "url": "https://www.chateaunantes.fr/"
+      "url": "https://www.chateaunantes.fr/infos-pratiques/horaires-et-acces/"
     },
     {
       "id": "pommeraye",
@@ -13512,8 +18376,9 @@
       "category": "atraccion",
       "lat": 47.2137,
       "lng": -1.5614,
-      "description": "Galería comercial histórica, en la propuesta de paseo.",
-      "status": "propuesta"
+      "description": "Galería comercial del siglo XIX con gran escalera y tres niveles. Priorizar el sábado por la mañana; en el paseo nocturno puede estar cerrada. Conservar la alternativa por calles exteriores. Tiendas con horarios propios.",
+      "status": "propuesta",
+      "url": "https://www.passagepommeraye.fr/"
     },
     {
       "id": "burdeos",
@@ -13522,8 +18387,9 @@
       "category": "alojamiento",
       "lat": 44.82718,
       "lng": -0.55193,
-      "description": "Hotel reservado del 14 al 15. No dispone de parking propio.",
-      "status": "confirmado"
+      "description": "MEININGER Bordeaux Gare Saint-Jean: estancia confirmada 14–15 noviembre, entrada desde 15:00 y salida hasta 11:00. Sin parking propio; Paludate próximo. Desayuno no incluido.",
+      "status": "confirmado",
+      "url": "https://www.meininger-hotels.com/es/hoteles/burdeos/hotel-burdeos-gare-saint-jean/"
     },
     {
       "id": "place_bourse",
@@ -13532,9 +18398,9 @@
       "category": "atraccion",
       "lat": 44.8415,
       "lng": -0.5696,
-      "description": "Plaza junto al Garona, ideal para paseo vespertino.",
+      "description": "Place de la Bourse: fachadas monumentales del puerto comercial histórico, buena parada nocturna gratuita. El Miroir d’eau permanece fuera de servicio de noviembre a abril: no esperar chorros ni reflejos de una lámina de agua.",
       "status": "propuesta",
-      "url": "https://www.bordeaux-tourisme.com/"
+      "url": "https://www.bordeaux-tourisme.com/sites-monuments/miroir-eau-place-bourse"
     },
     {
       "id": "porte_cailhau",
@@ -13543,8 +18409,9 @@
       "category": "atraccion",
       "lat": 44.8388,
       "lng": -0.5681,
-      "description": "Puerta histórica en el paseo propuesto por Burdeos.",
-      "status": "propuesta"
+      "description": "Puerta medieval frente al río y a la Place du Palais. Se visita por fuera durante el paseo nocturno; no se incluye entrada al interior.",
+      "status": "propuesta",
+      "url": "https://www.bordeaux-tourisme.com/quartier/vieux-bordeaux.html"
     },
     {
       "id": "saint_emilion",
@@ -13656,7 +18523,8 @@
       "lng": -0.5743,
       "category": "atraccion",
       "status": "propuesta",
-      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+      "description": "Grand Théâtre y Place de la Comédie, para contemplar la fachada de noche. Junto al edificio triangular del CIVB, buen final del paseo para tomar una copa.",
+      "url": "https://www.bordeaux-tourisme.com/"
     },
     {
       "id": "torcy_rer",
@@ -14887,6 +19755,378 @@
       "description": "Bar y tienda centrados en vinos naturales, con comida para acompañar. Jueves 16:00–22:00. Opción de vino por la tarde, no de cerveza. Consultar carta y precios y conservar margen para el tren.",
       "url": "https://webshop.cuvee.be/contact/",
       "status": "propuesta"
+    },
+    {
+      "id": "nan_parking_gare",
+      "name": "EFFIA Gare Nantes Nord",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.216689,
+      "lng": -1.544984,
+      "description": "Alternativa al garaje del Adagio, junto a la estación y a pocos minutos del hotel. Consultar presupuesto con las horas reales y reservar con EFFIA; no hay plaza reservada.",
+      "status": "propuesta",
+      "address": "Cours John Kennedy, Nantes",
+      "url": "https://www.effia.com/parking/parking-gare-de-nantes-nord-effia"
+    },
+    {
+      "id": "nan_parking_machines",
+      "name": "Parking Les Machines",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.2059063,
+      "lng": -1.5627652,
+      "description": "Parking cubierto junto a las Máquinas. Altura máxima 2,10 m. Sábado 8:30–21:30; tarifa según duración en Naolib. Acceder siguiendo el navegador y la señalización de obras, sin dar por hecho que el puente Anne-de-Bretagne admite coches.",
+      "status": "propuesta",
+      "address": "10 rue Arthur III, Nantes",
+      "url": "https://pro.naolib.fr/fr/abonnements-professionnels/stationnement/les-machines-de-lile"
+    },
+    {
+      "id": "nan_bouffay",
+      "name": "Bouffay · plaza y callejuelas",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.2147684,
+      "lng": -1.5534211,
+      "description": "Barrio medieval para pasear de noche: calles pequeñas, bares y la escultura Éloge du pas de côté en la plaza. Paseo exterior gratuito.",
+      "status": "propuesta",
+      "address": "Place du Bouffay, Nantes",
+      "url": "https://www.levoyageanantes.fr/"
+    },
+    {
+      "id": "nan_royale",
+      "name": "Place Royale",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.2144976,
+      "lng": -1.5587245,
+      "description": "Plaza peatonal con fuente monumental, buena unión entre Bouffay y el Passage Pommeraye. Exterior gratuito para el paseo nocturno.",
+      "status": "propuesta",
+      "address": "Place Royale, Nantes",
+      "url": "https://www.levoyageanantes.fr/"
+    },
+    {
+      "id": "nan_graslin",
+      "name": "Place Graslin",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.2130642,
+      "lng": -1.5622411,
+      "description": "Plaza del teatro y de la brasserie La Cigale. Final cómodo del paseo central o comienzo del desayuno del sábado. Exterior gratuito.",
+      "status": "propuesta",
+      "address": "Place Graslin, Nantes",
+      "url": "https://www.levoyageanantes.fr/"
+    },
+    {
+      "id": "nan_lieu_unique",
+      "name": "Le Lieu Unique · antigua fábrica LU",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.2152981,
+      "lng": -1.5456108,
+      "description": "Antigua fábrica de las galletas LU convertida en espacio cultural con bar y restaurante, junto al hotel. Viernes: bar 11:00–02:00 y cena 19:00–22:00. Interesa por el edificio y el ambiente; el bar no es una visita a la torre. Carta y programación en sus webs.",
+      "status": "propuesta",
+      "address": "Quai Ferdinand Favre, Nantes",
+      "url": "https://lelieuunique.com/infos-pratiques"
+    },
+    {
+      "id": "nan_librairie",
+      "name": "La Mystérieuse Librairie Nantaise",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.2145338,
+      "lng": -1.554217,
+      "description": "Librería especializada en cómic, manga y cultura gráfica. Parada friki para el sábado, si está abierta al pasar; no se cuenta con ella para el paseo nocturno. Confirmar horario en la tienda.",
+      "status": "propuesta",
+      "address": "2 rue de la Paix, Nantes",
+      "url": "https://mysterieuse-librairie.fr/"
+    },
+    {
+      "id": "nan_hebken",
+      "name": "Crêperie Heb Ken",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.2140703,
+      "lng": -1.5591415,
+      "description": "Galettes de trigo sarraceno y crêpes: opción sencilla para cenar el viernes o comer antes de la Galería el sábado. Publica servicio de lunes a sábado desde 11:45 hasta al menos 22:45. No sirve para desayunar temprano.",
+      "status": "propuesta",
+      "address": "5 rue de Guérande, Nantes",
+      "url": "https://www.creperie-hebken.fr/"
+    },
+    {
+      "id": "nan_cigale",
+      "name": "La Cigale · desayuno art nouveau",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.2127612,
+      "lng": -1.56211,
+      "description": "Brasserie de 1895 con mosaicos y decoración art nouveau. Interesa especialmente para desayunar y ver el interior. Carta de septiembre de 2026: desayuno dulce 20 € o salado 25 €, de 07:45 a 11:00. A la carta se puede pedir menos; no es la opción más barata.",
+      "status": "propuesta",
+      "address": "4 place Graslin, Nantes",
+      "url": "https://www.lacigale.com/carte-menu-brasserie-nantes/"
+    },
+    {
+      "id": "nan_gameover",
+      "name": "Game Over · bar de videojuegos",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.2201119,
+      "lng": -1.5495513,
+      "description": "Bar de videojuegos, consolas y juegos de mesa. Acceso a las consolas con consumición; puede pedirse un documento como depósito. Opción distinta para la noche del viernes. Confirmar apertura y precios antes de ir; no confundir con el escape room del mismo nombre en Saint-Herblain.",
+      "status": "propuesta",
+      "address": "1 rue Lebrun, Nantes",
+      "url": "https://metropole.nantes.fr/actualites/que-faire-a-nantes-si-vous-aimez-le-gaming"
+    },
+    {
+      "id": "nan_anneaux",
+      "name": "Les Anneaux · Quai des Antilles",
+      "city": "Nantes",
+      "category": "lugar",
+      "lat": 47.2027636,
+      "lng": -1.5723991,
+      "description": "18 anillos de Daniel Buren y Patrick Bouchain que se iluminan de colores al anochecer. Paseo exterior gratuito junto al antiguo Hangar à bananes. Extensión opcional: queda lejos del bucle del centro, así que elegidla solo si sobra energía.",
+      "status": "propuesta",
+      "address": "Quai des Antilles, Nantes",
+      "url": "https://www.levoyageanantes.fr/oeuvres/les-anneaux/"
+    },
+    {
+      "id": "bdx_parking_paludate",
+      "name": "METPARK Paludate",
+      "city": "Burdeos",
+      "category": "lugar",
+      "lat": 44.8291848,
+      "lng": -0.5534704,
+      "description": "Aparcamiento recomendado por MEININGER, aproximadamente a 300 m. Abierto 24/7; altura máxima 2,40 m. Tarifa publicada: 22 €/24 h; noche 7 € solo en el tramo 20:00–07:00 y bajo sus condiciones. Las horas fuera de ese tramo se cobran; simular la estancia completa.",
+      "status": "propuesta",
+      "address": "Quai de Paludate, Bordeaux",
+      "url": "https://www.mtpk.fr/parking/parking-saint-jean-paludate/"
+    },
+    {
+      "id": "bdx_parking_bourse",
+      "name": "Parking Bourse–Jean Jaurès",
+      "city": "Burdeos",
+      "category": "lugar",
+      "lat": 44.8429406,
+      "lng": -0.5707251,
+      "description": "Alternativa para ir en coche desde el hotel al paseo del centro. Parking cubierto junto a la Bourse, con gálibo máximo 2 m. Comprobar tarifa por unas horas en el operador: este coste se suma al aparcamiento del hotel.",
+      "status": "propuesta",
+      "address": "Place Jean Jaurès, Bordeaux",
+      "url": "https://www.indigoneo.fr/fr/parkings/23763/parking-bourse-jean-jaures"
+    },
+    {
+      "id": "bdx_stpierre",
+      "name": "Saint-Pierre · casco antiguo",
+      "city": "Burdeos",
+      "category": "lugar",
+      "lat": 44.8399573,
+      "lng": -0.5707431,
+      "description": "Calles antiguas, plazas pequeñas y restaurantes entre Porte Cailhau y la Bourse. Buen tramo nocturno a pie para completar las fachadas del antiguo puerto comercial. Exterior gratuito.",
+      "status": "propuesta",
+      "address": "Place Saint-Pierre, Bordeaux",
+      "url": "https://www.bordeaux-tourisme.com/quartier/vieux-bordeaux.html"
+    },
+    {
+      "id": "bdx_grosse_cloche",
+      "name": "Grosse Cloche · exterior",
+      "city": "Burdeos",
+      "category": "lugar",
+      "lat": 44.8354468,
+      "lng": -0.5713586,
+      "description": "Campanario medieval sobre una antigua puerta de la ciudad. Se propone el exterior nocturno, sin depender de visitas interiores. Extensión opcional al sur del recorrido central.",
+      "status": "propuesta",
+      "address": "Rue Saint-James, Bordeaux",
+      "url": "https://www.bordeaux-tourisme.com/"
+    },
+    {
+      "id": "bdx_civb",
+      "name": "Le Bar à Vin du CIVB",
+      "city": "Burdeos",
+      "category": "lugar",
+      "lat": 44.8437028,
+      "lng": -0.5747225,
+      "description": "Bar del Consejo de Vinos de Burdeos en el edificio triangular del Hôtel Gobineau. Lunes–sábado 11:30–22:00, domingo cerrado. Selección regional por copas; carta consultada con opciones desde 2,50–3 €. Tablas de queso o embutido 13–15 €: acompañamiento para compartir, no un menú completo.",
+      "status": "propuesta",
+      "address": "3 cours du XXX Juillet, Bordeaux",
+      "url": "https://www.bordeaux.com/fr/nos-bonnes-adresses/bar-a-vin-bordeaux/"
+    },
+    {
+      "id": "bdx_julo",
+      "name": "Chez Julo · caviste y bar de vinos",
+      "city": "Burdeos",
+      "category": "lugar",
+      "lat": 44.8348009,
+      "lng": -0.5649136,
+      "description": "Pequeño caviste y bar en Saint-Michel, con vinos y tablas para acompañar. Sábado 10:00–14:00 y 16:00–00:00 según su web. Opción para una copa si CIVB ya está cerrado; precios y servicio de comida a consultar. Queda al sur del paseo de la Bourse.",
+      "status": "propuesta",
+      "address": "11 rue des Faures, Bordeaux",
+      "url": "https://julobordeaux.wixsite.com/julo"
+    },
+    {
+      "id": "bdx_max",
+      "name": "Max Bordeaux · grandes vinos por copa",
+      "city": "Burdeos",
+      "category": "lugar",
+      "lat": 44.8419235,
+      "lng": -0.575883,
+      "description": "Curiosidad vinícola: probar pequeñas cantidades de grandes vinos sin comprar la botella completa. Martes–sábado 11:00–19:30. Solo encaja con una llegada temprana; el precio depende mucho del vino y del volumen, no se presenta como barato.",
+      "status": "propuesta",
+      "address": "14 cours de l’Intendance, Bordeaux",
+      "url": "https://maxbordeaux.com/contact-question-acces-numero/"
+    },
+    {
+      "id": "bdx_capucins",
+      "name": "Marché des Capucins",
+      "city": "Burdeos",
+      "category": "lugar",
+      "lat": 44.8304433,
+      "lng": -0.5677867,
+      "description": "Mercado cubierto para café, panadería y productos locales. El domingo abre por la mañana; la web del mercado indica 06:00–13:00, con horarios propios de cada puesto. Propuesta: desayuno breve sobre 07:30–08:00 antes de salir a Saint-Émilion. Cerrado para vuestra cena del sábado.",
+      "status": "propuesta",
+      "address": "Place des Capucins, Bordeaux",
+      "url": "https://marchedescapucins.com/infos-pratiques/"
+    },
+    {
+      "id": "bdx_ploucs",
+      "name": "Chez les Ploucs",
+      "city": "Burdeos",
+      "category": "lugar",
+      "lat": 44.8404817,
+      "lng": -0.5704883,
+      "description": "Restaurante de decoración rural y cocina del suroeste en Saint-Pierre. Sábado 18:30–23:00. Carta propia consultada: menú Le Ploucos 19,80 € sin bebida, suplemento en algunos platos; cassoulet a la carta 16,80 €. Alternativa de cena completa tras el vino. Conviene reservar mesa, sin reserva hecha.",
+      "status": "propuesta",
+      "address": "10 rue des Faussets, Bordeaux",
+      "url": "https://chezlesploucs.fr/chez-les-ploucs-la-carte-les-menu/"
+    },
+    {
+      "id": "bdx_cite_vin",
+      "name": "La Cité du Vin · alternativa de día",
+      "city": "Burdeos",
+      "category": "lugar",
+      "lat": 44.8623716,
+      "lng": -0.5500191,
+      "description": "Edificio contemporáneo y centro de cultura del vino, al norte del centro. La exposición requiere tiempo y visita diurna; no se incluye en el plan de llegada nocturna. Solo alternativa si cambiáis el horario del viaje: comprobar apertura y entradas en su web.",
+      "status": "propuesta",
+      "address": "134 quai de Bacalan, Bordeaux",
+      "url": "https://www.laciteduvin.com/fr/info"
+    },
+    {
+      "id": "ste_parking_guadet",
+      "name": "Parking de la Gendarmerie · zona Guadet",
+      "city": "Saint-Émilion",
+      "category": "lugar",
+      "lat": 44.897027,
+      "lng": -0.1555302,
+      "description": "Primera opción para dejar el coche fuera del casco: el folleto oficial de turismo identifica el parking de la Gendarmerie como gratuito. Seguir señales y comprobar condiciones en la entrada. Alternativa: plazas municipales de pago, 2 €/h, máximo 5 horas; no asumir gratuidad por ser domingo.",
+      "status": "propuesta",
+      "address": "Parking de la Gendarmerie, Saint-Émilion",
+      "url": "https://www.saint-emilion-tourisme.com/uploads/brochure/guide-pratique-2025-fr-67dae48f0a115840123506.pdf"
+    },
+    {
+      "id": "ste_grandes_murailles",
+      "name": "Les Grandes Murailles",
+      "city": "Saint-Émilion",
+      "category": "lugar",
+      "lat": 44.895921,
+      "lng": -0.156207,
+      "description": "Ruina de un convento medieval entre viñas, junto a la entrada norte del pueblo. Parada exterior gratuita para ver el contraste entre piedra y paisaje vinícola, especialmente útil antes de que abran las tiendas.",
+      "status": "propuesta",
+      "address": "Rue des Grandes Murailles, Saint-Émilion",
+      "url": "https://www.saint-emilion-tourisme.com/uploads/brochure/guide-pratique-2025-fr-67dae48f0a115840123506.pdf"
+    },
+    {
+      "id": "ste_clocher",
+      "name": "Place du Clocher · mirador",
+      "city": "Saint-Émilion",
+      "category": "lugar",
+      "lat": 44.8935563,
+      "lng": -0.1563899,
+      "description": "Mirador gratuito sobre los tejados, el campanario y los viñedos. Buen comienzo del paseo de mañana. El acceso a la plaza no implica entrada al campanario ni a la iglesia subterránea.",
+      "status": "propuesta",
+      "address": "Place du Clocher, Saint-Émilion",
+      "url": "https://www.saint-emilion-tourisme.com/"
+    },
+    {
+      "id": "ste_monolithe",
+      "name": "Église monolithe · plaza y exterior",
+      "city": "Saint-Émilion",
+      "category": "lugar",
+      "lat": 44.89326,
+      "lng": -0.1563142,
+      "description": "Iglesia excavada en la roca caliza bajo el pueblo. Plaza y exterior libres; los espacios subterráneos requieren visita guiada y entrada. No se incluye un horario interior no verificado para el domingo 15. Elegir una sola actividad guiada si se reserva, manteniendo la salida hacia Bilbao.",
+      "status": "propuesta",
+      "address": "Place de l’Église Monolithe, Saint-Émilion",
+      "url": "https://www.saint-emilion-tourisme.com/"
+    },
+    {
+      "id": "ste_tour_roy",
+      "name": "Tour du Roy · exterior y Jurade",
+      "city": "Saint-Émilion",
+      "category": "lugar",
+      "lat": 44.891942,
+      "lng": -0.15695,
+      "description": "Torre medieval ligada a las celebraciones de la Jurade, la histórica institución del vino de Saint-Émilion. Exterior y vistas desde su entorno; subida opcional solo si está abierta. No hay un acto de vendimia previsto para vuestro domingo.",
+      "status": "propuesta",
+      "address": "Tour du Roy, Saint-Émilion",
+      "url": "https://www.grandlibournais-tourisme.com/patrimoine-culturel/tour-du-roy/"
+    },
+    {
+      "id": "ste_maison_vin",
+      "name": "Maison du Vin de Saint-Émilion",
+      "city": "Saint-Émilion",
+      "category": "lugar",
+      "lat": 44.8937997,
+      "lng": -0.1568717,
+      "description": "Tienda de la denominación para comparar bodegas, añadas y precios en un mismo lugar. Su web publica noviembre: 10:00–12:30 y 14:00–18:00, siete días a la semana. Encaja sobre las 10:00 del domingo; cursos o catas especiales se consultan aparte, sin dar por hecha una degustación gratuita.",
+      "status": "propuesta",
+      "address": "Place Pierre Meyrat, Saint-Émilion",
+      "url": "https://www.maisonduvinsaintemilion.com/contact-1"
+    },
+    {
+      "id": "ste_cordeliers",
+      "name": "Les Cordeliers · claustro y crémant",
+      "city": "Saint-Émilion",
+      "category": "lugar",
+      "lat": 44.8930095,
+      "lng": -0.1547333,
+      "description": "Claustro medieval y productor de crémant: una vertiente distinta del vino local, con elaboración de espumoso en galerías subterráneas. Horario de invierno publicado por turismo: 10:30–18:00. Tienda y bar para una parada corta; visita de bodegas y degustaciones con condiciones y precio propios. No contar con restaurante o picnic de temporada como comida asegurada en noviembre.",
+      "status": "propuesta",
+      "address": "2 bis rue de la Porte Brunet, Saint-Émilion",
+      "url": "https://www.lescordeliers.com/en/"
+    },
+    {
+      "id": "ste_menuts",
+      "name": "Clos des Menuts · bodegas monolíticas",
+      "city": "Saint-Émilion",
+      "category": "lugar",
+      "lat": 44.894789,
+      "lng": -0.154981,
+      "description": "Bodegas excavadas en caliza. Apertura del domingo 15 POR CONFIRMAR: el productor anuncia 10:00–17:00 en invierno y cierre dominical solo enero–marzo; la ficha de la denominación amplía el cierre a noviembre–marzo. Mantener como opción, no como visita garantizada. El productor anuncia acceso libre a las cavas; catas y compras se consultan aparte.",
+      "status": "propuesta",
+      "address": "2 place du Chapitre, Saint-Émilion",
+      "url": "https://www.clos-des-menuts.com/"
+    },
+    {
+      "id": "ste_macarons",
+      "name": "Macarons de Saint-Émilion · Nadia Fermigier",
+      "city": "Saint-Émilion",
+      "category": "lugar",
+      "lat": 44.894862,
+      "lng": -0.155297,
+      "description": "Macarons de almendra según la tradición de las Ursulinas de 1620: diferentes del macaron parisino de colores. La tienda publica domingo 09:00–19:00. Compra corta para llevar durante el paseo; no es un desayuno completo ni un restaurante. Precios en tienda.",
+      "status": "propuesta",
+      "address": "9 rue Guadet, Saint-Émilion",
+      "url": "https://macarons-saint-emilion.fr/nous-trouver"
+    },
+    {
+      "id": "ste_decor",
+      "name": "L’Envers du Décor · bar de vinos",
+      "city": "Saint-Émilion",
+      "category": "lugar",
+      "lat": 44.893789,
+      "lng": -0.156111,
+      "description": "Histórico bar de vinos abierto desde 1987, con restaurante y cocina regional. Abre los siete días para comer y cenar; consultar carta y reserva. Solo alternativa si decidís alargar la visita hasta el almuerzo: no encaja con salir del pueblo a las 12:00. No se presenta como opción barata.",
+      "status": "propuesta",
+      "address": "5 rue du Clocher, Saint-Émilion",
+      "url": "https://www.envers-dudecor.com/"
     }
   ],
   "stays": [
@@ -14930,12 +20170,12 @@
       "checkout": "14 nov. · hasta 11:00",
       "price": 100.1,
       "address": "19 Allée du Commandant Charcot, 44000 Nantes, Francia",
-      "parking": "Parking del alojamiento 24 €/día; requiere reserva",
+      "parking": "24 €/día, reserva necesaria; garaje cubierto, altura máxima 1,80 m. No hay plaza reservada.",
       "lat": 47.21682,
       "lng": -1.54625,
-      "website": "https://all.accor.com/",
+      "website": "https://all.accor.com/hotel/6448/index.fr.shtml",
       "status": "confirmado",
-      "conditions": "Estudio familiar con cocina; desayuno no incluido. Avisar de hora de llegada. Zona peatonal: confirmar acceso al parking.",
+      "conditions": "Estudio con cocina; desayuno no incluido. Avisar de la llegada y confirmar con el hotel el acceso en coche a la zona peatonal y la entrada al garaje. Salida el sábado hasta las 11:00; confirmar custodia de equipaje y parking tras el checkout si se visita la Galería a las 14:00.",
       "phone": "+33 2 51 86 52 00"
     },
     {
@@ -14946,12 +20186,12 @@
       "checkout": "15 nov. · hasta 11:00",
       "price": 68.25,
       "address": "12 rue du Commerce, 33000 Bordeaux, Francia",
-      "parking": "Sin parking propio. Buscar alternativa cercana.",
+      "parking": "Sin parking propio. METPARK Paludate próximo, abierto 24/7; tarifa publicada hasta 22 €/24 h. Consultar duración real.",
       "lat": 44.82718,
       "lng": -0.55193,
-      "website": "https://www.meininger-hotels.com/",
+      "website": "https://www.meininger-hotels.com/es/hoteles/burdeos/hotel-burdeos-gare-saint-jean/",
       "status": "confirmado",
-      "conditions": "Habitación triple con baño privado; comidas no incluidas. Reserva no reembolsable.",
+      "conditions": "Habitación triple con baño privado; comidas no incluidas. El domingo conviene hacer checkout antes de salir hacia Saint-Émilion. No hay aparcamiento reservado.",
       "phone": "+33 5 33 52 26 02"
     }
   ]

@@ -162,10 +162,11 @@
       "Aparthotel Adagio Nantes Centre",
       "Aparthotel Adagio Nantes Centre"
     ],
-    "description": "Hotel reservado del 13 al 14. Parking 24 €/día con reserva previa.",
+    "description": "Aparthotel Adagio Nantes Centre: estancia confirmada 13–14 noviembre, entrada desde las 15:00 y salida hasta las 11:00. Garaje 24 €/día con reserva y altura máxima 1,80 m. Desayuno no incluido; confirmar acceso y equipaje tras el checkout.",
     "query": "Aparthotel Adagio Nantes Centre, Nantes",
     "lat": 47.21682,
-    "lng": -1.54625
+    "lng": -1.54625,
+    "official": "https://all.accor.com/hotel/6448/index.fr.shtml"
   },
   {
     "id": "machines",
@@ -174,10 +175,13 @@
       "Les Machines de l'Île",
       "Les Machines de l'Île"
     ],
-    "description": "Galería de las Máquinas propuesta para la mañana del sábado 14. Entradas no adquiridas.",
+    "description": "Galería de las Máquinas: bestiario mecánico, demostraciones y universo inspirado en Jules Verne y Leonardo. Calendario oficial: viernes 13 y sábado 14 de noviembre de 2026, 14:00–18:00; última entrada 45 min antes del cierre. Adulto 12 € (36 € para tres); visita aproximada de una hora. El Gran Elefante está en mantenimiento del 2/11/2026 al 28/02/2027. Billete del Carrusel aparte. Sin entradas reservadas.",
     "query": "Les Machines de l'Île, Nantes",
     "lat": 47.2079,
-    "lng": -1.5656
+    "lng": -1.5656,
+    "official": "https://www.lesmachines-nantes.fr/decouvrir/la-galerie-des-machines/",
+    "extraSource": "https://www.lesmachines-nantes.fr/pratique/horaires/",
+    "tip": "Propuesta: primer turno disponible sobre las 14:00 del sábado 14, sujeto a disponibilidad. No abre esa mañana. Reservar fecha y hora exactas en la billetterie; no consta compra."
   },
   {
     "id": "chateau_nantes",
@@ -186,10 +190,11 @@
       "Castillo de los Duques de Bretaña",
       "Castillo de los Duques de Bretaña"
     ],
-    "description": "Propuesta de paseo el viernes al llegar.",
+    "description": "Castillo de los duques de Bretaña. Patio y murallas gratuitos, 8:30–19:00; último acceso 18:45. Viernes después de las 19:00: únicamente vista desde la calle. Sábado por la mañana sí encaja entrar al patio y pasear por las murallas, sin visitar el museo.",
     "query": "Castillo de los Duques de Bretaña, Nantes",
     "lat": 47.2168,
-    "lng": -1.5496
+    "lng": -1.5496,
+    "official": "https://www.chateaunantes.fr/infos-pratiques/horaires-et-acces/"
   },
   {
     "id": "pommeraye",
@@ -198,10 +203,11 @@
       "Passage Pommeraye",
       "Passage Pommeraye"
     ],
-    "description": "Galería comercial histórica, en la propuesta de paseo.",
+    "description": "Galería comercial del siglo XIX con gran escalera y tres niveles. Priorizar el sábado por la mañana; en el paseo nocturno puede estar cerrada. Conservar la alternativa por calles exteriores. Tiendas con horarios propios.",
     "query": "Passage Pommeraye, Nantes",
     "lat": 47.2137,
-    "lng": -1.5614
+    "lng": -1.5614,
+    "official": "https://www.passagepommeraye.fr/"
   },
   {
     "id": "burdeos",
@@ -210,10 +216,11 @@
       "MEININGER Bordeaux Gare Saint-Jean",
       "MEININGER Bordeaux Gare Saint-Jean"
     ],
-    "description": "Hotel reservado del 14 al 15. No dispone de parking propio.",
+    "description": "MEININGER Bordeaux Gare Saint-Jean: estancia confirmada 14–15 noviembre, entrada desde 15:00 y salida hasta 11:00. Sin parking propio; Paludate próximo. Desayuno no incluido.",
     "query": "MEININGER Bordeaux Gare Saint-Jean, Burdeos",
     "lat": 44.82718,
-    "lng": -0.55193
+    "lng": -0.55193,
+    "official": "https://www.meininger-hotels.com/es/hoteles/burdeos/hotel-burdeos-gare-saint-jean/"
   },
   {
     "id": "place_bourse",
@@ -222,10 +229,11 @@
       "Place de la Bourse",
       "Place de la Bourse"
     ],
-    "description": "Plaza junto al Garona, ideal para paseo vespertino.",
+    "description": "Place de la Bourse: fachadas monumentales del puerto comercial histórico, buena parada nocturna gratuita. El Miroir d’eau permanece fuera de servicio de noviembre a abril: no esperar chorros ni reflejos de una lámina de agua.",
     "query": "Place de la Bourse, Burdeos",
     "lat": 44.8415,
-    "lng": -0.5696
+    "lng": -0.5696,
+    "official": "https://www.bordeaux-tourisme.com/sites-monuments/miroir-eau-place-bourse"
   },
   {
     "id": "porte_cailhau",
@@ -234,10 +242,11 @@
       "Porte Cailhau",
       "Porte Cailhau"
     ],
-    "description": "Puerta histórica en el paseo propuesto por Burdeos.",
+    "description": "Puerta medieval frente al río y a la Place du Palais. Se visita por fuera durante el paseo nocturno; no se incluye entrada al interior.",
     "query": "Porte Cailhau, Burdeos",
     "lat": 44.8388,
-    "lng": -0.5681
+    "lng": -0.5681,
+    "official": "https://www.bordeaux-tourisme.com/quartier/vieux-bordeaux.html"
   },
   {
     "id": "saint_emilion",
@@ -375,10 +384,11 @@
       "Grand Théâtre",
       "Grand Théâtre"
     ],
-    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "description": "Grand Théâtre y Place de la Comédie, para contemplar la fachada de noche. Junto al edificio triangular del CIVB, buen final del paseo para tomar una copa.",
     "query": "Grand Théâtre, Burdeos",
     "lat": 44.8426,
-    "lng": -0.5743
+    "lng": -0.5743,
+    "official": "https://www.bordeaux-tourisme.com/"
   },
   {
     "id": "torcy_rer",
@@ -2362,5 +2372,455 @@
     "lng": 3.2270458,
     "description": "Bar y tienda centrados en vinos naturales, con comida para acompañar. Jueves 16:00–22:00. Opción de vino por la tarde, no de cerveza. Consultar carta y precios y conservar margen para el tren.",
     "official": "https://webshop.cuvee.be/contact/"
+  },
+  {
+    "id": "nan_parking_gare",
+    "name": "EFFIA Gare Nantes Nord",
+    "aliases": [
+      "EFFIA Gare Nantes Nord"
+    ],
+    "zone": "Nantes",
+    "query": "Cours John Kennedy, Nantes",
+    "description": "Alternativa al garaje del Adagio, junto a la estación y a pocos minutos del hotel. Consultar presupuesto con las horas reales y reservar con EFFIA; no hay plaza reservada.",
+    "lat": 47.216689,
+    "lng": -1.544984,
+    "official": "https://www.effia.com/parking/parking-gare-de-nantes-nord-effia",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "nan_parking_machines",
+    "name": "Parking Les Machines",
+    "aliases": [
+      "Parking Les Machines"
+    ],
+    "zone": "Nantes",
+    "query": "10 rue Arthur III, Nantes",
+    "description": "Parking cubierto junto a las Máquinas. Altura máxima 2,10 m. Sábado 8:30–21:30; tarifa según duración en Naolib. Acceder siguiendo el navegador y la señalización de obras, sin dar por hecho que el puente Anne-de-Bretagne admite coches.",
+    "lat": 47.2059063,
+    "lng": -1.5627652,
+    "official": "https://pro.naolib.fr/fr/abonnements-professionnels/stationnement/les-machines-de-lile",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "extraSource": "https://naolib.fr/fr/tarifs/stationnement/les-tarifs-du-stationnement"
+  },
+  {
+    "id": "nan_bouffay",
+    "name": "Bouffay · plaza y callejuelas",
+    "aliases": [
+      "Bouffay · plaza y callejuelas"
+    ],
+    "zone": "Nantes",
+    "query": "Place du Bouffay, Nantes",
+    "description": "Barrio medieval para pasear de noche: calles pequeñas, bares y la escultura Éloge du pas de côté en la plaza. Paseo exterior gratuito.",
+    "lat": 47.2147684,
+    "lng": -1.5534211,
+    "official": "https://www.levoyageanantes.fr/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "nan_royale",
+    "name": "Place Royale",
+    "aliases": [
+      "Place Royale"
+    ],
+    "zone": "Nantes",
+    "query": "Place Royale, Nantes",
+    "description": "Plaza peatonal con fuente monumental, buena unión entre Bouffay y el Passage Pommeraye. Exterior gratuito para el paseo nocturno.",
+    "lat": 47.2144976,
+    "lng": -1.5587245,
+    "official": "https://www.levoyageanantes.fr/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "nan_graslin",
+    "name": "Place Graslin",
+    "aliases": [
+      "Place Graslin"
+    ],
+    "zone": "Nantes",
+    "query": "Place Graslin, Nantes",
+    "description": "Plaza del teatro y de la brasserie La Cigale. Final cómodo del paseo central o comienzo del desayuno del sábado. Exterior gratuito.",
+    "lat": 47.2130642,
+    "lng": -1.5622411,
+    "official": "https://www.levoyageanantes.fr/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "nan_lieu_unique",
+    "name": "Le Lieu Unique · antigua fábrica LU",
+    "aliases": [
+      "Le Lieu Unique · antigua fábrica LU"
+    ],
+    "zone": "Nantes",
+    "query": "Quai Ferdinand Favre, Nantes",
+    "description": "Antigua fábrica de las galletas LU convertida en espacio cultural con bar y restaurante, junto al hotel. Viernes: bar 11:00–02:00 y cena 19:00–22:00. Interesa por el edificio y el ambiente; el bar no es una visita a la torre. Carta y programación en sus webs.",
+    "lat": 47.2152981,
+    "lng": -1.5456108,
+    "official": "https://lelieuunique.com/infos-pratiques",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "extraSource": "https://www.restaurantlieuunique.fr/",
+    "tip": "Buena cena si llegáis tarde y preferís quedaros cerca del alojamiento. Presupuesto propio orientativo: 15–25 € por persona, según carta y bebida."
+  },
+  {
+    "id": "nan_librairie",
+    "name": "La Mystérieuse Librairie Nantaise",
+    "aliases": [
+      "La Mystérieuse Librairie Nantaise"
+    ],
+    "zone": "Nantes",
+    "query": "2 rue de la Paix, Nantes",
+    "description": "Librería especializada en cómic, manga y cultura gráfica. Parada friki para el sábado, si está abierta al pasar; no se cuenta con ella para el paseo nocturno. Confirmar horario en la tienda.",
+    "lat": 47.2145338,
+    "lng": -1.554217,
+    "official": "https://mysterieuse-librairie.fr/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "nan_hebken",
+    "name": "Crêperie Heb Ken",
+    "aliases": [
+      "Crêperie Heb Ken"
+    ],
+    "zone": "Nantes",
+    "query": "5 rue de Guérande, Nantes",
+    "description": "Galettes de trigo sarraceno y crêpes: opción sencilla para cenar el viernes o comer antes de la Galería el sábado. Publica servicio de lunes a sábado desde 11:45 hasta al menos 22:45. No sirve para desayunar temprano.",
+    "lat": 47.2140703,
+    "lng": -1.5591415,
+    "official": "https://www.creperie-hebken.fr/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "tip": "Presupuesto propio orientativo: 12–20 € por persona según galette, postre y bebida; comprobar carta. No se trata de una tarifa cerrada."
+  },
+  {
+    "id": "nan_cigale",
+    "name": "La Cigale · desayuno art nouveau",
+    "aliases": [
+      "La Cigale · desayuno art nouveau"
+    ],
+    "zone": "Nantes",
+    "query": "4 place Graslin, Nantes",
+    "description": "Brasserie de 1895 con mosaicos y decoración art nouveau. Interesa especialmente para desayunar y ver el interior. Carta de septiembre de 2026: desayuno dulce 20 € o salado 25 €, de 07:45 a 11:00. A la carta se puede pedir menos; no es la opción más barata.",
+    "lat": 47.2127612,
+    "lng": -1.56211,
+    "official": "https://www.lacigale.com/carte-menu-brasserie-nantes/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "extraSource": "https://www.lacigale.com/wp-content/uploads/2026/09/Carte-SDT-Septembre-2026-1.pdf"
+  },
+  {
+    "id": "nan_gameover",
+    "name": "Game Over · bar de videojuegos",
+    "aliases": [
+      "Game Over · bar de videojuegos"
+    ],
+    "zone": "Nantes",
+    "query": "1 rue Lebrun, Nantes",
+    "description": "Bar de videojuegos, consolas y juegos de mesa. Acceso a las consolas con consumición; puede pedirse un documento como depósito. Opción distinta para la noche del viernes. Confirmar apertura y precios antes de ir; no confundir con el escape room del mismo nombre en Saint-Herblain.",
+    "lat": 47.2201119,
+    "lng": -1.5495513,
+    "official": "https://metropole.nantes.fr/actualites/que-faire-a-nantes-si-vous-aimez-le-gaming",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "nan_anneaux",
+    "name": "Les Anneaux · Quai des Antilles",
+    "aliases": [
+      "Les Anneaux · Quai des Antilles"
+    ],
+    "zone": "Nantes",
+    "query": "Quai des Antilles, Nantes",
+    "description": "18 anillos de Daniel Buren y Patrick Bouchain que se iluminan de colores al anochecer. Paseo exterior gratuito junto al antiguo Hangar à bananes. Extensión opcional: queda lejos del bucle del centro, así que elegidla solo si sobra energía.",
+    "lat": 47.2027636,
+    "lng": -1.5723991,
+    "official": "https://www.levoyageanantes.fr/oeuvres/les-anneaux/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "bdx_parking_paludate",
+    "name": "METPARK Paludate",
+    "aliases": [
+      "METPARK Paludate"
+    ],
+    "zone": "Burdeos",
+    "query": "Quai de Paludate, Bordeaux",
+    "description": "Aparcamiento recomendado por MEININGER, aproximadamente a 300 m. Abierto 24/7; altura máxima 2,40 m. Tarifa publicada: 22 €/24 h; noche 7 € solo en el tramo 20:00–07:00 y bajo sus condiciones. Las horas fuera de ese tramo se cobran; simular la estancia completa.",
+    "lat": 44.8291848,
+    "lng": -0.5534704,
+    "official": "https://www.mtpk.fr/parking/parking-saint-jean-paludate/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "extraSource": "https://help-center.meininger-hotels.com/es/support/solutions/articles/79000143471-opciones-de-estacionamiento-en-meininger-hotel-bordeaux-gare-saint-jean"
+  },
+  {
+    "id": "bdx_parking_bourse",
+    "name": "Parking Bourse–Jean Jaurès",
+    "aliases": [
+      "Parking Bourse–Jean Jaurès"
+    ],
+    "zone": "Burdeos",
+    "query": "Place Jean Jaurès, Bordeaux",
+    "description": "Alternativa para ir en coche desde el hotel al paseo del centro. Parking cubierto junto a la Bourse, con gálibo máximo 2 m. Comprobar tarifa por unas horas en el operador: este coste se suma al aparcamiento del hotel.",
+    "lat": 44.8429406,
+    "lng": -0.5707251,
+    "official": "https://www.indigoneo.fr/fr/parkings/23763/parking-bourse-jean-jaures",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "extraSource": "https://sedeplacer.bordeaux-metropole.fr/parking/227"
+  },
+  {
+    "id": "bdx_stpierre",
+    "name": "Saint-Pierre · casco antiguo",
+    "aliases": [
+      "Saint-Pierre · casco antiguo"
+    ],
+    "zone": "Burdeos",
+    "query": "Place Saint-Pierre, Bordeaux",
+    "description": "Calles antiguas, plazas pequeñas y restaurantes entre Porte Cailhau y la Bourse. Buen tramo nocturno a pie para completar las fachadas del antiguo puerto comercial. Exterior gratuito.",
+    "lat": 44.8399573,
+    "lng": -0.5707431,
+    "official": "https://www.bordeaux-tourisme.com/quartier/vieux-bordeaux.html",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "bdx_grosse_cloche",
+    "name": "Grosse Cloche · exterior",
+    "aliases": [
+      "Grosse Cloche · exterior"
+    ],
+    "zone": "Burdeos",
+    "query": "Rue Saint-James, Bordeaux",
+    "description": "Campanario medieval sobre una antigua puerta de la ciudad. Se propone el exterior nocturno, sin depender de visitas interiores. Extensión opcional al sur del recorrido central.",
+    "lat": 44.8354468,
+    "lng": -0.5713586,
+    "official": "https://www.bordeaux-tourisme.com/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "bdx_civb",
+    "name": "Le Bar à Vin du CIVB",
+    "aliases": [
+      "Le Bar à Vin du CIVB"
+    ],
+    "zone": "Burdeos",
+    "query": "3 cours du XXX Juillet, Bordeaux",
+    "description": "Bar del Consejo de Vinos de Burdeos en el edificio triangular del Hôtel Gobineau. Lunes–sábado 11:30–22:00, domingo cerrado. Selección regional por copas; carta consultada con opciones desde 2,50–3 €. Tablas de queso o embutido 13–15 €: acompañamiento para compartir, no un menú completo.",
+    "lat": 44.8437028,
+    "lng": -0.5747225,
+    "official": "https://www.bordeaux.com/fr/nos-bonnes-adresses/bar-a-vin-bordeaux/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "extraSource": "https://www.bordeaux.com/app/uploads/2026/03/carte-des-vins.pdf",
+    "tip": "La mejor parada de vino con presupuesto moderado, si llegáis antes de las 22:00. No todos los vinos cuestan lo mismo; carta de comida en el enlace del local."
+  },
+  {
+    "id": "bdx_julo",
+    "name": "Chez Julo · caviste y bar de vinos",
+    "aliases": [
+      "Chez Julo · caviste y bar de vinos"
+    ],
+    "zone": "Burdeos",
+    "query": "11 rue des Faures, Bordeaux",
+    "description": "Pequeño caviste y bar en Saint-Michel, con vinos y tablas para acompañar. Sábado 10:00–14:00 y 16:00–00:00 según su web. Opción para una copa si CIVB ya está cerrado; precios y servicio de comida a consultar. Queda al sur del paseo de la Bourse.",
+    "lat": 44.8348009,
+    "lng": -0.5649136,
+    "official": "https://julobordeaux.wixsite.com/julo",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "bdx_max",
+    "name": "Max Bordeaux · grandes vinos por copa",
+    "aliases": [
+      "Max Bordeaux · grandes vinos por copa"
+    ],
+    "zone": "Burdeos",
+    "query": "14 cours de l’Intendance, Bordeaux",
+    "description": "Curiosidad vinícola: probar pequeñas cantidades de grandes vinos sin comprar la botella completa. Martes–sábado 11:00–19:30. Solo encaja con una llegada temprana; el precio depende mucho del vino y del volumen, no se presenta como barato.",
+    "lat": 44.8419235,
+    "lng": -0.575883,
+    "official": "https://maxbordeaux.com/contact-question-acces-numero/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "bdx_capucins",
+    "name": "Marché des Capucins",
+    "aliases": [
+      "Marché des Capucins"
+    ],
+    "zone": "Burdeos",
+    "query": "Place des Capucins, Bordeaux",
+    "description": "Mercado cubierto para café, panadería y productos locales. El domingo abre por la mañana; la web del mercado indica 06:00–13:00, con horarios propios de cada puesto. Propuesta: desayuno breve sobre 07:30–08:00 antes de salir a Saint-Émilion. Cerrado para vuestra cena del sábado.",
+    "lat": 44.8304433,
+    "lng": -0.5677867,
+    "official": "https://marchedescapucins.com/infos-pratiques/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "tip": "Precios según puesto. Es opcional: el domingo interesa salir con margen hacia Saint-Émilion y Bilbao."
+  },
+  {
+    "id": "bdx_ploucs",
+    "name": "Chez les Ploucs",
+    "aliases": [
+      "Chez les Ploucs"
+    ],
+    "zone": "Burdeos",
+    "query": "10 rue des Faussets, Bordeaux",
+    "description": "Restaurante de decoración rural y cocina del suroeste en Saint-Pierre. Sábado 18:30–23:00. Carta propia consultada: menú Le Ploucos 19,80 € sin bebida, suplemento en algunos platos; cassoulet a la carta 16,80 €. Alternativa de cena completa tras el vino. Conviene reservar mesa, sin reserva hecha.",
+    "lat": 44.8404817,
+    "lng": -0.5704883,
+    "official": "https://chezlesploucs.fr/chez-les-ploucs-la-carte-les-menu/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "extraSource": "https://chezlesploucs.fr/contact-les-ploucs-bordeaux/"
+  },
+  {
+    "id": "bdx_cite_vin",
+    "name": "La Cité du Vin · alternativa de día",
+    "aliases": [
+      "La Cité du Vin · alternativa de día"
+    ],
+    "zone": "Burdeos",
+    "query": "134 quai de Bacalan, Bordeaux",
+    "description": "Edificio contemporáneo y centro de cultura del vino, al norte del centro. La exposición requiere tiempo y visita diurna; no se incluye en el plan de llegada nocturna. Solo alternativa si cambiáis el horario del viaje: comprobar apertura y entradas en su web.",
+    "lat": 44.8623716,
+    "lng": -0.5500191,
+    "official": "https://www.laciteduvin.com/fr/info",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "ste_parking_guadet",
+    "name": "Parking de la Gendarmerie · zona Guadet",
+    "aliases": [
+      "Parking de la Gendarmerie · zona Guadet"
+    ],
+    "zone": "Saint-Émilion",
+    "query": "Parking de la Gendarmerie, Saint-Émilion",
+    "description": "Primera opción para dejar el coche fuera del casco: el folleto oficial de turismo identifica el parking de la Gendarmerie como gratuito. Seguir señales y comprobar condiciones en la entrada. Alternativa: plazas municipales de pago, 2 €/h, máximo 5 horas; no asumir gratuidad por ser domingo.",
+    "lat": 44.897027,
+    "lng": -0.1555302,
+    "official": "https://www.saint-emilion-tourisme.com/uploads/brochure/guide-pratique-2025-fr-67dae48f0a115840123506.pdf",
+    "mapNote": "Punto de referencia en la gendarmería de Saint-Émilion, en la zona Guadet. Seguir los carteles del parking público; el marcador no es una plaza ni la entrada al recinto policial.",
+    "extraSource": "https://www.saint-emilion.org/vie-pratique-st-emilion/reglementation-et-tarifs-du-stationnement"
+  },
+  {
+    "id": "ste_grandes_murailles",
+    "name": "Les Grandes Murailles",
+    "aliases": [
+      "Les Grandes Murailles"
+    ],
+    "zone": "Saint-Émilion",
+    "query": "Rue des Grandes Murailles, Saint-Émilion",
+    "description": "Ruina de un convento medieval entre viñas, junto a la entrada norte del pueblo. Parada exterior gratuita para ver el contraste entre piedra y paisaje vinícola, especialmente útil antes de que abran las tiendas.",
+    "lat": 44.895921,
+    "lng": -0.156207,
+    "official": "https://www.saint-emilion-tourisme.com/uploads/brochure/guide-pratique-2025-fr-67dae48f0a115840123506.pdf",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "ste_clocher",
+    "name": "Place du Clocher · mirador",
+    "aliases": [
+      "Place du Clocher · mirador"
+    ],
+    "zone": "Saint-Émilion",
+    "query": "Place du Clocher, Saint-Émilion",
+    "description": "Mirador gratuito sobre los tejados, el campanario y los viñedos. Buen comienzo del paseo de mañana. El acceso a la plaza no implica entrada al campanario ni a la iglesia subterránea.",
+    "lat": 44.8935563,
+    "lng": -0.1563899,
+    "official": "https://www.saint-emilion-tourisme.com/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "ste_monolithe",
+    "name": "Église monolithe · plaza y exterior",
+    "aliases": [
+      "Église monolithe · plaza y exterior"
+    ],
+    "zone": "Saint-Émilion",
+    "query": "Place de l’Église Monolithe, Saint-Émilion",
+    "description": "Iglesia excavada en la roca caliza bajo el pueblo. Plaza y exterior libres; los espacios subterráneos requieren visita guiada y entrada. No se incluye un horario interior no verificado para el domingo 15. Elegir una sola actividad guiada si se reserva, manteniendo la salida hacia Bilbao.",
+    "lat": 44.89326,
+    "lng": -0.1563142,
+    "official": "https://www.saint-emilion-tourisme.com/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "ste_tour_roy",
+    "name": "Tour du Roy · exterior y Jurade",
+    "aliases": [
+      "Tour du Roy · exterior y Jurade"
+    ],
+    "zone": "Saint-Émilion",
+    "query": "Tour du Roy, Saint-Émilion",
+    "description": "Torre medieval ligada a las celebraciones de la Jurade, la histórica institución del vino de Saint-Émilion. Exterior y vistas desde su entorno; subida opcional solo si está abierta. No hay un acto de vendimia previsto para vuestro domingo.",
+    "lat": 44.891942,
+    "lng": -0.15695,
+    "official": "https://www.grandlibournais-tourisme.com/patrimoine-culturel/tour-du-roy/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "extraSource": "https://www.saintemilion-unesco.com/la-juridiction/histoire-de-la-juridiction/"
+  },
+  {
+    "id": "ste_maison_vin",
+    "name": "Maison du Vin de Saint-Émilion",
+    "aliases": [
+      "Maison du Vin de Saint-Émilion"
+    ],
+    "zone": "Saint-Émilion",
+    "query": "Place Pierre Meyrat, Saint-Émilion",
+    "description": "Tienda de la denominación para comparar bodegas, añadas y precios en un mismo lugar. Su web publica noviembre: 10:00–12:30 y 14:00–18:00, siete días a la semana. Encaja sobre las 10:00 del domingo; cursos o catas especiales se consultan aparte, sin dar por hecha una degustación gratuita.",
+    "lat": 44.8937997,
+    "lng": -0.1568717,
+    "official": "https://www.maisonduvinsaintemilion.com/contact-1",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "ste_cordeliers",
+    "name": "Les Cordeliers · claustro y crémant",
+    "aliases": [
+      "Les Cordeliers · claustro y crémant"
+    ],
+    "zone": "Saint-Émilion",
+    "query": "2 bis rue de la Porte Brunet, Saint-Émilion",
+    "description": "Claustro medieval y productor de crémant: una vertiente distinta del vino local, con elaboración de espumoso en galerías subterráneas. Horario de invierno publicado por turismo: 10:30–18:00. Tienda y bar para una parada corta; visita de bodegas y degustaciones con condiciones y precio propios. No contar con restaurante o picnic de temporada como comida asegurada en noviembre.",
+    "lat": 44.8930095,
+    "lng": -0.1547333,
+    "official": "https://www.lescordeliers.com/en/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "extraSource": "https://www.bordeaux-tourisme.com/restaurant/cordeliers.html"
+  },
+  {
+    "id": "ste_menuts",
+    "name": "Clos des Menuts · bodegas monolíticas",
+    "aliases": [
+      "Clos des Menuts · bodegas monolíticas"
+    ],
+    "zone": "Saint-Émilion",
+    "query": "2 place du Chapitre, Saint-Émilion",
+    "description": "Bodegas excavadas en caliza. Apertura del domingo 15 POR CONFIRMAR: el productor anuncia 10:00–17:00 en invierno y cierre dominical solo enero–marzo; la ficha de la denominación amplía el cierre a noviembre–marzo. Mantener como opción, no como visita garantizada. El productor anuncia acceso libre a las cavas; catas y compras se consultan aparte.",
+    "lat": 44.894789,
+    "lng": -0.154981,
+    "official": "https://www.clos-des-menuts.com/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026.",
+    "extraSource": "https://vins-saint-emilion.com/chateau/clos-des-menuts/",
+    "tip": "Llamar al +33 5 57 74 45 77 antes de contar con la visita del domingo."
+  },
+  {
+    "id": "ste_macarons",
+    "name": "Macarons de Saint-Émilion · Nadia Fermigier",
+    "aliases": [
+      "Macarons de Saint-Émilion · Nadia Fermigier"
+    ],
+    "zone": "Saint-Émilion",
+    "query": "9 rue Guadet, Saint-Émilion",
+    "description": "Macarons de almendra según la tradición de las Ursulinas de 1620: diferentes del macaron parisino de colores. La tienda publica domingo 09:00–19:00. Compra corta para llevar durante el paseo; no es un desayuno completo ni un restaurante. Precios en tienda.",
+    "lat": 44.894862,
+    "lng": -0.155297,
+    "official": "https://macarons-saint-emilion.fr/nous-trouver",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
+  },
+  {
+    "id": "ste_decor",
+    "name": "L’Envers du Décor · bar de vinos",
+    "aliases": [
+      "L’Envers du Décor · bar de vinos"
+    ],
+    "zone": "Saint-Émilion",
+    "query": "5 rue du Clocher, Saint-Émilion",
+    "description": "Histórico bar de vinos abierto desde 1987, con restaurante y cocina regional. Abre los siete días para comer y cenar; consultar carta y reserva. Solo alternativa si decidís alargar la visita hasta el almuerzo: no encaja con salir del pueblo a las 12:00. No se presenta como opción barata.",
+    "lat": 44.893789,
+    "lng": -0.156111,
+    "official": "https://www.envers-dudecor.com/",
+    "mapNote": "Ubicación de referencia del lugar; seguir la señalización para entradas y aparcamientos. Información comprobada el 5/11/2026."
   }
 ]

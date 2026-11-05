@@ -1,3 +1,17 @@
+## Nantes, Burdeos y Saint-Émilion · 05/11/2026
+
+Nantes y Burdeos: Hotel primero con aparcamientos, Qué ver, Comer y beber, Mapa general y Tiempo. Saint-Émilion: Qué ver con aparcamiento al principio, Comer y beber, Mapa general y Tiempo. Se conservan las URL antiguas mediante alias y los trayectos en coche. 39 puntos en estas páginas con ficha, fuente y mapa; 12 paseos trazados sobre calles (incluidos tres recorridos anteriores revisados), mapas temáticos y generales.
+
+Calendario oficial de Les Machines comprobado para 13 y 14/11/2026: ambos 14:00–18:00. Galería 12 €/adulto, unas 1 h; último acceso 45 min antes del cierre. Gran Elefante en mantenimiento 2/11/2026–28/02/2027. Propuesta pendiente: primer turno disponible del sábado desde 14:00, después viaje a Burdeos y llegada estimada 19:30–20:30. No se han reservado entradas ni alterado reservas. Sábado por la mañana: casco antiguo de Nantes, desayuno y paseo. Parking Adagio 24 €/día, reserva necesaria y gálibo 1,80 m; alternativas EFFIA Gare Nord y Les Machines. Equipaje y parking tras checkout requieren consulta al hotel.
+
+Nantes: castillo, Bouffay, plazas, Passage Pommeraye, librería de cómic, Galería y anillos opcionales; Heb Ken, Le Lieu Unique, La Cigale y Game Over. Precios de carta diferenciados de presupuestos propios.
+
+Burdeos: paseo nocturno, CIVB, Julo, Max Bordeaux solo si se llega temprano, Chez les Ploucs y mercado Capucins para desayuno dominical. Miroir d’eau apagado noviembre–abril; Cité du Vin alternativa diurna fuera del plan nocturno. Paludate próximo al hotel, 22 €/24 h, tarifa nocturna de 7 € limitada 20:00–07:00; nivel 2 cerrado por pintura en las fechas del viaje, otros niveles abiertos. Parking Bourse–Jean Jaurès como alternativa para acercarse al centro en coche.
+
+Saint-Émilion: paseo corto 09:30–12:00/12:30 entre miradores, monolítica exterior, Tour du Roy, Maison du Vin desde 10:00, Cordeliers desde 10:30 y macarons. Clos des Menuts opcional: productor y denominación discrepan sobre apertura dominical de noviembre, se indica confirmar por teléfono. L’Envers du Décor solo como almuerzo alternativo si se alarga la visita. Parking público gratuito según turismo junto a gendarmería; punto de mapa identificado como referencia, no como entrada al parking. Regreso con margen para entrega del coche a las 20:00.
+
+Consultados itinerario maestro y memorias Nantes/Burdeos; propuestas recientes prevalecen sobre el esquema antiguo de Galería por la mañana. Sin publicación de documentos privados, entradas o identificadores. Fuentes originales en fichas; no se modifica el maestro sin solicitud específica.
+
 ## Revisión general · 05/11/2026
 
 Comprobadas estructura, navegación y referencias de las diez páginas, fichas, 19 mapas y 14 trazados peatonales. Pruebas de navegación pública en París, Disney, Gante, Brujas, Bruselas y restantes destinos; previsión de Gante disponible. Sin referencias internas rotas ni fichas ausentes. Sincronizadas 38 fichas antiguas con las coordenadas de su mapa general y actualizada la descripción anterior de Wintercircus.
@@ -152,4 +166,5 @@ Cada pestaña de Gante incluye un mapa interactivo con los lugares de ese aparta
 Guía ampliada con 26 fichas: monumentos exteriores, canales, barrios, paseos, fantasía/juegos y pubs/coctelerías. Mapas por apartado y mapa general, fichas individuales y rutas a pie por tramos. Fuentes y horarios habituales documentados. Sin museos de arte ni ruta cervecera. Mantiene trenes y reservas. Den Elder cierra después del 30/11; café de juegos jueves desde 19:00; barco con muelle de turno en noviembre. Publicación solicitada por David; comprobar despliegue del commit.
 
 Ubicaciones: 24 contrastadas con fichas Google Maps; Le Trappiste con la ubicación publicada en Untappd (51.2109, 3.22276), barco como referencia del entorno de Huidenvettersplein según Wikimedia (51.207750, 3.227519). Se incluyen coordenadas en los dos catálogos para evitar depender de Geocoding API. Caché renovada.
+
 
