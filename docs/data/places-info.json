@@ -1973,5 +1973,317 @@
     "official": "https://www.prix-carburants.gouv.fr/station/77340009",
     "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar.",
     "extraSource": "https://www.costco.fr/station-service"
+  },
+  {
+    "id": "gent_tartaar",
+    "name": "Frituur Tartaar",
+    "aliases": [
+      "Frituur Tartaar"
+    ],
+    "zone": "Gante",
+    "query": "Heilige-Geeststraat 3, 9000 Gent",
+    "description": "Cena económica y rápida junto al centro: patatas, estofado flamenco y snacks vegetales. Menú de estofado con patatas pequeñas, mayonesa y bebida: 12,50 € en su carta de pedidos; comprobar precio en el local. Horario habitual 11:30–22:00; confirmar el festivo 11. Céntrica y popular, no una taberna escondida.",
+    "lat": 51.053331,
+    "lng": 3.7239193,
+    "official": "https://visit.gent.be/en/eat-drink/frituur-tartaar",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita.",
+    "extraSource": "https://www.frituur-tartaar-gent.be/"
+  },
+  {
+    "id": "gent_frietketel",
+    "name": "De Frietketel",
+    "aliases": [
+      "De Frietketel"
+    ],
+    "zone": "Gante",
+    "query": "Papegaaistraat 89, 9000 Gent",
+    "description": "Freiduría de barrio, fuera del eje más turístico. Patatas, snacks y hamburguesas, con muchas opciones vegetarianas y veganas. Presupuesto propio orientativo: 8–14 € según pedido, sin tarifa cerrada. Servicio de tarde habitual 17:00–22:00; confirmar el 11 festivo. Supone un desvío respecto al centro monumental.",
+    "lat": 51.0506026,
+    "lng": 3.7115192,
+    "official": "https://visit.gent.be/en/eat-drink/de-frietketel",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "gent_hal16",
+    "name": "Hal 16 · Dok Brewing Company",
+    "aliases": [
+      "Hal 16 · Dok Brewing Company"
+    ],
+    "zone": "Gante",
+    "query": "Dok Noord 4B, 9000 Gent",
+    "description": "Mercado gastronómico en una antigua nave industrial, útil para cenar sin decidir todos el mismo plato. Hamburguesas, barbacoa y cocina italiana. Presupuesto propio: 15–25 € por comida, según puesto; no todo es barato. Bar miércoles hasta 23:00 y jueves hasta 01:00; cocinas RØK hamburguesas 17:00–21:00, BBQ 18:00–21:00. Confirmar excepción del 11.",
+    "lat": 51.0658129,
+    "lng": 3.7318896,
+    "official": "https://www.hal16.be/",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita.",
+    "extraSource": "https://www.dokbrewingcompany.be/en/contact"
+  },
+  {
+    "id": "gent_bocca",
+    "name": "BOCCA Gent Center",
+    "aliases": [
+      "BOCCA Gent Center"
+    ],
+    "zone": "Gante",
+    "query": "Recollettenlei 2, 9000 Gent",
+    "description": "Pasta rápida para comer allí o llevar. Carta oficial de la cadena: tamaño pequeño 7,20 €, mediano 9,40 € y grande 10,60 €, con posibles suplementos. Lunes–sábado 11:30–22:00; cierra domingos y festivos. NO planificar para el miércoles 11; opción para cenar el jueves 12.",
+    "lat": 51.0505388,
+    "lng": 3.7196943,
+    "official": "https://www.bocca.be/bocca-gent-center",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita.",
+    "extraSource": "https://www.bocca.be/menu"
+  },
+  {
+    "id": "gent_hims_dok",
+    "name": "Himschoot · Dok Noord",
+    "aliases": [
+      "Himschoot · Dok Noord"
+    ],
+    "zone": "Gante",
+    "query": "Dok Noord 7/001, 9000 Gent",
+    "description": "Panadería con salón de té en los antiguos muelles, más próxima al hotel que el casco histórico. Para desayuno con bollería y café en vez de un brunch grande. Abre habitualmente todos los días 08:00–18:00. Presupuesto propio orientativo: 5–10 €, según pedido; comprobar la carta.",
+    "lat": 51.0660797,
+    "lng": 3.7320841,
+    "official": "https://www.bakkerijhimschoot.be/contact",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "gent_hims_centre",
+    "name": "Himschoot · Groentenmarkt",
+    "aliases": [
+      "Himschoot · Groentenmarkt"
+    ],
+    "zone": "Gante",
+    "query": "Groentenmarkt 1, 9000 Gent",
+    "description": "Panadería histórica de 1880, para comprar pan o bollería al pasar por el centro. Laborables 07:30–18:00; fin de semana 08:00–18:00. Presupuesto propio orientativo de desayuno sencillo: 5–10 €. Queda más lejos del hotel; útil si primero vais al centro, no como parada necesaria antes del tren.",
+    "lat": 51.0557129,
+    "lng": 3.7224951,
+    "official": "https://www.bakkerijhimschoot.be/contact",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "gent_bassie",
+    "name": "Bar Bassie · Wintercircus",
+    "aliases": [
+      "Bar Bassie · Wintercircus"
+    ],
+    "zone": "Gante",
+    "query": "Wintercircus, Lammerstraat 13, 9000 Gent",
+    "description": "Azotea con vistas, cócteles y cervezas. Horario habitual lunes–jueves 16:00–00:00. Parada opcional para tomar algo; no se presenta como opción barata. Confirmar el festivo.",
+    "lat": 51.048422,
+    "lng": 3.727861,
+    "official": "https://www.wintercircus.be/en/food-and-drinks",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "gent_bougie",
+    "name": "Bar Bougie · Wintercircus",
+    "aliases": [
+      "Bar Bougie · Wintercircus"
+    ],
+    "zone": "Gante",
+    "query": "Wintercircus, Lammerstraat 13, 9000 Gent",
+    "description": "Café instalado en un antiguo taller de coches, con bebidas y aperitivos. La web publica horarios por semana: confirmar los del 11–12 antes de ir; los del 2–8 no garantizan vuestra visita.",
+    "lat": 51.048422,
+    "lng": 3.727861,
+    "official": "https://www.wintercircus.be/en/food-and-drinks",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "gent_klaas",
+    "name": "Bakker Klaas · Wintercircus",
+    "aliases": [
+      "Bakker Klaas · Wintercircus"
+    ],
+    "zone": "Gante",
+    "query": "Wintercircus, Lammerstraat 13, 9000 Gent",
+    "description": "Panadería con desayuno y café dentro del antiguo circo. Habitualmente miércoles–domingo 08:00–17:00. Precio a consultar; alternativa curiosa si desayunáis en el centro.",
+    "lat": 51.048422,
+    "lng": 3.727861,
+    "official": "https://www.wintercircus.be/en/food-and-drinks",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "gent_mario",
+    "name": "Studio Mario · Wintercircus",
+    "aliases": [
+      "Studio Mario · Wintercircus"
+    ],
+    "zone": "Gante",
+    "query": "Wintercircus, Lammerstraat 13, 9000 Gent",
+    "description": "Por la noche, el espacio de panadería ofrece pizza de masa madre al horno de leña. Habitualmente miércoles–domingo 18:00–22:00. Carta y precios por consultar; confirmar festivo y disponibilidad.",
+    "lat": 51.048422,
+    "lng": 3.727861,
+    "official": "https://www.wintercircus.be/en/food-and-drinks",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "bru_gentpoorte",
+    "name": "Frituur De Gentpoorte",
+    "aliases": [
+      "Frituur De Gentpoorte"
+    ],
+    "zone": "Brujas",
+    "query": "Gentpoortstraat 58, 8000 Brugge",
+    "description": "Freiduría de barrio cerca de la puerta medieval, fuera del eje de Markt. Jueves 11:30–13:30 y 17:00–21:30. SOLO para llevar, sin mesas; prefieren pedidos anticipados. Presupuesto propio: 6–12 € según patatas, salsa y snack. Encaja para almorzar el 12 si llegáis antes de las 13:30.",
+    "lat": 51.2033324,
+    "lng": 3.233592,
+    "official": "https://www.frituurdegentpoorte.be/contact/",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "bru_soup",
+    "name": "Soup · Hallestraat",
+    "aliases": [
+      "Soup · Hallestraat"
+    ],
+    "zone": "Brujas",
+    "query": "Hallestraat 4, 8000 Brugge",
+    "description": "Sopas caseras para un almuerzo ligero y caliente. Abre 11:00–15:30; cierra los miércoles, por lo que el jueves 12 encaja con el horario habitual. Presupuesto propio: 8–13 € según combinación; carta actual a consultar. Está muy céntrica y puede tener visitantes, pero sirve como alternativa sencilla a los menús de plaza.",
+    "lat": 51.207865,
+    "lng": 3.2246706,
+    "official": "https://qjes98.wixsite.com/soup",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "bru_bocca",
+    "name": "BOCCA Brugge",
+    "aliases": [
+      "BOCCA Brugge"
+    ],
+    "zone": "Brujas",
+    "query": "Dweersstraat 13, 8000 Brugge",
+    "description": "Pasta para un almuerzo rápido: tamaños pequeño 7,20 €, mediano 9,40 € y grande 10,60 € en la carta oficial de la cadena, con suplementos según elección. Lunes–sábado 11:00–20:00; domingos y festivos cerrado. Opción práctica para el jueves 12, cerca de ’t Zand.",
+    "lat": 51.2057576,
+    "lng": 3.2197105,
+    "official": "https://www.bocca.be/bocca-brugge",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita.",
+    "extraSource": "https://www.bocca.be/menu"
+  },
+  {
+    "id": "bxl_chapelle",
+    "name": "Friture de la Chapelle",
+    "aliases": [
+      "Friture de la Chapelle"
+    ],
+    "zone": "Bruselas",
+    "query": "Rue Haute 25 / Place de la Chapelle, 1000 Bruxelles",
+    "description": "Fritkot de ambiente local junto al Sablon y Marolles: patatas, salsas y snacks para llevar. Llevar efectivo: Turismo indica que solo acepta cash. Presupuesto propio: 6–12 € según pedido; precio y horario exacto del jueves a comprobar. Se sitúa el entorno de la plaza, no una entrada exacta.",
+    "lat": 50.8417372,
+    "lng": 4.3517884,
+    "official": "https://www.visit.brussels/fr/visiteurs/venue-details.Fritterie-Pitta-de-la-Chappelle.278802",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "bxl_noordzee",
+    "name": "Noordzee · Mer du Nord",
+    "aliases": [
+      "Noordzee · Mer du Nord"
+    ],
+    "zone": "Bruselas",
+    "query": "Rue Sainte-Catherine 45, 1000 Bruxelles",
+    "description": "Bar de pescado para comer pequeñas raciones de pie en el barrio de Sainte-Catherine. Más adecuado para probar una o dos cosas que para un menú sentado. Presupuesto propio: 12–20 €, muy variable según pescado y cantidad. Fishbar habitual martes–domingo 11:00–18:30. Cierre anunciado del 9 al 11 inclusive; el 12 queda fuera de ese cierre, confirmar reapertura.",
+    "lat": 50.8502733,
+    "lng": 4.3476549,
+    "official": "https://noordzeemerdunord.be/contact/?lang=en",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita.",
+    "extraSource": "https://noordzeemerdunord.be/"
+  },
+  {
+    "id": "bxl_wolf",
+    "name": "WOLF · Sharing Food Market",
+    "aliases": [
+      "WOLF · Sharing Food Market"
+    ],
+    "zone": "Bruselas",
+    "query": "Rue du Fossé aux Loups 48C, 1000 Bruxelles",
+    "description": "Mercado cubierto con puestos de distintas cocinas en un antiguo banco. Útil para almorzar solo y comparar cartas. Presupuesto propio: 12–20 € según puesto; no es el más barato. La web del local limita la comida entre semana a 12:00–14:30 y 18:00–22:00; bebidas 12:00–22:30. Para el jueves, ir al mediodía.",
+    "lat": 50.8500794,
+    "lng": 4.3563069,
+    "official": "https://wolf.be/en/bxl/contact-fqa/",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "bxl_presale",
+    "name": "Le Pré Salé",
+    "aliases": [
+      "Le Pré Salé"
+    ],
+    "zone": "Bruselas",
+    "query": "Rue de Flandre 20, 1000 Bruxelles",
+    "description": "Brasserie en Sainte-Catherine para mejillones con patatas: marinière 25,90 € y al vino blanco 26,90 € en la carta consultada. Es un capricho por encima del presupuesto económico, no una comida de 10–15 €. Todos los días 12:00–15:00 y 18:00–22:30. Comprobar disponibilidad; no hay reserva.",
+    "lat": 50.8508482,
+    "lng": 4.346789,
+    "official": "https://restaurantlepresale.com/en/menu/",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita.",
+    "extraSource": "https://restaurantlepresale.com/en/contact-directions/"
+  },
+  {
+    "id": "bxl_bortier",
+    "name": "Galerie Bortier · comida y libros",
+    "aliases": [
+      "Galerie Bortier · comida y libros"
+    ],
+    "zone": "Bruselas",
+    "query": "Rue de la Madeleine 55, 1000 Bruxelles",
+    "description": "Galería cubierta que combina librerías, café y pequeños puestos gastronómicos. Alternativa curiosa cerca de la estación Central: cocina sirio-libanesa, india, italiana y otros conceptos. Presupuesto propio: 10–18 € según puesto; consultar horarios y precios de cada uno. No se promete que todos abran a la vez.",
+    "lat": 50.8448029,
+    "lng": 4.3550347,
+    "official": "https://bortier.be/en/food-corners/",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "gent_fuel_afrika",
+    "name": "Gabriëls Gent · Afrikalaan",
+    "aliases": [
+      "Gabriëls Gent · Afrikalaan"
+    ],
+    "zone": "Gante",
+    "query": "Afrikalaan 70, 9000 Gent",
+    "description": "Gasolinera próxima a Dampoort con gasolina 95 E10 y 98 E5. La marca anuncia Max Discount: candidata económica para comparar antes de repostar, sin garantía de ser la más barata ese día. El precio actual y el acceso se consultan en su ficha oficial.",
+    "lat": 51.0660249,
+    "lng": 3.7391452,
+    "official": "https://www.gabriels.be/nl/tankstation-vinden/gabriels-gent",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "gent_fuel_amands",
+    "name": "Gabriëls Sint-Amandsberg",
+    "aliases": [
+      "Gabriëls Sint-Amandsberg"
+    ],
+    "zone": "Gante",
+    "query": "Dendermondsesteenweg 298, 9040 Sint-Amandsberg",
+    "description": "Gasolinera próxima a Dampoort con gasolina 95 E10 y 98 E5. La marca anuncia Max Discount: candidata económica para comparar antes de repostar, sin garantía de ser la más barata ese día. El precio actual y el acceso se consultan en su ficha oficial.",
+    "lat": 51.052305277484,
+    "lng": 3.750799891367,
+    "official": "https://www.gabriels.be/nl/tankstation-vinden/gabriels-sintamandsberg",
+    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
+  },
+  {
+    "id": "bru_blend",
+    "name": "Blend Wijnbar",
+    "aliases": [
+      "Blend Wijnbar"
+    ],
+    "zone": "Brujas",
+    "query": "Kuipersstraat 6–8, 8000 Brugge",
+    "lat": 51.210138,
+    "lng": 3.2233223,
+    "description": "Bar de vinos y champán, con amplia selección por copa y aperitivos italianos. Jueves 16:00–00:00; sin reservas. Prioridad para una copa de vino al final de la tarde, si deja margen para volver a Gante. Precios a consultar; no se etiqueta como barato.",
+    "official": "https://blendwijnbar.be/"
+  },
+  {
+    "id": "bru_cuvee",
+    "name": "Cuvee · bar de vinos",
+    "aliases": [
+      "Cuvee · bar de vinos"
+    ],
+    "zone": "Brujas",
+    "query": "Philipstockstraat 41, 8000 Brugge",
+    "lat": 51.2097135,
+    "lng": 3.2270458,
+    "description": "Bar y tienda centrados en vinos naturales, con comida para acompañar. Jueves 16:00–22:00. Opción de vino por la tarde, no de cerveza. Consultar carta y precios y conservar margen para el tren.",
+    "official": "https://webshop.cuvee.be/contact/"
   }
 ]

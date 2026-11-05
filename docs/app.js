@@ -22,7 +22,7 @@
  const routeButton = id => {const r=findRoute(id);return r?anchor(directions(r),'Abrir tramo en Maps','inline-action'):''};
  function routeCard(id) {
   const r=findRoute(id); if(!r)return '';
-  return `<article class="route-card"><span class="route-mode">${escape(mode(r.mode))}</span><h2>${escape(r.name)}</h2>${r.note?`<p>${escape(r.note)}</p>`:''}${routeButton(id)}</article>`;
+  return `<article class="route-card"><span class="route-mode">${escape(mode(r.mode))}${r.walkDistanceKm?` · ${escape(r.walkDistanceKm)} km`:""}</span><h2>${escape(r.name)}</h2>${r.note?`<p>${escape(r.note)}</p>`:''}${routeButton(id)}</article>`;
  }
  function hotel(id) {
   const h=data.stays.find(s=>s.id===id);
@@ -52,7 +52,7 @@
    case 'phrases':return `<section class="phrase-list ${b.compact?'phrase-compact':''}" aria-label="Frases en francés">${b.items.map(i=>`<article class="phrase-card"><h2>${escape(i.es)}</h2><p class="phrase-french" lang="fr">${escape(i.fr)}</p>${i.address?`<p class="phrase-address">${escape(i.address)}</p>`:''}<p class="phrase-phonetic"><span>Suena:</span> ${escape(i.phonetic)}</p><button type="button" class="phrase-play" data-say="${escape(i.fr)}" data-audio="${escape(i.audio)}" data-spanish="${escape(i.es)}" aria-label="Escuchar en francés: ${escape(i.es)}" aria-pressed="false">▶ Escuchar</button>${i.mapQuery?anchor('https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(i.mapQuery),'Ver destino en Maps','inline-action'):''}${i.source?anchor(i.source,'Fuente de la dirección','phrase-source'):''}</article>`).join('')}</section>`;
    case 'official-plan':return `<section class="official-plan"><h2>${escape(b.title)}</h2><p>Plano de RATP en el visor original. Amplía o abre el PDF para leer todas las estaciones.</p><iframe title="${escape(b.title)}" src="${escape(b.url)}" loading="lazy" style="width:100%;height:440px;border:1px solid #ddd;border-radius:12px"></iframe>${anchor(b.url,'Abrir plano oficial · PDF','inline-action')}</section>`;
    case 'image':return `<section class="image-card"><h2>${escape(b.title)}</h2><p>${escape(b.text)}</p><a href="${escape(b.src)}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar ${escape(b.title)}"><img src="${escape(b.src)}" alt="${escape(b.title)}: atracciones numeradas y recorrido propuesto por zonas" loading="lazy" width="2024" height="1432"></a>${anchor(b.src,'Ampliar plano','inline-action')}</section>`;
-   case 'map':return `<section aria-label="Mapa de ${escape(currentPage.title)}">${b.title?`<h2>${escape(b.title)}</h2>`:''}<div class="map-box" id="place-map"><p>Cargando mapa…</p></div><p class="map-caption">Ubicaciones de referencia. Toca un punto o abre el lugar en Maps. Las rutas se consultan por tramos, en su modo de transporte.</p><details><summary>Ver lugares y estaciones en Maps</summary><div class="places-list details-content">${(b.ids||currentPage.points).map(id=>data.places.find(p=>p.id===id)).filter(Boolean).map(p=>['gante','bruselas','torcy-paris'].includes(currentPage.id)?`<div class="link-row"><span><button type="button" class="place-term" data-poi="${escape(p.id)}" aria-haspopup="dialog">${escape(p.name)}</button><small>${escape(p.description)}</small></span></div>`:anchor(search(p),p.name,'link-row')).join('')}</div></details></section>`;
+   case 'map':return `<section aria-label="Mapa de ${escape(currentPage.title)}">${b.title?`<h2>${escape(b.title)}</h2>`:''}<div class="map-box" id="place-map"><p>Cargando mapa…</p></div><p class="map-caption">Ubicaciones de referencia. Toca un punto o abre el lugar en Maps. Las rutas se consultan por tramos, en su modo de transporte.</p>${b.walkRoutes?.length?`<p class="map-caption">Líneas de colores: paseos a pie calculados sobre OpenStreetMap · FOSSGIS. Recorridos orientativos; comprobar accesos y seguir la señalización. ${b.walkRoutes.map((id,i)=>`<span style="display:block;color:${['#177364','#c75b1a','#7267a8'][i%3]}">${i+1}. ${escape(findRoute(id)?.name||id)}</span>`).join('')}</p>`:''}<details><summary>Ver lugares y estaciones en Maps</summary><div class="places-list details-content">${(b.ids||currentPage.points).map(id=>data.places.find(p=>p.id===id)).filter(Boolean).map(p=>['gante','brujas','bruselas','torcy-paris'].includes(currentPage.id)?`<div class="link-row"><span><button type="button" class="place-term" data-poi="${escape(p.id)}" aria-haspopup="dialog">${escape(p.name)}</button><small>${escape(p.description)}</small></span></div>`:anchor(search(p),p.name,'link-row')).join('')}</div></details></section>`;
    default:return '';
   }
  }
@@ -80,7 +80,7 @@
   const p=data.pages.find(p=>p.id===id);
   if(!p){home();}
   else{
-   currentPage=p; const selected=p.panes.find(t=>t.id===paneId)||p.panes[0];
+   currentPage=p; const selected=p.panes.find(t=>t.id===(p.paneAliases?.[paneId]||paneId))||p.panes[0];
    content.innerHTML=`<a class="page-back" href="#/inicio">← El viaje</a><header class="page-head"><span class="eyebrow">${escape(p.date)}</span><h1>${escape(p.title)}</h1><p class="intro">${escape(p.intro)}</p></header><nav class="panes" aria-label="Secciones de ${escape(p.title)}">${p.panes.map(t=>`<a class="pane-link" href="#/${escape(p.id)}/${escape(t.id)}"${t.id===selected.id?' aria-current="page"':''}>${escape(t.label)}</a>`).join('')}</nav><div class="panel">${selected.blocks.map(block).join('')}</div><footer class="page-end"><a href="#/inicio">← Ver el viaje</a>${p.next?anchor('#/'+p.next,'Siguiente: '+data.pages.find(q=>q.id===p.next).title):''}</footer>`;
    document.title=p.title+' · '+selected.label+' · Guía del viaje';
    if(p.id==='frances'){
@@ -88,7 +88,7 @@
    }
    if(selected.id==='tiempo')showWeather(p,mapEpoch);
    if(selected.blocks.some(b=>b.type==='park-guide'))void window.TripParkGuide.mount($('#park-guide'));
-   const mapBlock=selected.blocks.find(b=>b.type==='map');if(mapBlock)void drawMap({...p,points:mapBlock.ids||p.points},mapEpoch);
+   const mapBlock=selected.blocks.find(b=>b.type==='map');if(mapBlock)void drawMap({...p,points:mapBlock.ids||p.points,walkRoutes:mapBlock.walkRoutes||[]},mapEpoch);
   }
   document.querySelectorAll('[data-page]').forEach(a=>a.removeAttribute('aria-current'));
   const active=$(`[data-page="${p?p.id:'inicio'}"]`);if(active)active.setAttribute('aria-current','page');
@@ -173,10 +173,18 @@
    await loadMaps();if(epoch!==mapEpoch)return;
    const el=$('#place-map');if(!el)return;
    const points=p.points.map(id=>data.places.find(x=>x.id===id)).filter(Boolean);
+   const grouped=new Map(), displayPoints=[];
+   for(const pt of points){if(Number.isFinite(pt.lat)&&Number.isFinite(pt.lng)){const key=pt.lat+','+pt.lng;if(grouped.has(key)){grouped.get(key).members.push(pt);continue;}const item={...pt,members:[pt]};grouped.set(key,item);displayPoints.push(item);}else displayPoints.push(pt);}
    const map=new google.maps.Map(el,{center:{lat:50.8467,lng:4.3525},zoom:13,mapTypeControl:false,streetViewControl:false,fullscreenControl:true,gestureHandling:'cooperative'});
    const bounds=new google.maps.LatLngBounds(), info=new google.maps.InfoWindow(), geocoder=new google.maps.Geocoder(); let count=0;
-   const add=(pt,pos)=>{if(epoch!==mapEpoch)return;bounds.extend(pos);const marker=new google.maps.Marker({position:pos,map,title:pt.name});marker.addListener('click',()=>{info.setContent(`<div class="map-popup"><strong>${escape(pt.name)}</strong><p>${escape(pt.description||'')}</p><button type="button" class="place-term" data-poi="${escape(pt.id)}" aria-haspopup="dialog">Ver ficha y mapa</button>${anchor(search(pt),'Abrir en Google Maps')}</div>`);info.open({anchor:marker,map});});count++;map.fitBounds(bounds,30);};
-   for(const pt of points){if(epoch!==mapEpoch)return;if(Number.isFinite(pt.lat)&&Number.isFinite(pt.lng)){add(pt,{lat:pt.lat,lng:pt.lng});continue;}try{const response=await geocoder.geocode({address:pt.address||pt.name+', '+pt.city});if(response.results[0])add(pt,response.results[0].geometry.location);}catch{}}
+   const add=(pt,pos)=>{if(epoch!==mapEpoch)return;const members=pt.members||[pt];bounds.extend(pos);const marker=new google.maps.Marker({position:pos,map,title:members.map(p=>p.name).join(' · '),...(members.length>1?{label:String(members.length)}:{})});marker.addListener('click',()=>{info.setContent(`<div class="map-popup">${members.map(item=>`<div><strong>${escape(item.name)}</strong><p>${escape(item.description||'')}</p><button type="button" class="place-term" data-poi="${escape(item.id)}" aria-haspopup="dialog">Ver ficha y mapa</button>${anchor(search(item),'Abrir en Google Maps')}</div>`).join('')}</div>`);info.open({anchor:marker,map});});count+=members.length;map.fitBounds(bounds,30);};
+   for(const [index,id] of (p.walkRoutes||[]).entries()){
+    const route=findRoute(id);if(!route?.walkPath?.length)continue;
+    const path=route.walkPath.map(([lat,lng])=>({lat,lng}));path.forEach(pos=>bounds.extend(pos));
+    const line=new google.maps.Polyline({map,path,strokeColor:['#177364','#c75b1a','#7267a8'][index%3],strokeOpacity:.9,strokeWeight:5});
+    line.addListener('click',event=>{info.setContent(`<div class="map-popup"><strong>${escape(route.name)}</strong><p>${escape(route.note)}</p>${routeButton(id)}</div>`);info.setPosition(event.latLng);info.open({map});});
+   }
+   for(const pt of displayPoints){if(epoch!==mapEpoch)return;if(Number.isFinite(pt.lat)&&Number.isFinite(pt.lng)){add(pt,{lat:pt.lat,lng:pt.lng});continue;}try{const response=await geocoder.geocode({address:pt.address||pt.name+', '+pt.city});if(response.results[0])add(pt,response.results[0].geometry.location);}catch{}}
    if(count<points.length&&count){el.insertAdjacentHTML('afterend','<p>Algunos lugares no se han podido situar en el mapa; abre sus fichas en la lista inferior.</p>');} if(!count)el.innerHTML='<div class="map-fail">No se han podido ubicar los lugares. Abre cada lugar con los enlaces de debajo.</div>';
   }catch{
    if(epoch!==mapEpoch)return;
@@ -201,7 +209,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=3.8');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=3.9');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();
@@ -211,4 +219,5 @@
  }
  void init();
 })();
+
 

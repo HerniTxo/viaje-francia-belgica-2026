@@ -39,7 +39,7 @@ function checkBlock(b){
  if(b.type==='hotel')assert(stays.has(b.id));
  if(b.type==='image')checkURL(b.src);
  if(b.type==='official-plan')checkURL(b.url);
- if(b.type==='map')for(const id of b.ids||[])assert(places.has(id),'Punto de mapa inexistente: '+id);
+ if(b.type==='map'){for(const id of b.ids||[])assert(places.has(id),'Punto de mapa inexistente: '+id);for(const id of b.walkRoutes||[]){assert(routes.has(id),'Paseo inexistente: '+id);const r=routes.get(id);assert(r.walkPath?.length>1,'Falta trazado: '+id);assert(r.pointIds.every(p=>b.ids.includes(p)),'Extremos fuera del mapa: '+id);}}
  if(b.type==='facts')for(const i of b.items)if(i.placeId)assert(places.has(i.placeId),'Ficha inexistente: '+i.placeId);
 }
 for(const page of data.pages){
@@ -54,6 +54,7 @@ for(const route of data.routes){
  assert(['walking','driving','transit'].includes(route.mode));
  assert(route.origin&&route.destination);
  assert(route.stops.length<=3,'Exceso de paradas para Maps móvil: '+route.id);
+ if(route.walkPath)for(const [lat,lng] of route.walkPath)assert(Number.isFinite(lat)&&Number.isFinite(lng)&&Math.abs(lat)<=90&&Math.abs(lng)<=180,'Coordenada de paseo inválida');
 }
 for(const p of data.places){if(p.lat==null&&p.lng==null){assert(p.address?.trim(),'Falta dirección para ubicar '+p.id);}else{assert(Number.isFinite(p.lat)&&p.lat>=-90&&p.lat<=90);assert(Number.isFinite(p.lng)&&p.lng>=-180&&p.lng<=180);}}
 assert.equal(Math.round(data.stays.reduce((a,s)=>a+s.price,0)*100),71322);
@@ -61,7 +62,7 @@ assert(data.routes.some(r=>r.id==='road15a'&&r.destination.includes('Saint')));
 assert(data.routes.some(r=>r.id==='road15b'&&r.destination.includes('Bilbao')));
 const publicFiles=['docs/index.html','docs/app.js','docs/data/trip.json','docs/styles.css'].map(f=>fs.readFileSync(f,'utf8')).join('\n');
 for(const phrase of ['drive.google.com/file/d','35785105','Janire','Igor Martinez','Hernández Perrino','localizador','b64_string'])assert(!publicFiles.includes(phrase),'Posible dato privado: '+phrase);
-assert(!publicFiles.includes('presupuesto'),'No añadir el simulador retirado');
+assert(!data.pages.some(p=>p.id==='presupuesto'),'No añadir la página del simulador retirado');
 for(const file of ['docs/index.html','docs/app.js','docs/maps-config.js','docs/styles.css','docs/assets/favicon.svg'])assert(fs.existsSync(file));
 console.log(`Correcto: 8 días, ${data.pages.length} páginas, ${data.routes.length} rutas; referencias, archivos, fechas y privacidad verificados.`);
 

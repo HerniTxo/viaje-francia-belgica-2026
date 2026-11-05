@@ -1,3 +1,13 @@
+## Bélgica · navegación y comidas · 05/11/2026
+
+Gante: Hotel primero (parking y dos gasolineras Gabriëls próximas), Qué ver, Comer y beber, Mapa general y Tiempo. Brujas/Bruselas: Qué ver, Comer y beber, Mapa general y Tiempo. Se integran trenes, paseos, tiendas y eventos en apartados internos; se conservan enlaces antiguos mediante alias y el mapa oficial independiente de murales de Bruselas.
+
+Nuevas fichas de comida: freidurías, pasta, desayunos, Hal 16, Soup, WOLF, Bortier, Noordzee y mejillones de Le Pré Salé. Precios de cartas oficiales diferenciados de presupuestos propios aproximados. BOCCA Gent cierra el festivo 11; Gentpoorte solo para llevar; WOLF entre semana corta comida 14:30–18:00; Noordzee anuncia cierre 9–11. Gante se plantea para desayunos y dos tardes-noches; Brujas y Bruselas, para el día 12 con regreso a Gante. Sin reservas nuevas.
+
+Brujas: prioridad explícita a vinos (Blend/Cuvee), cócteles (Groot Vlaenderen/Bar Ran/Bie Jimmy) y café; De Garre y Le Trappiste retirados de las selecciones. Vinos desde 16:00 y cócteles desde 17:00, condicionados al regreso.
+
+Cada pestaña temática lleva mapa interactivo y paseos por tramos móviles. Trazados peatonales calculados con FOSSGIS/OpenStreetMap y guardados en los datos, sin llamadas de rutas desde el navegador. Las ubicaciones nuevas se contrastan con direcciones comerciales y OpenStreetMap; las gasolineras publican coordenadas propias. Fuentes de cartas y horarios en las fichas. Maestro, memoria global y Gante consultados; las memorias aún no reflejan estas novedades. Sin cambios de reservas ni publicación de documentos privados.
+
 ## Disney · pestañas simplificadas · 05/11/2026
 
 Consignas integradas en Guía llegada junto al RER A. Plano de Disneyland Park al principio del lunes y plano de Disney Adventure World al principio del martes. Retiradas pestañas Planos y Consignas; conservados descarga PDF, indicaciones y atribución de planos en el lunes. Enlaces internos actualizados y comprobados; Guía del parque y Tiempo conservadas.
@@ -136,3 +146,4 @@ Cada pestaña de Gante incluye un mapa interactivo con los lugares de ese aparta
 Guía ampliada con 26 fichas: monumentos exteriores, canales, barrios, paseos, fantasía/juegos y pubs/coctelerías. Mapas por apartado y mapa general, fichas individuales y rutas a pie por tramos. Fuentes y horarios habituales documentados. Sin museos de arte ni ruta cervecera. Mantiene trenes y reservas. Den Elder cierra después del 30/11; café de juegos jueves desde 19:00; barco con muelle de turno en noviembre. Publicación solicitada por David; comprobar despliegue del commit.
 
 Ubicaciones: 24 contrastadas con fichas Google Maps; Le Trappiste con la ubicación publicada en Untappd (51.2109, 3.22276), barco como referencia del entorno de Huidenvettersplein según Wikimedia (51.207750, 3.227519). Se incluyen coordenadas en los dos catálogos para evitar depender de Geocoding API. Caché renovada.
+
