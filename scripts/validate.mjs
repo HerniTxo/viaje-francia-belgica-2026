@@ -23,7 +23,7 @@ function checkURL(url){
  else assert.equal(new URL(url).protocol,'https:','Enlace externo inseguro: '+url);
 }
 function checkBlock(b){
- assert(['timeline','note','links','facts','routes','details','hotel','image','map','phrases','park-guide'].includes(b.type));
+ assert(['timeline','note','links','facts','routes','details','hotel','image','map','phrases','park-guide','official-plan'].includes(b.type));
  if(b.type==='phrases')for(const i of b.items){
   assert(i.fr?.trim()&&i.es?.trim()&&i.phonetic?.trim(),'Frase incompleta');
   const digest=createHash('sha256').update(i.fr).digest('hex').slice(0,16);
@@ -38,6 +38,9 @@ function checkBlock(b){
  if(b.type==='details')b.blocks.forEach(checkBlock);
  if(b.type==='hotel')assert(stays.has(b.id));
  if(b.type==='image')checkURL(b.src);
+ if(b.type==='official-plan')checkURL(b.url);
+ if(b.type==='map')for(const id of b.ids||[])assert(places.has(id),'Punto de mapa inexistente: '+id);
+ if(b.type==='facts')for(const i of b.items)if(i.placeId)assert(places.has(i.placeId),'Ficha inexistente: '+i.placeId);
 }
 for(const page of data.pages){
  assert(page.panes.length>0);

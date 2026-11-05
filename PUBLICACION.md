@@ -1,3 +1,11 @@
+## París–Torcy · 05/11/2026
+
+Hotel como primera pestaña; retirada Llegada. Tres rutas de París con mapas propios y catálogo común completo: estaciones de acceso y correspondencia, paradas intermedias, visitas, puente y ampliación opcional al Arco. A metro incorpora Auber, Opéra, École Militaire, Havre–Caumartin, M9 Trocadéro y correspondencias interiores. Los marcadores de transporte representan el entorno de estación o parada, no bocas o aceras exactas.
+
+Hotel: Carrefour Bay 2, Intermarché Saint-Thibault y Costco Pontault-Combault, fichas y mapas. Precios y coordenadas del flujo gubernamental instantáneo consultado el 05/11; se conserva fecha de declaración. Costco domingo 07:00–12:20 según web oficial: no sirve al llegar por la tarde. Sin promesa de menor precio futuro.
+
+Mapa y planos: PDF originales RATP integrados en visor con enlaces externos (A, M8, M9, M1), sentidos y enlaces de horarios. Referencia general de servicio diferenciada del horario exacto del domingo; último RER a Torcy todavía sin verificar. Se conservan bus 30, propuesta B y cierre de M6. Maestro, MD global, memoria París y memoria de la web consultados. Sin cambio de decisiones del viaje ni documentos privados.
+
 ## Ubicaciones de tres librerías · 04/11/2026
 
 Añadidas coordenadas y direcciones verificadas de Brüsel, Pêle-Mêle Bruselas y Casa del Cómic; actualizados horarios disponibles y fichas.

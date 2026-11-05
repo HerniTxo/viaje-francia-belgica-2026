@@ -1784,5 +1784,545 @@
     "mapNote": "Ubicación contrastada. En calles, barrios y paseos se muestra un punto de referencia. El punto del barco señala el entorno de Huidenvettersplein; consultar el embarcadero de turno.",
     "lat": 51.20775,
     "lng": 3.227519
+  },
+  {
+    "id": "auber",
+    "name": "Auber · RER A",
+    "description": "Ida A metro: seguir por el interior Opéra / M8. Vuelta: llegar por correspondencia desde Havre–Caumartin / M9 y tomar RER A que pare en Torcy.",
+    "query": "Auber · RER A, France",
+    "lat": 48.8722,
+    "lng": 2.3298,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Auber · RER A",
+      "Auber"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "opera",
+    "name": "Opéra · metro 8",
+    "description": "Tras el enlace interior desde Auber, M8 dirección Balard hasta École Militaire. No salir a la calle durante el transbordo.",
+    "query": "Opéra · metro 8, France",
+    "lat": 48.8708,
+    "lng": 2.3322,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Opéra · metro 8",
+      "Opéra"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/8",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "ecole_militaire",
+    "name": "École Militaire · metro 8",
+    "description": "Bajar aquí en la ruta A metro. Salir hacia avenue de La Motte-Picquet / place Joffre y caminar al Champ de Mars y la Torre Eiffel, unos 15–20 min. Número de boca sin verificar; orientarse por señalización y mapa.",
+    "query": "École Militaire · metro 8, France",
+    "lat": 48.8546,
+    "lng": 2.3062,
+    "zone": "París–Torcy",
+    "aliases": [
+      "École Militaire · metro 8",
+      "École Militaire",
+      "Ecole Militaire"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/8",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "havre_caumartin",
+    "name": "Havre–Caumartin · metro 9",
+    "description": "Regreso: bajar del M9 y seguir RER A / Auber por el interior. Variante de ida: M9 hacia Pont de Sèvres hasta Trocadéro.",
+    "query": "Havre–Caumartin · metro 9, France",
+    "lat": 48.8736,
+    "lng": 2.3285,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Havre–Caumartin · metro 9",
+      "Havre–Caumartin",
+      "Havre-Caumartin"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/9",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "trocadero_metro",
+    "name": "Trocadéro · metro 9",
+    "description": "Regreso A metro: entrar en M9 dirección Mairie de Montreuil y bajar en Havre–Caumartin. La M6 no se utiliza el domingo 8.",
+    "query": "Trocadéro · metro 9, France",
+    "lat": 48.8631,
+    "lng": 2.2871,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Trocadéro · metro 9"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/9",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "champ_mars",
+    "name": "Champ de Mars",
+    "description": "Paseo desde École Militaire hacia la Torre Eiffel. Parque y perspectivas de la torre; ruta exterior.",
+    "query": "Champ de Mars, France",
+    "lat": 48.8556,
+    "lng": 2.2986,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Champ de Mars"
+    ],
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "pont_iena",
+    "name": "Pont d’Iéna",
+    "description": "Cruzar el Sena entre la Torre Eiffel y los jardines de Trocadéro.",
+    "query": "Pont d’Iéna, France",
+    "lat": 48.8597,
+    "lng": 2.2923,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Pont d’Iéna",
+      "Pont d'Iéna"
+    ],
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "arc_triomphe",
+    "name": "Arco del Triunfo",
+    "description": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar.",
+    "query": "Arco del Triunfo, France",
+    "lat": 48.8738,
+    "lng": 2.295,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Arco del Triunfo",
+      "Arc de Triomphe"
+    ],
+    "official": "https://www.paris-arc-de-triomphe.fr/",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "avenue_kleber",
+    "name": "Avenue Kléber",
+    "description": "Paseo opcional entre Trocadéro y Étoile / Arco del Triunfo. No es obligatorio al comienzo de la visita.",
+    "query": "Avenue Kléber, France",
+    "lat": 48.8685,
+    "lng": 2.291,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Avenue Kléber",
+      "avenue Kléber"
+    ],
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "chatelet_m1",
+    "name": "Châtelet · metro 1",
+    "description": "Regreso B: bajar del M1 y seguir por pasillos RER A / Châtelet–Les Halles. No confundir la estación de metro con el andén del RER.",
+    "query": "Châtelet · metro 1, France",
+    "lat": 48.8584,
+    "lng": 2.3471,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Châtelet · metro 1"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/1",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "louvre_rivoli",
+    "name": "Louvre–Rivoli · metro 1",
+    "description": "Parada intermedia entre Palais Royal–Musée du Louvre y Châtelet. Se permanece en el tren.",
+    "query": "Louvre–Rivoli · metro 1, France",
+    "lat": 48.8607,
+    "lng": 2.3407,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Louvre–Rivoli · metro 1",
+      "Louvre–Rivoli"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/1",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "lognes",
+    "name": "Lognes",
+    "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Lognes, France",
+    "lat": 48.8389,
+    "lng": 2.6341,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Lognes"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "noisiel",
+    "name": "Noisiel",
+    "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Noisiel, France",
+    "lat": 48.843,
+    "lng": 2.6163,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Noisiel"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "noisy_champs",
+    "name": "Noisy–Champs",
+    "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Noisy–Champs, France",
+    "lat": 48.8428,
+    "lng": 2.5787,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Noisy–Champs"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "noisy_grand",
+    "name": "Noisy-le-Grand–Mont d’Est",
+    "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Noisy-le-Grand–Mont d’Est, France",
+    "lat": 48.8409,
+    "lng": 2.5463,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Noisy-le-Grand–Mont d’Est"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "bry",
+    "name": "Bry-sur-Marne",
+    "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Bry-sur-Marne, France",
+    "lat": 48.8445,
+    "lng": 2.5262,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Bry-sur-Marne"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "neuilly",
+    "name": "Neuilly-Plaisance",
+    "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Neuilly-Plaisance, France",
+    "lat": 48.8535,
+    "lng": 2.5142,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Neuilly-Plaisance"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "val_fontenay",
+    "name": "Val de Fontenay",
+    "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Val de Fontenay, France",
+    "lat": 48.8544,
+    "lng": 2.4891,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Val de Fontenay"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "vincennes",
+    "name": "Vincennes",
+    "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Vincennes, France",
+    "lat": 48.8473,
+    "lng": 2.4333,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Vincennes"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "nation",
+    "name": "Nation",
+    "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Nation, France",
+    "lat": 48.8484,
+    "lng": 2.3959,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Nation"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "gare_lyon",
+    "name": "Gare de Lyon",
+    "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Gare de Lyon, France",
+    "lat": 48.8449,
+    "lng": 2.3735,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Gare de Lyon"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/rer/a",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "madeleine",
+    "name": "Madeleine",
+    "description": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Madeleine, France",
+    "lat": 48.87,
+    "lng": 2.3252,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Madeleine"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/8",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "concorde",
+    "name": "Concorde",
+    "description": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Concorde, France",
+    "lat": 48.8655,
+    "lng": 2.3211,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Concorde"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/8",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "invalides",
+    "name": "Invalides",
+    "description": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Invalides, France",
+    "lat": 48.8629,
+    "lng": 2.3145,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Invalides"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/8",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "tour_maubourg",
+    "name": "La Tour-Maubourg",
+    "description": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "La Tour-Maubourg, France",
+    "lat": 48.8575,
+    "lng": 2.3104,
+    "zone": "París–Torcy",
+    "aliases": [
+      "La Tour-Maubourg"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/8",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "iena",
+    "name": "Iéna",
+    "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Iéna, France",
+    "lat": 48.8646,
+    "lng": 2.2938,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Iéna"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/9",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "alma",
+    "name": "Alma–Marceau",
+    "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Alma–Marceau, France",
+    "lat": 48.8649,
+    "lng": 2.3012,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Alma–Marceau"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/9",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "franklin",
+    "name": "Franklin D. Roosevelt",
+    "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Franklin D. Roosevelt, France",
+    "lat": 48.8688,
+    "lng": 2.3098,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Franklin D. Roosevelt"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/9",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "philippe",
+    "name": "Saint-Philippe-du-Roule",
+    "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Saint-Philippe-du-Roule, France",
+    "lat": 48.8723,
+    "lng": 2.31,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Saint-Philippe-du-Roule"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/9",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "miromesnil",
+    "name": "Miromesnil",
+    "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Miromesnil, France",
+    "lat": 48.8737,
+    "lng": 2.3147,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Miromesnil"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/9",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "augustin",
+    "name": "Saint-Augustin",
+    "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+    "query": "Saint-Augustin, France",
+    "lat": 48.8745,
+    "lng": 2.321,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Saint-Augustin"
+    ],
+    "official": "https://www.ratp.fr/vos-lignes/metro/9",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "bus_paul",
+    "name": "Kléber–Paul Valéry · bus 30",
+    "description": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+    "query": "Kléber–Paul Valéry · bus 30, France",
+    "lat": 48.8708,
+    "lng": 2.2903,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Kléber–Paul Valéry · bus 30"
+    ],
+    "official": "https://www.bonjour-ratp.fr/lignes-bus/ligne-30/",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "bus_boissiere",
+    "name": "Kléber–Boissière · bus 30",
+    "description": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+    "query": "Kléber–Boissière · bus 30, France",
+    "lat": 48.8672,
+    "lng": 2.2895,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Kléber–Boissière · bus 30"
+    ],
+    "official": "https://www.bonjour-ratp.fr/lignes-bus/ligne-30/",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "bus_albert",
+    "name": "Albert de Mun · bus 30",
+    "description": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+    "query": "Albert de Mun · bus 30, France",
+    "lat": 48.863,
+    "lng": 2.2919,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Albert de Mun · bus 30"
+    ],
+    "official": "https://www.bonjour-ratp.fr/lignes-bus/ligne-30/",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "bus_varsovie",
+    "name": "Varsovie · bus 30",
+    "description": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+    "query": "Varsovie · bus 30, France",
+    "lat": 48.8606,
+    "lng": 2.2917,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Varsovie · bus 30"
+    ],
+    "official": "https://www.bonjour-ratp.fr/lignes-bus/ligne-30/",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "fuel_bay2",
+    "name": "Carrefour Collégien · Bay 2",
+    "description": "SP95-E10 1,990 €/l y SP98 2,092 €/l, declarados 05/11 a las 00:46. Muy próxima al hotel; candidata económica para comparar. Horario de la estación sin confirmar: no confundir con el del hipermercado.",
+    "query": "Centre commercial Bay 2, avenue du Général de Gaulle, 77090 Collégien",
+    "lat": 48.838446872,
+    "lng": 2.66161659318,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Carrefour Collégien · Bay 2"
+    ],
+    "official": "https://www.prix-carburants.gouv.fr/station/77090001",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "fuel_intermarche",
+    "name": "Intermarché Saint-Thibault-des-Vignes",
+    "description": "SP95-E10 1,989 €/l y SP98 2,089 €/l, declarados 05/11 a las 08:00. Alternativa económica cercana; automate de tarjeta 24 h según fuente oficial.",
+    "query": "Avenue de la Courtillière, 77400 Saint-Thibault-des-Vignes",
+    "lat": 48.869,
+    "lng": 2.675,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Intermarché Saint-Thibault-des-Vignes"
+    ],
+    "official": "https://www.prix-carburants.gouv.fr/station/77400007",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+  },
+  {
+    "id": "fuel_costco",
+    "name": "Costco Pontault-Combault · gasolinera",
+    "description": "SP95-E10 1,876 €/l y SP98 1,980 €/l, declarados 04/11 a las 10:00. Más alejada que las otras dos: calcular el desvío en Maps. Lunes–sábado 07:00–22:00; domingo 07:00–12:20. No sirve para la llegada del domingo por la tarde. Llevar tarjeta de socio y tarjeta bancaria; consultar horario especial del festivo 11/11.",
+    "query": "35 route de Paris, ZAC Les 4 Chênes, 77340 Pontault-Combault",
+    "lat": 48.778,
+    "lng": 2.591,
+    "zone": "París–Torcy",
+    "aliases": [
+      "Costco Pontault-Combault · gasolinera"
+    ],
+    "official": "https://www.prix-carburants.gouv.fr/station/77340009",
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar.",
+    "extraSource": "https://www.costco.fr/station-service"
   }
 ]

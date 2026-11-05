@@ -2,7 +2,7 @@
   "meta": {
     "title": "Francia y Bélgica",
     "version": "2.1",
-    "updated": "2026-11-04",
+    "updated": "2026-11-05",
     "start": "2026-11-08",
     "end": "2026-11-15",
     "party": 3
@@ -130,106 +130,75 @@
       "id": "torcy-paris",
       "title": "Torcy–París",
       "date": "8–11 noviembre",
-      "intro": "Llegada el domingo 8. París por la noche, solo si el horario y el cansancio lo permiten.",
+      "intro": "Base en Apparthotel Torcy del 8 al 11. Tres propuestas para París el domingo 8, según llegada y cansancio.",
       "panes": [
         {
-          "id": "llegada",
-          "label": "Llegada",
+          "id": "hotel",
+          "label": "Hotel",
           "blocks": [
             {
-              "type": "timeline",
+              "type": "hotel",
+              "id": "torcy"
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "hotel_rer"
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Repostar cerca del hotel · gasolina",
               "items": [
                 {
-                  "time": "Dom. 8 · salida por concretar",
-                  "title": "Bilbao → Torcy",
-                  "text": "07:00 era la propuesta de salida. Ruta A elegida por AP-8, A63 y A10, con enlaces finales hacia A4. Unas 9 h de conducción como referencia previa, más descansos y tráfico.",
-                  "status": "confirmado",
-                  "route": "road8",
-                  "link": null
+                  "label": "Carrefour Collégien · Bay 2",
+                  "value": "SP95-E10 1,990 €/l y SP98 2,092 €/l, declarados 05/11 a las 00:46. Muy próxima al hotel; candidata económica para comparar. Horario de la estación sin confirmar: no confundir con el del hipermercado.",
+                  "placeId": "fuel_bay2"
                 },
                 {
-                  "time": "Durante el viaje",
-                  "title": "Paradas de carretera",
-                  "text": "Océan Est: descanso y combustible si hace falta. Tours Val de Loire: propuesta para comida y repostaje. Horas y paradas sin cerrar.",
-                  "status": "propuesta",
-                  "route": null,
-                  "link": null
+                  "label": "Intermarché Saint-Thibault-des-Vignes",
+                  "value": "SP95-E10 1,989 €/l y SP98 2,089 €/l, declarados 05/11 a las 08:00. Alternativa económica cercana; automate de tarjeta 24 h según fuente oficial.",
+                  "placeId": "fuel_intermarche"
                 },
                 {
-                  "time": "Desde 15:00",
-                  "title": "Entrada en Apparthotel Torcy",
-                  "text": "Llegada orientativa previa: 18:00–19:00, sin garantía. Aparcamiento gratuito según reserva.",
-                  "status": "confirmado",
-                  "route": null,
-                  "link": null
-                },
-                {
-                  "time": "Por la noche",
-                  "title": "Valorar París",
-                  "text": "Elegir una sola ruta, A o B. Si llegamos tarde o cansados, cenar en Torcy y descansar.",
-                  "status": "propuesta",
-                  "route": null,
-                  "link": null
+                  "label": "Costco Pontault-Combault · gasolinera",
+                  "value": "SP95-E10 1,876 €/l y SP98 1,980 €/l, declarados 04/11 a las 10:00. Más alejada que las otras dos: calcular el desvío en Maps. Lunes–sábado 07:00–22:00; domingo 07:00–12:20. No sirve para la llegada del domingo por la tarde. Llevar tarjeta de socio y tarjeta bancaria; consultar horario especial del festivo 11/11.",
+                  "placeId": "fuel_costco"
                 }
               ]
+            },
+            {
+              "type": "note",
+              "title": "Precios de referencia · consulta 05/11/2026",
+              "text": "Dos alternativas económicas cercanas y Costco como opción con desvío. Los precios cambian: comparar el mismo carburante antes de ir. Son datos del flujo oficial con fecha de declaración, no una garantía de ser las más baratas el día del viaje. Elegir gasolina compatible con el coche de alquiler.",
+              "url": "https://www.prix-carburants.gouv.fr/",
+              "tone": "plain"
             },
             {
               "type": "links",
-              "title": "Para seguir",
+              "title": "Continuar",
               "items": [
                 {
-                  "label": "Ver alojamiento",
-                  "url": "#/torcy-paris/hotel",
+                  "label": "Disney · 9 y 10 noviembre",
+                  "url": "#/disney",
                   "text": ""
                 },
                 {
-                  "label": "Ruta A · Torre Eiffel",
-                  "url": "#/torcy-paris/paris-a",
-                  "text": ""
-                },
-                {
-                  "label": "Ruta B · Notre-Dame y Louvre",
-                  "url": "#/torcy-paris/paris-b",
+                  "label": "Gante · llegada del 11",
+                  "url": "#/gante/viaje",
                   "text": ""
                 }
               ]
             },
             {
-              "type": "details",
-              "title": "Paradas alternativas y archivo para My Maps",
-              "blocks": [
-                {
-                  "type": "facts",
-                  "title": "Opciones guardadas",
-                  "items": [
-                    {
-                      "label": "Poitou-Charentes Nord",
-                      "value": "Descanso o repostaje intermedio si hace falta."
-                    },
-                    {
-                      "label": "Orléans–Saran",
-                      "value": "Respaldo antes del acceso a París."
-                    }
-                  ]
-                },
-                {
-                  "type": "note",
-                  "title": "Criterio del trayecto",
-                  "text": "Priorizar tiempo y no desviarnos de la autopista. Los precios de combustible anteriores no se usan como tarifas actuales.",
-                  "tone": "plain",
-                  "url": null
-                },
-                {
-                  "type": "links",
-                  "title": "Archivo",
-                  "items": [
-                    {
-                      "label": "Descargar gasolineras para My Maps",
-                      "url": "assets/gasolineras-bilbao-torcy.csv",
-                      "text": "CSV con origen, destino y cuatro áreas de servicio."
-                    }
-                  ]
-                }
+              "type": "map",
+              "title": "Hotel, estación y gasolineras",
+              "ids": [
+                "torcy",
+                "torcy_rer",
+                "fuel_bay2",
+                "fuel_intermarche",
+                "fuel_costco"
               ]
             }
           ]
@@ -263,9 +232,16 @@
                   "route": "a_no_bus_rer"
                 },
                 {
+                  "time": "2b · Correspondencia interior",
+                  "title": "Auber → Opéra",
+                  "text": "Seguir M8 / Opéra por los pasillos, sin salir de la red.",
+                  "status": "propuesta",
+                  "route": "a_link_opera"
+                },
+                {
                   "time": "3 · M8",
                   "title": "Opéra → École Militaire",
-                  "text": "Dirección Balard.",
+                  "text": "Dirección Balard: Opéra → Madeleine → Concorde → Invalides → La Tour-Maubourg → École Militaire. Bajar aquí y salir hacia avenue de La Motte-Picquet / place Joffre; seguir al Champ de Mars. Número de boca sin verificar.",
                   "status": "propuesta",
                   "route": "a_no_bus_m8"
                 },
@@ -282,6 +258,13 @@
                   "text": "Dirección Mairie de Montreuil; enlace interior a Auber.",
                   "status": "propuesta",
                   "route": "a_no_bus_m9"
+                },
+                {
+                  "time": "5b · Correspondencia interior",
+                  "title": "Havre–Caumartin → Auber",
+                  "text": "Seguir RER A / Auber por los pasillos.",
+                  "status": "propuesta",
+                  "route": "a_link_auber"
                 },
                 {
                   "time": "6 · RER A",
@@ -314,6 +297,228 @@
                   "label": "Grupo, ida y vuelta",
                   "value": "15,30 € los tres, sin soportes. Transbordos RER/metro dentro de la red y del plazo tarifario."
                 }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Todas las estaciones, paradas y visitas · toca un nombre",
+              "items": [
+                {
+                  "label": "Apparthotel Torcy",
+                  "value": "Alojamiento reservado del 8 al 11. Parking gratuito.",
+                  "placeId": "torcy"
+                },
+                {
+                  "label": "Torcy · RER A",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "torcy_rer"
+                },
+                {
+                  "label": "Lognes",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "lognes"
+                },
+                {
+                  "label": "Noisiel",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "noisiel"
+                },
+                {
+                  "label": "Noisy–Champs",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "noisy_champs"
+                },
+                {
+                  "label": "Noisy-le-Grand–Mont d’Est",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "noisy_grand"
+                },
+                {
+                  "label": "Bry-sur-Marne",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "bry"
+                },
+                {
+                  "label": "Neuilly-Plaisance",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "neuilly"
+                },
+                {
+                  "label": "Val de Fontenay",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "val_fontenay"
+                },
+                {
+                  "label": "Vincennes",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "vincennes"
+                },
+                {
+                  "label": "Nation",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "nation"
+                },
+                {
+                  "label": "Gare de Lyon",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "gare_lyon"
+                },
+                {
+                  "label": "Châtelet–Les Halles · RER A",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "chatelet"
+                },
+                {
+                  "label": "Auber · RER A",
+                  "value": "Ida A metro: seguir por el interior Opéra / M8. Vuelta: llegar por correspondencia desde Havre–Caumartin / M9 y tomar RER A que pare en Torcy.",
+                  "placeId": "auber"
+                },
+                {
+                  "label": "Opéra · metro 8",
+                  "value": "Tras el enlace interior desde Auber, M8 dirección Balard hasta École Militaire. No salir a la calle durante el transbordo.",
+                  "placeId": "opera"
+                },
+                {
+                  "label": "Madeleine",
+                  "value": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "madeleine"
+                },
+                {
+                  "label": "Concorde",
+                  "value": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "concorde"
+                },
+                {
+                  "label": "Invalides",
+                  "value": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "invalides"
+                },
+                {
+                  "label": "La Tour-Maubourg",
+                  "value": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "tour_maubourg"
+                },
+                {
+                  "label": "École Militaire · metro 8",
+                  "value": "Bajar aquí en la ruta A metro. Salir hacia avenue de La Motte-Picquet / place Joffre y caminar al Champ de Mars y la Torre Eiffel, unos 15–20 min. Número de boca sin verificar; orientarse por señalización y mapa.",
+                  "placeId": "ecole_militaire"
+                },
+                {
+                  "label": "Champ de Mars",
+                  "value": "Paseo desde École Militaire hacia la Torre Eiffel. Parque y perspectivas de la torre; ruta exterior.",
+                  "placeId": "champ_mars"
+                },
+                {
+                  "label": "Torre Eiffel",
+                  "value": "Ruta nocturna A: torre primero, Trocadéro después. Propuesta opcional.",
+                  "placeId": "eiffel"
+                },
+                {
+                  "label": "Pont d’Iéna",
+                  "value": "Cruzar el Sena entre la Torre Eiffel y los jardines de Trocadéro.",
+                  "placeId": "pont_iena"
+                },
+                {
+                  "label": "Trocadéro",
+                  "value": "Mirador de la Torre Eiffel en la propuesta A.",
+                  "placeId": "trocadero"
+                },
+                {
+                  "label": "Trocadéro · metro 9",
+                  "value": "Regreso A metro: entrar en M9 dirección Mairie de Montreuil y bajar en Havre–Caumartin. La M6 no se utiliza el domingo 8.",
+                  "placeId": "trocadero_metro"
+                },
+                {
+                  "label": "Iéna",
+                  "value": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "iena"
+                },
+                {
+                  "label": "Alma–Marceau",
+                  "value": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "alma"
+                },
+                {
+                  "label": "Franklin D. Roosevelt",
+                  "value": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "franklin"
+                },
+                {
+                  "label": "Saint-Philippe-du-Roule",
+                  "value": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "philippe"
+                },
+                {
+                  "label": "Miromesnil",
+                  "value": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "miromesnil"
+                },
+                {
+                  "label": "Saint-Augustin",
+                  "value": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "augustin"
+                },
+                {
+                  "label": "Havre–Caumartin · metro 9",
+                  "value": "Regreso: bajar del M9 y seguir RER A / Auber por el interior. Variante de ida: M9 hacia Pont de Sèvres hasta Trocadéro.",
+                  "placeId": "havre_caumartin"
+                },
+                {
+                  "label": "Avenue Kléber",
+                  "value": "Paseo opcional entre Trocadéro y Étoile / Arco del Triunfo. No es obligatorio al comienzo de la visita.",
+                  "placeId": "avenue_kleber"
+                },
+                {
+                  "label": "Arco del Triunfo",
+                  "value": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar.",
+                  "placeId": "arc_triomphe"
+                },
+                {
+                  "label": "Charles de Gaulle–Étoile · RER A",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "etoile"
+                }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Mapa de esta ruta · estaciones y visitas",
+              "ids": [
+                "torcy",
+                "torcy_rer",
+                "lognes",
+                "noisiel",
+                "noisy_champs",
+                "noisy_grand",
+                "bry",
+                "neuilly",
+                "val_fontenay",
+                "vincennes",
+                "nation",
+                "gare_lyon",
+                "chatelet",
+                "auber",
+                "opera",
+                "madeleine",
+                "concorde",
+                "invalides",
+                "tour_maubourg",
+                "ecole_militaire",
+                "champ_mars",
+                "eiffel",
+                "pont_iena",
+                "trocadero",
+                "trocadero_metro",
+                "iena",
+                "alma",
+                "franklin",
+                "philippe",
+                "miromesnil",
+                "augustin",
+                "havre_caumartin",
+                "avenue_kleber",
+                "arc_triomphe",
+                "etoile"
               ]
             }
           ]
@@ -435,6 +640,180 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "facts",
+              "title": "Todas las estaciones, paradas y visitas · toca un nombre",
+              "items": [
+                {
+                  "label": "Apparthotel Torcy",
+                  "value": "Alojamiento reservado del 8 al 11. Parking gratuito.",
+                  "placeId": "torcy"
+                },
+                {
+                  "label": "Torcy · RER A",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "torcy_rer"
+                },
+                {
+                  "label": "Lognes",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "lognes"
+                },
+                {
+                  "label": "Noisiel",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "noisiel"
+                },
+                {
+                  "label": "Noisy–Champs",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "noisy_champs"
+                },
+                {
+                  "label": "Noisy-le-Grand–Mont d’Est",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "noisy_grand"
+                },
+                {
+                  "label": "Bry-sur-Marne",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "bry"
+                },
+                {
+                  "label": "Neuilly-Plaisance",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "neuilly"
+                },
+                {
+                  "label": "Val de Fontenay",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "val_fontenay"
+                },
+                {
+                  "label": "Vincennes",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "vincennes"
+                },
+                {
+                  "label": "Nation",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "nation"
+                },
+                {
+                  "label": "Gare de Lyon",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "gare_lyon"
+                },
+                {
+                  "label": "Châtelet–Les Halles · RER A",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "chatelet"
+                },
+                {
+                  "label": "Auber · RER A",
+                  "value": "Ida A metro: seguir por el interior Opéra / M8. Vuelta: llegar por correspondencia desde Havre–Caumartin / M9 y tomar RER A que pare en Torcy.",
+                  "placeId": "auber"
+                },
+                {
+                  "label": "Charles de Gaulle–Étoile · RER A",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "etoile"
+                },
+                {
+                  "label": "Bus 30 · Étoile–Kléber",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "etoile_bus"
+                },
+                {
+                  "label": "Kléber–Paul Valéry · bus 30",
+                  "value": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+                  "placeId": "bus_paul"
+                },
+                {
+                  "label": "Kléber–Boissière · bus 30",
+                  "value": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+                  "placeId": "bus_boissiere"
+                },
+                {
+                  "label": "Bus 30 · Trocadéro",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "trocadero_bus"
+                },
+                {
+                  "label": "Albert de Mun · bus 30",
+                  "value": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+                  "placeId": "bus_albert"
+                },
+                {
+                  "label": "Varsovie · bus 30",
+                  "value": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+                  "placeId": "bus_varsovie"
+                },
+                {
+                  "label": "Bus 30 · Tour Eiffel",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "tour_bus"
+                },
+                {
+                  "label": "Torre Eiffel",
+                  "value": "Ruta nocturna A: torre primero, Trocadéro después. Propuesta opcional.",
+                  "placeId": "eiffel"
+                },
+                {
+                  "label": "Pont d’Iéna",
+                  "value": "Cruzar el Sena entre la Torre Eiffel y los jardines de Trocadéro.",
+                  "placeId": "pont_iena"
+                },
+                {
+                  "label": "Trocadéro",
+                  "value": "Mirador de la Torre Eiffel en la propuesta A.",
+                  "placeId": "trocadero"
+                },
+                {
+                  "label": "Avenue Kléber",
+                  "value": "Paseo opcional entre Trocadéro y Étoile / Arco del Triunfo. No es obligatorio al comienzo de la visita.",
+                  "placeId": "avenue_kleber"
+                },
+                {
+                  "label": "Arco del Triunfo",
+                  "value": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar.",
+                  "placeId": "arc_triomphe"
+                }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Mapa de esta ruta · estaciones y visitas",
+              "ids": [
+                "torcy",
+                "torcy_rer",
+                "lognes",
+                "noisiel",
+                "noisy_champs",
+                "noisy_grand",
+                "bry",
+                "neuilly",
+                "val_fontenay",
+                "vincennes",
+                "nation",
+                "gare_lyon",
+                "chatelet",
+                "auber",
+                "etoile",
+                "etoile_bus",
+                "bus_paul",
+                "bus_boissiere",
+                "trocadero_bus",
+                "bus_albert",
+                "bus_varsovie",
+                "tour_bus",
+                "eiffel",
+                "pont_iena",
+                "trocadero",
+                "avenue_kleber",
+                "arc_triomphe"
+              ]
             }
           ]
         },
@@ -549,44 +928,144 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "hotel",
-          "label": "Hotel",
-          "blocks": [
-            {
-              "type": "hotel",
-              "id": "torcy"
             },
             {
-              "type": "routes",
-              "ids": [
-                "hotel_rer"
+              "type": "facts",
+              "title": "Todas las estaciones, paradas y visitas · toca un nombre",
+              "items": [
+                {
+                  "label": "Apparthotel Torcy",
+                  "value": "Alojamiento reservado del 8 al 11. Parking gratuito.",
+                  "placeId": "torcy"
+                },
+                {
+                  "label": "Torcy · RER A",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "torcy_rer"
+                },
+                {
+                  "label": "Lognes",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "lognes"
+                },
+                {
+                  "label": "Noisiel",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "noisiel"
+                },
+                {
+                  "label": "Noisy–Champs",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "noisy_champs"
+                },
+                {
+                  "label": "Noisy-le-Grand–Mont d’Est",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "noisy_grand"
+                },
+                {
+                  "label": "Bry-sur-Marne",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "bry"
+                },
+                {
+                  "label": "Neuilly-Plaisance",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "neuilly"
+                },
+                {
+                  "label": "Val de Fontenay",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "val_fontenay"
+                },
+                {
+                  "label": "Vincennes",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "vincennes"
+                },
+                {
+                  "label": "Nation",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "nation"
+                },
+                {
+                  "label": "Gare de Lyon",
+                  "value": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+                  "placeId": "gare_lyon"
+                },
+                {
+                  "label": "Châtelet–Les Halles · RER A",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "chatelet"
+                },
+                {
+                  "label": "Hôtel de Ville",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "hotel_ville"
+                },
+                {
+                  "label": "Notre-Dame de París",
+                  "value": "Paseo por el centro histórico en la propuesta B.",
+                  "placeId": "notredame"
+                },
+                {
+                  "label": "Pont Neuf",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "pont_neuf"
+                },
+                {
+                  "label": "Museo del Louvre · exterior",
+                  "value": "Final del paseo de la ruta B; visita exterior.",
+                  "placeId": "louvre"
+                },
+                {
+                  "label": "Palais Royal–Musée du Louvre · M1",
+                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                  "placeId": "palais_royal"
+                },
+                {
+                  "label": "Louvre–Rivoli · metro 1",
+                  "value": "Parada intermedia entre Palais Royal–Musée du Louvre y Châtelet. Se permanece en el tren.",
+                  "placeId": "louvre_rivoli"
+                },
+                {
+                  "label": "Châtelet · metro 1",
+                  "value": "Regreso B: bajar del M1 y seguir por pasillos RER A / Châtelet–Les Halles. No confundir la estación de metro con el andén del RER.",
+                  "placeId": "chatelet_m1"
+                }
               ]
             },
             {
-              "type": "links",
-              "title": "Continuar",
-              "items": [
-                {
-                  "label": "Disney · 9 y 10 noviembre",
-                  "url": "#/disney",
-                  "text": ""
-                },
-                {
-                  "label": "Gante · llegada del 11",
-                  "url": "#/gante/viaje",
-                  "text": ""
-                }
+              "type": "map",
+              "title": "Mapa de esta ruta · estaciones y visitas",
+              "ids": [
+                "torcy",
+                "torcy_rer",
+                "lognes",
+                "noisiel",
+                "noisy_champs",
+                "noisy_grand",
+                "bry",
+                "neuilly",
+                "val_fontenay",
+                "vincennes",
+                "nation",
+                "gare_lyon",
+                "chatelet",
+                "hotel_ville",
+                "notredame",
+                "pont_neuf",
+                "louvre",
+                "palais_royal",
+                "louvre_rivoli",
+                "chatelet_m1"
               ]
             }
           ]
         },
         {
           "id": "mapas",
-          "label": "Mapas",
+          "label": "Mapa y planos",
           "blocks": [
             {
               "type": "map"
@@ -614,15 +1093,101 @@
                   "label": "Bus 30 · horarios PDF",
                   "url": "https://ilico.iledefrance-mobilites.fr/uploads/fiches/20261001T120308Z-5d5f0450-5065-4774-b5e1-99c2ebe85961.pdf",
                   "text": ""
+                },
+                {
+                  "label": "Metro 8 · plano PDF",
+                  "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/m8.pdf",
+                  "text": "Ida por M8 / vuelta por M9 en la ruta A metro."
+                },
+                {
+                  "label": "Metro 9 · plano PDF",
+                  "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/m9.pdf",
+                  "text": "Ida por M8 / vuelta por M9 en la ruta A metro."
                 }
               ]
             },
             {
+              "type": "facts",
+              "title": "Qué líneas se usan",
+              "items": [
+                {
+                  "label": "A metro · ida",
+                  "value": "Torcy — RER A → Auber — enlace interior → Opéra — M8 hacia Balard → École Militaire. Paseo por Champ de Mars, Eiffel y Pont d’Iéna hasta Trocadéro."
+                },
+                {
+                  "label": "A metro · vuelta",
+                  "value": "Trocadéro — M9 hacia Mairie de Montreuil → Havre–Caumartin — enlace interior → Auber — RER A → Torcy. Variante de ida por M9: sentido Pont de Sèvres."
+                },
+                {
+                  "label": "A bus",
+                  "value": "RER A hasta Étoile, bus 30 hacia Hôpital Européen Georges Pompidou hasta Tour Eiffel. Vuelta desde Trocadéro: bus 30 hacia Pigalle y RER A desde Étoile."
+                },
+                {
+                  "label": "B",
+                  "value": "RER A hasta Châtelet–Les Halles. Vuelta M1 desde Palais Royal–Musée du Louvre hacia Château de Vincennes hasta Châtelet y enlace al RER A."
+                },
+                {
+                  "label": "RER de regreso",
+                  "value": "Únicamente tren con Torcy en el panel: destino Torcy o Marne-la-Vallée–Chessy. La rama Boissy-Saint-Léger no sirve. No se utiliza otro RER."
+                },
+                {
+                  "label": "M6",
+                  "value": "Cerrada el domingo 8/11: excluida de las propuestas."
+                }
+              ]
+            },
+            {
+              "type": "official-plan",
+              "title": "RER A · plano oficial integrado",
+              "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/rer_a.pdf"
+            },
+            {
+              "type": "official-plan",
+              "title": "Metro 8 · plano oficial integrado",
+              "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/m8.pdf"
+            },
+            {
+              "type": "official-plan",
+              "title": "Metro 9 · plano oficial integrado",
+              "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/m9.pdf"
+            },
+            {
+              "type": "official-plan",
+              "title": "Metro 1 · plano oficial integrado",
+              "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/m1.pdf"
+            },
+            {
               "type": "note",
-              "title": "Esquema anterior con metro 6",
-              "text": "El plano guardado antes de revisar las obras incluía la M6. Se sustituye aquí por los planos de RER A, M1 y bus 30; la M6 no sirve para el domingo 8.",
+              "title": "Horarios del domingo 8 · margen de regreso",
+              "text": "Referencia general RATP: metro desde aproximadamente 05:30; los domingos ordinarios el servicio termina hacia 01:15, con variaciones por estación y sentido. No es el último paso en Opéra o Trocadéro ni garantiza conexión con Torcy. Objetivo del grupo: M9 21:30–22:00 y RER A desde Auber 22:00–22:30. La salida exacta y el último RER que para en Torcy siguen pendientes: consultar fecha 08/11, estación, sentido y otro tren posterior antes de salir. No tomar horarios en tiempo real de hoy como horarios del domingo.",
               "tone": "plain",
-              "url": null
+              "url": "https://www.ratp.fr/aide-contact/questions/preparer-mon-trajet/organiser-trajet/heure-circulent-transports"
+            },
+            {
+              "type": "links",
+              "title": "Horarios por línea · elegir estación y sentido",
+              "items": [
+                {
+                  "label": "RER A · Torcy / Auber / Étoile / Châtelet",
+                  "url": "https://www.ratp.fr/vos-lignes/rer/a",
+                  "text": "Ida hacia París y vuelta por la rama Torcy / Chessy."
+                },
+                {
+                  "label": "M8 · Opéra → École Militaire",
+                  "url": "https://www.ratp.fr/vos-lignes/metro/8",
+                  "text": "Dirección Balard."
+                },
+                {
+                  "label": "M9 · Trocadéro → Havre–Caumartin",
+                  "url": "https://www.ratp.fr/vos-lignes/metro/9",
+                  "text": "Dirección Mairie de Montreuil. Variante ida: Pont de Sèvres."
+                },
+                {
+                  "label": "M1 · Palais Royal → Châtelet",
+                  "url": "https://www.ratp.fr/vos-lignes/metro/1",
+                  "text": "Dirección Château de Vincennes."
+                }
+              ]
             }
           ]
         },
@@ -635,18 +1200,56 @@
       "points": [
         "torcy",
         "torcy_rer",
+        "lognes",
+        "noisiel",
+        "noisy_champs",
+        "noisy_grand",
+        "bry",
+        "neuilly",
+        "val_fontenay",
+        "vincennes",
+        "nation",
+        "gare_lyon",
+        "chatelet",
+        "auber",
+        "opera",
+        "madeleine",
+        "concorde",
+        "invalides",
+        "tour_maubourg",
+        "ecole_militaire",
+        "champ_mars",
+        "eiffel",
+        "pont_iena",
+        "trocadero",
+        "trocadero_metro",
+        "iena",
+        "alma",
+        "franklin",
+        "philippe",
+        "miromesnil",
+        "augustin",
+        "havre_caumartin",
+        "avenue_kleber",
+        "arc_triomphe",
         "etoile",
         "etoile_bus",
-        "tour_bus",
-        "eiffel",
-        "trocadero",
+        "bus_paul",
+        "bus_boissiere",
         "trocadero_bus",
-        "chatelet",
+        "bus_albert",
+        "bus_varsovie",
+        "tour_bus",
         "hotel_ville",
         "notredame",
         "pont_neuf",
         "louvre",
-        "palais_royal"
+        "palais_royal",
+        "louvre_rivoli",
+        "chatelet_m1",
+        "fuel_bay2",
+        "fuel_intermarche",
+        "fuel_costco"
       ],
       "next": "disney"
     },
@@ -4307,7 +4910,7 @@
       "destination": "Métro École Militaire, Paris",
       "mode": "transit",
       "stops": [],
-      "note": "Enlace interior Auber → Opéra. Metro 8 dirección Balard."
+      "note": "Dirección Balard: Opéra → Madeleine → Concorde → Invalides → La Tour-Maubourg → École Militaire. Bajar aquí y salir hacia avenue de La Motte-Picquet / place Joffre; seguir al Champ de Mars. Número de boca sin verificar."
     },
     {
       "id": "a_no_bus_walk",
@@ -4329,7 +4932,7 @@
       "destination": "Métro Havre-Caumartin, Paris",
       "mode": "transit",
       "stops": [],
-      "note": "Línea 9 dirección Mairie de Montreuil. Seguir después RER A / Auber por el enlace interior."
+      "note": "M9 hacia Mairie de Montreuil: Trocadéro → Iéna → Alma–Marceau → Franklin D. Roosevelt → Saint-Philippe-du-Roule → Miromesnil → Saint-Augustin → Havre–Caumartin. Después correspondencia interior a Auber."
     },
     {
       "id": "a_no_bus_back",
@@ -4352,6 +4955,24 @@
         "De Krook, Gent, Belgium"
       ],
       "note": "Alternativa de regreso del jueves, por zona universitaria y edificios singulares; paseos y horarios flexibles."
+    },
+    {
+      "id": "a_link_opera",
+      "name": "Correspondencia interior · Auber → Opéra",
+      "origin": "Auber RER A, Paris",
+      "destination": "Métro Opéra, Paris",
+      "mode": "walking",
+      "stops": [],
+      "note": "Seguir M8 / Opéra por el interior; Maps a pie solo orienta el entorno exterior. No salir de la zona tarifaria."
+    },
+    {
+      "id": "a_link_auber",
+      "name": "Correspondencia interior · Havre–Caumartin → Auber",
+      "origin": "Métro Havre-Caumartin, Paris",
+      "destination": "Auber RER A, Paris",
+      "mode": "walking",
+      "stops": [],
+      "note": "Seguir RER A / Auber por el interior; el enlace de Maps no representa los pasillos subterráneos."
     }
   ],
   "places": [
@@ -5469,6 +6090,459 @@
       "status": "propuesta",
       "lat": 51.20775,
       "lng": 3.227519
+    },
+    {
+      "id": "auber",
+      "name": "Auber · RER A",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8722,
+      "lng": 2.3298,
+      "description": "Ida A metro: seguir por el interior Opéra / M8. Vuelta: llegar por correspondencia desde Havre–Caumartin / M9 y tomar RER A que pare en Torcy.",
+      "status": "propuesta",
+      "address": "Auber · RER A, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "opera",
+      "name": "Opéra · metro 8",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8708,
+      "lng": 2.3322,
+      "description": "Tras el enlace interior desde Auber, M8 dirección Balard hasta École Militaire. No salir a la calle durante el transbordo.",
+      "status": "propuesta",
+      "address": "Opéra · metro 8, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/8"
+    },
+    {
+      "id": "ecole_militaire",
+      "name": "École Militaire · metro 8",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8546,
+      "lng": 2.3062,
+      "description": "Bajar aquí en la ruta A metro. Salir hacia avenue de La Motte-Picquet / place Joffre y caminar al Champ de Mars y la Torre Eiffel, unos 15–20 min. Número de boca sin verificar; orientarse por señalización y mapa.",
+      "status": "propuesta",
+      "address": "École Militaire · metro 8, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/8"
+    },
+    {
+      "id": "havre_caumartin",
+      "name": "Havre–Caumartin · metro 9",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8736,
+      "lng": 2.3285,
+      "description": "Regreso: bajar del M9 y seguir RER A / Auber por el interior. Variante de ida: M9 hacia Pont de Sèvres hasta Trocadéro.",
+      "status": "propuesta",
+      "address": "Havre–Caumartin · metro 9, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/9"
+    },
+    {
+      "id": "trocadero_metro",
+      "name": "Trocadéro · metro 9",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8631,
+      "lng": 2.2871,
+      "description": "Regreso A metro: entrar en M9 dirección Mairie de Montreuil y bajar en Havre–Caumartin. La M6 no se utiliza el domingo 8.",
+      "status": "propuesta",
+      "address": "Trocadéro · metro 9, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/9"
+    },
+    {
+      "id": "champ_mars",
+      "name": "Champ de Mars",
+      "city": "París",
+      "category": "atraccion",
+      "lat": 48.8556,
+      "lng": 2.2986,
+      "description": "Paseo desde École Militaire hacia la Torre Eiffel. Parque y perspectivas de la torre; ruta exterior.",
+      "status": "propuesta",
+      "address": "Champ de Mars, France"
+    },
+    {
+      "id": "pont_iena",
+      "name": "Pont d’Iéna",
+      "city": "París",
+      "category": "atraccion",
+      "lat": 48.8597,
+      "lng": 2.2923,
+      "description": "Cruzar el Sena entre la Torre Eiffel y los jardines de Trocadéro.",
+      "status": "propuesta",
+      "address": "Pont d’Iéna, France"
+    },
+    {
+      "id": "arc_triomphe",
+      "name": "Arco del Triunfo",
+      "city": "París",
+      "category": "atraccion",
+      "lat": 48.8738,
+      "lng": 2.295,
+      "description": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar.",
+      "status": "propuesta",
+      "address": "Arco del Triunfo, France",
+      "url": "https://www.paris-arc-de-triomphe.fr/"
+    },
+    {
+      "id": "avenue_kleber",
+      "name": "Avenue Kléber",
+      "city": "París",
+      "category": "atraccion",
+      "lat": 48.8685,
+      "lng": 2.291,
+      "description": "Paseo opcional entre Trocadéro y Étoile / Arco del Triunfo. No es obligatorio al comienzo de la visita.",
+      "status": "propuesta",
+      "address": "Avenue Kléber, France"
+    },
+    {
+      "id": "chatelet_m1",
+      "name": "Châtelet · metro 1",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8584,
+      "lng": 2.3471,
+      "description": "Regreso B: bajar del M1 y seguir por pasillos RER A / Châtelet–Les Halles. No confundir la estación de metro con el andén del RER.",
+      "status": "propuesta",
+      "address": "Châtelet · metro 1, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/1"
+    },
+    {
+      "id": "louvre_rivoli",
+      "name": "Louvre–Rivoli · metro 1",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8607,
+      "lng": 2.3407,
+      "description": "Parada intermedia entre Palais Royal–Musée du Louvre y Châtelet. Se permanece en el tren.",
+      "status": "propuesta",
+      "address": "Louvre–Rivoli · metro 1, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/1"
+    },
+    {
+      "id": "lognes",
+      "name": "Lognes",
+      "city": "Torcy y alrededores",
+      "category": "transporte",
+      "lat": 48.8389,
+      "lng": 2.6341,
+      "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Lognes, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "noisiel",
+      "name": "Noisiel",
+      "city": "Torcy y alrededores",
+      "category": "transporte",
+      "lat": 48.843,
+      "lng": 2.6163,
+      "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Noisiel, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "noisy_champs",
+      "name": "Noisy–Champs",
+      "city": "Torcy y alrededores",
+      "category": "transporte",
+      "lat": 48.8428,
+      "lng": 2.5787,
+      "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Noisy–Champs, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "noisy_grand",
+      "name": "Noisy-le-Grand–Mont d’Est",
+      "city": "Torcy y alrededores",
+      "category": "transporte",
+      "lat": 48.8409,
+      "lng": 2.5463,
+      "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Noisy-le-Grand–Mont d’Est, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "bry",
+      "name": "Bry-sur-Marne",
+      "city": "Torcy y alrededores",
+      "category": "transporte",
+      "lat": 48.8445,
+      "lng": 2.5262,
+      "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Bry-sur-Marne, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "neuilly",
+      "name": "Neuilly-Plaisance",
+      "city": "Torcy y alrededores",
+      "category": "transporte",
+      "lat": 48.8535,
+      "lng": 2.5142,
+      "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Neuilly-Plaisance, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "val_fontenay",
+      "name": "Val de Fontenay",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8544,
+      "lng": 2.4891,
+      "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Val de Fontenay, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "vincennes",
+      "name": "Vincennes",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8473,
+      "lng": 2.4333,
+      "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Vincennes, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "nation",
+      "name": "Nation",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8484,
+      "lng": 2.3959,
+      "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Nation, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "gare_lyon",
+      "name": "Gare de Lyon",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8449,
+      "lng": 2.3735,
+      "description": "Parada intermedia del RER A. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Gare de Lyon, France",
+      "url": "https://www.ratp.fr/vos-lignes/rer/a"
+    },
+    {
+      "id": "madeleine",
+      "name": "Madeleine",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.87,
+      "lng": 2.3252,
+      "description": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Madeleine, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/8"
+    },
+    {
+      "id": "concorde",
+      "name": "Concorde",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8655,
+      "lng": 2.3211,
+      "description": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Concorde, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/8"
+    },
+    {
+      "id": "invalides",
+      "name": "Invalides",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8629,
+      "lng": 2.3145,
+      "description": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Invalides, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/8"
+    },
+    {
+      "id": "tour_maubourg",
+      "name": "La Tour-Maubourg",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8575,
+      "lng": 2.3104,
+      "description": "Parada intermedia del metro 8. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "La Tour-Maubourg, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/8"
+    },
+    {
+      "id": "iena",
+      "name": "Iéna",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8646,
+      "lng": 2.2938,
+      "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Iéna, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/9"
+    },
+    {
+      "id": "alma",
+      "name": "Alma–Marceau",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8649,
+      "lng": 2.3012,
+      "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Alma–Marceau, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/9"
+    },
+    {
+      "id": "franklin",
+      "name": "Franklin D. Roosevelt",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8688,
+      "lng": 2.3098,
+      "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Franklin D. Roosevelt, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/9"
+    },
+    {
+      "id": "philippe",
+      "name": "Saint-Philippe-du-Roule",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8723,
+      "lng": 2.31,
+      "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Saint-Philippe-du-Roule, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/9"
+    },
+    {
+      "id": "miromesnil",
+      "name": "Miromesnil",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8737,
+      "lng": 2.3147,
+      "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Miromesnil, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/9"
+    },
+    {
+      "id": "augustin",
+      "name": "Saint-Augustin",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8745,
+      "lng": 2.321,
+      "description": "Parada intermedia del metro 9. Permanecer a bordo en este tramo; no es un transbordo ni una visita prevista.",
+      "status": "propuesta",
+      "address": "Saint-Augustin, France",
+      "url": "https://www.ratp.fr/vos-lignes/metro/9"
+    },
+    {
+      "id": "bus_paul",
+      "name": "Kléber–Paul Valéry · bus 30",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8708,
+      "lng": 2.2903,
+      "description": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+      "status": "propuesta",
+      "address": "Kléber–Paul Valéry · bus 30, France",
+      "url": "https://www.bonjour-ratp.fr/lignes-bus/ligne-30/"
+    },
+    {
+      "id": "bus_boissiere",
+      "name": "Kléber–Boissière · bus 30",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8672,
+      "lng": 2.2895,
+      "description": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+      "status": "propuesta",
+      "address": "Kléber–Boissière · bus 30, France",
+      "url": "https://www.bonjour-ratp.fr/lignes-bus/ligne-30/"
+    },
+    {
+      "id": "bus_albert",
+      "name": "Albert de Mun · bus 30",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.863,
+      "lng": 2.2919,
+      "description": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+      "status": "propuesta",
+      "address": "Albert de Mun · bus 30, France",
+      "url": "https://www.bonjour-ratp.fr/lignes-bus/ligne-30/"
+    },
+    {
+      "id": "bus_varsovie",
+      "name": "Varsovie · bus 30",
+      "city": "París",
+      "category": "transporte",
+      "lat": 48.8606,
+      "lng": 2.2917,
+      "description": "Parada intermedia del bus 30 hacia Tour Eiffel. Permanecer a bordo. Marcador del entorno; comprobar acera y sentido en la parada.",
+      "status": "propuesta",
+      "address": "Varsovie · bus 30, France",
+      "url": "https://www.bonjour-ratp.fr/lignes-bus/ligne-30/"
+    },
+    {
+      "id": "fuel_bay2",
+      "name": "Carrefour Collégien · Bay 2",
+      "city": "Torcy y alrededores",
+      "category": "gasolinera",
+      "lat": 48.838446872,
+      "lng": 2.66161659318,
+      "description": "SP95-E10 1,990 €/l y SP98 2,092 €/l, declarados 05/11 a las 00:46. Muy próxima al hotel; candidata económica para comparar. Horario de la estación sin confirmar: no confundir con el del hipermercado.",
+      "status": "propuesta",
+      "address": "Centre commercial Bay 2, avenue du Général de Gaulle, 77090 Collégien",
+      "url": "https://www.prix-carburants.gouv.fr/station/77090001"
+    },
+    {
+      "id": "fuel_intermarche",
+      "name": "Intermarché Saint-Thibault-des-Vignes",
+      "city": "Torcy y alrededores",
+      "category": "gasolinera",
+      "lat": 48.869,
+      "lng": 2.675,
+      "description": "SP95-E10 1,989 €/l y SP98 2,089 €/l, declarados 05/11 a las 08:00. Alternativa económica cercana; automate de tarjeta 24 h según fuente oficial.",
+      "status": "propuesta",
+      "address": "Avenue de la Courtillière, 77400 Saint-Thibault-des-Vignes",
+      "url": "https://www.prix-carburants.gouv.fr/station/77400007"
+    },
+    {
+      "id": "fuel_costco",
+      "name": "Costco Pontault-Combault · gasolinera",
+      "city": "Torcy y alrededores",
+      "category": "gasolinera",
+      "lat": 48.778,
+      "lng": 2.591,
+      "description": "SP95-E10 1,876 €/l y SP98 1,980 €/l, declarados 04/11 a las 10:00. Más alejada que las otras dos: calcular el desvío en Maps. Lunes–sábado 07:00–22:00; domingo 07:00–12:20. No sirve para la llegada del domingo por la tarde. Llevar tarjeta de socio y tarjeta bancaria; consultar horario especial del festivo 11/11.",
+      "status": "propuesta",
+      "address": "35 route de Paris, ZAC Les 4 Chênes, 77340 Pontault-Combault",
+      "url": "https://www.prix-carburants.gouv.fr/station/77340009"
     }
   ],
   "stays": [
