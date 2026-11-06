@@ -137,6 +137,17 @@
           "label": "Hotel",
           "blocks": [
             {
+              "type": "links",
+              "title": "Torcy · Apparthotel Torcy",
+              "items": [
+                {
+                  "label": "Abrir reserva en Drive",
+                  "url": "https://drive.google.com/file/d/10_CDm2Thzb0Ya04OvduSRs06TzGsVdw1/view",
+                  "text": "8–11 noviembre · 3 noches. PDF original de confirmación del alojamiento y condiciones de la reserva. Acceso con una cuenta de Google autorizada."
+                }
+              ]
+            },
+            {
               "type": "hotel",
               "id": "torcy"
             },
@@ -1027,6 +1038,17 @@
           "label": "Guía llegada",
           "blocks": [
             {
+              "type": "links",
+              "title": "Disneyland Paris · Entradas",
+              "items": [
+                {
+                  "label": "Abrir entradas en Drive",
+                  "url": "https://drive.google.com/file/d/1zaymKDgrEAQlagDbEoo7TXra_JzaJUug/view",
+                  "text": "9 y 10 noviembre · 3 adultos · 2 días / 2 parques. PDF original con las entradas nominativas para acceder a los parques. Acceso con una cuenta de Google autorizada."
+                }
+              ]
+            },
+            {
               "type": "facts",
               "title": "Torcy → Disneyland Paris · RER A",
               "items": [
@@ -1449,6 +1471,17 @@
           "id": "hotel",
           "label": "Hotel",
           "blocks": [
+            {
+              "type": "links",
+              "title": "Gante · ibis budget Gent Centrum Dampoort",
+              "items": [
+                {
+                  "label": "Abrir reserva en Drive",
+                  "url": "https://drive.google.com/file/d/1LUP_S52Rqo-gaHrFzJ-if9V23NoqdKlH/view",
+                  "text": "11–13 noviembre · 2 noches. PDF original de confirmación del alojamiento y condiciones de la reserva. Acceso con una cuenta de Google autorizada."
+                }
+              ]
+            },
             {
               "type": "hotel",
               "id": "gante"
@@ -3022,6 +3055,17 @@
           "label": "Hotel",
           "blocks": [
             {
+              "type": "links",
+              "title": "Nantes · Aparthotel Adagio Nantes Centre",
+              "items": [
+                {
+                  "label": "Abrir reserva en Drive",
+                  "url": "https://drive.google.com/file/d/181KSH2uVfGxIrJPQfS7z3ghuH08LCZT1/view",
+                  "text": "13–14 noviembre · 1 noche. PDF original de confirmación del alojamiento y condiciones de la reserva. Acceso con una cuenta de Google autorizada."
+                }
+              ]
+            },
+            {
               "type": "hotel",
               "id": "nantes"
             },
@@ -3382,6 +3426,17 @@
           "id": "hotel",
           "label": "Hotel",
           "blocks": [
+            {
+              "type": "links",
+              "title": "Burdeos · MEININGER Bordeaux Gare Saint-Jean",
+              "items": [
+                {
+                  "label": "Abrir reserva en Drive",
+                  "url": "https://drive.google.com/file/d/1a_2vZXIloG2RY-BCmmzUfBCDjJc0v0Xc/view",
+                  "text": "14–15 noviembre · 1 noche. PDF original de confirmación del alojamiento y condiciones de la reserva. Acceso con una cuenta de Google autorizada."
+                }
+              ]
+            },
             {
               "type": "hotel",
               "id": "burdeos"
@@ -4741,6 +4796,82 @@
                   "mapQuery": "Bruxelles-Central, Carrefour de l’Europe 2, 1000 Bruxelles, Belgique",
                   "source": "https://www.belgiantrain.be/en/station-information/brussel-bruxelles/centraal-central",
                   "audio": "assets/francais/43d620d24d599c7c.mp3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "documentos",
+      "title": "Reservas y entradas",
+      "date": "Documentos del viaje · 8–15 noviembre 2026",
+      "intro": "Las cuatro reservas de alojamiento y las entradas de Disneyland Paris, reunidas con acceso a sus PDF originales en Drive.",
+      "utility": true,
+      "points": [],
+      "panes": [
+        {
+          "id": "archivos",
+          "label": "Todos los documentos",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Acceso a los documentos",
+              "text": "Los enlaces son visibles en esta web pública, pero los archivos se abren en Google Drive con sus permisos propios. No necesitas registrarte en esta web. Usa la cuenta de Google con la que se haya compartido el documento; si no tienes permiso, solicita acceso al propietario. Los PDF no están alojados en esta web."
+            },
+            {
+              "type": "links",
+              "title": "Torcy · Apparthotel Torcy",
+              "items": [
+                {
+                  "label": "Abrir reserva en Drive",
+                  "url": "https://drive.google.com/file/d/10_CDm2Thzb0Ya04OvduSRs06TzGsVdw1/view",
+                  "text": "8–11 noviembre · 3 noches. PDF original de confirmación del alojamiento y condiciones de la reserva. Acceso con una cuenta de Google autorizada."
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Gante · ibis budget Gent Centrum Dampoort",
+              "items": [
+                {
+                  "label": "Abrir reserva en Drive",
+                  "url": "https://drive.google.com/file/d/1LUP_S52Rqo-gaHrFzJ-if9V23NoqdKlH/view",
+                  "text": "11–13 noviembre · 2 noches. PDF original de confirmación del alojamiento y condiciones de la reserva. Acceso con una cuenta de Google autorizada."
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Nantes · Aparthotel Adagio Nantes Centre",
+              "items": [
+                {
+                  "label": "Abrir reserva en Drive",
+                  "url": "https://drive.google.com/file/d/181KSH2uVfGxIrJPQfS7z3ghuH08LCZT1/view",
+                  "text": "13–14 noviembre · 1 noche. PDF original de confirmación del alojamiento y condiciones de la reserva. Acceso con una cuenta de Google autorizada."
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Burdeos · MEININGER Bordeaux Gare Saint-Jean",
+              "items": [
+                {
+                  "label": "Abrir reserva en Drive",
+                  "url": "https://drive.google.com/file/d/1a_2vZXIloG2RY-BCmmzUfBCDjJc0v0Xc/view",
+                  "text": "14–15 noviembre · 1 noche. PDF original de confirmación del alojamiento y condiciones de la reserva. Acceso con una cuenta de Google autorizada."
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Disneyland Paris · Entradas",
+              "items": [
+                {
+                  "label": "Abrir entradas en Drive",
+                  "url": "https://drive.google.com/file/d/1zaymKDgrEAQlagDbEoo7TXra_JzaJUug/view",
+                  "text": "9 y 10 noviembre · 3 adultos · 2 días / 2 parques. PDF original con las entradas nominativas para acceder a los parques. Acceso con una cuenta de Google autorizada."
                 }
               ]
             }

@@ -6,7 +6,7 @@ import {createHash} from 'node:crypto';
 const data=JSON.parse(fs.readFileSync('docs/data/trip.json','utf8'));
 assert.deepEqual(data.days.map(d=>d.day),[8,9,10,11,12,13,14,15]);
 assert.equal(data.meta.party,3);
-assert.deepEqual(data.pages.map(p=>p.id),['torcy-paris','disney','gante','brujas','bruselas','nantes','burdeos','saint-emilion','bilbao','frances']);
+assert.deepEqual(data.pages.map(p=>p.id),['torcy-paris','disney','gante','brujas','bruselas','nantes','burdeos','saint-emilion','bilbao','frances','documentos']);
 const pages=new Map(data.pages.map(p=>[p.id,p]));
 const routes=new Map(data.routes.map(r=>[r.id,r]));
 const places=new Map(data.places.map(p=>[p.id,p]));
@@ -61,8 +61,15 @@ assert.equal(Math.round(data.stays.reduce((a,s)=>a+s.price,0)*100),71322);
 assert(data.routes.some(r=>r.id==='road15a'&&r.destination.includes('Saint')));
 assert(data.routes.some(r=>r.id==='road15b'&&r.destination.includes('Bilbao')));
 const publicFiles=['docs/index.html','docs/app.js','docs/data/trip.json','docs/styles.css'].map(f=>fs.readFileSync(f,'utf8')).join('\n');
-for(const phrase of ['drive.google.com/file/d','35785105','Janire','Igor Martinez','Hernández Perrino','localizador','b64_string'])assert(!publicFiles.includes(phrase),'Posible dato privado: '+phrase);
+for(const phrase of ['35785105','Janire','Igor Martinez','Hernández Perrino','localizador','b64_string'])assert(!publicFiles.includes(phrase),'Posible dato privado: '+phrase);
 assert(!data.pages.some(p=>p.id==='presupuesto'),'No añadir la página del simulador retirado');
 for(const file of ['docs/index.html','docs/app.js','docs/maps-config.js','docs/styles.css','docs/assets/favicon.svg'])assert(fs.existsSync(file));
 console.log(`Correcto: 8 días, ${data.pages.length} páginas, ${data.routes.length} rutas; referencias, archivos, fechas y privacidad verificados.`);
 
+
+// Only the five explicitly requested restricted Drive documents may be linked publicly.
+const allowedDriveIds=new Set('10_CDm2Thzb0Ya04OvduSRs06TzGsVdw1 1LUP_S52Rqo-gaHrFzJ-if9V23NoqdKlH 181KSH2uVfGxIrJPQfS7z3ghuH08LCZT1 1a_2vZXIloG2RY-BCmmzUfBCDjJc0v0Xc 1zaymKDgrEAQlagDbEoo7TXra_JzaJUug'.split(' '));
+const driveLinks=[...publicFiles.matchAll(/https:\/\/drive\.google\.com\/file\/d\/([^/"\s]+)\/view/g)];
+assert.equal(driveLinks.length,10,'Cada documento debe aparecer en el índice y en su destino');
+for(const [,id] of driveLinks)assert(allowedDriveIds.has(id),'Documento Drive no autorizado');
+for(const id of allowedDriveIds)assert.equal(driveLinks.filter(m=>m[1]===id).length,2);
