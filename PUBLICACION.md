@@ -174,3 +174,6 @@ Guía ampliada con 26 fichas: monumentos exteriores, canales, barrios, paseos, f
 Ubicaciones: 24 contrastadas con fichas Google Maps; Le Trappiste con la ubicación publicada en Untappd (51.2109, 3.22276), barco como referencia del entorno de Huidenvettersplein según Wikimedia (51.207750, 3.227519). Se incluyen coordenadas en los dos catálogos para evitar depender de Geocoding API. Caché renovada.
 
 
+
+## 06/11/2026 · Parking de Nantes confirmado
+Plaza del Adagio reservada: 19 €/noche, sustituye 24 €/día. Instrucciones de acceso, código y aviso de reconfirmación; pronunciación por caracteres con grabaciones francesas e inglesas en Nantes/Hotel y Francés útil/Hoteles. Actualizadas fichas de hotel y registro de fecha.

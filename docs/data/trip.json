@@ -2,7 +2,7 @@
   "meta": {
     "title": "Francia y Bélgica",
     "version": "2.1",
-    "updated": "2026-11-05",
+    "updated": "2026-11-06",
     "start": "2026-11-08",
     "end": "2026-11-15",
     "party": 3
@@ -3026,6 +3026,31 @@
               "id": "nantes"
             },
             {
+              "type": "note",
+              "title": "Parking reservado · 19 €/noche · código V3IG9",
+              "text": "Plaza reservada y confirmada por recepción: 19 € por noche (19 € para el 13–14/11). Entrada: 2 Place de la Duchesse Anne, frente a la farmacia verde. Zona peatonal con bolardo: pulsar «llamada» y comunicar oralmente V3IG9; recoger el ticket para que baje el bolardo. Después, segunda calle a la derecha. No ocupar plazas reservadas a empresas. El hotel indica validez hasta el final de la estancia, pero pide reconfirmar el código al menos 1 día antes de llegar (como tarde el 12/11). Garaje cubierto; altura máxima publicada 1,80 m.",
+              "tone": "plain"
+            },
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "vé, trois, i, gé, neuf.",
+                  "es": "Código V3IG9 · Francés · V / 3 / I / G / 9",
+                  "phonetic": "vé · truá · i · zhé · nef",
+                  "lang": "fr",
+                  "audio": "assets/francais/be569a5be179d395.mp3"
+                },
+                {
+                  "fr": "vee, three, eye, gee, nine.",
+                  "es": "Código V3IG9 · Inglés · V / 3 / I / G / 9",
+                  "phonetic": "ví · thrí · ái · yí · náin",
+                  "lang": "en",
+                  "audio": "assets/francais/d2cb76513838c75e.mp3"
+                }
+              ]
+            },
+            {
               "type": "facts",
               "title": "Aparcamiento · alternativas",
               "items": [
@@ -3044,7 +3069,7 @@
             {
               "type": "note",
               "title": "Acceso y equipaje del sábado",
-              "text": "El hotel está en una zona con acceso regulado: confirmar con recepción la entrada al garaje y reservarlo si se elige. Para salir de la habitación a las 11:00 y visitar la Galería a las 14:00, confirmar custodia de equipaje y si el coche puede seguir aparcado; alternativa: llevarlo al parking Les Machines. Ninguna plaza está reservada.",
+              "text": "La plaza del hotel está reservada. Tras dejar la habitación el sábado a las 11:00, confirmar con recepción la custodia de equipaje y hasta qué hora se puede mantener el coche aparcado. Para la Galería a las 14:00, alternativa: llevar el coche al parking Les Machines (no reservado).",
               "tone": "plain",
               "url": null
             },
@@ -4586,6 +4611,25 @@
                   "address": "12 rue du Commerce, 33000 Bordeaux, Francia",
                   "mapQuery": "MEININGER Bordeaux Gare Saint-Jean, 12 rue du Commerce, 33000 Bordeaux, Francia",
                   "audio": "assets/francais/cc14817363dd30f9.mp3"
+                }
+              ]
+            },
+            {
+              "type": "phrases",
+              "items": [
+                {
+                  "fr": "vé, trois, i, gé, neuf.",
+                  "es": "Código V3IG9 · Francés · V / 3 / I / G / 9",
+                  "phonetic": "vé · truá · i · zhé · nef",
+                  "lang": "fr",
+                  "audio": "assets/francais/be569a5be179d395.mp3"
+                },
+                {
+                  "fr": "vee, three, eye, gee, nine.",
+                  "es": "Código V3IG9 · Inglés · V / 3 / I / G / 9",
+                  "phonetic": "ví · thrí · ái · yí · náin",
+                  "lang": "en",
+                  "audio": "assets/francais/d2cb76513838c75e.mp3"
                 }
               ]
             }
@@ -22395,7 +22439,7 @@
       "category": "alojamiento",
       "lat": 47.21682,
       "lng": -1.54625,
-      "description": "Aparthotel Adagio Nantes Centre: estancia confirmada 13–14 noviembre, entrada desde las 15:00 y salida hasta las 11:00. Garaje 24 €/día con reserva y altura máxima 1,80 m. Desayuno no incluido; confirmar acceso y equipaje tras el checkout.",
+      "description": "Estancia confirmada 13–14 noviembre. Parking reservado: 19 €/noche. Acceso en 2 Place de la Duchesse Anne, frente a la farmacia verde: pulsar llamada, decir V3IG9 y recoger ticket para bajar el bolardo; después segunda calle a la derecha. No ocupar plazas de empresas. Reconfirmar el código con recepción al menos 1 día antes de llegar. Altura máxima publicada 1,80 m. Confirmar parking y equipaje tras checkout.",
       "status": "confirmado",
       "url": "https://all.accor.com/hotel/6448/index.fr.shtml"
     },
@@ -24222,12 +24266,12 @@
       "checkout": "14 nov. · hasta 11:00",
       "price": 100.1,
       "address": "19 Allée du Commandant Charcot, 44000 Nantes, Francia",
-      "parking": "24 €/día, reserva necesaria; garaje cubierto, altura máxima 1,80 m. No hay plaza reservada.",
+      "parking": "Plaza reservada y confirmada por recepción: 19 € por noche (19 € para el 13–14/11). Entrada: 2 Place de la Duchesse Anne, frente a la farmacia verde. Zona peatonal con bolardo: pulsar «llamada» y comunicar oralmente V3IG9; recoger el ticket para que baje el bolardo. Después, segunda calle a la derecha. No ocupar plazas reservadas a empresas. El hotel indica validez hasta el final de la estancia, pero pide reconfirmar el código al menos 1 día antes de llegar (como tarde el 12/11). Garaje cubierto; altura máxima publicada 1,80 m.",
       "lat": 47.21682,
       "lng": -1.54625,
       "website": "https://all.accor.com/hotel/6448/index.fr.shtml",
       "status": "confirmado",
-      "conditions": "Estudio con cocina; desayuno no incluido. Avisar de la llegada y confirmar con el hotel el acceso en coche a la zona peatonal y la entrada al garaje. Salida el sábado hasta las 11:00; confirmar custodia de equipaje y parking tras el checkout si se visita la Galería a las 14:00.",
+      "conditions": "Estudio con cocina; desayuno no incluido. Avisar de la llegada y seguir las instrucciones de acceso al parking reservado en 2 Place de la Duchesse Anne. Salida el sábado hasta las 11:00; confirmar custodia de equipaje y parking tras el checkout si se visita la Galería a las 14:00.",
       "phone": "+33 2 51 86 52 00"
     },
     {

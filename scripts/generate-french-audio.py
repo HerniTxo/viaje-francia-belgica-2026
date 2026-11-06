@@ -32,7 +32,7 @@ async def main():
         if target.exists() and target.stat().st_size > 1000:
             return
         async with semaphore:
-            await asyncio.wait_for(edge_tts.Communicate(item['fr'], voice, rate='-12%').save(str(target)), timeout=45)
+            await asyncio.wait_for(edge_tts.Communicate(item['fr'], 'en-GB-SoniaNeural' if item.get('lang') == 'en' else voice, rate='-20%' if item.get('lang') else '-12%').save(str(target)), timeout=45)
             if target.stat().st_size <= 1000:
                 raise RuntimeError('Audio file empty: ' + str(target))
             print('Created:', target.name, flush=True)
