@@ -180,3 +180,6 @@ Plaza del Adagio reservada: 19 €/noche, sustituye 24 €/día. Instrucciones d
 
 ## 06/11/2026 · Ficha del acceso al parking de Nantes
 Ficha independiente con mapa interactivo para 2 Place de la Duchesse Anne, frente a la farmacia verde. Diferencia el acceso por bolardo de la puerta del garaje en la segunda calle a la derecha. Punto añadido a Hotel y Mapa general de Nantes; el trayecto desde Gante termina ahora en la dirección de acceso del parking.
+
+## 06/11/2026 · Referencias internas a destinos
+Nombres de ciudades y destinos pulsables en los textos de toda la guía, incluido inicio, planes, trayectos y documentos. Las menciones completas de atracciones conservan sus fichas individuales. Enlaces visibles con teclado y móvil; sin alterar audios ni direcciones de hoteles. Auditoría de enlaces internos, pestañas y alias ampliada.

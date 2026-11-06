@@ -18,7 +18,7 @@ function checkURL(url){
   const [id,pane]=url.slice(2).split('/');
   if(id==='inicio')return;
   assert(pages.has(id),'Página inexistente: '+url);
-  if(pane)assert(pages.get(id).panes.some(p=>p.id===pane),'Pestaña inexistente: '+url);
+  if(pane)assert(pages.get(id).panes.some(p=>p.id===(pages.get(id).paneAliases?.[pane]||pane)),'Pestaña inexistente: '+url);
  }else if(url.startsWith('assets/'))assert(fs.existsSync(path.join('docs',url)),'Archivo inexistente: '+url);
  else assert.equal(new URL(url).protocol,'https:','Enlace externo inseguro: '+url);
 }
@@ -40,7 +40,7 @@ function checkBlock(b){
  if(b.type==='image')checkURL(b.src);
  if(b.type==='official-plan')checkURL(b.url);
  if(b.type==='map'){for(const id of b.ids||[])assert(places.has(id),'Punto de mapa inexistente: '+id);for(const id of b.walkRoutes||[]){assert(routes.has(id),'Paseo inexistente: '+id);const r=routes.get(id);assert(r.walkPath?.length>1,'Falta trazado: '+id);assert(r.pointIds.every(p=>b.ids.includes(p)),'Extremos fuera del mapa: '+id);}}
- if(b.type==='facts')for(const i of b.items)if(i.placeId)assert(places.has(i.placeId),'Ficha inexistente: '+i.placeId);
+ if(b.type==='facts')for(const i of b.items){if(i.placeId)assert(places.has(i.placeId),'Ficha inexistente: '+i.placeId);if(i.url)checkURL(i.url);}
 }
 for(const page of data.pages){
  assert(page.panes.length>0);
@@ -73,3 +73,16 @@ const driveLinks=[...publicFiles.matchAll(/https:\/\/drive\.google\.com\/file\/d
 assert.equal(driveLinks.length,10,'Cada documento debe aparecer en el índice y en su destino');
 for(const [,id] of driveLinks)assert(allowedDriveIds.has(id),'Documento Drive no autorizado');
 for(const id of allowedDriveIds)assert.equal(driveLinks.filter(m=>m[1]===id).length,2);
+
+// Audit every explicit internal reference, including nested metadata and legacy aliases.
+function auditInternal(value){
+ if(typeof value==='string'&&value.startsWith('#/'))checkURL(value);
+ else if(Array.isArray(value))value.forEach(auditInternal);
+ else if(value&&typeof value==='object')Object.values(value).forEach(auditInternal);
+}
+auditInternal(data);
+for(const page of data.pages)for(const target of Object.values(page.paneAliases||{}))assert(page.panes.some(p=>p.id===target),'Alias sin destino: '+page.id+'/'+target);
+const cityScript=fs.readFileSync('docs/places-info.js','utf8');
+const destinationSection=cityScript.split('const destinationLinks=[')[1].split('].flatMap')[0];
+for(const [,id] of destinationSection.matchAll(/\['([^']+)',\[/g))assert(pages.has(id),'Destino de texto inexistente: '+id);
+console.log('Enlaces de destinos, metadatos y alias internos verificados.');
