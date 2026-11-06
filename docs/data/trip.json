@@ -3026,6 +3026,17 @@
               "id": "nantes"
             },
             {
+              "type": "facts",
+              "title": "Llegar en coche · entrada del parking",
+              "items": [
+                {
+                  "label": "Entrada al parking Adagio · Place de la Duchesse Anne",
+                  "value": "2 Place de la Duchesse Anne, 44000 Nantes, Francia · frente a la farmacia verde. Toca para abrir la ficha con mapa. Acceso por el bolardo; después, segunda calle a la derecha hasta el garaje.",
+                  "placeId": "nan_parking_access"
+                }
+              ]
+            },
+            {
               "type": "note",
               "title": "Parking reservado · 19 €/noche · código V3IG9",
               "text": "Plaza reservada y confirmada por recepción: 19 € por noche (19 € para el 13–14/11). Entrada: 2 Place de la Duchesse Anne, frente a la farmacia verde. Zona peatonal con bolardo: pulsar «llamada» y comunicar oralmente V3IG9; recoger el ticket para que baje el bolardo. Después, segunda calle a la derecha. No ocupar plazas reservadas a empresas. El hotel indica validez hasta el final de la estancia, pero pide reconfirmar el código al menos 1 día antes de llegar (como tarde el 12/11). Garaje cubierto; altura máxima publicada 1,80 m.",
@@ -3084,6 +3095,7 @@
               "title": "Hotel y aparcamientos",
               "ids": [
                 "nantes",
+                "nan_parking_access",
                 "nan_parking_gare",
                 "nan_parking_machines"
               ],
@@ -3303,6 +3315,7 @@
               "title": "Todos los lugares de Nantes",
               "ids": [
                 "nantes",
+                "nan_parking_access",
                 "nan_parking_gare",
                 "nan_parking_machines",
                 "chateau_nantes",
@@ -3337,6 +3350,7 @@
       ],
       "points": [
         "nantes",
+        "nan_parking_access",
         "nan_parking_gare",
         "nan_parking_machines",
         "chateau_nantes",
@@ -4761,10 +4775,10 @@
       "id": "road13",
       "name": "Gante → Nantes",
       "origin": "Koopvaardijlaan 29, 9000 Gent, Belgium",
-      "destination": "19 Allée du Commandant Charcot, 44000 Nantes, France",
+      "destination": "2 Place de la Duchesse Anne, 44000 Nantes, Francia",
       "mode": "driving",
       "stops": [],
-      "note": "Trayecto largo el 13. Concretar salida, descansos y acceso al aparcamiento del hotel."
+      "note": "Trayecto del 13 hasta el acceso en coche indicado por el hotel: 2 Place de la Duchesse Anne, frente a la farmacia verde. Bolardo con llamada y código; tras cruzarlo, segunda calle a la derecha hasta el garaje. Seguir la señalización y las instrucciones de recepción."
     },
     {
       "id": "road14",
@@ -24223,6 +24237,15 @@
       "status": "propuesta",
       "address": "5 rue du Clocher, Saint-Émilion",
       "url": "https://www.envers-dudecor.com/"
+    },
+    {
+      "id": "nan_parking_access",
+      "name": "Entrada al parking Adagio · Place de la Duchesse Anne",
+      "city": "Nantes",
+      "category": "aparcamiento",
+      "address": "2 Place de la Duchesse Anne, 44000 Nantes, Francia",
+      "description": "Acceso en coche indicado por recepción: 2 Place de la Duchesse Anne, frente a la Pharmacie Verte. Primero se llega al bolardo de la zona peatonal: pulsar «llamada», decir V3IG9 y recoger el ticket para que baje. Tras pasar el bolardo, la entrada del garaje está en la segunda calle a la derecha. Plaza confirmada: 19 €/noche. No aparcar en plazas reservadas a empresas. Reconfirmar el código al menos un día antes de llegar.",
+      "status": "confirmado"
     }
   ],
   "stays": [

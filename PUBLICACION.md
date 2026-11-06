@@ -177,3 +177,6 @@ Ubicaciones: 24 contrastadas con fichas Google Maps; Le Trappiste con la ubicaci
 
 ## 06/11/2026 · Parking de Nantes confirmado
 Plaza del Adagio reservada: 19 €/noche, sustituye 24 €/día. Instrucciones de acceso, código y aviso de reconfirmación; pronunciación por caracteres con grabaciones francesas e inglesas en Nantes/Hotel y Francés útil/Hoteles. Actualizadas fichas de hotel y registro de fecha.
+
+## 06/11/2026 · Ficha del acceso al parking de Nantes
+Ficha independiente con mapa interactivo para 2 Place de la Duchesse Anne, frente a la farmacia verde. Diferencia el acceso por bolardo de la puerta del garaje en la segunda calle a la derecha. Punto añadido a Hotel y Mapa general de Nantes; el trayecto desde Gante termina ahora en la dirección de acceso del parking.
