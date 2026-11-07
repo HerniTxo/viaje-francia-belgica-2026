@@ -2,7 +2,7 @@
   "meta": {
     "title": "Francia y Bélgica",
     "version": "2.1",
-    "updated": "2026-11-06",
+    "updated": "2026-11-07",
     "start": "2026-11-08",
     "end": "2026-11-15",
     "party": 3
@@ -130,7 +130,7 @@
       "id": "torcy-paris",
       "title": "Torcy–París",
       "date": "8–11 noviembre",
-      "intro": "Base en Apparthotel Torcy del 8 al 11. Tres propuestas para París el domingo 8, según llegada y cansancio.",
+      "intro": "Domingo 8: tres paseos combinados desde Notre-Dame sobre las 17:00 hasta la Torre Eiffel iluminada y Trocadéro. Elegir según tiempo y energía; A metro y B se conservan como opciones cortas. Sin entradas a monumentos.",
       "panes": [
         {
           "id": "hotel",
@@ -215,9 +215,1111 @@
           ]
         },
         {
+          "id": "paris-completa-1",
+          "label": "1 · Monumental",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "La más completa a pie · exteriores y perspectivas monumentales",
+              "text": "Propuesta para domingo 8/11, empezando sobre las 17:00 en Notre-Dame. 4–4½ h con fotos y una pausa. Si falta energía, omitir palacios e Invalides y elegir la variante 2 o 3 desde el centro.",
+              "url": null,
+              "tone": "plain"
+            },
+            {
+              "type": "facts",
+              "title": "De un vistazo",
+              "items": [
+                {
+                  "label": "Paseo principal",
+                  "value": "9,1 km a pie desde Notre-Dame hasta Trocadéro; sin Arco ni acceso desde el RER."
+                },
+                {
+                  "label": "Acceso desde Châtelet",
+                  "value": "Unos 1,6 km adicionales si se sigue el tramo por Hôtel de Ville hasta Notre-Dame. Conviene llegar al RER con margen antes de las 17:00."
+                },
+                {
+                  "label": "Ritmo",
+                  "value": "Horarios orientativos, con fotografías y pausa libre. No son salidas de transporte verificadas ni una reserva."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Últimas luces y final nocturno",
+              "text": "Domingo 8: puesta de sol alrededor de las 17:20. Notre-Dame al comienzo; después puentes y exteriores iluminados. En la torre, centelleo de 5 minutos al principio de cada hora una vez anochece. Llegar a Trocadéro unos 10 minutos antes. Todas las visitas son exteriores; solo se entra para comer, beber o descansar.",
+              "url": "https://www.toureiffel.paris/fr/le-monument/illuminations",
+              "tone": "plain"
+            },
+            {
+              "type": "details",
+              "title": "Llegar desde Torcy · estaciones útiles",
+              "blocks": [
+                {
+                  "type": "routes",
+                  "ids": [
+                    "hotel_rer",
+                    "b_rer",
+                    "b_walk1"
+                  ]
+                },
+                {
+                  "type": "note",
+                  "title": "Las 17:00 son en Notre-Dame",
+                  "text": "Tomar RER A Torcy → Châtelet–Les Halles, hacia París, y salir a la calle. Prever aproximadamente 20–30 min andando desde la estación, con Hôtel de Ville como exterior en el camino. Elegir la hora de tren en el planificador para estar en Notre-Dame sobre las 17:00; si salís de Torcy a las 17:00, la visita comienza ya de noche.",
+                  "url": null,
+                  "tone": "plain"
+                },
+                {
+                  "type": "facts",
+                  "title": "Origen y llegada",
+                  "items": [
+                    {
+                      "label": "Apparthotel Torcy",
+                      "value": "Alojamiento reservado del 8 al 11. Parking gratuito.",
+                      "placeId": "torcy"
+                    },
+                    {
+                      "label": "Torcy · RER A",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                      "placeId": "torcy_rer"
+                    },
+                    {
+                      "label": "Châtelet–Les Halles · RER A",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                      "placeId": "chatelet"
+                    },
+                    {
+                      "label": "Hôtel de Ville",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                      "placeId": "hotel_ville"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "17:00–17:25",
+                  "title": "Notre-Dame · últimas luces",
+                  "text": "Inicio en el entorno de la catedral. Después, Pont Neuf y Pont des Arts hacia el Louvre.",
+                  "status": "propuesta",
+                  "route": "pc_common"
+                },
+                {
+                  "time": "17:25–18:15",
+                  "title": "Sena y Louvre",
+                  "text": "Paseo y fotografías; Cour Napoléon por accesos exteriores abiertos, sin entrar al museo.",
+                  "status": "propuesta",
+                  "route": null
+                },
+                {
+                  "time": "18:15–19:10",
+                  "title": "Concorde y palacios",
+                  "text": "Exterior de Tullerías, Concorde y parada conjunta ante Petit y Grand Palais.",
+                  "status": "propuesta",
+                  "route": "pc_1_palais"
+                },
+                {
+                  "time": "19:10–20:30",
+                  "title": "Alexandre III, Invalides y Eiffel",
+                  "text": "Pausa de 30–45 min a distribuir según hambre; continuar a la torre por Champ de Mars.",
+                  "status": "propuesta",
+                  "route": "pc_1_eiffel"
+                },
+                {
+                  "time": "20:30–21:00/21:30",
+                  "title": "Trocadéro · torre iluminada",
+                  "text": "Objetivo: centelleo de las 21:00 si el ritmo lo permite. Si llegáis después, no esperar a otra hora sin comprobar el regreso.",
+                  "status": "propuesta",
+                  "route": "pc_final"
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Paradas del paseo · toca para abrir ficha y mapa",
+              "items": [
+                {
+                  "label": "1. Notre-Dame de París",
+                  "value": "Fachada y entorno de la catedral junto al Sena. Primera parada para aprovechar las últimas luces; sin visita interior.",
+                  "placeId": "notredame"
+                },
+                {
+                  "label": "2. Pont Neuf",
+                  "value": "Puente histórico y perspectivas de la Île de la Cité. Parada breve antes de continuar hacia el Louvre.",
+                  "placeId": "pont_neuf"
+                },
+                {
+                  "label": "3. Pont des Arts · vista del Institut de France",
+                  "value": "Pasarela peatonal con vistas del Sena y de la cúpula del Institut de France.",
+                  "placeId": "par_pont_arts"
+                },
+                {
+                  "label": "4. Museo del Louvre · exterior",
+                  "value": "Pirámide y cour Napoléon por fuera. Accesos del lado del Carrousel; evitar la Cour Carrée cerrada.",
+                  "placeId": "louvre"
+                },
+                {
+                  "label": "5. Tullerías · paseo exterior por el Sena",
+                  "value": "Continuación junto al Sena por fuera del jardín, sin depender de sus horarios de cierre.",
+                  "placeId": "par_tuileries_quai"
+                },
+                {
+                  "label": "6. Place de la Concorde",
+                  "value": "Plaza monumental y grandes perspectivas. Parada breve antes de los palacios o del atajo en M8.",
+                  "placeId": "par_concorde"
+                },
+                {
+                  "label": "7. Petit Palais · exterior",
+                  "value": "Fachada, columnas y decoración desde la avenida. Se visita junto con el Grand Palais, sin entrar.",
+                  "placeId": "par_petit_palais"
+                },
+                {
+                  "label": "8. Grand Palais · exterior",
+                  "value": "Fachada y esculturas del edificio de 1900; enfrente del Petit Palais. Una sola parada conjunta.",
+                  "placeId": "par_grand_palais"
+                },
+                {
+                  "label": "9. Pont Alexandre III",
+                  "value": "Puente monumental: farolas, esculturas y vistas hacia los palacios e Invalides.",
+                  "placeId": "par_alexandre"
+                },
+                {
+                  "label": "10. Esplanade des Invalides · exterior",
+                  "value": "Vista de Invalides y su cúpula desde la explanada; después continuar hacia Champ de Mars.",
+                  "placeId": "par_invalides"
+                },
+                {
+                  "label": "11. Champ de Mars",
+                  "value": "Parque y aproximación frontal a la Torre Eiffel. Paseo exterior con perspectivas de la estructura iluminada.",
+                  "placeId": "champ_mars"
+                },
+                {
+                  "label": "12. Torre Eiffel",
+                  "value": "Parada junto a la Torre Eiffel iluminada. Sin subida ni entrada al recinto controlado.",
+                  "placeId": "eiffel"
+                },
+                {
+                  "label": "13. Pont d’Iéna",
+                  "value": "Cruzar el Sena entre la torre y los jardines de Trocadéro.",
+                  "placeId": "pont_iena"
+                },
+                {
+                  "label": "14. Trocadéro",
+                  "value": "Mirador final para contemplar la torre completa y su centelleo nocturno.",
+                  "placeId": "trocadero"
+                }
+              ]
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "pc_common",
+                "pc_1_palais",
+                "pc_1_eiffel",
+                "pc_final"
+              ]
+            },
+            {
+              "type": "details",
+              "title": "Regreso a Torcy y Arco opcional",
+              "blocks": [
+                {
+                  "type": "routes",
+                  "ids": [
+                    "a_trocadero_metro",
+                    "a_no_bus_m9",
+                    "a_link_auber",
+                    "a_no_bus_back",
+                    "hotel_back"
+                  ]
+                },
+                {
+                  "type": "facts",
+                  "title": "Dónde bajar o transbordar",
+                  "items": [
+                    {
+                      "label": "Trocadéro · metro 9",
+                      "value": "Regreso A metro: entrar en M9 dirección Mairie de Montreuil y bajar en Havre–Caumartin. La M6 no se utiliza el domingo 8.",
+                      "placeId": "trocadero_metro"
+                    },
+                    {
+                      "label": "Havre–Caumartin · metro 9",
+                      "value": "Regreso: bajar del M9 y seguir RER A / Auber por el interior. Variante de ida: M9 hacia Pont de Sèvres hasta Trocadéro.",
+                      "placeId": "havre_caumartin"
+                    },
+                    {
+                      "label": "Auber · RER A",
+                      "value": "Ida A metro: seguir por el interior Opéra / M8. Vuelta: llegar por correspondencia desde Havre–Caumartin / M9 y tomar RER A que pare en Torcy.",
+                      "placeId": "auber"
+                    }
+                  ]
+                },
+                {
+                  "type": "note",
+                  "title": "Regreso principal",
+                  "text": "Trocadéro: M9 dirección Mairie de Montreuil → Havre–Caumartin. Seguir RER A / Auber por el interior y tomar un tren que muestre Torcy entre sus paradas. Consultar el tren elegido y otro posterior; último servicio no verificado.",
+                  "url": null,
+                  "tone": "plain"
+                },
+                {
+                  "type": "note",
+                  "title": "Ampliación opcional al Arco",
+                  "text": "Desde Trocadéro, avenue Kléber hasta el Arco: unos 1,7 km y 25–30 min adicionales, más fotos. Solo elegir ese final tras comprobar que Étoile permite tomar el RER A de regreso; si no está claro, mantener el final en Trocadéro. No se añade a la duración base.",
+                  "url": "https://www.ratp.fr/infos-trafic/rer-transilien/A",
+                  "tone": "plain"
+                },
+                {
+                  "type": "routes",
+                  "ids": [
+                    "a_arc",
+                    "a_back"
+                  ]
+                },
+                {
+                  "type": "facts",
+                  "title": "Ampliación opcional",
+                  "items": [
+                    {
+                      "label": "Avenue Kléber",
+                      "value": "Paseo opcional entre Trocadéro y Étoile / Arco del Triunfo. No es obligatorio al comienzo de la visita.",
+                      "placeId": "avenue_kleber"
+                    },
+                    {
+                      "label": "Arco del Triunfo",
+                      "value": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar. Aviso consultado 07/11: RER A no para en Étoile el sábado 7; reapertura del domingo 8 sin confirmar. No depender de esa estación sin comprobarla antes.",
+                      "placeId": "arc_triomphe"
+                    },
+                    {
+                      "label": "Charles de Gaulle–Étoile · RER A",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar. Aviso consultado 07/11: RER A no para en Étoile el sábado 7; reapertura del domingo 8 sin confirmar. No depender de esa estación sin comprobarla antes.",
+                      "placeId": "etoile"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Billetes · tres adultos",
+              "text": "RER de ida y regreso M9 + RER por correspondencia interior: 2 viajes por persona a 2,55 €, 5,10 €/persona y 15,30 € los tres, sin soportes y sin viajes adicionales.",
+              "url": "https://www.iledefrance-mobilites.fr/es/titres-et-tarifs/detail/ticket-metro-train-rer",
+              "tone": "plain"
+            },
+            {
+              "type": "details",
+              "title": "Louvre, Tullerías y descansos",
+              "blocks": [
+                {
+                  "type": "note",
+                  "title": "Pasos exteriores",
+                  "text": "Cour Napoléon: 7:30–21:00 según Louvre; Cour Carrée cerrada. Aproximarse por el lado del Carrousel siguiendo accesos abiertos. Tullerías: cierre 19:30, desalojo desde 19:00; las rutas 1 y 3 se dibujan por el exterior junto al Sena para no depender del jardín. Si llegáis antes y queréis cruzarlo, es una variante local.",
+                  "url": "https://www.louvre.fr/visiter/horaires-tarifs",
+                  "tone": "plain"
+                },
+                {
+                  "type": "note",
+                  "title": "Pausa libre",
+                  "text": "Reservar 30–45 min para comer, beber o descansar en el lugar que os convenga según el ritmo. No se incluye el bar temático ni se fija un establecimiento. Si una ribera baja está cerrada o resulta incómoda, seguir por el paseo superior.",
+                  "url": null,
+                  "tone": "plain"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Domingo 8 · transporte revisado el 7/11",
+              "text": "M6 cerrada todo el domingo 8. El aviso de cierre del RER A en Étoile y de Concorde M8 consultado corresponde al sábado 7; no garantiza su reapertura del domingo. El regreso principal utiliza M9 y Auber. Confirmar servicio el día 8 antes de salir.",
+              "url": "https://www.ratp.fr/infos-trafic/rer-transilien/A",
+              "tone": "pending"
+            },
+            {
+              "type": "map",
+              "title": "Mapa · 1 · Monumental",
+              "ids": [
+                "torcy",
+                "torcy_rer",
+                "chatelet",
+                "hotel_ville",
+                "trocadero_metro",
+                "havre_caumartin",
+                "auber",
+                "notredame",
+                "pont_neuf",
+                "par_pont_arts",
+                "louvre",
+                "par_tuileries_quai",
+                "par_concorde",
+                "par_petit_palais",
+                "par_grand_palais",
+                "par_alexandre",
+                "par_invalides",
+                "champ_mars",
+                "eiffel",
+                "pont_iena",
+                "trocadero",
+                "par_carrousel",
+                "avenue_kleber",
+                "arc_triomphe",
+                "etoile"
+              ],
+              "walkRoutes": [
+                "b_walk1",
+                "pc_common",
+                "pc_1_palais",
+                "pc_1_eiffel",
+                "pc_final",
+                "a_trocadero_metro",
+                "a_arc"
+              ],
+              "focusWalkRoutes": true
+            }
+          ]
+        },
+        {
+          "id": "paris-completa-2",
+          "label": "2 · Sena",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Paseo continuo por el río · puentes, fachadas y reflejos",
+              "text": "Propuesta para domingo 8/11, empezando sobre las 17:00 en Notre-Dame. 3½–4 h con fotos y una pausa. Se omiten Concorde, los palacios e Invalides para mantener la continuidad del río.",
+              "url": null,
+              "tone": "plain"
+            },
+            {
+              "type": "facts",
+              "title": "De un vistazo",
+              "items": [
+                {
+                  "label": "Paseo principal",
+                  "value": "7,9 km a pie desde Notre-Dame hasta Trocadéro; sin Arco ni acceso desde el RER."
+                },
+                {
+                  "label": "Acceso desde Châtelet",
+                  "value": "Unos 1,6 km adicionales si se sigue el tramo por Hôtel de Ville hasta Notre-Dame. Conviene llegar al RER con margen antes de las 17:00."
+                },
+                {
+                  "label": "Ritmo",
+                  "value": "Horarios orientativos, con fotografías y pausa libre. No son salidas de transporte verificadas ni una reserva."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Últimas luces y final nocturno",
+              "text": "Domingo 8: puesta de sol alrededor de las 17:20. Notre-Dame al comienzo; después puentes y exteriores iluminados. En la torre, centelleo de 5 minutos al principio de cada hora una vez anochece. Llegar a Trocadéro unos 10 minutos antes. Todas las visitas son exteriores; solo se entra para comer, beber o descansar.",
+              "url": "https://www.toureiffel.paris/fr/le-monument/illuminations",
+              "tone": "plain"
+            },
+            {
+              "type": "details",
+              "title": "Llegar desde Torcy · estaciones útiles",
+              "blocks": [
+                {
+                  "type": "routes",
+                  "ids": [
+                    "hotel_rer",
+                    "b_rer",
+                    "b_walk1"
+                  ]
+                },
+                {
+                  "type": "note",
+                  "title": "Las 17:00 son en Notre-Dame",
+                  "text": "Tomar RER A Torcy → Châtelet–Les Halles, hacia París, y salir a la calle. Prever aproximadamente 20–30 min andando desde la estación, con Hôtel de Ville como exterior en el camino. Elegir la hora de tren en el planificador para estar en Notre-Dame sobre las 17:00; si salís de Torcy a las 17:00, la visita comienza ya de noche.",
+                  "url": null,
+                  "tone": "plain"
+                },
+                {
+                  "type": "facts",
+                  "title": "Origen y llegada",
+                  "items": [
+                    {
+                      "label": "Apparthotel Torcy",
+                      "value": "Alojamiento reservado del 8 al 11. Parking gratuito.",
+                      "placeId": "torcy"
+                    },
+                    {
+                      "label": "Torcy · RER A",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                      "placeId": "torcy_rer"
+                    },
+                    {
+                      "label": "Châtelet–Les Halles · RER A",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                      "placeId": "chatelet"
+                    },
+                    {
+                      "label": "Hôtel de Ville",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                      "placeId": "hotel_ville"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "17:00–17:25",
+                  "title": "Notre-Dame · últimas luces",
+                  "text": "Inicio en la catedral, después Pont Neuf y Pont des Arts.",
+                  "status": "propuesta",
+                  "route": "pc_common"
+                },
+                {
+                  "time": "17:25–18:15",
+                  "title": "Puentes y pirámide del Louvre",
+                  "text": "Visitas exteriores y fotos, sin dependencias de la Cour Carrée.",
+                  "status": "propuesta",
+                  "route": null
+                },
+                {
+                  "time": "18:15–19:15",
+                  "title": "Pont Royal, Orsay y Alexandre III",
+                  "text": "Cruzar a la margen izquierda. Orsay por fuera y continuación junto al río.",
+                  "status": "propuesta",
+                  "route": "pc_2_river"
+                },
+                {
+                  "time": "19:15–20:15",
+                  "title": "Sena, Sainte-Trinité y Eiffel",
+                  "text": "Pausa a distribuir. Parada breve ante las cúpulas doradas, al lado del recorrido.",
+                  "status": "propuesta",
+                  "route": "pc_2_trinite"
+                },
+                {
+                  "time": "20:15–21:00",
+                  "title": "Trocadéro · final panorámico",
+                  "text": "Según pausas, intentar el centelleo de las 21:00.",
+                  "status": "propuesta",
+                  "route": "pc_final"
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Paradas del paseo · toca para abrir ficha y mapa",
+              "items": [
+                {
+                  "label": "1. Notre-Dame de París",
+                  "value": "Fachada y entorno de la catedral junto al Sena. Primera parada para aprovechar las últimas luces; sin visita interior.",
+                  "placeId": "notredame"
+                },
+                {
+                  "label": "2. Pont Neuf",
+                  "value": "Puente histórico y perspectivas de la Île de la Cité. Parada breve antes de continuar hacia el Louvre.",
+                  "placeId": "pont_neuf"
+                },
+                {
+                  "label": "3. Pont des Arts · vista del Institut de France",
+                  "value": "Pasarela peatonal con vistas del Sena y de la cúpula del Institut de France.",
+                  "placeId": "par_pont_arts"
+                },
+                {
+                  "label": "4. Museo del Louvre · exterior",
+                  "value": "Pirámide y cour Napoléon por fuera. Accesos del lado del Carrousel; evitar la Cour Carrée cerrada.",
+                  "placeId": "louvre"
+                },
+                {
+                  "label": "5. Pont Royal",
+                  "value": "Cruce del Sena para continuar por la margen izquierda hacia Orsay.",
+                  "placeId": "par_pont_royal"
+                },
+                {
+                  "label": "6. Musée d’Orsay · exterior junto al Sena",
+                  "value": "Fachada de la antigua estación y paseo junto al río. Sin entrar al museo.",
+                  "placeId": "par_orsay"
+                },
+                {
+                  "label": "7. Pont Alexandre III",
+                  "value": "Puente monumental: farolas, esculturas y vistas hacia los palacios e Invalides.",
+                  "placeId": "par_alexandre"
+                },
+                {
+                  "label": "8. Pont de l’Alma · vistas del Sena",
+                  "value": "Perspectiva del río y punto de paso hacia quai Branly.",
+                  "placeId": "par_alma"
+                },
+                {
+                  "label": "9. Cathédrale de la Sainte-Trinité · exterior",
+                  "value": "Cinco cúpulas doradas junto al paseo hacia la torre. Solo exterior y parada breve.",
+                  "placeId": "par_trinite"
+                },
+                {
+                  "label": "10. Torre Eiffel",
+                  "value": "Parada junto a la Torre Eiffel iluminada. Sin subida ni entrada al recinto controlado.",
+                  "placeId": "eiffel"
+                },
+                {
+                  "label": "11. Pont d’Iéna",
+                  "value": "Cruzar el Sena entre la torre y los jardines de Trocadéro.",
+                  "placeId": "pont_iena"
+                },
+                {
+                  "label": "12. Trocadéro",
+                  "value": "Mirador final para contemplar la torre completa y su centelleo nocturno.",
+                  "placeId": "trocadero"
+                }
+              ]
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "pc_common",
+                "pc_2_river",
+                "pc_2_trinite",
+                "pc_final"
+              ]
+            },
+            {
+              "type": "details",
+              "title": "Regreso a Torcy y Arco opcional",
+              "blocks": [
+                {
+                  "type": "routes",
+                  "ids": [
+                    "a_trocadero_metro",
+                    "a_no_bus_m9",
+                    "a_link_auber",
+                    "a_no_bus_back",
+                    "hotel_back"
+                  ]
+                },
+                {
+                  "type": "facts",
+                  "title": "Dónde bajar o transbordar",
+                  "items": [
+                    {
+                      "label": "Trocadéro · metro 9",
+                      "value": "Regreso A metro: entrar en M9 dirección Mairie de Montreuil y bajar en Havre–Caumartin. La M6 no se utiliza el domingo 8.",
+                      "placeId": "trocadero_metro"
+                    },
+                    {
+                      "label": "Havre–Caumartin · metro 9",
+                      "value": "Regreso: bajar del M9 y seguir RER A / Auber por el interior. Variante de ida: M9 hacia Pont de Sèvres hasta Trocadéro.",
+                      "placeId": "havre_caumartin"
+                    },
+                    {
+                      "label": "Auber · RER A",
+                      "value": "Ida A metro: seguir por el interior Opéra / M8. Vuelta: llegar por correspondencia desde Havre–Caumartin / M9 y tomar RER A que pare en Torcy.",
+                      "placeId": "auber"
+                    }
+                  ]
+                },
+                {
+                  "type": "note",
+                  "title": "Regreso principal",
+                  "text": "Trocadéro: M9 dirección Mairie de Montreuil → Havre–Caumartin. Seguir RER A / Auber por el interior y tomar un tren que muestre Torcy entre sus paradas. Consultar el tren elegido y otro posterior; último servicio no verificado.",
+                  "url": null,
+                  "tone": "plain"
+                },
+                {
+                  "type": "note",
+                  "title": "Ampliación opcional al Arco",
+                  "text": "Desde Trocadéro, avenue Kléber hasta el Arco: unos 1,7 km y 25–30 min adicionales, más fotos. Solo elegir ese final tras comprobar que Étoile permite tomar el RER A de regreso; si no está claro, mantener el final en Trocadéro. No se añade a la duración base.",
+                  "url": "https://www.ratp.fr/infos-trafic/rer-transilien/A",
+                  "tone": "plain"
+                },
+                {
+                  "type": "routes",
+                  "ids": [
+                    "a_arc",
+                    "a_back"
+                  ]
+                },
+                {
+                  "type": "facts",
+                  "title": "Ampliación opcional",
+                  "items": [
+                    {
+                      "label": "Avenue Kléber",
+                      "value": "Paseo opcional entre Trocadéro y Étoile / Arco del Triunfo. No es obligatorio al comienzo de la visita.",
+                      "placeId": "avenue_kleber"
+                    },
+                    {
+                      "label": "Arco del Triunfo",
+                      "value": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar. Aviso consultado 07/11: RER A no para en Étoile el sábado 7; reapertura del domingo 8 sin confirmar. No depender de esa estación sin comprobarla antes.",
+                      "placeId": "arc_triomphe"
+                    },
+                    {
+                      "label": "Charles de Gaulle–Étoile · RER A",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar. Aviso consultado 07/11: RER A no para en Étoile el sábado 7; reapertura del domingo 8 sin confirmar. No depender de esa estación sin comprobarla antes.",
+                      "placeId": "etoile"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Billetes · tres adultos",
+              "text": "RER de ida y regreso M9 + RER por correspondencia interior: 2 viajes por persona a 2,55 €, 5,10 €/persona y 15,30 € los tres, sin soportes y sin viajes adicionales.",
+              "url": "https://www.iledefrance-mobilites.fr/es/titres-et-tarifs/detail/ticket-metro-train-rer",
+              "tone": "plain"
+            },
+            {
+              "type": "details",
+              "title": "Louvre, Tullerías y descansos",
+              "blocks": [
+                {
+                  "type": "note",
+                  "title": "Pasos exteriores",
+                  "text": "Cour Napoléon: 7:30–21:00 según Louvre; Cour Carrée cerrada. Aproximarse por el lado del Carrousel siguiendo accesos abiertos. Tullerías: cierre 19:30, desalojo desde 19:00; las rutas 1 y 3 se dibujan por el exterior junto al Sena para no depender del jardín. Si llegáis antes y queréis cruzarlo, es una variante local.",
+                  "url": "https://www.louvre.fr/visiter/horaires-tarifs",
+                  "tone": "plain"
+                },
+                {
+                  "type": "note",
+                  "title": "Pausa libre",
+                  "text": "Reservar 30–45 min para comer, beber o descansar en el lugar que os convenga según el ritmo. No se incluye el bar temático ni se fija un establecimiento. Si una ribera baja está cerrada o resulta incómoda, seguir por el paseo superior.",
+                  "url": null,
+                  "tone": "plain"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Domingo 8 · transporte revisado el 7/11",
+              "text": "M6 cerrada todo el domingo 8. El aviso de cierre del RER A en Étoile y de Concorde M8 consultado corresponde al sábado 7; no garantiza su reapertura del domingo. El regreso principal utiliza M9 y Auber. Confirmar servicio el día 8 antes de salir.",
+              "url": "https://www.ratp.fr/infos-trafic/rer-transilien/A",
+              "tone": "pending"
+            },
+            {
+              "type": "map",
+              "title": "Mapa · 2 · Sena",
+              "ids": [
+                "torcy",
+                "torcy_rer",
+                "chatelet",
+                "hotel_ville",
+                "trocadero_metro",
+                "havre_caumartin",
+                "auber",
+                "notredame",
+                "pont_neuf",
+                "par_pont_arts",
+                "louvre",
+                "par_pont_royal",
+                "par_orsay",
+                "par_alexandre",
+                "par_alma",
+                "par_trinite",
+                "eiffel",
+                "pont_iena",
+                "trocadero",
+                "par_carrousel",
+                "avenue_kleber",
+                "arc_triomphe",
+                "etoile"
+              ],
+              "walkRoutes": [
+                "b_walk1",
+                "pc_common",
+                "pc_2_river",
+                "pc_2_trinite",
+                "pc_final",
+                "a_trocadero_metro",
+                "a_arc"
+              ],
+              "focusWalkRoutes": true
+            }
+          ]
+        },
+        {
+          "id": "paris-completa-3",
+          "label": "3 · Con metro",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Menos caminata · centro histórico y atajo hasta École Militaire",
+              "text": "Propuesta para domingo 8/11, empezando sobre las 17:00 en Notre-Dame. 3½–4 h con fotos, metro y una pausa. Sin rodeos a los palacios ni a Sainte-Trinité.",
+              "url": null,
+              "tone": "plain"
+            },
+            {
+              "type": "facts",
+              "title": "De un vistazo",
+              "items": [
+                {
+                  "label": "Paseo principal",
+                  "value": "6,8 km a pie desde Notre-Dame hasta Trocadéro; sin Arco ni acceso desde el RER."
+                },
+                {
+                  "label": "Acceso desde Châtelet",
+                  "value": "Unos 1,6 km adicionales si se sigue el tramo por Hôtel de Ville hasta Notre-Dame. Conviene llegar al RER con margen antes de las 17:00."
+                },
+                {
+                  "label": "Ritmo",
+                  "value": "Horarios orientativos, con fotografías y pausa libre. No son salidas de transporte verificadas ni una reserva."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Últimas luces y final nocturno",
+              "text": "Domingo 8: puesta de sol alrededor de las 17:20. Notre-Dame al comienzo; después puentes y exteriores iluminados. En la torre, centelleo de 5 minutos al principio de cada hora una vez anochece. Llegar a Trocadéro unos 10 minutos antes. Todas las visitas son exteriores; solo se entra para comer, beber o descansar.",
+              "url": "https://www.toureiffel.paris/fr/le-monument/illuminations",
+              "tone": "plain"
+            },
+            {
+              "type": "details",
+              "title": "Llegar desde Torcy · estaciones útiles",
+              "blocks": [
+                {
+                  "type": "routes",
+                  "ids": [
+                    "hotel_rer",
+                    "b_rer",
+                    "b_walk1"
+                  ]
+                },
+                {
+                  "type": "note",
+                  "title": "Las 17:00 son en Notre-Dame",
+                  "text": "Tomar RER A Torcy → Châtelet–Les Halles, hacia París, y salir a la calle. Prever aproximadamente 20–30 min andando desde la estación, con Hôtel de Ville como exterior en el camino. Elegir la hora de tren en el planificador para estar en Notre-Dame sobre las 17:00; si salís de Torcy a las 17:00, la visita comienza ya de noche.",
+                  "url": null,
+                  "tone": "plain"
+                },
+                {
+                  "type": "facts",
+                  "title": "Origen y llegada",
+                  "items": [
+                    {
+                      "label": "Apparthotel Torcy",
+                      "value": "Alojamiento reservado del 8 al 11. Parking gratuito.",
+                      "placeId": "torcy"
+                    },
+                    {
+                      "label": "Torcy · RER A",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                      "placeId": "torcy_rer"
+                    },
+                    {
+                      "label": "Châtelet–Les Halles · RER A",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                      "placeId": "chatelet"
+                    },
+                    {
+                      "label": "Hôtel de Ville",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+                      "placeId": "hotel_ville"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "timeline",
+              "items": [
+                {
+                  "time": "17:00–17:25",
+                  "title": "Notre-Dame · últimas luces",
+                  "text": "Inicio exterior en la catedral; continuar hacia Pont Neuf y Pont des Arts.",
+                  "status": "propuesta",
+                  "route": "pc_common"
+                },
+                {
+                  "time": "17:25–18:15",
+                  "title": "Louvre y perspectivas del Sena",
+                  "text": "Pirámide por accesos abiertos, sin entrar al museo.",
+                  "status": "propuesta",
+                  "route": null
+                },
+                {
+                  "time": "18:15–18:50",
+                  "title": "Concorde · paseo exterior",
+                  "text": "Bordear las Tullerías por el Sena hasta Concorde. Comprobar apertura del M8 antes de tomar el atajo.",
+                  "status": "propuesta",
+                  "route": "pc_3_shortcut"
+                },
+                {
+                  "time": "18:50–19:15",
+                  "title": "M8 → École Militaire",
+                  "text": "Subir en Concorde, dirección Balard, y bajar en École Militaire. Tiempos orientativos, no salidas de tren verificadas.",
+                  "status": "propuesta",
+                  "route": "pc_m8"
+                },
+                {
+                  "time": "19:15–20:30/21:00",
+                  "title": "Champ de Mars, Eiffel y Trocadéro",
+                  "text": "Pausa de 30–45 min a distribuir; terminar con la torre encendida. Centelleo de las 20:00 o 21:00 según ritmo.",
+                  "status": "propuesta",
+                  "route": "a_no_bus_walk"
+                }
+              ]
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "pc_m8"
+              ]
+            },
+            {
+              "type": "note",
+              "title": "El hueco del mapa es el metro",
+              "text": "Concorde → École Militaire se recorre en M8. El mapa dibuja los paseos a pie y marca ambas estaciones; no dibuja una línea recta como si fuese un paseo. Si Concorde sigue cerrada, no caminar automáticamente todo el tramo: elegir otra de las propuestas y recalcular en RATP.",
+              "url": "https://www.ratp.fr/infos-trafic/metro/8",
+              "tone": "plain"
+            },
+            {
+              "type": "facts",
+              "title": "Paradas del paseo · toca para abrir ficha y mapa",
+              "items": [
+                {
+                  "label": "1. Notre-Dame de París",
+                  "value": "Fachada y entorno de la catedral junto al Sena. Primera parada para aprovechar las últimas luces; sin visita interior.",
+                  "placeId": "notredame"
+                },
+                {
+                  "label": "2. Pont Neuf",
+                  "value": "Puente histórico y perspectivas de la Île de la Cité. Parada breve antes de continuar hacia el Louvre.",
+                  "placeId": "pont_neuf"
+                },
+                {
+                  "label": "3. Pont des Arts · vista del Institut de France",
+                  "value": "Pasarela peatonal con vistas del Sena y de la cúpula del Institut de France.",
+                  "placeId": "par_pont_arts"
+                },
+                {
+                  "label": "4. Museo del Louvre · exterior",
+                  "value": "Pirámide y cour Napoléon por fuera. Accesos del lado del Carrousel; evitar la Cour Carrée cerrada.",
+                  "placeId": "louvre"
+                },
+                {
+                  "label": "5. Tullerías · paseo exterior por el Sena",
+                  "value": "Continuación junto al Sena por fuera del jardín, sin depender de sus horarios de cierre.",
+                  "placeId": "par_tuileries_quai"
+                },
+                {
+                  "label": "6. Place de la Concorde",
+                  "value": "Plaza monumental y grandes perspectivas. Parada breve antes de los palacios o del atajo en M8.",
+                  "placeId": "par_concorde"
+                },
+                {
+                  "label": "7. Concorde · metro 8",
+                  "value": "M8 hacia Balard hasta École Militaire. Comprobar que el acceso esté abierto el domingo.",
+                  "placeId": "par_concorde_m8"
+                },
+                {
+                  "label": "8. École Militaire · metro 8",
+                  "value": "Bajar del M8 y salir hacia avenue de La Motte-Picquet / place Joffre para continuar a Champ de Mars.",
+                  "placeId": "ecole_militaire"
+                },
+                {
+                  "label": "9. Champ de Mars",
+                  "value": "Parque y aproximación frontal a la Torre Eiffel. Paseo exterior con perspectivas de la estructura iluminada.",
+                  "placeId": "champ_mars"
+                },
+                {
+                  "label": "10. Torre Eiffel",
+                  "value": "Parada junto a la Torre Eiffel iluminada. Sin subida ni entrada al recinto controlado.",
+                  "placeId": "eiffel"
+                },
+                {
+                  "label": "11. Pont d’Iéna",
+                  "value": "Cruzar el Sena entre la torre y los jardines de Trocadéro.",
+                  "placeId": "pont_iena"
+                },
+                {
+                  "label": "12. Trocadéro",
+                  "value": "Mirador final para contemplar la torre completa y su centelleo nocturno.",
+                  "placeId": "trocadero"
+                }
+              ]
+            },
+            {
+              "type": "routes",
+              "ids": [
+                "pc_common",
+                "pc_3_shortcut",
+                "a_no_bus_walk"
+              ]
+            },
+            {
+              "type": "details",
+              "title": "Regreso a Torcy y Arco opcional",
+              "blocks": [
+                {
+                  "type": "routes",
+                  "ids": [
+                    "a_trocadero_metro",
+                    "a_no_bus_m9",
+                    "a_link_auber",
+                    "a_no_bus_back",
+                    "hotel_back"
+                  ]
+                },
+                {
+                  "type": "facts",
+                  "title": "Dónde bajar o transbordar",
+                  "items": [
+                    {
+                      "label": "Trocadéro · metro 9",
+                      "value": "Regreso A metro: entrar en M9 dirección Mairie de Montreuil y bajar en Havre–Caumartin. La M6 no se utiliza el domingo 8.",
+                      "placeId": "trocadero_metro"
+                    },
+                    {
+                      "label": "Havre–Caumartin · metro 9",
+                      "value": "Regreso: bajar del M9 y seguir RER A / Auber por el interior. Variante de ida: M9 hacia Pont de Sèvres hasta Trocadéro.",
+                      "placeId": "havre_caumartin"
+                    },
+                    {
+                      "label": "Auber · RER A",
+                      "value": "Ida A metro: seguir por el interior Opéra / M8. Vuelta: llegar por correspondencia desde Havre–Caumartin / M9 y tomar RER A que pare en Torcy.",
+                      "placeId": "auber"
+                    }
+                  ]
+                },
+                {
+                  "type": "note",
+                  "title": "Regreso principal",
+                  "text": "Trocadéro: M9 dirección Mairie de Montreuil → Havre–Caumartin. Seguir RER A / Auber por el interior y tomar un tren que muestre Torcy entre sus paradas. Consultar el tren elegido y otro posterior; último servicio no verificado.",
+                  "url": null,
+                  "tone": "plain"
+                },
+                {
+                  "type": "note",
+                  "title": "Ampliación opcional al Arco",
+                  "text": "Desde Trocadéro, avenue Kléber hasta el Arco: unos 1,7 km y 25–30 min adicionales, más fotos. Solo elegir ese final tras comprobar que Étoile permite tomar el RER A de regreso; si no está claro, mantener el final en Trocadéro. No se añade a la duración base.",
+                  "url": "https://www.ratp.fr/infos-trafic/rer-transilien/A",
+                  "tone": "plain"
+                },
+                {
+                  "type": "routes",
+                  "ids": [
+                    "a_arc",
+                    "a_back"
+                  ]
+                },
+                {
+                  "type": "facts",
+                  "title": "Ampliación opcional",
+                  "items": [
+                    {
+                      "label": "Avenue Kléber",
+                      "value": "Paseo opcional entre Trocadéro y Étoile / Arco del Triunfo. No es obligatorio al comienzo de la visita.",
+                      "placeId": "avenue_kleber"
+                    },
+                    {
+                      "label": "Arco del Triunfo",
+                      "value": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar. Aviso consultado 07/11: RER A no para en Étoile el sábado 7; reapertura del domingo 8 sin confirmar. No depender de esa estación sin comprobarla antes.",
+                      "placeId": "arc_triomphe"
+                    },
+                    {
+                      "label": "Charles de Gaulle–Étoile · RER A",
+                      "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar. Aviso consultado 07/11: RER A no para en Étoile el sábado 7; reapertura del domingo 8 sin confirmar. No depender de esa estación sin comprobarla antes.",
+                      "placeId": "etoile"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Estaciones del atajo",
+              "items": [
+                {
+                  "label": "Concorde · metro 8",
+                  "value": "Atajo de la ruta 3: M8 dirección Balard hasta École Militaire. El aviso de cierre de Concorde consultado corresponde al sábado 7; comprobar el domingo 8 antes de usar este acceso. Número de boca sin verificar.",
+                  "placeId": "par_concorde_m8"
+                },
+                {
+                  "label": "École Militaire · metro 8",
+                  "value": "Bajar aquí en la ruta A metro. Salir hacia avenue de La Motte-Picquet / place Joffre y caminar al Champ de Mars y la Torre Eiffel, unos 15–20 min. Número de boca sin verificar; orientarse por señalización y mapa.",
+                  "placeId": "ecole_militaire"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Billetes · tres adultos",
+              "text": "Tarifa sencilla 2,55 €. Esta variante requiere 3 viajes por persona: RER de ida, atajo M8 y regreso M9 + RER con enlace interior. Total orientativo 7,65 €/persona y 22,95 € los tres, sin soportes. El paseo rompe la correspondencia del billete de ida.",
+              "url": "https://www.iledefrance-mobilites.fr/es/titres-et-tarifs/detail/ticket-metro-train-rer",
+              "tone": "plain"
+            },
+            {
+              "type": "details",
+              "title": "Louvre, Tullerías y descansos",
+              "blocks": [
+                {
+                  "type": "note",
+                  "title": "Pasos exteriores",
+                  "text": "Cour Napoléon: 7:30–21:00 según Louvre; Cour Carrée cerrada. Aproximarse por el lado del Carrousel siguiendo accesos abiertos. Tullerías: cierre 19:30, desalojo desde 19:00; las rutas 1 y 3 se dibujan por el exterior junto al Sena para no depender del jardín. Si llegáis antes y queréis cruzarlo, es una variante local.",
+                  "url": "https://www.louvre.fr/visiter/horaires-tarifs",
+                  "tone": "plain"
+                },
+                {
+                  "type": "note",
+                  "title": "Pausa libre",
+                  "text": "Reservar 30–45 min para comer, beber o descansar en el lugar que os convenga según el ritmo. No se incluye el bar temático ni se fija un establecimiento. Si una ribera baja está cerrada o resulta incómoda, seguir por el paseo superior.",
+                  "url": null,
+                  "tone": "plain"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Domingo 8 · transporte revisado el 7/11",
+              "text": "M6 cerrada todo el domingo 8. El aviso de cierre del RER A en Étoile y de Concorde M8 consultado corresponde al sábado 7; no garantiza su reapertura del domingo. El regreso principal utiliza M9 y Auber. Confirmar servicio el día 8 antes de salir.",
+              "url": "https://www.ratp.fr/infos-trafic/rer-transilien/A",
+              "tone": "pending"
+            },
+            {
+              "type": "map",
+              "title": "Mapa · 3 · Con metro",
+              "ids": [
+                "torcy",
+                "torcy_rer",
+                "chatelet",
+                "hotel_ville",
+                "trocadero_metro",
+                "havre_caumartin",
+                "auber",
+                "notredame",
+                "pont_neuf",
+                "par_pont_arts",
+                "louvre",
+                "par_tuileries_quai",
+                "par_concorde",
+                "par_concorde_m8",
+                "ecole_militaire",
+                "champ_mars",
+                "eiffel",
+                "pont_iena",
+                "trocadero",
+                "par_carrousel",
+                "avenue_kleber",
+                "arc_triomphe",
+                "etoile"
+              ],
+              "walkRoutes": [
+                "b_walk1",
+                "pc_common",
+                "pc_3_shortcut",
+                "a_no_bus_walk",
+                "a_trocadero_metro",
+                "a_arc"
+              ],
+              "focusWalkRoutes": true
+            }
+          ]
+        },
+        {
           "id": "paris-a-metro",
           "label": "París A · metro",
           "blocks": [
+            {
+              "type": "note",
+              "title": "Opción corta · solo zona Eiffel",
+              "text": "Para una llegada más tarde: se conserva la ruta A de metro. Si estáis en el centro desde las 17:00, comparad las tres rutas combinadas.",
+              "url": null,
+              "tone": "plain"
+            },
             {
               "type": "note",
               "title": "Propuesta sin autobuses · metro 6 cerrado",
@@ -418,216 +1520,13 @@
                 "a_arc"
               ],
               "focusWalkRoutes": true
-            }
-          ]
-        },
-        {
-          "id": "paris-a",
-          "label": "París A · bus",
-          "blocks": [
-            {
-              "type": "note",
-              "title": "Domingo 8: metro 6 cerrado",
-              "text": "RATP confirma cierre de toda la línea durante el día. Esta propuesta usa RER A y bus 30.",
-              "tone": "pending",
-              "url": "https://www.ratp.fr/decouvrir/coulisses/modernisation-du-reseau/metro-ligne-6-travaux"
-            },
-            {
-              "type": "timeline",
-              "items": [
-                {
-                  "time": "1 · A pie",
-                  "title": "Apartamento → Gare de Torcy",
-                  "text": "Unos 5–7 min. Referencia: Léon Blum, salida 2.",
-                  "status": "propuesta",
-                  "route": "hotel_rer",
-                  "link": null
-                },
-                {
-                  "time": "2 · RER A",
-                  "title": "Torcy → Charles de Gaulle–Étoile",
-                  "text": "Dirección París; bajar en Étoile. Tiempo anterior de referencia: 35–45 min, sin espera ni paseo.",
-                  "status": "propuesta",
-                  "route": "a_rer",
-                  "link": null
-                },
-                {
-                  "time": "3 · Bus 30",
-                  "title": "Étoile–Kléber → Tour Eiffel",
-                  "text": "Salir hacia Charles de Gaulle–Étoile–Kléber. Sentido Hôpital Européen Georges Pompidou. Pasar por Trocadéro y bajar en Tour Eiffel.",
-                  "status": "propuesta",
-                  "route": "a_bus",
-                  "link": null
-                },
-                {
-                  "time": "4 · Paseo",
-                  "title": "Torre Eiffel → Pont d’Iéna → Trocadéro",
-                  "text": "Comenzar junto a la torre y terminar en la explanada. El tramo largo por Kléber queda como opcional.",
-                  "status": "propuesta",
-                  "route": "a_walk",
-                  "link": null
-                }
-              ]
-            },
-            {
-              "type": "details",
-              "title": "Regreso a Torcy y Arco opcional",
-              "open": false,
-              "blocks": [
-                {
-                  "type": "routes",
-                  "ids": [
-                    "a_bus_back",
-                    "a_back",
-                    "hotel_back",
-                    "a_arc"
-                  ]
-                },
-                {
-                  "type": "note",
-                  "title": "Cómo volver",
-                  "text": "Desde Trocadéro: bus 30 hacia Pigalle hasta Étoile–Kléber y después RER A a Torcy. Si añadís el Arco caminando por Kléber, enlazad allí con el RER A. El último tramo estación–hotel es el paseo de ida en sentido inverso.",
-                  "tone": "plain",
-                  "url": null
-                }
-              ]
-            },
-            {
-              "type": "details",
-              "title": "Billetes y horarios",
-              "blocks": [
-                {
-                  "type": "facts",
-                  "title": "Billetes · 3 adultos",
-                  "items": [
-                    {
-                      "label": "RER ida y vuelta",
-                      "value": "15,30 € para el grupo."
-                    },
-                    {
-                      "label": "Bus 30 adicional",
-                      "value": "2,05 € por persona y trayecto; 12,30 € el grupo si se usa ida y vuelta."
-                    },
-                    {
-                      "label": "Total con dos buses",
-                      "value": "27,60 € para los tres, sin coste del soporte."
-                    }
-                  ]
-                },
-                {
-                  "type": "note",
-                  "title": "Antes de salir",
-                  "text": "Comprobar últimos trenes y paso del bus en la parada. La ficha del bus anuncia últimos inicios de servicio a las 22:30 desde cabeceras; esa hora no es el último paso en Trocadéro.",
-                  "tone": "plain",
-                  "url": "https://ilico.iledefrance-mobilites.fr/uploads/fiches/20261001T120308Z-5d5f0450-5065-4774-b5e1-99c2ebe85961.pdf"
-                },
-                {
-                  "type": "links",
-                  "title": "Tarifas oficiales",
-                  "items": [
-                    {
-                      "label": "Metro–Tren–RER",
-                      "url": "https://www.iledefrance-mobilites.fr/es/titres-et-tarifs/detail/ticket-metro-train-rer",
-                      "text": ""
-                    },
-                    {
-                      "label": "Bus–Tram",
-                      "url": "https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/ticket-bus-tram",
-                      "text": ""
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "facts",
-              "title": "Dónde subir, bajar o transbordar y qué visitar · toca un nombre",
-              "items": [
-                {
-                  "label": "Apparthotel Torcy",
-                  "value": "Alojamiento reservado del 8 al 11. Parking gratuito.",
-                  "placeId": "torcy"
-                },
-                {
-                  "label": "Torcy · RER A",
-                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-                  "placeId": "torcy_rer"
-                },
-                {
-                  "label": "Charles de Gaulle–Étoile · RER A",
-                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-                  "placeId": "etoile"
-                },
-                {
-                  "label": "Bus 30 · Étoile–Kléber",
-                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-                  "placeId": "etoile_bus"
-                },
-                {
-                  "label": "Bus 30 · Trocadéro",
-                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-                  "placeId": "trocadero_bus"
-                },
-                {
-                  "label": "Bus 30 · Tour Eiffel",
-                  "value": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-                  "placeId": "tour_bus"
-                },
-                {
-                  "label": "Torre Eiffel",
-                  "value": "Ruta nocturna A: torre primero, Trocadéro después. Propuesta opcional.",
-                  "placeId": "eiffel"
-                },
-                {
-                  "label": "Pont d’Iéna",
-                  "value": "Cruzar el Sena entre la Torre Eiffel y los jardines de Trocadéro.",
-                  "placeId": "pont_iena"
-                },
-                {
-                  "label": "Trocadéro",
-                  "value": "Mirador de la Torre Eiffel en la propuesta A.",
-                  "placeId": "trocadero"
-                },
-                {
-                  "label": "Avenue Kléber",
-                  "value": "Paseo opcional entre Trocadéro y Étoile / Arco del Triunfo. No es obligatorio al comienzo de la visita.",
-                  "placeId": "avenue_kleber"
-                },
-                {
-                  "label": "Arco del Triunfo",
-                  "value": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar.",
-                  "placeId": "arc_triomphe"
-                }
-              ]
             },
             {
               "type": "note",
-              "title": "Recorrido dibujado en el mapa",
-              "text": "Líneas de colores: paseos a pie por calles y caminos. La ampliación al Arco por Kléber es opcional. RER, metro y bus conservan sus estaciones útiles y planos oficiales; los enlaces subterráneos no se representan como paseos por la calle.",
-              "tone": "plain",
-              "url": null
-            },
-            {
-              "type": "map",
-              "title": "Mapa de esta ruta · estaciones y visitas",
-              "ids": [
-                "torcy",
-                "torcy_rer",
-                "etoile",
-                "etoile_bus",
-                "trocadero_bus",
-                "tour_bus",
-                "eiffel",
-                "pont_iena",
-                "trocadero",
-                "avenue_kleber",
-                "arc_triomphe"
-              ],
-              "walkRoutes": [
-                "a_walk",
-                "a_arc"
-              ],
-              "focusWalkRoutes": true
+              "title": "Domingo 8 · transporte revisado el 7/11",
+              "text": "M6 cerrada todo el domingo 8. El aviso de cierre del RER A en Étoile y de Concorde M8 consultado corresponde al sábado 7; no garantiza su reapertura del domingo. El regreso principal utiliza M9 y Auber. Confirmar servicio el día 8 antes de salir.",
+              "url": "https://www.ratp.fr/infos-trafic/rer-transilien/A",
+              "tone": "pending"
             }
           ]
         },
@@ -635,6 +1534,13 @@
           "id": "paris-b",
           "label": "París B",
           "blocks": [
+            {
+              "type": "note",
+              "title": "Opción corta · centro histórico",
+              "text": "Se conserva la ruta B sin Eiffel para una llegada más tarde o con menos energía. Las tres rutas combinadas unen este entorno con la torre.",
+              "url": null,
+              "tone": "plain"
+            },
             {
               "type": "note",
               "title": "Notre-Dame, Sena y Louvre",
@@ -813,7 +1719,8 @@
                 "pont_neuf",
                 "louvre",
                 "palais_royal",
-                "chatelet_m1"
+                "chatelet_m1",
+                "par_carrousel"
               ],
               "walkRoutes": [
                 "b_walk1",
@@ -829,44 +1736,77 @@
           "label": "Mapa y planos",
           "blocks": [
             {
+              "type": "links",
+              "title": "Elegir la ruta según energía",
+              "items": [
+                {
+                  "label": "1 · Monumental",
+                  "url": "#/torcy-paris/paris-completa-1",
+                  "text": ""
+                },
+                {
+                  "label": "2 · Sena",
+                  "url": "#/torcy-paris/paris-completa-2",
+                  "text": ""
+                },
+                {
+                  "label": "3 · Con metro",
+                  "url": "#/torcy-paris/paris-completa-3",
+                  "text": ""
+                }
+              ]
+            },
+            {
               "type": "map",
               "ids": [
                 "torcy",
                 "torcy_rer",
+                "fuel_bay2",
+                "fuel_intermarche",
+                "fuel_costco",
                 "chatelet",
+                "hotel_ville",
+                "trocadero_metro",
+                "havre_caumartin",
                 "auber",
-                "opera",
-                "ecole_militaire",
+                "notredame",
+                "pont_neuf",
+                "par_pont_arts",
+                "louvre",
+                "par_tuileries_quai",
+                "par_concorde",
+                "par_petit_palais",
+                "par_grand_palais",
+                "par_alexandre",
+                "par_invalides",
                 "champ_mars",
                 "eiffel",
                 "pont_iena",
                 "trocadero",
-                "trocadero_metro",
-                "havre_caumartin",
+                "par_carrousel",
                 "avenue_kleber",
                 "arc_triomphe",
                 "etoile",
-                "etoile_bus",
-                "trocadero_bus",
-                "tour_bus",
-                "hotel_ville",
-                "notredame",
-                "pont_neuf",
-                "louvre",
+                "par_pont_royal",
+                "par_orsay",
+                "par_alma",
+                "par_trinite",
+                "par_concorde_m8",
+                "ecole_militaire",
+                "opera",
                 "palais_royal",
-                "chatelet_m1",
-                "fuel_bay2",
-                "fuel_intermarche",
-                "fuel_costco"
+                "chatelet_m1"
               ],
               "walkRoutes": [
+                "pc_common",
+                "pc_1_palais",
+                "pc_1_eiffel",
+                "pc_2_river",
+                "pc_2_trinite",
+                "pc_3_shortcut",
+                "pc_final",
                 "a_no_bus_walk",
-                "a_walk",
-                "a_arc",
-                "b_walk1",
-                "b_walk2",
-                "b_walk_back",
-                "a_trocadero_metro"
+                "a_arc"
               ]
             },
             {
@@ -881,16 +1821,6 @@
                 {
                   "label": "Metro 1 · plano PDF",
                   "url": "https://www.ratp.fr/informer/picts/plans/pdf/reseaux/m1.pdf",
-                  "text": ""
-                },
-                {
-                  "label": "Bus 30 · plano PDF",
-                  "url": "https://ilico.iledefrance-mobilites.fr/uploads/plans/20261001T120308Z-0f91820e-ffed-4ec1-9c9b-fe8ad687a464.pdf",
-                  "text": ""
-                },
-                {
-                  "label": "Bus 30 · horarios PDF",
-                  "url": "https://ilico.iledefrance-mobilites.fr/uploads/fiches/20261001T120308Z-5d5f0450-5065-4774-b5e1-99c2ebe85961.pdf",
                   "text": ""
                 },
                 {
@@ -910,16 +1840,20 @@
               "title": "Qué líneas se usan",
               "items": [
                 {
+                  "label": "Combinadas 1 y 2",
+                  "value": "RER A Torcy → Châtelet–Les Halles; paseo por Notre-Dame y Louvre hasta Eiffel/Trocadéro. Regreso M9 → Havre–Caumartin → Auber → RER A a Torcy."
+                },
+                {
+                  "label": "Combinada 3",
+                  "value": "Misma llegada por Châtelet. Atajo M8 Concorde → École Militaire, sentido Balard; final en Trocadéro y regreso M9 + RER A. Billete extra para el M8."
+                },
+                {
                   "label": "A metro · ida",
                   "value": "Torcy — RER A → Auber — enlace interior → Opéra — M8 hacia Balard → École Militaire. Paseo por Champ de Mars, Eiffel y Pont d’Iéna hasta Trocadéro."
                 },
                 {
                   "label": "A metro · vuelta",
                   "value": "Trocadéro — M9 hacia Mairie de Montreuil → Havre–Caumartin — enlace interior → Auber — RER A → Torcy. Variante de ida por M9: sentido Pont de Sèvres."
-                },
-                {
-                  "label": "A bus",
-                  "value": "RER A hasta Étoile, bus 30 hacia Hôpital Européen Georges Pompidou hasta Tour Eiffel. Vuelta desde Trocadéro: bus 30 hacia Pigalle y RER A desde Étoile."
                 },
                 {
                   "label": "B",
@@ -999,33 +1933,46 @@
       "points": [
         "torcy",
         "torcy_rer",
+        "fuel_bay2",
+        "fuel_intermarche",
+        "fuel_costco",
         "chatelet",
+        "hotel_ville",
+        "trocadero_metro",
+        "havre_caumartin",
         "auber",
-        "opera",
-        "ecole_militaire",
+        "notredame",
+        "pont_neuf",
+        "par_pont_arts",
+        "louvre",
+        "par_tuileries_quai",
+        "par_concorde",
+        "par_petit_palais",
+        "par_grand_palais",
+        "par_alexandre",
+        "par_invalides",
         "champ_mars",
         "eiffel",
         "pont_iena",
         "trocadero",
-        "trocadero_metro",
-        "havre_caumartin",
+        "par_carrousel",
         "avenue_kleber",
         "arc_triomphe",
         "etoile",
-        "etoile_bus",
-        "trocadero_bus",
-        "tour_bus",
-        "hotel_ville",
-        "notredame",
-        "pont_neuf",
-        "louvre",
+        "par_pont_royal",
+        "par_orsay",
+        "par_alma",
+        "par_trinite",
+        "par_concorde_m8",
+        "ecole_militaire",
+        "opera",
         "palais_royal",
-        "chatelet_m1",
-        "fuel_bay2",
-        "fuel_intermarche",
-        "fuel_costco"
+        "chatelet_m1"
       ],
-      "next": "disney"
+      "next": "disney",
+      "paneAliases": {
+        "paris-a": "paris-a-metro"
+      }
     },
     {
       "id": "disney",
@@ -4966,666 +5913,6 @@
       "note": "RER A hacia París, comprobando parada en Torcy. Consultar servicio tras el espectáculo."
     },
     {
-      "id": "a_rer",
-      "name": "RER A · Torcy → Étoile",
-      "origin": "Gare de Torcy, Torcy, France",
-      "destination": "Charles de Gaulle–Étoile, Paris, France",
-      "mode": "transit",
-      "stops": [],
-      "note": "Dirección París. Verificar que el tren pare en Charles de Gaulle–Étoile."
-    },
-    {
-      "id": "a_bus",
-      "name": "Bus 30 · Étoile–Kléber → Tour Eiffel",
-      "origin": "Charles de Gaulle Étoile Kléber Bus Stop, Paris, France",
-      "destination": "Tour Eiffel Bus Stop, Paris, France",
-      "mode": "transit",
-      "stops": [],
-      "note": "Dirección Hôpital Européen Georges Pompidou. No bajar en Trocadéro a la ida. Maps puede sugerir otra línea: seleccionar el bus 30."
-    },
-    {
-      "id": "a_walk",
-      "name": "A pie · Tour Eiffel → Trocadéro",
-      "origin": "Tour Eiffel Bus Stop, Paris, France",
-      "destination": "Place du Trocadéro, Paris",
-      "mode": "walking",
-      "stops": [
-        "Tour Eiffel, Paris",
-        "Pont d’Iéna, Paris"
-      ],
-      "note": "Paseo corto principal. El Arco se deja como ampliación opcional al final.",
-      "pointIds": [
-        "tour_bus",
-        "eiffel",
-        "pont_iena",
-        "trocadero"
-      ],
-      "walkPath": [
-        [
-          48.859023,
-          2.293694
-        ],
-        [
-          48.859047,
-          2.293727
-        ],
-        [
-          48.859698,
-          2.294681
-        ],
-        [
-          48.859676,
-          2.294708
-        ],
-        [
-          48.859578,
-          2.294828
-        ],
-        [
-          48.859539,
-          2.294893
-        ],
-        [
-          48.859507,
-          2.294947
-        ],
-        [
-          48.859503,
-          2.29498
-        ],
-        [
-          48.859473,
-          2.295187
-        ],
-        [
-          48.859436,
-          2.295334
-        ],
-        [
-          48.859391,
-          2.295481
-        ],
-        [
-          48.859334,
-          2.295627
-        ],
-        [
-          48.859251,
-          2.295758
-        ],
-        [
-          48.85914,
-          2.295915
-        ],
-        [
-          48.859058,
-          2.29599
-        ],
-        [
-          48.859043,
-          2.296008
-        ],
-        [
-          48.859042,
-          2.296009
-        ],
-        [
-          48.859,
-          2.296036
-        ],
-        [
-          48.858942,
-          2.296073
-        ],
-        [
-          48.858784,
-          2.296135
-        ],
-        [
-          48.858729,
-          2.296152
-        ],
-        [
-          48.85867,
-          2.296233
-        ],
-        [
-          48.85865,
-          2.296261
-        ],
-        [
-          48.858631,
-          2.296287
-        ],
-        [
-          48.858589,
-          2.296345
-        ],
-        [
-          48.85828,
-          2.29589
-        ],
-        [
-          48.858038,
-          2.295534
-        ],
-        [
-          48.857962,
-          2.295421
-        ],
-        [
-          48.857888,
-          2.295314
-        ],
-        [
-          48.857962,
-          2.295421
-        ],
-        [
-          48.858038,
-          2.295534
-        ],
-        [
-          48.85828,
-          2.29589
-        ],
-        [
-          48.858589,
-          2.296345
-        ],
-        [
-          48.858631,
-          2.296287
-        ],
-        [
-          48.85865,
-          2.296261
-        ],
-        [
-          48.85867,
-          2.296233
-        ],
-        [
-          48.858729,
-          2.296152
-        ],
-        [
-          48.858784,
-          2.296135
-        ],
-        [
-          48.858942,
-          2.296073
-        ],
-        [
-          48.859,
-          2.296036
-        ],
-        [
-          48.859042,
-          2.296009
-        ],
-        [
-          48.859043,
-          2.296008
-        ],
-        [
-          48.859058,
-          2.29599
-        ],
-        [
-          48.85914,
-          2.295915
-        ],
-        [
-          48.859251,
-          2.295758
-        ],
-        [
-          48.859334,
-          2.295627
-        ],
-        [
-          48.859391,
-          2.295481
-        ],
-        [
-          48.859436,
-          2.295334
-        ],
-        [
-          48.859473,
-          2.295187
-        ],
-        [
-          48.859503,
-          2.29498
-        ],
-        [
-          48.859507,
-          2.294947
-        ],
-        [
-          48.859539,
-          2.294893
-        ],
-        [
-          48.859578,
-          2.294828
-        ],
-        [
-          48.859676,
-          2.294708
-        ],
-        [
-          48.859698,
-          2.294681
-        ],
-        [
-          48.859047,
-          2.293727
-        ],
-        [
-          48.859078,
-          2.293686
-        ],
-        [
-          48.859127,
-          2.293607
-        ],
-        [
-          48.859159,
-          2.293555
-        ],
-        [
-          48.859186,
-          2.293518
-        ],
-        [
-          48.859207,
-          2.293483
-        ],
-        [
-          48.859261,
-          2.293392
-        ],
-        [
-          48.859287,
-          2.293356
-        ],
-        [
-          48.859264,
-          2.293325
-        ],
-        [
-          48.859229,
-          2.293274
-        ],
-        [
-          48.859154,
-          2.293169
-        ],
-        [
-          48.859137,
-          2.293144
-        ],
-        [
-          48.859326,
-          2.292847
-        ],
-        [
-          48.859688,
-          2.292283
-        ],
-        [
-          48.860307,
-          2.29132
-        ],
-        [
-          48.860323,
-          2.291296
-        ],
-        [
-          48.860372,
-          2.291364
-        ],
-        [
-          48.860392,
-          2.291391
-        ],
-        [
-          48.860409,
-          2.291425
-        ],
-        [
-          48.860656,
-          2.291738
-        ],
-        [
-          48.860684,
-          2.291697
-        ],
-        [
-          48.860706,
-          2.291659
-        ],
-        [
-          48.860724,
-          2.29163
-        ],
-        [
-          48.860773,
-          2.291618
-        ],
-        [
-          48.860799,
-          2.291648
-        ],
-        [
-          48.860818,
-          2.291671
-        ],
-        [
-          48.860839,
-          2.291695
-        ],
-        [
-          48.860884,
-          2.291619
-        ],
-        [
-          48.860909,
-          2.291614
-        ],
-        [
-          48.860937,
-          2.291627
-        ],
-        [
-          48.860951,
-          2.291605
-        ],
-        [
-          48.860975,
-          2.291564
-        ],
-        [
-          48.860983,
-          2.291559
-        ],
-        [
-          48.860995,
-          2.291559
-        ],
-        [
-          48.861029,
-          2.291577
-        ],
-        [
-          48.861063,
-          2.291602
-        ],
-        [
-          48.861089,
-          2.291498
-        ],
-        [
-          48.861112,
-          2.291413
-        ],
-        [
-          48.861133,
-          2.291336
-        ],
-        [
-          48.861137,
-          2.291316
-        ],
-        [
-          48.861204,
-          2.291324
-        ],
-        [
-          48.861224,
-          2.291292
-        ],
-        [
-          48.861248,
-          2.291255
-        ],
-        [
-          48.861258,
-          2.291239
-        ],
-        [
-          48.861276,
-          2.291212
-        ],
-        [
-          48.861288,
-          2.291192
-        ],
-        [
-          48.861341,
-          2.291255
-        ],
-        [
-          48.861372,
-          2.291275
-        ],
-        [
-          48.861416,
-          2.291287
-        ],
-        [
-          48.861457,
-          2.291294
-        ],
-        [
-          48.861526,
-          2.291286
-        ],
-        [
-          48.861605,
-          2.291272
-        ],
-        [
-          48.861628,
-          2.291264
-        ],
-        [
-          48.861703,
-          2.291248
-        ],
-        [
-          48.861766,
-          2.29125
-        ],
-        [
-          48.861809,
-          2.291265
-        ],
-        [
-          48.861852,
-          2.291286
-        ],
-        [
-          48.86189,
-          2.291313
-        ],
-        [
-          48.861947,
-          2.291369
-        ],
-        [
-          48.862005,
-          2.291434
-        ],
-        [
-          48.86207,
-          2.291512
-        ],
-        [
-          48.862125,
-          2.291562
-        ],
-        [
-          48.862169,
-          2.291593
-        ],
-        [
-          48.862298,
-          2.291664
-        ],
-        [
-          48.862386,
-          2.291695
-        ],
-        [
-          48.862437,
-          2.291695
-        ],
-        [
-          48.862479,
-          2.29169
-        ],
-        [
-          48.862531,
-          2.291678
-        ],
-        [
-          48.862571,
-          2.291653
-        ],
-        [
-          48.862591,
-          2.291621
-        ],
-        [
-          48.862633,
-          2.291617
-        ],
-        [
-          48.862655,
-          2.291639
-        ],
-        [
-          48.862706,
-          2.291644
-        ],
-        [
-          48.862745,
-          2.291639
-        ],
-        [
-          48.862776,
-          2.29163
-        ],
-        [
-          48.862806,
-          2.291615
-        ],
-        [
-          48.862851,
-          2.291586
-        ],
-        [
-          48.862892,
-          2.291557
-        ],
-        [
-          48.862942,
-          2.291509
-        ],
-        [
-          48.862965,
-          2.291454
-        ],
-        [
-          48.862993,
-          2.291386
-        ],
-        [
-          48.863009,
-          2.291348
-        ],
-        [
-          48.863031,
-          2.29127
-        ],
-        [
-          48.863039,
-          2.291221
-        ],
-        [
-          48.86311,
-          2.291189
-        ],
-        [
-          48.86313,
-          2.29115
-        ],
-        [
-          48.86316,
-          2.2911
-        ],
-        [
-          48.863266,
-          2.290923
-        ],
-        [
-          48.863297,
-          2.29083
-        ],
-        [
-          48.863367,
-          2.29057
-        ],
-        [
-          48.863397,
-          2.290313
-        ],
-        [
-          48.863402,
-          2.290197
-        ],
-        [
-          48.863396,
-          2.290047
-        ],
-        [
-          48.863363,
-          2.289839
-        ],
-        [
-          48.86331,
-          2.28961
-        ],
-        [
-          48.863239,
-          2.289382
-        ],
-        [
-          48.863159,
-          2.289124
-        ],
-        [
-          48.862899,
-          2.288693
-        ],
-        [
-          48.862879,
-          2.288724
-        ],
-        [
-          48.862879,
-          2.288724
-        ]
-      ],
-      "walkDistanceKm": 1.6,
-      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
-    },
-    {
       "id": "a_arc",
       "name": "Opcional · Trocadéro → Arco",
       "origin": "Place du Trocadéro, Paris",
@@ -6216,15 +6503,6 @@
       ],
       "walkDistanceKm": 1.7,
       "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
-    },
-    {
-      "id": "a_bus_back",
-      "name": "Bus 30 · Trocadéro → Étoile–Kléber",
-      "origin": "Trocadéro Bus Stop, Paris, France",
-      "destination": "Charles de Gaulle Étoile Kléber Bus Stop, Paris, France",
-      "mode": "transit",
-      "stops": [],
-      "note": "Dirección Pigalle. Consultar la acera y el paso real del autobús."
     },
     {
       "id": "a_back",
@@ -6903,17 +7181,19 @@
     {
       "id": "b_walk2",
       "name": "A pie · Notre-Dame → Louvre → metro",
-      "origin": "Notre-Dame de Paris, Paris",
-      "destination": "Palais Royal Musée du Louvre Metro, Paris, France",
+      "origin": "Cathédrale Notre-Dame de Paris, Paris, France",
+      "destination": "Palais Royal–Musée du Louvre · M1, Paris",
       "mode": "walking",
       "stops": [
         "Pont Neuf, Paris",
-        "Pyramide du Louvre, Paris"
+        "Guichets du Carrousel, Quai François-Mitterrand, Paris",
+        "Pyramide du Louvre, Paris, France"
       ],
-      "note": "Termina en la estación Palais Royal–Musée du Louvre. Visitas exteriores.",
+      "note": "Termina en Palais Royal–Musée du Louvre. Entrar al entorno de la pirámide por el lado del Carrousel; evitar Cour Carrée cerrada. Visitas exteriores.",
       "pointIds": [
         "notredame",
         "pont_neuf",
+        "par_carrousel",
         "louvre",
         "palais_royal"
       ],
@@ -7471,60 +7751,140 @@
           2.337927
         ],
         [
-          48.859158,
-          2.337931
+          48.859162,
+          2.337877
         ],
         [
-          48.859174,
-          2.337939
+          48.859167,
+          2.3378
         ],
         [
-          48.859246,
-          2.337975
+          48.859191,
+          2.337811
         ],
         [
-          48.859295,
-          2.338
+          48.859195,
+          2.33778
         ],
         [
-          48.859309,
-          2.338007
+          48.859229,
+          2.337312
         ],
         [
-          48.859325,
-          2.338016
+          48.859259,
+          2.336871
         ],
         [
-          48.859609,
-          2.33816
+          48.859277,
+          2.336687
         ],
         [
-          48.859862,
-          2.338291
+          48.859293,
+          2.336587
         ],
         [
-          48.859868,
-          2.338294
+          48.859313,
+          2.336488
         ],
         [
-          48.860228,
-          2.33847
+          48.859392,
+          2.336146
         ],
         [
-          48.860421,
-          2.338329
+          48.859474,
+          2.335799
         ],
         [
-          48.860542,
-          2.337798
+          48.859593,
+          2.335295
         ],
         [
-          48.860544,
-          2.33779
+          48.859678,
+          2.335264
         ],
         [
-          48.860568,
-          2.337685
+          48.859911,
+          2.334225
+        ],
+        [
+          48.859952,
+          2.33404
+        ],
+        [
+          48.860033,
+          2.333695
+        ],
+        [
+          48.860097,
+          2.33373
+        ],
+        [
+          48.860134,
+          2.333715
+        ],
+        [
+          48.860155,
+          2.333706
+        ],
+        [
+          48.86032,
+          2.33379
+        ],
+        [
+          48.860332,
+          2.333796
+        ],
+        [
+          48.860361,
+          2.333675
+        ],
+        [
+          48.860973,
+          2.33404
+        ],
+        [
+          48.860818,
+          2.334718
+        ],
+        [
+          48.860776,
+          2.334695
+        ],
+        [
+          48.86055,
+          2.335591
+        ],
+        [
+          48.860328,
+          2.336513
+        ],
+        [
+          48.860309,
+          2.336594
+        ],
+        [
+          48.860289,
+          2.336678
+        ],
+        [
+          48.860165,
+          2.337193
+        ],
+        [
+          48.860301,
+          2.337281
+        ],
+        [
+          48.860466,
+          2.337368
+        ],
+        [
+          48.860641,
+          2.337378
+        ],
+        [
+          48.860619,
+          2.337475
         ],
         [
           48.86059,
@@ -7639,8 +7999,8 @@
           2.336619
         ]
       ],
-      "walkDistanceKm": 2.0,
-      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+      "walkDistanceKm": 2.5,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 07/11/2026"
     },
     {
       "id": "b_metro",
@@ -22457,6 +22817,4479 @@
       ],
       "walkDistanceKm": 0.2,
       "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 05/11/2026"
+    },
+    {
+      "id": "pc_common",
+      "name": "1 · Notre-Dame → Pont des Arts → Louvre",
+      "origin": "Cathédrale Notre-Dame de Paris, Paris, France",
+      "destination": "Pyramide du Louvre, Paris, France",
+      "mode": "walking",
+      "stops": [
+        "Pont Neuf, Paris",
+        "Pont des Arts, Paris",
+        "Guichets du Carrousel, Quai François-Mitterrand, Paris"
+      ],
+      "note": "Paseo exterior común a las tres variantes. Llegar a Notre-Dame sobre las 17:00 para aprovechar las últimas luces. Entrada al entorno de la pirámide por el lado del Carrousel, sin cruzar la Cour Carrée cerrada.",
+      "pointIds": [
+        "notredame",
+        "pont_neuf",
+        "par_pont_arts",
+        "par_carrousel",
+        "louvre"
+      ],
+      "walkPath": [
+        [
+          48.853312,
+          2.350128
+        ],
+        [
+          48.853431,
+          2.349752
+        ],
+        [
+          48.853447,
+          2.349703
+        ],
+        [
+          48.853564,
+          2.349334
+        ],
+        [
+          48.853576,
+          2.349298
+        ],
+        [
+          48.85355,
+          2.349279
+        ],
+        [
+          48.853528,
+          2.349263
+        ],
+        [
+          48.853509,
+          2.349247
+        ],
+        [
+          48.853517,
+          2.349219
+        ],
+        [
+          48.853515,
+          2.349197
+        ],
+        [
+          48.853507,
+          2.349179
+        ],
+        [
+          48.853457,
+          2.349069
+        ],
+        [
+          48.853485,
+          2.34898
+        ],
+        [
+          48.853842,
+          2.347849
+        ],
+        [
+          48.853849,
+          2.347823
+        ],
+        [
+          48.85383,
+          2.34778
+        ],
+        [
+          48.853835,
+          2.347764
+        ],
+        [
+          48.853851,
+          2.347713
+        ],
+        [
+          48.853866,
+          2.347667
+        ],
+        [
+          48.85364,
+          2.347487
+        ],
+        [
+          48.853625,
+          2.347475
+        ],
+        [
+          48.853616,
+          2.347467
+        ],
+        [
+          48.853607,
+          2.347449
+        ],
+        [
+          48.853605,
+          2.34742
+        ],
+        [
+          48.853613,
+          2.347325
+        ],
+        [
+          48.853618,
+          2.347293
+        ],
+        [
+          48.853574,
+          2.347269
+        ],
+        [
+          48.853538,
+          2.347252
+        ],
+        [
+          48.853519,
+          2.347242
+        ],
+        [
+          48.853515,
+          2.347218
+        ],
+        [
+          48.853501,
+          2.3472
+        ],
+        [
+          48.853447,
+          2.347168
+        ],
+        [
+          48.853456,
+          2.34713
+        ],
+        [
+          48.853476,
+          2.347049
+        ],
+        [
+          48.853492,
+          2.346983
+        ],
+        [
+          48.853499,
+          2.346956
+        ],
+        [
+          48.853514,
+          2.346853
+        ],
+        [
+          48.853584,
+          2.346655
+        ],
+        [
+          48.853611,
+          2.346612
+        ],
+        [
+          48.853641,
+          2.346537
+        ],
+        [
+          48.853904,
+          2.345812
+        ],
+        [
+          48.854081,
+          2.345329
+        ],
+        [
+          48.854101,
+          2.34525
+        ],
+        [
+          48.854183,
+          2.345044
+        ],
+        [
+          48.854217,
+          2.344965
+        ],
+        [
+          48.854232,
+          2.344931
+        ],
+        [
+          48.854267,
+          2.344849
+        ],
+        [
+          48.854302,
+          2.34477
+        ],
+        [
+          48.854321,
+          2.34473
+        ],
+        [
+          48.85434,
+          2.344689
+        ],
+        [
+          48.854354,
+          2.344657
+        ],
+        [
+          48.854381,
+          2.344598
+        ],
+        [
+          48.854441,
+          2.344455
+        ],
+        [
+          48.854493,
+          2.344301
+        ],
+        [
+          48.854931,
+          2.343329
+        ],
+        [
+          48.855038,
+          2.343122
+        ],
+        [
+          48.855134,
+          2.342985
+        ],
+        [
+          48.855775,
+          2.342252
+        ],
+        [
+          48.855816,
+          2.342236
+        ],
+        [
+          48.856289,
+          2.341698
+        ],
+        [
+          48.85672,
+          2.341206
+        ],
+        [
+          48.856898,
+          2.340961
+        ],
+        [
+          48.856927,
+          2.340985
+        ],
+        [
+          48.856936,
+          2.34101
+        ],
+        [
+          48.856956,
+          2.341028
+        ],
+        [
+          48.857198,
+          2.341251
+        ],
+        [
+          48.857209,
+          2.341262
+        ],
+        [
+          48.857221,
+          2.341252
+        ],
+        [
+          48.857228,
+          2.341259
+        ],
+        [
+          48.857275,
+          2.341298
+        ],
+        [
+          48.857335,
+          2.341346
+        ],
+        [
+          48.857345,
+          2.341335
+        ],
+        [
+          48.857359,
+          2.341331
+        ],
+        [
+          48.857373,
+          2.341336
+        ],
+        [
+          48.857384,
+          2.341353
+        ],
+        [
+          48.857389,
+          2.341369
+        ],
+        [
+          48.857389,
+          2.34139
+        ],
+        [
+          48.857444,
+          2.341437
+        ],
+        [
+          48.857451,
+          2.341442
+        ],
+        [
+          48.857444,
+          2.341437
+        ],
+        [
+          48.857389,
+          2.34139
+        ],
+        [
+          48.857389,
+          2.341369
+        ],
+        [
+          48.857384,
+          2.341353
+        ],
+        [
+          48.857373,
+          2.341336
+        ],
+        [
+          48.857359,
+          2.341331
+        ],
+        [
+          48.857345,
+          2.341335
+        ],
+        [
+          48.857335,
+          2.341346
+        ],
+        [
+          48.857275,
+          2.341298
+        ],
+        [
+          48.857228,
+          2.341259
+        ],
+        [
+          48.857221,
+          2.341252
+        ],
+        [
+          48.857209,
+          2.341262
+        ],
+        [
+          48.857198,
+          2.341251
+        ],
+        [
+          48.857187,
+          2.34128
+        ],
+        [
+          48.856944,
+          2.34106
+        ],
+        [
+          48.856831,
+          2.340955
+        ],
+        [
+          48.856773,
+          2.340901
+        ],
+        [
+          48.856365,
+          2.340567
+        ],
+        [
+          48.856354,
+          2.340549
+        ],
+        [
+          48.856344,
+          2.340528
+        ],
+        [
+          48.856336,
+          2.340507
+        ],
+        [
+          48.856329,
+          2.340482
+        ],
+        [
+          48.856325,
+          2.34045
+        ],
+        [
+          48.856323,
+          2.34042
+        ],
+        [
+          48.856322,
+          2.340392
+        ],
+        [
+          48.856323,
+          2.34037
+        ],
+        [
+          48.856331,
+          2.340333
+        ],
+        [
+          48.856341,
+          2.340301
+        ],
+        [
+          48.856374,
+          2.340233
+        ],
+        [
+          48.856615,
+          2.339815
+        ],
+        [
+          48.856873,
+          2.339368
+        ],
+        [
+          48.857493,
+          2.338306
+        ],
+        [
+          48.857531,
+          2.338224
+        ],
+        [
+          48.857562,
+          2.338142
+        ],
+        [
+          48.857583,
+          2.338069
+        ],
+        [
+          48.857743,
+          2.337344
+        ],
+        [
+          48.857746,
+          2.337289
+        ],
+        [
+          48.857761,
+          2.337222
+        ],
+        [
+          48.857805,
+          2.337243
+        ],
+        [
+          48.857811,
+          2.337246
+        ],
+        [
+          48.858408,
+          2.337549
+        ],
+        [
+          48.859104,
+          2.337903
+        ],
+        [
+          48.859106,
+          2.337904
+        ],
+        [
+          48.859117,
+          2.337855
+        ],
+        [
+          48.859139,
+          2.337819
+        ],
+        [
+          48.859145,
+          2.33779
+        ],
+        [
+          48.859151,
+          2.337793
+        ],
+        [
+          48.859167,
+          2.3378
+        ],
+        [
+          48.859191,
+          2.337811
+        ],
+        [
+          48.859195,
+          2.33778
+        ],
+        [
+          48.859229,
+          2.337312
+        ],
+        [
+          48.859259,
+          2.336871
+        ],
+        [
+          48.859277,
+          2.336687
+        ],
+        [
+          48.859293,
+          2.336587
+        ],
+        [
+          48.859313,
+          2.336488
+        ],
+        [
+          48.859392,
+          2.336146
+        ],
+        [
+          48.859474,
+          2.335799
+        ],
+        [
+          48.859593,
+          2.335295
+        ],
+        [
+          48.859678,
+          2.335264
+        ],
+        [
+          48.859911,
+          2.334225
+        ],
+        [
+          48.859952,
+          2.33404
+        ],
+        [
+          48.860033,
+          2.333695
+        ],
+        [
+          48.860097,
+          2.33373
+        ],
+        [
+          48.860134,
+          2.333715
+        ],
+        [
+          48.860155,
+          2.333706
+        ],
+        [
+          48.86032,
+          2.33379
+        ],
+        [
+          48.860332,
+          2.333796
+        ],
+        [
+          48.860361,
+          2.333675
+        ],
+        [
+          48.860973,
+          2.33404
+        ],
+        [
+          48.860818,
+          2.334718
+        ],
+        [
+          48.860776,
+          2.334695
+        ],
+        [
+          48.86055,
+          2.335591
+        ],
+        [
+          48.860328,
+          2.336513
+        ],
+        [
+          48.860309,
+          2.336594
+        ],
+        [
+          48.860289,
+          2.336678
+        ],
+        [
+          48.860165,
+          2.337193
+        ],
+        [
+          48.860301,
+          2.337281
+        ],
+        [
+          48.860466,
+          2.337368
+        ],
+        [
+          48.860641,
+          2.337378
+        ],
+        [
+          48.860619,
+          2.337475
+        ],
+        [
+          48.86059,
+          2.337594
+        ]
+      ],
+      "walkDistanceKm": 2.3,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 07/11/2026"
+    },
+    {
+      "id": "pc_1_palais",
+      "name": "2 · Louvre → Concorde → Petit y Grand Palais",
+      "origin": "Pyramide du Louvre, Paris, France",
+      "destination": "Grand Palais, Avenue Winston Churchill, Paris, France",
+      "mode": "walking",
+      "stops": [
+        "Quai des Tuileries, Paris",
+        "Place de la Concorde, Paris",
+        "Petit Palais, Avenue Winston Churchill, Paris, France"
+      ],
+      "note": "Tramo principal por el exterior de las Tullerías. Los palacios se contemplan desde la avenida Winston-Churchill: una única parada breve, sin entrar a exposiciones.",
+      "pointIds": [
+        "louvre",
+        "par_tuileries_quai",
+        "par_concorde",
+        "par_petit_palais",
+        "par_grand_palais"
+      ],
+      "walkPath": [
+        [
+          48.86059,
+          2.337594
+        ],
+        [
+          48.860619,
+          2.337475
+        ],
+        [
+          48.860641,
+          2.337378
+        ],
+        [
+          48.860466,
+          2.337368
+        ],
+        [
+          48.860301,
+          2.337281
+        ],
+        [
+          48.860165,
+          2.337193
+        ],
+        [
+          48.860289,
+          2.336678
+        ],
+        [
+          48.860309,
+          2.336594
+        ],
+        [
+          48.860328,
+          2.336513
+        ],
+        [
+          48.86055,
+          2.335591
+        ],
+        [
+          48.860776,
+          2.334695
+        ],
+        [
+          48.860818,
+          2.334718
+        ],
+        [
+          48.860973,
+          2.33404
+        ],
+        [
+          48.860977,
+          2.334024
+        ],
+        [
+          48.860986,
+          2.333987
+        ],
+        [
+          48.860993,
+          2.333954
+        ],
+        [
+          48.861018,
+          2.333848
+        ],
+        [
+          48.861033,
+          2.333779
+        ],
+        [
+          48.861049,
+          2.333713
+        ],
+        [
+          48.861056,
+          2.333694
+        ],
+        [
+          48.860725,
+          2.333501
+        ],
+        [
+          48.860656,
+          2.333444
+        ],
+        [
+          48.860526,
+          2.333336
+        ],
+        [
+          48.860452,
+          2.333293
+        ],
+        [
+          48.860476,
+          2.333191
+        ],
+        [
+          48.860462,
+          2.333183
+        ],
+        [
+          48.860297,
+          2.333095
+        ],
+        [
+          48.860273,
+          2.33308
+        ],
+        [
+          48.860604,
+          2.33168
+        ],
+        [
+          48.86061,
+          2.331658
+        ],
+        [
+          48.860619,
+          2.331618
+        ],
+        [
+          48.860598,
+          2.331569
+        ],
+        [
+          48.860607,
+          2.331426
+        ],
+        [
+          48.860739,
+          2.330774
+        ],
+        [
+          48.860753,
+          2.330703
+        ],
+        [
+          48.860908,
+          2.330222
+        ],
+        [
+          48.860931,
+          2.330236
+        ],
+        [
+          48.86097,
+          2.330251
+        ],
+        [
+          48.860979,
+          2.330223
+        ],
+        [
+          48.860989,
+          2.33019
+        ],
+        [
+          48.860995,
+          2.330173
+        ],
+        [
+          48.860999,
+          2.330158
+        ],
+        [
+          48.861018,
+          2.330098
+        ],
+        [
+          48.861043,
+          2.330019
+        ],
+        [
+          48.861058,
+          2.329975
+        ],
+        [
+          48.861032,
+          2.329956
+        ],
+        [
+          48.86169,
+          2.327963
+        ],
+        [
+          48.86175,
+          2.327779
+        ],
+        [
+          48.86254,
+          2.325348
+        ],
+        [
+          48.862603,
+          2.325153
+        ],
+        [
+          48.862568,
+          2.325128
+        ],
+        [
+          48.862545,
+          2.32511
+        ],
+        [
+          48.862522,
+          2.325093
+        ],
+        [
+          48.862488,
+          2.325069
+        ],
+        [
+          48.862507,
+          2.325013
+        ],
+        [
+          48.863026,
+          2.32345
+        ],
+        [
+          48.862507,
+          2.325013
+        ],
+        [
+          48.862488,
+          2.325069
+        ],
+        [
+          48.862522,
+          2.325093
+        ],
+        [
+          48.862545,
+          2.32511
+        ],
+        [
+          48.862568,
+          2.325128
+        ],
+        [
+          48.862603,
+          2.325153
+        ],
+        [
+          48.863313,
+          2.322988
+        ],
+        [
+          48.863567,
+          2.322217
+        ],
+        [
+          48.863758,
+          2.321635
+        ],
+        [
+          48.863785,
+          2.321602
+        ],
+        [
+          48.863837,
+          2.321582
+        ],
+        [
+          48.863856,
+          2.321488
+        ],
+        [
+          48.863901,
+          2.321485
+        ],
+        [
+          48.863995,
+          2.32148
+        ],
+        [
+          48.864177,
+          2.32163
+        ],
+        [
+          48.864523,
+          2.32124
+        ],
+        [
+          48.864721,
+          2.321042
+        ],
+        [
+          48.864772,
+          2.321122
+        ],
+        [
+          48.864833,
+          2.321184
+        ],
+        [
+          48.865085,
+          2.321362
+        ],
+        [
+          48.86516,
+          2.321416
+        ],
+        [
+          48.865352,
+          2.321551
+        ],
+        [
+          48.86555,
+          2.321692
+        ],
+        [
+          48.865617,
+          2.321739
+        ],
+        [
+          48.86569,
+          2.321517
+        ],
+        [
+          48.865743,
+          2.321351
+        ],
+        [
+          48.865808,
+          2.321146
+        ],
+        [
+          48.86582,
+          2.321109
+        ],
+        [
+          48.865868,
+          2.32094
+        ],
+        [
+          48.865891,
+          2.320885
+        ],
+        [
+          48.865902,
+          2.320849
+        ],
+        [
+          48.865928,
+          2.320769
+        ],
+        [
+          48.865967,
+          2.320647
+        ],
+        [
+          48.865985,
+          2.320542
+        ],
+        [
+          48.866014,
+          2.320395
+        ],
+        [
+          48.866041,
+          2.320211
+        ],
+        [
+          48.866047,
+          2.320174
+        ],
+        [
+          48.866078,
+          2.320068
+        ],
+        [
+          48.866105,
+          2.319972
+        ],
+        [
+          48.866145,
+          2.319838
+        ],
+        [
+          48.866048,
+          2.31977
+        ],
+        [
+          48.866033,
+          2.31976
+        ],
+        [
+          48.865936,
+          2.319691
+        ],
+        [
+          48.865824,
+          2.319612
+        ],
+        [
+          48.865773,
+          2.319576
+        ],
+        [
+          48.865746,
+          2.31954
+        ],
+        [
+          48.865249,
+          2.31919
+        ],
+        [
+          48.86516,
+          2.319127
+        ],
+        [
+          48.865125,
+          2.319071
+        ],
+        [
+          48.86508,
+          2.318999
+        ],
+        [
+          48.865011,
+          2.318874
+        ],
+        [
+          48.86499,
+          2.318777
+        ],
+        [
+          48.86499,
+          2.318748
+        ],
+        [
+          48.864991,
+          2.318702
+        ],
+        [
+          48.864999,
+          2.318603
+        ],
+        [
+          48.865025,
+          2.318484
+        ],
+        [
+          48.865059,
+          2.318351
+        ],
+        [
+          48.865097,
+          2.318205
+        ],
+        [
+          48.865158,
+          2.317986
+        ],
+        [
+          48.865161,
+          2.3179
+        ],
+        [
+          48.865164,
+          2.317845
+        ],
+        [
+          48.865131,
+          2.316383
+        ],
+        [
+          48.86513,
+          2.316344
+        ],
+        [
+          48.865117,
+          2.315784
+        ],
+        [
+          48.865116,
+          2.315739
+        ],
+        [
+          48.865115,
+          2.315707
+        ],
+        [
+          48.865116,
+          2.31557
+        ],
+        [
+          48.865117,
+          2.315461
+        ],
+        [
+          48.865117,
+          2.315422
+        ],
+        [
+          48.865138,
+          2.315443
+        ],
+        [
+          48.865417,
+          2.314595
+        ],
+        [
+          48.865439,
+          2.314192
+        ],
+        [
+          48.865686,
+          2.31422
+        ],
+        [
+          48.865946,
+          2.314194
+        ],
+        [
+          48.865928,
+          2.314419
+        ],
+        [
+          48.865944,
+          2.314421
+        ],
+        [
+          48.865944,
+          2.314419
+        ],
+        [
+          48.865949,
+          2.314417
+        ],
+        [
+          48.865956,
+          2.314413
+        ],
+        [
+          48.865958,
+          2.314411
+        ],
+        [
+          48.865961,
+          2.314405
+        ],
+        [
+          48.865953,
+          2.314404
+        ],
+        [
+          48.865955,
+          2.314355
+        ],
+        [
+          48.865962,
+          2.314355
+        ],
+        [
+          48.865963,
+          2.31434
+        ],
+        [
+          48.865982,
+          2.314342
+        ],
+        [
+          48.865996,
+          2.314343
+        ],
+        [
+          48.866001,
+          2.314344
+        ],
+        [
+          48.866003,
+          2.314337
+        ],
+        [
+          48.866016,
+          2.314358
+        ],
+        [
+          48.866016,
+          2.314358
+        ],
+        [
+          48.866003,
+          2.314337
+        ],
+        [
+          48.866009,
+          2.314329
+        ],
+        [
+          48.866017,
+          2.31432
+        ],
+        [
+          48.866027,
+          2.314309
+        ],
+        [
+          48.866041,
+          2.314304
+        ],
+        [
+          48.866054,
+          2.314304
+        ],
+        [
+          48.866068,
+          2.314306
+        ],
+        [
+          48.86608,
+          2.314312
+        ],
+        [
+          48.866091,
+          2.314321
+        ],
+        [
+          48.866099,
+          2.314332
+        ],
+        [
+          48.866107,
+          2.314345
+        ],
+        [
+          48.866107,
+          2.314355
+        ],
+        [
+          48.866113,
+          2.314356
+        ],
+        [
+          48.866125,
+          2.314357
+        ],
+        [
+          48.866137,
+          2.314359
+        ],
+        [
+          48.866147,
+          2.31436
+        ],
+        [
+          48.866146,
+          2.314377
+        ],
+        [
+          48.866153,
+          2.314379
+        ],
+        [
+          48.866151,
+          2.314427
+        ],
+        [
+          48.866144,
+          2.314425
+        ],
+        [
+          48.866146,
+          2.314433
+        ],
+        [
+          48.866147,
+          2.314436
+        ],
+        [
+          48.866152,
+          2.314441
+        ],
+        [
+          48.866157,
+          2.314444
+        ],
+        [
+          48.866158,
+          2.314445
+        ],
+        [
+          48.866173,
+          2.314447
+        ],
+        [
+          48.866191,
+          2.314226
+        ],
+        [
+          48.8662,
+          2.314121
+        ],
+        [
+          48.866224,
+          2.314117
+        ],
+        [
+          48.866248,
+          2.3141
+        ],
+        [
+          48.866273,
+          2.314058
+        ],
+        [
+          48.866289,
+          2.314034
+        ],
+        [
+          48.866314,
+          2.314017
+        ],
+        [
+          48.866601,
+          2.314051
+        ],
+        [
+          48.866698,
+          2.314064
+        ],
+        [
+          48.8667,
+          2.314037
+        ],
+        [
+          48.866707,
+          2.313897
+        ],
+        [
+          48.866714,
+          2.31376
+        ],
+        [
+          48.866715,
+          2.313733
+        ],
+        [
+          48.866618,
+          2.313722
+        ],
+        [
+          48.866432,
+          2.3137
+        ],
+        [
+          48.86637,
+          2.313649
+        ],
+        [
+          48.866351,
+          2.313633
+        ],
+        [
+          48.866335,
+          2.31362
+        ],
+        [
+          48.866248,
+          2.313548
+        ],
+        [
+          48.866189,
+          2.31354
+        ],
+        [
+          48.866109,
+          2.31353
+        ],
+        [
+          48.86611,
+          2.313485
+        ],
+        [
+          48.866111,
+          2.313455
+        ],
+        [
+          48.866113,
+          2.313375
+        ],
+        [
+          48.866113,
+          2.313375
+        ]
+      ],
+      "walkDistanceKm": 2.9,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 07/11/2026"
+    },
+    {
+      "id": "pc_1_eiffel",
+      "name": "3 · Alexandre III → Invalides → Eiffel",
+      "origin": "Grand Palais, Avenue Winston Churchill, Paris, France",
+      "destination": "Tour Eiffel, Paris, France",
+      "mode": "walking",
+      "stops": [
+        "Pont Alexandre III, Paris",
+        "Esplanade des Invalides, Paris",
+        "Champ de Mars, Paris, France"
+      ],
+      "note": "Perspectivas monumentales y aproximación a la torre por Champ de Mars. No se añade Sainte-Trinité en esta variante para evitar otro rodeo.",
+      "pointIds": [
+        "par_grand_palais",
+        "par_alexandre",
+        "par_invalides",
+        "champ_mars",
+        "eiffel"
+      ],
+      "walkPath": [
+        [
+          48.866113,
+          2.313375
+        ],
+        [
+          48.866111,
+          2.313455
+        ],
+        [
+          48.86611,
+          2.313485
+        ],
+        [
+          48.866109,
+          2.31353
+        ],
+        [
+          48.866027,
+          2.313519
+        ],
+        [
+          48.865955,
+          2.31351
+        ],
+        [
+          48.865854,
+          2.313567
+        ],
+        [
+          48.865834,
+          2.313579
+        ],
+        [
+          48.865814,
+          2.313589
+        ],
+        [
+          48.86578,
+          2.313609
+        ],
+        [
+          48.865761,
+          2.31362
+        ],
+        [
+          48.865472,
+          2.313587
+        ],
+        [
+          48.865172,
+          2.313552
+        ],
+        [
+          48.865117,
+          2.313535
+        ],
+        [
+          48.865095,
+          2.313518
+        ],
+        [
+          48.865078,
+          2.313486
+        ],
+        [
+          48.865064,
+          2.313446
+        ],
+        [
+          48.865056,
+          2.313397
+        ],
+        [
+          48.865052,
+          2.313298
+        ],
+        [
+          48.865028,
+          2.313298
+        ],
+        [
+          48.864976,
+          2.313298
+        ],
+        [
+          48.864939,
+          2.313299
+        ],
+        [
+          48.864711,
+          2.313297
+        ],
+        [
+          48.864667,
+          2.313299
+        ],
+        [
+          48.864633,
+          2.313302
+        ],
+        [
+          48.864591,
+          2.313318
+        ],
+        [
+          48.864579,
+          2.313322
+        ],
+        [
+          48.864563,
+          2.313328
+        ],
+        [
+          48.864549,
+          2.313334
+        ],
+        [
+          48.864547,
+          2.313403
+        ],
+        [
+          48.864545,
+          2.313498
+        ],
+        [
+          48.864541,
+          2.313651
+        ],
+        [
+          48.864515,
+          2.313648
+        ],
+        [
+          48.864488,
+          2.313645
+        ],
+        [
+          48.864311,
+          2.313624
+        ],
+        [
+          48.86347,
+          2.313523
+        ],
+        [
+          48.863005,
+          2.313467
+        ],
+        [
+          48.862973,
+          2.313463
+        ],
+        [
+          48.862914,
+          2.313458
+        ],
+        [
+          48.862906,
+          2.313265
+        ],
+        [
+          48.862903,
+          2.313185
+        ],
+        [
+          48.862831,
+          2.313181
+        ],
+        [
+          48.862827,
+          2.313181
+        ],
+        [
+          48.862808,
+          2.313181
+        ],
+        [
+          48.862743,
+          2.313178
+        ],
+        [
+          48.862721,
+          2.31318
+        ],
+        [
+          48.862322,
+          2.313211
+        ],
+        [
+          48.86121,
+          2.313081
+        ],
+        [
+          48.861201,
+          2.31308
+        ],
+        [
+          48.861197,
+          2.313051
+        ],
+        [
+          48.861188,
+          2.313019
+        ],
+        [
+          48.861174,
+          2.312984
+        ],
+        [
+          48.861157,
+          2.312961
+        ],
+        [
+          48.861141,
+          2.312949
+        ],
+        [
+          48.861141,
+          2.312934
+        ],
+        [
+          48.86112,
+          2.312931
+        ],
+        [
+          48.861064,
+          2.31293
+        ],
+        [
+          48.861008,
+          2.312926
+        ],
+        [
+          48.860984,
+          2.312925
+        ],
+        [
+          48.860983,
+          2.312934
+        ],
+        [
+          48.860965,
+          2.31294
+        ],
+        [
+          48.860943,
+          2.312958
+        ],
+        [
+          48.860924,
+          2.312984
+        ],
+        [
+          48.860906,
+          2.313017
+        ],
+        [
+          48.860897,
+          2.313045
+        ],
+        [
+          48.860887,
+          2.313044
+        ],
+        [
+          48.860854,
+          2.313041
+        ],
+        [
+          48.86012,
+          2.312953
+        ],
+        [
+          48.86011,
+          2.312951
+        ],
+        [
+          48.860099,
+          2.31293
+        ],
+        [
+          48.860072,
+          2.312884
+        ],
+        [
+          48.860046,
+          2.312856
+        ],
+        [
+          48.860024,
+          2.312845
+        ],
+        [
+          48.860014,
+          2.31283
+        ],
+        [
+          48.859997,
+          2.31283
+        ],
+        [
+          48.859954,
+          2.31283
+        ],
+        [
+          48.859907,
+          2.312831
+        ],
+        [
+          48.859907,
+          2.312852
+        ],
+        [
+          48.859904,
+          2.312864
+        ],
+        [
+          48.859896,
+          2.312874
+        ],
+        [
+          48.859872,
+          2.312889
+        ],
+        [
+          48.859852,
+          2.312909
+        ],
+        [
+          48.859832,
+          2.312938
+        ],
+        [
+          48.859825,
+          2.312951
+        ],
+        [
+          48.859816,
+          2.312956
+        ],
+        [
+          48.858949,
+          2.312852
+        ],
+        [
+          48.858943,
+          2.312982
+        ],
+        [
+          48.85882,
+          2.312967
+        ],
+        [
+          48.858809,
+          2.313069
+        ],
+        [
+          48.858776,
+          2.31319
+        ],
+        [
+          48.858739,
+          2.313266
+        ],
+        [
+          48.858776,
+          2.31319
+        ],
+        [
+          48.858809,
+          2.313069
+        ],
+        [
+          48.85882,
+          2.312967
+        ],
+        [
+          48.858943,
+          2.312982
+        ],
+        [
+          48.858949,
+          2.312852
+        ],
+        [
+          48.858898,
+          2.312846
+        ],
+        [
+          48.858886,
+          2.312838
+        ],
+        [
+          48.858873,
+          2.312823
+        ],
+        [
+          48.858864,
+          2.312804
+        ],
+        [
+          48.858853,
+          2.312741
+        ],
+        [
+          48.858838,
+          2.312681
+        ],
+        [
+          48.858819,
+          2.312627
+        ],
+        [
+          48.858791,
+          2.312566
+        ],
+        [
+          48.858763,
+          2.312514
+        ],
+        [
+          48.858733,
+          2.312471
+        ],
+        [
+          48.8587,
+          2.312433
+        ],
+        [
+          48.85866,
+          2.312396
+        ],
+        [
+          48.858612,
+          2.312362
+        ],
+        [
+          48.858572,
+          2.312343
+        ],
+        [
+          48.858533,
+          2.31233
+        ],
+        [
+          48.858521,
+          2.312321
+        ],
+        [
+          48.858511,
+          2.312303
+        ],
+        [
+          48.858504,
+          2.31228
+        ],
+        [
+          48.858503,
+          2.312259
+        ],
+        [
+          48.858507,
+          2.312181
+        ],
+        [
+          48.858449,
+          2.312173
+        ],
+        [
+          48.858388,
+          2.312165
+        ],
+        [
+          48.858372,
+          2.312163
+        ],
+        [
+          48.858252,
+          2.311414
+        ],
+        [
+          48.858245,
+          2.311391
+        ],
+        [
+          48.858232,
+          2.311378
+        ],
+        [
+          48.858216,
+          2.311377
+        ],
+        [
+          48.858205,
+          2.311353
+        ],
+        [
+          48.858194,
+          2.311347
+        ],
+        [
+          48.858195,
+          2.311201
+        ],
+        [
+          48.858196,
+          2.311096
+        ],
+        [
+          48.858195,
+          2.311076
+        ],
+        [
+          48.858175,
+          2.311069
+        ],
+        [
+          48.858166,
+          2.311048
+        ],
+        [
+          48.858115,
+          2.310207
+        ],
+        [
+          48.858121,
+          2.310145
+        ],
+        [
+          48.858148,
+          2.310134
+        ],
+        [
+          48.858148,
+          2.310103
+        ],
+        [
+          48.858154,
+          2.310014
+        ],
+        [
+          48.858155,
+          2.310001
+        ],
+        [
+          48.858155,
+          2.309988
+        ],
+        [
+          48.858157,
+          2.309929
+        ],
+        [
+          48.858157,
+          2.309905
+        ],
+        [
+          48.85811,
+          2.309883
+        ],
+        [
+          48.858099,
+          2.309817
+        ],
+        [
+          48.858075,
+          2.309397
+        ],
+        [
+          48.858087,
+          2.309373
+        ],
+        [
+          48.85808,
+          2.309356
+        ],
+        [
+          48.858078,
+          2.309322
+        ],
+        [
+          48.858074,
+          2.309282
+        ],
+        [
+          48.858076,
+          2.309273
+        ],
+        [
+          48.858065,
+          2.309257
+        ],
+        [
+          48.857995,
+          2.308109
+        ],
+        [
+          48.857985,
+          2.30787
+        ],
+        [
+          48.85799,
+          2.30785
+        ],
+        [
+          48.857988,
+          2.307843
+        ],
+        [
+          48.857985,
+          2.307807
+        ],
+        [
+          48.857981,
+          2.307766
+        ],
+        [
+          48.85799,
+          2.307755
+        ],
+        [
+          48.85798,
+          2.307746
+        ],
+        [
+          48.857945,
+          2.307212
+        ],
+        [
+          48.857934,
+          2.307213
+        ],
+        [
+          48.857901,
+          2.307215
+        ],
+        [
+          48.857871,
+          2.307217
+        ],
+        [
+          48.857863,
+          2.307219
+        ],
+        [
+          48.857858,
+          2.307182
+        ],
+        [
+          48.857836,
+          2.306819
+        ],
+        [
+          48.857795,
+          2.306633
+        ],
+        [
+          48.857785,
+          2.30662
+        ],
+        [
+          48.857781,
+          2.306609
+        ],
+        [
+          48.857773,
+          2.306562
+        ],
+        [
+          48.857765,
+          2.306517
+        ],
+        [
+          48.857763,
+          2.306507
+        ],
+        [
+          48.857765,
+          2.306484
+        ],
+        [
+          48.857671,
+          2.306048
+        ],
+        [
+          48.857645,
+          2.305966
+        ],
+        [
+          48.85762,
+          2.305865
+        ],
+        [
+          48.857469,
+          2.305427
+        ],
+        [
+          48.857465,
+          2.305417
+        ],
+        [
+          48.857451,
+          2.305381
+        ],
+        [
+          48.857434,
+          2.305339
+        ],
+        [
+          48.85743,
+          2.305323
+        ],
+        [
+          48.857433,
+          2.305305
+        ],
+        [
+          48.857256,
+          2.304784
+        ],
+        [
+          48.857179,
+          2.304553
+        ],
+        [
+          48.857149,
+          2.304529
+        ],
+        [
+          48.857106,
+          2.304554
+        ],
+        [
+          48.857102,
+          2.304537
+        ],
+        [
+          48.857092,
+          2.304503
+        ],
+        [
+          48.857084,
+          2.304475
+        ],
+        [
+          48.85706,
+          2.304429
+        ],
+        [
+          48.857037,
+          2.304342
+        ],
+        [
+          48.857031,
+          2.304318
+        ],
+        [
+          48.857027,
+          2.304303
+        ],
+        [
+          48.857016,
+          2.304264
+        ],
+        [
+          48.857011,
+          2.30424
+        ],
+        [
+          48.857007,
+          2.304191
+        ],
+        [
+          48.857003,
+          2.304148
+        ],
+        [
+          48.856787,
+          2.303674
+        ],
+        [
+          48.856227,
+          2.302674
+        ],
+        [
+          48.856189,
+          2.30264
+        ],
+        [
+          48.856145,
+          2.302653
+        ],
+        [
+          48.856134,
+          2.302616
+        ],
+        [
+          48.856113,
+          2.302586
+        ],
+        [
+          48.856105,
+          2.302575
+        ],
+        [
+          48.856083,
+          2.302543
+        ],
+        [
+          48.856034,
+          2.302473
+        ],
+        [
+          48.856021,
+          2.302473
+        ],
+        [
+          48.856021,
+          2.302444
+        ],
+        [
+          48.855981,
+          2.302386
+        ],
+        [
+          48.855756,
+          2.302054
+        ],
+        [
+          48.855757,
+          2.301993
+        ],
+        [
+          48.855798,
+          2.301931
+        ],
+        [
+          48.855737,
+          2.301842
+        ],
+        [
+          48.855682,
+          2.301761
+        ],
+        [
+          48.855468,
+          2.301438
+        ],
+        [
+          48.855399,
+          2.301336
+        ],
+        [
+          48.855286,
+          2.301168
+        ],
+        [
+          48.855317,
+          2.301123
+        ],
+        [
+          48.855225,
+          2.300976
+        ],
+        [
+          48.855185,
+          2.301036
+        ],
+        [
+          48.855166,
+          2.301007
+        ],
+        [
+          48.855106,
+          2.300918
+        ],
+        [
+          48.854781,
+          2.300435
+        ],
+        [
+          48.854755,
+          2.300397
+        ],
+        [
+          48.854475,
+          2.29998
+        ],
+        [
+          48.854922,
+          2.29928
+        ],
+        [
+          48.855068,
+          2.299051
+        ],
+        [
+          48.855277,
+          2.298723
+        ],
+        [
+          48.855312,
+          2.298669
+        ],
+        [
+          48.855412,
+          2.298512
+        ],
+        [
+          48.855479,
+          2.298412
+        ],
+        [
+          48.855705,
+          2.298076
+        ],
+        [
+          48.85569,
+          2.297999
+        ],
+        [
+          48.855679,
+          2.297924
+        ],
+        [
+          48.855669,
+          2.297845
+        ],
+        [
+          48.855694,
+          2.297817
+        ],
+        [
+          48.855735,
+          2.297769
+        ],
+        [
+          48.855805,
+          2.297689
+        ],
+        [
+          48.855822,
+          2.297668
+        ],
+        [
+          48.855843,
+          2.297613
+        ],
+        [
+          48.85586,
+          2.297578
+        ],
+        [
+          48.855883,
+          2.297545
+        ],
+        [
+          48.855921,
+          2.297513
+        ],
+        [
+          48.855933,
+          2.297497
+        ],
+        [
+          48.855977,
+          2.297393
+        ],
+        [
+          48.856022,
+          2.297296
+        ],
+        [
+          48.856096,
+          2.297327
+        ],
+        [
+          48.856151,
+          2.29736
+        ],
+        [
+          48.856223,
+          2.297266
+        ],
+        [
+          48.856457,
+          2.296889
+        ],
+        [
+          48.856575,
+          2.296706
+        ],
+        [
+          48.856687,
+          2.296527
+        ],
+        [
+          48.856801,
+          2.296336
+        ],
+        [
+          48.857118,
+          2.295838
+        ],
+        [
+          48.857235,
+          2.295655
+        ],
+        [
+          48.857602,
+          2.295079
+        ],
+        [
+          48.85761,
+          2.295068
+        ],
+        [
+          48.857625,
+          2.295043
+        ],
+        [
+          48.857662,
+          2.294985
+        ],
+        [
+          48.857888,
+          2.295314
+        ]
+      ],
+      "walkDistanceKm": 2.7,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 07/11/2026"
+    },
+    {
+      "id": "pc_final",
+      "name": "Final · Eiffel → Pont d’Iéna → Trocadéro",
+      "origin": "Tour Eiffel, Paris, France",
+      "destination": "Esplanade du Trocadéro, Paris, France",
+      "mode": "walking",
+      "stops": [
+        "Pont d’Iéna, Paris, France"
+      ],
+      "note": "Cruzar el Sena y subir al mirador. Intentar llegar unos 10 minutos antes de una hora en punto para ver el centelleo; no hace falta subir a la torre.",
+      "pointIds": [
+        "eiffel",
+        "pont_iena",
+        "trocadero"
+      ],
+      "walkPath": [
+        [
+          48.857888,
+          2.295314
+        ],
+        [
+          48.857962,
+          2.295421
+        ],
+        [
+          48.858038,
+          2.295534
+        ],
+        [
+          48.85828,
+          2.29589
+        ],
+        [
+          48.858589,
+          2.296345
+        ],
+        [
+          48.858631,
+          2.296287
+        ],
+        [
+          48.85865,
+          2.296261
+        ],
+        [
+          48.85867,
+          2.296233
+        ],
+        [
+          48.858729,
+          2.296152
+        ],
+        [
+          48.858784,
+          2.296135
+        ],
+        [
+          48.858942,
+          2.296073
+        ],
+        [
+          48.859,
+          2.296036
+        ],
+        [
+          48.859042,
+          2.296009
+        ],
+        [
+          48.859043,
+          2.296008
+        ],
+        [
+          48.859058,
+          2.29599
+        ],
+        [
+          48.85914,
+          2.295915
+        ],
+        [
+          48.859251,
+          2.295758
+        ],
+        [
+          48.859334,
+          2.295627
+        ],
+        [
+          48.859391,
+          2.295481
+        ],
+        [
+          48.859436,
+          2.295334
+        ],
+        [
+          48.859473,
+          2.295187
+        ],
+        [
+          48.859503,
+          2.29498
+        ],
+        [
+          48.859507,
+          2.294947
+        ],
+        [
+          48.859539,
+          2.294893
+        ],
+        [
+          48.859578,
+          2.294828
+        ],
+        [
+          48.859676,
+          2.294708
+        ],
+        [
+          48.859698,
+          2.294681
+        ],
+        [
+          48.859047,
+          2.293727
+        ],
+        [
+          48.859078,
+          2.293686
+        ],
+        [
+          48.859127,
+          2.293607
+        ],
+        [
+          48.859159,
+          2.293555
+        ],
+        [
+          48.859186,
+          2.293518
+        ],
+        [
+          48.859207,
+          2.293483
+        ],
+        [
+          48.859261,
+          2.293392
+        ],
+        [
+          48.859287,
+          2.293356
+        ],
+        [
+          48.859264,
+          2.293325
+        ],
+        [
+          48.859229,
+          2.293274
+        ],
+        [
+          48.859154,
+          2.293169
+        ],
+        [
+          48.859137,
+          2.293144
+        ],
+        [
+          48.859326,
+          2.292847
+        ],
+        [
+          48.859688,
+          2.292283
+        ],
+        [
+          48.860307,
+          2.29132
+        ],
+        [
+          48.860323,
+          2.291296
+        ],
+        [
+          48.860372,
+          2.291364
+        ],
+        [
+          48.860392,
+          2.291391
+        ],
+        [
+          48.860409,
+          2.291425
+        ],
+        [
+          48.860656,
+          2.291738
+        ],
+        [
+          48.860684,
+          2.291697
+        ],
+        [
+          48.860706,
+          2.291659
+        ],
+        [
+          48.860724,
+          2.29163
+        ],
+        [
+          48.860773,
+          2.291618
+        ],
+        [
+          48.860799,
+          2.291648
+        ],
+        [
+          48.860818,
+          2.291671
+        ],
+        [
+          48.860839,
+          2.291695
+        ],
+        [
+          48.860884,
+          2.291619
+        ],
+        [
+          48.860909,
+          2.291614
+        ],
+        [
+          48.860937,
+          2.291627
+        ],
+        [
+          48.860951,
+          2.291605
+        ],
+        [
+          48.860975,
+          2.291564
+        ],
+        [
+          48.860983,
+          2.291559
+        ],
+        [
+          48.860995,
+          2.291559
+        ],
+        [
+          48.861029,
+          2.291577
+        ],
+        [
+          48.861063,
+          2.291602
+        ],
+        [
+          48.861089,
+          2.291498
+        ],
+        [
+          48.861112,
+          2.291413
+        ],
+        [
+          48.861133,
+          2.291336
+        ],
+        [
+          48.861137,
+          2.291316
+        ],
+        [
+          48.861204,
+          2.291324
+        ],
+        [
+          48.861224,
+          2.291292
+        ],
+        [
+          48.861248,
+          2.291255
+        ],
+        [
+          48.861258,
+          2.291239
+        ],
+        [
+          48.861276,
+          2.291212
+        ],
+        [
+          48.861288,
+          2.291192
+        ],
+        [
+          48.861341,
+          2.291255
+        ],
+        [
+          48.861372,
+          2.291275
+        ],
+        [
+          48.861416,
+          2.291287
+        ],
+        [
+          48.861457,
+          2.291294
+        ],
+        [
+          48.861526,
+          2.291286
+        ],
+        [
+          48.861605,
+          2.291272
+        ],
+        [
+          48.861628,
+          2.291264
+        ],
+        [
+          48.861703,
+          2.291248
+        ],
+        [
+          48.861766,
+          2.29125
+        ],
+        [
+          48.861809,
+          2.291265
+        ],
+        [
+          48.861852,
+          2.291286
+        ],
+        [
+          48.86189,
+          2.291313
+        ],
+        [
+          48.861947,
+          2.291369
+        ],
+        [
+          48.862005,
+          2.291434
+        ],
+        [
+          48.86207,
+          2.291512
+        ],
+        [
+          48.862125,
+          2.291562
+        ],
+        [
+          48.862169,
+          2.291593
+        ],
+        [
+          48.862298,
+          2.291664
+        ],
+        [
+          48.862386,
+          2.291695
+        ],
+        [
+          48.862437,
+          2.291695
+        ],
+        [
+          48.862479,
+          2.29169
+        ],
+        [
+          48.862531,
+          2.291678
+        ],
+        [
+          48.862571,
+          2.291653
+        ],
+        [
+          48.862591,
+          2.291621
+        ],
+        [
+          48.862633,
+          2.291617
+        ],
+        [
+          48.862655,
+          2.291639
+        ],
+        [
+          48.862706,
+          2.291644
+        ],
+        [
+          48.862745,
+          2.291639
+        ],
+        [
+          48.862776,
+          2.29163
+        ],
+        [
+          48.862806,
+          2.291615
+        ],
+        [
+          48.862851,
+          2.291586
+        ],
+        [
+          48.862892,
+          2.291557
+        ],
+        [
+          48.862942,
+          2.291509
+        ],
+        [
+          48.862965,
+          2.291454
+        ],
+        [
+          48.862993,
+          2.291386
+        ],
+        [
+          48.863009,
+          2.291348
+        ],
+        [
+          48.863031,
+          2.29127
+        ],
+        [
+          48.863039,
+          2.291221
+        ],
+        [
+          48.86311,
+          2.291189
+        ],
+        [
+          48.86313,
+          2.29115
+        ],
+        [
+          48.86316,
+          2.2911
+        ],
+        [
+          48.863266,
+          2.290923
+        ],
+        [
+          48.863297,
+          2.29083
+        ],
+        [
+          48.863367,
+          2.29057
+        ],
+        [
+          48.863397,
+          2.290313
+        ],
+        [
+          48.863402,
+          2.290197
+        ],
+        [
+          48.863396,
+          2.290047
+        ],
+        [
+          48.863363,
+          2.289839
+        ],
+        [
+          48.86331,
+          2.28961
+        ],
+        [
+          48.863239,
+          2.289382
+        ],
+        [
+          48.863159,
+          2.289124
+        ],
+        [
+          48.862899,
+          2.288693
+        ],
+        [
+          48.862879,
+          2.288724
+        ],
+        [
+          48.862879,
+          2.288724
+        ]
+      ],
+      "walkDistanceKm": 1.2,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 07/11/2026"
+    },
+    {
+      "id": "pc_2_river",
+      "name": "2 · Louvre → Orsay → puente Alexandre III",
+      "origin": "Pyramide du Louvre, Paris, France",
+      "destination": "Pont Alexandre III, Paris",
+      "mode": "walking",
+      "stops": [
+        "Guichets du Carrousel, Quai François-Mitterrand, Paris",
+        "Pont Royal, Paris",
+        "Esplanade Valéry Giscard d’Estaing, Paris"
+      ],
+      "note": "Salir hacia el Sena por el lado del Carrousel; cruzar Pont Royal y seguir por la margen izquierda. Orsay se ve por fuera. El recorrido evita depender del interior de las Tullerías.",
+      "pointIds": [
+        "louvre",
+        "par_carrousel",
+        "par_pont_royal",
+        "par_orsay",
+        "par_alexandre"
+      ],
+      "walkPath": [
+        [
+          48.86059,
+          2.337594
+        ],
+        [
+          48.860619,
+          2.337475
+        ],
+        [
+          48.860641,
+          2.337378
+        ],
+        [
+          48.860466,
+          2.337368
+        ],
+        [
+          48.860301,
+          2.337281
+        ],
+        [
+          48.860165,
+          2.337193
+        ],
+        [
+          48.860289,
+          2.336678
+        ],
+        [
+          48.860309,
+          2.336594
+        ],
+        [
+          48.860328,
+          2.336513
+        ],
+        [
+          48.86055,
+          2.335591
+        ],
+        [
+          48.860776,
+          2.334695
+        ],
+        [
+          48.860818,
+          2.334718
+        ],
+        [
+          48.860973,
+          2.33404
+        ],
+        [
+          48.860361,
+          2.333675
+        ],
+        [
+          48.860332,
+          2.333796
+        ],
+        [
+          48.86032,
+          2.33379
+        ],
+        [
+          48.860155,
+          2.333706
+        ],
+        [
+          48.860134,
+          2.333715
+        ],
+        [
+          48.860097,
+          2.33373
+        ],
+        [
+          48.860033,
+          2.333695
+        ],
+        [
+          48.859952,
+          2.33404
+        ],
+        [
+          48.859911,
+          2.334225
+        ],
+        [
+          48.859952,
+          2.33404
+        ],
+        [
+          48.860033,
+          2.333695
+        ],
+        [
+          48.859972,
+          2.333661
+        ],
+        [
+          48.859968,
+          2.333581
+        ],
+        [
+          48.859958,
+          2.333529
+        ],
+        [
+          48.85994,
+          2.333464
+        ],
+        [
+          48.859931,
+          2.333439
+        ],
+        [
+          48.859942,
+          2.333391
+        ],
+        [
+          48.859964,
+          2.333296
+        ],
+        [
+          48.859969,
+          2.333274
+        ],
+        [
+          48.85997,
+          2.33327
+        ],
+        [
+          48.859993,
+          2.333169
+        ],
+        [
+          48.860019,
+          2.333055
+        ],
+        [
+          48.860033,
+          2.332994
+        ],
+        [
+          48.860076,
+          2.33298
+        ],
+        [
+          48.860344,
+          2.331758
+        ],
+        [
+          48.860399,
+          2.331497
+        ],
+        [
+          48.86052,
+          2.330955
+        ],
+        [
+          48.860577,
+          2.330687
+        ],
+        [
+          48.860595,
+          2.330585
+        ],
+        [
+          48.860598,
+          2.330542
+        ],
+        [
+          48.860614,
+          2.330529
+        ],
+        [
+          48.860634,
+          2.330471
+        ],
+        [
+          48.860622,
+          2.330416
+        ],
+        [
+          48.860586,
+          2.330262
+        ],
+        [
+          48.86012,
+          2.329915
+        ],
+        [
+          48.859672,
+          2.329581
+        ],
+        [
+          48.859619,
+          2.32945
+        ],
+        [
+          48.859609,
+          2.329426
+        ],
+        [
+          48.859644,
+          2.32932
+        ],
+        [
+          48.859653,
+          2.329292
+        ],
+        [
+          48.859649,
+          2.329272
+        ],
+        [
+          48.85981,
+          2.328761
+        ],
+        [
+          48.859999,
+          2.328214
+        ],
+        [
+          48.86001,
+          2.328171
+        ],
+        [
+          48.860019,
+          2.328106
+        ],
+        [
+          48.860034,
+          2.328
+        ],
+        [
+          48.860038,
+          2.32794
+        ],
+        [
+          48.860031,
+          2.327935
+        ],
+        [
+          48.860021,
+          2.327926
+        ],
+        [
+          48.859979,
+          2.327898
+        ],
+        [
+          48.859948,
+          2.327876
+        ],
+        [
+          48.859936,
+          2.327868
+        ],
+        [
+          48.860617,
+          2.325653
+        ],
+        [
+          48.860577,
+          2.325626
+        ],
+        [
+          48.860473,
+          2.325463
+        ],
+        [
+          48.860457,
+          2.325265
+        ],
+        [
+          48.860272,
+          2.325143
+        ],
+        [
+          48.860228,
+          2.325283
+        ],
+        [
+          48.860228,
+          2.325283
+        ],
+        [
+          48.860272,
+          2.325143
+        ],
+        [
+          48.860457,
+          2.325265
+        ],
+        [
+          48.860553,
+          2.325272
+        ],
+        [
+          48.860662,
+          2.325342
+        ],
+        [
+          48.860701,
+          2.325367
+        ],
+        [
+          48.860731,
+          2.325264
+        ],
+        [
+          48.860847,
+          2.324908
+        ],
+        [
+          48.860902,
+          2.324731
+        ],
+        [
+          48.861031,
+          2.324301
+        ],
+        [
+          48.861039,
+          2.324307
+        ],
+        [
+          48.861074,
+          2.324331
+        ],
+        [
+          48.861123,
+          2.324365
+        ],
+        [
+          48.861138,
+          2.324375
+        ],
+        [
+          48.861155,
+          2.324387
+        ],
+        [
+          48.861176,
+          2.324317
+        ],
+        [
+          48.861192,
+          2.324253
+        ],
+        [
+          48.86122,
+          2.324131
+        ],
+        [
+          48.861231,
+          2.324076
+        ],
+        [
+          48.861241,
+          2.324029
+        ],
+        [
+          48.861847,
+          2.322035
+        ],
+        [
+          48.862432,
+          2.320108
+        ],
+        [
+          48.862579,
+          2.3196
+        ],
+        [
+          48.862676,
+          2.319298
+        ],
+        [
+          48.862699,
+          2.319255
+        ],
+        [
+          48.862702,
+          2.319247
+        ],
+        [
+          48.862738,
+          2.319133
+        ],
+        [
+          48.862741,
+          2.319123
+        ],
+        [
+          48.862745,
+          2.319112
+        ],
+        [
+          48.862777,
+          2.319012
+        ],
+        [
+          48.862783,
+          2.318992
+        ],
+        [
+          48.86279,
+          2.318969
+        ],
+        [
+          48.86281,
+          2.318893
+        ],
+        [
+          48.863094,
+          2.317986
+        ],
+        [
+          48.863064,
+          2.317864
+        ],
+        [
+          48.86306,
+          2.317846
+        ],
+        [
+          48.863045,
+          2.317774
+        ],
+        [
+          48.863038,
+          2.317555
+        ],
+        [
+          48.863032,
+          2.317014
+        ],
+        [
+          48.863011,
+          2.316118
+        ],
+        [
+          48.862992,
+          2.315327
+        ],
+        [
+          48.862982,
+          2.314889
+        ],
+        [
+          48.862962,
+          2.313802
+        ],
+        [
+          48.86296,
+          2.313689
+        ],
+        [
+          48.862935,
+          2.313687
+        ],
+        [
+          48.862915,
+          2.313687
+        ],
+        [
+          48.862914,
+          2.313458
+        ],
+        [
+          48.862973,
+          2.313463
+        ],
+        [
+          48.863005,
+          2.313467
+        ],
+        [
+          48.86347,
+          2.313523
+        ]
+      ],
+      "walkDistanceKm": 2.4,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 07/11/2026"
+    },
+    {
+      "id": "pc_2_trinite",
+      "name": "3 · Sena → Sainte-Trinité → Eiffel",
+      "origin": "Pont Alexandre III, Paris",
+      "destination": "Tour Eiffel, Paris, France",
+      "mode": "walking",
+      "stops": [
+        "Pont de l’Alma, Paris",
+        "1 quai Branly, Paris"
+      ],
+      "note": "Seguir el río hacia el Alma y la torre. Sainte-Trinité queda junto al recorrido: parada corta exterior. Priorizar paseos peatonales abiertos; si una ribera baja está cerrada, continuar por el paseo superior y sus aceras.",
+      "pointIds": [
+        "par_alexandre",
+        "par_alma",
+        "par_trinite",
+        "eiffel"
+      ],
+      "walkPath": [
+        [
+          48.86347,
+          2.313523
+        ],
+        [
+          48.863005,
+          2.313467
+        ],
+        [
+          48.862973,
+          2.313463
+        ],
+        [
+          48.862914,
+          2.313458
+        ],
+        [
+          48.862906,
+          2.313265
+        ],
+        [
+          48.862903,
+          2.313185
+        ],
+        [
+          48.862916,
+          2.313184
+        ],
+        [
+          48.862936,
+          2.313186
+        ],
+        [
+          48.862926,
+          2.312406
+        ],
+        [
+          48.862911,
+          2.311591
+        ],
+        [
+          48.862907,
+          2.310944
+        ],
+        [
+          48.862789,
+          2.310933
+        ],
+        [
+          48.862743,
+          2.310645
+        ],
+        [
+          48.862729,
+          2.310554
+        ],
+        [
+          48.862724,
+          2.31043
+        ],
+        [
+          48.862724,
+          2.31033
+        ],
+        [
+          48.862736,
+          2.310291
+        ],
+        [
+          48.862712,
+          2.310228
+        ],
+        [
+          48.862684,
+          2.310186
+        ],
+        [
+          48.862665,
+          2.309835
+        ],
+        [
+          48.862661,
+          2.309751
+        ],
+        [
+          48.862653,
+          2.308946
+        ],
+        [
+          48.862632,
+          2.307944
+        ],
+        [
+          48.862631,
+          2.307909
+        ],
+        [
+          48.862592,
+          2.306079
+        ],
+        [
+          48.86258,
+          2.305552
+        ],
+        [
+          48.862573,
+          2.305224
+        ],
+        [
+          48.862531,
+          2.303272
+        ],
+        [
+          48.862518,
+          2.30322
+        ],
+        [
+          48.862517,
+          2.303097
+        ],
+        [
+          48.862538,
+          2.302341
+        ],
+        [
+          48.862547,
+          2.30227
+        ],
+        [
+          48.862601,
+          2.302135
+        ],
+        [
+          48.862622,
+          2.302098
+        ],
+        [
+          48.862595,
+          2.302019
+        ],
+        [
+          48.862586,
+          2.301937
+        ],
+        [
+          48.862569,
+          2.301657
+        ],
+        [
+          48.862557,
+          2.301546
+        ],
+        [
+          48.862556,
+          2.301527
+        ],
+        [
+          48.862567,
+          2.301425
+        ],
+        [
+          48.862615,
+          2.301242
+        ],
+        [
+          48.862615,
+          2.301227
+        ],
+        [
+          48.862614,
+          2.301203
+        ],
+        [
+          48.862614,
+          2.301184
+        ],
+        [
+          48.862604,
+          2.300909
+        ],
+        [
+          48.862601,
+          2.300856
+        ],
+        [
+          48.8626,
+          2.300833
+        ],
+        [
+          48.862598,
+          2.300786
+        ],
+        [
+          48.862576,
+          2.300336
+        ],
+        [
+          48.862543,
+          2.299993
+        ],
+        [
+          48.862576,
+          2.300336
+        ],
+        [
+          48.862598,
+          2.300786
+        ],
+        [
+          48.8626,
+          2.300833
+        ],
+        [
+          48.862601,
+          2.300856
+        ],
+        [
+          48.862604,
+          2.300909
+        ],
+        [
+          48.862614,
+          2.301184
+        ],
+        [
+          48.862614,
+          2.301203
+        ],
+        [
+          48.862615,
+          2.301227
+        ],
+        [
+          48.86257,
+          2.301233
+        ],
+        [
+          48.862488,
+          2.301246
+        ],
+        [
+          48.862478,
+          2.301256
+        ],
+        [
+          48.862456,
+          2.301278
+        ],
+        [
+          48.862442,
+          2.301283
+        ],
+        [
+          48.862427,
+          2.301288
+        ],
+        [
+          48.862412,
+          2.301289
+        ],
+        [
+          48.862378,
+          2.301291
+        ],
+        [
+          48.862345,
+          2.301293
+        ],
+        [
+          48.862317,
+          2.301286
+        ],
+        [
+          48.862301,
+          2.301278
+        ],
+        [
+          48.862285,
+          2.301271
+        ],
+        [
+          48.86226,
+          2.301272
+        ],
+        [
+          48.862212,
+          2.30127
+        ],
+        [
+          48.862166,
+          2.301249
+        ],
+        [
+          48.862045,
+          2.301252
+        ],
+        [
+          48.861869,
+          2.301252
+        ],
+        [
+          48.861843,
+          2.301243
+        ],
+        [
+          48.861821,
+          2.301235
+        ],
+        [
+          48.861034,
+          2.30099
+        ],
+        [
+          48.861004,
+          2.300963
+        ],
+        [
+          48.860999,
+          2.300961
+        ],
+        [
+          48.860945,
+          2.300946
+        ],
+        [
+          48.860895,
+          2.300933
+        ],
+        [
+          48.860871,
+          2.300926
+        ],
+        [
+          48.860852,
+          2.30094
+        ],
+        [
+          48.86073,
+          2.300904
+        ],
+        [
+          48.860694,
+          2.3009
+        ],
+        [
+          48.860632,
+          2.300883
+        ],
+        [
+          48.860421,
+          2.300803
+        ],
+        [
+          48.860401,
+          2.300773
+        ],
+        [
+          48.860392,
+          2.300768
+        ],
+        [
+          48.860357,
+          2.300756
+        ],
+        [
+          48.860327,
+          2.300745
+        ],
+        [
+          48.860314,
+          2.300741
+        ],
+        [
+          48.860297,
+          2.300761
+        ],
+        [
+          48.859883,
+          2.300628
+        ],
+        [
+          48.85987,
+          2.300623
+        ],
+        [
+          48.859827,
+          2.300608
+        ],
+        [
+          48.859793,
+          2.300597
+        ],
+        [
+          48.859781,
+          2.300592
+        ],
+        [
+          48.859234,
+          2.297909
+        ],
+        [
+          48.859218,
+          2.297885
+        ],
+        [
+          48.859203,
+          2.297886
+        ],
+        [
+          48.859185,
+          2.297873
+        ],
+        [
+          48.859125,
+          2.297829
+        ],
+        [
+          48.859077,
+          2.297793
+        ],
+        [
+          48.859041,
+          2.297767
+        ],
+        [
+          48.859224,
+          2.297485
+        ],
+        [
+          48.858977,
+          2.297113
+        ],
+        [
+          48.858927,
+          2.297059
+        ],
+        [
+          48.8589,
+          2.297016
+        ],
+        [
+          48.858868,
+          2.296966
+        ],
+        [
+          48.858837,
+          2.296917
+        ],
+        [
+          48.858806,
+          2.296874
+        ],
+        [
+          48.858809,
+          2.296869
+        ],
+        [
+          48.858832,
+          2.296834
+        ],
+        [
+          48.858871,
+          2.296773
+        ],
+        [
+          48.858589,
+          2.296345
+        ],
+        [
+          48.85828,
+          2.29589
+        ],
+        [
+          48.858038,
+          2.295534
+        ],
+        [
+          48.857962,
+          2.295421
+        ],
+        [
+          48.857888,
+          2.295314
+        ]
+      ],
+      "walkDistanceKm": 2.0,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 07/11/2026"
+    },
+    {
+      "id": "pc_3_shortcut",
+      "name": "2 · Louvre → Concorde · acceso al M8",
+      "origin": "Pyramide du Louvre, Paris, France",
+      "destination": "Métro Concorde, Place de la Concorde, Paris",
+      "mode": "walking",
+      "stops": [
+        "Quai des Tuileries, Paris",
+        "Place de la Concorde, Paris"
+      ],
+      "note": "Paseo por el exterior de las Tullerías hasta la estación. Consultar apertura de Concorde antes de tomar el atajo. El siguiente tramo es en metro, no andando.",
+      "pointIds": [
+        "louvre",
+        "par_tuileries_quai",
+        "par_concorde",
+        "par_concorde_m8"
+      ],
+      "walkPath": [
+        [
+          48.86059,
+          2.337594
+        ],
+        [
+          48.860619,
+          2.337475
+        ],
+        [
+          48.860641,
+          2.337378
+        ],
+        [
+          48.860466,
+          2.337368
+        ],
+        [
+          48.860301,
+          2.337281
+        ],
+        [
+          48.860165,
+          2.337193
+        ],
+        [
+          48.860289,
+          2.336678
+        ],
+        [
+          48.860309,
+          2.336594
+        ],
+        [
+          48.860328,
+          2.336513
+        ],
+        [
+          48.86055,
+          2.335591
+        ],
+        [
+          48.860776,
+          2.334695
+        ],
+        [
+          48.860818,
+          2.334718
+        ],
+        [
+          48.860973,
+          2.33404
+        ],
+        [
+          48.860977,
+          2.334024
+        ],
+        [
+          48.860986,
+          2.333987
+        ],
+        [
+          48.860993,
+          2.333954
+        ],
+        [
+          48.861018,
+          2.333848
+        ],
+        [
+          48.861033,
+          2.333779
+        ],
+        [
+          48.861049,
+          2.333713
+        ],
+        [
+          48.861056,
+          2.333694
+        ],
+        [
+          48.860725,
+          2.333501
+        ],
+        [
+          48.860656,
+          2.333444
+        ],
+        [
+          48.860526,
+          2.333336
+        ],
+        [
+          48.860452,
+          2.333293
+        ],
+        [
+          48.860476,
+          2.333191
+        ],
+        [
+          48.860462,
+          2.333183
+        ],
+        [
+          48.860297,
+          2.333095
+        ],
+        [
+          48.860273,
+          2.33308
+        ],
+        [
+          48.860604,
+          2.33168
+        ],
+        [
+          48.86061,
+          2.331658
+        ],
+        [
+          48.860619,
+          2.331618
+        ],
+        [
+          48.860598,
+          2.331569
+        ],
+        [
+          48.860607,
+          2.331426
+        ],
+        [
+          48.860739,
+          2.330774
+        ],
+        [
+          48.860753,
+          2.330703
+        ],
+        [
+          48.860908,
+          2.330222
+        ],
+        [
+          48.860931,
+          2.330236
+        ],
+        [
+          48.86097,
+          2.330251
+        ],
+        [
+          48.860979,
+          2.330223
+        ],
+        [
+          48.860989,
+          2.33019
+        ],
+        [
+          48.860995,
+          2.330173
+        ],
+        [
+          48.860999,
+          2.330158
+        ],
+        [
+          48.861018,
+          2.330098
+        ],
+        [
+          48.861043,
+          2.330019
+        ],
+        [
+          48.861058,
+          2.329975
+        ],
+        [
+          48.861032,
+          2.329956
+        ],
+        [
+          48.86169,
+          2.327963
+        ],
+        [
+          48.86175,
+          2.327779
+        ],
+        [
+          48.86254,
+          2.325348
+        ],
+        [
+          48.862603,
+          2.325153
+        ],
+        [
+          48.862568,
+          2.325128
+        ],
+        [
+          48.862545,
+          2.32511
+        ],
+        [
+          48.862522,
+          2.325093
+        ],
+        [
+          48.862488,
+          2.325069
+        ],
+        [
+          48.862507,
+          2.325013
+        ],
+        [
+          48.863026,
+          2.32345
+        ],
+        [
+          48.862507,
+          2.325013
+        ],
+        [
+          48.862488,
+          2.325069
+        ],
+        [
+          48.862522,
+          2.325093
+        ],
+        [
+          48.862545,
+          2.32511
+        ],
+        [
+          48.862568,
+          2.325128
+        ],
+        [
+          48.862603,
+          2.325153
+        ],
+        [
+          48.863313,
+          2.322988
+        ],
+        [
+          48.863567,
+          2.322217
+        ],
+        [
+          48.863758,
+          2.321635
+        ],
+        [
+          48.863785,
+          2.321602
+        ],
+        [
+          48.863837,
+          2.321582
+        ],
+        [
+          48.863856,
+          2.321488
+        ],
+        [
+          48.863901,
+          2.321485
+        ],
+        [
+          48.863995,
+          2.32148
+        ],
+        [
+          48.864177,
+          2.32163
+        ],
+        [
+          48.864523,
+          2.32124
+        ],
+        [
+          48.864721,
+          2.321042
+        ],
+        [
+          48.864772,
+          2.321122
+        ],
+        [
+          48.864833,
+          2.321184
+        ],
+        [
+          48.865085,
+          2.321362
+        ],
+        [
+          48.86516,
+          2.321416
+        ],
+        [
+          48.865352,
+          2.321551
+        ],
+        [
+          48.86555,
+          2.321692
+        ],
+        [
+          48.865617,
+          2.321739
+        ],
+        [
+          48.86569,
+          2.321517
+        ],
+        [
+          48.865743,
+          2.321351
+        ],
+        [
+          48.86569,
+          2.321517
+        ],
+        [
+          48.865617,
+          2.321739
+        ],
+        [
+          48.865919,
+          2.321962
+        ],
+        [
+          48.866009,
+          2.321991
+        ],
+        [
+          48.866014,
+          2.322313
+        ],
+        [
+          48.866067,
+          2.322312
+        ],
+        [
+          48.866122,
+          2.322296
+        ],
+        [
+          48.866149,
+          2.322283
+        ],
+        [
+          48.866176,
+          2.32227
+        ],
+        [
+          48.866176,
+          2.32227
+        ]
+      ],
+      "walkDistanceKm": 2.1,
+      "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 07/11/2026"
+    },
+    {
+      "id": "pc_m8",
+      "name": "Atajo · Concorde → École Militaire · M8",
+      "origin": "Métro Concorde, Paris",
+      "destination": "Métro École Militaire, Paris",
+      "mode": "transit",
+      "stops": [],
+      "note": "M8 dirección Balard. Bajar en École Militaire y continuar por Champ de Mars. No se utiliza M6. Este viaje requiere un billete adicional: ya se ha salido del RER para pasear."
     }
   ],
   "places": [
@@ -22498,9 +27331,10 @@
       "category": "atraccion",
       "lat": 48.8584,
       "lng": 2.2945,
-      "description": "Ruta nocturna A: torre primero, Trocadéro después. Propuesta opcional.",
+      "description": "Parada junto a la Torre Eiffel iluminada. Sin subida ni entrada al recinto controlado.",
       "status": "propuesta",
-      "url": "https://www.toureiffel.paris/"
+      "url": "https://www.toureiffel.paris/",
+      "address": "Tour Eiffel, Paris, France"
     },
     {
       "id": "trocadero",
@@ -22509,8 +27343,9 @@
       "category": "atraccion",
       "lat": 48.8627,
       "lng": 2.2885,
-      "description": "Mirador de la Torre Eiffel en la propuesta A.",
-      "status": "propuesta"
+      "description": "Mirador final para contemplar la torre completa y su centelleo nocturno.",
+      "status": "propuesta",
+      "address": "Esplanade du Trocadéro, Paris, France"
     },
     {
       "id": "notredame",
@@ -22519,9 +27354,10 @@
       "category": "atraccion",
       "lat": 48.853,
       "lng": 2.3499,
-      "description": "Paseo por el centro histórico en la propuesta B.",
+      "description": "Fachada y entorno de la catedral junto al Sena. Primera parada para aprovechar las últimas luces; sin visita interior.",
       "status": "propuesta",
-      "url": "https://www.notredamedeparis.fr/"
+      "url": "https://www.notredamedeparis.fr/",
+      "address": "Cathédrale Notre-Dame de Paris, Paris, France"
     },
     {
       "id": "louvre",
@@ -22530,9 +27366,10 @@
       "category": "atraccion",
       "lat": 48.8606,
       "lng": 2.3376,
-      "description": "Final del paseo de la ruta B; visita exterior.",
+      "description": "Pirámide y cour Napoléon, visita exterior. Cour Napoléon anunciada 7:30–21:00; Cour Carrée actualmente cerrada. Aproximarse por los accesos abiertos del lado del Carrousel, sin depender del paso por la Cour Carrée.",
       "status": "propuesta",
-      "url": "https://www.louvre.fr/"
+      "url": "https://www.louvre.fr/",
+      "address": "Pyramide du Louvre, Paris, France"
     },
     {
       "id": "gante",
@@ -22666,36 +27503,6 @@
       "url": "https://www.saint-emilion-tourisme.com/"
     },
     {
-      "id": "etoile_bus",
-      "name": "Bus 30 · Étoile–Kléber",
-      "city": "París",
-      "lat": 48.8726,
-      "lng": 2.2946,
-      "category": "transporte",
-      "status": "propuesta",
-      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
-    },
-    {
-      "id": "tour_bus",
-      "name": "Bus 30 · Tour Eiffel",
-      "city": "París",
-      "lat": 48.8589,
-      "lng": 2.2939,
-      "category": "transporte",
-      "status": "propuesta",
-      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
-    },
-    {
-      "id": "trocadero_bus",
-      "name": "Bus 30 · Trocadéro",
-      "city": "París",
-      "lat": 48.8636,
-      "lng": 2.2886,
-      "category": "transporte",
-      "status": "propuesta",
-      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
-    },
-    {
       "id": "hotel_ville",
       "name": "Hôtel de Ville",
       "city": "París",
@@ -22703,7 +27510,7 @@
       "lng": 2.3522,
       "category": "atraccion",
       "status": "propuesta",
-      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+      "description": "Ayuntamiento y plaza monumental de París. Vista exterior en el acceso desde Châtelet a Notre-Dame."
     },
     {
       "id": "pont_neuf",
@@ -22713,7 +27520,7 @@
       "lng": 2.3413,
       "category": "atraccion",
       "status": "propuesta",
-      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+      "description": "Puente histórico y perspectivas de la Île de la Cité. Parada breve antes de continuar hacia el Louvre."
     },
     {
       "id": "belfry",
@@ -22805,7 +27612,7 @@
       "lng": 2.295,
       "category": "transporte",
       "status": "propuesta",
-      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar. Aviso consultado 07/11: RER A no para en Étoile el sábado 7; reapertura del domingo 8 sin confirmar. No depender de esa estación sin comprobarla antes."
     },
     {
       "id": "chatelet",
@@ -23647,9 +28454,9 @@
       "category": "atraccion",
       "lat": 48.8556,
       "lng": 2.2986,
-      "description": "Paseo desde École Militaire hacia la Torre Eiffel. Parque y perspectivas de la torre; ruta exterior.",
+      "description": "Parque y aproximación frontal a la Torre Eiffel. Paseo exterior con perspectivas de la estructura iluminada.",
       "status": "propuesta",
-      "address": "Champ de Mars, France"
+      "address": "Champ de Mars, Paris, France"
     },
     {
       "id": "pont_iena",
@@ -23658,9 +28465,9 @@
       "category": "atraccion",
       "lat": 48.8597,
       "lng": 2.2923,
-      "description": "Cruzar el Sena entre la Torre Eiffel y los jardines de Trocadéro.",
+      "description": "Cruzar el Sena entre la torre y los jardines de Trocadéro.",
       "status": "propuesta",
-      "address": "Pont d’Iéna, France"
+      "address": "Pont d’Iéna, Paris, France"
     },
     {
       "id": "arc_triomphe",
@@ -23669,7 +28476,7 @@
       "category": "atraccion",
       "lat": 48.8738,
       "lng": 2.295,
-      "description": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar.",
+      "description": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar. Aviso consultado 07/11: RER A no para en Étoile el sábado 7; reapertura del domingo 8 sin confirmar. No depender de esa estación sin comprobarla antes.",
       "status": "propuesta",
       "address": "Arco del Triunfo, France",
       "url": "https://www.paris-arc-de-triomphe.fr/"
@@ -24377,6 +29184,162 @@
       "address": "2 Place de la Duchesse Anne, 44000 Nantes, Francia",
       "description": "Acceso en coche indicado por recepción: 2 Place de la Duchesse Anne, frente a la Pharmacie Verte. Primero se llega al bolardo de la zona peatonal: pulsar «llamada», decir V3IG9 y recoger el ticket para que baje. Tras pasar el bolardo, la entrada del garaje está en la segunda calle a la derecha. Plaza confirmada: 19 €/noche. No aparcar en plazas reservadas a empresas. Reconfirmar el código al menos un día antes de llegar.",
       "status": "confirmado"
+    },
+    {
+      "id": "par_pont_arts",
+      "name": "Pont des Arts · vista del Institut de France",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.8584075,
+      "lng": 2.3375477,
+      "address": "Pont des Arts, Paris",
+      "description": "Pasarela peatonal sobre el Sena, con vistas a los puentes, al Louvre y a la cúpula del Institut de France. Parada breve que encaja en las tres rutas.",
+      "url": "https://www.paris.fr/pages/le-pont-des-arts-se-refait-une-beaute-23624",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_carrousel",
+      "name": "Guichets du Carrousel · acceso exterior al Louvre",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.86021,
+      "lng": 2.33438,
+      "address": "Guichets du Carrousel, Quai François-Mitterrand, Paris",
+      "description": "Referencia para aproximarse a la pirámide por el lado del Carrousel y los accesos exteriores abiertos. No cruzar la Cour Carrée: el Louvre anuncia su cierre. Seguir señalización si se restringe algún paso.",
+      "url": "https://www.louvre.fr/visiter/horaires-tarifs",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_tuileries_quai",
+      "name": "Tullerías · paseo exterior por el Sena",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.8630264,
+      "lng": 2.3234495,
+      "address": "Quai des Tuileries, Paris",
+      "description": "Tramo exterior junto al jardín para continuar hacia Concorde sin depender de sus puertas. Jardín opcional si hay margen: en noviembre cierra a las 19:30 y comienza el desalojo a las 19:00. El trazado principal se mantiene por fuera.",
+      "url": "https://www.louvre.fr/visiter/horaires-tarifs",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_concorde",
+      "name": "Place de la Concorde",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.8655715,
+      "lng": 2.3212248,
+      "address": "Place de la Concorde, Paris",
+      "description": "Gran perspectiva urbana entre las Tullerías, los Campos Elíseos y el Sena. Parada breve en las rutas 1 y 3; usar los cruces señalizados.",
+      "url": "https://www.bonjour-ratp.fr/lieux/place-de-la-concorde/",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_concorde_m8",
+      "name": "Concorde · metro 8",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.8662052,
+      "lng": 2.3223767,
+      "address": "Métro Concorde, Place de la Concorde, Paris",
+      "description": "Atajo de la ruta 3: M8 dirección Balard hasta École Militaire. El aviso de cierre de Concorde consultado corresponde al sábado 7; comprobar el domingo 8 antes de usar este acceso. Número de boca sin verificar.",
+      "url": "https://www.ratp.fr/infos-trafic/metro/8",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_petit_palais",
+      "name": "Petit Palais · exterior",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.86603,
+      "lng": 2.31447,
+      "address": "Petit Palais, Avenue Winston Churchill, Paris, France",
+      "description": "Fachada monumental, columnas y decoración de la Exposición Universal de 1900. Se contempla desde la avenida, sin entrar al museo. Añadido breve de la ruta 1 junto al Grand Palais y el puente Alexandre III.",
+      "url": "https://www.petitpalais.paris.fr/visiter/preparer-votre-visite",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_grand_palais",
+      "name": "Grand Palais · exterior",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.86612,
+      "lng": 2.31308,
+      "address": "Grand Palais, Avenue Winston Churchill, Paris, France",
+      "description": "Edificio de la Exposición Universal de 1900: fachada, columnatas y esculturas desde la calle. Forma una parada conjunta con el Petit Palais, al otro lado de la avenida; sin exposición interior.",
+      "url": "https://www.grandpalais.fr/",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_alexandre",
+      "name": "Pont Alexandre III",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.8634697,
+      "lng": 2.3135181,
+      "address": "Pont Alexandre III, Paris",
+      "description": "Puente monumental con farolas, esculturas y perspectivas hacia los palacios e Invalides. Parada principal de las rutas 1 y 2, especialmente atractiva de noche.",
+      "url": "https://parisjetaime.com/transport/pont-alexandre-iii-p1875",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_invalides",
+      "name": "Esplanade des Invalides · exterior",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.85876,
+      "lng": 2.31329,
+      "address": "Esplanade des Invalides, Paris",
+      "description": "Perspectiva del conjunto de Invalides y su cúpula desde la explanada. Visita exterior de la ruta monumental; después continuar hacia Champ de Mars.",
+      "url": "https://www.musee-armee.fr/",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_pont_royal",
+      "name": "Pont Royal",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.8601202,
+      "lng": 2.3299164,
+      "address": "Pont Royal, Paris",
+      "description": "Cruce del Sena desde el entorno del Louvre hacia Orsay. En la ruta 2 permite seguir el río por la margen izquierda, sin visitar museos.",
+      "url": "https://parisjetaime.com/eng/article/paris-the-Seine-with-its-bridges-and-footbridges-a025",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_orsay",
+      "name": "Musée d’Orsay · exterior junto al Sena",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.86013,
+      "lng": 2.32571,
+      "address": "Esplanade Valéry Giscard d’Estaing, Paris",
+      "description": "Antigua estación ferroviaria convertida en museo. Aquí solo interesa su fachada y el entorno del río; parada corta de la ruta del Sena.",
+      "url": "https://www.musee-orsay.fr/es",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_alma",
+      "name": "Pont de l’Alma · vistas del Sena",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.8625482,
+      "lng": 2.2999919,
+      "address": "Pont de l’Alma, Paris",
+      "description": "Punto de paso y perspectiva del río antes del quai Branly. No se añade el monumento de la llama ni otro desvío: se prioriza continuar hacia la torre.",
+      "url": "https://parisjetaime.com/transport/pont-de-l-alma-p1878",
+      "status": "propuesta"
+    },
+    {
+      "id": "par_trinite",
+      "name": "Cathédrale de la Sainte-Trinité · exterior",
+      "city": "París",
+      "category": "visita",
+      "lat": 48.861877,
+      "lng": 2.301018,
+      "address": "1 quai Branly, Paris",
+      "description": "Catedral ortodoxa contemporánea coronada por cinco cúpulas doradas. Parada exterior breve en la ruta 2: está junto al Alma y el paseo hacia la torre. Se omite en las otras dos para no alargar sus recorridos.",
+      "url": "https://parisjetaime.com/culture/cathedrale-de-la-sainte-trinite-eglise-orthodoxe-russe-p1757",
+      "status": "propuesta"
     }
   ],
   "stays": [

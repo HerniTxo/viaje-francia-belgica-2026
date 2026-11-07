@@ -1,3 +1,13 @@
+## París combinado · tres variantes y retirada del bus · 07/11/2026
+
+Tres nuevas pestañas: 1 Monumental, 2 Sena y 3 Con metro. Se mantienen A metro y B como opciones cortas, y se elimina París A bus con sus paradas y enlaces activos del bus 30. Las URL antiguas de la pestaña del bus se resuelven a A metro. Cada nueva variante tiene lista ordenada de paradas con descripción breve y ficha, secuencia horaria orientativa, acceso RER, regreso por M9/Auber, Arco opcional condicionado a Étoile y mapa propio trazado sobre calles.
+
+Pont des Arts se integra en las tres. Petit/Grand Palais son una parada exterior conjunta de la monumental; Sainte-Trinité se integra únicamente en la del Sena. Se conservan los protagonistas Notre-Dame, Louvre, Eiffel y Trocadéro. No se incluyen bar temático, Lavirotte ni Bir-Hakeim. Todas las visitas son exteriores, salvo pausas libres de comida/bebida/descanso. No hay entradas ni reservas nuevas.
+
+Horarios y cierres revisados en RATP/Louvre/Torre Eiffel. M6 cerrada el domingo 8; los avisos de Étoile RER A y Concorde M8 consultados corresponden al sábado 7 y no garantizan reapertura dominical. Cour Carrée cerrada; pasos hacia pirámide por Carrousel y accesos abiertos. Tullerías opcionales antes del desalojo 19:00/cierre 19:30: trazados principales por el exterior. Últimos trenes y salidas concretas pendientes del planificador. Regreso principal M9 dirección Mairie de Montreuil, Havre–Caumartin, enlace interior Auber y RER A con parada Torcy. Variante con atajo M8: tercer viaje, 22,95 € para tres adultos, frente a 15,30 € sin ese atajo, sin soportes.
+
+Maestro y memorias global/París consultados; la selección actual del viajero actualiza las propuestas anteriores de visita, sin modificar reservas, otras ciudades, documentación privada ni el itinerario maestro. Registro de publicación en el repositorio.
+
 ## París · paseos dibujados en mapas · 05/11/2026
 
 París A metro: École Militaire, Champ de Mars, Eiffel, Pont d’Iéna y Trocadéro; enlace exterior a M9 y Arco por Kléber como ampliación opcional. París A bus: parada Tour Eiffel, torre, puente y Trocadéro, con ampliación opcional al Arco. París B: Châtelet–Hôtel de Ville–Notre-Dame y Notre-Dame–Pont Neuf–Louvre–Palais Royal, más regreso a pie al RER como alternativa. Siete trazados sobre OpenStreetMap/FOSSGIS integrados en los tres mapas propios y el mapa general. No se añaden estaciones de paso ni se dibujan correspondencias interiores como rutas exteriores. Los tres mapas de ruta permiten encuadrar el paseo de París o todos sus puntos, incluido Torcy. Sin cambios de horarios, decisiones ni reservas.
@@ -183,3 +193,4 @@ Ficha independiente con mapa interactivo para 2 Place de la Duchesse Anne, frent
 
 ## 06/11/2026 · Referencias internas a destinos
 Nombres de ciudades y destinos pulsables en los textos de toda la guía, incluido inicio, planes, trayectos y documentos. Las menciones completas de atracciones conservan sus fichas individuales. Enlaces visibles con teclado y móvil; sin alterar audios ni direcciones de hoteles. Auditoría de enlaces internos, pestañas y alias ampliada.
+

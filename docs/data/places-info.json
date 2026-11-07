@@ -42,8 +42,8 @@
       "Torre Eiffel",
       "Torre Eiffel"
     ],
-    "description": "Ruta nocturna A: torre primero, Trocadéro después. Propuesta opcional.",
-    "query": "Torre Eiffel, París",
+    "description": "Parada junto a la Torre Eiffel iluminada. Sin subida ni entrada al recinto controlado.",
+    "query": "Tour Eiffel, Paris, France",
     "lat": 48.8584,
     "lng": 2.2945
   },
@@ -54,8 +54,8 @@
       "Trocadéro",
       "Trocadéro"
     ],
-    "description": "Mirador de la Torre Eiffel en la propuesta A.",
-    "query": "Trocadéro, París",
+    "description": "Mirador final para contemplar la torre completa y su centelleo nocturno.",
+    "query": "Esplanade du Trocadéro, Paris, France",
     "lat": 48.8627,
     "lng": 2.2885
   },
@@ -66,8 +66,8 @@
       "Notre-Dame de París",
       "Notre-Dame de París"
     ],
-    "description": "Paseo por el centro histórico en la propuesta B.",
-    "query": "Notre-Dame de París, París",
+    "description": "Fachada y entorno de la catedral junto al Sena. Primera parada para aprovechar las últimas luces; sin visita interior.",
+    "query": "Cathédrale Notre-Dame de Paris, Paris, France",
     "lat": 48.853,
     "lng": 2.3499
   },
@@ -78,10 +78,11 @@
       "Museo del Louvre · exterior",
       "Museo del Louvre"
     ],
-    "description": "Final del paseo de la ruta B; visita exterior.",
-    "query": "Museo del Louvre · exterior, París",
+    "description": "Pirámide y cour Napoléon, visita exterior. Cour Napoléon anunciada 7:30–21:00; Cour Carrée actualmente cerrada. Aproximarse por los accesos abiertos del lado del Carrousel, sin depender del paso por la Cour Carrée.",
+    "query": "Pyramide du Louvre, Paris, France",
     "lat": 48.8606,
-    "lng": 2.3376
+    "lng": 2.3376,
+    "official": "https://www.louvre.fr/visiter/horaires-tarifs"
   },
   {
     "id": "gante",
@@ -261,49 +262,13 @@
     "lng": -0.1556
   },
   {
-    "id": "etoile_bus",
-    "name": "Bus 30 · Étoile–Kléber",
-    "aliases": [
-      "Bus 30 · Étoile–Kléber",
-      "Bus 30"
-    ],
-    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-    "query": "Bus 30 · Étoile–Kléber, París",
-    "lat": 48.8726,
-    "lng": 2.2946
-  },
-  {
-    "id": "tour_bus",
-    "name": "Bus 30 · Tour Eiffel",
-    "aliases": [
-      "Bus 30 · Tour Eiffel",
-      "Bus 30"
-    ],
-    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-    "query": "Bus 30 · Tour Eiffel, París",
-    "lat": 48.8589,
-    "lng": 2.2939
-  },
-  {
-    "id": "trocadero_bus",
-    "name": "Bus 30 · Trocadéro",
-    "aliases": [
-      "Bus 30 · Trocadéro",
-      "Bus 30"
-    ],
-    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-    "query": "Bus 30 · Trocadéro, París",
-    "lat": 48.8636,
-    "lng": 2.2886
-  },
-  {
     "id": "hotel_ville",
     "name": "Hôtel de Ville",
     "aliases": [
       "Hôtel de Ville",
       "Hôtel de Ville"
     ],
-    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "description": "Ayuntamiento y plaza monumental de París. Vista exterior en el acceso desde Châtelet a Notre-Dame.",
     "query": "Hôtel de Ville, París",
     "lat": 48.8566,
     "lng": 2.3522
@@ -315,7 +280,7 @@
       "Pont Neuf",
       "Pont Neuf"
     ],
-    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "description": "Puente histórico y perspectivas de la Île de la Cité. Parada breve antes de continuar hacia el Louvre.",
     "query": "Pont Neuf, París",
     "lat": 48.8575,
     "lng": 2.3413
@@ -433,10 +398,11 @@
       "Charles de Gaulle–Étoile · RER A",
       "Charles de Gaulle–Étoile"
     ],
-    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+    "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar. Aviso consultado 07/11: RER A no para en Étoile el sábado 7; reapertura del domingo 8 sin confirmar. No depender de esa estación sin comprobarla antes.",
     "query": "Charles de Gaulle–Étoile · RER A, París",
     "lat": 48.8738,
-    "lng": 2.295
+    "lng": 2.295,
+    "extraSource": "https://www.ratp.fr/infos-trafic/rer-transilien/A"
   },
   {
     "id": "chatelet",
@@ -1951,8 +1917,8 @@
   {
     "id": "champ_mars",
     "name": "Champ de Mars",
-    "description": "Paseo desde École Militaire hacia la Torre Eiffel. Parque y perspectivas de la torre; ruta exterior.",
-    "query": "Champ de Mars, France",
+    "description": "Parque y aproximación frontal a la Torre Eiffel. Paseo exterior con perspectivas de la estructura iluminada.",
+    "query": "Champ de Mars, Paris, France",
     "lat": 48.8556,
     "lng": 2.2986,
     "zone": "París–Torcy",
@@ -1964,8 +1930,8 @@
   {
     "id": "pont_iena",
     "name": "Pont d’Iéna",
-    "description": "Cruzar el Sena entre la Torre Eiffel y los jardines de Trocadéro.",
-    "query": "Pont d’Iéna, France",
+    "description": "Cruzar el Sena entre la torre y los jardines de Trocadéro.",
+    "query": "Pont d’Iéna, Paris, France",
     "lat": 48.8597,
     "lng": 2.2923,
     "zone": "París–Torcy",
@@ -1978,7 +1944,7 @@
   {
     "id": "arc_triomphe",
     "name": "Arco del Triunfo",
-    "description": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar.",
+    "description": "Ampliación opcional desde Trocadéro por avenue Kléber, unos 25 min. Usar paso subterráneo para el monumento; RER A desde Étoile para regresar. Aviso consultado 07/11: RER A no para en Étoile el sábado 7; reapertura del domingo 8 sin confirmar. No depender de esa estación sin comprobarla antes.",
     "query": "Arco del Triunfo, France",
     "lat": 48.8738,
     "lng": 2.295,
@@ -1988,7 +1954,8 @@
       "Arc de Triomphe"
     ],
     "official": "https://www.paris-arc-de-triomphe.fr/",
-    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar."
+    "mapNote": "Referencia de la estación o lugar; el marcador no identifica una boca o una acera exactas. Seguir la señalización y el sentido en el lugar.",
+    "extraSource": "https://www.ratp.fr/infos-trafic/rer-transilien/A"
   },
   {
     "id": "avenue_kleber",
@@ -2835,5 +2802,193 @@
     "zone": "Nantes · acceso al parking reservado",
     "tip": "Para llegar en coche usa esta dirección de acceso, en lugar de la dirección postal del hotel (19 Allée du Commandant Charcot).",
     "mapNote": "El mapa busca la dirección de acceso facilitada por recepción, frente a la farmacia verde. Es la referencia para llegar al bolardo; no representa la puerta final del garaje, situada después en la segunda calle a la derecha."
+  },
+  {
+    "id": "par_pont_arts",
+    "name": "Pont des Arts · vista del Institut de France",
+    "aliases": [
+      "Pont des Arts · vista del Institut de France",
+      "Pont des Arts"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Pont des Arts, Paris",
+    "lat": 48.8584075,
+    "lng": 2.3375477,
+    "description": "Pasarela peatonal sobre el Sena, con vistas a los puentes, al Louvre y a la cúpula del Institut de France. Parada breve que encaja en las tres rutas.",
+    "official": "https://www.paris.fr/pages/le-pont-des-arts-se-refait-une-beaute-23624",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_carrousel",
+    "name": "Guichets du Carrousel · acceso exterior al Louvre",
+    "aliases": [
+      "Guichets du Carrousel · acceso exterior al Louvre"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Guichets du Carrousel, Quai François-Mitterrand, Paris",
+    "lat": 48.86021,
+    "lng": 2.33438,
+    "description": "Referencia para aproximarse a la pirámide por el lado del Carrousel y los accesos exteriores abiertos. No cruzar la Cour Carrée: el Louvre anuncia su cierre. Seguir señalización si se restringe algún paso.",
+    "official": "https://www.louvre.fr/visiter/horaires-tarifs",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_tuileries_quai",
+    "name": "Tullerías · paseo exterior por el Sena",
+    "aliases": [
+      "Tullerías · paseo exterior por el Sena"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Quai des Tuileries, Paris",
+    "lat": 48.8630264,
+    "lng": 2.3234495,
+    "description": "Tramo exterior junto al jardín para continuar hacia Concorde sin depender de sus puertas. Jardín opcional si hay margen: en noviembre cierra a las 19:30 y comienza el desalojo a las 19:00. El trazado principal se mantiene por fuera.",
+    "official": "https://www.louvre.fr/visiter/horaires-tarifs",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_concorde",
+    "name": "Place de la Concorde",
+    "aliases": [
+      "Place de la Concorde"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Place de la Concorde, Paris",
+    "lat": 48.8655715,
+    "lng": 2.3212248,
+    "description": "Gran perspectiva urbana entre las Tullerías, los Campos Elíseos y el Sena. Parada breve en las rutas 1 y 3; usar los cruces señalizados.",
+    "official": "https://www.bonjour-ratp.fr/lieux/place-de-la-concorde/",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_concorde_m8",
+    "name": "Concorde · metro 8",
+    "aliases": [
+      "Concorde · metro 8"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Métro Concorde, Place de la Concorde, Paris",
+    "lat": 48.8662052,
+    "lng": 2.3223767,
+    "description": "Atajo de la ruta 3: M8 dirección Balard hasta École Militaire. El aviso de cierre de Concorde consultado corresponde al sábado 7; comprobar el domingo 8 antes de usar este acceso. Número de boca sin verificar.",
+    "official": "https://www.ratp.fr/infos-trafic/metro/8",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_petit_palais",
+    "name": "Petit Palais · exterior",
+    "aliases": [
+      "Petit Palais · exterior",
+      "Petit Palais"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Petit Palais, Avenue Winston Churchill, Paris, France",
+    "lat": 48.86603,
+    "lng": 2.31447,
+    "description": "Fachada monumental, columnas y decoración de la Exposición Universal de 1900. Se contempla desde la avenida, sin entrar al museo. Añadido breve de la ruta 1 junto al Grand Palais y el puente Alexandre III.",
+    "official": "https://www.petitpalais.paris.fr/visiter/preparer-votre-visite",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_grand_palais",
+    "name": "Grand Palais · exterior",
+    "aliases": [
+      "Grand Palais · exterior",
+      "Grand Palais"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Grand Palais, Avenue Winston Churchill, Paris, France",
+    "lat": 48.86612,
+    "lng": 2.31308,
+    "description": "Edificio de la Exposición Universal de 1900: fachada, columnatas y esculturas desde la calle. Forma una parada conjunta con el Petit Palais, al otro lado de la avenida; sin exposición interior.",
+    "official": "https://www.grandpalais.fr/",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_alexandre",
+    "name": "Pont Alexandre III",
+    "aliases": [
+      "Pont Alexandre III"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Pont Alexandre III, Paris",
+    "lat": 48.8634697,
+    "lng": 2.3135181,
+    "description": "Puente monumental con farolas, esculturas y perspectivas hacia los palacios e Invalides. Parada principal de las rutas 1 y 2, especialmente atractiva de noche.",
+    "official": "https://parisjetaime.com/transport/pont-alexandre-iii-p1875",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_invalides",
+    "name": "Esplanade des Invalides · exterior",
+    "aliases": [
+      "Esplanade des Invalides · exterior",
+      "Esplanade des Invalides"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Esplanade des Invalides, Paris",
+    "lat": 48.85876,
+    "lng": 2.31329,
+    "description": "Perspectiva del conjunto de Invalides y su cúpula desde la explanada. Visita exterior de la ruta monumental; después continuar hacia Champ de Mars.",
+    "official": "https://www.musee-armee.fr/",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_pont_royal",
+    "name": "Pont Royal",
+    "aliases": [
+      "Pont Royal"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Pont Royal, Paris",
+    "lat": 48.8601202,
+    "lng": 2.3299164,
+    "description": "Cruce del Sena desde el entorno del Louvre hacia Orsay. En la ruta 2 permite seguir el río por la margen izquierda, sin visitar museos.",
+    "official": "https://parisjetaime.com/eng/article/paris-the-Seine-with-its-bridges-and-footbridges-a025",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_orsay",
+    "name": "Musée d’Orsay · exterior junto al Sena",
+    "aliases": [
+      "Musée d’Orsay · exterior junto al Sena",
+      "Musée d’Orsay"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Esplanade Valéry Giscard d’Estaing, Paris",
+    "lat": 48.86013,
+    "lng": 2.32571,
+    "description": "Antigua estación ferroviaria convertida en museo. Aquí solo interesa su fachada y el entorno del río; parada corta de la ruta del Sena.",
+    "official": "https://www.musee-orsay.fr/es",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_alma",
+    "name": "Pont de l’Alma · vistas del Sena",
+    "aliases": [
+      "Pont de l’Alma · vistas del Sena"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "Pont de l’Alma, Paris",
+    "lat": 48.8625482,
+    "lng": 2.2999919,
+    "description": "Punto de paso y perspectiva del río antes del quai Branly. No se añade el monumento de la llama ni otro desvío: se prioriza continuar hacia la torre.",
+    "official": "https://parisjetaime.com/transport/pont-de-l-alma-p1878",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "par_trinite",
+    "name": "Cathédrale de la Sainte-Trinité · exterior",
+    "aliases": [
+      "Cathédrale de la Sainte-Trinité · exterior",
+      "Cathédrale de la Sainte-Trinité"
+    ],
+    "zone": "París · paseo exterior",
+    "query": "1 quai Branly, Paris",
+    "lat": 48.861877,
+    "lng": 2.301018,
+    "description": "Catedral ortodoxa contemporánea coronada por cinco cúpulas doradas. Parada exterior breve en la ruta 2: está junto al Alma y el paseo hacia la torre. Se omite en las otras dos para no alargar sus recorridos.",
+    "official": "https://parisjetaime.com/culture/cathedrale-de-la-sainte-trinite-eglise-orthodoxe-russe-p1757",
+    "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
   }
 ]

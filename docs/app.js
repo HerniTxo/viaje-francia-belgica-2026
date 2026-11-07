@@ -52,7 +52,7 @@
    case 'phrases':return `<section class="phrase-list ${b.compact?'phrase-compact':''}" aria-label="Pronunciación y audios">${b.items.map(i=>`<article class="phrase-card"><h2>${escape(i.es)}</h2><p class="phrase-french" lang="${escape(i.lang||'fr')}">${escape(i.fr)}</p>${i.address?`<p class="phrase-address">${escape(i.address)}</p>`:''}<p class="phrase-phonetic"><span>Suena:</span> ${escape(i.phonetic)}</p><button type="button" class="phrase-play" data-say="${escape(i.fr)}" data-audio="${escape(i.audio)}" data-language="${i.lang==='en'?'inglés':'francés'}" data-spanish="${escape(i.es)}" aria-label="Escuchar en ${i.lang==='en'?'inglés':'francés'}: ${escape(i.es)}" aria-pressed="false">▶ Escuchar</button>${i.mapQuery?anchor('https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(i.mapQuery),'Ver destino en Maps','inline-action'):''}${i.source?anchor(i.source,'Fuente de la dirección','phrase-source'):''}</article>`).join('')}</section>`;
    case 'official-plan':return `<section class="official-plan"><h2>${escape(b.title)}</h2><p>Plano de RATP en el visor original. Amplía o abre el PDF para leer todas las estaciones.</p><iframe title="${escape(b.title)}" src="${escape(b.url)}" loading="lazy" style="width:100%;height:440px;border:1px solid #ddd;border-radius:12px"></iframe>${anchor(b.url,'Abrir plano oficial · PDF','inline-action')}</section>`;
    case 'image':return `<section class="image-card"><h2>${escape(b.title)}</h2><p>${escape(b.text)}</p><a href="${escape(b.src)}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar ${escape(b.title)}"><img src="${escape(b.src)}" alt="${escape(b.title)}: atracciones numeradas y recorrido propuesto por zonas" loading="lazy" width="2024" height="1432"></a>${anchor(b.src,'Ampliar plano','inline-action')}</section>`;
-   case 'map':return `<section aria-label="Mapa de ${escape(currentPage.title)}">${b.title?`<h2>${escape(b.title)}</h2>`:''}<div class="map-box" id="place-map"><p>Cargando mapa…</p></div>${b.focusWalkRoutes?'<div class="actions"><button type="button" class="button secondary" data-map-view="walk">Ver paseo en París</button><button type="button" class="button secondary" data-map-view="all">Ver todos los puntos</button></div>':''}<p class="map-caption">Ubicaciones de referencia. Toca un punto o abre el lugar en Maps. Las rutas se consultan por tramos, en su modo de transporte.</p>${b.walkRoutes?.length?`<p class="map-caption">Líneas de colores: paseos a pie calculados sobre OpenStreetMap · FOSSGIS. Recorridos orientativos; comprobar accesos y seguir la señalización. ${b.walkRoutes.map((id,i)=>`<span style="display:block;color:${['#177364','#c75b1a','#7267a8'][i%3]}">${i+1}. ${escape(findRoute(id)?.name||id)}</span>`).join('')}</p>`:''}<details><summary>Ver lugares y estaciones en Maps</summary><div class="places-list details-content">${(b.ids||currentPage.points).map(id=>data.places.find(p=>p.id===id)).filter(Boolean).map(p=>['gante','brujas','bruselas','torcy-paris','nantes','burdeos','saint-emilion'].includes(currentPage.id)?`<div class="link-row"><span><button type="button" class="place-term" data-poi="${escape(p.id)}" aria-haspopup="dialog">${escape(p.name)}</button><small>${escape(p.description)}</small></span></div>`:anchor(search(p),p.name,'link-row')).join('')}</div></details></section>`;
+   case 'map':return `<section aria-label="Mapa de ${escape(currentPage.title)}">${b.title?`<h2>${escape(b.title)}</h2>`:''}<div class="map-box" id="place-map"><p>Cargando mapa…</p></div>${b.focusWalkRoutes?'<div class="actions"><button type="button" class="button secondary" data-map-view="walk">Ver paseo en París</button><button type="button" class="button secondary" data-map-view="all">Ver todos los puntos</button></div>':''}<p class="map-caption">Ubicaciones de referencia. Toca un punto o abre el lugar en Maps. Las rutas se consultan por tramos, en su modo de transporte.</p>${b.walkRoutes?.length?`<p class="map-caption">Líneas de colores: paseos a pie calculados sobre OpenStreetMap · FOSSGIS. Recorridos orientativos; comprobar accesos y seguir la señalización. ${b.walkRoutes.map((id,i)=>`<span style="display:block;color:${['#177364','#c75b1a','#7267a8','#1c71ad','#a83960','#7a651f','#447b44','#6d5369'][i%8]}">${i+1}. ${escape(findRoute(id)?.name||id)}</span>`).join('')}</p>`:''}<details><summary>Ver lugares y estaciones en Maps</summary><div class="places-list details-content">${(b.ids||currentPage.points).map(id=>data.places.find(p=>p.id===id)).filter(Boolean).map(p=>['gante','brujas','bruselas','torcy-paris','nantes','burdeos','saint-emilion'].includes(currentPage.id)?`<div class="link-row"><span><button type="button" class="place-term" data-poi="${escape(p.id)}" aria-haspopup="dialog">${escape(p.name)}</button><small>${escape(p.description)}</small></span></div>`:anchor(search(p),p.name,'link-row')).join('')}</div></details></section>`;
    default:return '';
   }
  }
@@ -181,7 +181,7 @@
    for(const [index,id] of (p.walkRoutes||[]).entries()){
     const route=findRoute(id);if(!route?.walkPath?.length)continue;
     const path=route.walkPath.map(([lat,lng])=>({lat,lng}));path.forEach(pos=>{bounds.extend(pos);walkBounds.extend(pos);});
-    const line=new google.maps.Polyline({map,path,strokeColor:['#177364','#c75b1a','#7267a8'][index%3],strokeOpacity:.9,strokeWeight:5});
+    const line=new google.maps.Polyline({map,path,strokeColor:['#177364','#c75b1a','#7267a8','#1c71ad','#a83960','#7a651f','#447b44','#6d5369'][index%8],strokeOpacity:.9,strokeWeight:5});
     line.addListener('click',event=>{info.setContent(`<div class="map-popup"><strong>${escape(route.name)}</strong><p>${escape(route.note)}</p>${routeButton(id)}</div>`);info.setPosition(event.latLng);info.open({map});});
    }
    for(const pt of displayPoints){if(epoch!==mapEpoch)return;if(Number.isFinite(pt.lat)&&Number.isFinite(pt.lng)){add(pt,{lat:pt.lat,lng:pt.lng});continue;}try{const response=await geocoder.geocode({address:pt.address||pt.name+', '+pt.city});if(response.results[0])add(pt,response.results[0].geometry.location);}catch{}}
@@ -211,7 +211,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=3.14');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=3.15');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();
@@ -221,6 +221,7 @@
  }
  void init();
 })();
+
 
 
 
