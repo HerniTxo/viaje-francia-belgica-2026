@@ -65,7 +65,7 @@
  }
  function nav(){
   const dates={'torcy-paris':'8','disney':'9–10','gante':'11–12','brujas':'12','bruselas':'12','nantes':'13–14','burdeos':'14','saint-emilion':'15','bilbao':'15'};
-  $('#navigation').innerHTML=`<a class="nav-link" href="#/inicio" data-page="inicio">El viaje<span aria-hidden="true">↗</span></a><div class="nav-caption">Lugares</div>`+data.pages.filter(p=>!p.utility).map(p=>`<a class="nav-link ${['brujas','bruselas'].includes(p.id)?'nav-sub':''}" href="#/${escape(p.id)}" data-page="${escape(p.id)}"><span>${escape(p.title)}</span><small>${escape(dates[p.id])} nov.</small></a>`).join('')+'<div class="nav-caption">Práctico</div>'+data.pages.filter(p=>p.utility).map(p=>`<a class="nav-link" href="#/${escape(p.id)}" data-page="${escape(p.id)}">${escape(p.title)}</a>`).join('');
+  $('#navigation').innerHTML=`<a class="nav-link" href="#/inicio" data-page="inicio">El viaje<span aria-hidden="true">↗</span></a><div class="nav-caption">Lugares</div>`+data.pages.filter(p=>!p.utility).map(p=>`<a class="nav-link ${['brujas','bruselas'].includes(p.id)?'nav-sub':''}" href="#/${escape(p.id)}" data-page="${escape(p.id)}"><span>${escape(p.title)}</span><small>${escape(dates[p.id])} nov.</small></a>`).join('')+'<div class="nav-caption">Prácticos</div>'+data.pages.filter(p=>p.utility).map(p=>`<a class="nav-link" href="#/${escape(p.id)}" data-page="${escape(p.id)}">${escape(p.title)}</a>`).join('');
  }
  function home(){
   currentPage=null;
@@ -211,7 +211,7 @@
  window.addEventListener('hashchange',()=>{render();content.focus({preventScroll:true});});
  async function init(){
   try{
-   const response=await fetch('data/trip.json?v=3.15');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
+   const response=await fetch('data/trip.json?v=3.16');if(!response.ok)throw new Error('No hay datos');data=await response.json();nav();
    const day=new URLSearchParams(location.search).get('dia');
    if(!location.hash.startsWith('#/')&&day){const d=data.days.find(d=>'2026-11-'+String(d.day).padStart(2,'0')===day);if(d)history.replaceState(null,'',location.pathname+location.search+d.links[0][1]);}
    render();
