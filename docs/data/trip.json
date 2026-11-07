@@ -4965,32 +4965,35 @@
           "label": "Coche",
           "blocks": [
             {
-              "type": "facts",
-              "title": "Alquiler confirmado",
+              "type": "links",
+              "title": "Información útil",
               "items": [
                 {
-                  "label": "Empresa",
-                  "value": "Avis."
+                  "label": "Ficha del coche y asistencia Avis",
+                  "url": "#/avis",
+                  "text": "Teléfonos de averías, modelo, matrícula, coberturas y protocolo de incidencias."
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Alquiler y recogida",
+              "items": [
+                {
+                  "label": "Vehículo",
+                  "value": "Cupra Formentor blanco · matrícula 2743 NPJ · cambio manual · gasolina sin plomo."
                 },
                 {
-                  "label": "Recogida previa al viaje",
-                  "value": "Sábado 7 de noviembre, 12:30 · Bilbao Intermodal."
+                  "label": "Recogida",
+                  "value": "Sábado 7/11/2026, 11:46 · Avis Bilbao Intermodal / Termibus."
                 },
                 {
-                  "label": "Devolución",
-                  "value": "Domingo 15 de noviembre, 20:00 · misma oficina."
-                },
-                {
-                  "label": "Precio final anotado",
-                  "value": "835,66 €. No equivale a pago comprobado."
+                  "label": "Devolución según contrato",
+                  "value": "Lunes 16/11/2026, 12:00. El itinerario prevé volver el domingo 15/11 sobre las 20:00."
                 },
                 {
                   "label": "Incluido",
-                  "value": "Dos conductores, kilometraje ilimitado, coberturas completas y circulación por España, Francia y Bélgica."
-                },
-                {
-                  "label": "Vehículo",
-                  "value": "Modelo y combustible por confirmar al recoger."
+                  "value": "Dos conductores autorizados, kilometraje ilimitado y paquete de protección completa."
                 }
               ]
             }
@@ -5821,6 +5824,191 @@
                   "text": "9 y 10 noviembre · 3 adultos · 2 días / 2 parques. PDF original con las entradas nominativas para acceder a los parques. Acceso con una cuenta de Google autorizada."
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avis",
+      "title": "Coche y asistencia",
+      "utility": true,
+      "date": "7–16 noviembre",
+      "intro": "Información práctica del coche de alquiler y teléfonos para incidencias. Datos técnicos y coberturas tomados del contrato firmado de Avis.",
+      "panes": [
+        {
+          "id": "vehiculo",
+          "label": "El coche",
+          "blocks": [
+            {
+              "type": "facts",
+              "title": "Cupra Formentor · datos del coche",
+              "items": [
+                {
+                  "label": "Modelo",
+                  "value": "Cupra Formentor"
+                },
+                {
+                  "label": "Matrícula",
+                  "value": "2743 NPJ"
+                },
+                {
+                  "label": "Color",
+                  "value": "Blanco"
+                },
+                {
+                  "label": "Cambio",
+                  "value": "Manual"
+                },
+                {
+                  "label": "Combustible",
+                  "value": "Gasolina sin plomo (no gasóleo)"
+                },
+                {
+                  "label": "Categoría",
+                  "value": "MC (grupo conducido indicado en contrato)"
+                },
+                {
+                  "label": "Kilometraje",
+                  "value": "Ilimitado"
+                },
+                {
+                  "label": "Conductores",
+                  "value": "Dos conductores autorizados"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Antes de repostar",
+              "text": "Este vehículo utiliza gasolina sin plomo. Comprueba la indicación exacta en la tapa del depósito y evita repostar gasóleo.",
+              "tone": "plain"
+            }
+          ]
+        },
+        {
+          "id": "asistencia",
+          "label": "Averías y teléfonos",
+          "blocks": [
+            {
+              "type": "links",
+              "title": "Llamar a Avis",
+              "items": [
+                {
+                  "label": "Averías · número principal +34 915 943 027",
+                  "url": "tel:+34915943027",
+                  "text": "Teléfono de averías indicado en el contrato."
+                },
+                {
+                  "label": "Averías · alternativa +34 902 090 631",
+                  "url": "tel:+34902090631",
+                  "text": "Número alternativo de averías; puede tener coste especial."
+                },
+                {
+                  "label": "Oficina Avis Bilbao · +34 902 101 780",
+                  "url": "tel:+34902101780",
+                  "text": "Oficina de recogida y devolución en Bilbao Intermodal."
+                },
+                {
+                  "label": "Ayuda de Avis",
+                  "url": "https://www.avis.es/ayudaavis",
+                  "text": "Página oficial de asistencia y atención al cliente."
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Oficina de devolución",
+              "items": [
+                {
+                  "label": "Lugar",
+                  "value": "Avis Bilbao DT · Bilbao Intermodal / Termibus"
+                },
+                {
+                  "label": "Acceso",
+                  "value": "Plaza de los Profesionales Sanitarios, -1; parking de devolución Intermodal, planta -4."
+                },
+                {
+                  "label": "Contrato firmado",
+                  "value": "Devolución lunes 16/11/2026 a las 12:00."
+                },
+                {
+                  "label": "Plan de viaje",
+                  "value": "Regreso previsto domingo 15/11/2026 a las 20:00; no confundir con la hora contractual."
+                },
+                {
+                  "label": "Horario publicado en contrato",
+                  "value": "Domingo cerrado; lunes a viernes 08:00–12:45 y 16:00–18:45; sábado 09:00–12:45."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Si hay avería o accidente",
+              "text": "Detén el vehículo en un lugar seguro, protege a los ocupantes y llama a la asistencia de Avis. Si existe peligro inmediato, llama al 112. El contrato exige comunicar accidentes o averías a Avis y a la policía según sus condiciones, y aportar la documentación de incidencias en los plazos establecidos.",
+              "tone": "plain"
+            }
+          ]
+        },
+        {
+          "id": "coberturas",
+          "label": "Coberturas",
+          "blocks": [
+            {
+              "type": "facts",
+              "title": "Incluido según el contrato de Avis",
+              "items": [
+                {
+                  "label": "Protección completa",
+                  "value": "Paquete de protección completa contratado."
+                },
+                {
+                  "label": "Daños (CDW)",
+                  "value": "Exención/reducción de responsabilidad por daños incluida en el alquiler."
+                },
+                {
+                  "label": "Robo (TP)",
+                  "value": "Protección parcial contra robo o desaparición del vehículo incluida."
+                },
+                {
+                  "label": "Franquicia",
+                  "value": "Franquicia de daño y robo reducida a 0 € según el contrato (sujeta a las condiciones y exclusiones). "
+                },
+                {
+                  "label": "Responsabilidad civil a terceros",
+                  "value": "Cobertura obligatoria de responsabilidad civil en Europa, según condiciones generales."
+                },
+                {
+                  "label": "Conductor adicional",
+                  "value": "Incluido en los productos adicionales."
+                },
+                {
+                  "label": "CBD",
+                  "value": "Producto adicional indicado como «CBD». El contrato mostrado no detalla su alcance."
+                },
+                {
+                  "label": "RSN",
+                  "value": "Producto adicional indicado como «RSN». Consultar las condiciones específicas para su alcance exacto."
+                },
+                {
+                  "label": "Travel Partner",
+                  "value": "Producto adicional «Travel Partner» incluido; prestaciones concretas sujetas a sus condiciones."
+                },
+                {
+                  "label": "Kilometraje",
+                  "value": "Ilimitado, sin cargo por kilómetros."
+                },
+                {
+                  "label": "Países del itinerario",
+                  "value": "España, Francia y Bélgica, conforme a la confirmación del viajero."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Límites de la cobertura",
+              "text": "Cobertura completa no significa cobertura incondicional: el contrato contempla exclusiones ante uso indebido, fraude o negligencia grave, y obligaciones de comunicación de accidentes. El apartado SPAI del documento es una declaración condicional y no permite confirmar que ese seguro personal esté contratado.",
+              "tone": "plain"
             }
           ]
         }
@@ -15298,7 +15486,7 @@
           3.22558
         ]
       ],
-      "walkDistanceKm": 1.0,
+      "walkDistanceKm": 1,
       "pathSource": "https://routing.openstreetmap.de/"
     },
     {
@@ -26889,7 +27077,7 @@
           2.295314
         ]
       ],
-      "walkDistanceKm": 2.0,
+      "walkDistanceKm": 2,
       "pathSource": "FOSSGIS / OpenStreetMap · routed-foot · 07/11/2026"
     },
     {
