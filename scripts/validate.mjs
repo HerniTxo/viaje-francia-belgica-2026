@@ -6,7 +6,7 @@ import {createHash} from 'node:crypto';
 const data=JSON.parse(fs.readFileSync('docs/data/trip.json','utf8'));
 assert.deepEqual(data.days.map(d=>d.day),[8,9,10,11,12,13,14,15]);
 assert.equal(data.meta.party,3);
-assert.deepEqual(data.pages.map(p=>p.id),['torcy-paris','disney','gante','brujas','bruselas','nantes','burdeos','saint-emilion','bilbao','frances','documentos']);
+assert.deepEqual(data.pages.map(p=>p.id),['torcy-paris','disney','gante','brujas','bruselas','nantes','burdeos','saint-emilion','bilbao','frances','documentos','avis']);
 const pages=new Map(data.pages.map(p=>[p.id,p]));
 const routes=new Map(data.routes.map(r=>[r.id,r]));
 const places=new Map(data.places.map(p=>[p.id,p]));
@@ -19,7 +19,8 @@ function checkURL(url){
   if(id==='inicio')return;
   assert(pages.has(id),'Página inexistente: '+url);
   if(pane)assert(pages.get(id).panes.some(p=>p.id===(pages.get(id).paneAliases?.[pane]||pane)),'Pestaña inexistente: '+url);
- }else if(url.startsWith('assets/'))assert(fs.existsSync(path.join('docs',url)),'Archivo inexistente: '+url);
+ }else if(url.startsWith('tel:'))assert(/^tel:\+\d{8,15}$/.test(url),'Teléfono inválido: '+url);
+ else if(url.startsWith('assets/'))assert(fs.existsSync(path.join('docs',url)),'Archivo inexistente: '+url);
  else assert.equal(new URL(url).protocol,'https:','Enlace externo inseguro: '+url);
 }
 function checkBlock(b){
