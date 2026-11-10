@@ -1063,16 +1063,17 @@
     "id": "wintercircus",
     "name": "Wintercircus",
     "zone": "Gante · lugares de interés",
-    "description": "Antiguo circo rehabilitado con arena pública y espacios gastronómicos. La instalación audiovisual de Ksawery Komputery se anuncia del 10 al 15 de noviembre, gratuita durante el día; confirmar la hora y el acceso del 11 festivo o tras el regreso del 12.",
+    "description": "Antiguo circo rehabilitado con arena pública. Del 10 al 15/11/2026 acoge la instalación audiovisual e interactiva de Ksawery Komputery: luz, sonido y movimiento, con visita gratuita durante el día.",
     "query": "Wintercircus, Gent, Bélgica",
     "aliases": [
       "Wintercircus"
     ],
-    "tip": "El horario exacto de la instalación puede no encajar con una visita nocturna. Consultar la agenda; los bares tienen sus propios horarios.",
-    "official": "https://www.wintercircus.be/",
+    "tip": "Priorizar la visita por la tarde, por ejemplo 16:00–17:00, sin dar por hecho que la instalación siga activa hasta el cierre del edificio. Entrada Lammerstraat 13, Sint-Pietersnieuwstraat 11 o Miriam Makebaplein 2. No confundir con los conciertos de pago de otros días.",
+    "official": "https://www.wintercircus.be/en/practical/visit-us",
     "lat": 51.048422,
     "lng": 3.727861,
-    "extraSource": "https://www.ftifestival.be/programma/gent/ksawery-komputery"
+    "extraSource": "https://www.ftifestival.be/programma/gent/ksawery-komputery",
+    "availability": "GRATIS. Miércoles 11/11: edificio abierto 09:00–20:00, confirmado por el horario semanal del recinto. La instalación se anuncia gratuita durante el día, sin hora específica de cierre publicada."
   },
   {
     "id": "dampoort_parking",
@@ -3364,5 +3365,116 @@
     "availability": "24 h, 7 días, incluidos festivos. Altura máxima 2,30 m. Disponibilidad no garantizada.",
     "tip": "Desde aquí iniciar por Rue Esquermoise o Grand’Place. El circo queda aproximadamente a 15–20 minutos a pie; reservar margen.",
     "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "gent_winterlicht",
+    "name": "Winterlicht · lámparas en Christus Koningkerk",
+    "query": "Christus Koningkerk, Rerum-Novarumplein, 9000 Gent, Belgium",
+    "lat": 51.0230093,
+    "lng": 3.7190995,
+    "zone": "Gante · festivo 11 noviembre 2026",
+    "description": "Más de cien lámparas de colores pintadas a mano por Karen Vande Casteele iluminan el interior de una iglesia moderna. Una visita breve y visual, diferente a un museo tradicional. La organizadora confirma la edición del 7 al 11 de noviembre de 2026.",
+    "availability": "GRATIS. Miércoles 11, 14:00–17:00 según la agenda publicada; el horario de cierre no aparece detallado en la web actual de la organizadora. Último día de la exposición.",
+    "tip": "Queda en Nieuw Gent, bastante al sur del centro. Solo priorizar si llegáis con margen antes de las 17:00; consultar el transporte del día. Calcular 20–30 min para verla como estimación propia. Comprar lámparas es opcional y no forma parte del plan.",
+    "official": "https://www.de-ukkeplukjes.com/",
+    "aliases": [
+      "Winterlicht · lámparas en Christus Koningkerk",
+      "Winterlicht",
+      "Christus Koningkerk"
+    ],
+    "mapNote": "Ubicación del recinto contrastada con OpenStreetMap. Acceso y disponibilidad según el organizador; revisión 10/11/2026.",
+    "extraSource": "https://happeningnext.com/event/winterlicht-2026-eid3a0e7vi48u"
+  },
+  {
+    "id": "gent_hotclub",
+    "name": "Hot Club Gent · Mercredis Libres",
+    "query": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent, Belgium",
+    "lat": 51.0563166,
+    "lng": 3.7226405,
+    "zone": "Gante · festivo 11 noviembre 2026",
+    "description": "Bar de jazz escondido en una pequeña callejuela junto a Groentenmarkt. El miércoles 11 se anuncia «1, 2, 3 + Bart Maris’ Jam»: actuaciones e improvisación con electrónica, saxofón y batería, seguidas de una jam abierta.",
+    "availability": "GRATIS. Inicio 21:00 del 11/11. Turismo de Gante confirma entrada gratuita a los conciertos y que no se pueden reservar plazas. Aforo sujeto a disponibilidad.",
+    "tip": "La opción más céntrica para terminar el paseo y escuchar música. No esperar exclusivamente jazz clásico: la noche está dedicada a improvisación libre y sonidos experimentales. Consumiciones aparte, si se piden; no se incluye ningún gasto obligatorio en el plan.",
+    "official": "https://www.hotclub.gent/programma.php?jaar=2026&maand=11",
+    "aliases": [
+      "Hot Club Gent · Mercredis Libres",
+      "Hot Club Gent"
+    ],
+    "mapNote": "Ubicación del recinto contrastada con OpenStreetMap. Acceso y disponibilidad según el organizador; revisión 10/11/2026.",
+    "extraSource": "https://visit.gent.be/es/comida-bebida/hot-club-gent"
+  },
+  {
+    "id": "gent_deloge",
+    "name": "Café de Loge · Team Apollo",
+    "query": "Café de Loge, Annonciadenstraat 5, 9000 Gent, Belgium",
+    "lat": 51.0499561,
+    "lng": 3.7168939,
+    "zone": "Gante · festivo 11 noviembre 2026",
+    "description": "Concierto de indie rock y postpunk de Team Apollo en formato íntimo: dos miembros del grupo presentan una versión reducida de sus canciones dentro de Luminous Fest. Un plan de una hora en un café con música en directo.",
+    "availability": "GRATIS según la agenda de actividades que recoge UiT. Miércoles 11/11, 21:00–22:00, horario confirmado en la web del café. No se ha hecho reserva; aforo no comprobado.",
+    "tip": "Alternativa al Hot Club para quien prefiera rock a improvisación de jazz. Llegar un poco antes y consultar las condiciones del local. Consumiciones aparte si se piden.",
+    "official": "https://www.deloge.be/live/team-apollo-luminous-fest",
+    "aliases": [
+      "Café de Loge · Team Apollo",
+      "Café de Loge",
+      "Team Apollo"
+    ],
+    "mapNote": "Ubicación del recinto contrastada con OpenStreetMap. Acceso y disponibilidad según el organizador; revisión 10/11/2026.",
+    "extraSource": "https://www.watdoenvandaag.be/events/uit-team-apollo-luminous-fest-gent-u8c48e8e5/"
+  },
+  {
+    "id": "gent_kinkystar",
+    "name": "Kinky Star · Juneau + Sotabosc",
+    "query": "Kinky Star, Vlasmarkt 9, 9000 Gent, Belgium",
+    "lat": 51.0558889,
+    "lng": 3.7284978,
+    "zone": "Gante · festivo 11 noviembre 2026",
+    "description": "Noche de música intensa: Juneau combina doom, postmetal y black metal; Sotabosc, de Cataluña, mezcla black metal atmosférico, postrock y dark folk. Sala pequeña en Vlasmarkt, cerca del eje de regreso hacia Dampoort.",
+    "availability": "GRATIS según el organizador. Miércoles 11/11: puertas 20:00, Juneau 21:00 y Sotabosc 22:15. Aforo no garantizado.",
+    "tip": "Elegir si os apetece metal; no es un concierto tranquilo de fondo. Podéis optar por la primera actuación o por ambas según el cansancio. No hay entradas compradas ni reserva realizada.",
+    "official": "https://www.kinkystar.com/nl/events/2026-11-11-nnc-sotabosc-es-juneau-be",
+    "aliases": [
+      "Kinky Star · Juneau + Sotabosc",
+      "Kinky Star",
+      "Juneau + Sotabosc"
+    ],
+    "mapNote": "Ubicación del recinto contrastada con OpenStreetMap. Acceso y disponibilidad según el organizador; revisión 10/11/2026."
+  },
+  {
+    "id": "gent_dekoer",
+    "name": "De Koer · Hamdam jamsessie",
+    "query": "De Koer, Meibloemstraat 86, 9000 Gent, Belgium",
+    "lat": 51.0599263,
+    "lng": 3.6966103,
+    "zone": "Gante · festivo 11 noviembre 2026",
+    "description": "Sesión musical participativa e improvisada en círculo, con raíces interculturales: se puede escuchar, mirar o participar. El encuentro busca mezclar personas, instrumentos y formas de expresión en un espacio cultural de barrio.",
+    "availability": "GRATIS según la agenda UiT recogida por WatDoenVandaag. Miércoles 11/11: puertas 19:30 y comienzo 20:00 confirmados por De Koer; final 22:30 según la agenda.",
+    "tip": "Está en Brugse Poort, al oeste, lejos del hotel Dampoort y del pequeño circuito monumental. Elegirla como plan de noche propio; reservar margen para el desplazamiento y consultar el transporte de vuelta.",
+    "official": "https://dekoer.be/programma/hamdam-jamsessie-31/",
+    "aliases": [
+      "De Koer · Hamdam jamsessie",
+      "Hamdam jamsessie",
+      "De Koer"
+    ],
+    "mapNote": "Ubicación del recinto contrastada con OpenStreetMap. Acceso y disponibilidad según el organizador; revisión 10/11/2026.",
+    "extraSource": "https://www.watdoenvandaag.be/events/uit-hamdam-jamsessie-gent-u36d8c559/"
+  },
+  {
+    "id": "gent_decentrale",
+    "name": "De Centrale · ARIFA y Avin Ahmadi",
+    "query": "De Centrale, Ham 70, 9000 Gent, Belgium",
+    "lat": 51.0609222,
+    "lng": 3.7344873,
+    "zone": "Gante · festivo 11 noviembre 2026",
+    "description": "Concierto «Silk Road Dialogues» del Festival por la Paz, relacionado con la conmemoración del fin de las guerras mundiales. ARIFA une músicas de Anatolia, Persia e India con arreglos contemporáneos, electrónica e improvisación; participa la cantante e intérprete de laúd Avin Ahmadi.",
+    "availability": "GRATIS, pero requiere solicitar entrada gratuita en la web del organizador. Miércoles 11/11: puertas 19:30 y comienzo 20:00. No se ha comprobado stock final ni se ha reservado ninguna plaza.",
+    "tip": "Una de las opciones más cómodas desde el hotel Dampoort. La dirección del centro es Kraankindersstraat 2; la entrada de las salas se indica en Ham 70. Comprobar que la entrada gratuita sigue disponible antes de organizar la noche.",
+    "official": "https://www.decentrale.be/en/agenda/music/arifa-ft.-avin-ahmadi",
+    "aliases": [
+      "De Centrale · ARIFA y Avin Ahmadi",
+      "ARIFA y Avin Ahmadi",
+      "De Centrale"
+    ],
+    "mapNote": "Ubicación del recinto contrastada con OpenStreetMap. Acceso y disponibilidad según el organizador; revisión 10/11/2026."
   }
 ]

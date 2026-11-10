@@ -57,6 +57,10 @@
         [
           "Gante",
           "#/gante"
+        ],
+        [
+          "Festivo en Gante",
+          "#/gante/festivo"
         ]
       ]
     },
@@ -3098,6 +3102,169 @@
           ]
         },
         {
+          "id": "festivo",
+          "label": "Festivo · 11 nov.",
+          "blocks": [
+            {
+              "type": "note",
+              "title": "Miércoles 11 de noviembre · solo planes gratuitos",
+              "text": "Opciones para vuestra llegada desde Lille. Son propuestas para elegir, no una agenda para hacerlas todas. Las actuaciones nocturnas se solapan. Entrada gratuita no equivale a plaza garantizada: ARIFA requiere ticket gratuito; los demás locales están sujetos a aforo. Las consumiciones y las compras opcionales se pagan aparte.",
+              "tone": "plain"
+            },
+            {
+              "type": "facts",
+              "title": "Elegid el ambiente de la noche",
+              "items": [
+                {
+                  "label": "Luces e instalación interactiva",
+                  "value": "Wintercircus por la tarde: gratis y en el centro. Winterlicht solo si podéis llegar antes de su cierre anunciado de las 17:00."
+                },
+                {
+                  "label": "Música intercultural · 20:00",
+                  "value": "ARIFA con Avin Ahmadi en De Centrale, cerca del hotel: pedir ticket gratuito. O Hamdam en De Koer, con más desplazamiento."
+                },
+                {
+                  "label": "Jazz experimental · 21:00",
+                  "value": "Hot Club Gent: céntrico, gratuito y sin reserva de plaza."
+                },
+                {
+                  "label": "Indie y postpunk · 21:00–22:00",
+                  "value": "Team Apollo en Café de Loge: formato íntimo y una duración cómoda."
+                },
+                {
+                  "label": "Metal · 21:00 y 22:15",
+                  "value": "Juneau y Sotabosc en Kinky Star: la opción de música más intensa, en Vlasmarkt."
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Tarde · luz, arquitectura y espacios cubiertos",
+              "items": [
+                {
+                  "label": "Wintercircus",
+                  "value": "Antiguo circo rehabilitado con arena pública. Del 10 al 15/11/2026 acoge la instalación audiovisual e interactiva de Ksawery Komputery: luz, sonido y movimiento, con visita gratuita durante el día. GRATIS. Miércoles 11/11: edificio abierto 09:00–20:00, confirmado por el horario semanal del recinto. La instalación se anuncia gratuita durante el día, sin hora específica de cierre publicada.",
+                  "placeId": "wintercircus"
+                },
+                {
+                  "label": "Winterlicht · lámparas en Christus Koningkerk",
+                  "value": "Más de cien lámparas de colores pintadas a mano por Karen Vande Casteele iluminan el interior de una iglesia moderna. Una visita breve y visual, diferente a un museo tradicional. La organizadora confirma la edición del 7 al 11 de noviembre de 2026. GRATIS. Miércoles 11, 14:00–17:00 según la agenda publicada; el horario de cierre no aparece detallado en la web actual de la organizadora. Último día de la exposición.",
+                  "placeId": "gent_winterlicht"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Winterlicht · horario con una salvedad",
+              "text": "La organizadora confirma del 7 al 11/11/2026. La franja del miércoles 14:00–17:00 procede de la agenda del evento, no de un horario actualizado en su web. El enlace interno «Winterlicht» de la organizadora conserva datos de 2022: no usar esos horarios antiguos. Consultar antes de hacer el desplazamiento a Nieuw Gent.",
+              "tone": "plain",
+              "url": "https://happeningnext.com/event/winterlicht-2026-eid3a0e7vi48u"
+            },
+            {
+              "type": "facts",
+              "title": "Noche · conciertos y encuentros gratuitos",
+              "items": [
+                {
+                  "label": "De Centrale · ARIFA y Avin Ahmadi",
+                  "value": "Concierto «Silk Road Dialogues» del Festival por la Paz, relacionado con la conmemoración del fin de las guerras mundiales. ARIFA une músicas de Anatolia, Persia e India con arreglos contemporáneos, electrónica e improvisación; participa la cantante e intérprete de laúd Avin Ahmadi. GRATIS, pero requiere solicitar entrada gratuita en la web del organizador. Miércoles 11/11: puertas 19:30 y comienzo 20:00. No se ha comprobado stock final ni se ha reservado ninguna plaza.",
+                  "placeId": "gent_decentrale"
+                },
+                {
+                  "label": "Hot Club Gent · Mercredis Libres",
+                  "value": "Bar de jazz escondido en una pequeña callejuela junto a Groentenmarkt. El miércoles 11 se anuncia «1, 2, 3 + Bart Maris’ Jam»: actuaciones e improvisación con electrónica, saxofón y batería, seguidas de una jam abierta. GRATIS. Inicio 21:00 del 11/11. Turismo de Gante confirma entrada gratuita a los conciertos y que no se pueden reservar plazas. Aforo sujeto a disponibilidad.",
+                  "placeId": "gent_hotclub"
+                },
+                {
+                  "label": "Café de Loge · Team Apollo",
+                  "value": "Concierto de indie rock y postpunk de Team Apollo en formato íntimo: dos miembros del grupo presentan una versión reducida de sus canciones dentro de Luminous Fest. Un plan de una hora en un café con música en directo. GRATIS según la agenda de actividades que recoge UiT. Miércoles 11/11, 21:00–22:00, horario confirmado en la web del café. No se ha hecho reserva; aforo no comprobado.",
+                  "placeId": "gent_deloge"
+                },
+                {
+                  "label": "Kinky Star · Juneau + Sotabosc",
+                  "value": "Noche de música intensa: Juneau combina doom, postmetal y black metal; Sotabosc, de Cataluña, mezcla black metal atmosférico, postrock y dark folk. Sala pequeña en Vlasmarkt, cerca del eje de regreso hacia Dampoort. GRATIS según el organizador. Miércoles 11/11: puertas 20:00, Juneau 21:00 y Sotabosc 22:15. Aforo no garantizado.",
+                  "placeId": "gent_kinkystar"
+                },
+                {
+                  "label": "De Koer · Hamdam jamsessie",
+                  "value": "Sesión musical participativa e improvisada en círculo, con raíces interculturales: se puede escuchar, mirar o participar. El encuentro busca mezclar personas, instrumentos y formas de expresión en un espacio cultural de barrio. GRATIS según la agenda UiT recogida por WatDoenVandaag. Miércoles 11/11: puertas 19:30 y comienzo 20:00 confirmados por De Koer; final 22:30 según la agenda.",
+                  "placeId": "gent_dekoer"
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "title": "Entradas y programas",
+              "items": [
+                {
+                  "label": "ARIFA · solicitar entrada gratuita",
+                  "url": "https://www.decentrale.be/en/agenda/music/arifa-ft.-avin-ahmadi",
+                  "text": "Pulsar «Order (free) ticket». Comienzo 20:00; disponibilidad sin confirmar. No hay reserva realizada."
+                },
+                {
+                  "label": "Hot Club · programa de noviembre de 2026",
+                  "url": "https://www.hotclub.gent/programma.php?jaar=2026&maand=11",
+                  "text": "Miércoles 11, 21:00: Mercredis Libres."
+                },
+                {
+                  "label": "Café de Loge · Team Apollo",
+                  "url": "https://www.deloge.be/live/team-apollo-luminous-fest",
+                  "text": "21:00–22:00."
+                },
+                {
+                  "label": "Kinky Star · programa y acceso gratuito",
+                  "url": "https://www.kinkystar.com/nl/events/2026-11-11-nnc-sotabosc-es-juneau-be",
+                  "text": "Puertas 20:00; actuaciones 21:00 y 22:15."
+                },
+                {
+                  "label": "De Koer · Hamdam",
+                  "url": "https://dekoer.be/programma/hamdam-jamsessie-31/",
+                  "text": "Puertas 19:30, sesión 20:00."
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Propuesta fácil tras dejar las maletas",
+              "text": "Hotel desde las 15:00 → paseo por el centro → instalación de Wintercircus durante la tarde → cena → elegir UN concierto. Para reducir desplazamientos: De Centrale si conseguís entrada gratuita, o Hot Club/Kinky Star después del paseo por el centro. Si elegís Café de Loge, contar el camino al oeste. Winterlicht es una alternativa a parte del paseo, no una parada que haya que sumar.",
+              "tone": "plain"
+            },
+            {
+              "type": "details",
+              "title": "Actos del Armisticio · por la mañana",
+              "blocks": [
+                {
+                  "type": "note",
+                  "title": "Conmemoración oficial · 11:00",
+                  "text": "El Ayuntamiento anuncia el acto del centro a las 11:00 en el monumento de Achtmeiplein, Koning Albertpark. También hay ceremonias en barrios entre las 09:15 y las 11:45. No encajan con vuestra llegada después de Lille; se incluyen como información del festivo.",
+                  "tone": "plain",
+                  "url": "https://stad.gent/nl/over-gent-stadsbestuur/over-gent/ontdek-historisch-gent/gent-herdenkt-de-wereldoorlogen"
+                }
+              ]
+            },
+            {
+              "type": "map",
+              "title": "Mapa del festivo · planes gratuitos",
+              "ids": [
+                "gante",
+                "wintercircus",
+                "gent_winterlicht",
+                "gent_hotclub",
+                "gent_deloge",
+                "gent_kinkystar",
+                "gent_dekoer",
+                "gent_decentrale"
+              ],
+              "walkRoutes": []
+            },
+            {
+              "type": "note",
+              "title": "Información y disponibilidad",
+              "text": "Revisado el 10/11/2026. Horarios oficiales cuando están publicados; las excepciones se indican en cada ficha. Los tiempos y la combinación propuesta son estimaciones propias. Entradas, aforos y programa pueden cambiar. Cada nombre abre una ficha con mapa, consejos y fuentes.",
+              "tone": "plain"
+            }
+          ]
+        },
+        {
           "id": "visitas",
           "label": "Qué ver",
           "blocks": [
@@ -3107,6 +3274,17 @@
               "text": "Priorizar canales y exteriores al anochecer. Elegid el paseo del centro y, si queda tiempo, Wintercircus o la extensión desde Sint-Pieters. No hace falta hacer todas las rutas.",
               "tone": "plain",
               "url": null
+            },
+            {
+              "type": "links",
+              "title": "Especial de mañana",
+              "items": [
+                {
+                  "label": "Festivo · miércoles 11 de noviembre",
+                  "url": "#/gante/festivo",
+                  "text": "Instalaciones de luz, conciertos gratuitos, horarios, condiciones de acceso y mapa."
+                }
+              ]
             },
             {
               "type": "routes",
@@ -3193,7 +3371,7 @@
                 },
                 {
                   "label": "Wintercircus",
-                  "value": "Antiguo circo rehabilitado con arena pública, instalación audiovisual, bares y eventos.",
+                  "value": "Antiguo circo rehabilitado con arena pública. Del 10 al 15/11/2026 acoge la instalación audiovisual e interactiva de Ksawery Komputery: luz, sonido y movimiento, con visita gratuita durante el día. Miércoles 11: edificio 09:00–20:00; instalación gratuita durante el día, hora exacta de cierre sin publicar.",
                   "placeId": "wintercircus"
                 }
               ]
@@ -3208,7 +3386,7 @@
                   "items": [
                     {
                       "label": "Wintercircus · antiguo circo rehabilitado",
-                      "value": "Arena cubierta de acceso público, arte, bares y sala de conciertos. Entrada principal: Lammerstraat 13.",
+                      "value": "Antiguo circo rehabilitado con arena pública. Del 10 al 15/11/2026 acoge la instalación audiovisual e interactiva de Ksawery Komputery: luz, sonido y movimiento, con visita gratuita durante el día. Miércoles 11: edificio 09:00–20:00; instalación gratuita durante el día, hora exacta de cierre sin publicar.",
                       "placeId": "wintercircus"
                     },
                     {
@@ -3221,7 +3399,7 @@
                 {
                   "type": "note",
                   "title": "Instalación audiovisual gratuita · 11 y 12 de noviembre",
-                  "text": "Ksawery Komputery transforma la arena con luz, sonido y movimiento. El festival anuncia la instalación del 10 al 15 de noviembre y entrada gratuita durante el día. Confirmar el horario exacto y el acceso el miércoles festivo o en caso de montaje de eventos.",
+                  "text": "Ksawery Komputery transforma la arena con luz, sonido y movimiento. FTI confirma la instalación del 10 al 15 de noviembre y entrada gratuita durante el día. El horario semanal del edificio confirma miércoles 11 y jueves 12 de 09:00 a 20:00; no se publica una hora específica de cierre de la instalación. Priorizar la tarde.",
                   "tone": "plain",
                   "url": "https://www.ftifestival.be/programma/gent/ksawery-komputery"
                 },
@@ -3235,8 +3413,8 @@
                 {
                   "type": "note",
                   "title": "Antes de ir",
-                  "text": "El miércoles 11 es festivo en Bélgica. El horario de la instalación, los bares y el acceso a la arena pueden variar por celebraciones o eventos. Comprobar las agendas oficiales. No confundir la fiesta Spreey del 10 al 11 (termina a las 03:00 del miércoles) con un evento la noche de llegada.",
-                  "tone": "pending",
+                  "text": "Horario del edificio comprobado para la semana del 9–15: miércoles y jueves 09:00–20:00. Bares y restaurantes tienen horarios propios. No confundir la fiesta Spreey del 10 al 11 (termina de madrugada) con un evento la noche de llegada. Más opciones gratuitas en la pestaña «Festivo · 11 nov.».",
+                  "tone": "plain",
                   "url": "https://www.wintercircus.be/en/practical/visit-us"
                 },
                 {
@@ -3562,7 +3740,13 @@
                 "trollekelder",
                 "waterhuis",
                 "gent_bassie",
-                "gent_bougie"
+                "gent_bougie",
+                "gent_winterlicht",
+                "gent_hotclub",
+                "gent_deloge",
+                "gent_kinkystar",
+                "gent_dekoer",
+                "gent_decentrale"
               ],
               "walkRoutes": []
             }
@@ -3608,16 +3792,23 @@
         "trollekelder",
         "waterhuis",
         "gent_bassie",
-        "gent_bougie"
+        "gent_bougie",
+        "gent_winterlicht",
+        "gent_hotclub",
+        "gent_deloge",
+        "gent_kinkystar",
+        "gent_dekoer",
+        "gent_decentrale"
       ],
       "next": "nantes",
       "paneAliases": {
         "plan": "visitas",
         "cervezas": "comida",
         "sint-pieters": "visitas",
-        "eventos": "visitas",
+        "eventos": "festivo",
         "viaje": "hotel",
-        "parking": "hotel"
+        "parking": "hotel",
+        "11-noviembre": "festivo"
       }
     },
     {
@@ -30865,9 +31056,10 @@
       "category": "atraccion",
       "lat": 51.048422,
       "lng": 3.727861,
-      "description": "Antiguo circo rehabilitado con arena pública, instalación audiovisual, bares y eventos.",
+      "description": "Antiguo circo rehabilitado con arena pública. Del 10 al 15/11/2026 acoge la instalación audiovisual e interactiva de Ksawery Komputery: luz, sonido y movimiento, con visita gratuita durante el día.",
       "status": "propuesta",
-      "url": "https://www.wintercircus.be/"
+      "url": "https://www.wintercircus.be/",
+      "address": "Wintercircus, Lammerstraat 13, 9000 Gent, Belgium"
     },
     {
       "id": "gante_parking",
@@ -32682,6 +32874,78 @@
       "description": "Parking cubierto al oeste del centro. Alternativa al Opéra y punto conveniente para Quai du Wault. Tarifa publicada sin reserva: 1 hora 2,10 €; 3 horas 5,70 €.",
       "url": "https://www.effia.com/parking/parking-lille-nouveau-siecle-effia",
       "status": "propuesta"
+    },
+    {
+      "id": "gent_winterlicht",
+      "name": "Winterlicht · lámparas en Christus Koningkerk",
+      "address": "Christus Koningkerk, Rerum-Novarumplein, 9000 Gent, Belgium",
+      "lat": 51.0230093,
+      "lng": 3.7190995,
+      "city": "Gante",
+      "category": "evento",
+      "status": "propuesta",
+      "description": "Más de cien lámparas de colores pintadas a mano por Karen Vande Casteele iluminan el interior de una iglesia moderna. Una visita breve y visual, diferente a un museo tradicional. La organizadora confirma la edición del 7 al 11 de noviembre de 2026.",
+      "url": "https://www.de-ukkeplukjes.com/"
+    },
+    {
+      "id": "gent_hotclub",
+      "name": "Hot Club Gent · Mercredis Libres",
+      "address": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent, Belgium",
+      "lat": 51.0563166,
+      "lng": 3.7226405,
+      "city": "Gante",
+      "category": "evento",
+      "status": "propuesta",
+      "description": "Bar de jazz escondido en una pequeña callejuela junto a Groentenmarkt. El miércoles 11 se anuncia «1, 2, 3 + Bart Maris’ Jam»: actuaciones e improvisación con electrónica, saxofón y batería, seguidas de una jam abierta.",
+      "url": "https://www.hotclub.gent/programma.php?jaar=2026&maand=11"
+    },
+    {
+      "id": "gent_deloge",
+      "name": "Café de Loge · Team Apollo",
+      "address": "Café de Loge, Annonciadenstraat 5, 9000 Gent, Belgium",
+      "lat": 51.0499561,
+      "lng": 3.7168939,
+      "city": "Gante",
+      "category": "evento",
+      "status": "propuesta",
+      "description": "Concierto de indie rock y postpunk de Team Apollo en formato íntimo: dos miembros del grupo presentan una versión reducida de sus canciones dentro de Luminous Fest. Un plan de una hora en un café con música en directo.",
+      "url": "https://www.deloge.be/live/team-apollo-luminous-fest"
+    },
+    {
+      "id": "gent_kinkystar",
+      "name": "Kinky Star · Juneau + Sotabosc",
+      "address": "Kinky Star, Vlasmarkt 9, 9000 Gent, Belgium",
+      "lat": 51.0558889,
+      "lng": 3.7284978,
+      "city": "Gante",
+      "category": "evento",
+      "status": "propuesta",
+      "description": "Noche de música intensa: Juneau combina doom, postmetal y black metal; Sotabosc, de Cataluña, mezcla black metal atmosférico, postrock y dark folk. Sala pequeña en Vlasmarkt, cerca del eje de regreso hacia Dampoort.",
+      "url": "https://www.kinkystar.com/nl/events/2026-11-11-nnc-sotabosc-es-juneau-be"
+    },
+    {
+      "id": "gent_dekoer",
+      "name": "De Koer · Hamdam jamsessie",
+      "address": "De Koer, Meibloemstraat 86, 9000 Gent, Belgium",
+      "lat": 51.0599263,
+      "lng": 3.6966103,
+      "city": "Gante",
+      "category": "evento",
+      "status": "propuesta",
+      "description": "Sesión musical participativa e improvisada en círculo, con raíces interculturales: se puede escuchar, mirar o participar. El encuentro busca mezclar personas, instrumentos y formas de expresión en un espacio cultural de barrio.",
+      "url": "https://dekoer.be/programma/hamdam-jamsessie-31/"
+    },
+    {
+      "id": "gent_decentrale",
+      "name": "De Centrale · ARIFA y Avin Ahmadi",
+      "address": "De Centrale, Ham 70, 9000 Gent, Belgium",
+      "lat": 51.0609222,
+      "lng": 3.7344873,
+      "city": "Gante",
+      "category": "evento",
+      "status": "propuesta",
+      "description": "Concierto «Silk Road Dialogues» del Festival por la Paz, relacionado con la conmemoración del fin de las guerras mundiales. ARIFA une músicas de Anatolia, Persia e India con arreglos contemporáneos, electrónica e improvisación; participa la cantante e intérprete de laúd Avin Ahmadi.",
+      "url": "https://www.decentrale.be/en/agenda/music/arifa-ft.-avin-ahmadi"
     }
   ],
   "stays": [
