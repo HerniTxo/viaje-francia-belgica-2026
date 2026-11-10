@@ -6,7 +6,7 @@ import {createHash} from 'node:crypto';
 const data=JSON.parse(fs.readFileSync('docs/data/trip.json','utf8'));
 assert.deepEqual(data.days.map(d=>d.day),[8,9,10,11,12,13,14,15]);
 assert.equal(data.meta.party,3);
-assert.deepEqual(data.pages.map(p=>p.id),['torcy-paris','disney','gante','brujas','bruselas','nantes','burdeos','saint-emilion','bilbao','frances','documentos','avis']);
+assert.deepEqual(data.pages.map(p=>p.id),['torcy-paris','disney','lille','gante','brujas','bruselas','nantes','burdeos','saint-emilion','bilbao','frances','documentos','avis']);
 const pages=new Map(data.pages.map(p=>[p.id,p]));
 const routes=new Map(data.routes.map(r=>[r.id,r]));
 const places=new Map(data.places.map(p=>[p.id,p]));

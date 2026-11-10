@@ -2990,5 +2990,379 @@
     "description": "Catedral ortodoxa contemporánea coronada por cinco cúpulas doradas. Parada exterior breve en la ruta 2: está junto al Alma y el paseo hacia la torre. Se omite en las otras dos para no alargar sus recorridos.",
     "official": "https://parisjetaime.com/culture/cathedrale-de-la-sainte-trinite-eglise-orthodoxe-russe-p1757",
     "mapNote": "Punto de referencia exterior; no implica entrada al edificio. Consulta: 07/11/2026."
+  },
+  {
+    "id": "lil_opera",
+    "name": "Place du Théâtre · Ópera y Cámara de Comercio",
+    "aliases": [
+      "Place du Théâtre · Ópera y Cámara de Comercio",
+      "Place du Théâtre"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Place du Théâtre, Lille, France",
+    "lat": 50.6376,
+    "lng": 3.0642,
+    "description": "Conjunto de fachadas de la Ópera y de la Cámara de Comercio, con su torre. Una de las vistas más bonitas al entrar al centro desde el parking Opéra. Parada de 10–15 minutos.",
+    "official": "https://www.opera-lille.fr/venir-a-lopera-de-lille/",
+    "availability": "Exterior gratuito; visita propuesta para el 11/11/2026.",
+    "tip": "Visita exterior; no se incluye acceso al teatro ni subida a la torre.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026.",
+    "lilleAliases": [
+      "Ópera",
+      "Opéra"
+    ]
+  },
+  {
+    "id": "lil_grand",
+    "name": "Grand’Place de Lille",
+    "aliases": [
+      "Grand’Place de Lille",
+      "Grand’Place",
+      "Grand Place de Lille"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Place du Général de Gaulle, Lille, France",
+    "lat": 50.6365,
+    "lng": 3.0635,
+    "description": "La plaza principal, rodeada de fachadas de influencia flamenca y presidida por la columna de la Diosa. La mejor postal del centro. Dedicar 15–20 minutos entre fotos y paseo.",
+    "official": "https://www.lilletourism.com/la-grand-place.html",
+    "availability": "Exterior gratuito; visita propuesta para el 11/11/2026.",
+    "tip": "",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_bourse",
+    "name": "Vieille Bourse · antigua Bolsa",
+    "aliases": [
+      "Vieille Bourse · antigua Bolsa",
+      "Vieille Bourse"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Vieille Bourse, Place du Général de Gaulle, Lille, France",
+    "lat": 50.637,
+    "lng": 3.0637,
+    "description": "Edificio de 1652–1653 con fachadas ornamentadas y patio interior donde se instalan libreros de segunda mano: libros, cómics, carteles y objetos antiguos. Exterior imprescindible; patio opcional.",
+    "official": "https://www.lilletourism.com/sortir/bonnes-adresses/commerces/marche-aux-livres-lille-fr-4588884/",
+    "availability": "Mercado: horario habitual martes–domingo 13:00–19:00. Apertura específica del festivo sin confirmar.",
+    "tip": "Si pasáis por la mañana, contad con ver el exterior. Volved desde las 13:00 solo si os queda de camino.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_rihour",
+    "name": "Palais Rihour · ceremonia del Armisticio",
+    "aliases": [
+      "Palais Rihour · ceremonia del Armisticio",
+      "Palais Rihour",
+      "Place Rihour"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Palais Rihour, Place Rihour, Lille, France",
+    "lat": 50.635,
+    "lng": 3.0622,
+    "description": "Vestigio del palacio gótico de los duques de Borgoña. En esta plaza se celebra el homenaje oficial del Armisticio el miércoles 11 de noviembre a las 10:00. Se propone ver el exterior del palacio.",
+    "official": "https://www.lilletourism.com/explorer/hello-culture/musees-lieux-culturels/tous-les-sites-culturels/le-palais-rihour-lille-fr-4431915/",
+    "availability": "Ceremonia confirmada por el Ayuntamiento: 11/11 a las 10:00. Duración y perímetro de cortes no publicados en la información consultada.",
+    "tip": "Para asistir, llegar hacia las 9:45. Durante el acto respetar accesos y controles; evitar aproximarse en coche a la plaza.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026.",
+    "extraSource": "https://www.lille.fr/Actualites/11-novembre-ouvert-ferme",
+    "lilleAliases": [
+      "Rihour"
+    ]
+  },
+  {
+    "id": "lil_esquermoise",
+    "name": "Rue Esquermoise",
+    "aliases": [
+      "Rue Esquermoise"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Rue Esquermoise, Lille, France",
+    "lat": 50.6383,
+    "lng": 3.061,
+    "description": "Calle de fachadas históricas y escaparates que conecta la Grand’Place con el Vieux-Lille. Aquí está la pastelería Méert. Enlazar con Rue Basse para llegar a la catedral sin grandes rodeos.",
+    "official": "https://www.lilletourism.com/explorer/hello-architecture-patrimoine/lille-et-ses-quartiers/vieux-lille/",
+    "availability": "Exterior gratuito; visita propuesta para el 11/11/2026.",
+    "tip": "Paseo de 10–15 minutos. Las tiendas tienen horarios propios de festivo.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_basse",
+    "name": "Rue Basse y casco antiguo",
+    "aliases": [
+      "Rue Basse y casco antiguo",
+      "Rue Basse"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Rue Basse, Lille, France",
+    "lat": 50.639,
+    "lng": 3.0631,
+    "description": "Calle del casco antiguo entre casas de ladrillo y piedra, tiendas y pequeños cruces. Sirve de enlace entre Esquermoise, la catedral y el regreso por Rue des Chats Bossus.",
+    "official": "https://www.lilletourism.com/explorer/hello-architecture-patrimoine/lille-et-ses-quartiers/vieux-lille/",
+    "availability": "Exterior gratuito; visita propuesta para el 11/11/2026.",
+    "tip": "Recorrer con calma; suelo empedrado en parte del Vieux-Lille.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_treille",
+    "name": "Notre-Dame de la Treille · exterior",
+    "aliases": [
+      "Notre-Dame de la Treille · exterior",
+      "Notre-Dame de la Treille",
+      "Place Gilleson"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Cathédrale Notre-Dame de la Treille, Place Gilleson, Lille, France",
+    "lat": 50.6406,
+    "lng": 3.0626,
+    "description": "Catedral de fachada contemporánea y cuerpo neogótico. El contraste del edificio y las casas de colores de Place Gilleson merecen una vuelta exterior de 10–15 minutos.",
+    "official": "https://cathedralelille.fr/pratique/horaires/",
+    "availability": "CERRADA el 11 de noviembre según la web de la catedral. Esta visita se limita al exterior y sus alrededores.",
+    "tip": "Rodear el edificio por las calles públicas. No contar con entrar para refugiarse de la lluvia.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026.",
+    "lilleAliases": [
+      "Treille"
+    ]
+  },
+  {
+    "id": "lil_oignons",
+    "name": "Place aux Oignons",
+    "aliases": [
+      "Place aux Oignons"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Place aux Oignons, Lille, France",
+    "lat": 50.6411,
+    "lng": 3.062,
+    "description": "Pequeña plaza empedrada entre callejuelas y casas antiguas: uno de los rincones más agradables del Vieux-Lille. Encaja especialmente bien con el paseo alrededor de la catedral.",
+    "official": "https://www.lilletourism.com/explorer/hello-architecture-patrimoine/lille-et-ses-quartiers/vieux-lille/",
+    "availability": "Exterior gratuito; visita propuesta para el 11/11/2026.",
+    "tip": "Reservar 10–15 minutos. Buena zona para una pausa si encontráis un local abierto.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_monnaie",
+    "name": "Rue de la Monnaie · Hospice Comtesse exterior",
+    "aliases": [
+      "Rue de la Monnaie · Hospice Comtesse exterior",
+      "Rue de la Monnaie",
+      "Hospice Comtesse"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Hospice Comtesse, 32 rue de la Monnaie, Lille, France",
+    "lat": 50.6415,
+    "lng": 3.064,
+    "description": "Calle histórica con comercios y fachadas; permite ver por fuera el antiguo Hospice Comtesse. Un buen tramo para callejear y continuar hacia las pastelerías o regresar al parking.",
+    "official": "https://www.lilletourism.com/explorer/hello-architecture-patrimoine/lille-et-ses-quartiers/vieux-lille/",
+    "availability": "Calle accesible. Musée de l’Hospice Comtesse CERRADO el 11/11 según el Ayuntamiento.",
+    "tip": "No se programa museo: paseo exterior de 10–15 minutos.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026.",
+    "extraSource": "https://www.lille.fr/Actualites/11-novembre-ouvert-ferme"
+  },
+  {
+    "id": "lil_gand",
+    "name": "Rue de Gand y Porte de Gand",
+    "aliases": [
+      "Rue de Gand y Porte de Gand",
+      "Porte de Gand",
+      "Rue de Gand"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Porte de Gand, Rue de Gand, Lille, France",
+    "lat": 50.6452,
+    "lng": 3.0682,
+    "description": "Calle de tabernas tradicionales que termina en una antigua puerta de la ciudad. Ampliación del casco antiguo para quien prefiera seguir callejeando antes de tomar el coche.",
+    "official": "https://www.lilletourism.com/explorer/hello-architecture-patrimoine/lille-et-ses-quartiers/vieux-lille/",
+    "availability": "Exterior gratuito. Desvío opcional: calcular unos 25–35 minutos extra ida y regreso desde Rue de la Monnaie.",
+    "tip": "Omitir en la versión de dos horas. El marcador corresponde a la puerta, al extremo norte de la calle.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_wault",
+    "name": "Quai du Wault",
+    "aliases": [
+      "Quai du Wault"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Quai du Wault, Lille, France",
+    "lat": 50.6387,
+    "lng": 3.0543,
+    "description": "Antiguo puerto con un pequeño estanque y fachadas reflejadas en el agua. Alternativa tranquila al centro comercial, especialmente agradable si no llueve.",
+    "official": "https://www.lilletourism.com/explorer/hello-architecture-patrimoine/lille-et-ses-quartiers/vieux-lille/",
+    "availability": "Paseo exterior gratuito. Añadir unos 30–40 minutos al circuito central, o sustituir parte del Vieux-Lille.",
+    "tip": "Encaja con el parking Nouveau Siècle y como enlace hacia el circo o el jardín Vauban.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_vauban",
+    "name": "Jardin Vauban",
+    "aliases": [
+      "Jardin Vauban"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Jardin Vauban, 1 Boulevard Vauban, Lille, France",
+    "lat": 50.6379,
+    "lng": 3.0485,
+    "description": "Jardín paisajístico de estilo inglés, con caminos sinuosos, árboles y estanques. Opción para estirar las piernas junto al entorno de la Ciudadela.",
+    "official": "https://www.lille.fr/Nos-equipements/Le-jardin-Vauban",
+    "availability": "Acceso gratuito sujeto a apertura del recinto; no se ha confirmado horario específico del 11/11.",
+    "tip": "Reservar 20–30 minutos y contar el desplazamiento desde el centro. Mejor alternativa con tiempo seco.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_citadelle",
+    "name": "Parc de la Citadelle · paseo exterior",
+    "aliases": [
+      "Parc de la Citadelle · paseo exterior",
+      "Parc de la Citadelle"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Porte Royale de la Citadelle, Avenue du 43e Régiment d’Infanterie, Lille, France",
+    "lat": 50.6414,
+    "lng": 3.0458,
+    "description": "Entorno verde de la fortificación de Vauban, para un paseo por sus accesos y alrededores. La Ciudadela conserva uso militar: el interior no es de libre acceso.",
+    "official": "https://parcdelacitadelle.lille.fr/le-patrimoine-vauban/la-citadelle-travers-lhistoire",
+    "availability": "Parque y recorridos públicos sujetos a señalización. No hay visita interior reservada. El zoo está cerrado por temporada.",
+    "tip": "Elegir un tramo corto de 30–45 minutos. Dar toda la vuelta al parque no encaja con un paseo completo del centro en 2–3 horas.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026.",
+    "extraSource": "https://www.lille.fr/Actualites/11-novembre-ouvert-ferme"
+  },
+  {
+    "id": "lil_paris",
+    "name": "Porte de Paris",
+    "aliases": [
+      "Porte de Paris"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Porte de Paris, Place Simon Vollant, Lille, France",
+    "lat": 50.6306,
+    "lng": 3.069,
+    "description": "Arco monumental con figuras de Hércules y Marte y una coronación muy ornamentada. Está junto al Ayuntamiento; buena alternativa si preferís monumentos grandes a seguir callejeando.",
+    "official": "https://www.lille.fr/Lille-Centre/Decouvrir-le-quartier/Culture-loisirs-et-patrimoine/Porte-de-Paris",
+    "availability": "Exterior gratuito; visita propuesta para el 11/11/2026.",
+    "tip": "Desde Rihour, calcular unos 15 minutos por sentido más la parada. Sustituye parte del circuito, o añade 40–50 minutos.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_mairie",
+    "name": "Ayuntamiento de Lille · concierto de las 16:00",
+    "aliases": [
+      "Ayuntamiento de Lille · concierto de las 16:00",
+      "Ayuntamiento de Lille"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Hôtel de Ville de Lille, Place Augustin Laurent, Lille, France",
+    "lat": 50.6302,
+    "lng": 3.0705,
+    "description": "Gran conjunto municipal con campanario. El 11 de noviembre está anunciado un concierto de la Harmonie municipale de Lille-Centre a las 16:00 en el Ayuntamiento.",
+    "official": "https://www.lille.fr/Actualites/11-novembre-ouvert-ferme",
+    "availability": "Ayuntamiento cerrado al público salvo el acceso al concierto de las 16:00. Duración, precio y condiciones de acceso no detallados en el anuncio consultado.",
+    "tip": "Alternativa solo si retrasáis la salida a Gante. No se confirma subida al campanario ni visita interior turística.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_cirque",
+    "name": "Grande Fête Lilloise du Cirque",
+    "aliases": [
+      "Grande Fête Lilloise du Cirque",
+      "Gran Fiesta del Circo",
+      "Circo de Lille"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "La Grande Fête Lilloise du Cirque, 1 allée des Marronniers, Esplanade du Champ de Mars, Lille, France",
+    "lat": 50.6429,
+    "lng": 3.0504,
+    "description": "Espectáculo bajo carpa con acrobacias, números aéreos, equilibrio y humor. Temporada del 17/10 al 15/11/2026. El organizador anuncia para el miércoles 11 sesiones a las 11:00 y 15:00: dos horas con 20 minutos de descanso incluidos.",
+    "official": "https://www.cirque-lille.fr/horaires/",
+    "availability": "De pago y sin entradas compradas. Web oficial: desde 9 €; tarifas online mostradas por categoría: bronce 9 €, plata 18 €, oro 23 €, prestige 26 €, sujetas a disponibilidad y al precio final de la compra.",
+    "tip": "Sustituye al paseo largo: reservar 2½–3 h contando llegada y salida. La agenda municipal añade 19:30 y publica finales más largos; esa sesión nocturna no figura en el calendario del organizador consultado. Confirmar en la venta antes de desplazarse. Taquilla abre 1 h antes, si quedan plazas.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026.",
+    "extraSource": "https://www.cirque-lille.fr/tarifs-infos/"
+  },
+  {
+    "id": "lil_sauveur",
+    "name": "Gare Saint Sauveur",
+    "aliases": [
+      "Gare Saint Sauveur"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Gare Saint Sauveur, 17 boulevard Jean-Baptiste Lebas, Lille, France",
+    "lat": 50.6266,
+    "lng": 3.0708,
+    "description": "Antigua estación de mercancías transformada en espacio cultural y de ocio. Alternativa para explorar un recinto diferente si llueve, combinable con Porte de Paris y el Ayuntamiento.",
+    "official": "https://www.lille.fr/Actualites/11-novembre-ouvert-ferme",
+    "availability": "El Ayuntamiento confirma apertura el 11/11. Horarios concretos, programa de salas y precios de actividades no confirmados.",
+    "tip": "Está fuera del pequeño circuito del Vieux-Lille. Elegirla como alternativa, sin sumar todos los recorridos. Confirmar agenda antes de ir expresamente.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_meert",
+    "name": "Méert · pastelería de Rue Esquermoise",
+    "aliases": [
+      "Méert · pastelería de Rue Esquermoise",
+      "Méert",
+      "Meert"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Méert, 27 rue Esquermoise, Lille, France",
+    "lat": 50.6381,
+    "lng": 3.0614,
+    "description": "Pastelería histórica conocida por sus gofres finos rellenos. El escaparate y la tienda encajan en el paseo central; comprar para llevar permite ahorrar tiempo.",
+    "official": "https://www.meert.fr/fr/magasins",
+    "availability": "Miércoles habitual: tienda 10:00–19:30; salón de té 12:00–19:00. No se ha confirmado excepción del festivo. Precios a consultar.",
+    "tip": "Si hay cola, seguir el paseo. Una pausa sentados puede consumir buena parte del margen.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_fred",
+    "name": "Aux Merveilleux de Fred · Rue de la Monnaie",
+    "aliases": [
+      "Aux Merveilleux de Fred · Rue de la Monnaie",
+      "Aux Merveilleux de Fred"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Aux Merveilleux de Fred, 67 rue de la Monnaie, Lille, France",
+    "lat": 50.643,
+    "lng": 3.0645,
+    "description": "Pastelería de merengues cubiertos de crema y virutas, además de bollería. Queda como pequeña prolongación al norte del Hospice Comtesse; opción para comprar algo dulce para el camino.",
+    "official": "https://www.auxmerveilleux.fr/adresses/",
+    "availability": "Dirección oficial confirmada. Horario especial del 11/11 y precios pendientes de comprobación.",
+    "tip": "No es una parada obligatoria: omitir si hay cola o si ya habéis parado en Méert.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
+  },
+  {
+    "id": "lil_parking_opera",
+    "name": "Parking EFFIA Lille Opéra",
+    "aliases": [
+      "Parking EFFIA Lille Opéra"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Parking EFFIA Lille Opéra, Boulevard Carnot, Lille, France",
+    "lat": 50.6389,
+    "lng": 3.0666,
+    "description": "Parking cubierto junto al centro y al Vieux-Lille. Primera opción para empezar por Place du Théâtre. Tarifa publicada sin reserva: 1 hora 2,10 €; 3 horas 6,20 €.",
+    "official": "https://www.effia.com/parking/parking-lille-opera-effia",
+    "availability": "24 h, 7 días, incluidos festivos. Altura máxima 1,90 m. Ascensor fuera de servicio hasta el 31/01/2027 según EFFIA. Disponibilidad no garantizada.",
+    "tip": "Introducir el nombre del parking y Boulevard Carnot en el navegador. El punto del mapa es orientativo; seguir señalización de entrada. No acceder por la plaza peatonal.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026.",
+    "lilleAliases": [
+      "Parking Opéra",
+      "parking Opéra"
+    ]
+  },
+  {
+    "id": "lil_parking_siecle",
+    "name": "Parking EFFIA Nouveau Siècle",
+    "aliases": [
+      "Parking EFFIA Nouveau Siècle"
+    ],
+    "zone": "Lille · 11 noviembre 2026",
+    "query": "Parking EFFIA Nouveau Siècle, 19 place Mendès France, Lille, France",
+    "lat": 50.6376,
+    "lng": 3.0577,
+    "description": "Parking cubierto al oeste del centro. Alternativa al Opéra y punto conveniente para Quai du Wault. Tarifa publicada sin reserva: 1 hora 2,10 €; 3 horas 5,70 €.",
+    "official": "https://www.effia.com/parking/parking-lille-nouveau-siecle-effia",
+    "availability": "24 h, 7 días, incluidos festivos. Altura máxima 2,30 m. Disponibilidad no garantizada.",
+    "tip": "Desde aquí iniciar por Rue Esquermoise o Grand’Place. El circo queda aproximadamente a 15–20 minutos a pie; reservar margen.",
+    "mapNote": "Ubicación de referencia; los accesos pueden variar. Información revisada el 10/11/2026."
   }
 ]

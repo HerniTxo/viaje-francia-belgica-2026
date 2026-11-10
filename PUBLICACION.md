@@ -194,3 +194,7 @@ Ficha independiente con mapa interactivo para 2 Place de la Duchesse Anne, frent
 ## 06/11/2026 · Referencias internas a destinos
 Nombres de ciudades y destinos pulsables en los textos de toda la guía, incluido inicio, planes, trayectos y documentos. Las menciones completas de atracciones conservan sus fichas individuales. Enlaces visibles con teclado y móvil; sin alterar audios ni direcciones de hoteles. Auditoría de enlaces internos, pestañas y alias ampliada.
 
+
+## 10/11/2026 · Lille, parada del 11 de noviembre
+
+Nueva página `#/lille` entre Disney y Gante; paseo de 2–3 h, visitas, eventos y alternativas (circo, zonas verdes y recorrido sur), dos parkings, mapa general y tiempo del día 11. 21 fichas con descripción, disponibilidad, consejos, fuentes y mapa individual; siete recorridos a pie calculados sobre OpenStreetMap/FOSSGIS y enlaces de carretera por Lille. Se actualiza el día 11 de la portada y la navegación. Parada confirmada por el viajero; actividades propuestas sin entradas compradas. Catedral cerrada, mercado de libros con horario habitual sin excepción festiva confirmada. Diferencia entre el calendario del circo y la agenda municipal indicada expresamente. Maestro y memorias consultados; no se modifican reservas ni otros destinos. Publicación solicitada por el usuario; comprobar despliegue del commit.
