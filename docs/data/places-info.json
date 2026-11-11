@@ -3137,5 +3137,80 @@
     "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local.",
     "lat": 51.0400803,
     "lng": 3.7255623
+  },
+  {
+    "id": "bxl_fritland",
+    "name": "Fritland",
+    "aliases": [
+      "Fritland"
+    ],
+    "zone": "Bruselas · centro",
+    "query": "Rue Henri Maus 49, 1000 Bruxelles",
+    "lat": 50.8474102,
+    "lng": 4.3506259,
+    "description": "Patatas y comida rápida junto a la Bolsa. Opción práctica entre visitas; local céntrico y concurrido.",
+    "official": "https://fritlandbrussels.be/",
+    "availability": "Jueves 11:00–01:00. Carta consultada: patatas sin salsa 4,50–5,50 €; con salsa 5,50–6,50 €.",
+    "tip": "Para picar barato sin reservar. El resto del pedido se paga aparte."
+  },
+  {
+    "id": "bxl_dandoy",
+    "name": "Maison Dandoy · Buls",
+    "aliases": [
+      "Maison Dandoy · Buls"
+    ],
+    "zone": "Bruselas · centro",
+    "query": "Rue Charles Buls 14, 1000 Bruxelles",
+    "lat": 50.8461416,
+    "lng": 4.3519427,
+    "description": "Gofres de Bruselas y de Lieja, además de galletas y speculoos, a pocos pasos de Grand Place. Para llevar o sentarse en el salón de té.",
+    "official": "https://maisondandoy.com/boutiques/charles-buls-salon-de-the",
+    "availability": "Jueves: salón de té 10:00–18:00; gofres para llevar 10:00–19:00. Precio según gofre y extras; consultar carta.",
+    "tip": "Una pausa dulce que encaja entre Grand Place y Manneken Pis."
+  },
+  {
+    "id": "bxl_findesiecle",
+    "name": "Fin de Siècle",
+    "aliases": [
+      "Fin de Siècle"
+    ],
+    "zone": "Bruselas · centro",
+    "query": "Rue des Chartreux 9, 1000 Bruxelles",
+    "lat": 50.8489285,
+    "lng": 4.3471046,
+    "description": "Brasserie de cocina belga en Saint-Géry: alternativa para comer sentado cerca de la Bolsa.",
+    "official": "https://www.findesiecle.be/en",
+    "availability": "Web: 12:00–00:00. Carta consultada: stoemp con salchichas 17,85 €, carbonada a la cerveza 19,45 €, vol-au-vent 18,95 €. Bebidas aparte; confirmar servicio de cocina.",
+    "tip": "Los platos elegidos rondan el límite de 20 €; una comida con bebida lo supera."
+  },
+  {
+    "id": "bxl_bbp",
+    "name": "Brussels Beer Project · Dansaert",
+    "aliases": [
+      "Brussels Beer Project · Dansaert"
+    ],
+    "zone": "Bruselas · centro",
+    "query": "Rue Antoine Dansaert 188, 1000 Bruxelles",
+    "lat": 50.8527821,
+    "lng": 4.3419262,
+    "description": "Taproom y tienda cervecera con cervezas propias y elaboraciones lambic. Desvío hacia el canal desde Sainte-Catherine.",
+    "official": "https://beerproject.be/pages/dansaert-taproom",
+    "availability": "Jueves: tienda 16:00–20:00; taproom 17:00–23:00. Consumos y experiencias de pago, consultar carta.",
+    "tip": "Solo si alargas la tarde: no sirve como parada cervecera de mediodía. Se ha anunciado cierre de esta sede a finales de 2026; comprobar antes de ir."
+  },
+  {
+    "id": "bxl_mortsubite",
+    "name": "À la Mort Subite",
+    "aliases": [
+      "À la Mort Subite"
+    ],
+    "zone": "Bruselas · centro",
+    "query": "Rue Montagne aux Herbes Potagères 7, 1000 Bruxelles",
+    "lat": 50.8486241,
+    "lng": 4.3562676,
+    "description": "Café histórico junto a las galerías Saint-Hubert, con decoración de época y selección de gueuzes y cervezas belgas.",
+    "official": "https://alamortsubite.com/en/menu",
+    "availability": "Jueves 11:00–00:00. Bebidas y comida según carta del local.",
+    "tip": "Encaja mejor que un bar nocturno para una pausa durante la excursión diurna."
   }
 ]

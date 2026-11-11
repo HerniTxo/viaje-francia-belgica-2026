@@ -4095,6 +4095,43 @@
               "url": null
             },
             {
+              "type": "facts",
+              "title": "Más opciones · patatas, gofres y cocina belga",
+              "items": [
+                {
+                  "label": "Fritland",
+                  "value": "Patatas y comida rápida junto a la Bolsa. Opción práctica entre visitas; local céntrico y concurrido. Jueves 11:00–01:00. Carta consultada: patatas sin salsa 4,50–5,50 €; con salsa 5,50–6,50 €. Para picar barato sin reservar. El resto del pedido se paga aparte.",
+                  "placeId": "bxl_fritland"
+                },
+                {
+                  "label": "Maison Dandoy · Buls",
+                  "value": "Gofres de Bruselas y de Lieja, además de galletas y speculoos, a pocos pasos de Grand Place. Para llevar o sentarse en el salón de té. Jueves: salón de té 10:00–18:00; gofres para llevar 10:00–19:00. Precio según gofre y extras; consultar carta. Una pausa dulce que encaja entre Grand Place y Manneken Pis.",
+                  "placeId": "bxl_dandoy"
+                },
+                {
+                  "label": "Fin de Siècle",
+                  "value": "Brasserie de cocina belga en Saint-Géry: alternativa para comer sentado cerca de la Bolsa. Web: 12:00–00:00. Carta consultada: stoemp con salchichas 17,85 €, carbonada a la cerveza 19,45 €, vol-au-vent 18,95 €. Bebidas aparte; confirmar servicio de cocina. Los platos elegidos rondan el límite de 20 €; una comida con bebida lo supera.",
+                  "placeId": "bxl_findesiecle"
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Más cervezas · café histórico y taproom",
+              "items": [
+                {
+                  "label": "Brussels Beer Project · Dansaert",
+                  "value": "Taproom y tienda cervecera con cervezas propias y elaboraciones lambic. Desvío hacia el canal desde Sainte-Catherine. Jueves: tienda 16:00–20:00; taproom 17:00–23:00. Consumos y experiencias de pago, consultar carta. Solo si alargas la tarde: no sirve como parada cervecera de mediodía. Se ha anunciado cierre de esta sede a finales de 2026; comprobar antes de ir.",
+                  "placeId": "bxl_bbp"
+                },
+                {
+                  "label": "À la Mort Subite",
+                  "value": "Café histórico junto a las galerías Saint-Hubert, con decoración de época y selección de gueuzes y cervezas belgas. Jueves 11:00–00:00. Bebidas y comida según carta del local. Encaja mejor que un bar nocturno para una pausa durante la excursión diurna.",
+                  "placeId": "bxl_mortsubite"
+                }
+              ]
+            },
+            {
               "type": "routes",
               "ids": [
                 "be_bxl_food"
@@ -4114,7 +4151,12 @@
                 "bxl_delirium",
                 "bxl_toone",
                 "bxl_beerlab",
-                "bxl_comicsans"
+                "bxl_comicsans",
+                "bxl_fritland",
+                "bxl_dandoy",
+                "bxl_findesiecle",
+                "bxl_bbp",
+                "bxl_mortsubite"
               ],
               "walkRoutes": [
                 "be_bxl_food"
@@ -4169,7 +4211,12 @@
                 "bxl_delirium",
                 "bxl_toone",
                 "bxl_beerlab",
-                "bxl_comicsans"
+                "bxl_comicsans",
+                "bxl_fritland",
+                "bxl_dandoy",
+                "bxl_findesiecle",
+                "bxl_bbp",
+                "bxl_mortsubite"
               ],
               "walkRoutes": []
             }
@@ -4210,7 +4257,12 @@
         "bxl_delirium",
         "bxl_toone",
         "bxl_beerlab",
-        "bxl_comicsans"
+        "bxl_comicsans",
+        "bxl_fritland",
+        "bxl_dandoy",
+        "bxl_findesiecle",
+        "bxl_bbp",
+        "bxl_mortsubite"
       ],
       "next": null,
       "paneAliases": {
@@ -27689,7 +27741,8 @@
       "lng": 4.3571,
       "category": "transporte",
       "status": "propuesta",
-      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+      "mapKind": "otros"
     },
     {
       "id": "grand_theatre",
@@ -27954,7 +28007,8 @@
       "address": "Grand Place, Bruxelles",
       "url": "https://www.visit.brussels/es/visitantes/venue-details.Grand-Place.220445",
       "lat": 50.84673,
-      "lng": 4.35255
+      "lng": 4.35255,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_galerias",
@@ -27966,7 +28020,8 @@
       "address": "Galeries Royales Saint-Hubert Bruxelles",
       "url": "https://www.grsh.be/",
       "lat": 50.8471,
-      "lng": 4.35322
+      "lng": 4.35322,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_manneken",
@@ -27978,7 +28033,8 @@
       "address": "Manneken Pis Bruxelles",
       "url": "https://www.visit.brussels/",
       "lat": 50.84499,
-      "lng": 4.34999
+      "lng": 4.34999,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_bolsa",
@@ -27990,7 +28046,8 @@
       "address": "Bourse Bruxelles",
       "url": "https://www.boursebeurs.be/en",
       "lat": 50.84795,
-      "lng": 4.35043
+      "lng": 4.35043,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_brucity",
@@ -28002,7 +28059,8 @@
       "address": "Brucity Rue des Halles 4 Bruxelles",
       "url": "https://www.brussels.be/rooftop",
       "lat": 50.8501,
-      "lng": 4.34998
+      "lng": 4.34998,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_beerlab",
@@ -28014,7 +28072,8 @@
       "address": "The BeerLab Rooftop Boulevard Anspach 80 Bruxelles",
       "url": "https://thebeerlabrooftop.be/en/contact",
       "lat": 50.84795,
-      "lng": 4.35043
+      "lng": 4.35043,
+      "mapKind": "bebida"
     },
     {
       "id": "bxl_atomium",
@@ -28026,7 +28085,8 @@
       "address": "Atomium Bruxelles",
       "url": "https://atomium.be/",
       "lat": 50.89517,
-      "lng": 4.34165
+      "lng": 4.34165,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_marolles",
@@ -28038,7 +28098,8 @@
       "address": "Place du Jeu de Balle Bruxelles",
       "url": "https://www.visit.brussels/en/visitors/plan-your-trip/the-marolles-brussels-authentic-and-popular-neighbourhood",
       "lat": 50.83702,
-      "lng": 4.34579
+      "lng": 4.34579,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_saintecatherine",
@@ -28050,7 +28111,8 @@
       "address": "Place Sainte-Catherine Bruxelles",
       "url": "https://www.visit.brussels/",
       "lat": 50.85081,
-      "lng": 4.34861
+      "lng": 4.34861,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_bellone",
@@ -28062,7 +28124,8 @@
       "address": "La Bellone Rue de Flandre Bruxelles",
       "url": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels",
       "lat": 50.85126,
-      "lng": 4.34612
+      "lng": 4.34612,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_cigogne",
@@ -28074,7 +28137,8 @@
       "address": "Rue de la Cigogne Bruxelles",
       "url": "https://www.visit.brussels/en/visitors/what-to-do/hidden-treasures-in-the-streets-of-brussels",
       "lat": 50.8525584,
-      "lng": 4.3447495
+      "lng": 4.3447495,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_toone",
@@ -28086,7 +28150,8 @@
       "address": "Théâtre Royal de Toone Rue du Marché aux Herbes 66 Bruxelles",
       "url": "https://www.toone.be/en/infos.php",
       "lat": 50.84772,
-      "lng": 4.35372
+      "lng": 4.35372,
+      "mapKind": "bebida"
     },
     {
       "id": "bxl_moeder",
@@ -28098,7 +28163,8 @@
       "address": "Moeder Lambic Fontainas Place Fontainas 8 Bruxelles",
       "url": "https://moederlambic.com/",
       "lat": 50.84512,
-      "lng": 4.34692
+      "lng": 4.34692,
+      "mapKind": "bebida"
     },
     {
       "id": "bxl_poechenelle",
@@ -28110,7 +28176,8 @@
       "address": "Poechenellekelder Rue du Chêne 5 Bruxelles",
       "url": "https://poechenellekelder.be/en",
       "lat": 50.84478,
-      "lng": 4.35002
+      "lng": 4.35002,
+      "mapKind": "bebida"
     },
     {
       "id": "bxl_delirium",
@@ -28122,7 +28189,8 @@
       "address": "Delirium Café Impasse de la Fidélité Bruxelles",
       "url": "https://www.deliriumvillage.com/contact/",
       "lat": 50.84845,
-      "lng": 4.35383
+      "lng": 4.35383,
+      "mapKind": "bebida"
     },
     {
       "id": "bxl_comicsans",
@@ -28134,7 +28202,8 @@
       "address": "Comic Sans Brussels Rue du Fossé aux Loups 27 Bruxelles",
       "url": "https://www.comicsansbrussels.be/",
       "lat": 50.85006,
-      "lng": 4.35496
+      "lng": 4.35496,
+      "mapKind": "bebida"
     },
     {
       "id": "bxl_outpost",
@@ -28146,7 +28215,8 @@
       "address": "Outpost Brussels Rue de la Tribune 8 Bruxelles",
       "url": "https://outpostbrussels.be/en/pages/qui-sommes-nous",
       "lat": 50.84867,
-      "lng": 4.36525
+      "lng": 4.36525,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_pinball",
@@ -28158,7 +28228,8 @@
       "address": "Brussels Pinball Museum Chaussée de Wavre 1501 Auderghem",
       "url": "https://www.brusselspinballmuseum.com/",
       "lat": 50.81842,
-      "lng": 4.4168
+      "lng": 4.4168,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_tropismes",
@@ -28170,7 +28241,8 @@
       "address": "Tropismes Galerie des Princes 11 Bruxelles",
       "url": "https://www.grsh.be/en/store/tropismes/",
       "lat": 50.84817,
-      "lng": 4.35484
+      "lng": 4.35484,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_casacomic",
@@ -28182,7 +28254,8 @@
       "address": "Boulevard de l’Impératrice 1, 1000 Bruxelles",
       "url": "https://www.visit.brussels/en/visitors/venue-details.Comic-Strip-House.265283",
       "lat": 50.844986,
-      "lng": 4.356646
+      "lng": 4.356646,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_brusel",
@@ -28194,7 +28267,8 @@
       "address": "Boulevard Anspach 100, 1000 Bruxelles",
       "url": "https://www.brusel.com/librairie-galerie-brusel/",
       "lat": 50.847679,
-      "lng": 4.349242
+      "lng": 4.349242,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_pelemek",
@@ -28206,7 +28280,8 @@
       "address": "Boulevard Maurice Lemonnier 59, 1000 Bruxelles",
       "url": "https://pele-mele.be/bruxelles/",
       "lat": 50.8442037,
-      "lng": 4.3450118
+      "lng": 4.3450118,
+      "mapKind": "otros"
     },
     {
       "id": "bxl_comicmuseum",
@@ -28218,7 +28293,8 @@
       "address": "Comic Art Museum Rue des Sables 20 Bruxelles",
       "url": "https://www.comicscenter.net/en/practical-information/opening-hours-and-admission-fees",
       "lat": 50.851252,
-      "lng": 4.360134
+      "lng": 4.360134,
+      "mapKind": "otros"
     },
     {
       "id": "bru_markt",
@@ -28835,7 +28911,8 @@
       "lng": 4.3517884,
       "description": "Fritkot de ambiente local junto al Sablon y Marolles: patatas, salsas y snacks para llevar. Llevar efectivo: Turismo indica que solo acepta cash. Presupuesto propio: 6–12 € según pedido; precio y horario exacto del jueves a comprobar. Se sitúa el entorno de la plaza, no una entrada exacta.",
       "status": "propuesta",
-      "url": "https://www.visit.brussels/fr/visiteurs/venue-details.Fritterie-Pitta-de-la-Chappelle.278802"
+      "url": "https://www.visit.brussels/fr/visiteurs/venue-details.Fritterie-Pitta-de-la-Chappelle.278802",
+      "mapKind": "comida"
     },
     {
       "id": "bxl_noordzee",
@@ -28847,7 +28924,8 @@
       "lng": 4.3476549,
       "description": "Bar de pescado para comer pequeñas raciones de pie en el barrio de Sainte-Catherine. Más adecuado para probar una o dos cosas que para un menú sentado. Presupuesto propio: 12–20 €, muy variable según pescado y cantidad. Fishbar habitual martes–domingo 11:00–18:30. Cierre anunciado del 9 al 11 inclusive; el 12 queda fuera de ese cierre, confirmar reapertura.",
       "status": "propuesta",
-      "url": "https://noordzeemerdunord.be/contact/?lang=en"
+      "url": "https://noordzeemerdunord.be/contact/?lang=en",
+      "mapKind": "comida"
     },
     {
       "id": "bxl_wolf",
@@ -28859,7 +28937,8 @@
       "lng": 4.3563069,
       "description": "Mercado cubierto con puestos de distintas cocinas en un antiguo banco. Útil para almorzar solo y comparar cartas. Presupuesto propio: 12–20 € según puesto; no es el más barato. La web del local limita la comida entre semana a 12:00–14:30 y 18:00–22:00; bebidas 12:00–22:30. Para el jueves, ir al mediodía.",
       "status": "propuesta",
-      "url": "https://wolf.be/en/bxl/contact-fqa/"
+      "url": "https://wolf.be/en/bxl/contact-fqa/",
+      "mapKind": "comida"
     },
     {
       "id": "bxl_presale",
@@ -28871,7 +28950,8 @@
       "lng": 4.346789,
       "description": "Brasserie en Sainte-Catherine para mejillones con patatas: marinière 25,90 € y al vino blanco 26,90 € en la carta consultada. Es un capricho por encima del presupuesto económico, no una comida de 10–15 €. Todos los días 12:00–15:00 y 18:00–22:30. Comprobar disponibilidad; no hay reserva.",
       "status": "propuesta",
-      "url": "https://restaurantlepresale.com/en/menu/"
+      "url": "https://restaurantlepresale.com/en/menu/",
+      "mapKind": "comida"
     },
     {
       "id": "bxl_bortier",
@@ -28883,7 +28963,8 @@
       "lng": 4.3550347,
       "description": "Galería cubierta que combina librerías, café y pequeños puestos gastronómicos. Alternativa curiosa cerca de la estación Central: cocina sirio-libanesa, india, italiana y otros conceptos. Presupuesto propio: 10–18 € según puesto; consultar horarios y precios de cada uno. No se promete que todos abran a la vez.",
       "status": "propuesta",
-      "url": "https://bortier.be/en/food-corners/"
+      "url": "https://bortier.be/en/food-corners/",
+      "mapKind": "comida"
     },
     {
       "id": "gent_fuel_afrika",
@@ -29614,6 +29695,71 @@
       "mapKind": "otros",
       "lat": 51.0400803,
       "lng": 3.7255623
+    },
+    {
+      "id": "bxl_fritland",
+      "name": "Fritland",
+      "city": "Bruselas",
+      "category": "comida-bebida",
+      "address": "Rue Henri Maus 49, 1000 Bruxelles",
+      "url": "https://fritlandbrussels.be/",
+      "description": "Patatas y comida rápida junto a la Bolsa. Opción práctica entre visitas; local céntrico y concurrido.",
+      "lat": 50.8474102,
+      "lng": 4.3506259,
+      "status": "propuesta",
+      "mapKind": "comida"
+    },
+    {
+      "id": "bxl_dandoy",
+      "name": "Maison Dandoy · Buls",
+      "city": "Bruselas",
+      "category": "comida-bebida",
+      "address": "Rue Charles Buls 14, 1000 Bruxelles",
+      "url": "https://maisondandoy.com/boutiques/charles-buls-salon-de-the",
+      "description": "Gofres de Bruselas y de Lieja, además de galletas y speculoos, a pocos pasos de Grand Place. Para llevar o sentarse en el salón de té.",
+      "lat": 50.8461416,
+      "lng": 4.3519427,
+      "status": "propuesta",
+      "mapKind": "comida"
+    },
+    {
+      "id": "bxl_findesiecle",
+      "name": "Fin de Siècle",
+      "city": "Bruselas",
+      "category": "comida-bebida",
+      "address": "Rue des Chartreux 9, 1000 Bruxelles",
+      "url": "https://www.findesiecle.be/en",
+      "description": "Brasserie de cocina belga en Saint-Géry: alternativa para comer sentado cerca de la Bolsa.",
+      "lat": 50.8489285,
+      "lng": 4.3471046,
+      "status": "propuesta",
+      "mapKind": "comida"
+    },
+    {
+      "id": "bxl_bbp",
+      "name": "Brussels Beer Project · Dansaert",
+      "city": "Bruselas",
+      "category": "comida-bebida",
+      "address": "Rue Antoine Dansaert 188, 1000 Bruxelles",
+      "url": "https://beerproject.be/pages/dansaert-taproom",
+      "description": "Taproom y tienda cervecera con cervezas propias y elaboraciones lambic. Desvío hacia el canal desde Sainte-Catherine.",
+      "lat": 50.8527821,
+      "lng": 4.3419262,
+      "status": "propuesta",
+      "mapKind": "bebida"
+    },
+    {
+      "id": "bxl_mortsubite",
+      "name": "À la Mort Subite",
+      "city": "Bruselas",
+      "category": "comida-bebida",
+      "address": "Rue Montagne aux Herbes Potagères 7, 1000 Bruxelles",
+      "url": "https://alamortsubite.com/en/menu",
+      "description": "Café histórico junto a las galerías Saint-Hubert, con decoración de época y selección de gueuzes y cervezas belgas.",
+      "lat": 50.8486241,
+      "lng": 4.3562676,
+      "status": "propuesta",
+      "mapKind": "bebida"
     }
   ],
   "stays": [

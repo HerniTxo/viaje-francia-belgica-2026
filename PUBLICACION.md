@@ -212,3 +212,7 @@ Nueve fichas nuevas: Gruut, Artevelde, Bij Filip, dos Oyya, Gouden Saté, Overpo
 
 ## 11/11/2026 · Marcadores completos de Gante
 Coordenadas persistidas para nueve fichas gastronómicas. Marcadores naranjas de comida, morados de bebida y verdes de otros lugares, con leyenda; agrupación por recinto y tipo, separada visualmente cuando comparten ubicación. Mapa general con los 43 sitios de Gante.
+
+## 11 noviembre 2026 · Bruselas: comer, beber y mapas
+- Cinco fichas nuevas: Fritland, Dandoy Buls, Fin de Siècle, BBP Dansaert y À la Mort Subite, con fuentes oficiales y horarios habituales.
+- Mapa de comida y mapa general completos; naranja comida, morado bebidas, verde visitas y servicios. Murales conservan mapa independiente.
