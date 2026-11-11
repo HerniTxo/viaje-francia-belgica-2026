@@ -27501,7 +27501,8 @@
       "lat": 51.05967,
       "lng": 3.73868,
       "description": "Hotel reservado del 11 al 13. Parking 22 €/día no reservable.",
-      "status": "confirmado"
+      "status": "confirmado",
+      "mapKind": "otros"
     },
     {
       "id": "graslei",
@@ -27512,7 +27513,8 @@
       "lng": 3.7201,
       "description": "Paseo por los muelles históricos y los canales.",
       "status": "propuesta",
-      "url": "https://visit.gent.be/"
+      "url": "https://visit.gent.be/",
+      "mapKind": "otros"
     },
     {
       "id": "gravensteen",
@@ -27523,7 +27525,8 @@
       "lng": 3.7207,
       "description": "Fortaleza medieval. Exterior visible gratuitamente desde las calles públicas. Interior: 15 € adulto, 10:00–18:00; última venta de tickets 16:40. No se anuncia gratuidad general por el festivo del 11/11.",
       "status": "propuesta",
-      "url": "https://historischehuizen.stad.gent/en/castle-counts"
+      "url": "https://historischehuizen.stad.gent/en/castle-counts",
+      "mapKind": "otros"
     },
     {
       "id": "bavo",
@@ -27534,7 +27537,8 @@
       "lng": 3.7276,
       "description": "Catedral y entorno monumental.",
       "status": "propuesta",
-      "url": "https://www.sintbaafskathedraal.be/"
+      "url": "https://www.sintbaafskathedraal.be/",
+      "mapKind": "otros"
     },
     {
       "id": "nantes",
@@ -27653,7 +27657,8 @@
       "category": "atraccion",
       "status": "propuesta",
       "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
-      "url": "https://historischehuizen.stad.gent/en/belfry"
+      "url": "https://historischehuizen.stad.gent/en/belfry",
+      "mapKind": "otros"
     },
     {
       "id": "dampoort",
@@ -27663,7 +27668,8 @@
       "lng": 3.7407,
       "category": "transporte",
       "status": "propuesta",
-      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar."
+      "description": "Ubicación de referencia; comprobar acceso y sentido en el lugar.",
+      "mapKind": "otros"
     },
     {
       "id": "brugge",
@@ -27764,7 +27770,8 @@
       "lat": 51.0584,
       "lng": 3.7225,
       "description": "Barrio medieval, paseo exterior.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "otros"
     },
     {
       "id": "korenlei",
@@ -27774,7 +27781,8 @@
       "lat": 51.0552,
       "lng": 3.7195,
       "description": "Muelle histórico enfrente de Graslei.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "otros"
     },
     {
       "id": "michael_bridge",
@@ -27784,7 +27792,8 @@
       "lat": 51.0548,
       "lng": 3.7205,
       "description": "Mirador del casco histórico.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "otros"
     },
     {
       "id": "niklaas",
@@ -27795,7 +27804,8 @@
       "lng": 3.7221,
       "description": "Iglesia gótica; interior opcional.",
       "status": "propuesta",
-      "url": "https://visit.gent.be/en/see-do/st-nicholas-church"
+      "url": "https://visit.gent.be/en/see-do/st-nicholas-church",
+      "mapKind": "otros"
     },
     {
       "id": "graffiti",
@@ -27805,7 +27815,8 @@
       "lat": 51.055,
       "lng": 3.7255,
       "description": "Arte urbano cambiante.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "otros"
     },
     {
       "id": "vrijdagmarkt",
@@ -27815,7 +27826,8 @@
       "lat": 51.0584,
       "lng": 3.7263,
       "description": "Plaza histórica, con bares.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "otros"
     },
     {
       "id": "dulle_griet",
@@ -27826,7 +27838,8 @@
       "lng": 3.726,
       "description": "Bar de cerveza belga y tradición del zapato.",
       "status": "propuesta",
-      "url": "https://www.dullegriet.be/"
+      "url": "https://www.dullegriet.be/",
+      "mapKind": "bebida"
     },
     {
       "id": "trollekelder",
@@ -27836,7 +27849,8 @@
       "lat": 51.0562,
       "lng": 3.7295,
       "description": "Bar temático y cervezas belgas.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "bebida"
     },
     {
       "id": "waterhuis",
@@ -27846,7 +27860,8 @@
       "lat": 51.0568,
       "lng": 3.7217,
       "description": "Bar de cerveza junto al agua.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "bebida"
     },
     {
       "id": "pieters",
@@ -27856,7 +27871,8 @@
       "lat": 51.0354,
       "lng": 3.7107,
       "description": "Estación alternativa para volver andando al centro.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "otros"
     },
     {
       "id": "abbey_pieters",
@@ -27866,7 +27882,8 @@
       "lat": 51.0419,
       "lng": 3.7266,
       "description": "Conjunto histórico, exterior.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "otros"
     },
     {
       "id": "vooruit",
@@ -27877,7 +27894,8 @@
       "lng": 3.7272,
       "description": "Edificio cultural singular.",
       "status": "propuesta",
-      "url": "https://www.viernulvier.gent/"
+      "url": "https://www.viernulvier.gent/",
+      "mapKind": "otros"
     },
     {
       "id": "krook",
@@ -27888,7 +27906,8 @@
       "lng": 3.72879,
       "description": "Biblioteca y centro cultural junto al río, al lado de Wintercircus.",
       "status": "propuesta",
-      "url": "https://dekrook.be/"
+      "url": "https://dekrook.be/",
+      "mapKind": "otros"
     },
     {
       "id": "wintercircus",
@@ -27900,7 +27919,8 @@
       "description": "Antiguo circo rehabilitado con arena pública. Del 10 al 15/11/2026 acoge la instalación audiovisual e interactiva de Ksawery Komputery: luz, sonido y movimiento, con visita gratuita durante el día.",
       "status": "propuesta",
       "url": "https://www.wintercircus.be/",
-      "address": "Wintercircus, Lammerstraat 13, 9000 Gent, Belgium"
+      "address": "Wintercircus, Lammerstraat 13, 9000 Gent, Belgium",
+      "mapKind": "otros"
     },
     {
       "id": "gante_parking",
@@ -27910,7 +27930,8 @@
       "lat": 51.05967,
       "lng": 3.73868,
       "description": "Aparcamiento cubierto en el mismo edificio del hotel, Koopvaardijlaan 29. No reservable según el justificante. Consultar tarifa y disponibilidad con el hotel. Punto de referencia del edificio o estación; comprobar el acceso al parking.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "otros"
     },
     {
       "id": "dampoort_parking",
@@ -27920,7 +27941,8 @@
       "lat": 51.0561,
       "lng": 3.7407,
       "description": "Aparcamiento exterior junto a la estación, en Koopvaardijlaan. Alternativa al parking del hotel; no está reservado. Consultar las tarifas y condiciones actuales en SNCB. Punto de referencia del edificio o estación; comprobar el acceso al parking.",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "otros"
     },
     {
       "id": "bxl_grandplace",
@@ -28673,7 +28695,8 @@
       "lng": 3.7239193,
       "description": "Cena económica y rápida junto al centro: patatas, estofado flamenco y snacks vegetales. Menú de estofado con patatas pequeñas, mayonesa y bebida: 12,50 € en su carta de pedidos; comprobar precio en el local. Horario habitual 11:30–22:00; confirmar el festivo 11. Céntrica y popular, no una taberna escondida.",
       "status": "propuesta",
-      "url": "https://visit.gent.be/en/eat-drink/frituur-tartaar"
+      "url": "https://visit.gent.be/en/eat-drink/frituur-tartaar",
+      "mapKind": "comida"
     },
     {
       "id": "gent_frietketel",
@@ -28685,7 +28708,8 @@
       "lng": 3.7115192,
       "description": "Freiduría de barrio, fuera del eje más turístico. Patatas, snacks y hamburguesas, con muchas opciones vegetarianas y veganas. Presupuesto propio orientativo: 8–14 € según pedido, sin tarifa cerrada. Servicio de tarde habitual 17:00–22:00; confirmar el 11 festivo. Supone un desvío respecto al centro monumental.",
       "status": "propuesta",
-      "url": "https://visit.gent.be/en/eat-drink/de-frietketel"
+      "url": "https://visit.gent.be/en/eat-drink/de-frietketel",
+      "mapKind": "comida"
     },
     {
       "id": "gent_bocca",
@@ -28697,7 +28721,8 @@
       "lng": 3.7196943,
       "description": "Pasta rápida para comer allí o llevar. Carta oficial de la cadena: tamaño pequeño 7,20 €, mediano 9,40 € y grande 10,60 €, con posibles suplementos. Lunes–sábado 11:30–22:00; cierra domingos y festivos. NO planificar para el miércoles 11; opción para cenar el jueves 12.",
       "status": "propuesta",
-      "url": "https://www.bocca.be/bocca-gent-center"
+      "url": "https://www.bocca.be/bocca-gent-center",
+      "mapKind": "comida"
     },
     {
       "id": "gent_hims_centre",
@@ -28709,7 +28734,8 @@
       "lng": 3.7224951,
       "description": "Panadería histórica de 1880, para comprar pan o bollería al pasar por el centro. Laborables 07:30–18:00; fin de semana 08:00–18:00. Presupuesto propio orientativo de desayuno sencillo: 5–10 €. Queda más lejos del hotel; útil si primero vais al centro, no como parada necesaria antes del tren.",
       "status": "propuesta",
-      "url": "https://www.bakkerijhimschoot.be/contact"
+      "url": "https://www.bakkerijhimschoot.be/contact",
+      "mapKind": "comida"
     },
     {
       "id": "gent_bassie",
@@ -28721,7 +28747,8 @@
       "lng": 3.727861,
       "description": "Azotea con vistas, cócteles y cervezas. Horario habitual lunes–jueves 16:00–00:00. Parada opcional para tomar algo; no se presenta como opción barata. Confirmar el festivo.",
       "status": "propuesta",
-      "url": "https://www.wintercircus.be/en/food-and-drinks"
+      "url": "https://www.wintercircus.be/en/food-and-drinks",
+      "mapKind": "bebida"
     },
     {
       "id": "gent_bougie",
@@ -28733,7 +28760,8 @@
       "lng": 3.727861,
       "description": "Café instalado en un antiguo taller de coches, con bebidas y aperitivos. La web publica horarios por semana: confirmar los del 11–12 antes de ir; los del 2–8 no garantizan vuestra visita.",
       "status": "propuesta",
-      "url": "https://www.wintercircus.be/en/food-and-drinks"
+      "url": "https://www.wintercircus.be/en/food-and-drinks",
+      "mapKind": "bebida"
     },
     {
       "id": "gent_klaas",
@@ -28745,7 +28773,8 @@
       "lng": 3.727861,
       "description": "Panadería con desayuno y café dentro del antiguo circo. Habitualmente miércoles–domingo 08:00–17:00. Precio a consultar; alternativa curiosa si desayunáis en el centro.",
       "status": "propuesta",
-      "url": "https://www.wintercircus.be/en/food-and-drinks"
+      "url": "https://www.wintercircus.be/en/food-and-drinks",
+      "mapKind": "comida"
     },
     {
       "id": "gent_mario",
@@ -28757,7 +28786,8 @@
       "lng": 3.727861,
       "description": "Por la noche, el espacio de panadería ofrece pizza de masa madre al horno de leña. Habitualmente miércoles–domingo 18:00–22:00. Carta y precios por consultar; confirmar festivo y disponibilidad.",
       "status": "propuesta",
-      "url": "https://www.wintercircus.be/en/food-and-drinks"
+      "url": "https://www.wintercircus.be/en/food-and-drinks",
+      "mapKind": "comida"
     },
     {
       "id": "bru_gentpoorte",
@@ -28865,7 +28895,8 @@
       "lng": 3.7391452,
       "description": "Gasolinera próxima a Dampoort con gasolina 95 E10 y 98 E5. La marca anuncia Max Discount: candidata económica para comparar antes de repostar, sin garantía de ser la más barata ese día. El precio actual y el acceso se consultan en su ficha oficial.",
       "status": "propuesta",
-      "url": "https://www.gabriels.be/nl/tankstation-vinden/gabriels-gent"
+      "url": "https://www.gabriels.be/nl/tankstation-vinden/gabriels-gent",
+      "mapKind": "otros"
     },
     {
       "id": "gent_fuel_amands",
@@ -28877,7 +28908,8 @@
       "lng": 3.750799891367,
       "description": "Gasolinera próxima a Dampoort con gasolina 95 E10 y 98 E5. La marca anuncia Max Discount: candidata económica para comparar antes de repostar, sin garantía de ser la más barata ese día. El precio actual y el acceso se consultan en su ficha oficial.",
       "status": "propuesta",
-      "url": "https://www.gabriels.be/nl/tankstation-vinden/gabriels-sintamandsberg"
+      "url": "https://www.gabriels.be/nl/tankstation-vinden/gabriels-sintamandsberg",
+      "mapKind": "otros"
     },
     {
       "id": "bru_blend",
@@ -29450,7 +29482,8 @@
       "category": "evento",
       "status": "propuesta",
       "description": "Más de cien lámparas de colores pintadas a mano por Karen Vande Casteele iluminan el interior de una iglesia moderna. Una visita breve y visual, diferente a un museo tradicional. La organizadora confirma la edición del 7 al 11 de noviembre de 2026.",
-      "url": "https://www.de-ukkeplukjes.com/"
+      "url": "https://www.de-ukkeplukjes.com/",
+      "mapKind": "otros"
     },
     {
       "id": "gent_dekoer",
@@ -29462,7 +29495,8 @@
       "category": "evento",
       "status": "propuesta",
       "description": "Sesión musical participativa e improvisada en círculo, con raíces interculturales: se puede escuchar, mirar o participar. El encuentro busca mezclar personas, instrumentos y formas de expresión en un espacio cultural de barrio.",
-      "url": "https://dekoer.be/programma/hamdam-jamsessie-31/"
+      "url": "https://dekoer.be/programma/hamdam-jamsessie-31/",
+      "mapKind": "otros"
     },
     {
       "id": "gent_food_gruut",
@@ -29472,7 +29506,10 @@
       "category": "comida",
       "description": "Cervecería familiar con cervezas elaboradas con una mezcla de hierbas. Buena opción para probar una cerveza local en el propio recinto; las degustaciones y visitas tienen condiciones y precio propios.",
       "url": "https://www.gruut.be/en/contact/",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "bebida",
+      "lat": 51.0574426,
+      "lng": 3.7302643
     },
     {
       "id": "gent_food_artevelde",
@@ -29482,7 +29519,10 @@
       "category": "comida",
       "description": "Cerveza local entre equipos de elaboración, junto al Ayuntamiento. Interesa como parada cervecera en pleno centro; consultar carta y disponibilidad de visitas.",
       "url": "https://artevelde.be/",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "bebida",
+      "lat": 51.0543069,
+      "lng": 3.7254272
     },
     {
       "id": "gent_food_filip",
@@ -29492,7 +29532,10 @@
       "category": "comida",
       "description": "Freiduría junto al antiguo mercado de carne: cucurucho de patatas y snacks para llevar mientras paseáis. También puede aparecer como Frituur Hendrik; comprobar el rótulo del puesto.",
       "url": "https://visit.gent.be/en/bij-filip",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "comida",
+      "lat": 51.0558153,
+      "lng": 3.7216649
     },
     {
       "id": "gent_food_oyya",
@@ -29502,7 +29545,10 @@
       "category": "comida",
       "description": "Gofres de Lieja, helados artesanos y batidos. Parada dulce para llevar cerca del centro; otra sucursal en Langemunt 8.",
       "url": "https://visit.gent.be/en/eat-drink/oyya",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "comida",
+      "lat": 51.051134,
+      "lng": 3.7255618
     },
     {
       "id": "gent_food_oyya_lang",
@@ -29512,7 +29558,10 @@
       "category": "comida",
       "description": "Otra sucursal de Oyya, conveniente entre Groentenmarkt y Vrijdagmarkt para un gofre o helado sin alejarse del paseo.",
       "url": "https://visit.gent.be/en/eat-drink/oyya",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "comida",
+      "lat": 51.055928,
+      "lng": 3.7229095
     },
     {
       "id": "gent_food_gouden",
@@ -29522,7 +29571,10 @@
       "category": "comida",
       "description": "Freiduría emblemática del barrio estudiantil, conocida por la combinación Julienke. Para patatas y snacks informales junto a Overpoort; no se garantiza horario nocturno especial del festivo.",
       "url": "https://visit.gent.be/en/resto-de-gouden-sat%C3%A9",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "comida",
+      "lat": 51.0425659,
+      "lng": 3.725878
     },
     {
       "id": "gent_food_entr",
@@ -29532,7 +29584,10 @@
       "category": "comida",
       "description": "Café-restaurante vinculado a De Centrale: alternativa para comer o cenar por Ham, cerca del entorno de Dampoort. Consultar menú del día y horario de cocina; no confundir con la entrada a las salas de conciertos.",
       "url": "https://www.decentrale.be/nl/entr",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "comida",
+      "lat": 51.0607339,
+      "lng": 3.73357
     },
     {
       "id": "gent_food_alberte",
@@ -29542,7 +29597,10 @@
       "category": "comida",
       "description": "Cocina creativa de temporada con protagonismo vegetal y menú fijo. Alternativa especial del barrio, no una cena económica: revisar precio del menú y reservar antes de ir.",
       "url": "https://visit.gent.be/en/eat-drink/alberte",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "comida",
+      "lat": 51.0550495,
+      "lng": 3.7427293
     },
     {
       "id": "gent_food_overpoort",
@@ -29552,7 +29610,10 @@
       "category": "comida",
       "description": "Eje de bares y comida rápida junto a Sint-Pietersplein. Ambiente estudiantil principalmente por la noche; el festivo puede alterar la afluencia. Para pasear y elegir según ambiente y carta.",
       "url": "https://visit.gent.be/en/see-do/overpoort",
-      "status": "propuesta"
+      "status": "propuesta",
+      "mapKind": "otros",
+      "lat": 51.0400803,
+      "lng": 3.7255623
     }
   ],
   "stays": [

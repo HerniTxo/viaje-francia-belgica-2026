@@ -3014,7 +3014,9 @@
     ],
     "official": "https://www.gruut.be/en/contact/",
     "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
-    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local.",
+    "lat": 51.0574426,
+    "lng": 3.7302643
   },
   {
     "id": "gent_food_artevelde",
@@ -3027,7 +3029,9 @@
     ],
     "official": "https://artevelde.be/",
     "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
-    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local.",
+    "lat": 51.0543069,
+    "lng": 3.7254272
   },
   {
     "id": "gent_food_filip",
@@ -3040,7 +3044,9 @@
     ],
     "official": "https://visit.gent.be/en/bij-filip",
     "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
-    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local.",
+    "lat": 51.0558153,
+    "lng": 3.7216649
   },
   {
     "id": "gent_food_oyya",
@@ -3053,7 +3059,9 @@
     ],
     "official": "https://visit.gent.be/en/eat-drink/oyya",
     "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
-    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local.",
+    "lat": 51.051134,
+    "lng": 3.7255618
   },
   {
     "id": "gent_food_oyya_lang",
@@ -3066,7 +3074,9 @@
     ],
     "official": "https://visit.gent.be/en/eat-drink/oyya",
     "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
-    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local.",
+    "lat": 51.055928,
+    "lng": 3.7229095
   },
   {
     "id": "gent_food_gouden",
@@ -3079,7 +3089,9 @@
     ],
     "official": "https://visit.gent.be/en/resto-de-gouden-sat%C3%A9",
     "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
-    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local.",
+    "lat": 51.0425659,
+    "lng": 3.725878
   },
   {
     "id": "gent_food_entr",
@@ -3092,7 +3104,9 @@
     ],
     "official": "https://www.decentrale.be/nl/entr",
     "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
-    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local.",
+    "lat": 51.0607339,
+    "lng": 3.73357
   },
   {
     "id": "gent_food_alberte",
@@ -3105,7 +3119,9 @@
     ],
     "official": "https://visit.gent.be/en/eat-drink/alberte",
     "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
-    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local.",
+    "lat": 51.0550495,
+    "lng": 3.7427293
   },
   {
     "id": "gent_food_overpoort",
@@ -3118,6 +3134,8 @@
     ],
     "official": "https://visit.gent.be/en/see-do/overpoort",
     "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
-    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local.",
+    "lat": 51.0400803,
+    "lng": 3.7255623
   }
 ]

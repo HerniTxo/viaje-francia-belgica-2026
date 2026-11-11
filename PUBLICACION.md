@@ -209,3 +209,6 @@ Por orden expresa del usuario se elimina Lille de la navegación, página, ficha
 
 ## 11/11/2026 · Ampliación gastronómica de Gante
 Nueve fichas nuevas: Gruut, Artevelde, Bij Filip, dos Oyya, Gouden Saté, Overpoort, ENTR y Alberte. Centro, universidad y entorno Dampoort. Retirados Hal 16 y Himschoot Dok Noord y paseo gastronómico de muelles por petición del usuario. Mapas actualizados; horarios del festivo no confirmados y precios no inventados.
+
+## 11/11/2026 · Marcadores completos de Gante
+Coordenadas persistidas para nueve fichas gastronómicas. Marcadores naranjas de comida, morados de bebida y verdes de otros lugares, con leyenda; agrupación por recinto y tipo, separada visualmente cuando comparten ubicación. Mapa general con los 43 sitios de Gante.
