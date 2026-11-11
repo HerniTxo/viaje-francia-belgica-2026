@@ -2061,21 +2061,6 @@
     "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
   },
   {
-    "id": "gent_hal16",
-    "name": "Hal 16 · Dok Brewing Company",
-    "aliases": [
-      "Hal 16 · Dok Brewing Company"
-    ],
-    "zone": "Gante",
-    "query": "Dok Noord 4B, 9000 Gent",
-    "description": "Mercado gastronómico en una antigua nave industrial, útil para cenar sin decidir todos el mismo plato. Hamburguesas, barbacoa y cocina italiana. Presupuesto propio: 15–25 € por comida, según puesto; no todo es barato. Bar miércoles hasta 23:00 y jueves hasta 01:00; cocinas RØK hamburguesas 17:00–21:00, BBQ 18:00–21:00. Confirmar excepción del 11.",
-    "lat": 51.0658129,
-    "lng": 3.7318896,
-    "official": "https://www.hal16.be/",
-    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita.",
-    "extraSource": "https://www.dokbrewingcompany.be/en/contact"
-  },
-  {
     "id": "gent_bocca",
     "name": "BOCCA Gent Center",
     "aliases": [
@@ -2089,20 +2074,6 @@
     "official": "https://www.bocca.be/bocca-gent-center",
     "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita.",
     "extraSource": "https://www.bocca.be/menu"
-  },
-  {
-    "id": "gent_hims_dok",
-    "name": "Himschoot · Dok Noord",
-    "aliases": [
-      "Himschoot · Dok Noord"
-    ],
-    "zone": "Gante",
-    "query": "Dok Noord 7/001, 9000 Gent",
-    "description": "Panadería con salón de té en los antiguos muelles, más próxima al hotel que el casco histórico. Para desayuno con bollería y café en vez de un brunch grande. Abre habitualmente todos los días 08:00–18:00. Presupuesto propio orientativo: 5–10 €, según pedido; comprobar la carta.",
-    "lat": 51.0660797,
-    "lng": 3.7320841,
-    "official": "https://www.bakkerijhimschoot.be/contact",
-    "mapNote": "Ubicación del establecimiento o recinto. Comprobar apertura, carta y acceso el día de la visita."
   },
   {
     "id": "gent_hims_centre",
@@ -3031,5 +3002,122 @@
     ],
     "mapNote": "Ubicación del recinto contrastada con OpenStreetMap. Acceso y disponibilidad según el organizador; revisión 10/11/2026.",
     "extraSource": "https://www.watdoenvandaag.be/events/uit-hamdam-jamsessie-gent-u36d8c559/"
+  },
+  {
+    "id": "gent_food_gruut",
+    "name": "Gruut · cervecería urbana",
+    "query": "Rembert Dodoensdreef 1, Gent",
+    "zone": "Gante · Centro · cervezas",
+    "description": "Cervecería familiar con cervezas elaboradas con una mezcla de hierbas. Buena opción para probar una cerveza local en el propio recinto; las degustaciones y visitas tienen condiciones y precio propios.",
+    "aliases": [
+      "Gruut · cervecería urbana"
+    ],
+    "official": "https://www.gruut.be/en/contact/",
+    "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+  },
+  {
+    "id": "gent_food_artevelde",
+    "name": "Artevelde · microcervecería",
+    "query": "Botermarkt, Gent",
+    "zone": "Gante · Centro · cervezas",
+    "description": "Cerveza local entre equipos de elaboración, junto al Ayuntamiento. Interesa como parada cervecera en pleno centro; consultar carta y disponibilidad de visitas.",
+    "aliases": [
+      "Artevelde · microcervecería"
+    ],
+    "official": "https://artevelde.be/",
+    "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+  },
+  {
+    "id": "gent_food_filip",
+    "name": "Bij Filip · patatas para llevar",
+    "query": "Pensmarkt 8, Gent",
+    "zone": "Gante · Centro · puestos",
+    "description": "Freiduría junto al antiguo mercado de carne: cucurucho de patatas y snacks para llevar mientras paseáis. También puede aparecer como Frituur Hendrik; comprobar el rótulo del puesto.",
+    "aliases": [
+      "Bij Filip · patatas para llevar"
+    ],
+    "official": "https://visit.gent.be/en/bij-filip",
+    "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+  },
+  {
+    "id": "gent_food_oyya",
+    "name": "Oyya · gofres de Lieja",
+    "query": "Koestraat 22, Gent",
+    "zone": "Gante · Centro · gofres",
+    "description": "Gofres de Lieja, helados artesanos y batidos. Parada dulce para llevar cerca del centro; otra sucursal en Langemunt 8.",
+    "aliases": [
+      "Oyya · gofres de Lieja"
+    ],
+    "official": "https://visit.gent.be/en/eat-drink/oyya",
+    "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+  },
+  {
+    "id": "gent_food_oyya_lang",
+    "name": "Oyya · Langemunt",
+    "query": "Langemunt 8, Gent",
+    "zone": "Gante · Centro · gofres",
+    "description": "Otra sucursal de Oyya, conveniente entre Groentenmarkt y Vrijdagmarkt para un gofre o helado sin alejarse del paseo.",
+    "aliases": [
+      "Oyya · Langemunt"
+    ],
+    "official": "https://visit.gent.be/en/eat-drink/oyya",
+    "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+  },
+  {
+    "id": "gent_food_gouden",
+    "name": "De Gouden Saté · patatas universitarias",
+    "query": "Sint-Pietersplein, Gent",
+    "zone": "Gante · Universidad · comida rápida",
+    "description": "Freiduría emblemática del barrio estudiantil, conocida por la combinación Julienke. Para patatas y snacks informales junto a Overpoort; no se garantiza horario nocturno especial del festivo.",
+    "aliases": [
+      "De Gouden Saté · patatas universitarias"
+    ],
+    "official": "https://visit.gent.be/en/resto-de-gouden-sat%C3%A9",
+    "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+  },
+  {
+    "id": "gent_food_entr",
+    "name": "ENTR · cocina intercultural",
+    "query": "Ham 147, Gent",
+    "zone": "Gante · Hotel · Dampoort y Ham",
+    "description": "Café-restaurante vinculado a De Centrale: alternativa para comer o cenar por Ham, cerca del entorno de Dampoort. Consultar menú del día y horario de cocina; no confundir con la entrada a las salas de conciertos.",
+    "aliases": [
+      "ENTR · cocina intercultural"
+    ],
+    "official": "https://www.decentrale.be/nl/entr",
+    "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+  },
+  {
+    "id": "gent_food_alberte",
+    "name": "Alberte · cocina de temporada",
+    "query": "Dendermondsesteenweg 78, Gent",
+    "zone": "Gante · Hotel · Dampoort",
+    "description": "Cocina creativa de temporada con protagonismo vegetal y menú fijo. Alternativa especial del barrio, no una cena económica: revisar precio del menú y reservar antes de ir.",
+    "aliases": [
+      "Alberte · cocina de temporada"
+    ],
+    "official": "https://visit.gent.be/en/eat-drink/alberte",
+    "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
+  },
+  {
+    "id": "gent_food_overpoort",
+    "name": "Overpoort · ambiente universitario",
+    "query": "Overpoortstraat, Gent",
+    "zone": "Gante · Universidad · zona",
+    "description": "Eje de bares y comida rápida junto a Sint-Pietersplein. Ambiente estudiantil principalmente por la noche; el festivo puede alterar la afluencia. Para pasear y elegir según ambiente y carta.",
+    "aliases": [
+      "Overpoort · ambiente universitario"
+    ],
+    "official": "https://visit.gent.be/en/see-do/overpoort",
+    "availability": "Horario especial del 11/11 sin confirmar. Precios y disponibilidad a consultar en la carta; no hay reserva realizada.",
+    "tip": "Llegar andando desde el hotel o el centro. Revisar apertura antes de hacer un desvío. El mapa busca la dirección del local."
   }
 ]

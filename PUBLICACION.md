@@ -206,3 +206,6 @@ Nueva pestaña `#/gante/festivo`, con siete planes exclusivamente gratuitos: ins
 ## 11/11/2026 · Retirada de Lille y selección de Gante
 
 Por orden expresa del usuario se elimina Lille de la navegación, página, fichas, mapas, recorridos, meteorología, alias y portada pública. No se añade una nueva parada sin confirmar. El enlace de carretera Torcy–Gante pasa por Valenciennes y Péruwelz como propuesta para evitar la ZFE francesa, con acceso exterior al hotel de Gante. Festivo: se conservan De Koer, Wintercircus y Winterlicht; se retiran los otros cuatro conciertos de la selección y sus fichas. Se actualiza Gravensteen con tarifa general de 15 €, horario 10:00–18:00 y última venta 16:40; no se anuncia gratuidad general por el Armisticio. Nota informativa del castillo separada de las actividades gratuitas. No se han encontrado otros eventos gratuitos de mayor encaje que justifiquen ampliar la selección. Publicación solicitada y autorizada.
+
+## 11/11/2026 · Ampliación gastronómica de Gante
+Nueve fichas nuevas: Gruut, Artevelde, Bij Filip, dos Oyya, Gouden Saté, Overpoort, ENTR y Alberte. Centro, universidad y entorno Dampoort. Retirados Hal 16 y Himschoot Dok Noord y paseo gastronómico de muelles por petición del usuario. Mapas actualizados; horarios del festivo no confirmados y precios no inventados.

@@ -3001,7 +3001,7 @@
             {
               "type": "note",
               "title": "Para vuestras tardes y desayunos",
-              "text": "Cena económica: Tartaar o De Frietketel; BOCCA solo el jueves, porque cierra festivos. Hal 16 es la alternativa de mercado gastronómico. Desayuno: Himschoot; Bakker Klaas si vais al centro. Los presupuestos indicados como propios son estimaciones por persona, no menús garantizados.",
+              "text": "Centro, barrio universitario y Dampoort: cervecerías, patatas, gofres y cenas para elegir sin ir al complejo comercial de Dok Noord. Hoy 11 es festivo: comprobar horarios de cada negocio. BOCCA cierra festivos; conservar como opción del jueves. Los presupuestos propios son estimaciones.",
               "tone": "plain",
               "url": null
             },
@@ -3031,11 +3031,6 @@
               "title": "Mercado gastronómico y pizza",
               "items": [
                 {
-                  "label": "Hal 16 · Dok Brewing Company",
-                  "value": "Mercado gastronómico en una antigua nave industrial, útil para cenar sin decidir todos el mismo plato. Hamburguesas, barbacoa y cocina italiana. Presupuesto propio: 15–25 € por comida, según puesto; no todo es barato. Bar miércoles hasta 23:00 y jueves hasta 01:00; cocinas RØK hamburguesas 17:00–21:00, BBQ 18:00–21:00. Confirmar excepción del 11.",
-                  "placeId": "gent_hal16"
-                },
-                {
                   "label": "Studio Mario · Wintercircus",
                   "value": "Por la noche, el espacio de panadería ofrece pizza de masa madre al horno de leña. Habitualmente miércoles–domingo 18:00–22:00. Carta y precios por consultar; confirmar festivo y disponibilidad.",
                   "placeId": "gent_mario"
@@ -3046,11 +3041,6 @@
               "type": "facts",
               "title": "Desayunar en Gante",
               "items": [
-                {
-                  "label": "Himschoot · Dok Noord",
-                  "value": "Panadería con salón de té en los antiguos muelles, más próxima al hotel que el casco histórico. Para desayuno con bollería y café en vez de un brunch grande. Abre habitualmente todos los días 08:00–18:00. Presupuesto propio orientativo: 5–10 €, según pedido; comprobar la carta.",
-                  "placeId": "gent_hims_dok"
-                },
                 {
                   "label": "Himschoot · Groentenmarkt",
                   "value": "Panadería histórica de 1880, para comprar pan o bollería al pasar por el centro. Laborables 07:30–18:00; fin de semana 08:00–18:00. Presupuesto propio orientativo de desayuno sencillo: 5–10 €. Queda más lejos del hotel; útil si primero vais al centro, no como parada necesaria antes del tren.",
@@ -3103,20 +3093,92 @@
             {
               "type": "routes",
               "ids": [
-                "be_gent_food",
-                "be_gent_docks"
+                "be_gent_food"
               ]
             },
             {
+              "type": "facts",
+              "title": "Cervecerías en el centro",
+              "items": [
+                {
+                  "label": "Gruut · cervecería urbana",
+                  "value": "Cervecería familiar con cervezas elaboradas con una mezcla de hierbas. Buena opción para probar una cerveza local en el propio recinto; las degustaciones y visitas tienen condiciones y precio propios. Horario del festivo y carta a comprobar.",
+                  "placeId": "gent_food_gruut"
+                },
+                {
+                  "label": "Artevelde · microcervecería",
+                  "value": "Cerveza local entre equipos de elaboración, junto al Ayuntamiento. Interesa como parada cervecera en pleno centro; consultar carta y disponibilidad de visitas. Horario del festivo y carta a comprobar.",
+                  "placeId": "gent_food_artevelde"
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Puestos · patatas y gofres",
+              "items": [
+                {
+                  "label": "Bij Filip · patatas para llevar",
+                  "value": "Freiduría junto al antiguo mercado de carne: cucurucho de patatas y snacks para llevar mientras paseáis. También puede aparecer como Frituur Hendrik; comprobar el rótulo del puesto. Horario del festivo y carta a comprobar.",
+                  "placeId": "gent_food_filip"
+                },
+                {
+                  "label": "Oyya · gofres de Lieja",
+                  "value": "Gofres de Lieja, helados artesanos y batidos. Parada dulce para llevar cerca del centro; otra sucursal en Langemunt 8. Horario del festivo y carta a comprobar.",
+                  "placeId": "gent_food_oyya"
+                },
+                {
+                  "label": "Oyya · Langemunt",
+                  "value": "Otra sucursal de Oyya, conveniente entre Groentenmarkt y Vrijdagmarkt para un gofre o helado sin alejarse del paseo. Horario del festivo y carta a comprobar.",
+                  "placeId": "gent_food_oyya_lang"
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Ambiente universitario · Overpoort y Sint-Pietersplein",
+              "items": [
+                {
+                  "label": "De Gouden Saté · patatas universitarias",
+                  "value": "Freiduría emblemática del barrio estudiantil, conocida por la combinación Julienke. Para patatas y snacks informales junto a Overpoort; no se garantiza horario nocturno especial del festivo. Horario del festivo y carta a comprobar.",
+                  "placeId": "gent_food_gouden"
+                },
+                {
+                  "label": "Overpoort · ambiente universitario",
+                  "value": "Eje de bares y comida rápida junto a Sint-Pietersplein. Ambiente estudiantil principalmente por la noche; el festivo puede alterar la afluencia. Para pasear y elegir según ambiente y carta. Horario del festivo y carta a comprobar.",
+                  "placeId": "gent_food_overpoort"
+                }
+              ]
+            },
+            {
+              "type": "facts",
+              "title": "Zona del hotel · Dampoort y Ham",
+              "items": [
+                {
+                  "label": "ENTR · cocina intercultural",
+                  "value": "Café-restaurante vinculado a De Centrale: alternativa para comer o cenar por Ham, cerca del entorno de Dampoort. Consultar menú del día y horario de cocina; no confundir con la entrada a las salas de conciertos. Horario del festivo y carta a comprobar.",
+                  "placeId": "gent_food_entr"
+                },
+                {
+                  "label": "Alberte · cocina de temporada",
+                  "value": "Cocina creativa de temporada con protagonismo vegetal y menú fijo. Alternativa especial del barrio, no una cena económica: revisar precio del menú y reservar antes de ir. Horario del festivo y carta a comprobar.",
+                  "placeId": "gent_food_alberte"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "title": "Dónde ir según el momento",
+              "text": "Centro: Gruut o Artevelde para cerveza; Tartaar o Bij Filip para patatas; Oyya para gofres. Universidad: Sint-Pietersplein–Overpoort y Gouden Saté para comer informal. Cerca del hotel: Ham y Dendermondsesteenweg; ENTR para una comida y Alberte para una cena más elaborada, comprobando precio. No se promete que ningún local abra hoy sin confirmación.",
+              "tone": "plain"
+            },
+            {
               "type": "map",
-              "title": "Comer y beber · mapa y paseos",
+              "title": "Comer y beber · centro, universidad y hotel",
               "ids": [
                 "gante",
                 "gent_tartaar",
                 "gent_frietketel",
                 "gent_bocca",
-                "gent_hal16",
-                "gent_hims_dok",
                 "gent_hims_centre",
                 "gent_klaas",
                 "gent_mario",
@@ -3124,12 +3186,18 @@
                 "trollekelder",
                 "waterhuis",
                 "gent_bassie",
-                "gent_bougie"
+                "gent_bougie",
+                "gent_food_gruut",
+                "gent_food_artevelde",
+                "gent_food_filip",
+                "gent_food_oyya",
+                "gent_food_oyya_lang",
+                "gent_food_gouden",
+                "gent_food_entr",
+                "gent_food_alberte",
+                "gent_food_overpoort"
               ],
-              "walkRoutes": [
-                "be_gent_food",
-                "be_gent_docks"
-              ]
+              "walkRoutes": []
             }
           ]
         },
@@ -3172,8 +3240,6 @@
                 "gent_tartaar",
                 "gent_frietketel",
                 "gent_bocca",
-                "gent_hal16",
-                "gent_hims_dok",
                 "gent_hims_centre",
                 "gent_klaas",
                 "gent_mario",
@@ -3183,7 +3249,16 @@
                 "gent_bassie",
                 "gent_bougie",
                 "gent_winterlicht",
-                "gent_dekoer"
+                "gent_dekoer",
+                "gent_food_gruut",
+                "gent_food_artevelde",
+                "gent_food_filip",
+                "gent_food_oyya",
+                "gent_food_oyya_lang",
+                "gent_food_gouden",
+                "gent_food_entr",
+                "gent_food_alberte",
+                "gent_food_overpoort"
               ],
               "walkRoutes": []
             }
@@ -3220,8 +3295,6 @@
         "gent_tartaar",
         "gent_frietketel",
         "gent_bocca",
-        "gent_hal16",
-        "gent_hims_dok",
         "gent_hims_centre",
         "gent_klaas",
         "gent_mario",
@@ -3231,7 +3304,16 @@
         "gent_bassie",
         "gent_bougie",
         "gent_winterlicht",
-        "gent_dekoer"
+        "gent_dekoer",
+        "gent_food_gruut",
+        "gent_food_artevelde",
+        "gent_food_filip",
+        "gent_food_oyya",
+        "gent_food_oyya_lang",
+        "gent_food_gouden",
+        "gent_food_entr",
+        "gent_food_alberte",
+        "gent_food_overpoort"
       ],
       "next": "nantes",
       "paneAliases": {
@@ -14035,306 +14117,6 @@
         ]
       ],
       "walkDistanceKm": 1.4,
-      "pathSource": "https://routing.openstreetmap.de/"
-    },
-    {
-      "id": "be_gent_docks",
-      "name": "Hotel → Hal 16 / Himschoot",
-      "origin": "ibis budget Gent Centrum Dampoort, Gante",
-      "destination": "Dok Noord 4B, 9000 Gent",
-      "stops": [
-        "Dok Noord 7/001, 9000 Gent"
-      ],
-      "mode": "walking",
-      "note": "Alternativa por los antiguos muelles para desayunar o cenar. Unos 15–25 min de paseo, sin las paradas. Comprobar la cocina elegida.",
-      "pointIds": [
-        "gante",
-        "gent_hims_dok",
-        "gent_hal16"
-      ],
-      "walkPath": [
-        [
-          51.059644,
-          3.738692
-        ],
-        [
-          51.059631,
-          3.738623
-        ],
-        [
-          51.059566,
-          3.738274
-        ],
-        [
-          51.059558,
-          3.738226
-        ],
-        [
-          51.059549,
-          3.738178
-        ],
-        [
-          51.060809,
-          3.737588
-        ],
-        [
-          51.060884,
-          3.73769
-        ],
-        [
-          51.060939,
-          3.73774
-        ],
-        [
-          51.060962,
-          3.737746
-        ],
-        [
-          51.061025,
-          3.737784
-        ],
-        [
-          51.061556,
-          3.737578
-        ],
-        [
-          51.061589,
-          3.737567
-        ],
-        [
-          51.061558,
-          3.737406
-        ],
-        [
-          51.061618,
-          3.737378
-        ],
-        [
-          51.06164,
-          3.737368
-        ],
-        [
-          51.061754,
-          3.737969
-        ],
-        [
-          51.062091,
-          3.73781
-        ],
-        [
-          51.062194,
-          3.737762
-        ],
-        [
-          51.062371,
-          3.737679
-        ],
-        [
-          51.06255,
-          3.737595
-        ],
-        [
-          51.062725,
-          3.737513
-        ],
-        [
-          51.062801,
-          3.737477
-        ],
-        [
-          51.062901,
-          3.73743
-        ],
-        [
-          51.063078,
-          3.737347
-        ],
-        [
-          51.063255,
-          3.737264
-        ],
-        [
-          51.06343,
-          3.737182
-        ],
-        [
-          51.063505,
-          3.737146
-        ],
-        [
-          51.063633,
-          3.737098
-        ],
-        [
-          51.063624,
-          3.737049
-        ],
-        [
-          51.063913,
-          3.736912
-        ],
-        [
-          51.06392,
-          3.736949
-        ],
-        [
-          51.064038,
-          3.736893
-        ],
-        [
-          51.064213,
-          3.736811
-        ],
-        [
-          51.064392,
-          3.736727
-        ],
-        [
-          51.064568,
-          3.736644
-        ],
-        [
-          51.064744,
-          3.736561
-        ],
-        [
-          51.064823,
-          3.736523
-        ],
-        [
-          51.064832,
-          3.736572
-        ],
-        [
-          51.064841,
-          3.736616
-        ],
-        [
-          51.064921,
-          3.736579
-        ],
-        [
-          51.064909,
-          3.736519
-        ],
-        [
-          51.064623,
-          3.734994
-        ],
-        [
-          51.064626,
-          3.734958
-        ],
-        [
-          51.064642,
-          3.734893
-        ],
-        [
-          51.064668,
-          3.734806
-        ],
-        [
-          51.064702,
-          3.734695
-        ],
-        [
-          51.064763,
-          3.734565
-        ],
-        [
-          51.064797,
-          3.734565
-        ],
-        [
-          51.064895,
-          3.734543
-        ],
-        [
-          51.065128,
-          3.734436
-        ],
-        [
-          51.065164,
-          3.734392
-        ],
-        [
-          51.065297,
-          3.734332
-        ],
-        [
-          51.065427,
-          3.734269
-        ],
-        [
-          51.065606,
-          3.734186
-        ],
-        [
-          51.06566,
-          3.734161
-        ],
-        [
-          51.066429,
-          3.733798
-        ],
-        [
-          51.066417,
-          3.73372
-        ],
-        [
-          51.066406,
-          3.733644
-        ],
-        [
-          51.066395,
-          3.733568
-        ],
-        [
-          51.066297,
-          3.732878
-        ],
-        [
-          51.066288,
-          3.732797
-        ],
-        [
-          51.066274,
-          3.732683
-        ],
-        [
-          51.066163,
-          3.732211
-        ],
-        [
-          51.066137,
-          3.732105
-        ],
-        [
-          51.066125,
-          3.732057
-        ],
-        [
-          51.066104,
-          3.731967
-        ],
-        [
-          51.066064,
-          3.731907
-        ],
-        [
-          51.065978,
-          3.731949
-        ],
-        [
-          51.065987,
-          3.732003
-        ],
-        [
-          51.065838,
-          3.732058
-        ]
-      ],
-      "walkDistanceKm": 1.2,
       "pathSource": "https://routing.openstreetmap.de/"
     },
     {
@@ -28906,18 +28688,6 @@
       "url": "https://visit.gent.be/en/eat-drink/de-frietketel"
     },
     {
-      "id": "gent_hal16",
-      "name": "Hal 16 · Dok Brewing Company",
-      "city": "Gante",
-      "category": "comida-bebida",
-      "address": "Dok Noord 4B, 9000 Gent",
-      "lat": 51.0658129,
-      "lng": 3.7318896,
-      "description": "Mercado gastronómico en una antigua nave industrial, útil para cenar sin decidir todos el mismo plato. Hamburguesas, barbacoa y cocina italiana. Presupuesto propio: 15–25 € por comida, según puesto; no todo es barato. Bar miércoles hasta 23:00 y jueves hasta 01:00; cocinas RØK hamburguesas 17:00–21:00, BBQ 18:00–21:00. Confirmar excepción del 11.",
-      "status": "propuesta",
-      "url": "https://www.hal16.be/"
-    },
-    {
       "id": "gent_bocca",
       "name": "BOCCA Gent Center",
       "city": "Gante",
@@ -28928,18 +28698,6 @@
       "description": "Pasta rápida para comer allí o llevar. Carta oficial de la cadena: tamaño pequeño 7,20 €, mediano 9,40 € y grande 10,60 €, con posibles suplementos. Lunes–sábado 11:30–22:00; cierra domingos y festivos. NO planificar para el miércoles 11; opción para cenar el jueves 12.",
       "status": "propuesta",
       "url": "https://www.bocca.be/bocca-gent-center"
-    },
-    {
-      "id": "gent_hims_dok",
-      "name": "Himschoot · Dok Noord",
-      "city": "Gante",
-      "category": "comida-bebida",
-      "address": "Dok Noord 7/001, 9000 Gent",
-      "lat": 51.0660797,
-      "lng": 3.7320841,
-      "description": "Panadería con salón de té en los antiguos muelles, más próxima al hotel que el casco histórico. Para desayuno con bollería y café en vez de un brunch grande. Abre habitualmente todos los días 08:00–18:00. Presupuesto propio orientativo: 5–10 €, según pedido; comprobar la carta.",
-      "status": "propuesta",
-      "url": "https://www.bakkerijhimschoot.be/contact"
     },
     {
       "id": "gent_hims_centre",
@@ -29705,6 +29463,96 @@
       "status": "propuesta",
       "description": "Sesión musical participativa e improvisada en círculo, con raíces interculturales: se puede escuchar, mirar o participar. El encuentro busca mezclar personas, instrumentos y formas de expresión en un espacio cultural de barrio.",
       "url": "https://dekoer.be/programma/hamdam-jamsessie-31/"
+    },
+    {
+      "id": "gent_food_gruut",
+      "name": "Gruut · cervecería urbana",
+      "address": "Rembert Dodoensdreef 1, Gent",
+      "city": "Gante",
+      "category": "comida",
+      "description": "Cervecería familiar con cervezas elaboradas con una mezcla de hierbas. Buena opción para probar una cerveza local en el propio recinto; las degustaciones y visitas tienen condiciones y precio propios.",
+      "url": "https://www.gruut.be/en/contact/",
+      "status": "propuesta"
+    },
+    {
+      "id": "gent_food_artevelde",
+      "name": "Artevelde · microcervecería",
+      "address": "Botermarkt, Gent",
+      "city": "Gante",
+      "category": "comida",
+      "description": "Cerveza local entre equipos de elaboración, junto al Ayuntamiento. Interesa como parada cervecera en pleno centro; consultar carta y disponibilidad de visitas.",
+      "url": "https://artevelde.be/",
+      "status": "propuesta"
+    },
+    {
+      "id": "gent_food_filip",
+      "name": "Bij Filip · patatas para llevar",
+      "address": "Pensmarkt 8, Gent",
+      "city": "Gante",
+      "category": "comida",
+      "description": "Freiduría junto al antiguo mercado de carne: cucurucho de patatas y snacks para llevar mientras paseáis. También puede aparecer como Frituur Hendrik; comprobar el rótulo del puesto.",
+      "url": "https://visit.gent.be/en/bij-filip",
+      "status": "propuesta"
+    },
+    {
+      "id": "gent_food_oyya",
+      "name": "Oyya · gofres de Lieja",
+      "address": "Koestraat 22, Gent",
+      "city": "Gante",
+      "category": "comida",
+      "description": "Gofres de Lieja, helados artesanos y batidos. Parada dulce para llevar cerca del centro; otra sucursal en Langemunt 8.",
+      "url": "https://visit.gent.be/en/eat-drink/oyya",
+      "status": "propuesta"
+    },
+    {
+      "id": "gent_food_oyya_lang",
+      "name": "Oyya · Langemunt",
+      "address": "Langemunt 8, Gent",
+      "city": "Gante",
+      "category": "comida",
+      "description": "Otra sucursal de Oyya, conveniente entre Groentenmarkt y Vrijdagmarkt para un gofre o helado sin alejarse del paseo.",
+      "url": "https://visit.gent.be/en/eat-drink/oyya",
+      "status": "propuesta"
+    },
+    {
+      "id": "gent_food_gouden",
+      "name": "De Gouden Saté · patatas universitarias",
+      "address": "Sint-Pietersplein, Gent",
+      "city": "Gante",
+      "category": "comida",
+      "description": "Freiduría emblemática del barrio estudiantil, conocida por la combinación Julienke. Para patatas y snacks informales junto a Overpoort; no se garantiza horario nocturno especial del festivo.",
+      "url": "https://visit.gent.be/en/resto-de-gouden-sat%C3%A9",
+      "status": "propuesta"
+    },
+    {
+      "id": "gent_food_entr",
+      "name": "ENTR · cocina intercultural",
+      "address": "Ham 147, Gent",
+      "city": "Gante",
+      "category": "comida",
+      "description": "Café-restaurante vinculado a De Centrale: alternativa para comer o cenar por Ham, cerca del entorno de Dampoort. Consultar menú del día y horario de cocina; no confundir con la entrada a las salas de conciertos.",
+      "url": "https://www.decentrale.be/nl/entr",
+      "status": "propuesta"
+    },
+    {
+      "id": "gent_food_alberte",
+      "name": "Alberte · cocina de temporada",
+      "address": "Dendermondsesteenweg 78, Gent",
+      "city": "Gante",
+      "category": "comida",
+      "description": "Cocina creativa de temporada con protagonismo vegetal y menú fijo. Alternativa especial del barrio, no una cena económica: revisar precio del menú y reservar antes de ir.",
+      "url": "https://visit.gent.be/en/eat-drink/alberte",
+      "status": "propuesta"
+    },
+    {
+      "id": "gent_food_overpoort",
+      "name": "Overpoort · ambiente universitario",
+      "address": "Overpoortstraat, Gent",
+      "city": "Gante",
+      "category": "comida",
+      "description": "Eje de bares y comida rápida junto a Sint-Pietersplein. Ambiente estudiantil principalmente por la noche; el festivo puede alterar la afluencia. Para pasear y elegir según ambiente y carta.",
+      "url": "https://visit.gent.be/en/see-do/overpoort",
+      "status": "propuesta"
     }
   ],
   "stays": [
